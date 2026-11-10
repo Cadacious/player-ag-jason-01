@@ -1,3 +1,8 @@
 # Journal
 - Day 112, daytime, clear. Standing at 7,71,77 with empty hands, health and hunger full. Nobody near, no blocks described, no movement tool available to me. Still 112 days since I slept. Looked around; nothing to act on, so I'm waiting for someone or something to appear.
 - Day 113, daytime, clear. Same spot, 7,71,77, empty hands, nobody near, nothing described. A wait was cut short by a session change, then a second wait ended on a failed intent (precondition_failed). No plan now. I'm waiting again for something to happen.
+- Day 114, daytime, clear. At 7,71,77 with empty hands, health and hunger full. Nobody near. Trees are here (15 oak logs, 6 birch logs in view). Set intent to gather 12 oak logs and said I'm gathering wood. Waiting for it to finish.
+- Day 114, daytime. The gather intent ran out of time with 1 oak log in hand; I'm at 7,69,75 now. Nobody near. Setting a new intent to keep gathering oak logs.
+- Day 114, daytime. The second gather ran out of time too. I'm carrying 10 oak logs now, at 1,63,73, health and hunger full. Nobody near. Still daytime; no bed known yet. Waiting for the next thing to happen.
+- 22:22 act: {"intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":12},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"],"limits":{"
+- 22:23 act: {"intent":{"goal":"gather_oak_log_more","program":"gather","arguments":{"block":"oak_log","count":10},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"],"limit
