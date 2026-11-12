@@ -83,3 +83,6 @@
 - 22:34 say: {"text":"Does anyone know how to craft a wooden pickaxe? My crafts do nothing."}
 - 22:35 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 22:35 act: {"intent":{"goal":"make_pickaxe","program":"craft","arguments":{"item":"wooden_pickaxe","count":1},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":600,"max_block_operati
+- 22:36 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 22:36 act: {"actions":[{"do":"goto","target":{"x":-243,"y":68,"z":341}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 22:36 say: {"text":"Billy or anyone: my pickaxe crafting does nothing. If you have a spare pickaxe or can craft one, I have planks and sticks to give."}
