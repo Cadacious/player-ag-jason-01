@@ -137,3 +137,6 @@
 - 23:13 act: {"actions":[{"do":"goto","target":{"x":-243,"y":68,"z":343}},{"do":"craft","item":"wooden_axe","count":1},{"do":"craft","item":"crafting_table","count":1}]}
 - 23:13 act: {"actions":[{"do":"goto","target":{"x":-243,"y":68,"z":343}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 23:13 act: {"actions":[{"do":"open","at":{"x":-238,"y":69,"z":342}}]}
+- 23:14 act: {"actions":[{"do":"open","at":{"x":-238,"y":69,"z":342}}]}
+- 23:14 act: {"actions":[{"do":"withdraw","at":{"x":-238,"y":69,"z":342},"item":"iron_pickaxe","count":1}]}
+- 23:14 act: {"actions":[{"do":"goto","target":{"x":-243,"y":68,"z":343}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
