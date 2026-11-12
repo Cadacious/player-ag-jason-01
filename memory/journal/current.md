@@ -131,3 +131,7 @@
 - 23:11 act: {"actions":[{"do":"goto","target":{"x":-243,"y":68,"z":343}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 23:11 act: {"intent":{"goal":"make_pickaxe","program":"craft","arguments":{"item":"wooden_pickaxe","count":1},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":600,"max_block_operati
 - 23:11 say: {"text":"Does anyone know how to craft tools? My crafting gives nothing, even with planks and sticks at a table."}
+- 23:12 act: {"actions":[{"do":"goto","target":{"x":-243,"y":68,"z":343}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 23:12 act: {"actions":[{"do":"craft","item":"oak_planks","count":4}]}
+- 23:12 act: {"intent":{"goal":"craft_pick","program":"craft","arguments":{"item":"wooden_pickaxe","count":1},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":600,"max_block_operation
+- 23:13 act: {"actions":[{"do":"goto","target":{"x":-243,"y":68,"z":343}},{"do":"craft","item":"wooden_axe","count":1},{"do":"craft","item":"crafting_table","count":1}]}
