@@ -52,3 +52,9 @@
 - 22:07 act: {"intent":{"goal":"gather_oak","program":"gather","arguments":{"block":"oak_log","count":8},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_block_operations":64}
 - 22:08 act: {"intent":{"goal":"gather_oak","program":"gather","arguments":{"block":"oak_log","count":5},"wake_on":["goal_completed"],"limits":{"max_world_ticks":2400,"max_block_operations":64}}}
 - 22:10 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":356}}],"say":"Tommy, hold on—I'll try to help if I can."}
+- 22:10 act: {"actions":[{"do":"goto","target":{"x":-236,"y":67,"z":364}}],"say":"Tommy, I'm coming to you."}
+- 22:11 act: {"intent":{"goal":"reach_tommy","program":"travel","arguments":{"x":-236,"y":67,"z":364},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":2400,"max_block_operations":64}}
+- 22:11 act: {"intent":{"goal":"reach_tommy","program":"travel","arguments":{"x":-236,"y":67,"z":364},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":2400,"max_block_operations":64}}
+- 22:11 act: {"intent":{"goal":"reach_tommy","program":"travel","arguments":{"x":-236,"y":67,"z":364},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":2400,"max_block_operations":64}}
+- 22:11 act: {"actions":[{"do":"goto","target":{"x":-236,"y":67,"z":364}}]}
+- 22:11 act: {"say":"Tommy, I'm here. Are you still stuck, or can you move now?"}
