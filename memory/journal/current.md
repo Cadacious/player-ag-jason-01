@@ -68,3 +68,4 @@
 - 22:15 act: {"actions":[{"do":"mine","block":"dirt","count":3}]}
 - 22:16 act: {"actions":[{"do":"goto","target":{"x":-222,"y":66,"z":344}},{"do":"unstick"}],"say":"Trini, I'm close. Try moving now."}
 - 22:17 act: {"actions":[{"do":"sleep"}]}
+- 22:30 act: {"actions":[{"do":"craft","item":"oak_planks","count":4},{"do":"craft","item":"wooden_pickaxe","count":1}]}
