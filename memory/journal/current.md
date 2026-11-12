@@ -116,3 +116,5 @@
 - 23:06 act: {"actions":[{"do":"goto","target":{"x":-243,"y":69,"z":342}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 23:07 act: {"actions":[{"do":"goto","target":{"x":-242,"y":69,"z":342}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 23:07 act: {"actions":[{"do":"note","text":"Craft and goto accepted but nothing changes (no pickaxe, same position). World seems unresponsive; waiting."},{"do":"wait","seconds":120}]}
+- 23:07 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 23:07 act: {"actions":[{"do":"goto","target":{"x":-242,"y":69,"z":342}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
