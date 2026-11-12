@@ -58,3 +58,5 @@
 - 22:11 act: {"intent":{"goal":"reach_tommy","program":"travel","arguments":{"x":-236,"y":67,"z":364},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":2400,"max_block_operations":64}}
 - 22:11 act: {"actions":[{"do":"goto","target":{"x":-236,"y":67,"z":364}}]}
 - 22:11 act: {"say":"Tommy, I'm here. Are you still stuck, or can you move now?"}
+- 22:12 act: {"actions":[{"do":"goto","target":{"x":-222,"y":66,"z":346}}],"say":"Trini, I'm coming to you."}
+- 22:13 act: {"actions":[{"do":"goto","target":{"x":-222,"y":66,"z":346}}]}
