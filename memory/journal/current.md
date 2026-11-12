@@ -19,3 +19,8 @@
 - 21:45 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":200,"y":58,"z":232}}],"reasoning":"Position unchanged after goto failed. Try to get free, then retry."}
 - 21:45 act: {"actions":[{"do":"place","block":"dirt","at":{"x":194,"y":57,"z":225}},{"do":"goto","target":{"x":200,"y":58,"z":232}}],"reasoning":"Still blocked. Place dirt to build a step, then try the goto again
 - 21:45 say: {"text":"I'm at 194,58,225 with health 2 and no food. I can't move. Can anyone spare bread, meat or berries?"}
+- 21:52 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":194,"y":58,"z":228}}],"say":"Tommy, I'm at 194,58,225 with health 2. Any food please."}
+- 21:53 act: {"actions":[{"do":"goto","target":"ag_tommy_01"}],"say":"Tommy, I'm near you now. Do you have carrots?"}
+- 21:53 act: {"actions":[{"do":"goto","target":{"x":-238,"y":68,"z":350}}]}
+- 21:54 act: {"actions":[{"do":"goto","target":{"x":-238,"y":68,"z":350}}]}
+- 21:54 act: {"actions":[{"do":"eat"},{"do":"eat"},{"do":"eat"},{"do":"eat"}],"say":"Thank you Tommy, I got the carrots and am eating."}
