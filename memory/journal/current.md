@@ -152,3 +152,4 @@
 - 23:18 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":343}},{"do":"sleep"}]}
 - 23:20 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":343}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 23:21 say: {"text":"Hello. I can't sleep yet either; the night hasn't turned. I'll try again later."}
+- 23:23 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":343}},{"do":"sleep"}]}
