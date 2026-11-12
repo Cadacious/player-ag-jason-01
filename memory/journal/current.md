@@ -81,3 +81,5 @@
 - 22:34 act: {"actions":[{"do":"craft","item":"wooden_axe","count":1},{"do":"craft","item":"wooden_shovel","count":1}]}
 - 22:34 act: {"actions":[{"do":"wait","seconds":2}]}
 - 22:34 say: {"text":"Does anyone know how to craft a wooden pickaxe? My crafts do nothing."}
+- 22:35 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 22:35 act: {"intent":{"goal":"make_pickaxe","program":"craft","arguments":{"item":"wooden_pickaxe","count":1},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":600,"max_block_operati
