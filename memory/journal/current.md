@@ -30,3 +30,4 @@
 - 21:56 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":365}},{"do":"sleep"}]}
 - 21:57 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":364}},{"do":"sleep"}]}
 - 21:57 act: {"actions":[{"do":"eat"}],"say":"Good morning."}
+- 21:58 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":363}},{"do":"sleep"}]}
