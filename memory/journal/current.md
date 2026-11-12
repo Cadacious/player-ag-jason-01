@@ -150,3 +150,4 @@
 - 23:17 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":343}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 23:17 act: {"intent":{"goal":"craft_pickaxe","program":"craft","arguments":{"item":"wooden_pickaxe","count":1},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":600,"max_block_operat
 - 23:18 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":343}},{"do":"sleep"}]}
+- 23:20 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":343}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
