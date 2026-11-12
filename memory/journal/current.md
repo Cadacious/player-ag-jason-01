@@ -86,3 +86,4 @@
 - 22:36 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 22:36 act: {"actions":[{"do":"goto","target":{"x":-243,"y":68,"z":341}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 22:36 say: {"text":"Billy or anyone: my pickaxe crafting does nothing. If you have a spare pickaxe or can craft one, I have planks and sticks to give."}
+- 22:36 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}],"say":"Billy, I'm at (-244,68,341) by the crafting table. Crafting fails for me; if yours works, please bring one."}
