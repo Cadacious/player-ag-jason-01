@@ -6,3 +6,4 @@
 - Day 114, daytime. The second gather ran out of time too. I'm carrying 10 oak logs now, at 1,63,73, health and hunger full. Nobody near. Still daytime; no bed known yet. Waiting for the next thing to happen.
 - 22:22 act: {"intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":12},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"],"limits":{"
 - 22:23 act: {"intent":{"goal":"gather_oak_log_more","program":"gather","arguments":{"block":"oak_log","count":10},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"],"limit
+- 21:35 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_block_oper
