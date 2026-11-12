@@ -69,3 +69,11 @@
 - 22:16 act: {"actions":[{"do":"goto","target":{"x":-222,"y":66,"z":344}},{"do":"unstick"}],"say":"Trini, I'm close. Try moving now."}
 - 22:17 act: {"actions":[{"do":"sleep"}]}
 - 22:30 act: {"actions":[{"do":"craft","item":"oak_planks","count":4},{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 22:30 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 22:30 act: {"intent":{"goal":"mine_stone","program":"gather","arguments":{"block":"cobblestone","count":8},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":3000,"max_block_operations"
+- 22:32 act: {"actions":[{"do":"place","block":"crafting_table","at":{"x":-241,"y":69,"z":347}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 22:32 act: {"intent":{"goal":"mine_stone","program":"gather","arguments":{"block":"cobblestone","count":8},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":3000,"max_block_operations"
+- 22:33 act: {"actions":[{"do":"place","block":"crafting_table","at":{"x":-243,"y":68,"z":342}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 22:33 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 22:33 act: {"actions":[{"do":"craft","item":"oak_planks","count":4}]}
+- 22:33 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1},{"do":"wait","seconds":5}]}
