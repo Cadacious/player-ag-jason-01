@@ -89,3 +89,4 @@
 - 22:36 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}],"say":"Billy, I'm at (-244,68,341) by the crafting table. Crafting fails for me; if yours works, please bring one."}
 - 22:37 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 22:37 act: {"actions":[{"do":"sleep"}]}
+- 22:37 act: {"actions":[{"do":"goto","target":{"x":-242,"y":69,"z":343}},{"do":"sleep"}]}
