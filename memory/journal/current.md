@@ -28,3 +28,4 @@
 - 21:55 act: {"actions":[{"do":"goto","target":{"x":-250,"y":68,"z":352}},{"do":"mine","block":"potatoes","count":2},{"do":"eat"}]}
 - 21:56 act: {"actions":[{"do":"goto","target":{"x":-250,"y":68,"z":352}},{"do":"mine","block":"potatoes","count":2},{"do":"eat"}]}
 - 21:56 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":365}},{"do":"sleep"}]}
+- 21:57 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":364}},{"do":"sleep"}]}
