@@ -128,3 +128,6 @@
 - 23:10 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 23:10 act: {"actions":[{"do":"open","at":{"x":-238,"y":69,"z":342}}]}
 - 23:10 act: {"actions":[{"do":"mine","block":"oak_log","count":3},{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 23:11 act: {"actions":[{"do":"goto","target":{"x":-243,"y":68,"z":343}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 23:11 act: {"intent":{"goal":"make_pickaxe","program":"craft","arguments":{"item":"wooden_pickaxe","count":1},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":600,"max_block_operati
+- 23:11 say: {"text":"Does anyone know how to craft tools? My crafting gives nothing, even with planks and sticks at a table."}
