@@ -102,3 +102,5 @@
 - 22:42 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-240,"y":68,"z":343}},{"do":"sleep"}]}
 - 22:42 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":343}},{"do":"sleep"}]}
 - 22:43 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1},{"do":"goto","target":{"x":-240,"y":69,"z":343}},{"do":"sleep"}]}
+- 22:44 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1},{"do":"sleep"}]}
+- 22:46 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
