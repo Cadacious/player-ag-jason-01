@@ -14,3 +14,8 @@
 - 21:42 act: {"actions":[{"do":"sleep"}]}
 - 21:42 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_block_oper
 - 21:43 act: {"actions":[{"do":"unstick"},{"do":"place","block":"dirt","at":{"x":195,"y":58,"z":225}}]}
+- 21:44 act: {"intent":{"goal":"shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":600,"max_block_operations"
+- 21:45 act: {"actions":[{"do":"goto","target":{"x":200,"y":58,"z":232}}],"say":"Looking for food, staying away from the water pit.","reasoning":"No food in view, hunger 17, health 2. Explore northeast away from p
+- 21:45 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":200,"y":58,"z":232}}],"reasoning":"Position unchanged after goto failed. Try to get free, then retry."}
+- 21:45 act: {"actions":[{"do":"place","block":"dirt","at":{"x":194,"y":57,"z":225}},{"do":"goto","target":{"x":200,"y":58,"z":232}}],"reasoning":"Still blocked. Place dirt to build a step, then try the goto again
+- 21:45 say: {"text":"I'm at 194,58,225 with health 2 and no food. I can't move. Can anyone spare bread, meat or berries?"}
