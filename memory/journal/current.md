@@ -156,3 +156,4 @@
 - 23:38 act: {"actions":[{"do":"sleep"}]}
 - 23:43 act: {"actions":[{"do":"unstick"}]}
 - 23:45 act: {"actions":[{"do":"goto","target":{"x":-222,"y":60,"z":347}}],"say":"Kimberly, I'm coming to help."}
+- 23:45 act: {"actions":[{"do":"mine","block":"stone","count":1}],"say":"Kimberly, I'm above you. Are you still stuck?"}
