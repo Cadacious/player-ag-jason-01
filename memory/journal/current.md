@@ -111,3 +111,4 @@
 - 22:51 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 22:52 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1},{"do":"sleep"}]}
 - 22:58 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":343}},{"do":"sleep"}]}
+- 22:59 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
