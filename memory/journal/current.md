@@ -62,3 +62,7 @@
 - 22:13 act: {"actions":[{"do":"goto","target":{"x":-222,"y":66,"z":346}}]}
 - 22:14 act: {"actions":[{"do":"goto","target":{"x":-223,"y":66,"z":346}}]}
 - 22:14 act: {"say":"Trini, I'm at -223,68,346 with Kimberly. Place dirt or stack blocks to climb up; we'll dig toward you.","actions":[{"do":"mine","block":"dirt","count":1}]}
+- 22:15 act: {"actions":[{"do":"craft","item":"oak_planks","count":8},{"do":"craft","item":"crafting_table","count":1},{"do":"craft","item":"wooden_shovel","count":1}]}
+- 22:15 act: {"actions":[{"do":"goto","target":{"x":-222,"y":68,"z":345}},{"do":"mine","block":"dirt","count":3}]}
+- 22:15 act: {"actions":[{"do":"craft","item":"stick","count":4},{"do":"place","block":"crafting_table","at":{"x":-222,"y":68,"z":344}},{"do":"craft","item":"wooden_pickaxe","count":1},{"do":"goto","target":{"x":-
+- 22:15 act: {"actions":[{"do":"mine","block":"dirt","count":3}]}
