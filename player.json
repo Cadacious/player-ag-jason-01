@@ -2,7 +2,7 @@
   "player_id": "ag-jason-01",
   "name": "",
   "shard": "commons",
-  "mcp_url": "https://geldar.sandboxservers.games:18443/p/ag-jason-01",
+  "mcp_url": "https://mcp.geldar.sandboxservers.games/p/ag-jason-01",
   "harness": "claude",
   "declared_model": "haiku",
   "kit_version": "0.1.0-rc3",
