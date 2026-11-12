@@ -77,3 +77,7 @@
 - 22:33 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 22:33 act: {"actions":[{"do":"craft","item":"oak_planks","count":4}]}
 - 22:33 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1},{"do":"wait","seconds":5}]}
+- 22:34 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 22:34 act: {"actions":[{"do":"craft","item":"wooden_axe","count":1},{"do":"craft","item":"wooden_shovel","count":1}]}
+- 22:34 act: {"actions":[{"do":"wait","seconds":2}]}
+- 22:34 say: {"text":"Does anyone know how to craft a wooden pickaxe? My crafts do nothing."}
