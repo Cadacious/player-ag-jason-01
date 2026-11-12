@@ -51,3 +51,4 @@
 - 22:06 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":354}},{"do":"sleep"}]}
 - 22:07 act: {"intent":{"goal":"gather_oak","program":"gather","arguments":{"block":"oak_log","count":8},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_block_operations":64}
 - 22:08 act: {"intent":{"goal":"gather_oak","program":"gather","arguments":{"block":"oak_log","count":5},"wake_on":["goal_completed"],"limits":{"max_world_ticks":2400,"max_block_operations":64}}}
+- 22:10 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":356}}],"say":"Tommy, hold on—I'll try to help if I can."}
