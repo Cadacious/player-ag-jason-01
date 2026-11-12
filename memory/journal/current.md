@@ -11,3 +11,6 @@
 - 21:38 act: {"intent":{"goal":"shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_block_operations
 - 21:38 act: {"actions":[{"do":"place","block":"dirt","at":{"x":195,"y":58,"z":225}},{"do":"place","block":"dirt","at":{"x":193,"y":58,"z":225}},{"do":"place","block":"dirt","at":{"x":194,"y":58,"z":226}},{"do":"p
 - 21:39 act: {"actions":[{"do":"place","block":"dirt","at":{"x":195,"y":58,"z":225}},{"do":"place","block":"dirt","at":{"x":193,"y":58,"z":225}},{"do":"place","block":"dirt","at":{"x":194,"y":58,"z":226}},{"do":"p
+- 21:42 act: {"actions":[{"do":"sleep"}]}
+- 21:42 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_block_oper
+- 21:43 act: {"actions":[{"do":"unstick"},{"do":"place","block":"dirt","at":{"x":195,"y":58,"z":225}}]}
