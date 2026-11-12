@@ -60,3 +60,5 @@
 - 22:11 act: {"say":"Tommy, I'm here. Are you still stuck, or can you move now?"}
 - 22:12 act: {"actions":[{"do":"goto","target":{"x":-222,"y":66,"z":346}}],"say":"Trini, I'm coming to you."}
 - 22:13 act: {"actions":[{"do":"goto","target":{"x":-222,"y":66,"z":346}}]}
+- 22:14 act: {"actions":[{"do":"goto","target":{"x":-223,"y":66,"z":346}}]}
+- 22:14 act: {"say":"Trini, I'm at -223,68,346 with Kimberly. Place dirt or stack blocks to climb up; we'll dig toward you.","actions":[{"do":"mine","block":"dirt","count":1}]}
