@@ -67,3 +67,4 @@
 - 22:15 act: {"actions":[{"do":"craft","item":"stick","count":4},{"do":"place","block":"crafting_table","at":{"x":-222,"y":68,"z":344}},{"do":"craft","item":"wooden_pickaxe","count":1},{"do":"goto","target":{"x":-
 - 22:15 act: {"actions":[{"do":"mine","block":"dirt","count":3}]}
 - 22:16 act: {"actions":[{"do":"goto","target":{"x":-222,"y":66,"z":344}},{"do":"unstick"}],"say":"Trini, I'm close. Try moving now."}
+- 22:17 act: {"actions":[{"do":"sleep"}]}
