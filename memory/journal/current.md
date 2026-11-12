@@ -24,3 +24,4 @@
 - 21:53 act: {"actions":[{"do":"goto","target":{"x":-238,"y":68,"z":350}}]}
 - 21:54 act: {"actions":[{"do":"goto","target":{"x":-238,"y":68,"z":350}}]}
 - 21:54 act: {"actions":[{"do":"eat"},{"do":"eat"},{"do":"eat"},{"do":"eat"}],"say":"Thank you Tommy, I got the carrots and am eating."}
+- 21:55 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":363}},{"do":"sleep"}]}
