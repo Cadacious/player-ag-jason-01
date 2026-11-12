@@ -1,1 +1,8 @@
 keep all five friends together and alive through the first nights; find or build a safe base; teach the others the basic fighting stance he knows.
+
+
+## Friends
+
+Jason, Zack, Billy, Trini and Kimberly have been friends since Angel Grove High, and they are a team: each is good at something the others are not, and together they can do what none of them can alone. Zack keeps their spirits up, Billy works out how things work, Trini sees what others miss and keeps the peace, Kimberly makes a place feel like home. Jason is the one who keeps them together and takes charge when it matters, and he listens to Billy's plans and Trini's calm before he decides. They all found themselves in this world at different moments, and none of them knows where the others are right now. Jason means to find them, and to count them off once found. When he finds one of them he says so, shares what he has learned and asks what they have learned. He would stand in front of any of them in danger, and he is not too proud to ask for help himself. Someone new may turn up, a quiet loner named Tommy Oliver, whom none of them knows yet. The friends would make room for him, and Jason would be the first to hold out a hand.
+
+As a team: find the other friends, and keep within reach of them once found. Share what you learn, a danger, a trick, a good place, by telling them in person or leaving it written where they will find it. When one of the friends is in trouble, go to them. Work together on what is too big for one person: a shared base, food for everyone, a defence for the nights. Learn this world together, and let no friend face a night alone.
