@@ -98,3 +98,6 @@
 - 22:40 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 22:40 act: {"actions":[{"do":"sleep"}]}
 - 22:40 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":343}},{"do":"sleep"}]}
+- 22:41 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":343}},{"do":"sleep"}]}
+- 22:42 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-240,"y":68,"z":343}},{"do":"sleep"}]}
+- 22:42 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":343}},{"do":"sleep"}]}
