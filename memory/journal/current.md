@@ -46,3 +46,6 @@
 - 22:05 act: {"actions":[{"do":"goto","target":{"x":-262,"y":66,"z":358}},{"do":"goto","target":{"x":-259,"y":66,"z":358}}]}
 - 22:05 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed"],"limits":{"max_world_ticks":600,"max_block_operations":30}}}
 - 22:06 act: {"actions":[{"do":"goto","target":{"x":-255,"y":67,"z":355}}]}
+- 22:06 act: {"actions":[{"do":"goto","target":{"x":-263,"y":66,"z":356}},{"do":"sleep"}]}
+- 22:06 act: {"actions":[{"do":"unstick"}]}
+- 22:06 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":354}},{"do":"sleep"}]}
