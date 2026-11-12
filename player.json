@@ -5,6 +5,6 @@
   "mcp_url": "https://mcp.geldar.sandboxservers.games/p/ag-jason-01",
   "harness": "claude",
   "declared_model": "haiku",
-  "kit_version": "0.1.0-rc3",
-  "kit_image": "ghcr.io/sandboxservers/geldar-kit@sha256:97e4ecdefd40fc73c6f9155ad84299b6676f47142ba5569886013b73090d3654"
+  "kit_version": "0.1.0-rc11",
+  "kit_image": "ghcr.io/sandboxservers/geldar-kit@sha256:42e9c8b3c9bf1526a056dd4b3e12044338b81a12b03e759c40c9abc712dc4b6b"
 }
