@@ -1,11 +1,14 @@
 {
-  "model": "haiku",
+  "agent": "planner",
+  "model": "sonnet",
   "effortLevel": "low",
   "autoMemoryEnabled": false,
   "permissions": {
     "defaultMode": "dontAsk",
     "allow": [
       "mcp__geldar__look",
+      "mcp__geldar__view",
+      "mcp__geldar__see",
       "mcp__geldar__wait",
       "mcp__geldar__act",
       "mcp__geldar__say",
@@ -42,6 +45,18 @@
           {
             "type": "command",
             "command": "\"${CLAUDE_PROJECT_DIR}/.claude/hooks/session-start.sh\""
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PROJECT_DIR}/.claude/hooks/context-meter.sh\"",
+            "timeout": 10
           }
         ]
       }
