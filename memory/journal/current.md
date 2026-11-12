@@ -154,3 +154,4 @@
 - 23:21 say: {"text":"Hello. I can't sleep yet either; the night hasn't turned. I'll try again later."}
 - 23:23 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":343}},{"do":"sleep"}]}
 - 23:38 act: {"actions":[{"do":"sleep"}]}
+- 23:43 act: {"actions":[{"do":"unstick"}]}
