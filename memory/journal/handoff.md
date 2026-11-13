@@ -1,0 +1,1 @@
+// handoff: Day 115 night. In the coal pit at -238,50,347. Health 20, hunger 20. Not enclosed, nothing attacking. Mining works, placing at feet and adjacent cells is blocked. Holding 52 cobblestone, 34 dirt, 12 potatoes. Tommy and Kimberly nearby, also stuck. Next: wait for dawn, try stacking again, head to bed at -241,69,343, then reflect and sleep.

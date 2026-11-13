@@ -278,3 +278,5 @@
 - 03:45 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"cobblestone","count":16},{"do":"give","to":"ag_billy_01","item":"dirt","count":16}],"say":"Billy, I'm giving you 16 cobblestone and 16 dirt to stack
 - 03:47 act: {"actions":[{"do":"mine","block":"stone","count":1},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"intent":{"goal":"climb_to_bed","program":"travel","arguments":{"target":{"x":-24
 - 03:53 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"intent":{"goal":"climb_to_bed","program":"travel","arguments":{"target":{"x":-
+- 04:01 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"intent":{"goal":"climb_out_to_bed","program":"travel","
+- 04:02 act: {"actions":[{"do":"mine","block":"stone","count":1},{"do":"place","block":"cobblestone","at":{"x":-238,"y":49,"z":348}}],"reasoning":"Mining worked, placing blocked. Try a different adjacent cell to b
