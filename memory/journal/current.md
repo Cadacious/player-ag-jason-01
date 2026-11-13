@@ -795,3 +795,42 @@
 - 16:38 act: {"actions":[{"do":"build","blueprint":{"name":"shelter","blocks":[]}}]}
 - 16:39 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ti
 - 16:39 act: {"say":"Zack, I have 2 wheat spare. I'm in my pit at -257,61,351 for the night. Come by if you still need food.","actions":[{"do":"sleep"}],"reasoning":"Dusk, enclosed in a sealed pit, health and hung
+- 16:39 act: {"say":"Zack, I'm sealed in at -257,61,351. I'll dig out a little to meet you, and I have 2 wheat for you.","actions":[{"do":"mine","block":"dirt","count":1}],"reasoning":"Zack is coming for wheat and
+- 16:40 act: {"say":"Zack, I'm heading east toward you now with the wheat.","actions":[{"do":"goto","target":{"x":-203,"y":59,"z":351}}],"reasoning":"Zack is starving and waiting in the open. I'm out of my pit, so
+- 16:40 act: {"say":"Zack, I can't get past the stone to reach you tonight. I'll try again at first light with the wheat.","actions":[{"do":"unstick"}],"reasoning":"The walk east failed, changing nothing. Zack is 
+- 16:49 act: {"say":"Morning, Zack. I'm heading east to find you with the wheat.","actions":[{"do":"goto","target":{"x":-203,"y":59,"z":351}}],"reasoning":"It is day. Zack is waiting for wheat. Try the walk east a
+- 16:49 act: {"say":"Morning Zack. I'm still boxed in at -257,61,351, and I can't see you from here. Tommy is digging me out on the west side. The wheat is yours once we meet.","actions":[],"reasoning":"Zack think
+- 16:51 act: {"actions":[],"say":"Trini, Tommy is cutting toward you. When you are out, tell Zack I have his 2 wheat and will bring it the moment I'm free.","intent":{"goal":"await_tommys_gap","program":"rest","ar
+- 16:51 act: {"say":"Trini, I'll dig up from here. Tommy, keep your west gap.","actions":[{"do":"mine","block":"stone","count":3},{"do":"unstick"}],"reasoning":"Trini asked for a gap to the surface. I'm adjacent t
+- 16:51 act: {"actions":[{"do":"mine","block":"stone","count":4},{"do":"unstick"}],"reasoning":"The mine worked and I'm lower now. Keep digging stone to open a way up."}
+- 16:53 act: {"say":"Tommy, I'm at -259,60,351, one block west of Trini. Dig from the east, I'll stay put. Zack, your wheat is with me; I'll bring it when I'm out.","actions":[]}
+- 16:54 act: {"say":"Thanks Tommy. Heading east to Zack with his wheat.","actions":[{"do":"goto","target":"ag_zack_01"}]}
+- 16:54 act: {"actions":[{"do":"goto","target":{"x":-202,"y":59,"z":351}}],"say":"Going east along the opened way toward Zack's spot."}
+- 16:54 act: {"actions":[{"do":"mine","block":"stone","count":4},{"do":"goto","target":{"x":-202,"y":59,"z":351}}],"reasoning":"Solid stone blocks the way east; mine through toward Zack."}
+- 16:55 act: {"actions":[{"do":"mine","block":"stone","count":4},{"do":"goto","target":{"x":-203,"y":58,"z":350}}],"say":"Zack, I'm digging east toward the shore at -203,58,350. Hold on."}
+- 16:55 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"stone","count":4}],"reasoning":"Facing west into stone with a gap up. Unstick to find a way out, then mine."}
+- 16:55 act: {"say":"Billy, I'm coming to the shore with wheat. Zack, I'll give it to whichever of you is starving first.","actions":[{"do":"goto","target":{"x":-204,"y":58,"z":350}}]}
+- 16:55 act: {"actions":[{"do":"mine","block":"stone","count":6},{"do":"goto","target":{"x":-204,"y":58,"z":350}}],"reasoning":"Still boxed in; mine a stone run toward the shore, then try to walk."}
+- 16:56 act: {"say":"Billy, Zack: I'm still in the stone at -257,58,350, digging east. I'll give one wheat to each of you as soon as I reach the shore.","actions":[{"do":"mine","block":"stone","count":6}]}
+- 16:56 act: {"actions":[{"do":"goto","target":{"x":-203,"y":58,"z":350}}]}
+- 16:56 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"unstick"},{"do":"goto","target":{"x":-203,"y":58,"z":350}}],"reasoning":"Solid stone straight ahead. Mine it, then unstick and walk again."}
+- 17:01 act: {"actions":[{"do":"sleep"}],"reasoning":"Night has come and I'm not in danger. Try to rest here; if no bed, the sleep line will say why."}
+- 17:10 act: {"intent":{"goal":"reach_shore_with_wheat","program":"travel","arguments":{"target":{"x":-203,"y":58,"z":350}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_worl
+- 17:10 act: {"actions":[{"do":"unstick"}]}
+- 17:10 act: {"actions":[{"do":"goto","target":{"x":-254,"y":61,"z":352}}],"say":"Trini, I'm following you out through Tommy's opening. I have wheat for whoever is hungry."}
+- 17:10 act: {"actions":[{"do":"mine","block":"stone","count":4}]}
+- 17:10 act: {"actions":[{"do":"mine","block":"stone","count":3}],"say":"Tommy, I'm digging east toward you now. Keep digging up too."}
+- 17:10 act: {"actions":[{"do":"mine","block":"stone","count":4},{"do":"goto","target":{"x":-203,"y":58,"z":350}}]}
+- 17:10 act: {"actions":[{"do":"goto","target":{"x":-203,"y":58,"z":350}}],"say":"Billy, Zack, I'm coming toward the shore with 2 wheat. Tell me when you're in sight."}
+- 17:11 act: {"actions":[{"do":"mine","block":"stone","count":6}],"say":"Zack, I'm still boxed in at -257,56,350, digging east. I'll come to you as soon as the way opens."}
+- 17:13 say: {"text":"Billy, Zack: Kimberly has the beetroot covered. I still have 2 wheat if either of you needs it once you're free."}
+- 17:14 act: {"actions":[{"do":"goto","target":"ag_zack_01"}],"say":"Zack, I'm coming to you with the 2 wheat. I'm still digging out."}
+- 17:14 act: {"actions":[{"do":"mine","block":"stone","count":8}]}
+- 17:14 act: {"actions":[{"do":"goto","target":{"x":-199,"y":61,"z":351}}]}
+- 17:14 act: {"actions":[{"do":"mine","block":"stone","count":6}]}
+- 17:15 act: {"actions":[{"do":"mine","block":"stone","count":6}]}
+- 17:24 act: {"actions":[{"do":"mine","block":"stone","count":4}],"intent":{"goal":"reach_zack_with_wheat","program":"travel","arguments":{"target":{"x":-199,"y":61,"z":351}},"wake_on":["goal_completed","unexpecte
+- 17:28 act: {"actions":[{"do":"goto","target":{"x":-258,"y":60,"z":350}}],"say":"Morning. I'm climbing out toward Tommy's spot. I have 2 wheat for Zack and Billy."}
+- 17:28 act: {"actions":[{"do":"goto","target":{"x":-200,"y":61,"z":351}}],"say":"I'm out and heading east toward Zack with my 2 wheat."}
+- 17:28 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"stone","count":2}]}
+- 17:28 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-258,"y":60,"z":350}}],"say":"Tommy, I'll try your dirt pillar trick under my
