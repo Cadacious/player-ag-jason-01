@@ -367,3 +367,7 @@
 - 07:38 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"goto","target":{"x":-239,"y":49,"z":344}}],"say":"Jason here, still in the shaft at y48. I have cobblestone and dirt. I'm stacking u
 - 07:39 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"reasoning":"Stacking failed twice. Mining adjacent stone may open a route; unsti
 - 07:46 act: {"say":"Kimberly, Jason here, still at -239,48,344. I'm on stone with air above. Please drop 4 dirt or planks straight down onto -239,49,344 when you can reach it. I have cobblestone and dirt to climb
+- 07:58 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-239,"y":49,"z":344}},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-239,"y":50,"z":344}}],"reas
+- 07:59 act: {"actions":[{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"goto","target":{"x":-239,"y":50,"z":344}}],"reasoning":"Retry unstick and stack cobblestone under feet."}
+- 07:59 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-240,"y":50,"z":344}}],"reasoning":"Mine nearby stone to open space, then stack
+- 07:59 say: {"text":"Jason: still at the bottom, water nearby so I can't dig. Please drop dirt or planks straight down onto my tile when you can."}
