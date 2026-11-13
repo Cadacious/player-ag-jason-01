@@ -894,3 +894,9 @@
 - 18:21 act: {"actions":[{"do":"sleep"}],"reasoning":"The goto failed but I am already beside the bed. Try sleeping here."}
 - 18:21 act: {"say":"Jason here. I'm at the beds, hunger 17 and no food yet. I'll sleep here tonight and join the search for wheat and animals at first light.","actions":[{"do":"goto","target":{"x":-282,"y":69,"z"
 - 18:23 act: {"actions":[{"do":"sleep"}]}
+- 18:28 act: {"say":"Dawn. I have no food either, only seeds. I'll go with the others to look for wheat or animals, and I'll bring anything I find to the beds.","intent":{"goal":"search_food_with_group","program":
+- 18:29 act: {"say":"Jason here. Billy went south-east, so I'll search south-west for animals or wheat and call out anything I find.","intent":{"goal":"search_south_west_for_food","program":"travel","arguments":{"
+- 18:30 act: {"say":"Jason here. Nothing edible this way, only cherry logs and a wolf to the north-east, so I'm avoiding it. I'll check the old farm Tommy mentioned.","intent":{"goal":"check_old_farm_for_wheat","p
+- 18:31 act: {"say":"Jason here, at the old farm by the water. No wheat in sight. I have 7 wheat seeds and a stone hoe, so I'll plant them here as a farm for later, and I'll share what comes up."}
+- 18:31 act: {"actions":[{"do":"place","block":"wheat_seeds","at":"feet"}],"say":"Jason: I'll try to plant my seeds here. Careful, a villager nearby looks like it is attacking."}
+- 18:32 act: {"say":"Jason: planting failed here, and that villager is closing in. I'm heading back toward the beds.","intent":{"goal":"return_to_beds","program":"travel","arguments":{"target":{"x":-271,"y":68,"z"
