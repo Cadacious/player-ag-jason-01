@@ -1030,3 +1030,8 @@
 - 20:39 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"bread","count":1}],"say":"Trini, here is my bread. Eat it. Zack is hungry too, so if you find him, share what you can."}
 - 20:39 act: {"say":"Kimberly, the bread went to you by mistake, since Trini had stepped aside. Eat it if you're hungry, or give it to Trini. I'm building a shelter for the night now.","intent":{"goal":"build_shel
 - 20:39 act: {"say":"Kimberly, please give the bread to Trini. She is starving and I have none left. Trini, I'm sorry; I have only seeds and dirt.","intent":{"goal":"build_wall_for_night","program":"build","argume
+- 20:41 act: {"intent":{"goal":"night_shelter","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world
+- 20:41 act: {"actions":[{"do":"sleep"}],"say":"Shelter is closed around me here for the night. Goodnight."}
+- 20:41 act: {"intent":{"goal":"night_shelter_2","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_tick
+- 20:41 act: {"intent":{"goal":"night_shelter_3","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_wor
+- 20:41 act: {"actions":[{"do":"sleep"}]}
