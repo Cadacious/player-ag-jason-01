@@ -187,3 +187,4 @@
 - 00:46 act: {"actions":[{"do":"note","text":"Day 106 dawn: crafting tools failed repeatedly before; don't loop on it. Beds at -241,69,343/344."}]}
 - 00:46 act: {"intent":{"goal":"visit_billy","program":"travel","arguments":{"x":-282,"y":69,"z":371},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":6000,"max_block_operations":50}}}
 - 00:46 act: {"actions":[{"do":"goto","target":{"x":-282,"y":69,"z":371}}]}
+- 00:47 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":345}},{"do":"sleep"}]}
