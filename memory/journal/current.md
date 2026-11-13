@@ -647,3 +647,7 @@
 - 13:36 act: {"actions":[{"do":"goto","target":{"x":-280,"y":63,"z":320}}]}
 - 13:36 act: {"actions":[{"do":"mine","block":"stone","count":4},{"do":"unstick"},{"do":"goto","target":{"x":-280,"y":63,"z":320}}]}
 - 13:40 act: {"actions":[{"do":"goto","target":{"x":-272,"y":60,"z":325}}]}
+- 13:46 act: {"actions":[{"do":"goto","target":{"x":-271,"y":61,"z":327}},{"do":"craft","item":"stone_hoe","count":1}],"say":"Dawn. Food is the problem, so I'm making a hoe to farm my 7 seeds.","reasoning":"Hunger
+- 13:46 act: {"actions":[{"do":"place","block":"wheat_seeds","at":"feet"}],"reasoning":"Learn how seeds get planted. Trying on the block under me to see the rule; dirt is nearby if this fails."}
+- 13:46 act: {"actions":[],"say":"I can't plant seeds on stone, and I have no way yet to make farmland. Does anyone know how to till dirt into farmland? I'd trade dirt or sand for bread or food.","reasoning":"Seed
+- 13:47 say: {"text":"Thanks Billy. Tell me what works for tilling. I'll do the same with my hoe."}
