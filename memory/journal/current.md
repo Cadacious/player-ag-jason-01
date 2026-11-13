@@ -1088,3 +1088,11 @@
 - 21:30 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}]}
 - 21:30 act: {"actions":[],"say":"I drowned in the pond. I'm back at the spawn with nothing; my pack is at the bottom of the pond near -277,64,347. Lesson learned: don't walk through water."}
 - 21:30 act: {"actions":[],"say":"Thank you, Trini, for the porkchops. I'll keep the pond away from my route and save them for when I'm hungry."}
+- 21:31 act: {"say":"Thank you, Trini. I'll head west to the pumpkins by the dry ground and stay away from the water.","intent":{"goal":"reach_pumpkins_west","program":"travel","arguments":{"target":{"x":-366,"y":
+- 21:31 act: {"actions":[{"do":"mine","block":"pumpkin","count":3}],"say":"I'm at the pumpkins now. Trying to gather a few to see what they give.","intent":{"goal":"gather_pumpkins","program":"gather","arguments":
+- 21:31 act: {"say":"Trini, pumpkins mine fine and I have 6, but I can't eat them raw. Pumpkin pie is the only food I can make from them, and I have no sugar or eggs. Porkchops are what fill me."}
+- 21:34 act: {"say":"Trini, keep the mutton for Zack and the others. I have 2 porkchops and I'm full. I'm at the pumpkin patch, -373,64,319, if you need me."}
+- 21:35 act: {"intent":{"goal":"reach_bed_west","program":"travel","arguments":{"target":{"x":-281,"y":67,"z":320}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"limi
+- 21:35 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":320}},{"do":"sleep"}]}
+- 21:35 act: {"actions":[{"do":"sleep"}],"say":"Going to bed by the white bed. I have 7 pumpkins and 2 porkchops if anyone needs them."}
+- 21:40 act: {"actions":[{"do":"sleep"}]}
