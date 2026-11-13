@@ -180,3 +180,7 @@
 - 00:21 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":345}},{"do":"sleep"}]}
 - 00:23 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":345}},{"do":"sleep"}]}
 - 00:24 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}},{"do":"sleep"}]}
+- 00:24 act: {"intent":{"goal":"harvest_crops_at_farm","program":"travel","arguments":{"target":{"x":-252,"y":68,"z":352}},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"limits":{"max_worl
+- 00:24 act: {"actions":[{"do":"goto","target":{"x":-251,"y":68,"z":353}},{"do":"mine","block":"wheat","count":4},{"do":"mine","block":"potatoes","count":4}],"reasoning":"Move into the crop rows and try to harvest
+- 00:25 act: {"actions":[{"do":"goto","target":{"x":-252,"y":68,"z":352}},{"do":"mine","block":"wheat","count":1}],"reasoning":"Retry one harvest close to the crops to see whether mining works on ripe wheat."}
+- 00:25 act: {"say":"Harvest failed: mining the wheat and potatoes gave nothing, and I have no harvest action. I'm stopping here.","reasoning":"I cannot harvest with the tools I have. Report back rather than keep 
