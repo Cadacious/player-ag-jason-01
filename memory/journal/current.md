@@ -719,3 +719,32 @@
 - 14:54 act: {"say":"Zack, Tommy: I'm still boxed in at -268,60,324 with 2 wheat, and I can't get out north. Tommy, if you're free, keep your wheat for Billy and Kimberly.","actions":[{"do":"mine","block":"stone",
 - 14:54 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"goto","target":{"x":-269,"y":60,"z":322}},{"do":"mine","block":"stone","count":2},{"do":"goto","target":{"x":-269,"y":60,"z":320}},{"do":"min
 - 15:01 act: {"say":"It is night and I am alone out here at -269, 60, 324. I'm building a shelter of dirt now, and I'll bring my 2 wheat to Billy and Kimberly at first light.","intent":{"goal":"build_shelter","pro
+- 15:06 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-227,"y":68,"z":280}}],"say":"Kimberly, Billy: I'm coming with my 2 wheat now. Stay where you are.","reasoning":"Dawn. Promised wheat to Billy o
+- 15:06 act: {"actions":[{"do":"goto","target":{"x":-227,"y":68,"z":280}}],"say":"Billy, Kimberly: I have the 2 wheat. Where are you?","reasoning":"Goto only moved me a block. Retry the long walk to Billy's spot."
+- 15:06 act: {"actions":[{"do":"goto","target":"Billy"}],"say":"Billy, I'm stuck in a pit here at -266,61,324. I have 2 wheat for you and Kimberly.","reasoning":"Coordinate goto changed nothing twice. Try reaching
+- 15:06 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"unstick"}],"reasoning":"View shows solid dirt all around me. Dig out to open a way, then try to walk toward Billy."}
+- 15:06 act: {"actions":[{"do":"goto","target":"Billy"}],"say":"Billy, I'm out of the hole now. Coming to you with the wheat.","reasoning":"Out of the enclosure; Billy is nearby by the oak logs. Try reaching him b
+- 15:06 act: {"actions":[{"do":"goto","target":{"x":-250,"y":66,"z":300}}],"reasoning":"Billy not in sight. Walk a nearer waypoint toward his spot at -227,68,280."}
+- 15:06 act: {"actions":[{"do":"goto","target":{"x":-250,"y":66,"z":300}},{"do":"goto","target":{"x":-227,"y":68,"z":280}}],"say":"Billy, I'm walking toward you with 2 wheat. Tell me where you are.","reasoning":"L
+- 15:07 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"unstick"},{"do":"goto","target":{"x":-250,"y":66,"z":300}}],"reasoning":"Enclosed by dirt again. Dig out north, then walk the waypoint."}
+- 15:07 act: {"actions":[{"do":"unstick"}],"say":"Billy, Kimberly: I'm stuck in a dirt pit at -266,61,323, north-east of the beds. I still have 2 wheat for you. Come to me, or Trini's beetroot is a good meal too."
+- 15:07 act: {"actions":[{"do":"give","to":"Billy","item":"wheat","count":2}],"say":"Billy, here are my 2 wheat. Eat them, you need it more than I do right now.","reasoning":"Billy is close and asked for the wheat
+- 15:07 act: {"actions":[{"do":"wait","seconds":30}],"say":"Billy, I'm at the bottom of the pit at -266,61,325 and can't see you. Stand at the rim above me and I'll hand the wheat up.","reasoning":"The give failed
+- 15:08 act: {"actions":[{"do":"unstick"}],"say":"Billy, I'm still in the pit near you. When you can see me, I'll hand you the wheat.","reasoning":"Stuck in pit; unstick is the next safe option. Then wait for Bill
+- 15:08 act: {"actions":[{"do":"give","to":"Billy","item":"wheat","count":2}],"say":"Billy, here is the 2 wheat I promised you.","reasoning":"Billy is on the rim in view; giving the promised wheat."}
+- 15:28 act: {"actions":[{"do":"unstick"}],"reasoning":"Still in hole at dawn; try to get out before Billy or Kimberly can be reached."}
+- 15:36 act: {"actions":[{"do":"goto","target":{"x":-270,"y":66,"z":324}}],"reasoning":"Try to climb out toward the open ground; if it fails, try mining."}
+- 15:36 act: {"actions":[{"do":"mine","block":"stone","count":4},{"do":"unstick"}],"reasoning":"Enclosed on all sides; mine stone to open a way and then unstick."}
+- 15:51 act: {"intent":{"goal":"reach_farm","program":"travel","arguments":{"target":{"x":-288,"y":69,"z":292}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":300
+- 15:51 act: {"actions":[{"do":"mine","block":"stone","count":3},{"do":"unstick"}],"reasoning":"Travel changed nothing; dig a way up, then unstick."}
+- 15:51 act: {"actions":[{"do":"mine","block":"dirt","count":4}],"reasoning":"Tunnel through dirt to the south and up, a different direction from before."}
+- 15:52 act: {"actions":[],"say":"I'm out of the hole. I still have 2 wheat for Billy or Kimberly. Where are you?","reasoning":"Out of the hole now, not enclosed. Announce myself so Billy or Kimberly can find me t
+- 15:52 act: {"actions":[{"do":"goto","target":{"x":-290,"y":69,"z":288}}],"say":"Billy, Kimberly: I'm heading to the fence field to find Zack and give him my 2 wheat.","reasoning":"Billy asked me to keep the whea
+- 15:52 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-290,"y":69,"z":288}}],"reasoning":"Travel stopped partway, probably blocked by the stone around the hole. Free myself, then try the walk again.
+- 15:52 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"unstick"}],"say":"Kimberly, I'm still boxed in the hole near -267,60,322. I'll dig out and head to the fence field.","reasoning":"View says I 
+- 15:52 act: {"actions":[{"do":"goto","target":{"x":-290,"y":69,"z":288}}],"reasoning":"Out of the pit now. Try the walk to the fence field again to meet Zack."}
+- 15:53 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"unstick"},{"do":"goto","target":{"x":-290,"y":69,"z":288}}],"reasoning":"Walks keep bringing me back to this same spot. Clear the dirt ahead t
+- 15:53 act: {"actions":[],"say":"Zack, I have 2 wheat for you. I'm stuck in a stone pit at -267,60,322. Come to me and I'll hand it over.","reasoning":"My walks keep failing from this pit. Zack is hungry and near
+- 15:57 act: {"actions":[{"do":"goto","target":{"x":-210,"y":64,"z":345}}],"say":"Billy, I'm sorry. Zack, I'm coming toward the lake with my wheat and dirt to help build out to you.","reasoning":"Billy died, and Z
+- 15:57 act: {"actions":[{"do":"goto","target":{"x":-210,"y":64,"z":345}}],"reasoning":"Moved partway. Keep walking toward the lake where Zack is."}
+- 15:57 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"unstick"}],"reasoning":"Enclosed in dirt again. Dig south, toward the lake, then unstick."}
