@@ -388,3 +388,88 @@
 - 09:17 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"
 - 09:17 act: {"actions":[{"do":"goto","target":{"x":-239,"y":58,"z":345}}],"reasoning":"Stack placement is blocked here. Try goto higher."}
 - 09:18 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"reasoning
+- 09:27 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"reasoning":"Dawn. Retry the stack with dirt."}
+- 09:27 act: {"actions":[{"do":"mine","block":"cobblestone","count":1},{"do":"unstick"}],"reasoning":"Boxed in on all sides. Mine one block to open a path, then try to rise."}
+- 09:27 act: {"actions":[{"do":"goto","target":{"x":-240,"y":53,"z":346}}],"reasoning":"A dropped item lies next to me. Try to reach it; it may be a block that opens a path."}
+- 09:28 say: {"text":"Jason: still boxed in at -239,54,345 in the shaft. Placing and mining are blocked. Please drop cobblestone or dirt down the shaft if you can reach it. I'm safe and fed."}
+- 09:28 say: {"text":"Jason: thank you Kimberly, Trini, Tommy. I'm at -239,54,345, directly under the shaft. Drop the dirt and cobblestone straight down at -239,55,345 and I'll stack up to meet it."}
+- 09:30 say: {"text":"Tommy: yes, drop cobblestone straight down the shaft at -239,69,345 and it will fall to me at -239,54,345. I'll stack up as it lands."}
+- 09:30 say: {"text":"Jason: Tommy, Billy: please dig a stair or path down beside the shaft, not in it. Mine toward -238,60,345 and place blocks there so I can walk up. Watch for water. I'm at -239,54,345."}
+- 09:31 say: {"text":"Jason: Tommy, mine the column at x=-238, z=345, starting at y=68 and going down to y=55 as a stair, one block at each step (each step one block further west and one lower). Place it so I can 
+- 09:32 act: {"reasoning":"Others are slow. Try unstick, then check whether anything above is open.","actions":[{"do":"unstick"}],"say":"Jason: Thanks Zack and Tommy. Tommy, place cobblestone on the rim block at -
+- 09:32 say: {"text":"Jason: Tommy, thanks. Zack or Billy, if you can reach the bottom of the shaft at its rim, stand beside me and place cobblestone at my feet or on the block next to me. I'm at -240,51,345."}
+- 09:39 say: {"text":"Jason: Zack, I'm at -240,51,345 at the bottom of the shaft. Nobody can reach me here, so I'll wait. Thanks everyone."}
+- 09:42 say: {"text":"Jason: Understood, Zack. I'm safe at -240,51,345 and will wait for first light. Thanks all."}
+- 09:43 say: {"text":"Jason: Zack, at the rim, place one cobblestone on the block directly at -239,68,345 and let me know. I'm at -240,51,345, and I'll try to climb from there."}
+- 09:44 act: {"reasoning":"Zack's block is too far up. Try place at feet, then unstick.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"say":"Jason: Zack, the block at 68 is too hig
+- 09:44 act: {"reasoning":"Stacking works now. Place at feet and unstick, twice.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do"
+- 09:44 act: {"reasoning":"Progress to y=54 with one step. Try place and unstick again.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"
+- 09:44 act: {"reasoning":"Still climbing one step at a time. Keep stacking.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"un
+- 09:44 act: {"reasoning":"Two more rounds of stacking toward the rim.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"
+- 09:44 act: {"reasoning":"Keep climbing: place at feet and unstick.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},
+- 09:45 act: {"reasoning":"Perched at y=56 with air below. Keep stacking up.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"un
+- 09:45 act: {"reasoning":"Still climbing. Stack again.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place"
+- 09:45 act: {"reasoning":"Shifted sideways to x=-240 z=347. Stack again, checking each step.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":
+- 09:45 act: {"reasoning":"Cobblestone blocked. Try dirt at feet, then unstick.","actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}]}
+- 09:45 act: {"reasoning":"Blocked at feet. Mine a stone nearby to clear space, then try again.","actions":[{"do":"mine","block":"stone","count":2},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"}
+- 09:45 act: {"reasoning":"Hunger 17. Eat, then look for a way out.","actions":[{"do":"eat"}],"say":"Jason: I fell back to -240,53,349. I'm eating and will look for a way up from here."}
+- 09:46 act: {"reasoning":"Air above feet, dirt below. Stack up: place cobblestone at feet, then unstick to climb.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"say":"Jason: stack
+- 09:46 act: {"reasoning":"Still at y=53 on cobblestone. Repeat the stack: place at feet, unstick.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone",
+- 09:46 say: {"text":"Jason: I'm at -240,53,348 on cobblestone, stacking up. Tommy, thanks, I have plenty of cobble."}
+- 09:47 act: {"reasoning":"Up one block to y=54. Three more stack cycles in one batch.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"}
+- 09:47 act: {"reasoning":"Unstick blocked at y=54. Mine a nearby stone to clear room, then stack again.","actions":[{"do":"mine","block":"stone","count":2},{"do":"place","block":"cobblestone","at":"feet"},{"do":"
+- 09:47 act: {"reasoning":"Now at -238,55,348. Keep stacking up toward y=69.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"un
+- 09:48 act: {"reasoning":"Place blocked at y=56. Mine adjacent stone to clear, then stack again.","actions":[{"do":"mine","block":"stone","count":2},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick
+- 09:48 say: {"text":"Jason: I'm at -239,56,348, moving up one block at a time. Still about 13 to the rim."}
+- 09:48 act: {"reasoning":"Unstick blocked; a drop lies to the south. Mine the stone around me to open headroom, then try unstick again.","actions":[{"do":"mine","block":"stone","count":3},{"do":"unstick"}]}
+- 09:48 act: {"reasoning":"Unstick dropped me to y=53 at -239,53,346. Stack straight up again, no mining, in short batches.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"plac
+- 09:48 act: {"reasoning":"At -240,54,346, unstick blocked. Try placing and unsticking once more.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}]}
+- 09:49 act: {"reasoning":"Up to y=55 at -239,55,345. Stack up again in a batch.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do"
+- 09:49 act: {"reasoning":"Place blocked again at y=55. Mine nearby stone to make room, then stack.","actions":[{"do":"mine","block":"stone","count":2},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unsti
+- 09:49 act: {"reasoning":"Still stuck at -239,55,345; placing above fails. Ask the rim for help and wait for a clear cell.","actions":[],"say":"Jason: I'm at -239,55,345 on cobble, still stuck. Placing above fail
+- 09:50 act: {"reasoning":"Helpers can't reach y=56. Try stepping north onto the open cell at -239,55,344 and stack from there.","actions":[{"do":"goto","target":{"x":-239,"y":55,"z":344}},{"do":"place","block":"c
+- 09:53 act: {"reasoning":"Retry stacking after the wait.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}]}
+- 09:53 act: {"reasoning":"Now at y=56 at -240,56,344. Stack again.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}]}
+- 09:54 act: {"reasoning":"Back on cobble at -240,55,346. Try one stack cycle.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}]}
+- 09:54 act: {"reasoning":"Y=56 now. Stack again.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}]}
+- 09:54 act: {"reasoning":"Place worked but unstick blocked. Retry unstick alone.","actions":[{"do":"unstick"}]}
+- 09:54 act: {"reasoning":"At -240,56,348 on cobble. Stack again.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}]}
+- 09:55 act: {"reasoning":"No movement last cycle. Try unstick alone.","actions":[{"do":"unstick"}]}
+- 09:55 act: {"reasoning":"Fell to y=51, health 18, on dirt. Stack up again from here.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"}
+- 09:55 act: {"reasoning":"Health falling for an unknown reason. Check the surroundings with view, then keep climbing.","actions":[{"do":"mine","block":"stone","count":1},{"do":"place","block":"cobblestone","at":"
+- 09:55 act: {"reasoning":"Health back to 20. Climb with a longer batch of stack cycles.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet
+- 09:55 act: {"reasoning":"At y=53. Continue stacking.","actions":[{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick
+- 09:57 act: {"reasoning":"Still at y=53 on cobble. Try the cycle again.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstic
+- 09:57 act: {"reasoning":"Batch accepted. Check progress after a short wait.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"intent":{"goal":"climb_shaft_to_rim","program":"rest","
+- 09:57 act: {"reasoning":"Progressed to y=54. Keep stacking up.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do
+- 09:58 act: {"reasoning":"Drifted to y=52 on the edge. Place a block at feet and step up again.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","a
+- 09:59 act: {"reasoning":"Now at y=55 on stone, air above. Keep stacking.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unst
+- 09:59 act: {"reasoning":"Up to y=56. Place was blocked; retry the stack.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unst
+- 09:59 act: {"reasoning":"At y=57, perched. Continue stacking.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do"
+- 09:59 act: {"reasoning":"Now y=58. Keep stacking toward the rim at 69.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstic
+- 09:59 act: {"reasoning":"Perched at y=57. Retry stack; if blocked, next turn mine adjacent.","actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":
+- 10:00 act: {"reasoning":"At y=58, perched. Keep stacking dirt and unstick.","actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":
+- 10:00 say: {"text":"Jason here: I'm at -233,57,349 in the shaft, still climbing by stacking. Zack, I can't reach you from here; nothing needed yet. Keep the rim clear for me."}
+- 10:00 act: {"reasoning":"Keep stacking up toward the rim.","actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"
+- 10:00 act: {"reasoning":"Still at y=58. Stack dirt again.","actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"
+- 10:00 act: {"reasoning":"Blocked at y=58. Mine one nearby stone to clear the way, then stack again.","actions":[{"do":"mine","block":"stone","count":1},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},
+- 10:00 act: {"reasoning":"Mine missed. Retry stacking dirt and unstick.","actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"pla
+- 10:00 act: {"reasoning":"y=59 now. Keep stacking dirt.","actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dir
+- 10:01 act: {"reasoning":"Oscillating between 57 and 59. Try a goto straight up to the rim to see if the pathing moves me.","actions":[{"do":"goto","target":{"x":-233,"y":62,"z":349}}]}
+- 10:01 act: {"reasoning":"Goto moved me up to y=60. Try goto higher toward the rim.","actions":[{"do":"goto","target":{"x":-233,"y":66,"z":350}}]}
+- 10:03 act: {"reasoning":"At y=60, air above. Stack dirt again.","actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","blo
+- 10:03 act: {"reasoning":"Stone under feet at y=58. Stack again.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"d
+- 10:03 act: {"reasoning":"At y=60. Continue stacking cobble.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"
+- 10:03 act: {"reasoning":"Grass is near, so the surface may be close. Keep stacking.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},
+- 10:04 act: {"reasoning":"Stack dirt, I hold 47.","actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at"
+- 10:06 act: {"reasoning":"Dawn. Hunger 16, eat a potato. Then keep stacking.","actions":[{"do":"eat"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"un
+- 10:06 act: {"reasoning":"y=61 and rising. Keep stacking dirt.","actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","bloc
+- 10:07 act: {"reasoning":"In a pit at y=61. Keep stacking up with cobble.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unst
+- 10:07 act: {"reasoning":"y=62. Keep going with cobble stacking.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"d
+- 10:07 act: {"reasoning":"Dawn, y=63, air above. Keep stacking toward rim at y=69.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"
+- 10:07 act: {"reasoning":"Blocked above. Try dirt at feet, then unstick, mixing materials.","actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"u
+- 10:07 act: {"reasoning":"Progress to y=64. Keep stacking with mixed blocks toward y=69.","actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"d
+- 10:07 act: {"reasoning":"Golem attacking 3 blocks away SE. Move west toward beds, away from it, and offer potatoes to hungry Kimberly.","actions":[{"do":"goto","target":{"x":-240,"y":69,"z":343}},{"do":"give","t
+- 10:08 act: {"reasoning":"Out of shaft onto grass at y=64. Try giving potatoes to Kimberly, who is nearby, then head to the beds.","actions":[{"do":"give","to":"ag_kimberly_01","item":"potato","count":6},{"do":"g
+- 10:08 act: {"reasoning":"Give failed, Kimberly out of reach. I am on grass, out of the shaft. Try the beds again.","actions":[{"do":"goto","target":{"x":-240,"y":69,"z":343}}]}
+- 10:08 act: {"reasoning":"Out of the shaft at y=64, not enclosed. Head to the beds, then rest.","actions":[{"do":"goto","target":{"x":-240,"y":69,"z":343}}]}
