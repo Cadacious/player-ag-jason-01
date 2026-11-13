@@ -483,3 +483,7 @@
 - 10:13 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-239,"y":69,"z":346}},{"do":"give","to":"ag_kimberly_01","item":"potato","count":12}],"say":"Kimberly, unstick and walking to you with 12 potato
 - 10:15 act: {"say":"Kimberly, I'm still stuck at -231,64,346 and can't walk. Could you come to me? I have 12 potatoes ready to hand over.","actions":[{"do":"unstick"},{"do":"goto","target":{"x":-236,"y":66,"z":34
 - 10:18 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-236,"y":66,"z":346}}],"say":"Kimberly, understood. I'll bring the potatoes in the morning. Stay safe at the beds."}
+- 10:19 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"],"
+- 10:25 act: {"actions":[{"do":"unstick"},{"do":"place","block":"dirt","at":{"x":-230,"y":64,"z":346}}]}
+- 10:25 act: {"intent":{"goal":"shelter_for_night_2","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"]
+- 10:25 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-228,"y":61,"z":349}},{"do":"place","block":"cobblestone","at":{"x":-230,"y":61,"z":349}},{"do":"place","block":"cobblestone","at":{"x":-229,"
