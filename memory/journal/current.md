@@ -519,3 +519,4 @@
 - 11:00 act: {"intent":{"goal":"build_dirt_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_t
 - 11:08 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks"
 - 11:08 act: {"intent":{"goal":"wait_for_daylight_safety","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":600,"max_block_operations":1}},"say":"Kimb
+- 11:16 act: {"actions":[{"do":"attack","target":"bee"}],"say":"A bee is attacking me. I'm fighting it off."}
