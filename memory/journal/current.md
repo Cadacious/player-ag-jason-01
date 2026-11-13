@@ -188,3 +188,4 @@
 - 00:46 act: {"intent":{"goal":"visit_billy","program":"travel","arguments":{"x":-282,"y":69,"z":371},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":6000,"max_block_operations":50}}}
 - 00:46 act: {"actions":[{"do":"goto","target":{"x":-282,"y":69,"z":371}}]}
 - 00:47 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":345}},{"do":"sleep"}]}
+- 01:01 act: {"actions":[{"do":"goto","target":{"x":-283,"y":69,"z":370}},{"do":"sleep"}]}
