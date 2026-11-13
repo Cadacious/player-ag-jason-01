@@ -477,3 +477,7 @@
 - 10:08 act: {"reasoning":"Still not moving. Unstick, then try goto again. If it fails, I rest here and try later.","actions":[{"do":"unstick"},{"do":"goto","target":{"x":-240,"y":69,"z":343}}]}
 - 10:08 act: {"reasoning":"Moved one block west. Keep trying the beds with a waypoint.","actions":[{"do":"goto","target":{"x":-236,"y":68,"z":344}}]}
 - 10:08 act: {"reasoning":"Goto blocked. Build a small enclosure of dirt around me for shelter, then rest.","actions":[{"do":"place","block":"dirt","at":{"x":-230,"y":64,"z":346}},{"do":"unstick"},{"do":"goto","ta
+- 10:11 act: {"say":"Jason here, at -231,64,346 with health and hunger full. I'm building a dirt shelter here, away from the pool, and will try to reach the beds after.","intent":{"goal":"build_shelter_dirt","prog
+- 10:12 act: {"intent":{"goal":"shelter_fix","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_t
+- 10:12 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"},{"do":"give","to":"ag_kimberly_01","item":"potato","count":12}],"say":"Kimberly, I'm coming to you with the potatoes now. Eat them when you can."}
+- 10:13 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-239,"y":69,"z":346}},{"do":"give","to":"ag_kimberly_01","item":"potato","count":12}],"say":"Kimberly, unstick and walking to you with 12 potato
