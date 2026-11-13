@@ -482,3 +482,4 @@
 - 10:12 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"},{"do":"give","to":"ag_kimberly_01","item":"potato","count":12}],"say":"Kimberly, I'm coming to you with the potatoes now. Eat them when you can."}
 - 10:13 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-239,"y":69,"z":346}},{"do":"give","to":"ag_kimberly_01","item":"potato","count":12}],"say":"Kimberly, unstick and walking to you with 12 potato
 - 10:15 act: {"say":"Kimberly, I'm still stuck at -231,64,346 and can't walk. Could you come to me? I have 12 potatoes ready to hand over.","actions":[{"do":"unstick"},{"do":"goto","target":{"x":-236,"y":66,"z":34
+- 10:18 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-236,"y":66,"z":346}}],"say":"Kimberly, understood. I'll bring the potatoes in the morning. Stay safe at the beds."}
