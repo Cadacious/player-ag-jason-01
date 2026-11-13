@@ -929,3 +929,35 @@
 - 18:46 act: {"actions":[{"do":"wait","seconds":30}],"say":"Kimberly, I am standing still at -258, 66, 357. Please give me my beef."}
 - 18:47 act: {"actions":[{"do":"wait","seconds":10},{"do":"eat"}]}
 - 18:47 act: {"say":"Dawn. No beef reached me. I'm going to the old farm to look for food.","actions":[{"do":"goto","target":{"x":-251,"y":68,"z":353}}]}
+- 18:49 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"}],"say":"Kimberly, I'm coming to stand beside you for the beef.","intent":{"goal":"reach_kimberly_for_beef","program":"travel","arguments":{"x":-260,
+- 18:49 act: {"actions":[{"do":"wait","seconds":5}],"say":"I'm beside you, Kimberly. Ready for the beef."}
+- 18:49 act: {"actions":[{"do":"eat"}],"say":"Thank you, Kimberly. I don't see the beef in my pack yet. Could you try the give once more?"}
+- 18:49 act: {"actions":[{"do":"wait","seconds":5}],"say":"No beef reached me, Kimberly. Does anyone know where there is food, a cow, a field of wheat or potatoes? I'll go look."}
+- 18:49 act: {"actions":[{"do":"eat"}]}
+- 18:49 act: {"actions":[{"do":"goto","target":{"x":-285,"y":68,"z":345}}],"say":"The beef is not coming through, Kimberly, so I'm going to look for food myself to the west. Thank you for trying.","intent":{"goal"
+- 18:50 act: {"actions":[{"do":"note","text":"Day 160 morning. Beef from Kimberly never reached my pack (give keeps failing). Hunger 16, health 5.8. Walked west to -285,66,346 looking for food; saw villagers and i
+- 18:50 act: {"actions":[{"do":"goto","target":{"x":-276,"y":67,"z":340}}],"say":"Does anyone here have bread, potatoes, or beef to spare? I am very hungry.","intent":{"goal":"reach_villager_for_food","program":"t
+- 18:50 act: {"actions":[{"do":"note","text":"Reached the villager at -276,66,340. Asked for bread, potatoes or beef. Iron golem closing from the north. Hunger 16, health 5.8."}],"say":"Villager, I am hungry. Do y
+- 18:53 act: {"actions":[{"do":"goto","target":{"x":-290,"y":68,"z":348}}],"say":"Kimberly, I am coming to the beds for a beef. Please hold it until I am beside you. I have not had food in days.","intent":{"goal":
+- 18:53 act: {"actions":[{"do":"note","text":"At the beds at -290,68,347. Kimberly not in sight yet; Billy is near her asking for beef. Hunger 16, health 5.8, dark-ish. Waiting for Kimberly to give beef."}],"say":
+- 18:57 act: {"actions":[{"do":"goto","target":{"x":-290,"y":67,"z":340}}],"say":"Kimberly, I am coming north toward you for one beef. Hunger 16. Please give it when you see me.","intent":{"goal":"reach_kimberly_w
+- 18:58 act: {"actions":[{"do":"note","text":"Sun low, dusk. Kimberly is north at the water, under golem attack, so the beef is still out of reach. Building a dirt shelter here at -290,67,341 before night."}],"say
+- 18:59 act: {"actions":[{"do":"goto","target":"Kimberly"},{"do":"note","text":"Kimberly is at the yellow beds, asking for beef from those in her sight. Heading to her now, since the golem is away from there."}],"
+- 18:59 act: {"actions":[{"do":"goto","target":{"x":-294,"y":69,"z":350}},{"do":"note","text":"Kimberly is asleep at the yellow beds and will give beef at first light to whoever is in sight. Golem is east of me. G
+- 18:59 act: {"actions":[{"do":"note","text":"Night at the white bed. Writing the handoff, then sleeping. Beef from Kimberly at first light."},{"do":"sleep"}]}
+- 18:59 act: {"actions":[{"do":"note","text":"Slept. Now at the yellow beds, -283,69,372, in sight of Kimberly's beds. Waiting for beef at first light."}],"say":"Kimberly, Jason here at the yellow beds, in your si
+- 19:07 act: {"actions":[{"do":"note","text":"Dawn, day 161. Kimberly at the yellow beds has 3 beef and will hand one to whoever is in sight. Standing where she can see me."}],"say":"Kimberly, Jason here, standing
+- 19:10 act: {"actions":[{"do":"goto","target":"Billy"},{"do":"note","text":"Daytime. Kimberly and Billy not in my sight at the yellow beds. Going to Billy to find Kimberly."}],"say":"Kimberly, Jason here. Hunger 
+- 19:10 act: {"actions":[{"do":"note","text":"I am inside a white walled house by the yellow beds, at -283,69,372. Kimberly cannot see me from outside yet."}],"say":"Kimberly, I'm at -283, 69, 372, inside the whit
+- 19:11 act: {"actions":[{"do":"note","text":"Kimberly came and gave me one beef. A reflex eat took it, hunger now 19. Health 5.8, steady."}],"say":"Thank you, Kimberly. I'm eating now. I'll look for food and a sh
+- 19:11 act: {"actions":[{"do":"note","text":"Ate Kimberly's beef. Health rising, now 8.8, hunger 17. No food in pack. Next: find cow or wheat, and build a shelter before night."}]}
+- 19:16 act: {"actions":[{"do":"note","text":"Hunger 17, no food. Zack got Kimberly's beef. Standing at -283,69,372 in sight of Kimberly, so she can find me."}],"say":"Kimberly, Jason here at -283, 69, 372, hunger
+- 19:16 act: {"actions":[{"do":"note","text":"No beef for me; Zack first. Heading to the old farm at -251,68,353 to look for animals and wheat."}],"intent":{"goal":"reach_old_farm","program":"travel","arguments":{
+- 19:16 act: {"actions":[{"do":"goto","target":{"x":-255,"y":67,"z":352}},{"do":"attack","target":"cow"}],"say":"A cow! I'm going for it."}
+- 19:16 act: {"actions":[{"do":"eat"},{"do":"note","text":"Got 3 beef from the cow near the old farm (-258,66,343 now). Eating one."}]}
+- 19:16 act: {"actions":[{"do":"note","text":"Ate beef; hunger 20, health 9.9. One beef left in hand. Kimberly coming to me; will pass the spare to someone hungrier if asked."}],"say":"I'm fed now, Kimberly. Zack 
+- 19:16 act: {"actions":[{"do":"note","text":"Health rising, hunger 20. Building a cobblestone shelter here (cobblestone, since the dirt shelter failed before) before dusk."}],"intent":{"goal":"build_shelter_cobbl
+- 19:16 act: {"actions":[{"do":"note","text":"Cobblestone shelter placed 14 of 25, then stopped on cobblestone count. Finishing it with dirt, which I hold in quantity."}],"intent":{"goal":"finish_shelter_dirt","pr
+- 19:17 act: {"actions":[{"do":"note","text":"Dirt shelter intent finished but I am still not enclosed. Bows drawn to the northwest. Checking the walls before deciding."}]}
+- 19:21 act: {"actions":[{"do":"note","text":"Night, not enclosed, skeletons shooting nearby. Heading to the walled house by the yellow beds at -283,69,372 where others are sheltering."}],"intent":{"goal":"reach_y
+- 19:22 act: {"actions":[{"do":"note","text":"Sleep failed (took too long) and I ended up at -291,74,383, open ground at night. Building a dirt shelter here, since I have plenty of dirt."}],"intent":{"goal":"night
