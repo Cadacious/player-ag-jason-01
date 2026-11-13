@@ -310,3 +310,6 @@
 - 05:11 act: {"intent":{"goal":"shelter_retry_day","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
 - 05:15 act: {"reasoning":"Perched on ledge, not enclosed. Have 61 cobblestone. Try build shelter with cobblestone; earlier attempts stalled at blocked spot, so watch result.","say":"Jason here, perched on the led
 - 05:17 act: {"reasoning":"Build did nothing. Standing on air at ledge. Place cobblestone at feet to firm footing, then check.","actions":[{"do":"place","block":"cobblestone","at":"feet"}]}
+- 05:24 act: {"intent":{"goal":"shelter_cobble","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_bl
+- 05:26 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"}],"reasoning":"Test whether direct placing works now that it is dawn."}
+- 05:26 say: {"text":"Jason here, at -239,49,344 on the ledge. My place and build actions do nothing, even with cobblestone. Can anyone show me how or help me get a shelter?"}
