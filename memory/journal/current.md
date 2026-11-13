@@ -551,3 +551,10 @@
 - 11:30 act: {"actions":[{"do":"goto","target":{"x":-228,"y":69,"z":390}}],"reasoning":"Still forest; one more push south for open grass before reporting."}
 - 11:30 act: {"intent":{"goal":"shelter_dirt","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_block_opera
 - 11:30 act: {"intent":{"goal":"rest_and_wait_for_food","program":"rest","arguments":{"seconds":300},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":6000,"max_block_operations":10}
+- 11:40 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-228,"y":69,"z":390}},{"do":"place","block":"cobblestone","at":{"x":-230,"y":69,"z":390}},{"do":"place","block":"cobblestone","at":{"x":-229,"
+- 11:40 act: {"actions":[{"do":"unstick"},{"do":"place","block":"dirt","at":{"x":-230,"y":69,"z":390}},{"do":"place","block":"dirt","at":{"x":-228,"y":69,"z":390}},{"do":"place","block":"dirt","at":{"x":-229,"y":6
+- 11:42 act: {"actions":[{"do":"attack","target":"phantom"},{"do":"attack","target":"phantom"},{"do":"attack","target":"phantom"}],"reasoning":"Phantoms are hitting me while I'm unsheltered at night. Fight back be
+- 11:42 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-233,"y":75,"z":389}},{"do":"place","block":"cobblestone","at":{"x":-231,"y":75,"z":389}},{"do":"place","block":"cobblestone","at":{"x":-232,"
+- 11:43 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"reasoning":"Phantom is 21 away and I am not enclosed. Try one more wall placement, then unstick if blocked."}
+- 11:43 act: {"actions":[{"do":"eat"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"place","block":"dirt","at":"feet"}],"reasoning":"Health is falling to phantom hits. Eat what I have, then try to wall i
+- 11:43 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-231,"y":72,"z":386}},{"do":"place","block":"cobblestone","at":{"x":-229,"y":72,"z":386}},{"do":"place","block":"cobblestone","at":{"x":-230,"
