@@ -873,3 +873,20 @@
 - 18:06 act: {"say":"I'm sealed in my shelter for the night with health and hunger full. I have no food to spare, but Tommy, if the bread reaches Trini or Billy at first light, that's the right order.","intent":{"
 - 18:10 act: {"say":"Good morning. I'm fine on food for now. Zack, Billy, Trini: I have wheat seeds and cobblestone if they help. Tell me where you need them.","intent":{"goal":"stay_near_beds_and_help","program":
 - 18:11 act: {"say":"Billy, I have no wheat, only 7 wheat seeds. I'm sorry. I'll keep the seeds for planting, and if I find wheat I'll bring it to you.","actions":[{"do":"note","text":"Told Billy I have no wheat, 
+- 18:13 act: {"say":"Jason here. I have no food either, but I'm fine at hunger 20. I'll look for animals or wheat nearby and share what I find, Zack and Trini.","intent":{"goal":"find_food_nearby","program":"trave
+- 18:13 act: {"actions":[{"do":"goto","target":{"x":-185,"y":64,"z":351}}],"say":"Zack, I'll search east so we cover different ground. Shout if you find animals or wheat.","intent":{"goal":"search_east_for_food","
+- 18:13 act: {"actions":[{"do":"unstick"}]}
+- 18:13 act: {"actions":[{"do":"mine","block":"dirt","count":3}]}
+- 18:13 act: {"actions":[{"do":"goto","target":{"x":-190,"y":64,"z":351}}]}
+- 18:13 act: {"actions":[{"do":"goto","target":{"x":-190,"y":64,"z":351}}]}
+- 18:13 act: {"actions":[{"do":"goto","target":{"x":-210,"y":66,"z":358}}],"say":"A skeleton is shooting at me. I'm getting out of its line of fire."}
+- 18:13 act: {"actions":[{"do":"attack","target":"skeleton"}],"say":"Skeleton, I'm closing in on you."}
+- 18:13 act: {"actions":[{"do":"attack","target":"skeleton"}]}
+- 18:14 act: {"intent":{"goal":"take_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_block_opera
+- 18:14 act: {"actions":[{"do":"note","text":"Health 5.8 after skeleton attacks. Retreated to the beds at -271,68,364 with Zack, Tommy and Billy. No food anywhere I searched. Resting here."}],"say":"Jason here at 
+- 18:14 act: {"intent":{"goal":"wall_in_at_beds","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_tick
+- 18:14 act: {"say":"Billy, I have only wheat seeds, no wheat, sorry. I'm staying low behind my dirt wall until first light, and I'll bring any food I find to the beds."}
+- 18:18 act: {"intent":{"goal":"wall_in_at_beds_again","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_worl
+- 18:19 act: {"intent":{"goal":"reach_bed_for_night","program":"travel","arguments":{"x":-271,"y":68,"z":363},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"],"limits":{"
+- 18:19 act: {"actions":[{"do":"goto","target":{"x":-271,"y":68,"z":363}}]}
+- 18:19 act: {"actions":[{"do":"goto","target":{"x":-271,"y":68,"z":364}},{"do":"sleep"}]}
