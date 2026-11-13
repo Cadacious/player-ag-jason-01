@@ -318,3 +318,6 @@
 - 05:35 act: {"intent":{"goal":"shelter_cobble","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage","precondition_failed"],"limits":{"max_wor
 - 05:35 act: {"intent":{"goal":"shelter_cobble_2","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_
 - 05:40 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-240,"y":48,"z":344}},{"do":"place","block":"cobblestone","at":{"x":-238,"y":48,"z":344}},{"do":"place","block":"cobblestone","at":{"x":-239,"
+- 05:44 act: {"intent":{"goal":"shelter_cobble_3","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_wo
+- 05:48 act: {"actions":[{"do":"place","block":"oak_planks","at":"feet"}],"say":"Morning. Shelter placement still fails for me and for Trini. I'm testing whether planks place where cobblestone and dirt did not.","
+- 05:49 act: {"say":"Tommy, same here: placing fails after a block or two. I'm at -239,48,344, not enclosed. I'll wait for anyone who finds a placement that works.","reasoning":"Confirm the shared failure and keep
