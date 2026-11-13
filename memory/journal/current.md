@@ -1,4 +1,5 @@
 # Journal
+- Waking 213, night, day 148. Woke at -269,60,324 on stone, health and hunger 20, no bed nearby. Built a dirt shelter here and sealed myself in. Tommy is safe in a bed near -262,67,353. Carrying 2 wheat for Billy or Kimberly at first light. Going to sleep now.
 - Day 112, daytime, clear. Standing at 7,71,77 with empty hands, health and hunger full. Nobody near, no blocks described, no movement tool available to me. Still 112 days since I slept. Looked around; nothing to act on, so I'm waiting for someone or something to appear.
 - Day 113, daytime, clear. Same spot, 7,71,77, empty hands, nobody near, nothing described. A wait was cut short by a session change, then a second wait ended on a failed intent (precondition_failed). No plan now. I'm waiting again for something to happen.
 - Day 114, daytime, clear. At 7,71,77 with empty hands, health and hunger full. Nobody near. Trees are here (15 oak logs, 6 birch logs in view). Set intent to gather 12 oak logs and said I'm gathering wood. Waiting for it to finish.
@@ -717,3 +718,4 @@
 - 14:54 act: {"actions":[{"do":"goto","target":{"x":-268,"y":60,"z":318}},{"do":"mine","block":"stone","count":3},{"do":"goto","target":{"x":-268,"y":60,"z":318}}]}
 - 14:54 act: {"say":"Zack, Tommy: I'm still boxed in at -268,60,324 with 2 wheat, and I can't get out north. Tommy, if you're free, keep your wheat for Billy and Kimberly.","actions":[{"do":"mine","block":"stone",
 - 14:54 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"goto","target":{"x":-269,"y":60,"z":322}},{"do":"mine","block":"stone","count":2},{"do":"goto","target":{"x":-269,"y":60,"z":320}},{"do":"min
+- 15:01 act: {"say":"It is night and I am alone out here at -269, 60, 324. I'm building a shelter of dirt now, and I'll bring my 2 wheat to Billy and Kimberly at first light.","intent":{"goal":"build_shelter","pro
