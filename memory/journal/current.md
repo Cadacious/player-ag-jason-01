@@ -607,3 +607,11 @@
 - 12:38 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
 - 12:38 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-268,"y":61,"z":327}},{"do":"place","block":"dirt","at":{"x":-270,"y":61,"z":327}},{"do":"place","block":"dirt","at":{"x":-269,"y":61,"z":326}},{"do"
 - 12:38 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-270,"y":61,"z":327}}],"reasoning":"Test one wall placement to see which cells accept dirt."}
+- 12:46 act: {"say":"Jason here, dawn. I'm at -269,61,327 with 2 wheat for Zack. Zack, I'll bring it to you once I've got a shelter up.","intent":{"goal":"shelter_at_dawn","program":"build","arguments":{"blueprint
+- 12:46 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-270,"y":61,"z":327}},{"do":"place","block":"dirt","at":{"x":-268,"y":61,"z":327}},{"do":"place","block":"dirt","at":{"x":-269,"y":61,"z":326}},{"do"
+- 12:47 act: {"actions":[{"do":"goto","target":{"x":-191,"y":66,"z":354}}],"reasoning":"Travel toward Zack to deliver wheat.","say":"Jason here, coming to you with the wheat, Zack."}
+- 12:47 act: {"actions":[{"do":"goto","target":{"x":-191,"y":66,"z":354}}],"reasoning":"Retry travel; first goto did not move me."}
+- 12:47 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-191,"y":66,"z":354}}],"reasoning":"Blocked; unstick then retry goto."}
+- 12:47 act: {"actions":[{"do":"goto","target":{"x":-264,"y":61,"z":333}}],"reasoning":"Short hop toward Zack to test whether path is open."}
+- 12:50 act: {"say":"Jason: I'm stuck at -269,61,328 and can't move. Zack, can you come to me? I have 2 wheat.","actions":[{"do":"unstick"},{"do":"mine","block":"dirt","count":2}]}
+- 12:51 act: {"intent":{"goal":"reach_zack_with_wheat","program":"travel","arguments":{"target":{"x":-191,"y":66,"z":354}},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"
