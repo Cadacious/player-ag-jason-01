@@ -359,3 +359,5 @@
 - 07:05 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"say":"Jason, still at -239,48,344. Zack or Trini, if you can reach, drop 4 dirt at -239,49,343, north of me. I'm placing at my 
 - 07:06 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}]}
 - 07:09 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"
+- 07:25 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"goto","target":{"x":-239,"y":50,"z":344}}],"say":"Tommy, I'm still at -239,48,344. I'm trying to climb by placing cobblestone under 
+- 07:25 act: {"actions":[{"do":"note","text":"Still at -239,48,344 on stone, night. Feet-placing and goto up did not raise me. Waiting for daylight and for Tommy or Trini to drop a block where I can reach."}],"say
