@@ -500,3 +500,8 @@
 - 10:43 act: {"intent":{"goal":"reach_kimberly_with_potatoes","program":"travel","arguments":{"target":{"x":-240,"y":69,"z":344}},"wake_on":["goal_completed","unexpected_damage","directly_addressed","precondition_
 - 10:43 act: {"actions":[{"do":"place","block":"crafting_table","at":"feet"},{"do":"craft","item":"stone_pickaxe","count":1}],"reasoning":"Travel failed in the pit. Make a stone pickaxe on a placed table to mine o
 - 10:43 act: {"actions":[{"do":"mine","block":"stone","count":4}],"reasoning":"Dig up through stone toward the surface and the beds."}
+- 10:43 act: {"intent":{"goal":"reach_kimberly_with_potatoes","program":"travel","arguments":{"target":{"x":-240,"y":69,"z":344}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"ma
+- 10:43 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"}],"reasoning":"Keep s
+- 10:44 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"}],"reasoning":"Contin
+- 10:44 act: {"intent":{"goal":"deliver_potatoes_to_kimberly","program":"travel","arguments":{"target":{"x":-240,"y":69,"z":344}},"wake_on":["goal_completed","unexpected_damage","directly_addressed","precondition_
+- 10:44 act: {"actions":[{"do":"give","to":"Kimberly","item":"potato","count":12}],"say":"Kimberly, here are your 12 potatoes.","reasoning":"I reached the beds. Giving Kimberly the 12 potatoes as promised."}
