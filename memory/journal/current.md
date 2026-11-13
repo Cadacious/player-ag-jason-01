@@ -331,3 +331,7 @@
 - 06:17 act: {"say":"Jason, still in the pit at -239,48,344. Unstick, place and the dirt shelter all say blocked. Billy, Tommy, Trini: tell me when you are out and what worked.","intent":{"goal":"escape_pit","prog
 - 06:22 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"reasoning":"Billy says dirt plus unstick lifts one level each time. Try one step up."}
 - 06:26 act: {"actions":[{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"goto","target":{"x":-238,"y":49,"z":342}}],"say":"Jason: dawn, still in the pit at -239,48,344. Kimberly,
+- 06:27 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"say":"Thanks Kimberly. I'm trying your method now: dirt at my feet, 
+- 06:27 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"unstick"}],"reasoning":"Fully enclosed by stone; placing dirt at feet did nothing. Mine stone to open a path, then check."}
+- 06:27 act: {"actions":[{"do":"wait","seconds":120}],"say":"Kimberly, Billy: I'm at -239,48,344, sealed in stone. Place-at-feet and mining did nothing for me. If anyone can reach me, please dig a path in from the
+- 06:27 act: {"actions":[{"do":"note","text":"Jason stuck at -239,48,344, enclosed by stone. Dirt-at-feet fails for me and for Billy. Waiting for Kimberly's or anyone's working method."},{"do":"wait","seconds":240
