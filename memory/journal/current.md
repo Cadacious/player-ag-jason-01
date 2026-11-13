@@ -1001,3 +1001,22 @@
 - 20:01 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":364}},{"do":"sleep"}],"say":"It's night, so I'm heading to the bed to sleep.","intent":{"goal":"reach_bed_and_sleep","program":"travel","argument
 - 20:02 act: {"actions":[{"do":"goto","target":{"x":-271,"y":68,"z":364}},{"do":"sleep"}],"say":"Night. Kimberly, thank you for the seeds. I'm going to sleep in this bed too."}
 - 20:03 act: {"actions":[{"do":"goto","target":{"x":-282,"y":69,"z":371}},{"do":"sleep"}],"say":"Night. I'm going to the yellow bed to sleep. Morning, I'll look for the farm Tommy mentioned.","reasoning":"It is ni
+- 20:04 act: {"intent":{"goal":"find_food_near_sheep","program":"travel","arguments":{"target":{"x":-257,"y":66,"z":375}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"]
+- 20:04 act: {"say":"Trini, Zack, have either of you seen any sheep, pigs or cows, or any food at all?"}
+- 20:04 act: {"say":"No food anywhere that I can see. I'll wait for first light and search for animals in a wider loop. Thanks, Trini and Zack."}
+- 20:09 act: {"intent":{"goal":"reach_farm_for_food","program":"travel","arguments":{"x":-251,"y":68,"z":353},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"limits":{"
+- 20:11 act: {"intent":{"goal":"search_far_for_animals","program":"travel","arguments":{"x":-257,"y":66,"z":420},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"limits"
+- 20:14 act: {"intent":{"goal":"search_south_for_cows","program":"travel","arguments":{"x":-255,"y":68,"z":425},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"limits":
+- 20:15 act: {"actions":[{"do":"goto","target":{"x":-255,"y":68,"z":425}}]}
+- 20:15 act: {"actions":[{"do":"goto","target":{"x":-245,"y":69,"z":436}},{"do":"goto","target":{"x":-240,"y":69,"z":437}}],"say":"Checking the dropped items to the south-east for food."}
+- 20:15 act: {"actions":[{"do":"goto","target":{"x":-236,"y":69,"z":437}}],"say":"Going to see what these items are; if there's food I'll share it."}
+- 20:15 act: {"actions":[{"do":"goto","target":{"x":-237,"y":67,"z":434}},{"do":"goto","target":{"x":-239,"y":67,"z":435}},{"do":"goto","target":{"x":-240,"y":67,"z":434}}]}
+- 20:15 act: {"actions":[],"say":"Billy, the farm at -251,68,353 is empty, and so is the sheep spot at -257,66,375. The only cow I've seen was near -251,68,444, where the blast was. I found no food on the ground h
+- 20:17 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":365}}],"say":"It is getting dark and I have no food, so I'm heading back toward the beds."}
+- 20:18 act: {"actions":[{"do":"mine","block":"cobblestone","count":1}],"say":"Zack, I have no pickaxe, so I'm trying to break the cobblestone by hand. Billy, if you have a pickaxe, come help."}
+- 20:18 act: {"actions":[],"say":"Zack, my hands can't break the cobblestone; it needs a pickaxe. I have no pickaxe and no food. Billy or Trini, bring a pickaxe if you have one."}
+- 20:21 act: {"actions":[{"do":"goto","target":{"x":-271,"y":68,"z":364}},{"do":"sleep"}],"say":"It's night. I'm going into the yellow bed to sleep. I have no food, so tomorrow I'll go with the others for the cow 
+- 20:22 act: {"actions":[],"say":"Glad Zack is out. I'm at hunger 20 and will search for cows and sheep with Trini and Tommy at first light. I'll share any food I find."}
+- 20:30 act: {"actions":[{"do":"goto","target":{"x":-294,"y":69,"z":291}}],"say":"I have no weapon, so I'm skipping the cow field. I'm heading to the ripe wheat near -294,69,290 for food."}
+- 20:30 act: {"actions":[{"do":"goto","target":"ag_billy_01"}],"say":"Billy, I'm here at the wheat. I have 7 wheat seeds. Can I trade them for bread, or for wheat to plant? I also have 2 stone hoes if you need one
+- 20:30 act: {"actions":[],"say":"Billy, I'm beside you. Tell me how many seeds or hoe you want, and I'll hand them over for bread for me."}
