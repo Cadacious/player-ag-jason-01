@@ -1044,3 +1044,17 @@
 - 20:54 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"goto","target":{"x":-288,"y":68,"z
 - 20:54 act: {"actions":[{"do":"unstick"}],"say":"I'm stuck in a pit near the beds at -282, 64, 320. If anyone is close, a block or a hand would help.","intent":{"goal":"escape_pit","program":"travel","arguments":
 - 20:55 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"goto","target":{"x":-282,"y":66,"z":318}}]}
+- 20:55 act: {"actions":[{"do":"goto","target":{"x":-282,"y":64,"z":340}}],"say":"Tommy, Zack: I'm out of the pit and going south to look for cows and sheep. I'll shout if I find any.","intent":{"goal":"find_food_
+- 20:55 act: {"actions":[{"do":"goto","target":{"x":-282,"y":65,"z":365}}],"intent":{"goal":"find_food_far_south","program":"travel","arguments":{"target":{"x":-282,"y":65,"z":365}},"wake_on":["goal_completed","pr
+- 20:56 act: {"actions":[{"do":"goto","target":{"x":-310,"y":66,"z":380}}],"intent":{"goal":"find_animals_southwest","program":"travel","arguments":{"target":{"x":-310,"y":66,"z":380}},"wake_on":["goal_completed",
+- 20:56 say: {"text":"Zack, I'm out of the pit now, at -310,78,380. No food yet. Two iron golems are near me. Dusk is coming, so I'll build a dirt shelter here for the night."}
+- 20:56 act: {"actions":[{"do":"build","blueprint":{"name":"shelter","blocks":[]}}]}
+- 20:56 act: {"intent":{"goal":"night_shelter_dirt","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"],
+- 20:57 act: {"intent":{"goal":"reach_sheep_area","program":"travel","arguments":{"target":{"x":-257,"y":66,"z":375}},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"],"li
+- 20:57 act: {"intent":{"goal":"search_pigs_southwest","program":"travel","arguments":{"target":{"x":-280,"y":66,"z":395}},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"
+- 20:57 act: {"intent":{"goal":"search_pigs_southwest_2","program":"travel","arguments":{"target":{"x":-290,"y":68,"z":400}},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damag
+- 20:58 act: {"intent":{"goal":"reach_pigs_west","program":"travel","arguments":{"target":{"x":-378,"y":78,"z":336}},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"],"lim
+- 20:58 act: {"intent":{"goal":"find_pigs_near_pumpkins","program":"travel","arguments":{"target":{"x":-368,"y":66,"z":330}},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damag
+- 20:58 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_dam
+- 20:59 act: {"actions":[{"do":"sleep"}],"say":"Sealed in for the night in this pit at -366,66,329. Sleeping now."}
+- 21:00 act: {"actions":[{"do":"wait","seconds":240}],"intent":{"goal":"hold_in_pit_until_dawn","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_
