@@ -298,3 +298,10 @@
 - 04:51 act: {"actions":[{"do":"mine","block":"cobblestone","count":3},{"do":"goto","target":{"x":-240,"y":52,"z":345}}],"reasoning":"Body is back. Keep digging upward through the stone."}
 - 04:51 act: {"actions":[{"do":"mine","block":"stone","count":4}],"say":"Jason, still at -240,49,345, healthy. Mining works here (I have 62 cobblestone), but the walls stay solid. Trying stone walls to open a path
 - 04:52 act: {"actions":[],"say":"Jason, at -239,48,344 now, healthy. Water is near, so I've stopped digging: mining says water would flow in on me. Tommy is next to me. I'll hold here and wait for a clear path.",
+- 05:00 act: {"intent":{"goal":"fetch_dropped_item","program":"travel","arguments":{"target":{"x":-240,"y":50,"z":348}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
+- 05:01 act: {"intent":{"goal":"reach_item_southeast","program":"travel","arguments":{"target":{"x":-238,"y":48,"z":347}},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":300,"max_block
+- 05:01 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"stone","count":1}],"intent":{"goal":"reach_items_south","program":"travel","arguments":{"target":{"x":-239,"y":48,"z":347}},"wake_on":["goal_complete
+- 05:02 act: {"intent":{"goal":"build_night_shelter","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"m
+- 05:02 act: {"intent":{"goal":"build_night_shelter_dirt","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max
+- 05:02 act: {"intent":{"goal":"build_night_wall","program":"build","arguments":{"blueprint":"wall","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":900,"max_bloc
+- 05:02 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"wait_out_night_here","program":"rest","arguments":{},"wake_on":["unexpected_damage","directly_addressed","goal_completed"],"limits":{"max_world_ticks":1
