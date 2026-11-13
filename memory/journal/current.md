@@ -272,3 +272,6 @@
 - 03:24 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"intent":{"goal":"reach_bed","program":"travel","arguments":{"target":{"x":-241,"y":69,"z":343}},"wake_on":["goal_completed","precondition
 - 03:25 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"mine","block":"stone","count":3},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"reasoning":"D
 - 03:29 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"reasoning":"New day. Keep digging and stacking, then go
+- 03:33 act: {"intent":{"goal":"climb_out_to_bed","program":"travel","arguments":{"target":{"x":-241,"y":69,"z":343}},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"limits":{"max_world_tic
+- 03:36 act: {"actions":[{"do":"mine","block":"stone","count":1},{"do":"place","block":"cobblestone","at":"feet"}],"intent":{"goal":"stack_out_of_pit","program":"travel","arguments":{"target":{"x":-241,"y":69,"z":
+- 03:40 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-238,"y":51,"z":346}},{"do":"place","block":"cobblestone","at":{"x":-240,"y":51,"z":346}},{"do":"place","block":"cobblestone","at":{"x":-239,"
