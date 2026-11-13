@@ -1020,3 +1020,7 @@
 - 20:30 act: {"actions":[{"do":"goto","target":{"x":-294,"y":69,"z":291}}],"say":"I have no weapon, so I'm skipping the cow field. I'm heading to the ripe wheat near -294,69,290 for food."}
 - 20:30 act: {"actions":[{"do":"goto","target":"ag_billy_01"}],"say":"Billy, I'm here at the wheat. I have 7 wheat seeds. Can I trade them for bread, or for wheat to plant? I also have 2 stone hoes if you need one
 - 20:30 act: {"actions":[],"say":"Billy, I'm beside you. Tell me how many seeds or hoe you want, and I'll hand them over for bread for me."}
+- 20:32 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"bread","count":1}],"say":"Tommy, I have your feathers, I'll keep them for Billy. Here is one bread for you."}
+- 20:33 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"bread","count":1}],"say":"Trini, I have one bread left. It's yours, since you're here and hungry. A villager is attacking near me, so I'm moving off
+- 20:33 act: {"actions":[{"do":"goto","target":{"x":-299,"y":69,"z":283}}]}
+- 20:34 act: {"actions":[{"do":"goto","target":"ag_trini_01"},{"do":"give","to":"ag_trini_01","item":"bread","count":1}],"say":"Trini, coming to you with the bread now."}
