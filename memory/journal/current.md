@@ -574,3 +574,8 @@
 - 12:10 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"wall","program":"build","arguments":{"blueprint":"wall","block":"oak_planks"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"lim
 - 12:10 act: {"intent":{"goal":"shelter_planks","program":"build","arguments":{"blueprint":"shelter","block":"oak_planks"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world
 - 12:15 act: {"say":"Zack, I have two wheat. I will give it to you if you are still nearby.","intent":{"goal":"hold_shelter","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","pre
+- 12:15 act: {"intent":{"goal":"bring_wheat_to_zack","program":"travel","arguments":{"target":{"x":-191,"y":66,"z":352}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_t
+- 12:15 act: {"actions":[{"do":"goto","target":{"x":-191,"y":66,"z":352}}],"say":"Zack, on my way with the wheat."}
+- 12:16 act: {"actions":[{"do":"unstick"}]}
+- 12:16 act: {"actions":[{"do":"goto","target":{"x":-191,"y":66,"z":352}}]}
+- 12:16 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}}]}
