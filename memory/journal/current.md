@@ -589,3 +589,21 @@
 - 12:19 act: {"actions":[{"do":"goto","target":{"x":-250,"y":66,"z":340}}],"reasoning":"Moved a few blocks; continue toward Zack in steps."}
 - 12:19 say: {"text":"Zack, Jason here with 2 wheat"}
 - 12:20 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"oak_planks"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_wo
+- 12:21 act: {"intent":{"goal":"deliver_wheat_to_zack","program":"travel","arguments":{"x":-191,"y":66,"z":352},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":240
+- 12:29 act: {"intent":{"goal":"deliver_wheat_to_zack","program":"travel","arguments":{"x":-191,"y":66,"z":352},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"limits":
+- 12:31 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-243,"y":67,"z":346}}],"say":"Kimberly, I'm at -272,64,326, still walking out. Zack, I'm coming with your wheat.","reasoning":"Still at the shel
+- 12:31 act: {"actions":[{"do":"goto","target":"ag_zack_01"}],"reasoning":"Walking to Zack by name instead of coordinates."}
+- 12:31 act: {"actions":[{"do":"goto","target":{"x":-262,"y":64,"z":333}}],"say":"Zack, Kimberly: I'm at -272,63,326 and trying to walk out toward you with the wheat.","reasoning":"Zack is not in sight. Try a shor
+- 12:31 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"goto","target":{"x":-262,"y":64,"z":333}}],"reasoning":"Surrounded by dirt on all sides. Mine out three blocks, then walk toward the route."}
+- 12:32 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"unstick"},{"do":"goto","target":{"x":-272,"y":62,"z":327}}],"reasoning":"Keep digging south and try a one-block step; goto keeps failing so ge
+- 12:32 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"goto","target":{"x":-262,"y":64,"z":336}}],"say":"I'm digging out east toward you, Zack. Still have your 2 wheat.","reasoning":"Dig out in sho
+- 12:32 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"dirt","count":1},{"do":"goto","target":{"x":-270,"y":62,"z":327}},{"do":"mine","block":"dirt","count":1},{"do":"goto","target":{"x":-270,"y":62,"z":3
+- 12:32 act: {"actions":[{"do":"craft","item":"crafting_table","count":1},{"do":"place","block":"crafting_table","at":"feet"},{"do":"craft","item":"stone_pickaxe","count":1}],"reasoning":"Stone blocks are in the w
+- 12:32 act: {"actions":[{"do":"mine","block":"stone","count":3},{"do":"unstick"},{"do":"goto","target":{"x":-270,"y":63,"z":328}},{"do":"mine","block":"stone","count":3},{"do":"goto","target":{"x":-269,"y":63,"z"
+- 12:33 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"unstick"},{"do":"goto","target":{"x":-271,"y":63,"z":328}}],"reasoning":"Dig out in another direction and hop a single block."}
+- 12:33 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"unstick"},{"do":"goto","target":{"x":-271,"y":62,"z":329}},{"do":"mine","block":"dirt","count":2},{"do":"goto","target":{"x":-270,"y":62,"z":3
+- 12:33 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"goto","target":{"x":-270,"y":64,"z":327}}],"reasoning":"Try to climb out by stacking dirt under me, since the ground route
+- 12:33 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"goto","target":{"x":-269,"y":63,"z":327}},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"goto","target"
+- 12:38 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
+- 12:38 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-268,"y":61,"z":327}},{"do":"place","block":"dirt","at":{"x":-270,"y":61,"z":327}},{"do":"place","block":"dirt","at":{"x":-269,"y":61,"z":326}},{"do"
+- 12:38 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-270,"y":61,"z":327}}],"reasoning":"Test one wall placement to see which cells accept dirt."}
