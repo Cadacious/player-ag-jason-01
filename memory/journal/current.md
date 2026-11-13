@@ -616,3 +616,10 @@
 - 12:50 act: {"say":"Jason: I'm stuck at -269,61,328 and can't move. Zack, can you come to me? I have 2 wheat.","actions":[{"do":"unstick"},{"do":"mine","block":"dirt","count":2}]}
 - 12:51 act: {"intent":{"goal":"reach_zack_with_wheat","program":"travel","arguments":{"target":{"x":-191,"y":66,"z":354}},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"
 - 12:57 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks"
+- 12:57 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks"
+- 12:57 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-270,"y":61,"z":327}},{"do":"place","block":"dirt","at":{"x":-268,"y":61,"z":327}},{"do":"place","block":"dirt","at":{"x":-269,"y":61,"z":326}},{"do"
+- 12:58 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-269,"y":62,"z":327}},{"do":"place","block":"dirt","at":{"x":-270,"y":62,"z":327}},{"do":"place","block":"dirt","at":{"x":-268,"y":62,"z":327}},{"do"
+- 12:58 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
+- 12:58 act: {"intent":{"goal":"shelter_retry","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks"
+- 12:58 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-268,"y":61,"z":327}},{"do":"place","block":"dirt","at":{"x":-270,"y":61,"z":327}},{"do":"place","block":"dirt","at":{"x":-269,"y":61,"z":326}},{"do"
+- 12:58 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-269,"y":62,"z":326}},{"do":"place","block":"dirt","at":{"x":-269,"y":62,"z":328}},{"do":"place","block":"dirt","at":{"x":-269,"y":63,"z":327}},{"do"
