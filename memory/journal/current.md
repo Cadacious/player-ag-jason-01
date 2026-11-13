@@ -325,3 +325,4 @@
 - 05:59 act: {"intent":{"goal":"climb_out_pillar","program":"build","arguments":{"blueprint":{"name":"pillar","blocks":[{"block":"cobblestone","dx":0,"dy":0,"dz":0},{"block":"cobblestone","dx":0,"dy":1,"dz":0},{"b
 - 06:05 act: {"intent":{"goal":"build_shelter_pit","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max
 - 06:05 act: {"intent":{"goal":"build_shelter_dirt","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_block
+- 06:11 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_block_oper
