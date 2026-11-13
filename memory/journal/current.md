@@ -681,3 +681,4 @@
 - 14:14 act: {"actions":[{"do":"mine","block":"dirt","count":4},{"do":"goto","target":{"x":-266,"y":61,"z":337}},{"do":"unstick"},{"do":"goto","target":{"x":-262,"y":67,"z":352}}]}
 - 14:14 act: {"say":"Billy, Zack, I'm boxed in by dirt at -266,61,334 and I keep digging, but I'm making only a block or two at a time. I still have 2 wheat for whoever gets to me first. Tell me if you can come to
 - 14:17 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"say":"Billy, Zack, dusk is here. I'm digging toward the beds now, about 18 blocks off."}
+- 14:18 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"],"
