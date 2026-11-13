@@ -685,3 +685,10 @@
 - 14:19 act: {"actions":[{"do":"wait","seconds":120}],"say":"I'm sealed in the shelter for the night. I'll try the beds again shortly.","reasoning":"Sheltered and safe. Beds were blocked before. Wait, then retry s
 - 14:21 act: {"actions":[{"do":"sleep"}],"reasoning":"Still sealed in shelter at night. Retry sleep once; beds may be free now."}
 - 14:26 act: {"say":"Billy, I'm still holding 2 wheat for you. I'm sealed in my shelter at -271, 61, 326 for the night and will bring it at first light.","reasoning":"Night, sealed in shelter, health full. Travell
+- 14:30 act: {"intent":{"goal":"reach_yellow_beds","program":"travel","arguments":{"x":-239,"y":69,"z":343},"wake_on":["goal_completed","precondition_failed","directly_addressed"],"limits":{"max_world_ticks":2400,
+- 14:30 act: {"intent":{"goal":"reach_zack","program":"travel","arguments":{"x":-199,"y":62,"z":350},"wake_on":["goal_completed","precondition_failed","directly_addressed"],"limits":{"max_world_ticks":2400,"max_bl
+- 14:33 act: {"actions":[{"do":"goto","target":{"x":-199,"y":62,"z":350}}],"reasoning":"Travel intent did not move me; try a direct goto."}
+- 14:33 act: {"actions":[{"do":"goto","target":{"x":-199,"y":62,"z":350}}],"reasoning":"Continue toward Zack."}
+- 14:33 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-250,"y":66,"z":345}}],"reasoning":"Blocked; unstick, then go to a closer waypoint on the way."}
+- 14:33 act: {"say":"Zack, I'm stuck at -266, 61, 335 and can't get closer to you. Can you come west toward me? I have the 2 wheat for you.","reasoning":"Movement keeps failing. Ask Zack to come to me rather than 
+- 14:38 act: {"say":"Dusk, I'm building a dirt shelter here for the night. Wheat stays with me until morning, Zack.","intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block
