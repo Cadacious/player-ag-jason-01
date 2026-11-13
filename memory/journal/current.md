@@ -982,3 +982,19 @@
 - 19:41 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":354}},{"do":"sleep"}],"say":"It is night and the sheep has wandered off. I'm going to the beds to sleep."}
 - 19:43 act: {"actions":[{"do":"goto","target":{"x":-257,"y":66,"z":375}},{"do":"attack","target":"sheep"}],"say":"Hunger is 19, so I'm going after the sheep to the south first.","reasoning":"Food is the first nee
 - 19:43 act: {"actions":[{"do":"eat"},{"do":"goto","target":{"x":-262,"y":67,"z":354}}],"say":"Got mutton from the sheep. Eating, then going back to the beds for the night.","reasoning":"Hunger 19; mutton is edibl
+- 19:44 act: {"say":"Kimberly, I'm awake again. Health and food are full. Any news from you?","intent":{"goal":"hunt_sheep_for_food","program":"travel","arguments":{"target":{"x":-257,"y":66,"z":375}},"wake_on":["
+- 19:44 act: {"say":"Thank you, Kimberly. I'm fed for now. I'll come for the beef at first light if I'm still hungry. Sorry about Zack."}
+- 19:48 act: {"say":"Zack, I'm fed but I'll go hunt the sheep to the south-east and bring you what I can. Hold still.","intent":{"goal":"hunt_sheep_for_zack","program":"travel","arguments":{"x":-257,"y":66,"z":374
+- 19:49 act: {"say":"Zack, I'm at -272,65,347 with no food, only dirt and cobblestone. I'm coming to you to help dig you out.","intent":{"goal":"reach_zack","program":"travel","arguments":{"x":-270,"y":67,"z":362}
+- 19:49 act: {"intent":{"goal":"reach_zack","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":362}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":120
+- 19:49 act: {"say":"Zack, I'm right beside you at -271,67,362 with no food. Kimberly has the beef. I'll keep you company while you get out.","actions":[{"do":"note","text":"Day 163 dawn: fed, hunger 20. Zack boxe
+- 19:49 act: {"say":"Zack, I'm 3 blocks off, north of you at -271,67,362. Tell me which side the planks are on and I'll break them from my side."}
+- 19:50 act: {"say":"Zack, I can't see the planks from here; I'm boxed in by dirt too. I have no pickaxe, only hands and a stone hoe. Dig your way south and Kimberly will meet you. I'll stay near."}
+- 19:50 act: {"say":"Zack, I'm staying near. Trini is on the west planks, so keep digging with her. I'll watch for creepers.","actions":[{"do":"note","text":"Day 163: Zack boxed in by oak planks near -271,67,364. 
+- 19:52 act: {"say":"Trini, good. I have no food either, only dirt, cobblestone and seeds. Tommy, if the farm has wheat, tell me and I will help carry it. I'm still near the beds, at -270,67,367."}
+- 19:52 act: {"say":"Good, Zack is out. Eat well. I'll stay here by the beds.","actions":[{"do":"note","text":"Day 163: Zack got out of the oak plank box with Trini breaking planks from the east. Kimberly gave him
+- 19:53 act: {"say":"Tommy, be careful. Back off if it gets bad. Zack, the sheep is at -257,66,375 if you need food. Kimberly, thank you for staying near.","actions":[{"do":"note","text":"Day 163: Zack ate some be
+- 19:54 act: {"say":"Zack, good luck with the sheep. I have nothing to eat, but I'm holding dirt and cobblestone if anyone needs building stone."}
+- 19:58 act: {"say":"Kimberly, I have a stone hoe and 7 wheat seeds, so I'll try to plant them by the beds for us. I have no food, sorry.","actions":[{"do":"note","text":"Day 163: food is gone for most of us. Kimb
+- 19:58 act: {"say":"Kimberly, I'm right here at the beds. Hand them over when you're ready, and I'll start a row of farmland by the beds."}
+- 19:59 act: {"actions":[{"do":"note","text":"Day 163 dusk. Kimberly says she is sending seeds for the row by the beds. I hold 7 wheat_seeds and 2 stone hoes. Waiting for her handover."}],"say":"Thanks, Kimberly. 
