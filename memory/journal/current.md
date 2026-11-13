@@ -217,3 +217,8 @@
 - 01:14 say: {"text":"Trini, I can't dig straight down, it would drop me. I'll make a step sideways. Stay put."}
 - 01:14 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"cobblestone","count":1}],"say":"Tommy, here is my one cobblestone. Trini has more and will bring some once she is out.","reasoning":"Tommy needs sto
 - 01:25 say: {"text":"Good, Trini is free. Tommy, dig toward Kimberly; I'm still boxed at -233,58,349 and will follow once there's a way out."}
+- 01:37 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"say":"Jason here at -233,57,349, still in the pit. I'm stacking dirt to climb out. Night is coming, so I'll seal a spot and res
+- 01:39 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-233,"y":58,"z":350}},{"do":"goto","target":{"x":-233,"y":58,"z":350}}],"reasoning":"Placing at feet did nothing. Try a block one step up and climb o
+- 01:39 act: {"actions":[{"do":"unstick"},{"do":"place","block":"dirt","at":{"x":-234,"y":57,"z":349}}],"reasoning":"The way is blocked; try unstick and a side dirt placement to make a step."}
+- 01:47 act: {"intent":{"goal":"gather_cobble_shelter","program":"gather","arguments":{"block":"cobblestone","count":20},"wake_on":["goal_completed","unexpected_damage","precondition_failed"],"limits":{"max_world_
+- 01:48 act: {"actions":[{"do":"mine","block":"stone","count":10}],"reasoning":"The gather intent changed nothing. Mine stone directly as an action instead."}
