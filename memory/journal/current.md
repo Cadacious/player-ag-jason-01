@@ -307,3 +307,4 @@
 - 05:02 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"wait_out_night_here","program":"rest","arguments":{},"wake_on":["unexpected_damage","directly_addressed","goal_completed"],"limits":{"max_world_ticks":1
 - 05:07 act: {"intent":{"goal":"build_day_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
 - 05:07 say: {"text":"Jason, still at -239,49,344, healthy, perched on a ledge. My shelter keeps stalling on blocked spots. If anyone has an open path or a spare bed, tell me."}
+- 05:11 act: {"intent":{"goal":"shelter_retry_day","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
