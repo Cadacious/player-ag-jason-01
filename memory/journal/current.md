@@ -1035,3 +1035,7 @@
 - 20:41 act: {"intent":{"goal":"night_shelter_2","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_tick
 - 20:41 act: {"intent":{"goal":"night_shelter_3","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_wor
 - 20:41 act: {"actions":[{"do":"sleep"}]}
+- 20:42 act: {"say":"Billy, I have not seen the chicken or cow since the farm went empty. I am looking for a bed too. I will check the white beds here.","actions":[{"do":"sleep"}],"intent":{"goal":"find_bed_for_ni
+- 20:42 act: {"intent":{"goal":"night_shelter","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world
+- 20:42 act: {"actions":[{"do":"sleep"}],"say":"I am boxed in and it is night, so I will rest here. Billy, the beds are yours if you need one.","intent":{"goal":"rest_till_morning","program":"rest","arguments":{},
+- 20:47 act: {"actions":[{"do":"unstick"}],"say":"Good morning, Billy. Good luck with the chicken or cow. I am heading out to look for food too."}
