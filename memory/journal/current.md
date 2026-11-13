@@ -313,3 +313,8 @@
 - 05:24 act: {"intent":{"goal":"shelter_cobble","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_bl
 - 05:26 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"}],"reasoning":"Test whether direct placing works now that it is dawn."}
 - 05:26 say: {"text":"Jason here, at -239,49,344 on the ledge. My place and build actions do nothing, even with cobblestone. Can anyone show me how or help me get a shelter?"}
+- 05:33 act: {"actions":[{"do":"place","block":"dirt","at":"feet"}],"say":"Still on the ledge at -239,49,344, health and hunger full. Trying to place blocks again.","reasoning":"Retry placement at feet to see if i
+- 05:35 act: {"actions":[{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"}],"reasoning":"Try unstick, then one cobblestone placement, to see if either changes the state."}
+- 05:35 act: {"intent":{"goal":"shelter_cobble","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage","precondition_failed"],"limits":{"max_wor
+- 05:35 act: {"intent":{"goal":"shelter_cobble_2","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_
+- 05:40 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-240,"y":48,"z":344}},{"do":"place","block":"cobblestone","at":{"x":-238,"y":48,"z":344}},{"do":"place","block":"cobblestone","at":{"x":-239,"
