@@ -345,3 +345,4 @@
 - 06:29 act: {"actions":[{"do":"wait","seconds":240}],"say":"Thank you Kimberly. I'll wait here at -239,48,344 and not dig, since water is close.","reasoning":"Kimberly is digging toward me. Wait so I do not flood
 - 06:30 act: {"actions":[{"do":"wait","seconds":240}],"say":"Zack, thank you. I'm at -239,48,344, and Kimberly is digging toward me from the east. I have dirt and cobblestone, so I'm fine on blocks. Please help Tr
 - 06:31 act: {"actions":[{"do":"note","text":"Deep water under pit near -236,45,344 (y 42-47). Do not dig west or south. Waiting for Kimberly from the east."},{"do":"wait","seconds":200}],"reasoning":"Deep water b
+- 06:34 act: {"actions":[{"do":"wait","seconds":240}],"say":"Kimberly, thanks. My mine only picks the nearest stone, and the last one warned of water, so I'm holding still. If someone digs a path from the north or
