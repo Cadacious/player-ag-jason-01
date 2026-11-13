@@ -473,3 +473,7 @@
 - 10:08 act: {"reasoning":"Out of shaft onto grass at y=64. Try giving potatoes to Kimberly, who is nearby, then head to the beds.","actions":[{"do":"give","to":"ag_kimberly_01","item":"potato","count":6},{"do":"g
 - 10:08 act: {"reasoning":"Give failed, Kimberly out of reach. I am on grass, out of the shaft. Try the beds again.","actions":[{"do":"goto","target":{"x":-240,"y":69,"z":343}}]}
 - 10:08 act: {"reasoning":"Out of the shaft at y=64, not enclosed. Head to the beds, then rest.","actions":[{"do":"goto","target":{"x":-240,"y":69,"z":343}}]}
+- 10:08 act: {"reasoning":"Goto to the beds keeps failing from here. Try a nearer waypoint west, step by step.","actions":[{"do":"goto","target":{"x":-235,"y":65,"z":346}},{"do":"goto","target":{"x":-240,"y":69,"z
+- 10:08 act: {"reasoning":"Still not moving. Unstick, then try goto again. If it fails, I rest here and try later.","actions":[{"do":"unstick"},{"do":"goto","target":{"x":-240,"y":69,"z":343}}]}
+- 10:08 act: {"reasoning":"Moved one block west. Keep trying the beds with a waypoint.","actions":[{"do":"goto","target":{"x":-236,"y":68,"z":344}}]}
+- 10:08 act: {"reasoning":"Goto blocked. Build a small enclosure of dirt around me for shelter, then rest.","actions":[{"do":"place","block":"dirt","at":{"x":-230,"y":64,"z":346}},{"do":"unstick"},{"do":"goto","ta
