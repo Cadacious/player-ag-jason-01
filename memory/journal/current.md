@@ -692,3 +692,28 @@
 - 14:33 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-250,"y":66,"z":345}}],"reasoning":"Blocked; unstick, then go to a closer waypoint on the way."}
 - 14:33 act: {"say":"Zack, I'm stuck at -266, 61, 335 and can't get closer to you. Can you come west toward me? I have the 2 wheat for you.","reasoning":"Movement keeps failing. Ask Zack to come to me rather than 
 - 14:38 act: {"say":"Dusk, I'm building a dirt shelter here for the night. Wheat stays with me until morning, Zack.","intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block
+- 14:38 act: {"say":"Zack, hold on. I still have the 2 wheat for you. I'm sealed in too. At first light I'll dig out and bring it to you.","intent":{"goal":"rest_sheltered_until_dawn","program":"rest","arguments":
+- 14:39 act: {"actions":[{"do":"sleep"}],"say":"Zack, Tommy: I'm sealed in for the night too. First light, I bring Zack the wheat."}
+- 14:47 act: {"say":"Morning. Zack, I'm coming with your 2 wheat. Kimberly, Billy, Trini: I'm carrying dirt and seeds, and I'll share what I can.","intent":{"goal":"reach_zack_with_wheat","program":"travel","argum
+- 14:48 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"reach_zack_with_wheat","program":"travel","arguments":{"x":-199,"y":62,"z":352},"wake_on":["directly_addressed","precondition_failed","goal_completed"],
+- 14:48 act: {"say":"I'm out of the pit. Heading to Zack with the wheat now.","intent":{"goal":"reach_zack_with_wheat","program":"travel","arguments":{"x":-199,"y":62,"z":352},"wake_on":["directly_addressed","prec
+- 14:49 act: {"actions":[{"do":"goto","target":{"x":-199,"y":62,"z":352}}]}
+- 14:49 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"unstick"}]}
+- 14:49 act: {"actions":[{"do":"mine","block":"dirt","count":4},{"do":"goto","target":{"x":-199,"y":62,"z":352}}]}
+- 14:49 act: {"say":"Zack, I'm at -265,61,336, still boxed in by dirt and can't get far. I'll keep digging toward you. Tell me when you can see me and I'll hand you the wheat.","actions":[{"do":"mine","block":"dir
+- 14:49 act: {"say":"Zack, I'm heading north toward Trini's sheep with the wheat. I'll give it to whoever is hungriest where I can see them.","actions":[{"do":"goto","target":{"x":-240,"y":67,"z":300}}]}
+- 14:50 act: {"say":"Billy, Zack: I have 2 wheat and I'm at -265,61,335, stuck behind dirt. Tell me where you are and I'll come to you.","actions":[{"do":"mine","block":"dirt","count":3},{"do":"goto","target":{"x"
+- 14:50 act: {"say":"Zack, I'm at -265,61,335. I'll dig east toward you with the wheat. Keep digging west toward me.","actions":[{"do":"mine","block":"dirt","count":4},{"do":"goto","target":{"x":-258,"y":62,"z":34
+- 14:50 act: {"say":"Kimberly, Billy: I'm coming north to you with 2 wheat. Hold on.","actions":[{"do":"goto","target":{"x":-240,"y":67,"z":300}}]}
+- 14:51 act: {"actions":[{"do":"goto","target":{"x":-240,"y":67,"z":300}}]}
+- 14:51 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"goto","target":{"x":-268,"y":61,"z":322}},{"do":"mine","block":"dirt","count":3},{"do":"goto","target":{"x":-262,"y":62,"z":316}}]}
+- 14:51 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"mine","block":"stone","count":2},{"do":"goto","target":{"x":-266,"y":62,"z":320}},{"do":"mine","block":"dirt","count":2},{"do":"mine","block":
+- 14:51 act: {"say":"Billy, Kimberly: I'm digging north toward you. I'll bring the 2 wheat, split between you two.","actions":[{"do":"mine","block":"dirt","count":3},{"do":"goto","target":{"x":-266,"y":62,"z":318}
+- 14:51 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"goto","target":{"x":-262,"y":61,"z":325}},{"do":"mine","block":"dirt","count":2},{"do":"goto","target":{"x":-262,"y":61,"z":320}}]}
+- 14:51 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"dirt","count":4}]}
+- 14:51 act: {"actions":[{"do":"goto","target":{"x":-266,"y":61,"z":322}},{"do":"mine","block":"dirt","count":3},{"do":"goto","target":{"x":-266,"y":61,"z":319}}]}
+- 14:53 act: {"actions":[{"do":"goto","target":{"x":-266,"y":61,"z":323}},{"do":"mine","block":"dirt","count":2},{"do":"goto","target":{"x":-266,"y":61,"z":323}},{"do":"mine","block":"dirt","count":2},{"do":"goto"
+- 14:53 act: {"say":"Billy, Kimberly: I'm still boxed in at -266,61,324 and my digging isn't opening a path north. I'm keeping the 2 wheat for you and will come as soon as I'm out.","actions":[{"do":"mine","block"
+- 14:54 act: {"actions":[{"do":"goto","target":{"x":-268,"y":60,"z":318}},{"do":"mine","block":"stone","count":3},{"do":"goto","target":{"x":-268,"y":60,"z":318}}]}
+- 14:54 act: {"say":"Zack, Tommy: I'm still boxed in at -268,60,324 with 2 wheat, and I can't get out north. Tommy, if you're free, keep your wheat for Billy and Kimberly.","actions":[{"do":"mine","block":"stone",
+- 14:54 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"goto","target":{"x":-269,"y":60,"z":322}},{"do":"mine","block":"stone","count":2},{"do":"goto","target":{"x":-269,"y":60,"z":320}},{"do":"min
