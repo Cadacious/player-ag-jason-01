@@ -371,3 +371,7 @@
 - 07:59 act: {"actions":[{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"goto","target":{"x":-239,"y":50,"z":344}}],"reasoning":"Retry unstick and stack cobblestone under feet."}
 - 07:59 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-240,"y":50,"z":344}}],"reasoning":"Mine nearby stone to open space, then stack
 - 07:59 say: {"text":"Jason: still at the bottom, water nearby so I can't dig. Please drop dirt or planks straight down onto my tile when you can."}
+- 08:29 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"goto","target":{"x":-240,"y":50,"z":344}}],"reasoning":"Daylight retry of stacking and unstick."}
+- 08:50 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"reasoning":"Zack says dirt is coming down. Stack again and try to step out."}
+- 08:50 say: {"text":"Jason: no dirt has reached me yet, Zack. Maybe the shaft is blocked above me. Thank you for trying."}
+- 09:06 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"reasoning":"Dawn retry of stack and unstick."}
