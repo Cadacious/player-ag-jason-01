@@ -915,3 +915,17 @@
 - 18:41 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":362}}]}
 - 18:41 act: {"actions":[{"do":"goto","target":{"x":-284,"y":67,"z":358}}],"say":"A villager is attacking me by the beds. I am backing off west to -284, 358 and will come back when it is calm."}
 - 18:42 say: {"text":"Kimberly, Jason here, hungry at 16 with health 5.8. I'm staying out here until the villager fight stops, then I'll come for my share of beef."}
+- 18:44 act: {"say":"Kimberly, I'm at the beds now and I'll come to you for the beef. Where are you?","intent":{"goal":"reach_kimberly_beef","program":"travel","arguments":{"x":-275,"y":67,"z":362},"wake_on":["goa
+- 18:44 act: {"intent":{"goal":"reach_kimberly_beef","program":"travel","arguments":{"x":-275,"y":67,"z":362},"wake_on":["goal_completed","precondition_failed","directly_addressed","unexpected_damage"],"limits":{"
+- 18:44 act: {"actions":[{"do":"goto","target":{"x":-275,"y":67,"z":362}}]}
+- 18:44 act: {"actions":[{"do":"goto","target":{"x":-260,"y":66,"z":359}}],"say":"Kimberly, I'm coming to you at -260, 66, 359 for my share of the beef."}
+- 18:44 say: {"text":"Kimberly, I'm right beside you. Please give me my share of the beef, Jason. Thank you."}
+- 18:44 act: {"actions":[{"do":"wait","seconds":5},{"do":"eat"}]}
+- 18:45 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"}],"say":"Kimberly, I'm coming next to you now to pick up the beef."}
+- 18:45 act: {"actions":[{"do":"wait","seconds":8},{"do":"eat"}]}
+- 18:45 act: {"say":"Kimberly, thank you for trying. Nothing has reached me yet. I'll stand here a little longer, and if the beef does not come I'll look for wheat or potatoes nearby."}
+- 18:45 act: {"actions":[{"do":"wait","seconds":5},{"do":"eat"}]}
+- 18:45 act: {"intent":{"goal":"build_shelter_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_
+- 18:46 act: {"actions":[{"do":"wait","seconds":30}],"say":"Kimberly, I am standing still at -258, 66, 357. Please give me my beef."}
+- 18:47 act: {"actions":[{"do":"wait","seconds":10},{"do":"eat"}]}
+- 18:47 act: {"say":"Dawn. No beef reached me. I'm going to the old farm to look for food.","actions":[{"do":"goto","target":{"x":-251,"y":68,"z":353}}]}
