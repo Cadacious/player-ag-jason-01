@@ -657,3 +657,6 @@
 - 13:58 act: {"actions":[{"do":"note","text":"Sleep failed: nearby beds occupied or blocked. I am sealed in the shelter, so I will wait here for the night."}]}
 - 14:02 act: {"actions":[{"do":"sleep"}]}
 - 14:02 act: {"actions":[{"do":"note","text":"Night. Sleep failed again: nearby beds occupied. I'm sealed and safe, so I'll wait out the night here and try for a bed at dawn."}]}
+- 14:05 act: {"actions":[{"do":"sleep"}],"say":"It's night and I'm sealed in the pit at -271,61,326. I'll try to rest here.","reasoning":"Night, enclosed, health and hunger full. Beds nearby are taken, so try slee
+- 14:09 act: {"actions":[{"do":"craft","item":"chest","count":1}],"reasoning":"Morning, safe, full health. Try a craft I haven't done. Crafting table is nearby."}
+- 14:09 say: {"text":"Zack, Trini: my craft worked for a chest. Standing right by a crafting table is what made it work for me."}
