@@ -980,3 +980,5 @@
 - 19:41 act: {"actions":[{"do":"goto","target":{"x":-257,"y":67,"z":378}},{"do":"attack","target":"sheep"}],"say":"A sheep to the east. I'm going for it."}
 - 19:41 act: {"actions":[{"do":"eat"}],"say":"I got some mutton. Eating it now."}
 - 19:41 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":354}},{"do":"sleep"}],"say":"It is night and the sheep has wandered off. I'm going to the beds to sleep."}
+- 19:43 act: {"actions":[{"do":"goto","target":{"x":-257,"y":66,"z":375}},{"do":"attack","target":"sheep"}],"say":"Hunger is 19, so I'm going after the sheep to the south first.","reasoning":"Food is the first nee
+- 19:43 act: {"actions":[{"do":"eat"},{"do":"goto","target":{"x":-262,"y":67,"z":354}}],"say":"Got mutton from the sheep. Eating, then going back to the beds for the night.","reasoning":"Hunger 19; mutton is edibl
