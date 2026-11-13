@@ -281,3 +281,6 @@
 - 04:01 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"intent":{"goal":"climb_out_to_bed","program":"travel","
 - 04:02 act: {"actions":[{"do":"mine","block":"stone","count":1},{"do":"place","block":"cobblestone","at":{"x":-238,"y":49,"z":348}}],"reasoning":"Mining worked, placing blocked. Try a different adjacent cell to b
 - 04:06 act: {"actions":[{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"place","block":"dirt","at":"feet"}],"intent":{"goal":"climb_out_to_bed","program":"travel","arguments":{"x":-241,"y
+- 04:10 act: {"actions":[{"do":"unstick"},{"do":"place","block":"cobblestone","at":{"x":-240,"y":49,"z":345}},{"do":"place","block":"cobblestone","at":{"x":-239,"y":50,"z":344}}],"say":"Jason here, still in the pi
+- 04:11 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"unstick"}],"reasoning":"Placement still not confirmed. Mining stone around me to open room, then unstick."}
+- 04:11 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"place","block":"cobblestone","at":{"x":-241,"y":49,"z":345}},{"do":"goto","target":{"x":-241,"y":50,"z":345}}],"reasoning":"Cobblestone rose 
