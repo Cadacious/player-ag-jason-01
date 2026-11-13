@@ -487,3 +487,10 @@
 - 10:25 act: {"actions":[{"do":"unstick"},{"do":"place","block":"dirt","at":{"x":-230,"y":64,"z":346}}]}
 - 10:25 act: {"intent":{"goal":"shelter_for_night_2","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"]
 - 10:25 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-228,"y":61,"z":349}},{"do":"place","block":"cobblestone","at":{"x":-230,"y":61,"z":349}},{"do":"place","block":"cobblestone","at":{"x":-229,"
+- 10:27 act: {"intent":{"goal":"bring_potatoes_to_kimberly","program":"travel","arguments":{"target":{"x":-240,"y":69,"z":345}},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addre
+- 10:27 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"bring_potatoes_to_kimberly","program":"travel","arguments":{"target":{"x":-240,"y":69,"z":345}},"wake_on":["goal_completed","precondition_failed","unexp
+- 10:31 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"goto","target":{"x":-240,"y":69,"z":345}}]}
+- 10:31 act: {"actions":[{"do":"mine","block":"dirt","count":4},{"do":"mine","block":"stone","count":2},{"do":"goto","target":{"x":-240,"y":69,"z":345}}]}
+- 10:31 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":345}}]}
+- 10:31 act: {"actions":[{"do":"mine","block":"stone","count":3},{"do":"mine","block":"dirt","count":2},{"do":"goto","target":{"x":-240,"y":69,"z":345}}]}
+- 10:32 act: {"say":"Jason here, dawn of day 135. I'm stuck in a stone pit at -229,61,348 and goto keeps failing. I still have 12 potatoes for Kimberly. Zack or Billy, if you are near, I can hand food up through a
