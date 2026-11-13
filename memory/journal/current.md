@@ -892,3 +892,5 @@
 - 18:19 act: {"actions":[{"do":"goto","target":{"x":-271,"y":68,"z":364}},{"do":"sleep"}]}
 - 18:21 act: {"actions":[{"do":"goto","target":{"x":-282,"y":69,"z":371}},{"do":"sleep"}],"reasoning":"Night has fallen, no food found yet, I'm at the beds next to a bed. Sleep here and look for food at first ligh
 - 18:21 act: {"actions":[{"do":"sleep"}],"reasoning":"The goto failed but I am already beside the bed. Try sleeping here."}
+- 18:21 act: {"say":"Jason here. I'm at the beds, hunger 17 and no food yet. I'll sleep here tonight and join the search for wheat and animals at first light.","actions":[{"do":"goto","target":{"x":-282,"y":69,"z"
+- 18:23 act: {"actions":[{"do":"sleep"}]}
