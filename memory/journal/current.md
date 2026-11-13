@@ -1058,3 +1058,33 @@
 - 20:58 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_dam
 - 20:59 act: {"actions":[{"do":"sleep"}],"say":"Sealed in for the night in this pit at -366,66,329. Sleeping now."}
 - 21:00 act: {"actions":[{"do":"wait","seconds":240}],"intent":{"goal":"hold_in_pit_until_dawn","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_
+- 21:10 act: {"intent":{"goal":"check_pigs_near_pumpkins","program":"travel","arguments":{"x":-380,"y":78,"z":336},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"],"limit
+- 21:11 act: {"actions":[{"do":"goto","target":{"x":-380,"y":78,"z":336}}],"say":"Morning. I'm at the pit near -365,66,329 and heading to the pigs near -380,78,336. Billy, I'll see you there."}
+- 21:11 act: {"actions":[{"do":"attack","target":"pig"}],"say":"Found a pig at -377,80,337, going for it. Pumpkins are nearby too, at -372,64,320. Share the meat with everyone."}
+- 21:11 act: {"actions":[{"do":"mine","block":"pumpkin","count":3}],"say":"Pumpkins are in the field at -372,64,320 and around -366,64,316. Trini has the porkchop. Tommy, Kimberly, Zack, Billy: come eat here, and 
+- 21:12 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"pumpkin","count":3}],"say":"Zack, here are 3 pumpkins for you, since your pack is empty. Tommy, Kimberly, come eat too if you're hungry."}
+- 21:12 act: {"actions":[],"say":"Zack, my give failed. The pumpkins landed on the ground near you, so pick them up if you need them. I'm not hungry right now, so they're there for whoever is."}
+- 21:13 act: {"actions":[],"say":"Jason here. I have no food left, only building stone and dirt. Zack has my pumpkins now. Tommy, I'll stay near Zack and Kimberly here until first light, and we'll go to the beds t
+- 21:14 act: {"actions":[],"say":"Kimberly, thanks, but I'm not hungry, so keep the pumpkins for Tommy or Trini. I'll stay here with you and Zack until first light."}
+- 21:18 act: {"actions":[],"say":"Sun is going down, so I'm going to build a dirt shelter here before dark. Kimberly, Zack, you're welcome to share it.","intent":{"goal":"shelter_for_night","program":"build","argu
+- 21:19 act: {"actions":[],"say":"My shelter is right here where I stand, at -369,64,316. The only gap is on my left side. Come in and stay close, and I'll plug the gap if I can."}
+- 21:20 act: {"actions":[{"do":"place","block":"dirt","at":"feet"}],"say":"Kimberly is with me now. Zack, come in. I'm sealing the gaps as well as I can."}
+- 21:20 act: {"actions":[],"say":"Zack, I'm in the hole at -369,65,316 with Kimberly. The open gap is above us, so put a dirt block over the top of the hole."}
+- 21:20 act: {"actions":[],"say":"Zack, I can't place above either. We'll stay put in the hole, keep quiet, and check for mobs before first light. If anything comes near, yell."}
+- 21:22 act: {"actions":[],"say":"Something hit me from the front, and I'm losing health slowly. Watch for it, and hit anything that isn't one of us."}
+- 21:23 act: {"actions":[],"say":"Kimberly, come into the hole at -369,65,316 now. I'm at full health, so I'll help hold the gap if the zombie follows."}
+- 21:23 act: {"actions":[{"do":"goto","target":{"x":-369,"y":64,"z":316}}],"say":"I'm at 6 health and getting shot at. Heading back to the hole at -369,64,316 now. Zack, cover the top if you can."}
+- 21:24 act: {"actions":[],"say":"I'm at 6 health and hunger 16, and Zack is nearly dead. Building a dirt shelter right where I stand.","intent":{"goal":"shelter_now","program":"build","arguments":{"blueprint":"sh
+- 21:24 act: {"actions":[{"do":"place","block":"dirt","at":"feet"}],"intent":{"goal":"shelter_now_retry","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","directly_a
+- 21:25 act: {"actions":[],"say":"Jason here, sealed in dirt at -286,67,342 with health 6 and hunger 16. Trini, I'm hungry and far off. Can you bring a porkchop if you can find me?"}
+- 21:26 act: {"actions":[],"say":"Trini, I'm staying sealed till light, it's too dark to open up at 6 health. Keep the porkchops and meet me at first light. Thank you."}
+- 21:29 act: {"actions":[{"do":"goto","target":{"x":-266,"y":67,"z":354}}],"say":"Morning! I'm heading to the beds to find Trini's porkchops. I'm hungry and at 6 health.","intent":{"goal":"reach_beds_for_food","pr
+- 21:29 act: {"actions":[{"do":"goto","target":{"x":-276,"y":67,"z":348}}],"say":"Iron golem right beside me, so I'm backing off northwest to -276,67,348. Trini, meet me there with the porkchops."}
+- 21:29 act: {"actions":[{"do":"goto","target":"ag_trini_01"}],"say":"Trini, I'm coming to you now, I'm out of the water."}
+- 21:29 act: {"actions":[{"do":"goto","target":{"x":-281,"y":66,"z":344}}],"say":"I'm in the water at the pond. Getting out toward the south-east. Trini, I'm near the old hole, where you were."}
+- 21:29 act: {"actions":[{"do":"unstick"}]}
+- 21:30 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"place","block":"cobblestone","at":{"x":-277,"y":64,"z":346}}]}
+- 21:30 act: {"actions":[{"do":"goto","target":{"x":-274,"y":67,"z":344}}]}
+- 21:30 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}]}
+- 21:30 act: {"actions":[],"say":"I drowned in the pond. I'm back at the spawn with nothing; my pack is at the bottom of the pond near -277,64,347. Lesson learned: don't walk through water."}
+- 21:30 act: {"actions":[],"say":"Thank you, Trini, for the porkchops. I'll keep the pond away from my route and save them for when I'm hungry."}
