@@ -976,3 +976,7 @@
 - 19:39 act: {"intent":{"goal":"reach_beds_for_night","program":"travel","arguments":{"target":{"x":-262,"y":67,"z":353}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"]
 - 19:39 act: {"intent":{"goal":"reach_beds_for_night","program":"travel","arguments":{"target":{"x":-258,"y":67,"z":360}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"]
 - 19:40 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}}],"say":"Going to bed here with the others. Morning, I will look for the sheep and the cow."}
+- 19:41 act: {"intent":{"goal":"reach_sheep_for_food","program":"travel","arguments":{"target":{"x":-270,"y":69,"z":381}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_
+- 19:41 act: {"actions":[{"do":"goto","target":{"x":-257,"y":67,"z":378}},{"do":"attack","target":"sheep"}],"say":"A sheep to the east. I'm going for it."}
+- 19:41 act: {"actions":[{"do":"eat"}],"say":"I got some mutton. Eating it now."}
+- 19:41 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":354}},{"do":"sleep"}],"say":"It is night and the sheep has wandered off. I'm going to the beds to sleep."}
