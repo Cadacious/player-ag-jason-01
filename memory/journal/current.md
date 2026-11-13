@@ -550,3 +550,4 @@
 - 11:30 act: {"actions":[{"do":"goto","target":{"x":-215,"y":69,"z":385}}],"reasoning":"Forest blocks the west here; try south toward open ground."}
 - 11:30 act: {"actions":[{"do":"goto","target":{"x":-228,"y":69,"z":390}}],"reasoning":"Still forest; one more push south for open grass before reporting."}
 - 11:30 act: {"intent":{"goal":"shelter_dirt","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_block_opera
+- 11:30 act: {"intent":{"goal":"rest_and_wait_for_food","program":"rest","arguments":{"seconds":300},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":6000,"max_block_operations":10}
