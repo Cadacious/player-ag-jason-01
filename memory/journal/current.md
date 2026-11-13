@@ -535,3 +535,18 @@
 - 11:27 act: {"actions":[{"do":"goto","target":{"x":-215,"y":68,"z":365}}],"reasoning":"Previous moves stalled near trees; try a different direction."}
 - 11:27 act: {"actions":[{"do":"goto","target":{"x":-210,"y":68,"z":362}}],"reasoning":"Keep searching open ground east for edible plants or animals."}
 - 11:27 act: {"say":"No food found out here. I have 2 wheat and 7 wheat seeds. If anyone finds potatoes or carrots, tell me.","actions":[{"do":"note","text":"Day 138 dawn: food errand found nothing 25 blocks east 
+- 11:29 act: {"actions":[{"do":"goto","target":{"x":-195,"y":69,"z":362}},{"do":"goto","target":{"x":-195,"y":69,"z":385}}],"reasoning":"Need open ground to find animals; leaves block view here. Explore east and s
+- 11:29 act: {"actions":[{"do":"goto","target":{"x":-186,"y":70,"z":362}}]}
+- 11:29 act: {"actions":[{"do":"goto","target":{"x":-180,"y":70,"z":370}},{"do":"goto","target":{"x":-175,"y":70,"z":380}}]}
+- 11:29 act: {"actions":[{"do":"goto","target":{"x":-170,"y":70,"z":368}},{"do":"goto","target":{"x":-165,"y":70,"z":362}}]}
+- 11:29 act: {"actions":[{"do":"goto","target":{"x":-150,"y":70,"z":362}},{"do":"goto","target":{"x":-145,"y":70,"z":355}}]}
+- 11:29 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"stone","count":2}]}
+- 11:29 act: {"actions":[{"do":"goto","target":{"x":-165,"y":70,"z":390}}]}
+- 11:30 act: {"actions":[{"do":"goto","target":{"x":-225,"y":69,"z":350}}],"reasoning":"Head to open ground west and south of the beds to search for food."}
+- 11:30 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-225,"y":69,"z":350}}],"reasoning":"Trapped perched on a ledge; unstick then retry the route west-south."}
+- 11:30 act: {"actions":[{"do":"goto","target":{"x":-225,"y":69,"z":350}}],"reasoning":"Continue the trip west-south toward open grass."}
+- 11:30 act: {"actions":[{"do":"goto","target":{"x":-225,"y":69,"z":350}}]}
+- 11:30 act: {"actions":[{"do":"goto","target":{"x":-245,"y":69,"z":368}}],"reasoning":"No animals in view here; the skeleton is north, so search southwest on open grass."}
+- 11:30 act: {"actions":[{"do":"goto","target":{"x":-215,"y":69,"z":385}}],"reasoning":"Forest blocks the west here; try south toward open ground."}
+- 11:30 act: {"actions":[{"do":"goto","target":{"x":-228,"y":69,"z":390}}],"reasoning":"Still forest; one more push south for open grass before reporting."}
+- 11:30 act: {"intent":{"goal":"shelter_dirt","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_block_opera
