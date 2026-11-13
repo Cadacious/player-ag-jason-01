@@ -191,3 +191,14 @@
 - 01:01 act: {"actions":[{"do":"goto","target":{"x":-283,"y":69,"z":370}},{"do":"sleep"}]}
 - 01:01 act: {"actions":[{"do":"goto","target":{"x":-283,"y":69,"z":370}},{"do":"sleep"}]}
 - 01:02 act: {"actions":[{"do":"goto","target":{"x":-283,"y":69,"z":370}},{"do":"sleep"}]}
+- 01:02 act: {"intent":{"goal":"harvest_potato_wheat","program":"travel","arguments":{"target":{"x":-252,"y":68,"z":352}},"wake_on":["goal_completed","unexpected_damage","precondition_failed"],"limits":{"max_world
+- 01:06 act: {"actions":[{"do":"goto","target":{"x":-252,"y":68,"z":352}}]}
+- 01:07 act: {"actions":[{"do":"goto","target":{"x":-252,"y":68,"z":352}},{"do":"mine","block":"potatoes","count":8},{"do":"mine","block":"wheat","count":8}]}
+- 01:07 act: {"actions":[{"do":"goto","target":{"x":-252,"y":68,"z":352}}]}
+- 01:07 act: {"intent":{"goal":"gather_potatoes","program":"gather","arguments":{"block":"potatoes","count":8,"at":{"x":-252,"y":68,"z":352}},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_t
+- 01:07 act: {"actions":[{"do":"unstick"}]}
+- 01:07 act: {"actions":[{"do":"goto","target":{"x":-252,"y":68,"z":352}}]}
+- 01:08 act: {"actions":[{"do":"mine","block":"wheat","count":8},{"do":"mine","block":"potatoes","count":8}]}
+- 01:08 act: {"actions":[{"do":"mine","block":"potato","count":8},{"do":"mine","block":"wheat","count":6}]}
+- 01:08 act: {"actions":[{"do":"goto","target":{"x":-251,"y":68,"z":354}},{"do":"mine","block":"potatoes","count":8}]}
+- 01:08 act: {"actions":[{"do":"eat"},{"do":"eat"}],"reasoning":"Hunger is 20 and I already carry 14 potatoes, so eating is the fastest food. Bread needs 3 wheat and I have only 2.","say":"Eating potatoes from my 
