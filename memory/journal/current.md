@@ -1161,3 +1161,17 @@
 - 22:35 act: {"say":"I fell into a pit but I'm out. I still haven't found any sheep or cows. If anyone has seen animals, please tell me where."}
 - 22:36 act: {"actions":[{"do":"goto","target":{"x":-242,"y":68,"z":343}}],"say":"Thanks, Billy. I'm heading back to the beds before night comes. I'll keep looking for animals from there."}
 - 22:40 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}}],"say":"Night is coming, so I'm going to the yellow bed to sleep. Stay safe."}
+- 22:40 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}},{"do":"sleep"}],"say":"Billy, Tommy: I have 4 pumpkins but I can't eat them raw. I'm sleeping now in the yellow bed; I'll share the pumpkin
+- 22:41 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}},{"do":"sleep"}],"reasoning":"Sleep did not take last time; still night. Something hit me earlier, so get into the bed to rest and be less e
+- 22:41 act: {"actions":[{"do":"sleep"}],"reasoning":"The goto into the bed block failed (I didn't move). I'm already next to the bed, so try sleep directly."}
+- 22:41 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-240,"y":70,"z":344}},{"do":"place","block":"dirt","at":{"x":-239,"y":69,"z":344}},{"do":"place","block":"dirt","at":{"x":-240,"y":69,"z":345}},{"do"
+- 22:49 act: {"intent":{"goal":"find_sheep_west","program":"travel","arguments":{"x":-300,"y":67,"z":330},"wake_on":["goal_completed","precondition_failed","directly_addressed","unexpected_damage"],"limits":{"max_
+- 22:50 act: {"actions":[{"do":"goto","target":{"x":-300,"y":67,"z":330}}],"say":"Following you west, Billy. Trini, I'll watch for the spider and the bees.","reasoning":"The travel intent was rejected on schema, s
+- 22:50 act: {"actions":[{"do":"goto","target":{"x":-370,"y":67,"z":330}}],"say":"Going west with you, Trini. Keep an eye out for sheep or cows.","reasoning":"Trini and Billy are heading west to look for food. Joi
+- 22:51 act: {"actions":[{"do":"goto","target":{"x":-390,"y":67,"z":325}}],"say":"Billy, I'm at -366. Heading southwest toward you and Trini. No sheep yet.","reasoning":"Billy and Trini are grouping to the southwe
+- 22:51 act: {"actions":[{"do":"goto","target":{"x":-385,"y":67,"z":333}}],"say":"The way west failed for me too. I'm trying to reach Trini at -385, 67, 333.","reasoning":"The last westward goto failed at a drop. 
+- 22:51 say: {"text":"Trini, I'm with you at -385. Billy, which way is open? I'll follow whoever finds sheep first."}
+- 22:54 act: {"actions":[{"do":"goto","target":{"x":-400,"y":66,"z":340}}],"say":"Moving southwest toward Billy's spot to look for sheep.","reasoning":"Group is searching southwest. Keep exploring with them; hunge
+- 22:54 say: {"text":"Yes, Kimberly. Let's wall in together here for the night and go west at first light. I have 2 dirt and a torch to add."}
+- 22:55 act: {"actions":[{"do":"place","block":"dirt","at":"feet"}],"say":"Billy, I'm placing my dirt at my feet to help close the wall.","reasoning":"Helping the shared wall is the safest move for the night. Hung
+- 22:56 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"}],"say":"My dirt didn't place, so I'm trying cobblestone. Tell me where the gap is, Billy.","reasoning":"Dirt failed, so I change the block 
