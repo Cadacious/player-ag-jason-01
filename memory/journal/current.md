@@ -169,3 +169,4 @@
 - 00:09 act: {"actions":[{"do":"goto","target":{"x":-249,"y":68,"z":352}},{"do":"mine","block":"potatoes","count":3}],"reasoning":"No animals within reach of the search; fall back to the plot and take a few potato
 - 00:09 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-249,"y":68,"z":352}}],"reasoning":"Last goto did not move me; get free and retry the plot."}
 - 00:10 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-250,"y":68,"z":350}}]}
+- 00:15 act: {"actions":[{"do":"goto","target":{"x":-230,"y":69,"z":344}}]}
