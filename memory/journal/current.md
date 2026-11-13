@@ -870,3 +870,5 @@
 - 17:55 say: {"text":"Billy, I don't have the wheat anymore. My pack shows none and I see none on the ground here. I'm sorry. Kimberly has wheat seeds; I can't give those as bread. Trini is also hungry to the west
 - 17:57 say: {"text":"Tommy, thank you, that was my wheat going into your pack. Zack and Trini are hungriest. Make bread at the table, and share it with whoever can reach you first."}
 - 18:02 act: {"intent":{"goal":"night_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks"
+- 18:06 act: {"say":"I'm sealed in my shelter for the night with health and hunger full. I have no food to spare, but Tommy, if the bread reaches Trini or Billy at first light, that's the right order.","intent":{"
+- 18:10 act: {"say":"Good morning. I'm fine on food for now. Zack, Billy, Trini: I have wheat seeds and cobblestone if they help. Tell me where you need them.","intent":{"goal":"stay_near_beds_and_help","program":
