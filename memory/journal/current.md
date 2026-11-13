@@ -178,3 +178,4 @@
 - 00:18 act: {"actions":[{"do":"eat"}],"reasoning":"Errand says eat once."}
 - 00:20 act: {"actions":[{"do":"goto","target":{"x":-251,"y":68,"z":353}},{"do":"mine","block":"potatoes","count":2}]}
 - 00:21 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":345}},{"do":"sleep"}]}
+- 00:23 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":345}},{"do":"sleep"}]}
