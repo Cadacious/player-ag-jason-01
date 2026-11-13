@@ -375,3 +375,16 @@
 - 08:50 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"reasoning":"Zack says dirt is coming down. Stack again and try to step out."}
 - 08:50 say: {"text":"Jason: no dirt has reached me yet, Zack. Maybe the shaft is blocked above me. Thank you for trying."}
 - 09:06 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"reasoning":"Dawn retry of stack and unstick."}
+- 09:11 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"say":"Jason here, still at -240,48,344 in the shaft. I have 33 dirt. Zack, Kimberly: drop dirt down the shaft if you can reach 
+- 09:11 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"reasoning":"Unstick worked once; repeat place plus unstick to climb.
+- 09:11 act: {"actions":[{"do":"goto","target":{"x":-240,"y":52,"z":344}}],"reasoning":"Stacking is unreliable. Try a direct goto upward to see if the route is open."}
+- 09:14 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"
+- 09:14 act: {"actions":[{"do":"goto","target":{"x":-241,"y":59,"z":343}}],"reasoning":"Tommy exited near y59. Try a goto to that height and see if the path opens."}
+- 09:16 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"
+- 09:16 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"
+- 09:16 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"
+- 09:16 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"
+- 09:17 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"
+- 09:17 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"
+- 09:17 act: {"actions":[{"do":"goto","target":{"x":-239,"y":58,"z":345}}],"reasoning":"Stack placement is blocked here. Try goto higher."}
+- 09:18 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"reasoning
