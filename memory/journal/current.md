@@ -623,3 +623,27 @@
 - 12:58 act: {"intent":{"goal":"shelter_retry","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks"
 - 12:58 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-268,"y":61,"z":327}},{"do":"place","block":"dirt","at":{"x":-270,"y":61,"z":327}},{"do":"place","block":"dirt","at":{"x":-269,"y":61,"z":326}},{"do"
 - 12:58 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-269,"y":62,"z":326}},{"do":"place","block":"dirt","at":{"x":-269,"y":62,"z":328}},{"do":"place","block":"dirt","at":{"x":-269,"y":63,"z":327}},{"do"
+- 12:59 act: {"say":"Night, and I'm sealed in this dirt cell. No bed to be had, so I'll rest here.","actions":[{"do":"sleep"}]}
+- 12:59 act: {"actions":[{"do":"note","text":"Night 142. Sealed in dirt cell per view; sleep fails: beds blocked/occupied. Not retrying sleep until something changes. Food: 2 wheat, 7 seeds; hunger 20."}],"intent"
+- 13:04 act: {"say":"Trini, Tommy: I'm sealed in a dirt cell at -269,61,327 and it holds. Beds here are blocked for me, so I rest in it.","actions":[]}
+- 13:08 act: {"actions":[{"do":"mine","block":"dirt","count":2}],"intent":{"goal":"find_food_nw","program":"travel","arguments":{"x":-285,"y":64,"z":315},"wake_on":["goal_completed","precondition_failed","unexpect
+- 13:08 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-285,"y":64,"z":315}}]}
+- 13:08 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"goto","target":{"x":-270,"y":61,"z":325}}]}
+- 13:08 act: {"say":"I'm boxed in at -269,61,327. I've mined dirt but cannot move. If anyone is near with a way out, tell me.","actions":[]}
+- 13:12 act: {"say":"Tommy, thanks. I have plenty of dirt. I'm boxed in at -269,61,327 and cannot walk out. If you find food, tell me.","actions":[]}
+- 13:16 act: {"actions":[{"do":"note","text":"Day 143: boxed in at -269,61,327. Dirt mining and goto change nothing; unstick says no way out. Others also stuck. Waiting for a way out."}]}
+- 13:16 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"mine","block":"dirt","count":2}]}
+- 13:16 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-285,"y":64,"z":315}}]}
+- 13:16 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"mine","block":"stone","count":2}]}
+- 13:17 act: {"intent":{"goal":"find_food_nw","program":"travel","arguments":{"x":-285,"y":64,"z":315},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"],"limits":{"max_wor
+- 13:24 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"],"
+- 13:24 act: {"intent":{"goal":"seal_gap_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"],
+- 13:24 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-272,"y":62,"z":326}}],"intent":{"goal":"rest_idle","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"m
+- 13:29 act: {"intent":{"goal":"reach_tommy_with_dirt","program":"travel","arguments":{"x":-262,"y":62,"z":336},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"],"limits":
+- 13:32 act: {"actions":[{"do":"unstick"}]}
+- 13:32 act: {"intent":{"goal":"find_food_north_west","program":"travel","arguments":{"x":-280,"y":63,"z":320},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"],"limits":{
+- 13:36 act: {"actions":[{"do":"goto","target":{"x":-280,"y":63,"z":320}}]}
+- 13:36 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"unstick"}]}
+- 13:36 act: {"actions":[{"do":"goto","target":{"x":-280,"y":63,"z":320}}]}
+- 13:36 act: {"actions":[{"do":"mine","block":"stone","count":4},{"do":"unstick"},{"do":"goto","target":{"x":-280,"y":63,"z":320}}]}
+- 13:40 act: {"actions":[{"do":"goto","target":{"x":-272,"y":60,"z":325}}]}
