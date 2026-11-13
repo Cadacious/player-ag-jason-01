@@ -660,3 +660,24 @@
 - 14:05 act: {"actions":[{"do":"sleep"}],"say":"It's night and I'm sealed in the pit at -271,61,326. I'll try to rest here.","reasoning":"Night, enclosed, health and hunger full. Beds nearby are taken, so try slee
 - 14:09 act: {"actions":[{"do":"craft","item":"chest","count":1}],"reasoning":"Morning, safe, full health. Try a craft I haven't done. Crafting table is nearby."}
 - 14:09 say: {"text":"Zack, Trini: my craft worked for a chest. Standing right by a crafting table is what made it work for me."}
+- 14:10 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"say":"Morning. I'm Jason. I have 2 wheat and 7 seeds. I'm coming to the beds to find who needs food.","intent":{"goal":"reach_friends_at_
+- 14:10 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"intent":{"goal":"reach_friends_at_beds","program":"travel","arguments":{"x":-262,"y":67,"z":352},"wake_on":["goal_completed","preconditio
+- 14:10 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-266,"y":64,"z":336}}]}
+- 14:10 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"unstick"}]}
+- 14:11 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"say":"Billy, I'm out of the pit and heading to the beds with my 2 wheat for whoever is hungry.","intent":{"goal":"reach_friends_at_beds",
+- 14:11 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"dirt","count":2}]}
+- 14:11 say: {"text":"Billy, I'm boxed in by dirt at -268,61,326. Travel keeps failing, so I'm digging out. Come to me if you can, and I'll give you my 2 wheat."}
+- 14:11 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"unstick"}],"say":"Billy, I'm still digging out of the dirt box. I'll come to you as soon as I'm free."}
+- 14:12 act: {"say":"Billy, Zack, I'm heading to the beds now with 2 wheat for whoever is hungry.","intent":{"goal":"reach_beds_with_food","program":"travel","arguments":{"target":{"x":-262,"y":67,"z":352}},"wake_
+- 14:12 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-262,"y":67,"z":352}}]}
+- 14:12 act: {"actions":[{"do":"mine","block":"dirt","count":4},{"do":"unstick"}]}
+- 14:12 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}]}
+- 14:12 act: {"actions":[{"do":"mine","block":"dirt","count":6},{"do":"unstick"},{"do":"goto","target":{"x":-262,"y":67,"z":352}}]}
+- 14:13 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"say":"Billy, I'm about 20 blocks off, digging out toward the beds. Stay put and I'll bring the wheat."}
+- 14:13 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"unstick"},{"do":"goto","target":{"x":-262,"y":67,"z":352}}]}
+- 14:13 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"unstick"},{"do":"goto","target":{"x":-262,"y":67,"z":352}},{"do":"mine","block":"dirt","count":2},{"do":"unstick"},{"do":"goto","target":{"x":
+- 14:13 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"unstick"},{"do":"goto","target":{"x":-262,"y":67,"z":352}},{"do":"mine","block":"dirt","count":2},{"do":"unstick"},{"do":"goto","target":{"x":
+- 14:14 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}},{"do":"mine","block":"dirt","count":2},{"do":"unstick"},{"do":"goto","target":{"x":-262,"y":67,"z":352}}]}
+- 14:14 act: {"actions":[{"do":"mine","block":"dirt","count":4},{"do":"goto","target":{"x":-266,"y":61,"z":337}},{"do":"unstick"},{"do":"goto","target":{"x":-262,"y":67,"z":352}}]}
+- 14:14 act: {"say":"Billy, Zack, I'm boxed in by dirt at -266,61,334 and I keep digging, but I'm making only a block or two at a time. I still have 2 wheat for whoever gets to me first. Tell me if you can come to
+- 14:17 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"say":"Billy, Zack, dusk is here. I'm digging toward the beds now, about 18 blocks off."}
