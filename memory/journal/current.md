@@ -900,3 +900,17 @@
 - 18:31 act: {"say":"Jason here, at the old farm by the water. No wheat in sight. I have 7 wheat seeds and a stone hoe, so I'll plant them here as a farm for later, and I'll share what comes up."}
 - 18:31 act: {"actions":[{"do":"place","block":"wheat_seeds","at":"feet"}],"say":"Jason: I'll try to plant my seeds here. Careful, a villager nearby looks like it is attacking."}
 - 18:32 act: {"say":"Jason: planting failed here, and that villager is closing in. I'm heading back toward the beds.","intent":{"goal":"return_to_beds","program":"travel","arguments":{"target":{"x":-271,"y":68,"z"
+- 18:34 say: {"text":"Billy, I'm at the beds with no food yet, hunger 17. Did anyone find cows, pigs, or sheep? I have 7 wheat seeds and a stone hoe."}
+- 18:34 act: {"say":"Nobody has food yet. I'm heading west past the beds to look for animals or wheat, and I'll call out anything I find.","intent":{"goal":"search_west_for_animals","program":"travel","arguments":
+- 18:36 act: {"say":"Kimberly, I'm Jason, hunger 17 with no food. Could you spare some beef? I'm at -300, 67, 353, west of the beds. I'll come to you.","intent":{"goal":"reach_kimberly_for_beef","program":"travel"
+- 18:37 act: {"say":"Thank you Kimberly. I'm going to the cows at about -313, 81, 369 now, and I'll look for the beef there.","intent":{"goal":"reach_cows_west_for_beef","program":"travel","arguments":{"x":-313,"y
+- 18:39 act: {"say":"Kimberly, Jason here, I'm hungry with no food, 17. I'm walking to the beds now. If you can spare one beef, please hand it to me. I'll wait by the yellow bed.","intent":{"goal":"reach_beds_for_
+- 18:39 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":362}}],"say":"Kimberly, Jason is walking to you at the beds for one beef. Thank you."}
+- 18:40 act: {"actions":[{"do":"goto","target":{"x":-290,"y":67,"z":352}}],"say":"A villager is attacking me by the beds, so I'm backing off north-west. Kimberly, I'll come back for the beef when it's safe."}
+- 18:40 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ti
+- 18:40 act: {"actions":[{"do":"unstick"}]}
+- 18:40 act: {"actions":[{"do":"goto","target":{"x":-290,"y":67,"z":354}},{"do":"goto","target":{"x":-289,"y":66,"z":352}}]}
+- 18:40 act: {"intent":{"goal":"shelter_for_night_2","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max
+- 18:41 say: {"text":"Jason here, coming to the yellow bed now. No food on me yet."}
+- 18:41 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":362}}]}
+- 18:41 act: {"actions":[{"do":"goto","target":{"x":-284,"y":67,"z":358}}],"say":"A villager is attacking me by the beds. I am backing off west to -284, 358 and will come back when it is calm."}
