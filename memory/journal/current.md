@@ -1000,3 +1000,4 @@
 - 19:59 act: {"actions":[{"do":"note","text":"Day 163 dusk. Kimberly says she is sending seeds for the row by the beds. I hold 7 wheat_seeds and 2 stone hoes. Waiting for her handover."}],"say":"Thanks, Kimberly. 
 - 20:01 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":364}},{"do":"sleep"}],"say":"It's night, so I'm heading to the bed to sleep.","intent":{"goal":"reach_bed_and_sleep","program":"travel","argument
 - 20:02 act: {"actions":[{"do":"goto","target":{"x":-271,"y":68,"z":364}},{"do":"sleep"}],"say":"Night. Kimberly, thank you for the seeds. I'm going to sleep in this bed too."}
+- 20:03 act: {"actions":[{"do":"goto","target":{"x":-282,"y":69,"z":371}},{"do":"sleep"}],"say":"Night. I'm going to the yellow bed to sleep. Morning, I'll look for the farm Tommy mentioned.","reasoning":"It is ni
