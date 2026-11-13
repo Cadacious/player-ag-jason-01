@@ -517,3 +517,5 @@
 - 10:48 act: {"say":"Tommy, I'm at the beds area with 10 cobble and 40 dirt. Golems are close to the west, so I'll wait until the way is clear before going to the pool.","actions":[{"do":"note","text":"Day 136 day
 - 10:51 act: {"intent":{"goal":"shelter_jason_day","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_block_
 - 11:00 act: {"intent":{"goal":"build_dirt_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_t
+- 11:08 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks"
+- 11:08 act: {"intent":{"goal":"wait_for_daylight_safety","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":600,"max_block_operations":1}},"say":"Kimb
