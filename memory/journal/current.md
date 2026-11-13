@@ -292,3 +292,5 @@
 - 04:27 act: {"actions":[{"do":"goto","target":{"x":-239,"y":49,"z":346}},{"do":"place","block":"cobblestone","at":"feet"}],"say":"Kimberly, I'll step to -239,49,346 and try placing there. I'll tell you how it goe
 - 04:36 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-240,"y":50,"z":344}},{"do":"place","block":"dirt","at":{"x":-241,"y":50,"z":345}},{"do":"unstick"}],"reasoning":"Dusk; try two more placement
 - 04:36 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-240,"y":50,"z":344}},{"do":"goto","target":{"x":-240,"y":50,"z":344}}],"reasoning":"Last placement at y50 worked on some cell. Try to climb o
+- 04:43 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"say":"Jason here, still in the pit at -240,49,345, health 20. Trying to stack cobblestone at my feet.","reasoning":"Prio
+- 04:47 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-241,"y":49,"z":345}},{"do":"goto","target":{"x":-241,"y":50,"z":345}}],"say":"Jason, still in the pit at -240,49,345, health 20. It's day; tr
