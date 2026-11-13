@@ -284,3 +284,7 @@
 - 04:10 act: {"actions":[{"do":"unstick"},{"do":"place","block":"cobblestone","at":{"x":-240,"y":49,"z":345}},{"do":"place","block":"cobblestone","at":{"x":-239,"y":50,"z":344}}],"say":"Jason here, still in the pi
 - 04:11 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"unstick"}],"reasoning":"Placement still not confirmed. Mining stone around me to open room, then unstick."}
 - 04:11 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"place","block":"cobblestone","at":{"x":-241,"y":49,"z":345}},{"do":"goto","target":{"x":-241,"y":50,"z":345}}],"reasoning":"Cobblestone rose 
+- 04:20 act: {"intent":{"goal":"shelter_jason","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_block_oper
+- 04:22 act: {"actions":[{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"}]}
+- 04:22 act: {"actions":[{"do":"mine","block":"stone","count":1},{"do":"place","block":"cobblestone","at":{"x":-241,"y":50,"z":345}}]}
+- 04:26 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"stone","count":2},{"do":"place","block":"dirt","at":"feet"}]}
