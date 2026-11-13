@@ -748,3 +748,22 @@
 - 15:57 act: {"actions":[{"do":"goto","target":{"x":-210,"y":64,"z":345}}],"say":"Billy, I'm sorry. Zack, I'm coming toward the lake with my wheat and dirt to help build out to you.","reasoning":"Billy died, and Z
 - 15:57 act: {"actions":[{"do":"goto","target":{"x":-210,"y":64,"z":345}}],"reasoning":"Moved partway. Keep walking toward the lake where Zack is."}
 - 15:57 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"unstick"}],"reasoning":"Enclosed in dirt again. Dig south, toward the lake, then unstick."}
+- 16:01 act: {"actions":[{"do":"goto","target":{"x":-283,"y":68,"z":295}}],"say":"Zack, I'm heading to the fence field with my 2 wheat for you. Tell me where you are.","reasoning":"Morning. Zack is heading to the 
+- 16:01 act: {"actions":[{"do":"goto","target":{"x":-283,"y":68,"z":295}}],"reasoning":"The last walk was refused as busy. Send it again now that the way is clear."}
+- 16:02 act: {"actions":[{"do":"goto","target":{"x":-206,"y":64,"z":344}}],"say":"Zack, I'm coming to the lake shore with your wheat. Hold on.","reasoning":"Zack is in the lake near -202,53,347 and asks for the wh
+- 16:02 act: {"actions":[{"do":"goto","target":{"x":-206,"y":64,"z":344}}],"reasoning":"The earlier sleep attempt has failed and nothing is running now. Walk to the lake shore again."}
+- 16:06 act: {"actions":[{"do":"goto","target":{"x":-206,"y":64,"z":344}}],"say":"Zack, I'm coming to the shore with your 2 wheat. Hold on.","intent":{"goal":"reach_lake_shore_for_zack","program":"travel","argumen
+- 16:09 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-206,"y":64,"z":344}}],"say":"Zack, I'm stuck in a dirt pocket at -265,61,338. Digging toward the shore with your wheat."}
+- 16:09 act: {"actions":[{"do":"goto","target":{"x":-206,"y":64,"z":344}}],"intent":{"goal":"reach_lake_shore_for_zack","program":"travel","arguments":{"target":{"x":-206,"y":64,"z":344}},"wake_on":["goal_complete
+- 16:12 act: {"actions":[{"do":"mine","block":"dirt","count":4},{"do":"unstick"},{"do":"goto","target":{"x":-206,"y":64,"z":344}}]}
+- 16:12 act: {"actions":[{"do":"mine","block":"dirt","count":6},{"do":"unstick"},{"do":"goto","target":{"x":-206,"y":64,"z":344}}],"say":"Zack, I'm digging through dirt toward you. Kimberly, I'm coming up behind y
+- 16:13 act: {"actions":[{"do":"mine","block":"dirt","count":8},{"do":"unstick"},{"do":"goto","target":{"x":-206,"y":64,"z":344}}]}
+- 16:13 act: {"actions":[{"do":"mine","block":"dirt","count":8},{"do":"unstick"},{"do":"goto","target":{"x":-206,"y":64,"z":344}}]}
+- 16:13 act: {"actions":[{"do":"mine","block":"dirt","count":8},{"do":"unstick"},{"do":"goto","target":{"x":-206,"y":64,"z":344}}]}
+- 16:13 act: {"actions":[{"do":"mine","block":"dirt","count":8},{"do":"unstick"},{"do":"goto","target":{"x":-206,"y":64,"z":344}}]}
+- 16:14 act: {"actions":[{"do":"mine","block":"dirt","count":16},{"do":"unstick"},{"do":"goto","target":{"x":-206,"y":64,"z":344}}]}
+- 16:14 act: {"actions":[],"say":"Zack, glad you're out. Kimberly has your wheat, so I'll keep mine for Billy, who has had no food since he died."}
+- 16:14 act: {"actions":[{"do":"mine","block":"dirt","count":16},{"do":"unstick"},{"do":"goto","target":{"x":-206,"y":64,"z":344}}]}
+- 16:15 act: {"actions":[],"say":"Billy, I have 2 wheat for you. I'm still digging out of a dirt pocket to the west of the lake. Where exactly are you on the shore?"}
+- 16:15 act: {"actions":[{"do":"mine","block":"dirt","count":16},{"do":"unstick"},{"do":"goto","target":{"x":-201,"y":64,"z":352}}],"intent":{"goal":"reach_billy_with_wheat","program":"travel","arguments":{"target
+- 16:18 act: {"actions":[],"say":"Billy, dusk is here and I'm sealed in a dirt tunnel for the night. I still have your 2 wheat. At dawn I'll dig to the shore near Kimberly's column."}
