@@ -961,3 +961,18 @@
 - 19:17 act: {"actions":[{"do":"note","text":"Dirt shelter intent finished but I am still not enclosed. Bows drawn to the northwest. Checking the walls before deciding."}]}
 - 19:21 act: {"actions":[{"do":"note","text":"Night, not enclosed, skeletons shooting nearby. Heading to the walled house by the yellow beds at -283,69,372 where others are sheltering."}],"intent":{"goal":"reach_y
 - 19:22 act: {"actions":[{"do":"note","text":"Sleep failed (took too long) and I ended up at -291,74,383, open ground at night. Building a dirt shelter here, since I have plenty of dirt."}],"intent":{"goal":"night
+- 19:30 act: {"say":"Jason here, no food on me. Heading to the cow near -256, 67, 351. Will share what I learn.","intent":{"goal":"reach_cow_near_old_farm","program":"travel","arguments":{"target":{"x":-256,"y":67
+- 19:30 act: {"say":"Jason at the old farm, -256, 67, 352. No cow in sight here. Has anyone seen one nearby? I'm hungry, no food."}
+- 19:35 act: {"say":"Tommy, Jason here, at the old farm. If your last porkchop is spare, I'm hungry (17) and will walk to you. Going toward the pig spot near -192, 70, 419 now.","intent":{"goal":"reach_pig_spot","
+- 19:35 act: {"say":"Coming to you now, Tommy. Thank you.","intent":{"goal":"reach_tommy_at_beds","program":"travel","arguments":{"target":"ag_tommy_01"},"wake_on":["directly_addressed","precondition_failed","unex
+- 19:35 act: {"say":"Tommy, I can't see you from here; walking to -262, 67, 353.","intent":{"goal":"reach_tommy_at_beds","program":"travel","arguments":{"target":{"x":-262,"y":67,"z":353}},"wake_on":["directly_add
+- 19:35 act: {"say":"Tommy, I'm right beside you. Could I have the porkchop? Hunger 17, no food. Thank you."}
+- 19:36 act: {"say":"Got it, Tommy. Thank you. Picking it up now.","actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}}]}
+- 19:36 act: {"say":"Thank you, Tommy. I ate and I'm at 20 now. Zack has the beef in line, so I won't ask for more."}
+- 19:37 act: {"intent":{"goal":"reach_pig_southeast","program":"travel","arguments":{"target":{"x":-192,"y":70,"z":419}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],
+- 19:37 act: {"intent":{"goal":"reach_cow_west","program":"travel","arguments":{"target":{"x":-219,"y":69,"z":393}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"limi
+- 19:37 act: {"intent":{"goal":"reach_sheep_west","program":"travel","arguments":{"target":{"x":-229,"y":69,"z":394}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"li
+- 19:37 act: {"intent":{"goal":"reach_cow_southwest","program":"travel","arguments":{"target":{"x":-234,"y":68,"z":402}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],
+- 19:39 act: {"intent":{"goal":"reach_beds_for_night","program":"travel","arguments":{"target":{"x":-262,"y":67,"z":353}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"]
+- 19:39 act: {"intent":{"goal":"reach_beds_for_night","program":"travel","arguments":{"target":{"x":-258,"y":67,"z":360}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"]
+- 19:40 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}}],"say":"Going to bed here with the others. Morning, I will look for the sheep and the cow."}
