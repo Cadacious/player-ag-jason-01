@@ -346,3 +346,7 @@
 - 06:30 act: {"actions":[{"do":"wait","seconds":240}],"say":"Zack, thank you. I'm at -239,48,344, and Kimberly is digging toward me from the east. I have dirt and cobblestone, so I'm fine on blocks. Please help Tr
 - 06:31 act: {"actions":[{"do":"note","text":"Deep water under pit near -236,45,344 (y 42-47). Do not dig west or south. Waiting for Kimberly from the east."},{"do":"wait","seconds":200}],"reasoning":"Deep water b
 - 06:34 act: {"actions":[{"do":"wait","seconds":240}],"say":"Kimberly, thanks. My mine only picks the nearest stone, and the last one warned of water, so I'm holding still. If someone digs a path from the north or
+- 06:36 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"say":"Jas
+- 06:36 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"reasoning":"Dirt at feet did nothing. Try cobblestone,
+- 06:37 act: {"actions":[{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"goto","target":{"x":-239,"y":49,"z":343}}],"say":"Jason: Trini and Tommy are climbing now. I'm trying the
+- 06:41 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"reasoning
