@@ -862,3 +862,11 @@
 - 17:51 act: {"actions":[],"say":"Zack, my give of wheat was refused, so your pack may be full of dirt. Drop a stack and I'll try once more. Billy, come up to Tommy and I'll give you my 2 wheat when you're in sigh
 - 17:51 act: {"actions":[],"say":"Thanks, Zack and Tommy. I'll hold my 3 wheat for whoever is in sight and hungriest, Billy first. Billy, call out when you're up."}
 - 17:52 act: {"actions":[],"say":"Billy, I can't see you from here. Dig a gap toward me or come up to Tommy and I'll hand you the wheat as soon as you're in reach. Zack, your wheat stays with you for now."}
+- 17:53 act: {"actions":[{"do":"goto","target":{"x":-199,"y":64,"z":351}}],"say":"Billy, I'm right here above you with 3 wheat. Tell me when you can see me and I'll drop it to you.","reasoning":"Billy is the hungr
+- 17:53 say: {"text":"Billy, I'm at -200,64,351 with 3 wheat. If you can see me and you're hungry, say so and I'll give it."}
+- 17:54 say: {"text":"Billy, I can't see you from here. Your wheat is 2 now, so mine makes 3 for bread. Step into view above me and I'll give it at once."}
+- 17:54 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"wheat","count":3}],"say":"Billy, here are my 3 wheat. Make bread at the table.","reasoning":"Billy is in reach and hungriest, and with his 2 wheat t
+- 17:55 say: {"text":"Billy, my wheat is gone from my pack, but the give reported failed. Did your pack get 3 wheat? If not, tell me and I'll look for it on the ground."}
+- 17:55 say: {"text":"Billy, I don't have the wheat anymore. My pack shows none and I see none on the ground here. I'm sorry. Kimberly has wheat seeds; I can't give those as bread. Trini is also hungry to the west
+- 17:57 say: {"text":"Tommy, thank you, that was my wheat going into your pack. Zack and Trini are hungriest. Make bread at the table, and share it with whoever can reach you first."}
+- 18:02 act: {"intent":{"goal":"night_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks"
