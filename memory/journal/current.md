@@ -275,3 +275,6 @@
 - 03:33 act: {"intent":{"goal":"climb_out_to_bed","program":"travel","arguments":{"target":{"x":-241,"y":69,"z":343}},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"limits":{"max_world_tic
 - 03:36 act: {"actions":[{"do":"mine","block":"stone","count":1},{"do":"place","block":"cobblestone","at":"feet"}],"intent":{"goal":"stack_out_of_pit","program":"travel","arguments":{"target":{"x":-241,"y":69,"z":
 - 03:40 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-238,"y":51,"z":346}},{"do":"place","block":"cobblestone","at":{"x":-240,"y":51,"z":346}},{"do":"place","block":"cobblestone","at":{"x":-239,"
+- 03:45 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"cobblestone","count":16},{"do":"give","to":"ag_billy_01","item":"dirt","count":16}],"say":"Billy, I'm giving you 16 cobblestone and 16 dirt to stack
+- 03:47 act: {"actions":[{"do":"mine","block":"stone","count":1},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"intent":{"goal":"climb_to_bed","program":"travel","arguments":{"target":{"x":-24
+- 03:53 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"intent":{"goal":"climb_to_bed","program":"travel","arguments":{"target":{"x":-
