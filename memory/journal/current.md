@@ -171,3 +171,8 @@
 - 00:10 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-250,"y":68,"z":350}}]}
 - 00:15 act: {"actions":[{"do":"goto","target":{"x":-230,"y":69,"z":344}}]}
 - 00:16 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":344}},{"do":"sleep"}]}
+- 00:17 act: {"intent":{"goal":"harvest_ripe_crops_near_plots","program":"travel","arguments":{"target":{"x":-250,"y":68,"z":352}},"wake_on":["goal_completed"],"limits":{"max_world_ticks":2400,"max_block_operation
+- 00:17 act: {"actions":[{"do":"goto","target":{"x":-251,"y":68,"z":353}}],"reasoning":"Walk onto the plots to check which crops are ripe."}
+- 00:17 act: {"actions":[{"do":"mine","block":"potatoes","count":3},{"do":"mine","block":"wheat","count":3}],"reasoning":"Harvest the nearby crops by breaking them and see what I get."}
+- 00:17 act: {"actions":[{"do":"goto","target":{"x":-252,"y":67,"z":353}},{"do":"mine","block":"wheat","count":1},{"do":"mine","block":"potatoes","count":1}],"reasoning":"Try once more on a neighboring crop."}
+- 00:18 act: {"actions":[{"do":"eat"}],"reasoning":"Errand says eat once."}
