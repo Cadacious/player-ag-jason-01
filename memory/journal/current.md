@@ -294,3 +294,7 @@
 - 04:36 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-240,"y":50,"z":344}},{"do":"goto","target":{"x":-240,"y":50,"z":344}}],"reasoning":"Last placement at y50 worked on some cell. Try to climb o
 - 04:43 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"say":"Jason here, still in the pit at -240,49,345, health 20. Trying to stack cobblestone at my feet.","reasoning":"Prio
 - 04:47 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-241,"y":49,"z":345}},{"do":"goto","target":{"x":-241,"y":50,"z":345}}],"say":"Jason, still in the pit at -240,49,345, health 20. It's day; tr
+- 04:51 act: {"actions":[{"do":"mine","block":"cobblestone","count":2},{"do":"goto","target":{"x":-240,"y":50,"z":345}}],"say":"Jason, still in the pit at -240,49,345, health 20. The view shows solid stone all aro
+- 04:51 act: {"actions":[{"do":"mine","block":"cobblestone","count":3},{"do":"goto","target":{"x":-240,"y":52,"z":345}}],"reasoning":"Body is back. Keep digging upward through the stone."}
+- 04:51 act: {"actions":[{"do":"mine","block":"stone","count":4}],"say":"Jason, still at -240,49,345, healthy. Mining works here (I have 62 cobblestone), but the walls stay solid. Trying stone walls to open a path
+- 04:52 act: {"actions":[],"say":"Jason, at -239,48,344 now, healthy. Water is near, so I've stopped digging: mining says water would flow in on me. Tommy is next to me. I'll hold here and wait for a clear path.",
