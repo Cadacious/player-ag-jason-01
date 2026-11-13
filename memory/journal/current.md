@@ -1176,3 +1176,27 @@
 - 22:55 act: {"actions":[{"do":"place","block":"dirt","at":"feet"}],"say":"Billy, I'm placing my dirt at my feet to help close the wall.","reasoning":"Helping the shared wall is the safest move for the night. Hung
 - 22:56 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"}],"say":"My dirt didn't place, so I'm trying cobblestone. Tell me where the gap is, Billy.","reasoning":"Dirt failed, so I change the block 
 - 23:00 say: {"text":"Jason here, inside the wall at -394,69,334. No food yet, health 20, hunger 19. We search west at first light."}
+- 23:01 say: {"text":"Jason here, still inside the wall at -394,69,334. I hold no food, only 4 pumpkins that cannot be eaten. Trini, Kimberly, is the south gap closed yet?"}
+- 23:01 say: {"text":"Jason: my view says the only gap is to my right, where the others stand. I am not placing more. Kimberly, check the north square at -396,68,333."}
+- 23:10 act: {"actions":[{"do":"mine","block":"dirt","count":2}],"intent":{"goal":"dig_out_southwest","program":"travel","arguments":{"target":{"x":-400,"y":69,"z":338}},"wake_on":["goal_completed","unexpected_dam
+- 23:11 say: {"text":"Jason: I am out of the pit at -399,69,338, no food, hunger 18. Billy, I am heading to you to search southwest for food with you."}
+- 23:11 act: {"actions":[{"do":"goto","target":{"x":-405,"y":68,"z":345}}],"intent":{"goal":"join_billy_southwest","program":"follow","arguments":{"target":"Billy"},"wake_on":["goal_completed","unexpected_damage",
+- 23:11 act: {"actions":[{"do":"goto","target":{"x":-415,"y":66,"z":355}}],"intent":{"goal":"search_southwest_food","program":"travel","arguments":{"target":{"x":-415,"y":66,"z":355}},"wake_on":["goal_completed","
+- 23:12 say: {"text":"Jason: Billy, I'm at -415,68,349 and can see you. I'm coming to you now to hunt for food with you."}
+- 23:12 act: {"actions":[{"do":"goto","target":"ag_billy_01"}],"intent":{"goal":"hunt_food_with_billy","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["unexpected_damage","directly_addressed"],"
+- 23:12 say: {"text":"Jason: I'm with you, Billy. I'll search southwest with you for cows or sheep."}
+- 23:12 act: {"actions":[{"do":"goto","target":{"x":-430,"y":66,"z":360}}],"intent":{"goal":"search_southwest_for_food","program":"travel","arguments":{"target":{"x":-430,"y":66,"z":360}},"wake_on":["goal_complete
+- 23:12 say: {"text":"Jason: agreed, Zack. It is getting dark. I have 13 cobblestone and 5 dirt. Let's wall in together here and sleep, then hunt at first light."}
+- 23:15 act: {"actions":[{"do":"craft","item":"birch_planks","count":4},{"do":"craft","item":"crafting_table","count":1},{"do":"place","block":"crafting_table","at":"feet"},{"do":"craft","item":"bread","count":2}]
+- 23:15 act: {"actions":[{"do":"eat"}],"say":"I crafted bread from wheat at a crafting table I placed here. Billy and Kimberly, I have 2 bread; I'm eating one now and will share the other."}
+- 23:16 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"bread","count":1}],"say":"Kimberly, here is my last bread. Eat it now."}
+- 23:16 say: {"text":"Kimberly, I can't see you from here, behind the stone. Mine toward me and come out, or tell me your square and I'll dig to you with the bread."}
+- 23:18 say: {"text":"Billy, I'm coming to you with my last bread. Digging west toward your shelter now."}
+- 23:18 act: {"actions":[{"do":"goto","target":{"x":-431,"y":68,"z":349}}],"intent":{"goal":"bring_bread_to_billy","program":"travel","arguments":{"target":{"x":-431,"y":68,"z":349}},"wake_on":["goal_completed","u
+- 23:18 say: {"text":"Jason: I'm here with Zack and Kimberly at dusk. I can't see Billy yet. Billy, say which square you are on and I'll hand the bread over."}
+- 23:19 act: {"actions":[{"do":"mine","block":"stone","count":1},{"do":"goto","target":{"x":-431,"y":68,"z":349}}],"reasoning":"Billy is two squares west in a stone pocket. Dig to him, then hand over the bread."}
+- 23:19 say: {"text":"Billy, I'm at -431,68,349, right beside your pocket. I can't see you yet. Dig one more square west if you're behind stone, or step toward me."}
+- 23:20 act: {"actions":[{"do":"goto","target":{"x":-432,"y":68,"z":349}}],"reasoning":"Billy asked me to open the stone at -432,68,349 between us.","say":"Billy, I'm opening the stone at -432 now."}
+- 23:20 act: {"actions":[{"do":"mine","block":"stone","count":1}],"reasoning":"The goto did not move me; mining the stone wall directly should open it.","say":"Billy, trying to open the stone between us again."}
+- 23:22 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-430,"y":68,"z":348}}],"reasoning":"Night is here and the gap is to my east. Seal it with cobblestone."}
+- 23:22 say: {"text":"Billy, I'm at -431,68,348 with my last bread. The east gap is held by someone, so I'm staying put. Tell me how to reach you."}
