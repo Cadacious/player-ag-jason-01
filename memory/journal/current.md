@@ -582,3 +582,10 @@
 - 12:16 act: {"actions":[{"do":"goto","target":{"x":-191,"y":66,"z":352}}],"say":"Morning. Zack, I am coming east with your two wheat."}
 - 12:16 act: {"actions":[{"do":"unstick"}]}
 - 12:16 act: {"actions":[{"do":"goto","target":{"x":-191,"y":66,"z":352}}]}
+- 12:18 act: {"actions":[{"do":"goto","target":{"x":-191,"y":66,"z":352}}],"reasoning":"Walk toward Zack as the errand says."}
+- 12:18 say: {"text":"Zack, Jason here. Sending my 2 wheat to you now."}
+- 12:18 act: {"actions":[{"do":"goto","target":{"x":-230,"y":66,"z":340}}],"reasoning":"First goto did not move me; retry in shorter steps."}
+- 12:19 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-268,"y":64,"z":330}}],"reasoning":"Goto moved zero blocks; unstick then a short step."}
+- 12:19 act: {"actions":[{"do":"goto","target":{"x":-250,"y":66,"z":340}}],"reasoning":"Moved a few blocks; continue toward Zack in steps."}
+- 12:19 say: {"text":"Zack, Jason here with 2 wheat"}
+- 12:20 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"oak_planks"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_wo
