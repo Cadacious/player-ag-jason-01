@@ -523,3 +523,15 @@
 - 11:17 act: {"say":"I'm at the beds with hunger 17 and no food. I'll look for food on open ground near here and share anything I find.","intent":{"goal":"find_food_near_beds","program":"gather","arguments":{"bloc
 - 11:18 act: {"say":"Jason here at the beds, hunger 17 with no food. Tommy, if you have a spare potato, please drop one on the ground next to me. I'll share my wheat and cobblestone in return."}
 - 11:19 act: {"say":"Thank you Trini, Kimberly, Tommy. I'll keep my cobblestone for shelter. Kimberly, keep your potato if you need it more; I'll look for food on open ground at first light.","actions":[{"do":"not
+- 11:19 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","precondition_failed"],"limits":{"max_world_t
+- 11:19 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-238,"y":67,"z":347}},{"do":"place","block":"dirt","at":{"x":-240,"y":67,"z":347}},{"do":"place","block":"dirt","at":{"x":-239,"y":67,"z":348}},{"do"
+- 11:20 say: {"text":"Zack, thank you. I'll take some dirt if you can drop it at my feet. Trini, I'll stay near you until daylight."}
+- 11:23 say: {"text":"Kimberly, I have 27 dirt and 10 cobblestone. I'm staying by the beds, and I can't reach the water safely at night. Stay on your stone and keep your potato."}
+- 11:23 act: {"actions":[{"do":"goto","target":{"x":-239,"y":68,"z":351}}]}
+- 11:23 act: {"intent":{"goal":"shelter_dirt_2","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","precondition_failed"],"limits":{"max_world_tick
+- 11:23 say: {"text":"Morning. The shelter build keeps failing, so I'm out of ideas there. I still have no food, hunger 17. Anyone with a spare potato, bread or carrot, please drop one near the beds."}
+- 11:26 act: {"intent":{"goal":"find_potatoes","program":"gather","arguments":{"block":"potatoes","count":4},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":2400,"
+- 11:26 act: {"actions":[{"do":"goto","target":{"x":-220,"y":68,"z":350}},{"do":"goto","target":{"x":-220,"y":68,"z":372}}],"reasoning":"Walk outward in a loop, checking for food after each move.","say":"Jason her
+- 11:27 act: {"actions":[{"do":"goto","target":{"x":-215,"y":68,"z":365}}],"reasoning":"Previous moves stalled near trees; try a different direction."}
+- 11:27 act: {"actions":[{"do":"goto","target":{"x":-210,"y":68,"z":362}}],"reasoning":"Keep searching open ground east for edible plants or animals."}
+- 11:27 act: {"say":"No food found out here. I have 2 wheat and 7 wheat seeds. If anyone finds potatoes or carrots, tell me.","actions":[{"do":"note","text":"Day 138 dawn: food errand found nothing 25 blocks east 
