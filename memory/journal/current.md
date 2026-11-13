@@ -1175,3 +1175,4 @@
 - 22:54 say: {"text":"Yes, Kimberly. Let's wall in together here for the night and go west at first light. I have 2 dirt and a torch to add."}
 - 22:55 act: {"actions":[{"do":"place","block":"dirt","at":"feet"}],"say":"Billy, I'm placing my dirt at my feet to help close the wall.","reasoning":"Helping the shared wall is the safest move for the night. Hung
 - 22:56 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"}],"say":"My dirt didn't place, so I'm trying cobblestone. Tell me where the gap is, Billy.","reasoning":"Dirt failed, so I change the block 
+- 23:00 say: {"text":"Jason here, inside the wall at -394,69,334. No food yet, health 20, hunger 19. We search west at first light."}
