@@ -914,3 +914,4 @@
 - 18:41 say: {"text":"Jason here, coming to the yellow bed now. No food on me yet."}
 - 18:41 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":362}}]}
 - 18:41 act: {"actions":[{"do":"goto","target":{"x":-284,"y":67,"z":358}}],"say":"A villager is attacking me by the beds. I am backing off west to -284, 358 and will come back when it is calm."}
+- 18:42 say: {"text":"Kimberly, Jason here, hungry at 16 with health 5.8. I'm staying out here until the villager fight stops, then I'll come for my share of beef."}
