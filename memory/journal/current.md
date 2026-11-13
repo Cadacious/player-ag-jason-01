@@ -290,3 +290,5 @@
 - 04:26 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"stone","count":2},{"do":"place","block":"dirt","at":"feet"}]}
 - 04:27 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-241,"y":49,"z":345}},{"do":"place","block":"cobblestone","at":{"x":-240,"y":48,"z":344}},{"do":"unstick"}],"say":"Jason here, at -240,49,345 
 - 04:27 act: {"actions":[{"do":"goto","target":{"x":-239,"y":49,"z":346}},{"do":"place","block":"cobblestone","at":"feet"}],"say":"Kimberly, I'll step to -239,49,346 and try placing there. I'll tell you how it goe
+- 04:36 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-240,"y":50,"z":344}},{"do":"place","block":"dirt","at":{"x":-241,"y":50,"z":345}},{"do":"unstick"}],"reasoning":"Dusk; try two more placement
+- 04:36 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-240,"y":50,"z":344}},{"do":"goto","target":{"x":-240,"y":50,"z":344}}],"reasoning":"Last placement at y50 worked on some cell. Try to climb o
