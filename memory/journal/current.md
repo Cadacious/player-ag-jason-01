@@ -216,3 +216,4 @@
 - 01:14 act: {"actions":[{"do":"mine","block":"stone","count":2}],"say":"Trini, I'm Jason, right above you at -233,58,349. I'm digging toward you now. Hang on.","reasoning":"Trini and Kimberly are stuck in pits ne
 - 01:14 say: {"text":"Trini, I can't dig straight down, it would drop me. I'll make a step sideways. Stay put."}
 - 01:14 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"cobblestone","count":1}],"say":"Tommy, here is my one cobblestone. Trini has more and will bring some once she is out.","reasoning":"Tommy needs sto
+- 01:25 say: {"text":"Good, Trini is free. Tommy, dig toward Kimberly; I'm still boxed at -233,58,349 and will follow once there's a way out."}
