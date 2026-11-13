@@ -353,3 +353,9 @@
 - 06:45 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-238,"y":48,"z":344}},{"do":"place","block":"cobblestone","at":{"x":-239,"y":48,"z":343}},{"do":"unstick"}],"reasoning":"Side placement is a d
 - 06:48 say: {"text":"Kimberly, thank you. I'm at -239,48,344, the stone where I stand. Dig from the east toward me; I will not move west or south."}
 - 06:48 say: {"text":"Kimberly, I'm at -239,48,344, about 4 blocks south-west of your edge. Drop planks or stone toward the east side of my square. I'll stand still and place blocks on my east face."}
+- 06:53 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"unstick"},{"do":"goto","target":{"x":-239,"y":49,"z":343}}],"say":"Jason here, still in the pit at -239,48,344. Mining north now.","intent":{
+- 06:53 act: {"actions":[{"do":"mine","block":"stone","count":1}],"say":"Kimberly, I'm still at -239,48,344, standing on stone. Could you drop 3 planks at -239,49,343 (north of me)?"}
+- 06:57 act: {"actions":[{"do":"craft","item":"crafting_table","count":1},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"say":"Trying Trini'
+- 07:05 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"say":"Jason, still at -239,48,344. Zack or Trini, if you can reach, drop 4 dirt at -239,49,343, north of me. I'm placing at my 
+- 07:06 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}]}
+- 07:09 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"
