@@ -229,3 +229,46 @@
 - 01:56 act: {"actions":[{"do":"goto","target":{"x":-230,"y":60,"z":349}}]}
 - 01:57 act: {"actions":[{"do":"goto","target":{"x":-234,"y":57,"z":351}}]}
 - 01:57 act: {"say":"Thank you Kimberly. I have 5 cobblestone and 8 dirt. Night is coming, so I'll mine more stone here before I build.","actions":[],"intent":{"goal":"gather_cobble_more","program":"gather","argum
+- 01:58 act: {"say":"Kimberly, I'm at -229,60,347, not enclosed yet. Could you give me the 15 dirt and some cobblestone? I'll build a shelter and sleep.","actions":[{"do":"note","text":"Woke at night on Day 109. N
+- 01:58 act: {"actions":[{"do":"goto","target":{"x":-230,"y":60,"z":349}}],"intent":{"goal":"pick_up_dirt","program":"travel","arguments":{"x":-230,"y":60,"z":349},"wake_on":["goal_completed","precondition_failed"
+- 01:58 act: {"say":"Kimberly, I have 8 dirt. A shelter needs 23 of one block. Could you give me 15 dirt? I'm at -230,58,349.","reasoning":"Need more dirt for a shelter; ask Kimberly directly.","intent":{"goal":"s
+- 02:00 act: {"actions":[{"do":"goto","target":{"x":-231,"y":59,"z":349}}],"reasoning":"Pick up dropped dirt to the west."}
+- 02:00 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_block_oper
+- 02:00 act: {"intent":{"goal":"build_shelter_retry","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_bloc
+- 02:03 act: {"intent":{"goal":"build_shelter_again","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_bloc
+- 02:07 act: {"intent":{"goal":"build_shelter_day","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_block_
+- 02:07 act: {"intent":{"goal":"travel_to_farm","program":"travel","arguments":{"x":-248,"y":68,"z":352},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":2400,"max_block_operations":6
+- 02:10 act: {"actions":[{"do":"give","to":"billy_01","item":"dirt","count":8}],"say":"Billy, I'm sending you 8 dirt to climb out. Then I'm heading to the farm.","intent":{"goal":"travel_to_farm","program":"travel
+- 02:13 act: {"actions":[{"do":"goto","target":{"x":-248,"y":68,"z":352}}],"reasoning":"The travel intent did not move me. Use a direct goto to the farm."}
+- 02:13 act: {"intent":{"goal":"build_shelter_new_spot","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_b
+- 02:13 act: {"actions":[{"do":"goto","target":{"x":-248,"y":68,"z":352}}],"reasoning":"Crowd blocks the build spots. Move to the farm and build there."}
+- 02:14 act: {"intent":{"goal":"shelter_dirt","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"limits":{"max_world_ticks"
+- 02:19 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-234,"y":57,"z":350}},{"do":"place","block":"dirt","at":{"x":-236,"y":57,"z":350}},{"do":"place","block":"dirt","at":{"x":-235,"y":57,"z":349}},{"do"
+- 02:19 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-234,"y":57,"z":350}}],"reasoning":"Check why placement is not working."}
+- 02:24 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"reasoning":"A bed is nearby with others. Go sleep there.","say":"Heading to the bed at -241,69,343 to sleep."}
+- 02:26 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"potato","count":5},{"do":"give","to":"ag_zack_01","item":"potato","count":4}],"reasoning":"Others are hungry; I have spare potatoes. Share them.","s
+- 02:27 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"reasoning":"Go to the bed with Zack for shelter and rest."}
+- 02:27 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"dirt","count":8}],"reasoning":"Billy is boxed in and needs dirt to climb out.","say":"Billy, sending you 8 dirt to climb out."}
+- 02:30 act: {"actions":[],"say":"Trini, I'm also stuck at -236,55,349 in the pit. Could you make a side step for me after Kimberly?"}
+- 02:35 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"}],"reasoning":"Stack dirt under my feet to climb out of the pit."}
+- 02:47 act: {"actions":[{"do":"unstick"}],"reasoning":"Get free of the pit; others report place fails.","say":"Morning. I'm still in the pit at -236,54,349. Trying to get out."}
+- 02:47 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"reasoning":"Get out to the bed now that unstick worked."}
+- 02:47 act: {"actions":[{"do":"goto","target":{"x":-238,"y":60,"z":346}}],"reasoning":"Climb toward surface by targeting a higher point."}
+- 02:48 act: {"actions":[{"do":"mine","block":"stone","count":3}],"reasoning":"Dig stone around to open a path up.","say":"Thanks Zack. I have enough dirt, so I'm digging stone to open a way up."}
+- 02:48 act: {"actions":[{"do":"mine","block":"stone","count":4},{"do":"goto","target":{"x":-237,"y":58,"z":346}}],"reasoning":"Keep digging a stair up and try to climb."}
+- 02:49 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"}],"intent":{"goal":"climb_out_of_pit","program":"travel","arguments":{"target":{"x":-241,"y":69,"z":343}}
+- 02:51 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"stone","count":2}],"intent":{"goal":"climb_out_of_pit","program":"travel","arguments":{"target":{"x":-241,"y":69,"z":343}},"wake_on":["goal_completed
+- 02:51 act: {"actions":[{"do":"mine","block":"stone","count":3},{"do":"unstick"},{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"reasoning":"Previous intent failed with no change. Mine out the walls and retry 
+- 02:51 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"mine","block":"stone","count":2}],"reasoning":"Still in the pit at y52. Try building up with dirt under me."}
+- 02:53 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"reasoning":"Dirt placement worked once. Stack again, then head for the bed."}
+- 02:59 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-237,"y":53,"z":345}},{"do":"place","block":"dirt","at":{"x":-236,"y":53,"z":346}},{"do":"place","block":"dirt","at":{"x":-238,"y":53,"z":346}},{"do"
+- 03:05 act: {"actions":[{"do":"mine","block":"stone","count":4},{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"intent":{"goal":"reach_bed","program":"travel","arguments":{"target":{"x":-241,"y":69,"z":343}},"
+- 03:08 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"}],"say":"Zack, I'm at -238,53,346 in the pit, not enclosed. I have dirt; I'm stacking up. No need to drop
+- 03:08 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"mine","block":"stone","count":2},{"do":"place","block":"dirt","at":"feet"}],"reasoning":"Alternate placing dirt and mining to climb one blo
+- 03:08 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"reasoning":"Zack is placing dirt at the sides. Stack 
+- 03:16 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-233,"y":58,"z":348}}],"intent":{"goal":"reach_zack_ledge","program":"travel","arguments":{"target":{"x":-233,"y":58,"z
+- 03:16 act: {"actions":[{"do":"mine","block":"stone","count":3},{"do":"place","block":"dirt","at":"feet"}],"say":"Zack, thanks. I'm at -238,51,346 with 34 dirt, so I have enough. I'm digging a stair up now.","rea
+- 03:16 act: {"actions":[{"do":"mine","block":"stone","count":2}],"reasoning":"Dusk. I'm not sheltered and can't sleep yet. Dig room and wait out the night."}
+- 03:24 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"intent":{"goal":"reach_bed","program":"travel","arguments":{"target":{"x":-241,"y":69,"z":343}},"wake_on":["goal_completed","precondition
+- 03:25 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"mine","block":"stone","count":3},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"reasoning":"D
+- 03:29 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-241,"y":69,"z":343}}],"reasoning":"New day. Keep digging and stacking, then go
