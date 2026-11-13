@@ -651,3 +651,9 @@
 - 13:46 act: {"actions":[{"do":"place","block":"wheat_seeds","at":"feet"}],"reasoning":"Learn how seeds get planted. Trying on the block under me to see the rule; dirt is nearby if this fails."}
 - 13:46 act: {"actions":[],"say":"I can't plant seeds on stone, and I have no way yet to make farmland. Does anyone know how to till dirt into farmland? I'd trade dirt or sand for bread or food.","reasoning":"Seed
 - 13:47 say: {"text":"Thanks Billy. Tell me what works for tilling. I'll do the same with my hoe."}
+- 13:58 act: {"intent":{"goal":"night_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks"
+- 13:58 act: {"actions":[{"do":"note","text":"Day 145 dusk: shelter built, enclosed, safe. Still holding 2 wheat, 7 seeds; tilling still unknown. Going to sleep."}],"say":"Shelter is closed. I'm going to sleep for
+- 13:58 act: {"actions":[{"do":"sleep"}]}
+- 13:58 act: {"actions":[{"do":"note","text":"Sleep failed: nearby beds occupied or blocked. I am sealed in the shelter, so I will wait here for the night."}]}
+- 14:02 act: {"actions":[{"do":"sleep"}]}
+- 14:02 act: {"actions":[{"do":"note","text":"Night. Sleep failed again: nearby beds occupied. I'm sealed and safe, so I'll wait out the night here and try for a bed at dawn."}]}
