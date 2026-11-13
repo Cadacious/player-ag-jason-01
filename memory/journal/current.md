@@ -361,3 +361,6 @@
 - 07:09 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"
 - 07:25 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"goto","target":{"x":-239,"y":50,"z":344}}],"say":"Tommy, I'm still at -239,48,344. I'm trying to climb by placing cobblestone under 
 - 07:25 act: {"actions":[{"do":"note","text":"Still at -239,48,344 on stone, night. Feet-placing and goto up did not raise me. Waiting for daylight and for Tommy or Trini to drop a block where I can reach."}],"say
+- 07:29 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"}],"say":"Zack, Trini: dawn, I
+- 07:30 act: {"actions":[],"say":"Trini, thank you. I'm at -239,48,344, stand right above me and drop dirt straight down onto my head. I'll stack up.","intent":{"goal":"wait_for_trini_drop","program":"rest","argum
+- 07:30 act: {"actions":[],"say":"Kimberly, Zack: I'm at -239,48,344 in the shaft, still stuck. Please drop 4 dirt straight down onto -239,49,344 when you can reach. Thank you.","reasoning":"Trini can't reach my s
