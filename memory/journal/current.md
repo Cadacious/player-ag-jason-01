@@ -481,3 +481,4 @@
 - 10:12 act: {"intent":{"goal":"shelter_fix","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_t
 - 10:12 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"},{"do":"give","to":"ag_kimberly_01","item":"potato","count":12}],"say":"Kimberly, I'm coming to you with the potatoes now. Eat them when you can."}
 - 10:13 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-239,"y":69,"z":346}},{"do":"give","to":"ag_kimberly_01","item":"potato","count":12}],"say":"Kimberly, unstick and walking to you with 12 potato
+- 10:15 act: {"say":"Kimberly, I'm still stuck at -231,64,346 and can't walk. Could you come to me? I have 12 potatoes ready to hand over.","actions":[{"do":"unstick"},{"do":"goto","target":{"x":-236,"y":66,"z":34
