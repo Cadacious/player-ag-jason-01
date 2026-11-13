@@ -326,3 +326,7 @@
 - 06:05 act: {"intent":{"goal":"build_shelter_pit","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max
 - 06:05 act: {"intent":{"goal":"build_shelter_dirt","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_block
 - 06:11 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_block_oper
+- 06:17 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"goto","target":{"x":-239,"y":49,"z":340}}],"say":"Jason: trying Billy's way out. Dirt under my feet, unstick, then north."
+- 06:17 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-239,"y":50,"z":344}}],"reasoning":"Placement blocked. Try unstick then a short step up, without placing."}
+- 06:17 act: {"say":"Jason, still in the pit at -239,48,344. Unstick, place and the dirt shelter all say blocked. Billy, Tommy, Trini: tell me when you are out and what worked.","intent":{"goal":"escape_pit","prog
+- 06:22 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"reasoning":"Billy says dirt plus unstick lifts one level each time. Try one step up."}
