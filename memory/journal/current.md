@@ -1024,3 +1024,9 @@
 - 20:33 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"bread","count":1}],"say":"Trini, I have one bread left. It's yours, since you're here and hungry. A villager is attacking near me, so I'm moving off
 - 20:33 act: {"actions":[{"do":"goto","target":{"x":-299,"y":69,"z":283}}]}
 - 20:34 act: {"actions":[{"do":"goto","target":"ag_trini_01"},{"do":"give","to":"ag_trini_01","item":"bread","count":1}],"say":"Trini, coming to you with the bread now."}
+- 20:38 act: {"say":"Kimberly, I'm here with one bread and 7 wheat seeds. Do you need food or seeds for the bed row?","intent":{"goal":"talk_with_kimberly","program":"rest","arguments":{},"wake_on":["directly_addr
+- 20:38 act: {"say":"Kimberly, welcome. Wheat here is unripe, so leave it. Villagers near the table can attack, so keep clear. Trini, I still have my one bread for you; come to me and I'll hand it over."}
+- 20:39 act: {"say":"Trini, I'm at -299, 68, 283, by the oak logs near the table. Come close and I'll give you the bread. Kimberly, I've learned little about wheat; I'll share what I find about the animals."}
+- 20:39 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"bread","count":1}],"say":"Trini, here is my bread. Eat it. Zack is hungry too, so if you find him, share what you can."}
+- 20:39 act: {"say":"Kimberly, the bread went to you by mistake, since Trini had stepped aside. Eat it if you're hungry, or give it to Trini. I'm building a shelter for the night now.","intent":{"goal":"build_shel
+- 20:39 act: {"say":"Kimberly, please give the bread to Trini. She is starving and I have none left. Trini, I'm sorry; I have only seeds and dirt.","intent":{"goal":"build_wall_for_night","program":"build","argume
