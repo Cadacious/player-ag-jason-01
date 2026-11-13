@@ -202,3 +202,13 @@
 - 01:08 act: {"actions":[{"do":"mine","block":"potato","count":8},{"do":"mine","block":"wheat","count":6}]}
 - 01:08 act: {"actions":[{"do":"goto","target":{"x":-251,"y":68,"z":354}},{"do":"mine","block":"potatoes","count":8}]}
 - 01:08 act: {"actions":[{"do":"eat"},{"do":"eat"}],"reasoning":"Hunger is 20 and I already carry 14 potatoes, so eating is the fastest food. Bread needs 3 wheat and I have only 2.","say":"Eating potatoes from my 
+- 01:09 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1},{"do":"goto","target":{"x":-224,"y":60,"z":349}}],"say":"Kimberly, I'm coming with a pickaxe."}
+- 01:09 act: {"actions":[{"do":"mine","block":"dirt","count":6}],"say":"Kimberly, I'm digging us a way up; stay close."}
+- 01:10 act: {"actions":[{"do":"goto","target":{"x":-241,"y":68,"z":345}}]}
+- 01:10 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"goto","target":{"x":-226,"y":60,"z":349}},{"do":"mine","block":"stone","count":2},{"do":"goto","target":{"x":-226,"y":61,"z":349}}],"reasonin
+- 01:10 act: {"actions":[{"do":"mine","block":"dirt","count":1},{"do":"place","block":"dirt","at":"feet"}],"reasoning":"Test whether mining the dirt ahead opens a path; the view shows dirt one block up ahead."}
+- 01:10 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"goto","target":{"x":-227,"y":60,"z":349}},{"do":"mine","block":"stone","count":2},{"do":"goto","target":{"x":-228,"y":61,"z":349}}],"reasoning
+- 01:10 act: {"actions":[{"do":"mine","block":"dirt","count":1},{"do":"goto","target":{"x":-227,"y":60,"z":349}},{"do":"mine","block":"dirt","count":1},{"do":"goto","target":{"x":-228,"y":60,"z":349}}],"reasoning"
+- 01:12 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"}]}
+- 01:12 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-241,"y":69,"z":344}}]}
+- 01:13 act: {"actions":[{"do":"mine","block":"coal_ore","count":1},{"do":"unstick"}]}
