@@ -335,3 +335,13 @@
 - 06:27 act: {"actions":[{"do":"mine","block":"stone","count":2},{"do":"unstick"}],"reasoning":"Fully enclosed by stone; placing dirt at feet did nothing. Mine stone to open a path, then check."}
 - 06:27 act: {"actions":[{"do":"wait","seconds":120}],"say":"Kimberly, Billy: I'm at -239,48,344, sealed in stone. Place-at-feet and mining did nothing for me. If anyone can reach me, please dig a path in from the
 - 06:27 act: {"actions":[{"do":"note","text":"Jason stuck at -239,48,344, enclosed by stone. Dirt-at-feet fails for me and for Billy. Waiting for Kimberly's or anyone's working method."},{"do":"wait","seconds":240
+- 06:27 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"say":"Trying cobblestone at my feet now, per Kimberly.
+- 06:27 act: {"actions":[{"do":"wait","seconds":300}],"say":"Cobblestone at my feet also does nothing for me. Still at -239,48,344. Will try again when someone finds a working method.","reasoning":"Dirt and cobble
+- 06:27 act: {"actions":[{"do":"place","block":"dirt","at":"feet"}],"reasoning":"The earlier failures were 'busy', not 'blocked'. Try one placement alone to check."}
+- 06:27 act: {"intent":{"goal":"clear_stuck_action","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":600,"max_block_operations":10}}
+- 06:29 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"reasoning":"Body is no longer busy. Try dirt at feet and unstick once to see if position changes."}
+- 06:29 act: {"actions":[{"do":"mine","block":"stone","count":1}],"reasoning":"Placement is genuinely blocked. Mine one stone and see whether the walls open."}
+- 06:29 act: {"actions":[{"do":"note","text":"Stone mining refused: water would flow in. Stopping digs. Waiting."},{"do":"wait","seconds":240}],"say":"Mining here is unsafe, water would flow in. Placing at my feet
+- 06:29 act: {"actions":[{"do":"wait","seconds":240}],"say":"Thank you Kimberly. I'll wait here at -239,48,344 and not dig, since water is close.","reasoning":"Kimberly is digging toward me. Wait so I do not flood
+- 06:30 act: {"actions":[{"do":"wait","seconds":240}],"say":"Zack, thank you. I'm at -239,48,344, and Kimberly is digging toward me from the east. I have dirt and cobblestone, so I'm fine on blocks. Please help Tr
+- 06:31 act: {"actions":[{"do":"note","text":"Deep water under pit near -236,45,344 (y 42-47). Do not dig west or south. Waiting for Kimberly from the east."},{"do":"wait","seconds":200}],"reasoning":"Deep water b
