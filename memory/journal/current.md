@@ -682,3 +682,5 @@
 - 14:14 act: {"say":"Billy, Zack, I'm boxed in by dirt at -266,61,334 and I keep digging, but I'm making only a block or two at a time. I still have 2 wheat for whoever gets to me first. Tell me if you can come to
 - 14:17 act: {"actions":[{"do":"mine","block":"dirt","count":3},{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"say":"Billy, Zack, dusk is here. I'm digging toward the beds now, about 18 blocks off."}
 - 14:18 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"],"
+- 14:19 act: {"actions":[{"do":"wait","seconds":120}],"say":"I'm sealed in the shelter for the night. I'll try the beds again shortly.","reasoning":"Sheltered and safe. Beds were blocked before. Wait, then retry s
+- 14:21 act: {"actions":[{"do":"sleep"}],"reasoning":"Still sealed in shelter at night. Retry sleep once; beds may be free now."}
