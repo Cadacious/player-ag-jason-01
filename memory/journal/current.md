@@ -330,3 +330,4 @@
 - 06:17 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-239,"y":50,"z":344}}],"reasoning":"Placement blocked. Try unstick then a short step up, without placing."}
 - 06:17 act: {"say":"Jason, still in the pit at -239,48,344. Unstick, place and the dirt shelter all say blocked. Billy, Tommy, Trini: tell me when you are out and what worked.","intent":{"goal":"escape_pit","prog
 - 06:22 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"reasoning":"Billy says dirt plus unstick lifts one level each time. Try one step up."}
+- 06:26 act: {"actions":[{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"goto","target":{"x":-238,"y":49,"z":342}}],"say":"Jason: dawn, still in the pit at -239,48,344. Kimberly,
