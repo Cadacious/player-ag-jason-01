@@ -184,3 +184,4 @@
 - 00:24 act: {"actions":[{"do":"goto","target":{"x":-251,"y":68,"z":353}},{"do":"mine","block":"wheat","count":4},{"do":"mine","block":"potatoes","count":4}],"reasoning":"Move into the crop rows and try to harvest
 - 00:25 act: {"actions":[{"do":"goto","target":{"x":-252,"y":68,"z":352}},{"do":"mine","block":"wheat","count":1}],"reasoning":"Retry one harvest close to the crops to see whether mining works on ripe wheat."}
 - 00:25 act: {"say":"Harvest failed: mining the wheat and potatoes gave nothing, and I have no harvest action. I'm stopping here.","reasoning":"I cannot harvest with the tools I have. Report back rather than keep 
+- 00:46 act: {"actions":[{"do":"note","text":"Day 106 dawn: crafting tools failed repeatedly before; don't loop on it. Beds at -241,69,343/344."}]}
