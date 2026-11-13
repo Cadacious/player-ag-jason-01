@@ -1096,3 +1096,4 @@
 - 21:35 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":320}},{"do":"sleep"}]}
 - 21:35 act: {"actions":[{"do":"sleep"}],"say":"Going to bed by the white bed. I have 7 pumpkins and 2 porkchops if anyone needs them."}
 - 21:40 act: {"actions":[{"do":"sleep"}]}
+- 21:41 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Night is here. I'm going to the white bed to sleep."}
