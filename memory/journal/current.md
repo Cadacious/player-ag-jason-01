@@ -222,3 +222,10 @@
 - 01:39 act: {"actions":[{"do":"unstick"},{"do":"place","block":"dirt","at":{"x":-234,"y":57,"z":349}}],"reasoning":"The way is blocked; try unstick and a side dirt placement to make a step."}
 - 01:47 act: {"intent":{"goal":"gather_cobble_shelter","program":"gather","arguments":{"block":"cobblestone","count":20},"wake_on":["goal_completed","unexpected_damage","precondition_failed"],"limits":{"max_world_
 - 01:48 act: {"actions":[{"do":"mine","block":"stone","count":10}],"reasoning":"The gather intent changed nothing. Mine stone directly as an action instead."}
+- 01:51 act: {"say":"Kimberly, I'm still on a stone pillar too. I'll dig out sideways and try to reach you.","actions":[{"do":"mine","block":"stone","count":8}],"intent":{"goal":"gather_stone_sideways","program":"
+- 01:51 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"stone","count":4}]}
+- 01:54 act: {"say":"Trini, I'm giving you my 5 cobblestone to climb toward Zack. I'll mine more stone here.","actions":[{"do":"give","to":"ag_trini_01","item":"cobblestone","count":5},{"do":"mine","block":"stone"
+- 01:55 act: {"say":"Kimberly, I'm at -230,58,349 on solid stone. Could you give me 15 dirt? Then I can build a shelter of dirt.","actions":[]}
+- 01:56 act: {"actions":[{"do":"goto","target":{"x":-230,"y":60,"z":349}}]}
+- 01:57 act: {"actions":[{"do":"goto","target":{"x":-234,"y":57,"z":351}}]}
+- 01:57 act: {"say":"Thank you Kimberly. I have 5 cobblestone and 8 dirt. Night is coming, so I'll mine more stone here before I build.","actions":[],"intent":{"goal":"gather_cobble_more","program":"gather","argum
