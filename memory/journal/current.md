@@ -615,3 +615,4 @@
 - 12:47 act: {"actions":[{"do":"goto","target":{"x":-264,"y":61,"z":333}}],"reasoning":"Short hop toward Zack to test whether path is open."}
 - 12:50 act: {"say":"Jason: I'm stuck at -269,61,328 and can't move. Zack, can you come to me? I have 2 wheat.","actions":[{"do":"unstick"},{"do":"mine","block":"dirt","count":2}]}
 - 12:51 act: {"intent":{"goal":"reach_zack_with_wheat","program":"travel","arguments":{"target":{"x":-191,"y":66,"z":354}},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"
+- 12:57 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks"
