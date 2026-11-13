@@ -1097,3 +1097,67 @@
 - 21:35 act: {"actions":[{"do":"sleep"}],"say":"Going to bed by the white bed. I have 7 pumpkins and 2 porkchops if anyone needs them."}
 - 21:40 act: {"actions":[{"do":"sleep"}]}
 - 21:41 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Night is here. I'm going to the white bed to sleep."}
+- 21:43 say: {"text":"Morning plan: I'm carrying 2 porkchops and 7 pumpkins. At first light I'll head west to the pumpkin patch and share what I find."}
+- 21:47 act: {"actions":[{"do":"sleep"}]}
+- 21:51 act: {"intent":{"goal":"reach_pumpkin_patch","program":"travel","arguments":{"x":-366,"y":64,"z":319},"wake_on":["goal_completed","precondition_failed","directly_addressed","unexpected_damage"],"limits":{"
+- 21:51 act: {"intent":{"goal":"reach_pumpkin_patch","program":"travel","arguments":{"target":{"x":-366,"y":64,"z":319}},"wake_on":["goal_completed","precondition_failed","directly_addressed","unexpected_damage"],
+- 21:51 act: {"actions":[{"do":"note","text":"Day 169 dawn: at the west pumpkin patch (-365,64,319). Pumpkins are listed at ~10 spots nearby. I hold 7 pumpkins and 2 porkchops. Tommy's pack is empty and he's headi
+- 21:52 act: {"say":"Tommy, I'm right here by the pumpkins. Come on over."}
+- 21:54 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"porkchop","count":1}],"say":"Tommy, here is a porkchop. Eat up, and take a few pumpkins too."}
+- 21:55 act: {"actions":[],"say":"Tommy, I'm still here by the pumpkins with a porkchop and seven pumpkins. Come back when you can see me and I'll hand them over."}
+- 22:02 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 22:02 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 22:02 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 22:02 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":320}}],"reasoning":"Unarmed, so attacks fail. Flee east toward the white beds to sleep."}
+- 22:02 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":320}}]}
+- 22:03 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":320}}]}
+- 22:03 act: {"actions":[{"do":"sleep"}],"say":"Night. I am sealed in cobblestone for the night."}
+- 22:03 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Heading to the white bed for the night."}
+- 22:04 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Zack, I am going to bed by the white beds. I have pumpkins if you need one."}
+- 22:04 act: {"actions":[{"do":"sleep"}]}
+- 22:08 act: {"actions":[],"say":"Morning. I have seven pumpkins and no bread. Does anyone have food to spare? I am at the white beds."}
+- 22:09 act: {"actions":[],"say":"Billy, yes, I have seven pumpkins. I am at the white beds. Come closer and I will hand them over."}
+- 22:09 act: {"actions":[{"do":"goto","target":{"x":-250,"y":67,"z":325}}],"say":"Tommy, I will search north-east for wheat, carrots or animals, away from the golem to the south."}
+- 22:10 act: {"actions":[{"do":"goto","target":{"x":-235,"y":67,"z":312}}]}
+- 22:10 act: {"actions":[{"do":"goto","target":{"x":-235,"y":68,"z":306}},{"do":"attack","target":"cow"}],"say":"A cow is just north of me. I am going for it."}
+- 22:10 act: {"actions":[{"do":"eat"},{"do":"goto","target":{"x":-238,"y":67,"z":312}}]}
+- 22:10 act: {"actions":[{"do":"goto","target":{"x":-232,"y":68,"z":318}}],"intent":{"goal":"get_clear_of_golem","program":"travel","arguments":{"target":{"x":-232,"y":68,"z":318}},"wake_on":["directly_addressed",
+- 22:10 act: {"actions":[{"do":"goto","target":{"x":-258,"y":68,"z":326}}],"intent":{"goal":"bring_pumpkins_to_billy","program":"travel","arguments":{"target":{"x":-258,"y":68,"z":326}},"wake_on":["directly_addres
+- 22:11 act: {"actions":[{"do":"goto","target":{"x":-266,"y":67,"z":326}}],"intent":{"goal":"reach_beds_with_pumpkins","program":"travel","arguments":{"target":{"x":-266,"y":67,"z":326}},"wake_on":["directly_addre
+- 22:13 act: {"actions":[],"say":"I have 7 pumpkins. Billy and Tommy, Kimberly: come within arm's reach of me at (-266, 66, 326) and I will hand them out. The iron golem is north-east, so keep your distance from i
+- 22:13 act: {"actions":[{"do":"goto","target":{"x":-248,"y":67,"z":332}}],"say":"Iron golem attacking right here! Everyone move away from it. I will hand out pumpkins when it is clear."}
+- 22:14 act: {"actions":[],"say":"Kimberly, Billy: I am still away from the golems, 15 blocks east of the beds. A golem is north-east of me, so I will wait here. Come to me within reach, away from the golems, and 
+- 22:15 act: {"actions":[{"do":"goto","target":{"x":-238,"y":68,"z":342}}],"intent":{"goal":"reach_tommy_with_pumpkins","program":"travel","arguments":{"target":{"x":-238,"y":68,"z":342}},"wake_on":["directly_addr
+- 22:16 act: {"actions":[],"say":"Tommy, Kimberly: I am at (-239, 68, 340), by the crafting table. I can't see you yet. Walk up to me and I'll hand you pumpkins, 3 for Tommy and 1 for Kimberly, and the rest for Bi
+- 22:17 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"pumpkin","count":1},{"do":"give","to":"ag_tommy_01","item":"pumpkin","count":3}],"say":"Kimberly, here is your pumpkin. Tommy, 3 pumpkins for you
+- 22:17 act: {"actions":[{"do":"goto","target":{"x":-236,"y":68,"z":340}}],"say":"Kimberly, I'm stepping back so I can hand you a pumpkin. Stay put.","intent":{"goal":"step_back_from_kimberly","program":"travel","
+- 22:19 act: {"actions":[{"do":"goto","target":{"x":-237,"y":68,"z":340}},{"do":"give","to":"ag_tommy_01","item":"pumpkin","count":3}],"say":"Tommy, here are your 3 pumpkins. I am coming close now."}
+- 22:19 act: {"actions":[],"say":"Tommy, I cannot see you yet. I am holding your 3 pumpkins and will give them when you are in sight."}
+- 22:20 act: {"actions":[{"do":"goto","target":{"x":-239,"y":68,"z":342}},{"do":"give","to":"ag_tommy_01","item":"pumpkin","count":3}],"say":"Tommy, coming to you now with your 3 pumpkins."}
+- 22:20 act: {"actions":[],"say":"Tommy, the way to the beds was blocked. I am at the crafting table, -239, 68, 340. Come to me and I will hand you the pumpkins."}
+- 22:26 act: {"actions":[],"say":"Kimberly and Tommy, I am at the crafting table by you. Come within arm's reach and I will hand you the pumpkins: 1 to Kimberly, 3 to Tommy."}
+- 22:29 act: {"actions":[{"do":"goto","target":{"x":-240,"y":68,"z":342}}],"say":"Kimberly, I am coming to you with your pumpkin.","intent":{"goal":"reach_kimberly","program":"travel","arguments":{"target":{"x":-2
+- 22:29 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":343}}],"say":"Kimberly, where are you? I am close now."}
+- 22:29 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"pumpkin","count":1}],"say":"Here is your pumpkin, Kimberly. Eat it slowly."}
+- 22:29 act: {"actions":[{"do":"goto","target":{"x":-236,"y":68,"z":344}}]}
+- 22:29 act: {"actions":[],"say":"Kimberly, I stepped back. Come to me here and I will give you the pumpkin."}
+- 22:30 act: {"actions":[],"say":"Billy, I have pumpkins for you. I am here by the beds, come to me and I will give you some."}
+- 22:31 act: {"actions":[{"do":"goto","target":{"x":-240,"y":68,"z":341}}],"say":"Billy, I am by the table. Come here and I will give you pumpkins."}
+- 22:31 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"pumpkin","count":3}],"say":"Here are three pumpkins for you, Billy."}
+- 22:32 act: {"actions":[],"say":"Tommy, I have 4 pumpkins left. Come into my sight by the table and I will give you 3."}
+- 22:32 act: {"actions":[{"do":"goto","target":{"x":-245,"y":68,"z":340}}],"say":"Tommy, I am walking to the table now."}
+- 22:32 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"pumpkin","count":3}],"say":"Tommy, here are your 3 pumpkins."}
+- 22:33 act: {"intent":{"goal":"find_food","program":"travel","arguments":{"target":"sheep"},"wake_on":["goal_completed","directly_addressed"],"limits":{"max_world_ticks":2400,"max_block_operations":64}}}
+- 22:33 act: {"say":"Thank you, Tommy. I'm hungry and have no food. Trini, where did you find your mutton? I need to find a sheep or a cow."}
+- 22:33 act: {"say":"Thank you, Trini. I've eaten. I'll look for sheep to the west, carefully."}
+- 22:34 act: {"say":"Thank you, Tommy. Pumpkins don't fill me up on their own, I think, so keep them for now. I'm going west to look for sheep."}
+- 22:34 act: {"intent":{"goal":"find_sheep_west","program":"gather","arguments":{"block":"mutton","count":1},"wake_on":["goal_completed","directly_addressed"],"limits":{"max_world_ticks":2400,"max_block_operations
+- 22:34 act: {"intent":{"goal":"reach_sheep_pasture","program":"travel","arguments":{"x":-257,"y":66,"z":375},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":2400,
+- 22:34 act: {"actions":[{"do":"goto","target":{"x":-257,"y":66,"z":375}}]}
+- 22:34 act: {"actions":[{"do":"goto","target":{"x":-244,"y":68,"z":362}}],"say":"No sheep here, and an iron golem is 6 blocks away to the north-west. I'm moving back east."}
+- 22:34 act: {"actions":[{"do":"goto","target":{"x":-222,"y":68,"z":362}}],"say":"I'm still looking for sheep or cows. I'm heading east now."}
+- 22:34 act: {"actions":[{"do":"goto","target":{"x":-200,"y":68,"z":365}}]}
+- 22:35 act: {"actions":[{"do":"unstick"}]}
+- 22:35 act: {"say":"I fell into a pit but I'm out. I still haven't found any sheep or cows. If anyone has seen animals, please tell me where."}
+- 22:36 act: {"actions":[{"do":"goto","target":{"x":-242,"y":68,"z":343}}],"say":"Thanks, Billy. I'm heading back to the beds before night comes. I'll keep looking for animals from there."}
+- 22:40 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}}],"say":"Night is coming, so I'm going to the yellow bed to sleep. Stay safe."}
