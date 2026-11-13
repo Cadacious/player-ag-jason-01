@@ -783,3 +783,12 @@
 - 16:30 act: {"actions":[{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
 - 16:30 act: {"actions":[{"do":"mine","block":"dirt","count":16},{"do":"unstick"}],"say":"Billy, I'm stuck in dirt about 55 blocks west of the shore. If you're near the farm at -251,353, come to me or tell me wher
 - 16:30 act: {"actions":[{"do":"mine","block":"dirt","count":16},{"do":"unstick"},{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
+- 16:31 act: {"actions":[{"do":"mine","block":"dirt","count":16},{"do":"unstick"},{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
+- 16:32 act: {"actions":[{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
+- 16:32 act: {"actions":[{"do":"mine","block":"dirt","count":16},{"do":"unstick"},{"do":"goto","target":{"x":-201,"y":64,"z":352}}],"intent":{"goal":"reach_billy_with_wheat","program":"travel","arguments":{"target
+- 16:32 act: {"actions":[{"do":"goto","target":{"x":-240,"y":61,"z":351}}],"intent":{"goal":"reach_billy_with_wheat","program":"travel","arguments":{"target":{"x":-201,"y":64,"z":352}},"wake_on":["directly_address
+- 16:33 act: {"say":"Billy, I'm stuck: goto moves me 0 blocks, so the dirt around me is solid. Could you dig a tunnel west toward me? I'll keep digging east."}
+- 16:33 act: {"actions":[{"do":"mine","block":"dirt","count":8},{"do":"unstick"}],"say":"Billy, I'm facing east at -257,61,351, digging toward you. Stay where you are and I'll reach you."}
+- 16:34 act: {"actions":[{"do":"goto","target":{"x":-240,"y":62,"z":351}}],"intent":{"goal":"reach_billy_with_wheat","program":"travel","arguments":{"target":{"x":-202,"y":63,"z":351}},"wake_on":["directly_address
+- 16:34 act: {"say":"Billy, thank you for waiting. I keep getting pushed back to this spot, so the dirt here is still blocking me. I'll keep trying and tell you when I'm close."}
+- 16:38 act: {"actions":[{"do":"build","blueprint":{"name":"night_pit","blocks":[{"block":"dirt","dx":0,"dy":1,"dz":0}]}}],"say":"Zack, Billy, Kimberly: I still have 2 wheat for whoever has no food. I'm about 55 b
