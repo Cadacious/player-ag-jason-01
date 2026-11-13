@@ -308,3 +308,5 @@
 - 05:07 act: {"intent":{"goal":"build_day_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
 - 05:07 say: {"text":"Jason, still at -239,49,344, healthy, perched on a ledge. My shelter keeps stalling on blocked spots. If anyone has an open path or a spare bed, tell me."}
 - 05:11 act: {"intent":{"goal":"shelter_retry_day","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
+- 05:15 act: {"reasoning":"Perched on ledge, not enclosed. Have 61 cobblestone. Try build shelter with cobblestone; earlier attempts stalled at blocked spot, so watch result.","say":"Jason here, perched on the led
+- 05:17 act: {"reasoning":"Build did nothing. Standing on air at ledge. Place cobblestone at feet to firm footing, then check.","actions":[{"do":"place","block":"cobblestone","at":"feet"}]}
