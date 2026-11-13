@@ -794,3 +794,4 @@
 - 16:38 act: {"actions":[{"do":"build","blueprint":{"name":"night_pit","blocks":[{"block":"dirt","dx":0,"dy":1,"dz":0}]}}],"say":"Zack, Billy, Kimberly: I still have 2 wheat for whoever has no food. I'm about 55 b
 - 16:38 act: {"actions":[{"do":"build","blueprint":{"name":"shelter","blocks":[]}}]}
 - 16:39 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ti
+- 16:39 act: {"say":"Zack, I have 2 wheat spare. I'm in my pit at -257,61,351 for the night. Come by if you still need food.","actions":[{"do":"sleep"}],"reasoning":"Dusk, enclosed in a sealed pit, health and hung
