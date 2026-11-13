@@ -834,3 +834,31 @@
 - 17:28 act: {"actions":[{"do":"goto","target":{"x":-200,"y":61,"z":351}}],"say":"I'm out and heading east toward Zack with my 2 wheat."}
 - 17:28 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"stone","count":2}]}
 - 17:28 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-258,"y":60,"z":350}}],"say":"Tommy, I'll try your dirt pillar trick under my
+- 17:29 act: {"actions":[{"do":"place","block":"dirt","at":"feet"}],"say":"I'm still in the pit at -257,56,350. Building up with dirt to climb out. Zack, I'm coming.","intent":{"goal":"climb_out_of_pit","program":
+- 17:29 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"stone","count":2}],"say":"The pillar was blocked overhead. I'm trying unstick and digging a side step."}
+- 17:30 act: {"actions":[{"do":"goto","target":{"x":-199,"y":61,"z":351}}],"say":"Zack, I'm at -258,54,348 in the pit, still stuck. I have 2 wheat for you and Billy. I'm trying to climb out toward you.","intent":{
+- 17:30 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"wheat","count":2}],"say":"Zack, I'm out of the pit at -199,64,351. Here's 2 wheat for you. Someone is drawing a bow to the southeast, so be careful."
+- 17:30 act: {"actions":[{"do":"goto","target":{"x":-199,"y":61,"z":351}},{"do":"give","to":"ag_zack_01","item":"wheat","count":2}],"say":"Zack, I'm coming down to you now."}
+- 17:30 act: {"actions":[],"say":"Kimberly, I'm Jason, at -199,64,353. Do you know where Zack is? I have 2 wheat for him."}
+- 17:31 act: {"actions":[{"do":"goto","target":{"x":-199,"y":62,"z":352}},{"do":"give","to":"ag_zack_01","item":"wheat","count":2}],"say":"Zack, I'm trying to get down to you at -199,62,352. Tell me if you can see
+- 17:31 act: {"actions":[{"do":"unstick"}],"say":"Zack, I can't find a path down to you from here. Can you move up or stand where I can see you? Kimberly, I'm beside you at -199,64,352."}
+- 17:31 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"wheat","count":2}],"say":"Zack, giving you 2 wheat now."}
+- 17:32 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"wheat","count":2}],"say":"Zack, when you're level with me I'll hand you the wheat. Billy, stay up and swim toward the ledge; I'm holding my position.
+- 17:32 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"wheat","count":2}],"say":"Zack, sending the 2 wheat now. Billy, I'll hand you what I can once I'm near you."}
+- 17:32 act: {"actions":[{"do":"mine","block":"cobblestone","count":1},{"do":"goto","target":{"x":-200,"y":60,"z":352}}],"say":"Zack, I'm digging down toward you. Hold still and I'll come level."}
+- 17:33 act: {"actions":[{"do":"goto","target":{"x":-200,"y":58,"z":351}},{"do":"give","to":"ag_zack_01","item":"wheat","count":2}],"say":"Zack, I'm coming down toward you with the 2 wheat for Billy and you.","int
+- 17:34 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"wheat","count":2}],"say":"Kimberly, you're right beside me, so the 2 wheat goes to you. Zack and Billy, I can't see you from here; I'll bring foo
+- 17:34 act: {"actions":[],"say":"Kimberly, my give of the wheat didn't go through. I'm still holding 2 wheat. Tell me where you want it, or whether you're already fed."}
+- 17:34 act: {"actions":[{"do":"goto","target":{"x":-201,"y":59,"z":350}},{"do":"give","to":"ag_billy_01","item":"wheat","count":2}],"say":"Kimberly, thank you. I'm keeping the wheat for Billy and Zack and trying 
+- 17:35 act: {"actions":[],"say":"Kimberly, I have your beetroot in my pack now, thank you. Zack and Billy, I'm holding 2 wheat and the beetroot on the ledge above you. Come within reach and I'll hand them over."}
+- 17:35 act: {"actions":[],"say":"Kimberly, no beetroot has reached my pack; I don't have it. Billy, I'm holding the 2 wheat and will give them when you're within reach. I'm still on the ledge above you."}
+- 17:40 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ti
+- 17:48 act: {"actions":[],"say":"Dawn. Zack, you need one more wheat for bread, so I'll give you my 2 once I can see you. Billy, I'll bring the rest to you after that. Kimberly, could you hold the beetroot until 
+- 17:49 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"wheat","count":2}],"say":"Billy, you're the hungriest and in reach, so I'm giving you my 2 wheat. Zack already has enough with Tommy's wheat for bre
+- 17:49 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"wheat","count":2}],"say":"Tommy, you're in reach, so I'm giving you my 2 wheat for the bread pool. Please take it to Zack and Billy, who are hungrie
+- 17:50 act: {"actions":[],"say":"Billy, I'm at -200,64,350 with 2 wheat for you. Dig or pillar up to my level and I'll hand it over."}
+- 17:50 act: {"actions":[],"say":"Zack, you now have Tommy's wheat, so you can make bread. I'm holding my 3 wheat for Billy until he's in sight. Billy, pillar up and I'll give them to you."}
+- 17:51 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"wheat","count":1}],"say":"Zack, here's 1 wheat for your bread. I'm keeping 2 for Billy, who is pillaring up. I have no pickaxe to dig his gap, so Tom
+- 17:51 act: {"actions":[],"say":"Zack, my give of wheat was refused, so your pack may be full of dirt. Drop a stack and I'll try once more. Billy, come up to Tommy and I'll give you my 2 wheat when you're in sigh
+- 17:51 act: {"actions":[],"say":"Thanks, Zack and Tommy. I'll hold my 3 wheat for whoever is in sight and hungriest, Billy first. Billy, call out when you're up."}
+- 17:52 act: {"actions":[],"say":"Billy, I can't see you from here. Dig a gap toward me or come up to Tommy and I'll hand you the wheat as soon as you're in reach. Zack, your wheat stays with you for now."}
