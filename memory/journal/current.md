@@ -565,3 +565,12 @@
 - 11:58 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":344}}],"say":"Billy, dirt has not reached me yet. I will build what I can with my 9 dirt and 7 cobblestone before dark.","intent":{"goal":"shelte
 - 11:58 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}},{"do":"sleep"}],"reasoning":"Dusk, no shelter built. The bed is the nearest enclosure-like spot; go there and try to sleep."}
 - 11:58 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"reasoning":"Night is near; I am away from my bed but a white bed is one block north. Try that bed."}
+- 11:59 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":326}},{"do":"sleep"}],"say":"Dusk, day 139. I'm at a bed with food full and no enclosure yet. Going to sleep here for the night.","reasoning":"Su
+- 11:59 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":345}}],"say":"A villager is attacking me by the bed. I'm moving away south.","reasoning":"Woke at night with a hostile villager adjacent north, a
+- 11:59 act: {"intent":{"goal":"night_wall","program":"build","arguments":{"blueprint":"wall","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":1200,
+- 12:07 act: {"intent":{"goal":"gather_dirt_for_shelter","program":"gather","arguments":{"block":"dirt","count":23},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks"
+- 12:09 act: {"actions":[{"do":"craft","item":"oak_planks","count":16}],"intent":{"goal":"gather_logs_for_planks","program":"gather","arguments":{"block":"oak_log","count":8},"wake_on":["goal_completed","unexpecte
+- 12:10 act: {"actions":[{"do":"craft","item":"oak_planks","count":24}],"intent":{"goal":"shelter","program":"build","arguments":{"blueprint":"shelter","block":"oak_planks"},"wake_on":["goal_completed","unexpected
+- 12:10 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"wall","program":"build","arguments":{"blueprint":"wall","block":"oak_planks"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"lim
+- 12:10 act: {"intent":{"goal":"shelter_planks","program":"build","arguments":{"blueprint":"shelter","block":"oak_planks"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world
+- 12:15 act: {"say":"Zack, I have two wheat. I will give it to you if you are still nearby.","intent":{"goal":"hold_shelter","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","pre
