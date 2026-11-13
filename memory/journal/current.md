@@ -561,3 +561,7 @@
 - 11:48 act: {"intent":{"goal":"recover_dropped_items","program":"travel","arguments":{"x":-230,"y":72,"z":386},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":240
 - 11:48 act: {"actions":[{"do":"goto","target":{"x":-230,"y":72,"z":386}}],"say":"Thank you Kimberly. I lost my things at -230,72,386 and am going there now.","reasoning":"Kimberly is coming with a potato. I'll go
 - 11:48 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":344}}],"say":"I got my things back. I'm going back to the spawn at -240,69,344 to wait for Kimberly's potato.","reasoning":"Items recovered. Get 
+- 11:52 act: {"actions":[],"say":"Thank you Billy. Could you give me 14 dirt? I need 23 blocks for a shelter before night.","reasoning":"Hunger is full for now. Shelter is the priority before night; I need more di
+- 11:58 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":344}}],"say":"Billy, dirt has not reached me yet. I will build what I can with my 9 dirt and 7 cobblestone before dark.","intent":{"goal":"shelte
+- 11:58 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}},{"do":"sleep"}],"reasoning":"Dusk, no shelter built. The bed is the nearest enclosure-like spot; go there and try to sleep."}
+- 11:58 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"reasoning":"Night is near; I am away from my bed but a white bed is one block north. Try that bed."}
