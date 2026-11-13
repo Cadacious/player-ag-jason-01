@@ -190,3 +190,4 @@
 - 00:47 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":345}},{"do":"sleep"}]}
 - 01:01 act: {"actions":[{"do":"goto","target":{"x":-283,"y":69,"z":370}},{"do":"sleep"}]}
 - 01:01 act: {"actions":[{"do":"goto","target":{"x":-283,"y":69,"z":370}},{"do":"sleep"}]}
+- 01:02 act: {"actions":[{"do":"goto","target":{"x":-283,"y":69,"z":370}},{"do":"sleep"}]}
