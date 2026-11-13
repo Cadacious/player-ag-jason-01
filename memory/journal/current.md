@@ -1039,3 +1039,8 @@
 - 20:42 act: {"intent":{"goal":"night_shelter","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world
 - 20:42 act: {"actions":[{"do":"sleep"}],"say":"I am boxed in and it is night, so I will rest here. Billy, the beds are yours if you need one.","intent":{"goal":"rest_till_morning","program":"rest","arguments":{},
 - 20:47 act: {"actions":[{"do":"unstick"}],"say":"Good morning, Billy. Good luck with the chicken or cow. I am heading out to look for food too."}
+- 20:53 act: {"intent":{"goal":"travel_to_water_farm","program":"travel","arguments":{"x":-288,"y":68,"z":290},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"limits":{
+- 20:54 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-288,"y":68,"z":290}}],"say":"Zack, thank you. I am heading to the pond now to plant wheat seeds."}
+- 20:54 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"goto","target":{"x":-288,"y":68,"z
+- 20:54 act: {"actions":[{"do":"unstick"}],"say":"I'm stuck in a pit near the beds at -282, 64, 320. If anyone is close, a block or a hand would help.","intent":{"goal":"escape_pit","program":"travel","arguments":
+- 20:55 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"goto","target":{"x":-282,"y":66,"z":318}}]}
