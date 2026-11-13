@@ -684,3 +684,4 @@
 - 14:18 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"],"
 - 14:19 act: {"actions":[{"do":"wait","seconds":120}],"say":"I'm sealed in the shelter for the night. I'll try the beds again shortly.","reasoning":"Sheltered and safe. Beds were blocked before. Wait, then retry s
 - 14:21 act: {"actions":[{"do":"sleep"}],"reasoning":"Still sealed in shelter at night. Retry sleep once; beds may be free now."}
+- 14:26 act: {"say":"Billy, I'm still holding 2 wheat for you. I'm sealed in my shelter at -271, 61, 326 for the night and will bring it at first light.","reasoning":"Night, sealed in shelter, health full. Travell
