@@ -494,3 +494,9 @@
 - 10:31 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":345}}]}
 - 10:31 act: {"actions":[{"do":"mine","block":"stone","count":3},{"do":"mine","block":"dirt","count":2},{"do":"goto","target":{"x":-240,"y":69,"z":345}}]}
 - 10:32 act: {"say":"Jason here, dawn of day 135. I'm stuck in a stone pit at -229,61,348 and goto keeps failing. I still have 12 potatoes for Kimberly. Zack or Billy, if you are near, I can hand food up through a
+- 10:40 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_w
+- 10:41 act: {"actions":[{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"}],"reasoning":"Build intent failing repeatedly. Try unstick and a manual placement to start enclosing myself."}
+- 10:41 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-232,"y":58,"z":350}},{"do":"place","block":"cobblestone","at":{"x":-234,"y":58,"z":350}},{"do":"place","block":"cobblestone","at":{"x":-233,"
+- 10:43 act: {"intent":{"goal":"reach_kimberly_with_potatoes","program":"travel","arguments":{"target":{"x":-240,"y":69,"z":344}},"wake_on":["goal_completed","unexpected_damage","directly_addressed","precondition_
+- 10:43 act: {"actions":[{"do":"place","block":"crafting_table","at":"feet"},{"do":"craft","item":"stone_pickaxe","count":1}],"reasoning":"Travel failed in the pit. Make a stone pickaxe on a placed table to mine o
+- 10:43 act: {"actions":[{"do":"mine","block":"stone","count":4}],"reasoning":"Dig up through stone toward the surface and the beds."}
