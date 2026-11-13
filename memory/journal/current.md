@@ -558,3 +558,6 @@
 - 11:43 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"},{"do":"unstick"}],"reasoning":"Phantom is 21 away and I am not enclosed. Try one more wall placement, then unstick if blocked."}
 - 11:43 act: {"actions":[{"do":"eat"},{"do":"place","block":"cobblestone","at":"feet"},{"do":"place","block":"dirt","at":"feet"}],"reasoning":"Health is falling to phantom hits. Eat what I have, then try to wall i
 - 11:43 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-231,"y":72,"z":386}},{"do":"place","block":"cobblestone","at":{"x":-229,"y":72,"z":386}},{"do":"place","block":"cobblestone","at":{"x":-230,"
+- 11:48 act: {"intent":{"goal":"recover_dropped_items","program":"travel","arguments":{"x":-230,"y":72,"z":386},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":240
+- 11:48 act: {"actions":[{"do":"goto","target":{"x":-230,"y":72,"z":386}}],"say":"Thank you Kimberly. I lost my things at -230,72,386 and am going there now.","reasoning":"Kimberly is coming with a potato. I'll go
+- 11:48 act: {"actions":[{"do":"goto","target":{"x":-240,"y":69,"z":344}}],"say":"I got my things back. I'm going back to the spawn at -240,69,344 to wait for Kimberly's potato.","reasoning":"Items recovered. Get 
