@@ -767,3 +767,19 @@
 - 16:15 act: {"actions":[],"say":"Billy, I have 2 wheat for you. I'm still digging out of a dirt pocket to the west of the lake. Where exactly are you on the shore?"}
 - 16:15 act: {"actions":[{"do":"mine","block":"dirt","count":16},{"do":"unstick"},{"do":"goto","target":{"x":-201,"y":64,"z":352}}],"intent":{"goal":"reach_billy_with_wheat","program":"travel","arguments":{"target
 - 16:18 act: {"actions":[],"say":"Billy, dusk is here and I'm sealed in a dirt tunnel for the night. I still have your 2 wheat. At dawn I'll dig to the shore near Kimberly's column."}
+- 16:18 act: {"intent":{"goal":"reach_billy_shore","program":"travel","arguments":{"target":{"x":-201,"y":64,"z":352}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_tic
+- 16:19 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ti
+- 16:19 act: {"actions":[{"do":"sleep"}],"say":"Sealed in for the night. Sleeping now; Billy, I still have your wheat and will bring it at first light."}
+- 16:27 act: {"actions":[{"do":"mine","block":"dirt","count":4},{"do":"unstick"},{"do":"goto","target":{"x":-201,"y":64,"z":352}}],"say":"Dawn. I'm heading out toward the shore to find Billy with his wheat."}
+- 16:27 act: {"actions":[{"do":"mine","block":"dirt","count":8},{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
+- 16:28 act: {"actions":[{"do":"goto","target":{"x":-201,"y":64,"z":352}}],"say":"Billy, I'm on my way with your wheat. Hold on."}
+- 16:28 act: {"actions":[{"do":"mine","block":"dirt","count":8},{"do":"unstick"},{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
+- 16:28 act: {"actions":[{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
+- 16:28 act: {"actions":[{"do":"mine","block":"dirt","count":8},{"do":"unstick"},{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
+- 16:29 act: {"actions":[{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
+- 16:29 act: {"actions":[{"do":"mine","block":"dirt","count":16},{"do":"unstick"},{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
+- 16:29 act: {"actions":[{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
+- 16:29 act: {"actions":[{"do":"mine","block":"dirt","count":16},{"do":"unstick"},{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
+- 16:30 act: {"actions":[{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
+- 16:30 act: {"actions":[{"do":"mine","block":"dirt","count":16},{"do":"unstick"}],"say":"Billy, I'm stuck in dirt about 55 blocks west of the shore. If you're near the farm at -251,353, come to me or tell me wher
+- 16:30 act: {"actions":[{"do":"mine","block":"dirt","count":16},{"do":"unstick"},{"do":"goto","target":{"x":-201,"y":64,"z":352}}]}
