@@ -579,3 +579,6 @@
 - 12:16 act: {"actions":[{"do":"unstick"}]}
 - 12:16 act: {"actions":[{"do":"goto","target":{"x":-191,"y":66,"z":352}}]}
 - 12:16 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}}]}
+- 12:16 act: {"actions":[{"do":"goto","target":{"x":-191,"y":66,"z":352}}],"say":"Morning. Zack, I am coming east with your two wheat."}
+- 12:16 act: {"actions":[{"do":"unstick"}]}
+- 12:16 act: {"actions":[{"do":"goto","target":{"x":-191,"y":66,"z":352}}]}
