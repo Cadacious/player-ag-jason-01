@@ -520,3 +520,6 @@
 - 11:08 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks"
 - 11:08 act: {"intent":{"goal":"wait_for_daylight_safety","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":600,"max_block_operations":1}},"say":"Kimb
 - 11:16 act: {"actions":[{"do":"attack","target":"bee"}],"say":"A bee is attacking me. I'm fighting it off."}
+- 11:17 act: {"say":"I'm at the beds with hunger 17 and no food. I'll look for food on open ground near here and share anything I find.","intent":{"goal":"find_food_near_beds","program":"gather","arguments":{"bloc
+- 11:18 act: {"say":"Jason here at the beds, hunger 17 with no food. Tommy, if you have a spare potato, please drop one on the ground next to me. I'll share my wheat and cobblestone in return."}
+- 11:19 act: {"say":"Thank you Trini, Kimberly, Tommy. I'll keep my cobblestone for shelter. Kimberly, keep your potato if you need it more; I'll look for food on open ground at first light.","actions":[{"do":"not
