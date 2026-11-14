@@ -1332,3 +1332,28 @@
 - 01:15 act: {"actions":[{"do":"attack","target":"enderman"}]}
 - 01:15 act: {"say":"Kimberly, I died to an enderman and lost the meat, I'm sorry. I'm back at the beds with nothing. I'm coming to you now.","intent":{"goal":"reach_kimberly_in_lake","program":"travel","arguments
 - 01:16 act: {"intent":{"goal":"recover_dropped_food","program":"travel","arguments":{"target":{"x":-339,"y":63,"z":249}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"]
+- 01:17 act: {"actions":[{"do":"goto","target":{"x":-337,"y":63,"z":249}},{"do":"goto","target":{"x":-343,"y":63,"z":252}},{"do":"goto","target":{"x":-345,"y":64,"z":248}}],"say":"Walking over my dropped food now,
+- 01:17 act: {"actions":[{"do":"goto","target":{"x":-266,"y":66,"z":350}}],"say":"Heading to the yellow beds with food for Kimberly and Zack.","intent":{"goal":"reach_beds_with_food","program":"travel","arguments"
+- 01:18 say: {"text":"Zack, I'm coming to you now with 2 porkchop and a chicken."}
+- 01:18 act: {"actions":[{"do":"goto","target":{"x":-272,"y":66,"z":340}}]}
+- 01:18 say: {"text":"I'm at the crafting area now, by the signs. Zack, where are you? I can't see you yet."}
+- 01:19 say: {"text":"Zack, I still can't see you. Walk toward me a few steps and I'll give you the porkchop."}
+- 01:19 act: {"actions":[{"do":"goto","target":{"x":-275,"y":64,"z":318}}]}
+- 01:20 say: {"text":"I'm by the oak logs at the crafting table, just east of the signs. Come to me and I'll hand you the food."}
+- 01:21 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"porkchop","count":2}]}
+- 01:21 act: {"actions":[{"do":"goto","target":{"x":-271,"y":65,"z":318}},{"do":"give","to":"ag_zack_01","item":"porkchop","count":2}]}
+- 01:21 say: {"text":"Zack, I'm between the two crafting tables now, 3 blocks east of where I was. I can't see you. Walk back into view and I'll hand you the porkchop."}
+- 01:22 act: {"actions":[{"do":"goto","target":{"x":-271,"y":65,"z":315}},{"do":"give","to":"ag_zack_01","item":"porkchop","count":2}]}
+- 01:22 say: {"text":"Zack, I can't see you through your wall. I'm keeping the 2 porkchop and will hand them over at first light, when you come out. Stay safe."}
+- 01:23 say: {"text":"Yes, Zack, the porkchop is with me. First light, we'll meet here."}
+- 01:31 say: {"text":"Morning. Zack, come out and I'll hand you the porkchop. Kimberly, I'll bring you the chicken after."}
+- 01:31 act: {"actions":[{"do":"goto","target":{"x":-271,"y":66,"z":322}},{"do":"give","to":"ag_zack_01","item":"porkchop","count":2}]}
+- 01:32 act: {"actions":[{"do":"goto","target":{"x":-258,"y":67,"z":346}}],"say":"Zack, I'm heading to the old farm with the food. Call out when you're in sight and I'll hand you the porkchop.","intent":{"goal":"r
+- 01:32 act: {"actions":[{"do":"goto","target":"ag_zack_01"},{"do":"give","to":"ag_zack_01","item":"porkchop","count":2}]}
+- 01:32 say: {"text":"Zack, the porkchop is yours. Tommy, Billy, where's Kimberly? I have a chicken for her."}
+- 01:33 act: {"actions":[{"do":"goto","target":{"x":-266,"y":66,"z":336}}]}
+- 01:33 say: {"text":"Zack, good, you ate. Kimberly isn't in sight yet, so I'm holding the chicken. Trini, if you come close I'll give it to you, or to Kimberly if she turns up first."}
+- 01:34 say: {"text":"Billy, nice work on the cow. I'm holding my chicken for Kimberly. If anyone sees her, point her my way."}
+- 01:34 act: {"actions":[{"do":"goto","target":{"x":-270,"y":66,"z":358}}],"say":"Kimberly, I'm bringing the chicken to you at the yellow beds. Going now."}
+- 01:35 act: {"actions":[{"do":"goto","target":"ag_trini_01"}],"say":"Kimberly, where are you? I'm with Trini at the yellow beds and I have the chicken for you."}
+- 01:35 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"chicken","count":1}],"say":"Trini, you asked for food and you're here, so the chicken is yours. Kimberly, I'll find you some other way."}
