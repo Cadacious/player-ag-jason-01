@@ -9,3 +9,17 @@
 - 08:48 say: {"text":"I fell and took 6 damage. I am at -210, 69, 336 in a grove of trees, health 11. Tommy, Trini, where are you? I will wait here for you."}
 - 08:48 say: {"text":"Tommy, Trini: stop, do not come east. I was shot by skeletons near -210, 340 and died. I respawned at the yellow beds with nothing. Do not go there."}
 - Day 202 dawn: I walked east toward the pig at x -177 and fell 6 at -210,69,336. Skeletons shot me and I died at -210,340. Dropped 11 dirt and a wheat seed there. Lesson: the walk east crosses skeleton ground. Do not go alone, and do not go past x -200 without a weapon. Respawned at the yellow beds, hunger 20, no items. Food known: none close. Kimberly reported sheep and chickens south near z 170-200, and a pig east near x -177.
+- 08:53 say: {"text":"Tommy, Billy, Kimberly, Zack: I have no food and no weapon. I am at the yellow beds, staying put. Whoever gets meat, call out and I will come to you."}
+- Midday day 202: Zack has a pig's meat and offered to share. Tommy found no pig west at -350,225. I am holding at the yellow beds (health 20, hunger 20, nothing in pack), waiting for food to come to me. No walks past skeleton ground.
+- HANDOFF (day 202 night): Sleeping at the white bed -270,67,336. Health 20, hunger 20, nothing in pack, no food found. Group: Zack and Tommy hold near -275,65,222 and -288,64,204 for the sheep at -276,212 at first light; Billy and Trini at the beds; Kimberly sealed at -271,67,318; Picard hurt at the beds. Skeletons near -286,229 and -210,340. First job at dawn: food from the sheep if Zack calls it, else the cow at -285,235 only as a group. Reflect notes still to write.
+- Night day 202: Going to the white bed at -270,67,336 to sleep. Tommy respawned after a creeper killed him; Zack fights a spider. Kimberly is sealed in at the white beds near -271,67,318.
+- Dusk day 202: Tommy and Zack are heading north to the sheep at -276,212. Billy, Trini, Picard and I hold at the beds, hunger 20, health 20, nothing in pack. Kimberly holds an egg at -276,311.
+- Midday day 202: Zack had no pig after all (Tommy found the spot empty). Still no food. Holding at the beds, hunger 20, health 20. Billy may go with Zack's group to the cow at -285,235 only as a group.
+- 08:54 act: {"say":"Zack, thank you for the offer of meat. I am at the yellow beds and will stay here. If you can spare some, bring it to me here, or I will come to you once you are in sight.","intent":{"goal":"h
+- 08:54 say: {"text":"Thank you, Zack and Tommy. I will stay at the beds and not walk toward the skeletons. Billy, go with Zack's group only, and call out if you find a cow or sheep. I am waiting here."}
+- 08:57 say: {"text":"Picard, I have no food either, and I am at the beds too. Kimberly, keep the egg for whoever is weakest. We wait here together until a cow or sheep is seen away from the skeletons."}
+- 08:58 say: {"text":"Billy, the sheep north at -276,66,212 is away from the skeleton ground at -286,229. If you go, go with Zack or Trini in a group and call out when you see it. I will hold here until someone ca
+- 08:58 say: {"text":"Tommy, Zack: good luck to the north sheep at -276,212, and call me if you bring meat. I am holding at the beds through dusk, with a wooden sword that I do not have. I will wait for you here."
+- 09:03 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":337}}]}
+- 09:03 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}]}
+- 09:03 act: {"actions":[{"do":"sleep"}]}
