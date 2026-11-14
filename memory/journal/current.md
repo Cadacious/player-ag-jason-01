@@ -22,3 +22,4 @@
 - 20:30 act: {"actions":[{"do":"note","text":"Day 237 morning. At the white beds, north side (-270,67,316), safe, no golems in sight. Health 20, hunger 20, no food. Group is out west looking for animals. Waiting f
 - 20:32 act: {"say":"Jason here, day 237 morning, health 20, hunger 20, no food. I'll hold at the north side of the white beds with the group and try a bed at dusk once the golems are clear.","intent":{"goal":"hol
 - 20:32 act: {"intent":{"goal":"wait_for_dusk_then_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":6000,"max_block_operat
+- 20:35 act: {"say":"Jason here, health 20, hunger 20, no food. I have a wooden sword. Riker is lowest, so any food goes to him first, then Trini.","intent":{"goal":"hold_near_group_for_food","program":"rest","arg
