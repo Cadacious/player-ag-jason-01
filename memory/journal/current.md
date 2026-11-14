@@ -1,5 +1,7 @@
 # Journal
 
+- Day 234 night: no food, hunger 20, health 20. Beds all taken; sleep refused (monsters near, then beds full). Holding near the group at (-281,70,309) until dawn. Next: at dawn scout with the group, any meat to Tommy or Billy first.
+
 Day 224 digest: scouted west, south-west and east grass; no food found. Hunger 19 all day. Returned to the white bed group at dusk and slept beside the bed near (-282,67,320). Day 223 notes follow.
 
 Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-west with Kimberly, Trini, Tommy, Billy and Picard: no cow, pig or sheep seen. Took two hurts during the night at the white beds (cause not stated). Slept at the white bed near (-270,67,336). Group is safe and together. Next: first light, scout with the group and eat any meat first (Kimberly gets it).
@@ -166,3 +168,18 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 19:32 act: {"actions":[{"do":"mine","block":"oak_leaves","count":4}],"say":"Jason: I have no food, hunger 20. Tommy, you're at health 5, so any meat or apple goes to you first. I'm breaking oak leaves for apples
 - 19:37 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":322}}],"say":"Jason heading back to the white beds to stay with the group until dusk. No food on me.","intent":{"goal":"return_to_white_beds","pr
 - 19:41 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}],"say":"Jason going to the white bed at -271,67,318 for the night. No food, but I'm holding nothing back: any meat goes to Tommy first."}
+- 19:42 say: {"text":"Jason here, night of day 234, hunger 20, no food on me. Tommy and Billy first for any meat I find tomorrow."}
+- 19:42 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"reasoning":"Night, no food, beds nearby. Try the bed one block north, then reflect.","say":"Jason: night, hunger 20, no fo
+- 19:42 act: {"intent":{"goal":"hold_with_group_till_dawn","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed","goal_completed"],"limits":{"max_world_ticks":60
+- 19:51 act: {"say":"Jason, day 235 dawn. No food. Riker is low and I have nothing to give, but I'll help Wesley's wheat plan and search the tall grass for seeds.","intent":{"goal":"scout_tall_grass_for_seeds","pr
+- 19:51 act: {"actions":[{"do":"mine","block":"short_grass","count":4}],"say":"Jason: morning. Breaking grass here for seeds to help Wesley's wheat. Wheat at -263,66,321 is not ripe yet, so no food from it."}
+- 19:51 act: {"actions":[{"do":"goto","target":{"x":-278,"y":67,"z":322}}],"say":"Jason: got 1 wheat seed from the grass, giving it to Wesley. Still no food, hunger 20. Iron golem 10 blocks south, so I'm moving ba
+- 19:53 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":321}}],"say":"Jason: still no food, hunger 20. Golems are 16 blocks south, so I'm moving closer to the beds. Anything edible goes to Riker first;
+- 20:01 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason: night, no food, hunger 20. Going to the white bed to sleep. Anything found goes to Riker first."}
+- 20:02 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":322}}],"say":"Jason: beds are full and a golem is 7 blocks off. I'm holding by the group until a bed frees up."}
+- 20:02 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}},{"do":"sleep"}],"say":"Jason: trying the white bed at -271,67,318 now that the golem has moved off."}
+- 20:03 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason: going to try the bed at -271,67,336, right beside me."}
+- 20:06 act: {"actions":[{"do":"goto","target":{"x":-280,"y":67,"z":320}},{"do":"sleep"}],"say":"Jason: heading to the white bed at -281,67,320 on the west side."}
+- 20:07 act: {"actions":[{"do":"goto","target":{"x":-276,"y":67,"z":322}}],"say":"Jason: a golem is right beside me, so I'm moving north to the group."}
+- 20:07 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":319}},{"do":"sleep"}],"say":"Jason: no golems close now, trying the bed at -281,67,320 again."}
+- 20:08 act: {"actions":[{"do":"goto","target":{"x":-276,"y":67,"z":322}}],"say":"Jason: it's dawn on day 236. I'm moving away from the golem to the north, and I'll look for food once it's light."}
