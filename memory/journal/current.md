@@ -50,3 +50,5 @@
 - 09:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason at the white bed, health and hunger 20, still no food. Going to sleep. First light: the dry path to the pig, o
 - 09:42 say: {"text":"Morning, Trini. I slept at the white bed and I'm full now. I have nothing in my pack, so I'll look for wood and food next."}
 - 09:43 say: {"text":"Trini, agreed. We hold at the white bed with no weapon. I'll say go when the group has swords and the pig is in sight. Meat comes to me first."}
+- 09:43 act: {"say":"Jason at the white bed, health 20, hunger 20, no weapon, no food. Tommy, Kimberly, Billy: thank you. Hold at the white beds until the group has swords together, then the dry path to the pig at
+- 09:44 act: {"actions":[{"do":"sleep"}]}
