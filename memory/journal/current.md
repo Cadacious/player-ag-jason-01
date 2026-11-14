@@ -103,3 +103,6 @@
 - 07:37 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"}],"say":"Kimberly, I'm coming to you now, right beside you."}
 - 07:41 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":364}}],"intent":{"goal":"rest_at_yellow_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max_
 - 07:42 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}}]}
+- 07:43 act: {"intent":{"goal":"rest_at_bed_till_dawn","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":6000,"max_block_operations":
+- 07:43 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}]}
+- 07:43 act: {"actions":[{"do":"sleep"}]}
