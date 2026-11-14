@@ -60,3 +60,6 @@
 - 13:18 act: {"actions":[{"do":"goto","target":{"x":-280,"y":69,"z":291}}],"say":"Jason: Billy is taking the yellow bed at -281,69,291. I'll stay near him for the night, in sight of the group."}
 - 13:19 act: {"actions":[{"do":"goto","target":{"x":-281,"y":69,"z":292}}],"say":"Jason: I'm by the yellow bed at -281,69,292 with Billy. Going to bed here for the night."}
 - 13:19 act: {"actions":[{"do":"goto","target":{"x":-280,"y":69,"z":293}}],"say":"Jason: Trini, I'm staying in sight at -280,69,293 next to your plank shelter. Goodnight, all."}
+- 13:19 act: {"actions":[{"do":"note","text":"Day 215 dusk at yellow beds (-279,69,293). Both yellow beds and the white beds were taken, so sleep failed. Hunger 20, health 20. Billy is beside me holding mutton."}]
+- 13:19 act: {"actions":[{"do":"note","text":"Day 215 dusk: Trini going into a yellow bed near me; Billy beside me. I stay in sight at -279,69,293 for the night. Bed attempt failed: beds taken."}],"say":"Jason: Go
+- 13:20 act: {"actions":[{"do":"sleep"}]}
