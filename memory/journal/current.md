@@ -1239,3 +1239,4 @@
 - 00:06 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"rotten_flesh","count":1},{"do":"give","to":"ag_kimberly_01","item":"pumpkin","count":2}],"say":"Kimberly, here is your rotten flesh back, and two
 - 00:11 say: {"text":"Morning. Zack, I have no food, only 2 pumpkins, and Kimberly says they are not edible here. I'll help look for sheep with Tommy and Kimberly."}
 - 00:11 act: {"intent":{"goal":"search_sheep_south_east","program":"travel","arguments":{"target":{"x":-257,"y":66,"z":375}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_faile
+- 00:20 act: {"intent":{"goal":"return_to_beds_for_night","program":"travel","arguments":{"target":{"x":-263,"y":67,"z":354}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_fail
