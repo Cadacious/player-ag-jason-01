@@ -4,3 +4,11 @@
 - 06:03 act: {"say":"Night, and I have no food. I'll stay by the bed until light, then go to the lake for salmon.","intent":{"goal":"await_morning_by_bed","program":"rest","arguments":{"at":{"x":-298,"y":68,"z":29
 - 06:03 act: {"intent":{"goal":"await_morning_by_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":6000,"m
 - 06:03 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}},{"do":"sleep"}]}
+- 06:03 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":295}}],"say":"Picard, the white bed is right here at -298, 68, 295. Stay near it tonight, and we can look for food at first light.","reasoning":"
+- 06:07 act: {"actions":[{"do":"goto","target":{"x":-325,"y":66,"z":287}}],"say":"Morning. I'm heading to the shore to look for food with you. Tommy, I have only wheat seeds, not wheat, so I can't make your bread 
+- 06:07 act: {"actions":[],"say":"I'm at the shore with you, Trini and Zack. I'm very hungry and have no food. Does anyone have a fishing rod or know where animals are? I'll go wherever food is.","reasoning":"Arri
+- 06:08 act: {"actions":[{"do":"goto","target":{"x":-257,"y":66,"z":375}}],"say":"Let's go as one group to where I saw sheep before, near -257, 66, 375. Whoever finds food shares it with everyone.","reasoning":"No
+- 06:09 act: {"actions":[],"say":"I'm at the sheep field near -257, 66, 374. No sheep in sight yet. I'll wait here for the group to catch up, then we search nearby.","reasoning":"Reached the sheep area; none visib
+- 06:14 act: {"actions":[{"do":"goto","target":{"x":-240,"y":66,"z":392}}],"say":"No sheep here. Thanks for the golem warning, Trini. I'll search southeast, away from the golem, and call out if I see animals. Ever
+- 06:14 act: {"actions":[{"do":"goto","target":{"x":-229,"y":68,"z":402}},{"do":"attack","target":"chicken"}],"say":"Chicken spotted to the southeast at -229, 68, 404. I'm going for it now. Everyone, come share.",
+- 06:14 act: {"actions":[{"do":"eat"}],"say":"I got a chicken and I'm eating it now. Everyone, I'll look for more chickens nearby, and I'll share.","reasoning":"Hunger 18 and I now hold one chicken. Eat it, then l
