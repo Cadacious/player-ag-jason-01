@@ -67,3 +67,8 @@
 - 13:21 act: {"actions":[{"do":"sleep"}]}
 - 13:22 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}},{"do":"sleep"}],"say":"Jason: Goodnight. I'm at the white bed at -298,68,294, in sight of the yellow beds. Health 20, hunger 20."}
 - 13:23 act: {"say":"Night. I'm in the white bed beside Trini's. Tommy, the group is at the yellow beds."}
+- 13:26 act: {"actions":[{"do":"note","text":"Waking 308, night 215. Slept in white bed at -298,68,294; sleep worked. Health 20, hunger 20, pack 1 oak_planks. No food known. Staying in bed area."}]}
+- 13:34 act: {"intent":{"goal":"join_group_spot","program":"travel","arguments":{"target":{"x":-267,"y":68,"z":291}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"lim
+- 13:34 act: {"actions":[{"do":"note","text":"Day 216 midday: joined Tommy at group spot -267,68,291 on dry grass. Health 20, hunger 20, 1 plank. No food known; no dry route to Zack confirmed."}],"say":"Jason: I'm
+- 13:38 act: {"intent":{"goal":"to_yellow_bed_for_night","program":"travel","arguments":{"target":{"x":-281,"y":69,"z":292}},"wake_on":["directly_addressed","unexpected_damage","precondition_failed","goal_complete
+- 13:38 act: {"actions":[{"do":"note","text":"Day 216 dusk at yellow bed -281,69,293. Health 20, hunger 20, 1 plank, no food. Kimberly near. Going to bed in sight of group."}]}
