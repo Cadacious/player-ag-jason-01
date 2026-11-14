@@ -52,3 +52,4 @@
 - 09:43 say: {"text":"Trini, agreed. We hold at the white bed with no weapon. I'll say go when the group has swords and the pig is in sight. Meat comes to me first."}
 - 09:43 act: {"say":"Jason at the white bed, health 20, hunger 20, no weapon, no food. Tommy, Kimberly, Billy: thank you. Hold at the white beds until the group has swords together, then the dry path to the pig at
 - 09:44 act: {"actions":[{"do":"sleep"}]}
+- 09:47 act: {"say":"Jason here at the white bed, health and hunger 20, no weapon. Holding until first light. Zack, hold on your pillar; we come to you at dawn if you can't reach us.","intent":{"goal":"hold_for_da
