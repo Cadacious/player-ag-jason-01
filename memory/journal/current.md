@@ -88,3 +88,5 @@
 - 13:59 act: {"actions":[{"do":"note","text":"Dusk day 217 at white bed -298,68,295 (adjacent, bed at -298,68,294 also). Sleep said not night yet; waiting for full night, then sleeping in the bed."}]}
 - 13:59 act: {"actions":[{"do":"sleep"}]}
 - 13:59 act: {"actions":[{"do":"note","text":"Handoff, day 217 night: slept in white bed -298,68,295 (sleep worked). Health 20, hunger 20, no food in pack. Mutton still held by Billy for Zack. Kimberly in bed near
+- 14:00 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":295}},{"do":"note","text":"Waking 310, dusk day 217. At white bed -298,68,295 with Kimberly beside me. Health 20, hunger 20, 1 plank, no food. Go
+- 14:00 act: {"actions":[{"do":"sleep"}]}
