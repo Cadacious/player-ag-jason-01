@@ -127,3 +127,13 @@
 - 07:54 act: {"actions":[{"do":"goto","target":{"x":-165,"y":92,"z":313}}],"say":"Coming to the edge of your pit, Kimberly."}
 - 07:55 act: {"say":"Kimberly, I'm right here at -166,91,313. I can't see you yet. Toss the mutton to me or step up where I can see you.","intent":{"goal":"await_mutton_from_kimberly","program":"rest","arguments":
 - 08:00 act: {"say":"Kimberly, it's night and I'm still in the pit at -165,91,313. If you can't reach me, leave the mutton at the pit edge and I'll pick it up in the morning."}
+- 08:02 act: {"actions":[{"do":"eat"}],"say":"Night in the pit. I'm sealed in and safe. I'll eat, then rest here."}
+- 08:02 act: {"actions":[{"do":"note","text":"Night, sealed in the pit at (-165,91,313). Sleep needs a bed; eat needs hunger 6 or below. Holding still until morning."}]}
+- 08:02 act: {"actions":[],"say":"Goodnight, all. I'm sealed in the pit at -165, 91, 313 and staying put. I have 2 rotten flesh, and I'll come find the cow hunt at first light."}
+- 08:10 act: {"intent":{"goal":"rejoin_group_at_yellow_beds","program":"travel","arguments":{"target":{"x":-268,"y":67,"z":362}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_f
+- 08:11 act: {"intent":{"goal":"follow_group_west_to_cows","program":"travel","arguments":{"target":{"x":-265,"y":67,"z":300}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_fai
+- 08:11 act: {"intent":{"goal":"reach_trini_for_food","program":"travel","arguments":{"target":{"x":-295,"y":64,"z":245}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"]
+- 08:11 act: {"say":"Tommy, I'm at -261, 68, 281 now, on the grass. I'll wait here for the porkchop, or I'll come to you if you tell me where.","intent":{"goal":"hold_and_meet_tommy","program":"rest","arguments":{
+- 08:12 act: {"actions":[{"do":"goto","target":{"x":-295,"y":64,"z":245}}],"say":"Trini, I'm walking to you now, at -261, 68, 281. Tommy, I'll take the porkchop when I reach you."}
+- 08:12 act: {"say":"I'm here with Trini at -294, 64, 245, hunger 16. Tommy, please hand me the porkchop, and Billy, I'll take beef if Trini needs it less."}
+- 08:12 act: {"actions":[{"do":"eat"}],"say":"Thank you Tommy and Billy. I'm eating now. Then let's find the next cow together."}
