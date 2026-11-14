@@ -1411,3 +1411,52 @@
 - 05:33 act: {"say":"Staying at the beds with Tommy to keep watch. I have no food. If anyone finds sheep or cows, call me and I'll come."}
 - 05:37 act: {"say":"Zack, Trini: thanks for the sheep news. I'm at the beds at -262,66,356 with no food. Night is coming, so I'll stay here, build a shelter, and go to the lake sheep at first light, if Tommy agre
 - 05:37 act: {"say":"Agreed. First light, we go to the lake sheep together. I'll wait here at the beds for everyone.","actions":[{"do":"note","text":"Day 192 dusk: at the beds (-262,66,356) with Tommy, Zack, Trini
+- 05:40 act: {"say":"Jason at the beds. I have no food, hunger 19. Zack, if the 2 wheat or pumpkin are still spare, I'd be grateful. I'll go to the lake sheep at first light with you.","intent":{"goal":"wait_for_f
+- 05:40 act: {"say":"Zack, thanks. Tommy has your food, so I'll wait for first light and look for the lake sheep with you all.","intent":{"goal":"hold_at_beds_until_dawn","program":"rest","arguments":{},"wake_on":
+- 05:41 act: {"actions":[{"do":"wait","seconds":120}]}
+- 05:41 act: {"say":"Billy, I'm here too, no food either. We'll go to the lake sheep together at first light.","actions":[{"do":"wait","seconds":120}]}
+- 05:42 act: {"say":"Zack, I'm right here and hunger is 19. If you can spare one wheat or pumpkin, please give it to me. Tommy can have the rest.","actions":[{"do":"wait","seconds":60}]}
+- 05:42 act: {"actions":[{"do":"eat"}],"say":"Thanks Zack, I have the 2 wheat. Tommy, keep the pumpkin for bread, I'll check if I can eat the wheat."}
+- 05:42 act: {"actions":[{"do":"eat"}],"say":"Thank you Zack. I'll share the pumpkin with Billy and Tommy after I see whether I can eat these."}
+- 05:42 act: {"intent":{"goal":"stay_put_at_beds","program":"travel","arguments":{"x":-262,"y":66,"z":356},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":600,"max_block_operations
+- 05:42 act: {"actions":[{"do":"eat"}]}
+- 05:42 act: {"intent":{"goal":"stay_put_at_beds","program":"travel","arguments":{"target":{"x":-262,"y":66,"z":356}},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":600,"max_block
+- 05:42 act: {"actions":[{"do":"eat"}]}
+- 05:42 act: {"say":"Found out: raw wheat and pumpkin can't be eaten on their own, eat says no food. Tommy, you're the one making bread. Say when you're close and I'll hand over the wheat and pumpkin.","actions":[
+- 05:43 act: {"actions":[{"do":"goto","target":"ag_tommy_01"},{"do":"give","to":"ag_tommy_01","item":"pumpkin","count":2}],"say":"Coming to you, Tommy. Here's the pumpkin, and I'll bring the wheat too."}
+- 05:43 act: {"intent":{"goal":"reach_tommy_for_pumpkin","program":"follow","arguments":{"target":"ag_tommy_01"},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":600,"max_block_oper
+- 05:45 act: {"say":"Zack, thanks for the wheat and pumpkin. I'll hand the pumpkin and wheat to Tommy when he's close, then we go for the sheep at first light.","intent":{"goal":"wait_for_first_light","program":"r
+- 05:45 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"pumpkin","count":2},{"do":"give","to":"ag_tommy_01","item":"wheat","count":2}]}
+- 05:45 act: {"intent":{"goal":"reach_tommy_to_hand_food","program":"follow","arguments":{"target":"ag_tommy_01"},"wake_on":["directly_addressed","precondition_failed"],"limits":{"max_world_ticks":1200,"max_block_
+- 05:45 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":364}}],"intent":{"goal":"walk_to_yellow_beds","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":364}},"wake_on":["directly_addressed"
+- 05:46 act: {"say":"Trini, Zack, good. I'll hold the food for Tommy and we go to the lake sheep at first light.","intent":{"goal":"wait_for_dawn","program":"rest","arguments":{},"wake_on":["directly_addressed","u
+- 05:49 act: {"actions":[{"do":"goto","target":"ag_tommy_01"}],"say":"Morning. Tommy, I'm coming to you with the wheat and pumpkin."}
+- 05:49 act: {"say":"Tommy, I can't see you from here at -269,67,364. Where exactly are you? I have the wheat and pumpkin."}
+- 05:49 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":355}}],"say":"On my way, Tommy."}
+- 05:50 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"pumpkin","count":2},{"do":"give","to":"ag_tommy_01","item":"wheat","count":2}],"say":"Tommy, here's the 2 pumpkin and 2 wheat. Make the bread and sh
+- 05:50 act: {"actions":[{"do":"goto","target":"ag_tommy_01"}],"say":"Billy, Tommy went out of sight. I'm finding him to hand over the food."}
+- 05:50 act: {"say":"Morning. Tommy keeps slipping out of sight, so I still have the 2 pumpkin and 2 wheat for him. Billy, Trini, Zack: are we going to the lake sheep now? I'm ready."}
+- 05:50 act: {"say":"Going to the lake with you. Tommy, the pumpkin and wheat are with me; catch up and I'll hand them over.","intent":{"goal":"follow_zack_to_lake","program":"follow","arguments":{"target":"ag_zac
+- 05:50 act: {"say":"Heading to the lake after you. Tommy, I still have 2 pumpkin and 2 wheat for the bread.","intent":{"goal":"walk_toward_lake_with_group","program":"travel","arguments":{"target":{"x":-258,"y":6
+- 05:51 act: {"say":"Waiting here for Tommy. Tommy, I'm at -258,66,351 with the pumpkin and wheat. Come into sight and I'll hand them over.","intent":{"goal":"wait_for_tommy_to_hand_over_food","program":"trade_wai
+- 05:52 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"pumpkin","count":2},{"do":"give","to":"ag_tommy_01","item":"wheat","count":2}],"say":"Tommy, here's the 2 pumpkin and 2 wheat. Make the bread and sh
+- 05:52 act: {"say":"Got it, Tommy. Now to the lake for sheep. Coming along.","intent":{"goal":"reach_lake_for_sheep","program":"travel","arguments":{"target":{"x":-284,"y":66,"z":320}},"wake_on":["directly_addres
+- 05:52 act: {"say":"Trini, I'm at the lake edge area with you. Have you seen any sheep or fish yet?"}
+- 05:52 act: {"say":"No food on me, Tommy, sorry. I'll scout southwest for sheep and fish now.","intent":{"goal":"scout_southwest_for_sheep","program":"travel","arguments":{"target":{"x":-292,"y":66,"z":306}},"wak
+- 05:53 act: {"actions":[{"do":"goto","target":{"x":-292,"y":68,"z":306}}],"say":"There are some items on the ground here. Checking them."}
+- 05:53 act: {"intent":{"goal":"scout_west_for_sheep","program":"travel","arguments":{"target":{"x":-310,"y":66,"z":300}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_
+- 05:53 act: {"actions":[{"do":"unstick"}],"say":"I'm in a pit at the west edge. Getting out."}
+- 05:53 act: {"intent":{"goal":"scout_west_for_sheep_2","program":"travel","arguments":{"target":{"x":-330,"y":66,"z":300}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_worl
+- 05:53 act: {"intent":{"goal":"scout_far_west_for_animals","program":"travel","arguments":{"target":{"x":-355,"y":66,"z":300}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_
+- 05:53 act: {"intent":{"goal":"scout_south_for_animals","program":"travel","arguments":{"target":{"x":-352,"y":66,"z":335}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_wor
+- 05:54 act: {"intent":{"goal":"rejoin_group_at_lake","program":"travel","arguments":{"target":{"x":-284,"y":66,"z":322}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_
+- 05:54 act: {"intent":{"goal":"get_food_from_zack_salmon","program":"travel","arguments":{"target":{"x":-284,"y":66,"z":322}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_w
+- 05:58 act: {"intent":{"goal":"join_group_at_salmon_shore","program":"travel","arguments":{"target":{"x":-325,"y":66,"z":287}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_
+- 05:58 act: {"intent":{"goal":"reach_salmon_shore_short_hop","program":"travel","arguments":{"target":{"x":-312,"y":66,"z":296}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"ma
+- 05:58 act: {"intent":{"goal":"join_group_at_shore_for_night","program":"travel","arguments":{"target":{"x":-322,"y":66,"z":290}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"m
+- 05:59 act: {"say":"I'm with you at the shore now. Dusk, no food for me yet, hunger 19. Zack, if you have any wool, I'd like a bed, and I'll share dirt and leaf litter with anyone who needs it."}
+- 05:59 act: {"say":"Thank you Zack, I got the 3 wool. A bed needs planks too. Could you spare 3 oak planks? I'll build the bed here by the group."}
+- 05:59 act: {"say":"Thank you Zack, I have 2 planks now. I need just one more oak plank to make the bed. Trini or Tommy, can either of you spare one?"}
+- 06:00 act: {"actions":[{"do":"craft","item":"white_bed","count":1}],"say":"Thank you Tommy, I have 3 planks and 3 wool now. Trying to craft the bed."}
+- 06:00 act: {"actions":[{"do":"place","block":"white_bed","at":"feet"},{"do":"sleep"}],"say":"Bed crafted and placed. Thank you Zack, Tommy, Billy, Trini. I'm sleeping now. Food is still short, so we keep looking
+- 06:00 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}},{"do":"sleep"}],"say":"The bed I crafted is not in my pack, but there are white beds right here. I'm going to sleep in one."}
