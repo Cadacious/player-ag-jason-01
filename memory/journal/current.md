@@ -1396,3 +1396,18 @@
 - 05:17 act: {"actions":[{"do":"goto","target":{"x":-256,"y":68,"z":360}}],"say":"I'm heading to the old farm to look for food with the others.","reasoning":"Movement seems to work again. Try the farm once more; o
 - 05:17 act: {"actions":[{"do":"unstick"}],"reasoning":"I am perched on a ledge and goto keeps failing. Unstick, then look at the way out."}
 - 05:18 act: {"actions":[{"do":"goto","target":{"x":-256,"y":68,"z":360}}],"say":"Heading to the old farm to find food with the others.","intent":{"goal":"reach_old_farm","program":"travel","arguments":{"target":{
+- 05:19 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"pillar","block":"dirt"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_tic
+- 05:20 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-262,"y":67,"z":441}},{"do":"place","block":"dirt","at":{"x":-260,"y":67,"z":441}},{"do":"place","block":"dirt","at":{"x":-261,"y":67,"z":440}},{"do"
+- 05:20 act: {"actions":[{"do":"sleep"}],"say":"I'm sealed in for the night. Sleeping now; I'll find food and the farm at first light."}
+- 05:28 act: {"intent":{"goal":"reach_the_beds","program":"travel","arguments":{"x":-262,"y":67,"z":356},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"],"limits":{"max_w
+- 05:29 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":356}}],"say":"Morning Zack, Billy. I'm coming to the beds. Save me a mutton and tell me where the sheep are."}
+- 05:31 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-262,"y":67,"z":356}}],"say":"Still at the grass here, stuck. Trying to get free and head to the beds."}
+- 05:31 act: {"actions":[{"do":"mine","block":"dirt","count":2},{"do":"goto","target":{"x":-262,"y":67,"z":356}}],"say":"I'm boxed in by ground. Digging out, then heading to the beds."}
+- 05:31 act: {"actions":[{"do":"unstick"}]}
+- 05:31 act: {"say":"Tommy, I'm at -261,67,441, on grass with trees around. I'm stuck and can't walk yet; the sheep are not east of the beds, Billy saw none. I'll keep trying."}
+- 05:32 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":356}}],"say":"Heading to the beds at -262,67,356 now. I'm at -261,67,441 on grass, not enclosed, health 20, hunger 19."}
+- 05:32 act: {"say":"I'm free and moving. Now at -259,68,382, heading south to the beds. No food on me."}
+- 05:32 act: {"say":"I'm at the beds now, at -262,66,356. No food on me. Who has found any animals?","actions":[{"do":"note","text":"Day 192 midday: left the pocket at -261,67,441 and reached the beds at -262,66,3
+- 05:33 act: {"say":"Staying at the beds with Tommy to keep watch. I have no food. If anyone finds sheep or cows, call me and I'll come."}
+- 05:37 act: {"say":"Zack, Trini: thanks for the sheep news. I'm at the beds at -262,66,356 with no food. Night is coming, so I'll stay here, build a shelter, and go to the lake sheep at first light, if Tommy agre
+- 05:37 act: {"say":"Agreed. First light, we go to the lake sheep together. I'll wait here at the beds for everyone.","actions":[{"do":"note","text":"Day 192 dusk: at the beds (-262,66,356) with Tommy, Zack, Trini
