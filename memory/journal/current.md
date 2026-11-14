@@ -31,3 +31,5 @@
 - 12:31 act: {"intent":{"goal":"find_chicken_south","program":"travel","arguments":{"target":{"x":-261,"y":65,"z":262}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
 - 12:31 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"leave_water_to_grass","program":"travel","arguments":{"target":{"x":-262,"y":66,"z":222}},"wake_on":["goal_completed","unexpected_damage"],"limits":{"ma
 - 12:31 act: {"actions":[{"do":"note","text":"Day 213: died in the lake at -260,58,231 (drowned attacked me while I was in deep water). Dropped 2 dirt and 1 wheat_seeds there. Respawned at white beds -270,67,319 w
+- 12:40 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}}],"say":"Dusk is coming. I'm going into the white bed by the beds for the night. Billy, thank you for searching."}
+- 12:48 act: {"actions":[{"do":"note","text":"Day 214 dawn at white beds. Alive, health 20, hunger 20, empty pack. Staying here by the beds on grass; no dry food route known yet."}],"say":"Morning all. I'm at the 
