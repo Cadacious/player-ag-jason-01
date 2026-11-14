@@ -43,3 +43,25 @@
 - 20:51 act: {"actions":[{"do":"goto","target":{"x":-274,"y":67,"z":314}}],"reasoning":"Golem 4.6 blocks away and closing. The mine only gave seeds, not wheat. Leave now."}
 - 20:51 act: {"actions":[{"do":"note","text":"Day 238 morning. Safe at -274,68,314 with no golems in sight; Trini and Data nearby. Waiting for the wheat plant to ripen; will check it again later."}],"say":"Jason h
 - 20:52 act: {"actions":[{"do":"note","text":"Midday day 238. Riker holds 1 wheat for bread (needs 3). Trini first for any new food. I stay at -274,68,314 out of golem reach."}],"say":"Jason: Riker, agreed, bread 
+- 20:59 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason at dusk on 238. No food, and the wheat is with Riker and Trini now. I'm going to the white bed by the group to
+- 21:02 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason, night on 238. Trying the white bed at -271,67,318 now. No food; Trini and Riker first at light."}
+- 21:02 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":312}}],"say":"Golems closing from the south-west, so I'm moving north, away from them, with the group."}
+- 21:02 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason going to the white bed at -270,67,318 to sleep now. Golems are out of sight."}
+- 21:02 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":312}}],"say":"Sleep refused again for monsters. I'm holding north of the beds with the group, out of the golems' reach, until light."}
+- 21:03 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason trying the bed at -271,67,318 once more while no golems are in sight."}
+- 21:03 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":312}}],"say":"Still monsters near the beds, so no sleep yet. Holding north with the group until light."}
+- 21:03 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"No golems in view now. Going to the white bed to sleep."}
+- 21:03 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":312}}],"say":"Sleep refused again for monsters. Golems 12 and 20 blocks south. Moving north with the group and waiting for light.","intent":{"goa
+- 21:04 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"No monsters in view. Trying the white bed now."}
+- 21:04 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":310}}],"say":"Golem 6 blocks south. Backing north, away from it, until light."}
+- 21:05 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"A phantom is hitting me from the north-west. Fighting it with my sword."}
+- 21:05 act: {"actions":[{"do":"unstick"}],"say":"Stuck on a ledge after the phantom hit. Getting free, then holding until light."}
+- 21:05 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"No monsters in view now. Going to the white bed to sleep."}
+- 21:05 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":312}}],"say":"Golem 4 blocks west. Pulling back north with the group and waiting for light."}
+- 21:09 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":300}}],"say":"Jason here, daylight on day 239. Hunger 17, no food. Going north with the group to the sheep field. Any mutton goes to Trini first,
+- 21:10 act: {"actions":[],"intent":{"goal":"join_group_north_for_food","program":"travel","arguments":{"target":{"x":-272,"y":67,"z":300}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","pre
+- 21:14 act: {"actions":[{"do":"goto","target":{"x":-274,"y":67,"z":289}}],"say":"Jason: no food. Heading to Zack's north spot to join the sheep search. Mutton goes to Trini first, then Riker."}
+- 21:15 act: {"actions":[],"say":"Jason: I have no food either. I'll go north-west past the lake with Tommy and look for sheep or cows. Any mutton found goes to Trini first.","intent":{"goal":"scout_northwest_for_
+- 21:15 act: {"actions":[{"do":"goto","target":{"x":-300,"y":67,"z":255}}],"say":"Jason, with Tommy, scouting north-west. Calling out anything I see.","intent":{"goal":"scout_northwest_for_sheep","program":"travel
+- 21:16 act: {"actions":[{"do":"goto","target":{"x":-305,"y":66,"z":248}}],"say":"Jason: salmon in the water to the north-west. Going to the shore to try for it. Anyone with a weapon, come along carefully.","inten
+- 21:16 act: {"actions":[{"do":"goto","target":{"x":-290,"y":67,"z":270}}],"say":"Jason: the salmon are out in deep water, two blocks from the shore, too far to reach. Pulling back to dry ground. Shore is no good 
