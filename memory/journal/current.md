@@ -76,3 +76,30 @@
 - 09:56 act: {"intent":{"goal":"follow_tommy_south_again","program":"follow","arguments":{"target":"ag_tommy_01"},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_tic
 - 09:57 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":316}}],"say":"Jason: Heading to the white beds at -270,67,318 now, as agreed. I'll hold there with the group."}
 - 09:59 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}}],"say":"Jason: I have no food either, Picard, sorry. First meat goes to you when we get any. We hunt at first light on dry ground, together
+- 10:00 act: {"say":"Agreed, Trini. We hunt together at first light on dry ground. Picard, the first meat goes to you.","intent":{"goal":"hold_at_beds_until_dawn","program":"rest","arguments":{"at":{"x":-270,"y":6
+- 10:06 act: {"say":"Picard, stay by the beds and rest. I'll call you the moment we find meat. Zack, hold on the pillar tonight; we'll come for you at first light."}
+- 10:10 act: {"say":"Morning. I'm coming to Tommy's pig search at -352,65,227 on dry ground. Hold the pig for me, and keep the first meat for Picard.","intent":{"goal":"join_tommy_pig_search","program":"travel","a
+- 10:11 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"}],"say":"I'm in the water at -334,61,261 by the lake, getting out to the sand toward Kimberly. Staying on dry ground."}
+- 10:11 act: {"actions":[{"do":"unstick"}]}
+- 10:11 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"}]}
+- 10:11 act: {"actions":[{"do":"unstick"}]}
+- 10:11 act: {"actions":[{"do":"goto","target":"Kimberly"}],"intent":{"goal":"reach_dry_ground_by_kimberly","program":"travel","arguments":{"x":-326,"y":66,"z":266},"wake_on":["goal_completed","precondition_failed
+- 10:11 act: {"actions":[{"do":"unstick"},{"do":"goto","target":"Trini"}],"say":"I am still in the water at -328,59,263. Trini, I am trying to reach you on land."}
+- 10:11 act: {"actions":[{"do":"goto","target":{"x":-316,"y":64,"z":266}}],"intent":{"goal":"swim_out_of_lake_east","program":"travel","arguments":{"target":{"x":-316,"y":64,"z":266}},"wake_on":["goal_completed","
+- 10:12 act: {"say":"I am out of the lake, on grass at -316,64,266. Trini, stay on the sand; I will not go back into the water.","intent":{"goal":"hold_dry_ground_and_find_food","program":"travel","arguments":{"ta
+- 10:12 act: {"say":"I am on dry grass at -301,66,270, out of the lake. I will check the chicken spot at -261,65,266 and call Trini if I find meat.","intent":{"goal":"find_chicken_on_dry_ground","program":"travel"
+- 10:13 act: {"say":"Kimberly, the chicken spot is here at -261,65,266, on dry grass. No chicken in sight right now. Stay on dry ground and come here; I am watching."}
+- 10:14 act: {"say":"Tommy, I am on dry grass at the chicken spot -261,64,266, not moving into the lake. No animal in sight. I will watch here and call you if one shows."}
+- 10:14 act: {"say":"Tommy, Billy, Picard, come to me on the dry grass at -261,64,266. Kimberly is here. We search for chicken on dry ground together; the first meat goes to Picard."}
+- 10:20 act: {"actions":[{"do":"attack","target":"chicken"}],"say":"A chicken is listed right at my feet, -261,65,266. Tommy, Billy, come in close. The first meat goes to Picard."}
+- 10:20 act: {"actions":[{"do":"goto","target":{"x":-300,"y":69,"z":307}},{"do":"attack","target":"chicken"}],"say":"I see a chicken at -300,69,308, close to me. I'm going for it now. Any meat goes to Picard first
+- 10:20 act: {"actions":[{"do":"goto","target":{"x":-274,"y":69,"z":290}}],"say":"I have the chicken and I'm holding it for Picard. I'm going to the yellow beds near Billy to sleep sheltered. Picard, come there an
+- 10:20 act: {"actions":[{"do":"unstick"}],"say":"I'm at -292,69,307 with the chicken. Billy, I'm not at the chicken spot now. Picard gets the meat first. I'll hold it for him."}
+- 10:20 act: {"actions":[{"do":"goto","target":{"x":-281,"y":69,"z":291}}],"say":"I'm at the yellow beds, holding the chicken for Picard. I'll sleep in a bed here with the group."}
+- 10:20 act: {"actions":[{"do":"goto","target":{"x":-281,"y":69,"z":292}},{"do":"sleep"}]}
+- 10:20 act: {"actions":[{"do":"goto","target":{"x":-281,"y":69,"z":292}},{"do":"sleep"}],"say":"Holding the chicken for Picard. I'll give it to him as soon as he's here. Going to bed now."}
+- 10:20 act: {"actions":[{"do":"goto","target":{"x":-281,"y":69,"z":291}}]}
+- 10:21 act: {"actions":[{"do":"goto","target":{"x":-282,"y":69,"z":309}},{"do":"sleep"}]}
+- 10:21 act: {"intent":{"goal":"reach_bed_yellow","program":"travel","arguments":{"target":{"x":-281,"y":69,"z":291}},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":2400,"max_block_
+- 10:21 act: {"actions":[{"do":"sleep"}],"say":"I'm at the yellow bed with Billy. The chicken is held for Picard. Sleeping now."}
+- 10:21 act: {"intent":{"goal":"hold_for_first_light","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_block_operatio
