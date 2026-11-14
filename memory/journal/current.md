@@ -142,3 +142,6 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 19:18 act: {"say":"Worf, I can't get the porkchop to you: you keep stepping out of sight. I'm holding it at the white beds. Stand still and say so, and I'll hand it over right away."}
 - 19:19 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}],"say":"Worf isn't in sight, so I'm keeping the porkchop safe. Data, I'll take the mutton when it's in my hands. It's dusk, so I'm going to
 - 19:19 act: {"actions":[{"do":"give","to":"ag_worf_01","item":"porkchop","count":1}],"say":"Worf, here is the porkchop. Eat it."}
+- 19:20 act: {"say":"Thank you, Data. I'm ready for the mutton. Jason is at the white beds.","intent":{"goal":"receive_mutton_and_eat","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_da
+- 19:20 act: {"say":"Data, I don't see the mutton in my pack yet. Picard, you hold porkchop. I am hungry, 17. If you can spare it, please come within reach."}
+- 19:21 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
