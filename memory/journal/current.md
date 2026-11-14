@@ -1232,3 +1232,4 @@
 - 00:00 act: {"say":"Thank you Kimberly. I'm going to the yellow beds at -263,67,353 now.","actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}]}
 - 00:00 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":354}}]}
 - 00:00 act: {"actions":[{"do":"sleep"}]}
+- 00:01 say: {"text":"Night at the yellow beds with Kimberly and Tommy. I'm sleeping here too. Food comes first in the morning."}
