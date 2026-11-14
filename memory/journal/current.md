@@ -172,3 +172,4 @@
 - 08:34 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":351}}],"say":"Thunder is coming and no sheep here. Everyone back to the yellow beds at -263,67,353. We regroup there and plan again in daylight."
 - 08:38 act: {"actions":[],"say":"Good, Tommy, Zack, Trini, Kimberly, we're all at the yellow beds. Nobody has food yet. At first light we split: one group searches for sheep south and east, nobody goes north past
 - 08:39 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}}],"say":"Dusk is here. I'm going into the yellow bed at -263,67,353 for the night. Everyone stay close to the beds.","reasoning":"Night is c
+- 08:39 say: {"text":"Goodnight, all. I'm asleep at the yellow bed. At first light we split for sheep, south and east, no one north past the cows."}
