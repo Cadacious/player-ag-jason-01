@@ -104,3 +104,37 @@
 - 10:21 act: {"actions":[{"do":"sleep"}],"say":"I'm at the yellow bed with Billy. The chicken is held for Picard. Sleeping now."}
 - 10:21 act: {"intent":{"goal":"hold_for_first_light","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_block_operatio
 - 10:22 act: {"actions":[{"do":"sleep"}],"say":"Jason at the white bed at -298,68,294, health and hunger 20. I am holding a chicken for Picard and will hand it over when he comes near. Going to sleep for the night
+- 10:22 act: {"say":"Picard, yes, I will hold the chicken here at the white bed for you. Come when it is light and I will hand it over. Tommy, thank you for passing that on.","intent":{"goal":"hold_chicken_for_pic
+- 10:23 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"chicken","count":1}],"say":"Picard, here is the chicken. Eat it when your hunger drops. Stay near the beds with Tommy until first light."}
+- 10:27 act: {"say":"Trini, stay on the sand and hold still. Tommy and I will come walk you in at first light. Picard, goodnight, keep the chicken safe."}
+- 10:28 act: {"say":"Jason: dawn. I'm going with Tommy and Billy by the dry grass at -301,66,270, then on to Trini. I have no food, no weapon. Stay in sight and stay out of deep water.","intent":{"goal":"walk_to_t
+- 10:28 act: {"say":"Jason at the dry grass waypoint, -301,66,271. Tommy, you go on to Trini; I will hold here and not enter the water. Bring Trini back here to me on the grass."}
+- 10:28 act: {"say":"Picard, I already gave you the chicken at the white bed last night, and the give worked. Check your pack. I am at the dry grass with Billy now."}
+- 10:29 act: {"say":"Trini is with us. Everyone, stay on the grass and go north together to the sheep at -301,63,204. Picard, you may come up from the white beds to join us."}
+- 10:31 act: {"actions":[{"do":"goto","target":{"x":-301,"y":63,"z":200}}],"say":"I'm walking north on the grass to catch up with the group near the cow at -297,64,194. Picard, Trini, hold for me there.","intent":
+- 10:32 act: {"say":"I'm at -301,64,200 on the grass, with you all. There's a horse at -299,64,190 but no cow in sight yet. Picard gets any meat first, as agreed."}
+- 10:33 act: {"actions":[{"do":"goto","target":{"x":-294,"y":64,"z":192}}],"say":"Billy, I'm going to the sheep spot at -292,64,190 with you, on the grass."}
+- 10:33 act: {"say":"Agreed, Tommy: we stay together. I'm holding here at -294,64,193 with you and Trini. Billy, if the cow is real, say so and hold where you stand; we come to you as one group."}
+- 10:37 act: {"say":"Kimberly's report is best: cow near -293,64,177 and sheep near -293,63,176, north on the grass. I'll go with the group, Tommy leading. Picard gets the first meat."}
+- 10:38 act: {"actions":[{"do":"goto","target":{"x":-293,"y":64,"z":181}}],"say":"Going north to Tommy at -293,64,181 now, then the cow at -293,64,177."}
+- 10:38 act: {"say":"I'm with the group at -292,64,181. No cow in sight yet. Tommy, lead on to the cow at -293,64,177; I'll stay right behind you."}
+- 10:42 act: {"say":"Agreed, Tommy. I'm holding at -292,64,181 with the group for the night, not crossing the drop. I have no shelter or bed here; I'll stay put on the grass and come to you at first light."}
+- 10:47 act: {"say":"Dawn. I have nothing in my pack, but I'll follow to the cow at -297,64,194 and help where I can. Picard, stay on the dirt you can stand on and don't swim further.","actions":[{"do":"goto","tar
+- 10:48 act: {"say":"Trini, I'm beside you with an empty pack. Take the meat to Picard first, as Tommy said. I'll stay here on the grass and keep clear of the water."}
+- 10:51 act: {"say":"I'm on the grass at -296,64,189 with an empty pack, out of the water. Trini, Picard: hold still. Tommy, if you want a pair of eyes on a dry route, I can walk the grass shore and report what I 
+- 10:51 act: {"say":"On it, Tommy. I'm walking the grass south-west, staying two blocks off the water, and I'll report every dry step.","actions":[{"do":"goto","target":{"x":-302,"y":64,"z":201}}]}
+- 10:53 act: {"say":"Tommy, at -302,64,201: water 8 blocks south-west, planks and stone bricks about 5 blocks ahead on the ground. No clear dry route to Picard yet. Checking the planks next."}
+- 10:55 act: {"say":"Tommy: from -302,64,201 I see stacked dirt and planks pillars and a stone-brick ledge to the south-west, with water beyond. No dry route across yet. I'll hold here on the grass and wait for yo
+- 11:00 act: {"say":"Dusk again. I'm holding on the grass at -302,64,201 with Billy, away from the water. No dry bridge found yet; I'll keep watch and report at first light."}
+- 11:02 act: {"say":"Trini, I'm unarmed, so I'll move east off the shore to -292,64,181 on the grass. Billy, hold the sword and stay between us and the water.","actions":[{"do":"goto","target":{"x":-292,"y":64,"z"
+- 11:06 act: {"say":"Jason here, on grass beside Trini and Billy at -292,64,182. I have no food either. We hold until light, then go for the cow at -297,64,194."}
+- 11:08 act: {"say":"Dawn. Trini, Billy, with me to the cow at -297,64,194 on grass. Stay off the water's edge, and I'll say when we have meat for Picard first, then Zack.","actions":[{"do":"goto","target":{"x":-2
+- 11:08 act: {"say":"No cow in sight here. Billy is after the sheep at -290,64,192, so I'm covering him from the grass. Trini, stay on me.","actions":[{"do":"goto","target":{"x":-291,"y":64,"z":189}}]}
+- 11:08 act: {"say":"Good, Billy. I'm watching from here on grass at -292,64,189. Tell me when you have meat, and we bring it to Picard first."}
+- 11:09 act: {"say":"Following Billy north-east to the sheep at -276,66,212 on the grass. Trini, come along the grass.","actions":[{"do":"goto","target":{"x":-279,"y":64,"z":205}}]}
+- 11:09 act: {"say":"No sheep here. I'm going for the known chicken at -261,65,266 on the grass, with Billy. Keep away from the water edge.","actions":[{"do":"goto","target":{"x":-265,"y":65,"z":268}}]}
+- 11:10 act: {"say":"Jason: no food near -265,67. Trini, the cow at -296,191 is your find; send the meat to Picard first. I'm holding here and will go for any sheep or chicken you call out.","intent":{"goal":"hold
+- 11:10 act: {"say":"Billy: shore is south-west of you. Swim toward -265,65,267, where I stand on grass. Keep moving, don't dive. I won't enter the water."}
+- 11:11 act: {"say":"Billy, glad you're back. Stay on this grass, away from the water to the north-east. I'm holding here for any food sighting."}
+- 11:19 act: {"say":"Billy, dusk is here. We go to the yellow beds at -274,69,291 on grass for the night, then sleep. Stay near me.","intent":{"goal":"reach_bed_for_night","program":"travel","arguments":{"target":
+- 11:19 act: {"actions":[{"do":"goto","target":{"x":-274,"y":69,"z":291}}]}
