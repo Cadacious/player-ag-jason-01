@@ -1233,3 +1233,9 @@
 - 00:00 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":354}}]}
 - 00:00 act: {"actions":[{"do":"sleep"}]}
 - 00:01 say: {"text":"Night at the yellow beds with Kimberly and Tommy. I'm sleeping here too. Food comes first in the morning."}
+- 00:02 say: {"text":"I'm awake at the beds with 4 pumpkins. I'll wait for light, then look for sheep and food."}
+- 00:06 say: {"text":"Kimberly, I'll give you 2 pumpkins when you reach the beds. I'll keep 2 for myself."}
+- 00:06 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"pumpkin","count":2}],"say":"Here, Kimberly, two pumpkins. Keep your wheat seeds; I have one already."}
+- 00:06 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"rotten_flesh","count":1},{"do":"give","to":"ag_kimberly_01","item":"pumpkin","count":2}],"say":"Kimberly, here is your rotten flesh back, and two
+- 00:11 say: {"text":"Morning. Zack, I have no food, only 2 pumpkins, and Kimberly says they are not edible here. I'll help look for sheep with Tommy and Kimberly."}
+- 00:11 act: {"intent":{"goal":"search_sheep_south_east","program":"travel","arguments":{"target":{"x":-257,"y":66,"z":375}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_faile
