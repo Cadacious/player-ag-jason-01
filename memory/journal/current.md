@@ -1240,3 +1240,14 @@
 - 00:11 say: {"text":"Morning. Zack, I have no food, only 2 pumpkins, and Kimberly says they are not edible here. I'll help look for sheep with Tommy and Kimberly."}
 - 00:11 act: {"intent":{"goal":"search_sheep_south_east","program":"travel","arguments":{"target":{"x":-257,"y":66,"z":375}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_faile
 - 00:20 act: {"intent":{"goal":"return_to_beds_for_night","program":"travel","arguments":{"target":{"x":-263,"y":67,"z":354}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_fail
+- 00:21 act: {"intent":{"goal":"night_shelter","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world
+- 00:21 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":354}},{"do":"sleep"}],"say":"My shelter wall was refused, so I'm heading to the yellow beds with Zack, Kimberly and Trini to sleep."}
+- 00:22 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":354}}],"say":"Thanks Tommy. It's morning, I'm coming to the beds. Then food: sheep to the southeast."}
+- 00:22 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}},{"do":"sleep"}]}
+- 00:22 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}},{"do":"sleep"}],"say":"Kimberly, Tommy: I'm heading to the yellow bed at -241,69,344 to sleep. Then food to the southeast with you."}
+- 00:22 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-257,"y":66,"z":375}}],"say":"Morning. I'm joining Tommy and Kimberly to look for sheep toward -257,66,375."}
+- 00:22 act: {"intent":{"goal":"reach_sheep_area","program":"travel","arguments":{"x":-257,"y":66,"z":375},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":2400,"ma
+- 00:22 act: {"intent":{"goal":"reach_sheep_area","program":"travel","arguments":{"target":{"x":-257,"y":66,"z":375}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_tick
+- 00:22 say: {"text":"Tommy, I'm at -256,65,374 with you. No sheep in sight yet; I'll look around this area."}
+- 00:23 act: {"intent":{"goal":"reach_yellow_bed","program":"travel","arguments":{"target":{"x":-241,"y":69,"z":344}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_tick
+- 00:23 act: {"actions":[{"do":"sleep"}]}
