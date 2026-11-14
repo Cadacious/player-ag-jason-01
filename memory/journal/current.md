@@ -113,3 +113,32 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 18:43 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}]}
 - 18:51 act: {"actions":[{"do":"goto","target":{"x":-270,"y":69,"z":309}}],"intent":{"goal":"search_north_oaks_for_apples","program":"travel","arguments":{"target":{"x":-270,"y":69,"z":309}},"wake_on":["directly_a
 - 18:52 act: {"actions":[{"do":"mine","block":"oak_leaves","count":6}]}
+- 18:52 act: {"actions":[{"do":"mine","block":"oak_leaves","count":8}]}
+- 18:53 act: {"actions":[{"do":"mine","block":"oak_leaves","count":8}]}
+- 18:54 say: {"text":"Jason here, at the north oak stand near the white beds. No food yet. Calling out: if anyone sees a cow, pig, sheep or apple, tell me. Billy and Kimberly get first share."}
+- 18:54 act: {"intent":{"goal":"search_north_for_food","program":"travel","arguments":{"target":{"x":-272,"y":66,"z":282}},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"max_world
+- 18:54 act: {"intent":{"goal":"search_further_north_for_food","program":"travel","arguments":{"target":{"x":-272,"y":66,"z":266}},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"m
+- 18:54 act: {"intent":{"goal":"search_far_north_for_food","program":"travel","arguments":{"target":{"x":-272,"y":66,"z":250}},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"max_w
+- 18:58 act: {"intent":{"goal":"return_to_yellow_bed_for_night","program":"travel","arguments":{"target":{"x":-273,"y":69,"z":292}},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"
+- 19:03 act: {"actions":[{"do":"goto","target":{"x":-274,"y":69,"z":291}},{"do":"sleep"}]}
+- 19:08 act: {"say":"Morning. I have no food either, hunger 14. I'll call out any cow, pig, sheep or apple I see, and the first meat goes to Billy, then Kimberly.","intent":{"goal":"search_food_dawn","program":"tr
+- 19:08 act: {"intent":{"goal":"search_food_east","program":"travel","arguments":{"target":{"x":-251,"y":66,"z":332}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"li
+- 19:08 act: {"say":"A golem is closing from the south, about 11 blocks away. I'm moving north, away from it. No food found yet.","intent":{"goal":"move_north_from_golem","program":"travel","arguments":{"target":{
+- 19:08 act: {"actions":[{"do":"unstick"}],"say":"I'm in a pit by the north oaks, climbing out. Trini, I'm staying here with the beds, no food yet."}
+- 19:09 act: {"say":"Thank you, Kimberly. I'm out of the pit and standing by the beds. Any meat, I'll tell you first.","intent":{"goal":"hold_by_beds_for_food","program":"rest","arguments":{},"wake_on":["directly_
+- 19:13 act: {"say":"Tommy, great work. Billy is first for the porkchop, as agreed, then I'm next at hunger 14. I'm at the beds, so please hand me one after Billy is fed.","intent":{"goal":"hold_for_porkchop","pro
+- 19:13 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":320}}],"say":"I'm going to the white beds to meet Tommy for the porkchop. Billy first, then me."}
+- 19:13 act: {"say":"Agreed, Tommy: Billy, then me, then Worf. I'm at the white beds now, hunger 14. Whoever sees Billy first, call him over."}
+- 19:14 act: {"actions":[{"do":"goto","target":{"x":-280,"y":67,"z":319}}],"say":"Tommy, I'm coming to you now. Jason, hunger 14, ready for the porkchop after Billy."}
+- 19:14 act: {"say":"Tommy, I'm in reach. Billy isn't in sight here, so keep the rest for him. Jason at hunger 14: I'll take one porkchop now if you can spare it."}
+- 19:15 act: {"intent":{"goal":"hold_near_group_for_porkchop","program":"rest","arguments":{},"wake_on":["directly_addressed","goal_completed"],"limits":{"max_world_ticks":600,"max_block_operations":4}}}
+- 19:15 act: {"say":"Tommy, my pack still shows no porkchop. If you have one free after Billy, I'm at hunger 14 right here. Please hand it over when you can."}
+- 19:16 act: {"actions":[{"do":"eat"}],"say":"Thanks, Tommy. Got the porkchop. Worf is next. I'll keep an eye out for animals to the north and west."}
+- 19:17 act: {"say":"Tommy, I hold 2 porkchops, and I did eat one. Worf and Kimberly aren't in reach here. Worf is next by your word, so I'll give him one as soon as he's in reach, and keep the other for Kimberly.
+- 19:17 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"porkchop","count":1}],"say":"Picard, here is a porkchop from Tommy's spares. Worf gets the last one."}
+- 19:18 act: {"actions":[{"do":"goto","target":"ag_worf_01"},{"do":"give","to":"ag_worf_01","item":"porkchop","count":1}],"say":"Worf, coming to you with the last porkchop."}
+- 19:18 act: {"actions":[{"do":"goto","target":{"x":-277,"y":67,"z":319}}],"say":"Worf, I'm back by the white beds with your porkchop. Come within sight and I'll hand it over."}
+- 19:18 act: {"actions":[{"do":"goto","target":"ag_worf_01"},{"do":"give","to":"ag_worf_01","item":"porkchop","count":1}]}
+- 19:18 act: {"say":"Worf, I can't get the porkchop to you: you keep stepping out of sight. I'm holding it at the white beds. Stand still and say so, and I'll hand it over right away."}
+- 19:19 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}],"say":"Worf isn't in sight, so I'm keeping the porkchop safe. Data, I'll take the mutton when it's in my hands. It's dusk, so I'm going to
+- 19:19 act: {"actions":[{"do":"give","to":"ag_worf_01","item":"porkchop","count":1}],"say":"Worf, here is the porkchop. Eat it."}
