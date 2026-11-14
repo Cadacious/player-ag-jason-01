@@ -99,3 +99,5 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 18:29 act: {"intent":{"goal":"search_grass_for_animals","program":"travel","arguments":{"target":{"x":-290,"y":68,"z":318}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_complet
 - 18:29 act: {"say":"Jason here. I'm at the west grass edge, out of sight. Heading back to the white beds to be with the group. Still no food, hunger 16.","intent":{"goal":"rejoin_group_at_white_beds","program":"t
 - 18:29 say: {"text":"Jason back at the white beds with Tommy, health 20, hunger 16, no food. Golems are closing from the west, so I'm holding here with the group."}
+- 18:31 say: {"text":"Jason here, day 231, hunger 16, no food yet. I'll stay near Tommy and scout the grass east of the beds. Kimberly gets any food first."}
+- 18:31 act: {"intent":{"goal":"scout_food_near_group","program":"travel","arguments":{"target":{"x":-262,"y":66,"z":332}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"
