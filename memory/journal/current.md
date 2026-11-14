@@ -40,3 +40,4 @@
 - 13:03 say: {"text":"Morning is coming. I'm at the white bed with 3 logs and 4 planks. Picard, do you need anything?"}
 - 13:05 act: {"actions":[{"do":"note","text":"Day 214 night at white bed (-270,67,318). Health 20, hunger 20, 3 logs and 4 planks. Holding here until first light; Picard has porkchop nearby, Billy sleeping at yell
 - 13:05 act: {"intent":{"goal":"hold_at_white_bed_until_light","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed","goal_completed"],"limits":{"max_world_ticks
+- 13:06 act: {"say":"Jason: Kimberly, glad you're up. I'm at the white bed with 3 logs and 4 planks. Picard, I'll keep my planks ready for Zack's dry route. At first light I'll go with you and Billy.","intent":{"g
