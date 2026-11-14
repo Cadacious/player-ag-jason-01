@@ -48,3 +48,5 @@
 - 09:40 act: {"say":"Night is here. Trini, Picard: I am going to sleep in the white bed. Everyone, first light: the dry path to the pig, one group, meat to me first.","actions":[{"do":"goto","target":{"x":-270,"y"
 - 09:40 act: {"actions":[{"do":"sleep"}]}
 - 09:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason at the white bed, health and hunger 20, still no food. Going to sleep. First light: the dry path to the pig, o
+- 09:42 say: {"text":"Morning, Trini. I slept at the white bed and I'm full now. I have nothing in my pack, so I'll look for wood and food next."}
+- 09:43 say: {"text":"Trini, agreed. We hold at the white bed with no weapon. I'll say go when the group has swords and the pig is in sight. Meat comes to me first."}
