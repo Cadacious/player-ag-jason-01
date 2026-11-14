@@ -88,3 +88,7 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 18:11 act: {"say":"Jason: Zack, I can't see you from here. Going south-west toward the grass edge; I'll call out. Two trader llamas to the south-east, not food.","actions":[{"do":"goto","target":{"x":-296,"y":66
 - 18:19 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":322}}],"say":"Jason here, dusk, no food yet. Heading to the group beds near -282,67,320 to rest with everyone. Any apple goes to Kimberly first."
 - 18:19 act: {"actions":[{"do":"sleep"}]}
+- 18:23 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason here. It is night and no food yet. Going to the white bed to sleep with the group."}
+- 18:23 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}],"say":"Jason: beds are full. Holding near the group at the white beds until one frees up. Still no food, hunger 16.","intent":{"goal":"hol
+- 18:24 act: {"actions":[{"do":"sleep"}]}
+- 18:25 act: {"actions":[{"do":"sleep"}],"say":"Jason: still night, no food, hunger 16. Trying the bed again with the group close."}
