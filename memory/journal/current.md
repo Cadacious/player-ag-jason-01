@@ -72,3 +72,19 @@
 - 13:34 act: {"actions":[{"do":"note","text":"Day 216 midday: joined Tommy at group spot -267,68,291 on dry grass. Health 20, hunger 20, 1 plank. No food known; no dry route to Zack confirmed."}],"say":"Jason: I'm
 - 13:38 act: {"intent":{"goal":"to_yellow_bed_for_night","program":"travel","arguments":{"target":{"x":-281,"y":69,"z":292}},"wake_on":["directly_addressed","unexpected_damage","precondition_failed","goal_complete
 - 13:38 act: {"actions":[{"do":"note","text":"Day 216 dusk at yellow bed -281,69,293. Health 20, hunger 20, 1 plank, no food. Kimberly near. Going to bed in sight of group."}]}
+- 13:39 say: {"text":"Jason: I'm at -281,69,293 by the yellow bed with Tommy's wall nearby. No food on me, health 20. I'll sleep in a bed when night comes."}
+- 13:43 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}},{"do":"sleep"}],"say":"Jason: night. Going to the white bed at -298,68,294 to sleep, in sight of the yellow-bed group."}
+- 13:44 act: {"actions":[{"do":"note","text":"Day 216 night: goto ended at -283,67,320; all nearby beds occupied, sleep failed. Health 20, hunger 20, 1 plank. Light is bright now, so I stay near the group and wait
+- 13:44 act: {"actions":[{"do":"note","text":"Night, day 216. Beds full, Kimberly sleeping nearby. I stay at -283,67,320, health 20, hunger 20, watching for morning."}],"say":"Jason: Goodnight, Kimberly. I'm stayi
+- 13:49 act: {"actions":[{"do":"note","text":"Day 217 dawn at -283,67,320. Health 20, hunger 20, 1 plank, no food. Beds were full all night. Heading to the group for food ask and the dry-route talk."}],"say":"Jaso
+- 13:49 act: {"actions":[],"say":"Jason: Thank you, Trini. I'm at -278,68,312 on grass, in sight. Give me the mutton when you're close, and I'll eat it and stay with the group for the route to Zack."}
+- 13:49 act: {"actions":[{"do":"goto","target":{"x":-267,"y":68,"z":301}}],"say":"Jason: coming to the group spot at -267,68,301 to take Trini's mutton. Holding there after."}
+- 13:49 act: {"actions":[],"say":"Jason: Trini, I'm right beside you at -267,69,301. Please give me the mutton, I'm at 20 health and 20 hunger, but I have no food. I'll eat only when hunger drops, and keep the gro
+- 13:50 act: {"actions":[{"do":"note","text":"Day 217 morning at group spot -267,69,301. Health 20, hunger 20, no food. Trini and Billy hold mutton for Zack, who is weakest. I agree and will follow Kimberly's walk
+- 13:54 act: {"actions":[{"do":"note","text":"Midday day 217 at -267,69,301 with Tommy, Billy, Trini. Hunger is full (20), so food is not urgent. Kimberly walked a dry waypoint at -306,65,256 going north. Holding 
+- 13:58 act: {"actions":[{"do":"note","text":"Late afternoon day 217, sun low, at -267,69,301 with Tommy, Billy, Trini. Kimberly is holding at dry -306,65,256; Zack's next walk is ENE toward -266,200. I am not par
+- 13:58 act: {"actions":[{"do":"goto","target":{"x":-297,"y":68,"z":295}}],"say":"Jason: heading to the white beds at -298,68,295 before dark. I'll report what I find."}
+- 13:59 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":295}},{"do":"sleep"}]}
+- 13:59 act: {"actions":[{"do":"note","text":"Dusk day 217 at white bed -298,68,295 (adjacent, bed at -298,68,294 also). Sleep said not night yet; waiting for full night, then sleeping in the bed."}]}
+- 13:59 act: {"actions":[{"do":"sleep"}]}
+- 13:59 act: {"actions":[{"do":"note","text":"Handoff, day 217 night: slept in white bed -298,68,295 (sleep worked). Health 20, hunger 20, no food in pack. Mutton still held by Billy for Zack. Kimberly in bed near
