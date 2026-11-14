@@ -1275,3 +1275,5 @@
 - 00:40 act: {"actions":[],"intent":{"goal":"reach_white_bed_for_night","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":336}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"li
 - 00:40 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}]}
 - 00:40 act: {"actions":[{"do":"sleep"}]}
+- 00:41 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Night's here. I'm sleeping in the white bed at -270,67,336."}
+- 00:41 act: {"actions":[{"do":"sleep"}]}
