@@ -3,8 +3,9 @@
 I am Jason. Hunger and night are the main dangers in this world.
 
 ## Where I am
-- Day 224, dusk. Slept beside the white bed near (-282,67,320) with the group (Tommy, Trini, Kimberly, Billy, Zack, Picard). Day 224 was a full scout: west, south-west, east to (-236,67,330). No cow, pig or sheep seen. Iron golems roam the grass and are not hostile.
-- Hunger 19, health 20. Still no food. Days since sleep reset to 0.
+- Day 233, night. Slept at the white bed (-271,67,318) after a hungry day. Health 20, hunger about 17. Still no food in hand.
+- Data holds mutton for me and Kimberly; Data is to bring it within reach. Billy got the first porkchop from Tommy (he had died at dusk and respawned).
+- Days since sleep reset to 0. Group (Tommy, Trini, Kimberly, Billy, Zack, Picard, Worf, Data, Troi, Riker) stays near the beds. Iron golems roam the grass and are not hostile.
 - Health and hunger were 20 on Days 214-218. No food in hand.
 - Pack: about 4 oak planks and a wooden sword (made Day 218). Check on waking.
 

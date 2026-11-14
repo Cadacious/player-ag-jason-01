@@ -145,3 +145,5 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 19:20 act: {"say":"Thank you, Data. I'm ready for the mutton. Jason is at the white beds.","intent":{"goal":"receive_mutton_and_eat","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_da
 - 19:20 act: {"say":"Data, I don't see the mutton in my pack yet. Picard, you hold porkchop. I am hungry, 17. If you can spare it, please come within reach."}
 - 19:21 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
+- 19:21 act: {"say":"Data, I'm here at the beds. Give the mutton when you're beside me, I'll eat it at once.","intent":{"goal":"reach_bed_for_night","program":"travel","arguments":{"target":{"x":-271,"y":67,"z":31
+- 19:21 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason here at the white bed, night, hunger 17, no food. Data, bring the mutton when you can see me; I'll eat it stra
