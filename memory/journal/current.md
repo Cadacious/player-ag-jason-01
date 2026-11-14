@@ -130,3 +130,26 @@
 - 14:34 act: {"actions":[{"do":"goto","target":{"x":-297,"y":68,"z":294}}],"intent":{"goal":"return_to_white_bed_for_night","program":"travel","arguments":{"target":{"x":-297,"y":68,"z":294}},"wake_on":["goal_comp
 - 14:35 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}},{"do":"sleep"}]}
 - 14:35 say: {"text":"Jason back at the white beds. Searched dry ground to the south: horses only, no sheep or cows. Sleep needs night, so I'll sleep at dusk. Kimberly, are you still hungry?"}
+- 14:36 say: {"text":"Tommy, yes. We go together south-west on dry grass, toward -322,73,330, then further south past it. Stay within sight. Avoid the bows to the northwest and the water. Meet me at the white beds
+- 14:36 act: {"actions":[{"do":"goto","target":{"x":-322,"y":73,"z":330}}],"intent":{"goal":"scout_dry_southwest_with_tommy","program":"travel","arguments":{"target":{"x":-322,"y":73,"z":330}},"wake_on":["goal_com
+- 14:40 act: {"actions":[{"do":"goto","target":{"x":-297,"y":68,"z":294}},{"do":"sleep"}],"intent":{"goal":"night_to_white_bed","program":"travel","arguments":{"target":{"x":-297,"y":68,"z":294}},"wake_on":["goal_
+- 14:44 act: {"intent":{"goal":"hold_until_light","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"max_block_operations":1}},"
+- 14:48 act: {"intent":{"goal":"find_food_southeast","program":"travel","arguments":{"target":{"x":-257,"y":66,"z":375}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_t
+- 14:48 act: {"intent":{"goal":"scout_dry_grass_with_tommy","program":"follow","arguments":{"target":"ag_tommy_01"},"wake_on":["unexpected_damage","directly_addressed","goal_completed"],"limits":{"max_world_ticks"
+- 14:48 act: {"intent":{"goal":"scout_east_for_food","program":"travel","arguments":{"target":{"x":-262,"y":66,"z":336}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_t
+- 14:48 act: {"intent":{"goal":"sleep_in_bed_at_night","program":"travel","arguments":{"target":{"x":-282,"y":67,"z":320}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world
+- 14:48 say: {"text":"Tommy, I'm at the white bed at -283,67,320. Come here and we'll search the dry grass to the south-west together."}
+- 14:49 act: {"intent":{"goal":"reach_old_cow_area","program":"travel","arguments":{"target":{"x":-297,"y":64,"z":194}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
+- 14:49 act: {"intent":{"goal":"reach_old_cow_area_north","program":"travel","arguments":{"target":{"x":-290,"y":67,"z":230}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_wo
+- 14:50 act: {"intent":{"goal":"north_along_shore","program":"travel","arguments":{"target":{"x":-292,"y":66,"z":245}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_tic
+- 14:50 act: {"intent":{"goal":"scout_north_east_for_cows","program":"travel","arguments":{"target":{"x":-270,"y":66,"z":250}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_w
+- 14:50 act: {"intent":{"goal":"scout_east_for_food","program":"travel","arguments":{"target":{"x":-245,"y":66,"z":250}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_t
+- 14:50 act: {"intent":{"goal":"scout_further_east_for_food","program":"travel","arguments":{"target":{"x":-220,"y":66,"z":250}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max
+- 14:50 act: {"actions":[{"do":"unstick"}]}
+- 14:51 act: {"say":"Trini, I'm at -221,66,250, out of the pit now. Where is the pig? I have seen no food yet."}
+- 14:52 act: {"intent":{"goal":"find_pig_at_northeast","program":"travel","arguments":{"target":{"x":-170,"y":74,"z":225}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world
+- 14:52 act: {"say":"My travel north-east failed, so I'm holding at -221,66,250 by the coal. Kimberly and Tommy, come here and we'll go to the pig together. Trini has the first meat."}
+- 14:53 act: {"say":"Tommy, I'm at -221,66,250 by the coal pit, in the open. Come to me and we'll go to the pig together."}
+- 14:54 act: {"intent":{"goal":"reach_yellow_bed_for_night","program":"travel","arguments":{"target":{"x":-281,"y":69,"z":291}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_
+- 14:56 say: {"text":"Kimberly, Tommy: agreed. We go for the pig near -168,89,225 at first light, meat goes to Trini first. I'm sleeping in the yellow bed here now."}
+- 15:00 act: {"actions":[{"do":"goto","target":{"x":-281,"y":69,"z":291}}]}
