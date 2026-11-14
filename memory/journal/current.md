@@ -1281,3 +1281,54 @@
 - 00:42 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Goodnight, Zack. I'm trying the bed again at the white beds.","reasoning":"My goto failed and I did
 - 00:44 act: {"actions":[{"do":"sleep"}],"say":"Night. I'm going to sleep in the white bed beside me.","reasoning":"Night, bed adjacent, health and hunger full. Sleep now."}
 - 00:46 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Billy, I'm by the white beds at -272,67,336. Going to sleep for the night."}
+- 00:47 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"}],"say":"Kimberly, I'm coming with beef. Hold on.","intent":{"goal":"reach_kimberly","program":"travel","arguments":{"x":-282,"y":68,"z":368},"wake_o
+- 00:47 act: {"actions":[{"do":"goto","target":{"x":-281,"y":68,"z":366}}],"say":"Kimberly, I'm going to the yellow beds with your beef."}
+- 00:48 act: {"actions":[{"do":"eat"}],"say":"Kimberly, Trini, I'm at -281,68,366 with one beef. Where are you? I'll wait here."}
+- 00:48 act: {"actions":[],"say":"Zack, I have 2 pumpkins and 2 wheat. Kimberly is first with my beef; I'll bring the pumpkins to you once I find her. Kimberly, where are you?"}
+- 00:49 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":354}}],"say":"Kimberly, on my way to you at -262,67,354."}
+- 00:49 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"beef","count":1}],"say":"Kimberly, here is my beef. Eat it. Trini, I'll keep the pumpkins and wheat for Zack, who is out at -236,68,395."}
+- 00:49 act: {"actions":[{"do":"goto","target":{"x":-259,"y":67,"z":349}},{"do":"give","to":"ag_kimberly_01","item":"beef","count":1}]}
+- 00:49 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"},{"do":"give","to":"ag_kimberly_01","item":"beef","count":1}]}
+- 00:49 act: {"actions":[],"say":"Kimberly, I'm at -259,67,350 with the beef. I can't see you now. Tell me where you are and I'll bring it."}
+- 00:51 act: {"actions":[{"do":"goto","target":{"x":-261,"y":67,"z":352}}],"say":"Kimberly, I'm coming to you with my beef. Tell me when you can see me."}
+- 00:51 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"beef","count":1}],"say":"Kimberly, here is beef. Eat it now."}
+- 00:51 act: {"actions":[{"do":"goto","target":{"x":-258,"y":67,"z":355}},{"do":"give","to":"ag_kimberly_01","item":"beef","count":1}],"say":"Kimberly, I stepped back. Beef coming to you now."}
+- 00:51 act: {"actions":[],"say":"Kimberly, I'm at -258,66,355, out of your sight. Please step where you can see me and I'll hand you the beef."}
+- 00:52 act: {"actions":[{"do":"goto","target":{"x":-260,"y":67,"z":357}}],"say":"Tommy, I'm sorry about the enderman. I have one beef and two pumpkins. I'm near the yellow beds; come find me."}
+- 00:52 act: {"actions":[],"say":"Tommy, I'm at -260,66,357 by the stripped logs, south of the yellow beds. Come to me, I'll hand you the pumpkins and wheat."}
+- 00:55 act: {"actions":[{"do":"goto","target":{"x":-258,"y":67,"z":353}},{"do":"give","to":"ag_kimberly_01","item":"beef","count":1}],"say":"Kimberly, I'm at -258,67,353. Beef is going to you."}
+- 00:55 act: {"actions":[{"do":"goto","target":{"x":-259,"y":67,"z":353}},{"do":"give","to":"ag_kimberly_01","item":"beef","count":1}],"say":"Kimberly, if you can see me, say so. I'm stepping to -259,67,353."}
+- 00:55 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"beef","count":1}],"say":"Tommy, Kimberly can't see me from here. Please carry this beef to her right now, she's health 2. Then the pumpkins and whea
+- 00:55 act: {"actions":[{"do":"goto","target":{"x":-236,"y":68,"z":395}}],"say":"Tommy, the beef is with you now. Please get it to Kimberly. I'm taking the pumpkins and wheat to Zack.","intent":{"goal":"reach_zac
+- 00:55 act: {"actions":[{"do":"goto","target":"ag_zack_01"}],"say":"Zack, it's Jason. I have 2 pumpkins and 2 wheat for you. Where are you?"}
+- 00:56 act: {"actions":[{"do":"goto","target":{"x":-236,"y":68,"z":393}}],"say":"Zack, I'm at -238,68,395 with 2 pumpkins and 2 wheat. I can't see you through the planks. Tell me where to stand."}
+- 00:56 act: {"actions":[{"do":"goto","target":"ag_zack_01"}],"say":"Coming to the gap now, Zack."}
+- 00:56 act: {"actions":[{"do":"goto","target":{"x":-237,"y":68,"z":395}}],"say":"Zack, I'm moving to the west side at -237,68,395. Tell me when you see me."}
+- 00:56 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"pumpkin","count":2},{"do":"give","to":"ag_zack_01","item":"wheat","count":2}],"say":"Zack, here are 2 pumpkins and 2 wheat. Eat when you can."}
+- 00:56 act: {"say":"Zack, the pumpkins and wheat are yours now. I'm out of food. I'm heading west to help Billy out of his pit.","intent":{"goal":"reach_billy_pit","program":"travel","arguments":{"target":{"x":-3
+- 00:57 act: {"actions":[{"do":"goto","target":{"x":-388,"y":67,"z":341}}],"say":"Zack has the food. I'm going west to Billy's pit now."}
+- 00:57 act: {"actions":[{"do":"goto","target":{"x":-388,"y":67,"z":341}}],"say":"Zack, I know bread takes 3 wheat at a crafting table. I gave you my 2, sorry. A bow is being drawn to the southwest, so I'm careful
+- 00:57 act: {"actions":[{"do":"goto","target":{"x":-388,"y":67,"z":341}}],"say":"Kimberly, I gave the beef to Tommy to hand to you, so please ask him where it went. Zack, I have no wheat, only 1 wheat seed. I'm h
+- 00:57 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-388,"y":67,"z":341}}]}
+- 00:58 act: {"actions":[{"do":"mine","block":"gravel","count":4},{"do":"goto","target":{"x":-388,"y":67,"z":341}}],"say":"Billy, I'm at -385,67,333, boxed in by gravel. I'm digging south toward you. I have no foo
+- 00:58 act: {"actions":[{"do":"unstick"},{"do":"mine","block":"stone","count":2}],"say":"Something is hurting me and I'm sealed in a pit. Getting out now."}
+- 00:58 act: {"actions":[{"do":"mine","block":"stone","count":6},{"do":"goto","target":{"x":-388,"y":66,"z":341}}],"say":"Billy, I'm at -388,66,332 and digging south toward you now."}
+- 00:58 act: {"actions":[{"do":"mine","block":"stone","count":4},{"do":"goto","target":{"x":-388,"y":66,"z":342}}]}
+- 00:59 act: {"intent":{"goal":"reach_billy_pit","program":"travel","arguments":{"target":"ag_billy_01"},"wake_on":["directly_addressed","goal_completed","precondition_failed"],"limits":{"max_world_ticks":2400,"ma
+- 01:01 act: {"actions":[{"do":"unstick"},{"do":"place","block":"cobblestone","at":"feet"}]}
+- 01:02 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"say":"Zack, Trini, I have nothing. I died in the pit at Billy's side and lost my stone. I'm going to the bed to sleep."}
+- 01:09 act: {"say":"Billy, glad you're out. I have no food either. I'm heading west to look for animals; I'll call back if I find any.","intent":{"goal":"search_food_west","program":"travel","arguments":{"target"
+- 01:09 act: {"intent":{"goal":"search_food_further_west","program":"travel","arguments":{"target":{"x":-330,"y":66,"z":327}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_complet
+- 01:09 act: {"intent":{"goal":"search_food_south_west","program":"travel","arguments":{"target":{"x":-320,"y":66,"z":300}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed
+- 01:09 act: {"say":"Zack, I have no food, only one wheat seed. I'm searching the west for animals now and will tell you the moment I find any.","intent":{"goal":"search_animals_southwest","program":"travel","argu
+- 01:10 act: {"intent":{"goal":"search_animals_far_west","program":"travel","arguments":{"target":{"x":-380,"y":66,"z":310}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_complete
+- 01:12 act: {"intent":{"goal":"search_animals_northwest","program":"travel","arguments":{"target":{"x":-370,"y":66,"z":280}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_complet
+- 01:14 act: {"intent":{"goal":"reach_salmon_shore","program":"travel","arguments":{"target":{"x":-355,"y":63,"z":276}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"
+- 01:14 act: {"actions":[{"do":"attack","target":"salmon"}]}
+- 01:14 act: {"intent":{"goal":"reach_pig_west","program":"travel","arguments":{"target":{"x":-337,"y":64,"z":241}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"limi
+- 01:15 act: {"actions":[{"do":"goto","target":{"x":-345,"y":64,"z":240}},{"do":"attack","target":"pig"}],"intent":{"goal":"hunt_pig_food","program":"travel","arguments":{"target":{"x":-345,"y":64,"z":240}},"wake_
+- 01:15 act: {"actions":[{"do":"attack","target":"chicken"}]}
+- 01:15 act: {"say":"I have 2 porkchop and a chicken. Heading to the yellow beds now to feed Zack and Kimberly.","intent":{"goal":"reach_yellow_beds_with_meat","program":"travel","arguments":{"target":{"x":-266,"y
+- 01:15 act: {"actions":[{"do":"attack","target":"enderman"}]}
+- 01:15 act: {"say":"Kimberly, I died to an enderman and lost the meat, I'm sorry. I'm back at the beds with nothing. I'm coming to you now.","intent":{"goal":"reach_kimberly_in_lake","program":"travel","arguments
+- 01:16 act: {"intent":{"goal":"recover_dropped_food","program":"travel","arguments":{"target":{"x":-339,"y":63,"z":249}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"]
