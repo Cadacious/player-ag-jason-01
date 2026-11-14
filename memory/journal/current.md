@@ -95,3 +95,7 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 18:26 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Night. No food yet, hunger 16. Going to the white bed to sleep with the group.","reasoning":"Night, phantoms and mon
 - 18:26 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"say":"Going to the yellow bed to sleep. Food at dawn.","reasoning":"Still night, no food. Retry bed, near group, which is 
 - 18:27 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Night here, still no food. I'm going to the white bed to sleep. Food first thing at dawn."}
+- 18:28 act: {"say":"Jason here, dawn of day 231. Hunger 16, health 20, no food. I'll search the south grass with Billy and Riker, staying in sight. Any meat or apple goes to Kimberly first.","intent":{"goal":"sea
+- 18:29 act: {"intent":{"goal":"search_grass_for_animals","program":"travel","arguments":{"target":{"x":-290,"y":68,"z":318}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_complet
+- 18:29 act: {"say":"Jason here. I'm at the west grass edge, out of sight. Heading back to the white beds to be with the group. Still no food, hunger 16.","intent":{"goal":"rejoin_group_at_white_beds","program":"t
+- 18:29 say: {"text":"Jason back at the white beds with Tommy, health 20, hunger 16, no food. Golems are closing from the west, so I'm holding here with the group."}
