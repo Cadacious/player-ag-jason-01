@@ -147,3 +147,7 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 19:21 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
 - 19:21 act: {"say":"Data, I'm here at the beds. Give the mutton when you're beside me, I'll eat it at once.","intent":{"goal":"reach_bed_for_night","program":"travel","arguments":{"target":{"x":-271,"y":67,"z":31
 - 19:21 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason here at the white bed, night, hunger 17, no food. Data, bring the mutton when you can see me; I'll eat it stra
+- 19:23 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}],"say":"Jason here at the white bed, no food on me. Data, if any mutton is left after Kimberly and Billy, I'd be glad of it."}
+- 19:23 act: {"actions":[{"do":"sleep"}],"say":"Jason: night at the white bed, no food, hunger 17. Any meat goes to Kimberly first at dawn."}
+- 19:24 act: {"actions":[],"say":"Billy, thank you. I'm at -281,70,308 by the logs, in sight of Data. Please give me one mutton when you can see me."}
+- 19:24 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}},{"do":"sleep"}],"say":"Jason: thanks Kimberly. Going to the bed at -271,67,318 to sleep. Billy, the mutton when you see me."}
