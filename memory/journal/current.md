@@ -103,3 +103,4 @@
 - 10:21 act: {"intent":{"goal":"reach_bed_yellow","program":"travel","arguments":{"target":{"x":-281,"y":69,"z":291}},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":2400,"max_block_
 - 10:21 act: {"actions":[{"do":"sleep"}],"say":"I'm at the yellow bed with Billy. The chicken is held for Picard. Sleeping now."}
 - 10:21 act: {"intent":{"goal":"hold_for_first_light","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_block_operatio
+- 10:22 act: {"actions":[{"do":"sleep"}],"say":"Jason at the white bed at -298,68,294, health and hunger 20. I am holding a chicken for Picard and will hand it over when he comes near. Going to sleep for the night
