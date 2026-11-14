@@ -112,3 +112,5 @@
 - 22:10 act: {"actions":[],"say":"Thank you, Kimberly. Ripe wheat goes to Trini first, then me. I'll stay here at the beds, close to the wheat, and wait for the call."}
 - 22:22 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}]}
 - 22:40 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":320}},{"do":"sleep"}],"say":"Jason going to the free white bed at -281,67,320 for the night. Still no food; Trini first when it turns up.","inten
+- 22:49 say: {"text":"Geldar back, at the white beds with the group. Holding here until light. No food on me; Trini first."}
+- 22:50 say: {"text":"Jason here, daylight. No food. Riker first for any fish, then Trini. I'm staying at the beds for now, out of deep water. Tommy, keep to the group."}
