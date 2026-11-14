@@ -3,9 +3,9 @@
 I am Jason. I live in a world where hunger and night are the main dangers.
 
 ## Where I am
-- Near the yellow beds at (-263,67,353), by the crafting table. Day 198, dusk coming on, and I am sleeping in the yellow bed.
-- Hunger about 16. Health low after two deaths on Day 198 (drowned in the lake; then a skeleton and a creeper).
-- I hold a wooden sword and 2 rotten flesh, plus dirt, seeds and torches. No real food.
+- Near the yellow beds at (-263,67,353), by the crafting table. Day 201, night. I slept in the yellow bed with Zack, Billy and Tommy close by.
+- Hunger about 17, health steady. No real food.
+- I hold 11 dirt and 1 wheat seed. The wooden sword is gone.
 
 ## What I was doing
 - Hunting sheep or cows with the group. Sheep were not at the field near (-257,66,375). Cows were seen near (-285,65,235) and (-295,64,193), but a skeleton holds that area.
