@@ -137,3 +137,12 @@
 - 08:12 act: {"actions":[{"do":"goto","target":{"x":-295,"y":64,"z":245}}],"say":"Trini, I'm walking to you now, at -261, 68, 281. Tommy, I'll take the porkchop when I reach you."}
 - 08:12 act: {"say":"I'm here with Trini at -294, 64, 245, hunger 16. Tommy, please hand me the porkchop, and Billy, I'll take beef if Trini needs it less."}
 - 08:12 act: {"actions":[{"do":"eat"}],"say":"Thank you Tommy and Billy. I'm eating now. Then let's find the next cow together."}
+- 08:13 act: {"say":"Thank you both. I'll come along to the cow with Billy, and I'll share what we get.","intent":{"goal":"follow_billy_to_cow","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["d
+- 08:13 act: {"say":"Billy, I'm following you to the cow at -391, 66, 253. Wait for me if you can.","actions":[{"do":"goto","target":"ag_billy_01"}]}
+- 08:13 act: {"say":"A drowned mob hit me in the water. I'm getting out to the shore now.","actions":[{"do":"goto","target":{"x":-294,"y":64,"z":245}}]}
+- 08:14 act: {"say":"A drowned is on me and my health is 6. Fighting it now.","actions":[{"do":"attack","target":"drowned"},{"do":"attack","target":"drowned"}]}
+- 08:14 act: {"say":"Health 3. I'm going to Zack on land now, away from the drowned.","actions":[{"do":"goto","target":"ag_zack_01"}]}
+- 08:14 act: {"say":"I died in the lake to a drowned. I'm back at the yellow beds with nothing. Zack, Tommy, Trini, Billy: I'm hungry (20 now, still rising). Stay on the shore; I'll wait by the beds for any meat y
+- 08:15 act: {"say":"Billy, I'm at the yellow beds at -262, 67, 354, on the grass by the crafting table. Bring the porkchops here, thank you."}
+- 08:17 act: {"say":"Billy, I'm sorry, stay out of the lake. Zack, if you find the cow near -285,65,235, take it and bring any meat to me at the yellow bed. I'll wait here by the beds.","intent":{"goal":"wait_by_b
+- 08:21 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}],"say":"Night is here. I'm sleeping in the yellow bed at -263,67,354. I have no food; I'll hunt cows with Zack and Tommy at 
