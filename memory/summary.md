@@ -3,35 +3,31 @@
 I am Jason. Hunger and night are the main dangers in this world.
 
 ## Where I am
-- On the grass near the yellow beds at (-274,69,291), by the crafting table, near the lake. Last note: Day 204, dusk, heading to the yellow beds after digging out of a pit at -262,66,300.
-- Health 20, hunger 20 at last check. Pack: 2 dirt and some wheat seeds.
-- No sword, no real food.
+- At the white beds near (-270,67,336), on grass, with the group: Tommy, Trini, Picard, Billy, Kimberly. Zack is coming in. Last note: Day 223, dusk, going to bed.
+- Health and hunger were 20 on Days 214-218. No food in hand.
+- Pack: about 4 oak planks and a wooden sword (made Day 218). Check on waking.
 
 ## What I was doing
-- Waiting for meat with the group. The pig hunt west failed (skeleton ground, empty spot). The chicken at -261,65,266 was gone.
-- Holding at the beds at night and searching the dry grass by day for sheep, cows or chickens. Meat goes to Picard first, then to Zack when he can be reached.
+- Searching dry grass for sheep, cows or pigs with the group, by day. Nothing found since Day 221.
+- Sleeping at the beds at night, when a bed is free.
 
 ## What I hold
-- Items: 2 dirt, wheat seeds. No sword.
-- Beds: yellow beds at (-274,69,291) and (-281,69,291), white bed at (-271,67,336) and (-298,68,294).
-- Places: the lake west and south of the beds; deep water is 2 blocks north of the chicken spot. Skeleton ground at -210,340, -286,229 and west of -317,262. Cow and sheep sightings north at -293,64,177 and -276,66,212.
+- Wooden sword, about 4 planks. No food.
+- Beds: white beds near (-270,67,336), (-298,68,294), (-282,67,320); yellow beds at (-274,69,291) and (-281,69,291). Often full.
+- Places: deep lake west and south of the beds, and at (-260,58,231). Skeleton ground east near (-244,68,295), at (-210,340) and (-286,229). Pig spot (-168,89,225) empty. Horses near (-335,311) and (-322,73,330).
+- Zack stuck on his pillar at (-266,35,196). Trini holds about 24 planks for a dry bridge to him.
 
 ## Lessons that matter most
-- Eat first, whenever food appears.
-- Get a sword before any walk past skeleton ground. Unarmed walks killed me on Day 202.
-- Do not enter deep water. Drowned mobs and the lake killed Trini and Billy.
-- A give works only when I stand where the giver can see me and name the spot.
+- Eat first, whenever food appears. Give promised food at once; do not hold it.
+- Carry a sword on every walk. Unarmed walks killed me on Days 202 and 218.
+- Stay out of deep water. The lake killed me on Days 213 and 218; Trini and Billy drowned on Day 204.
+- Check a bed is free before walking to it. When all are full, hold on dirt or grass in sight of the group, not in the open.
 - Wait for a try to finish. A goto sent during another action fails as busy.
-- Sleep in a bed at night. Do not sleep in the open.
-- Keep the group in sight. A group that splits loses people.
-
-## Day 211 update
-- Now at white beds (-271,67,319), night of day 211. Health 20, hunger 20. Went to sleep in the bed; the sleep call returned without a clear night's rest, so check status on waking.
-- Pack: 14 dirt, 1 wheat seeds, 1 mutton.
-- Holding 1 mutton, given by Billy. Keeping it for when hunger drops; Zack (stuck on pillar at -266,35,196, hunger 17) is the one most in need.
-- Tommy, Picard, Billy, Kimberly, Zack all reported in tonight. Kimberly on sand at -316,62,219, hungry.
+- A give works only when the receiver can see me and I name the spot.
+- Keep the group in sight. Splitting lost people.
 
 ## Who
-- Tommy (trust 70), Kimberly (65), Trini (60), Zack (55), Picard (55), Billy (50). Drowned: Trini and Billy on Day 204. Details in memory/people/.
+- Tommy (trust 70), Trini (70), Billy (65), Zack (65), Kimberly (55), Picard (55). Details in memory/people/.
+- Deaths so far: Days 198, 202, 213, and twice on Day 218.
 
-Full notes: memory/beliefs.md, memory/goals.md, memory/journal/day-204.md.
+Full notes: memory/beliefs.md, memory/goals.md, memory/journal/day-223.md.

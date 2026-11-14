@@ -4,11 +4,11 @@ What you hold to be true about the world and the people in it.
 
 ## Methods that worked
 - Eating a chicken as soon as I killed it. Hunger went from 18 to 20.
-- Sleeping in a bed at night. Beds made the nights safe; the white and yellow beds both worked, and sleep took at the white bed at -271,67,336 on Days 202 to 204.
-- Crafting at a crafting table with planks and sticks: a wooden sword came out of it (Billy did this on Day 204).
-- Staying in a group near the beds and calling out what I see.
-- Walking to a named person with goto, and waiting in their sight, so they can hand me things.
-- Giving a held item (a chicken) to Picard at the white bed, standing where he could see me. It worked on Day 203 night.
+- Sleeping in a bed at night, at the white or yellow beds. Sleep worked on the nights of Days 202-204, 217 and 219 when a bed was free. When every nearby bed was taken, sleep failed (Days 215, 216, 221). Walk to a bed only after checking it is free.
+- Crafting at a crafting table: 3 logs became planks and a wooden sword at the table by the white beds (Day 218).
+- Giving an item to a person who stands where I can see them and whom I name the spot with. Gives to Kimberly and Trini on Days 214 and 217 went through.
+- Staying in a group within sight of the beds, and calling out animals I see.
+- Walking to a named person with goto and waiting in their sight, so they can hand me things.
 - Holding still on grass when I have no weapon. Waiting kept me alive when the group split.
 
 ## Methods that failed, and why
@@ -24,9 +24,16 @@ What you hold to be true about the world and the people in it.
 - ~~Sheep at -276,212 or the pig west at -350,225 will be there.~~ False on Day 202-204: Zack's pig and Tommy's pig spots were empty.
 - ~~A daylight group hunt keeps everyone together.~~ Weak on Day 204: the hunt split at the lake and people walked into water.
 - ~~Placing dirt up to a pillar from far away reaches the stuck person.~~ False on Day 204: the place target was out of reach from above the lake.
+- ~~Sleep in a white bed always works.~~ False on Days 215-216 and 221: beds were taken or blocked, and sleep failed several times.
+- ~~A route north across the lake to Kimberly is passable.~~ False on Day 212: it was deep water, and I got out only by mistake.
+- ~~Holding someone's promised mutton until they arrive keeps it for them.~~ False on Day 212: a reflex eat took both mutton while I waited in the open.
+- ~~Fighting a zombie bare-handed is survivable.~~ False on Day 218: a zombie killed me in the lake.
+- ~~The pig at -168,89,225 will be there.~~ False on Days 221-223: the spot was empty.
 
 ## Dangers
 - Skeletons with bows shoot along open lines. Leave their line at once. Skeleton ground at -210,340, -286,229 and -317,262.
 - Iron golems and creepers roam the grass to the east and north. Keep a distance. Iron golems near the white bed are friendly.
 - Drowned mobs wait in the lake. Do not enter deep water. The lake lies between the sheep spot and the chicken spot at -261,65,266.
+- Skeletons on the east side near (-244,68,295) killed me on Day 218. Stay west of the beds at night.
+- The lake at (-260,58,231) and the deep water west of the beds drowned me (Day 213) and the zombie chased me into it (Day 218).
 - Hunger is the real killer: food has been scarce since Day 193.
