@@ -149,3 +149,26 @@
 - 08:21 act: {"actions":[{"do":"sleep"}]}
 - 08:23 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}],"say":"Night. I'm going to sleep in this yellow bed. First light, I hunt with Zack and Tommy."}
 - 08:23 act: {"actions":[{"do":"sleep"}]}
+- 08:24 say: {"text":"Morning, Tommy. Yes, I'll hunt with you and Zack at first light. Goodnight."}
+- 08:24 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}],"say":"Tommy, thanks. I'm going to the yellow bed to sleep. I have no food, so at first light I'll come hunt with you and Z
+- 08:24 act: {"actions":[{"do":"sleep"}]}
+- 08:25 act: {"intent":{"goal":"join_hunt_at_cows","program":"travel","arguments":{"target":{"x":-293,"y":64,"z":177}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_tic
+- 08:25 say: {"text":"I'm at -293,64,178, near where the cows should be. A creeper is 20 blocks south and a skeleton is north. I'm holding still until light, then I'll look for cows and sheep with you."}
+- 08:26 act: {"actions":[{"do":"goto","target":{"x":-284,"y":64,"z":182}}],"say":"Something is shooting at me from the north. I am moving out of its line to the southeast. I still have no food.","reasoning":"Healt
+- 08:26 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"say":"I died to the skeleton and creeper out west and woke at the spawn with nothing. I have no food. If anyone has spare food, I would b
+- 08:26 act: {"actions":[{"do":"goto","target":"ag_tommy_01"}],"reasoning":"Previous goto failed because another action was running. Tommy is 23 blocks away and is part of the group. Rejoin them for safety."}
+- 08:26 act: {"actions":[{"do":"unstick"}],"reasoning":"I am perched on air at the water's edge near deep water, and the last goto failed because an action was still running. Get free first."}
+- 08:27 act: {"actions":[{"do":"goto","target":"ag_trini_01"}],"say":"Trini, I'm coming to you. I'm starving and have no weapon. Thank you for sharing the meat.","reasoning":"A skeleton is 3 blocks south of me. Tr
+- 08:27 act: {"actions":[{"do":"goto","target":{"x":-295,"y":64,"z":193}}],"reasoning":"Skeleton closing from the west, 5 blocks. Five item stacks lie on the ground 12 blocks southwest, likely the cow meat Trini d
+- 08:27 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":352}}],"say":"Trini, sorry about the archer. I picked up only dirt and seeds from the ground. I'm heading back to the beds now and will stay ther
+- 08:28 act: {"actions":[],"say":"Morning. I'm at the yellow beds with nothing but dirt and seeds, hunger 17. Who is still alive and has food or a weapon? I'll go with whoever leaves for the cows at light.","reaso
+- 08:28 act: {"actions":[],"say":"Trini, Picard: I'm with you. Let's all go together in full light to the cows near -295,64,193, keep close, and stay out of the north where the archer is. I'll go once Tommy or Zac
+- 08:29 act: {"actions":[],"say":"The cows are in the archer's zone, so let's try the sheep we saw earlier near -257,66,375, south-east of the beds, in daylight. Anyone willing, meet at the beds and go together.",
+- 08:30 act: {"actions":[{"do":"goto","target":{"x":-264,"y":66,"z":356}}],"say":"Jason moving now to Kimberly at -264,66,356. Trini, Tommy, follow us. Then we go to the sheep at -257,66,375 together, staying sout
+- 08:30 act: {"actions":[],"say":"Jason is at -265,66,356 with Kimberly. Waiting a moment for Trini and Zack, then we walk to the sheep at -257,66,375 together.","reasoning":"Hold here briefly so the group moves t
+- 08:30 act: {"actions":[{"do":"goto","target":{"x":-257,"y":66,"z":374}}],"say":"Going now to the sheep at -257,66,375, all together. Tommy has the sword, so he goes in front. Stay in a group and keep off the nor
+- 08:31 act: {"actions":[],"say":"I'm at -257,66,374 with Tommy and Zack. No sheep in sight here. Tommy, Zack: scout a few blocks south-east together, and say what you see. Everyone else, hold at the beds until we
+- 08:32 act: {"actions":[],"say":"No sheep here at -257,374 or at -252,380. Everyone regroup at -257,66,374 where I am. Tommy, Zack: come back here, then we decide the next spot together.","reasoning":"Sheep not f
+- 08:34 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":351}}],"say":"Thunder is coming and no sheep here. Everyone back to the yellow beds at -263,67,353. We regroup there and plan again in daylight."
+- 08:38 act: {"actions":[],"say":"Good, Tommy, Zack, Trini, Kimberly, we're all at the yellow beds. Nobody has food yet. At first light we split: one group searches for sheep south and east, nobody goes north past
+- 08:39 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}}],"say":"Dusk is here. I'm going into the yellow bed at -263,67,353 for the night. Everyone stay close to the beds.","reasoning":"Night is c
