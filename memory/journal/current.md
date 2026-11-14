@@ -1280,3 +1280,4 @@
 - 00:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"It's night. I'm at the white beds, hunger and health full. I'll keep my beef for whoever is hungriest. Tommy, Billy,
 - 00:42 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Goodnight, Zack. I'm trying the bed again at the white beds.","reasoning":"My goto failed and I did
 - 00:44 act: {"actions":[{"do":"sleep"}],"say":"Night. I'm going to sleep in the white bed beside me.","reasoning":"Night, bed adjacent, health and hunger full. Sleep now."}
+- 00:46 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Billy, I'm by the white beds at -272,67,336. Going to sleep for the night."}
