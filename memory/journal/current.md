@@ -129,3 +129,12 @@
 - 23:08 act: {"actions":[{"do":"note","text":"Dawn day 244 at white bed. Sleep refused all night by phantom. Health 6, hunger 16, no food. Staying with group for dawn food hunt, Trini first."}],"intent":{"goal":"h
 - 23:10 act: {"actions":[{"do":"note","text":"Day 245 midday at white bed with group. Health 6, hunger 16, no food. Iron golem 14 SE. Waiting for dusk, then sleep."}],"intent":{"goal":"hold_at_beds_until_dusk_then
 - 23:12 act: {"actions":[{"do":"sleep"}]}
+- 23:18 act: {"say":"Jason here at the white beds, day 245. No food on me. Trini, eat the chicken when you can; any food found goes to Trini first, then Data. I'll stay in sight of the group and try a free bed at 
+- 23:22 act: {"actions":[{"do":"sleep"}],"say":"Jason trying the white bed at -271,67,318 now that it is night. No food; Trini first at dawn."}
+- 23:24 act: {"actions":[{"do":"sleep"}]}
+- 23:27 act: {"actions":[{"do":"sleep"}],"say":"Jason trying the white bed again at night, day 245. No phantom in view. No food; Trini first at light."}
+- 23:31 act: {"say":"Jason, dawn of day 246. Health 6, hunger 16, no food. Trini eats first, then Data. I'll hold at the beds with the group and only walk with company.","intent":{"goal":"hold_at_beds_with_group_f
+- 23:41 act: {"actions":[{"do":"sleep"}],"say":"Jason trying the white bed for the night, day 246. No food; Trini first at dawn."}
+- 23:42 act: {"say":"Jason still at the white beds, night 246. Phantom is near, so I'm holding with the group and will try sleep again shortly.","actions":[{"do":"wait","seconds":60}]}
+- 23:43 act: {"say":"Trying the white bed again now.","actions":[{"do":"sleep"}]}
+- 23:47 act: {"actions":[{"do":"sleep"}]}
