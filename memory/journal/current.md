@@ -105,3 +105,11 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 18:34 act: {"say":"Scouted east, no animals here. I'm trying the oak leaves for apples, then I'll come back toward Tommy.","actions":[{"do":"mine","block":"oak_leaves","count":4}]}
 - 18:34 act: {"say":"Leaves gave nothing. Heading back west toward you, Tommy.","intent":{"goal":"return_near_group","program":"travel","arguments":{"target":{"x":-258,"y":66,"z":332}},"wake_on":["directly_address
 - 18:39 act: {"say":"Heading to the white beds with the group for the night. Still no food. Calling out anything at dawn.","intent":{"goal":"reach_white_bed_for_night","program":"travel","arguments":{"target":{"x"
+- 18:39 say: {"text":"Jason here, awake, hunger 16, no food. I'll try the oak leaves to the north for apples, and call out any animal I see."}
+- 18:39 act: {"actions":[{"do":"goto","target":{"x":-269,"y":69,"z":316}}],"intent":{"goal":"search_oak_leaves_for_apples","program":"travel","arguments":{"target":{"x":-269,"y":69,"z":316}},"wake_on":["directly_a
+- 18:39 act: {"actions":[{"do":"goto","target":"ag_tommy_01"}]}
+- 18:39 act: {"actions":[{"do":"goto","target":{"x":-268,"y":67,"z":325}}]}
+- 18:40 act: {"actions":[{"do":"goto","target":{"x":-268,"y":67,"z":325}}],"intent":{"goal":"return_to_group_at_beds","program":"travel","arguments":{"target":{"x":-268,"y":67,"z":325}},"wake_on":["directly_addres
+- 18:43 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}]}
+- 18:51 act: {"actions":[{"do":"goto","target":{"x":-270,"y":69,"z":309}}],"intent":{"goal":"search_north_oaks_for_apples","program":"travel","arguments":{"target":{"x":-270,"y":69,"z":309}},"wake_on":["directly_a
+- 18:52 act: {"actions":[{"do":"mine","block":"oak_leaves","count":6}]}
