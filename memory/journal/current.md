@@ -153,3 +153,32 @@
 - 14:54 act: {"intent":{"goal":"reach_yellow_bed_for_night","program":"travel","arguments":{"target":{"x":-281,"y":69,"z":291}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_
 - 14:56 say: {"text":"Kimberly, Tommy: agreed. We go for the pig near -168,89,225 at first light, meat goes to Trini first. I'm sleeping in the yellow bed here now."}
 - 15:00 act: {"actions":[{"do":"goto","target":{"x":-281,"y":69,"z":291}}]}
+- 15:01 act: {"actions":[{"do":"goto","target":{"x":-282,"y":67,"z":320}},{"do":"sleep"}],"say":"Jason: night. My sleep failed at the bed, so I'm trying the white bed at -282,67,320 again. Health 20, hunger 20, sw
+- 15:02 act: {"actions":[{"do":"goto","target":{"x":-282,"y":67,"z":319}}],"say":"Jason: sleep at the bed failed twice. I'm walking right up to the white bed at -282,67,320 for one more try, then I hold for mornin
+- 15:02 act: {"actions":[{"do":"goto","target":{"x":-282,"y":67,"z":320}},{"do":"sleep"}]}
+- 15:02 act: {"actions":[],"say":"Jason: sleep failed three times at the white bed at -282,67,320, so I'm not sleeping in the open. I'm holding at -279,68,313 on grass, health 20, hunger 20, until morning. Tommy, 
+- 15:08 act: {"actions":[{"do":"goto","target":{"x":-297,"y":68,"z":296}}],"say":"Jason: morning, Kimberly. I'm at -279,67,313 on grass, health 20, hunger 20, with my wooden sword. I'm walking to you now at the wh
+- 15:08 act: {"say":"Jason here at -296,67,296. I'm with Trini and Kimberly. I have a wooden sword and no food. I'll join the pig hunt and stay in sight of the group.","intent":{"goal":"follow_kimberly_to_pig","pr
+- 15:08 act: {"say":"Going with you to the pig, Trini and Kimberly. Staying close behind.","actions":[{"do":"goto","target":{"x":-200,"y":84,"z":254}}]}
+- 15:09 act: {"say":"I'm at -200,84,254 on grass by the logs, waiting for Kimberly and Trini. Then we go to the pig spot at -168,89,225 together.","actions":[{"do":"wait","seconds":60}]}
+- 15:09 act: {"say":"Trini, Kimberly: I'm still at -200,84,254 on grass by the logs, in the open. No animals seen here. Walk to me and I'll wait. Then we decide the pig together.","actions":[{"do":"wait","seconds"
+- 15:10 act: {"say":"Kimberly, I'm at -200,84,254, not at the logs by -297. The pig spot had no animals. I'll wait here on grass for Trini and you. If you want me back at the yellow beds, say so and I'll walk.","a
+- 15:10 act: {"say":"Kimberly, Trini: walking back to the yellow beds at -274,69,291 now. Meet you there on dry ground.","actions":[{"do":"goto","target":{"x":-274,"y":69,"z":291}}]}
+- 15:11 act: {"say":"I'm at the yellow beds, -274,69,291. Kimberly, I'm coming to you at -270,67,296. I have no food either, only wood and dirt.","actions":[{"do":"goto","target":{"x":-270,"y":67,"z":296}},{"do":"
+- 15:11 act: {"say":"Agreed, Kimberly. I'll scout 10 blocks north on dry grass, in sight of the yellow beds, and call out any animal.","actions":[{"do":"goto","target":{"x":-270,"y":67,"z":286}}]}
+- 15:12 act: {"actions":[{"do":"note","text":"Reached -270,68,286 near the yellow beds. No animals in sight. Tommy, Kimberly, Trini nearby. Scouting dry grass within 15 blocks."}]}
+- 15:20 act: {"say":"Night is here. I'm taking the yellow bed at -274,69,292 near Tommy. Morning, we meet at the logs; meat goes to Kimberly first, then Trini.","actions":[{"do":"goto","target":{"x":-274,"y":69,"z
+- 15:20 act: {"actions":[{"do":"note","text":"Night. Yellow beds were taken by Tommy and Trini; sleep failed (beds occupied or blocked). Staying on dirt near white bed at -282,67,320, not in danger. Waiting for fi
+- 15:24 act: {"say":"Zack, Jason here, near the white bed at -282,67,320. I can't reach you in the dark. Stay walled and hold on until first light."}
+- 15:28 act: {"say":"Jason here, dawn, health 20. Kimberly is weakest, so any meat goes to her first. I'm coming to the logs to scout with you.","actions":[{"do":"goto","target":{"x":-285,"y":68,"z":302}}]}
+- 15:29 act: {"actions":[{"do":"note","text":"Morning day 222 at -285,69,302 with Tommy and Kimberly (6.5 away). No animals in sight yet. Staying within 15 blocks of the logs."}]}
+- 15:29 act: {"say":"Scouting with you both on the dry grass. I'll call any animal I see.","actions":[{"do":"note","text":"Scouting with Tommy and Kimberly on dry grass near -285,69,302. No animal seen yet."}]}
+- 15:29 act: {"actions":[{"do":"goto","target":{"x":-278,"y":69,"z":300}}],"intent":{"goal":"scout_dry_grass_for_animals","program":"travel","arguments":{"target":{"x":-278,"y":69,"z":300}},"wake_on":["directly_ad
+- 15:33 act: {"say":"Jason: still no animals in my sight at -278,68,301. I'll hold here within sight of camp and call any cow, pig or sheep.","actions":[{"do":"note","text":"Midday, holding at -278,68,301 near cam
+- 15:40 act: {"actions":[{"do":"goto","target":{"x":-281,"y":69,"z":292}},{"do":"sleep"}]}
+- 15:40 act: {"actions":[{"do":"goto","target":{"x":-274,"y":69,"z":291}},{"do":"sleep"}]}
+- 15:52 act: {"say":"Jason coming south-west to join you on the grass. Call any animal you see.","actions":[{"do":"goto","target":{"x":-286,"y":66,"z":326}}]}
+- 15:53 act: {"say":"I'm with you on the grass now, near the white bed. No animal in sight yet. Tell me where you see one.","actions":[{"do":"note","text":"Day 223 midday: joined Kimberly, Billy, Tommy, Trini on t
+- 15:56 act: {"say":"Zack, good. I'm here by the white bed. Come to me and we'll keep together.","actions":[]}
+- 16:00 act: {"say":"Jason heading to the white bed at -270,67,336 with the group for the night.","actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}]}
+- 16:00 act: {"say":"I'm in the bed at -270,67,336 now. Trini and Picard are close. Sleeping here.","actions":[{"do":"sleep"}]}
