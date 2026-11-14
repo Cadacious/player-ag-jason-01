@@ -1202,3 +1202,32 @@
 - 23:22 say: {"text":"Billy, I'm at -431,68,348 with my last bread. The east gap is held by someone, so I'm staying put. Tell me how to reach you."}
 - 23:22 say: {"text":"Billy, stay sealed. I'll keep my bread for you and bring it at first light. Goodnight."}
 - 23:23 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"bread","count":1}],"reasoning":"Kimberly is in reach, low on health and out of food. She needs this more right now than Billy, who is sealed in a
+- 23:48 act: {"say":"Billy, I'm awake and you're three paces from me. Are you free now? Do you need food?","actions":[{"do":"note","text":"Body awake at dawn, day 175. Health and hunger 20. Billy 3 blocks away. No
+- 23:48 act: {"say":"Billy, is there food you can spare, or do you know where the sheep and pigs are? I'm at -431,68,348."}
+- 23:49 act: {"say":"Billy, I have no food either, only pumpkins and building stone. I'll come with you and Zack to the southwest to look for sheep and cows. Wait for me."}
+- 23:49 act: {"intent":{"goal":"search_southwest_food","program":"travel","arguments":{"x":-445,"y":68,"z":362},"wake_on":["goal_completed","precondition_failed","directly_addressed","unexpected_damage"],"limits":
+- 23:50 act: {"actions":[{"do":"goto","target":{"x":-443,"y":68,"z":351}}],"say":"Billy, I'm coming to you at -443,68,351. Keep calling out."}
+- 23:51 act: {"actions":[{"do":"mine","block":"stone","count":2}],"say":"Billy, I'm right beside you. I'm mining stone to open a way out. Tell me which side is clear."}
+- 23:51 act: {"actions":[{"do":"mine","block":"stone","count":3}],"say":"Zack, Billy, I'm digging west with you. I'll call out when I see an opening."}
+- 23:51 act: {"actions":[{"do":"craft","item":"crafting_table","count":1},{"do":"craft","item":"stone_pickaxe","count":1}]}
+- 23:52 act: {"actions":[{"do":"goto","target":{"x":-425,"y":68,"z":349}},{"do":"craft","item":"stone_pickaxe","count":1}]}
+- 23:52 act: {"say":"I have a stone pickaxe now, crafted at the table here. Trini, Billy, Zack: no food found yet. Sheep were seen before near -257,66,375. Should we go there together?"}
+- 23:52 act: {"intent":{"goal":"reach_sheep","program":"travel","arguments":{"target":{"x":-257,"y":66,"z":375}},"wake_on":["goal_completed","precondition_failed","directly_addressed","unexpected_damage"],"limits"
+- 23:53 act: {"actions":[{"do":"goto","target":{"x":-257,"y":66,"z":375}}],"say":"Billy, hold on. I'm heading for the sheep and will bring food back if I find any."}
+- 23:54 act: {"say":"Kimberly, hold on. Trini, Zack and I are heading for the sheep now. We will bring food back for Billy.","actions":[{"do":"goto","target":{"x":-340,"y":67,"z":358}}],"intent":{"goal":"reach_she
+- 23:54 act: {"say":"My path is blocked too. I'm digging a new line east toward the sheep.","actions":[{"do":"mine","block":"cobblestone","count":4},{"do":"goto","target":{"x":-375,"y":67,"z":352}}]}
+- 23:55 act: {"say":"Kimberly, I'm moving toward you now. Zack, dig out and follow me.","actions":[{"do":"goto","target":{"x":-257,"y":66,"z":375}}]}
+- 23:55 act: {"actions":[{"do":"mine","block":"stone","count":6},{"do":"goto","target":{"x":-257,"y":66,"z":375}}],"say":"Still walled in. Digging through the stone toward the sheep."}
+- 23:55 act: {"actions":[{"do":"goto","target":{"x":-257,"y":66,"z":375}}]}
+- 23:55 act: {"actions":[{"do":"unstick"}],"say":"Billy, I'm still stuck in stone at -395,68,334, but I'm digging. Food is coming when I get out."}
+- 23:55 act: {"actions":[{"do":"goto","target":{"x":-257,"y":66,"z":375}}],"say":"Trini, I'm free too, heading to the sheep now. Kimberly, wait for us."}
+- 23:55 act: {"actions":[{"do":"goto","target":{"x":-257,"y":66,"z":375}}]}
+- 23:55 act: {"intent":{"goal":"clear_stale_intent","program":"rest","arguments":{},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":200,"max_block_operations":10}}
+- 23:55 act: {"actions":[{"do":"goto","target":{"x":-257,"y":66,"z":375}}]}
+- 23:56 act: {"say":"Kimberly, Trini, Zack: no sheep in view here. I'm going south to look for them.","actions":[{"do":"goto","target":{"x":-262,"y":66,"z":392}}]}
+- 23:57 act: {"say":"Trini, Kimberly: I'm in a pit at -262,67,392 and no sheep is in view. I'm climbing out, then I'll look south.","actions":[{"do":"unstick"}]}
+- 23:57 act: {"say":"Kimberly, Trini: I'm free now. I'll come to the oak logs near -250,67,372 and search for sheep with you.","actions":[{"do":"goto","target":{"x":-250,"y":67,"z":372}},{"do":"note","text":"Day 1
+- 23:57 act: {"say":"I'm with you at the oak logs. No sheep in my view. Whoever sees one, call out and I'll go.","actions":[]}
+- 00:00 act: {"say":"Dusk is here. I'm building a cobblestone shelter where I stand, near Trini and Kimberly.","actions":[{"do":"note","text":"Day 175 dusk: no sheep found near the oak logs at -251,67,372. Night i
+- 00:00 act: {"say":"Thank you Kimberly. I'm going to the yellow beds at -263,67,353 now.","actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}]}
+- 00:00 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":354}}]}
