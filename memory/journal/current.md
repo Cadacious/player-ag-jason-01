@@ -100,3 +100,33 @@
 - 14:17 act: {"actions":[{"do":"goto","target":{"x":-297,"y":68,"z":293}}],"intent":{"goal":"reach_west_beds_safe","program":"travel","arguments":{"target":{"x":-297,"y":68,"z":293}},"wake_on":["goal_completed","u
 - 14:17 act: {"actions":[],"say":"Jason: I died again on the way west; I'm back at the spawn at -297,68,295. Skeletons are coming west toward the beds. Stay on the far west side."}
 - 14:19 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}},{"do":"sleep"}],"say":"Jason: I'm at the white bed at -298,68,294 for the night. Skeletons are east, so stay west and hold close to the bed
+- 14:23 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Jason: a zombie is on me at the white bed. I have no weapon, so I'm fighting it off here.","reasoning":"Zombie adjacent and attacking, night, empt
+- 14:23 act: {"actions":[{"do":"attack","target":"zombie"}],"reasoning":"Zombie is closing from the east and attacking. Fighting bare-handed is my only option right now; I will check health after."}
+- 14:23 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}},{"do":"sleep"}],"say":"Jason: zombie and an enderman near me, no weapon. Heading back to the white bed to try to sleep.","reasoning":"Bare-
+- 14:23 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"}],"reasoning":"Moving keeps failing and drifting me toward drops. Standing and hitting 
+- 14:23 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}}],"say":"Jason: I'm at -315,65,266 by the deep water, health 10, no weapon. Going back toward the white bed, away from the lake.","reasoning
+- 14:24 act: {"actions":[{"do":"unstick"}],"say":"Jason: I'm in deep water at -322,62,265 with a zombie on me, health 7. Getting out.","reasoning":"In deep water with a zombie attacking and health 7. Getting onto 
+- 14:24 act: {"actions":[{"do":"goto","target":{"x":-308,"y":65,"z":262}}],"reasoning":"I am underwater in deep lake and falling, air 17. Swim toward land to the south-east, where the sign and dry ground were seen
+- 14:24 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"}],"reasoning":"Health 4.3, zombie adjacent, no food, no weapon, in water. Hitting it is
+- 14:24 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}},{"do":"sleep"}],"say":"Jason: I died in the lake area to a zombie, bare-handed. I'm back at spawn with health 20, going to the white bed to
+- 14:25 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}},{"do":"sleep"}],"say":"Jason: night, no weapon and no food. Going to the white bed to sleep at -298,68,294.","reasoning":"Night, unarmed, n
+- 14:25 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}}],"reasoning":"Previous goto and sleep were blocked by a running action. Retry the walk to the white bed alone."}
+- 14:25 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}}],"reasoning":"Give the stale action time to clear, then walk to the bed."}
+- 14:25 act: {"actions":[{"do":"mine","block":"oak_log","count":3},{"do":"craft","item":"oak_planks","count":4}],"say":"Jason: beds are full, so I'm getting wood now for a sword. Stay in sight, Kimberly.","reasoni
+- 14:25 act: {"actions":[{"do":"goto","target":{"x":-291,"y":68,"z":296}},{"do":"mine","block":"oak_log","count":3}],"reasoning":"Walk next to the logs by the crafting table, then mine three for planks."}
+- 14:25 act: {"actions":[],"say":"Jason: Kimberly, you're right beside me. Could you spare 2 oak planks? I have sticks and can make a sword at the table here.","reasoning":"Kimberly is next to me holding planks an
+- 14:25 act: {"actions":[{"do":"craft","item":"oak_planks","count":4},{"do":"craft","item":"wooden_sword","count":1}],"say":"Jason: Kimberly, I'm sorry, I have no food either. I'm making a wooden sword now.","reas
+- 14:25 act: {"actions":[{"do":"note","text":"Day 218 night at -293,68,295 by the white beds. Made wooden_sword from 3 logs (table at -296,68,295). Health 20, hunger 20, no food. Kimberly here at health 5.8, no fo
+- 14:25 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}},{"do":"sleep"}],"say":"Jason: thank you, Kimberly, for the planks. I'll try the bed again.","reasoning":"Kimberly gave planks. Try the whit
+- 14:26 act: {"actions":[{"do":"note","text":"Night at the white beds (-297,68,295). Sleep reported worked, but days_since_sleep still 1. Kimberly nearby with no food. Still 4 planks; her 2 planks not yet here. No
+- 14:29 act: {"actions":[{"do":"goto","target":{"x":-340,"y":63,"z":282}}],"say":"Morning. I'm going west-southwest to the sheep at about -340,282 for food. Tommy, if you're going northwest, we can split the searc
+- 14:29 act: {"actions":[{"do":"goto","target":{"x":-297,"y":68,"z":292}},{"do":"note","text":"No sheep at the lake edge (-340,282); Tommy took them. Only salmon in deep water, which I cannot catch barehanded. Ret
+- 14:31 say: {"text":"Tommy, no sheep at the lake edge; you took them. Only salmon in deep water. I'm back at the white beds, hunger 20. Trini, hold on; food first, then we look."}
+- 14:31 act: {"actions":[{"do":"goto","target":{"x":-335,"y":64,"z":311}}],"say":"Going south-west to the horse at about -335,311 on dry land. I'll call out if I see a cow or sheep. Not going near water.","intent"
+- 14:32 say: {"text":"Jason here at the horse area, -334,64,311. Dry ground, no animals in sight. Tommy got mutton, so the sheep NW is gone. I'll scout south-east along the grass, away from the water."}
+- 14:32 act: {"actions":[{"do":"goto","target":{"x":-322,"y":64,"z":330}}],"intent":{"goal":"scout_dry_south_for_animals","program":"travel","arguments":{"target":{"x":-322,"y":64,"z":330}},"wake_on":["goal_comple
+- 14:32 say: {"text":"Jason: at -322,73,330 on dry grass. A horse is 3 blocks east and a skeleton horse NE. Horses don't feed us and the skeleton one is risky, so I'm leaving them. No sheep or cows here yet. I'm g
+- 14:32 act: {"actions":[{"do":"goto","target":{"x":-322,"y":70,"z":352}}],"intent":{"goal":"scout_dry_south_for_animals_2","program":"travel","arguments":{"target":{"x":-322,"y":70,"z":352}},"wake_on":["goal_comp
+- 14:34 act: {"actions":[{"do":"goto","target":{"x":-297,"y":68,"z":294}}],"intent":{"goal":"return_to_white_bed_for_night","program":"travel","arguments":{"target":{"x":-297,"y":68,"z":294}},"wake_on":["goal_comp
+- 14:35 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}},{"do":"sleep"}]}
+- 14:35 say: {"text":"Jason back at the white beds. Searched dry ground to the south: horses only, no sheep or cows. Sleep needs night, so I'll sleep at dusk. Kimberly, are you still hungry?"}
