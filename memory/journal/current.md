@@ -147,3 +147,5 @@
 - 08:17 act: {"say":"Billy, I'm sorry, stay out of the lake. Zack, if you find the cow near -285,65,235, take it and bring any meat to me at the yellow bed. I'll wait here by the beds.","intent":{"goal":"wait_by_b
 - 08:21 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}],"say":"Night is here. I'm sleeping in the yellow bed at -263,67,354. I have no food; I'll hunt cows with Zack and Tommy at 
 - 08:21 act: {"actions":[{"do":"sleep"}]}
+- 08:23 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}],"say":"Night. I'm going to sleep in this yellow bed. First light, I hunt with Zack and Tommy."}
+- 08:23 act: {"actions":[{"do":"sleep"}]}
