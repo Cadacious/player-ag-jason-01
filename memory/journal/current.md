@@ -80,3 +80,4 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 17:51 say: {"text":"Jason here at the grass edge with Kimberly and Tommy. No food found yet. I'll stay close and call out anything I see."}
 - 17:52 act: {"say":"Jason here, on the west grass with Kimberly, Tommy and Riker. Still no food. I'll call out anything I see.","intent":{"goal":"stay_with_group_on_west_grass","program":"follow","arguments":{"ta
 - 18:00 act: {"actions":[{"do":"goto","target":{"x":-282,"y":67,"z":320}},{"do":"sleep"}],"say":"Jason going to the white bed at -282,67,320 for the night. No food, but I'm still here if anyone needs me."}
+- 18:01 act: {"say":"Jason here, night, hunger 16, no food. Trini, keep your apple for Kimberly. I'm trying the white bed just north of me.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep
