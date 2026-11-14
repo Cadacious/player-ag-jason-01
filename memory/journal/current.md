@@ -94,3 +94,4 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 18:25 act: {"actions":[{"do":"sleep"}],"say":"Jason: still night, no food, hunger 16. Trying the bed again with the group close."}
 - 18:26 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Night. No food yet, hunger 16. Going to the white bed to sleep with the group.","reasoning":"Night, phantoms and mon
 - 18:26 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"say":"Going to the yellow bed to sleep. Food at dawn.","reasoning":"Still night, no food. Retry bed, near group, which is 
+- 18:27 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Night here, still no food. I'm going to the white bed to sleep. Food first thing at dawn."}
