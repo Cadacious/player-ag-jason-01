@@ -47,3 +47,8 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 16:57 act: {"say":"Jason: good find, Trini. Keep the apple for Kimberly. I'll mine the oak leaves here too and give any apple to Kimberly first.","intent":{"goal":"mine_leaves_for_apples","program":"gather","arg
 - 16:58 act: {"say":"Jason: I'm perched on the leaves. Coming down to the white bed at -281,67,320 for the night, with Trini nearby.","actions":[{"do":"goto","target":{"x":-281,"y":67,"z":321}},{"do":"sleep"}]}
 - 16:58 act: {"say":"Jason: it's dark now. Trying the bed again.","actions":[{"do":"wait","seconds":30},{"do":"sleep"}]}
+- 17:02 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":320}}],"say":"Jason here, night at the white bed. Going to sleep; food goes to Kimberly first at dawn.","intent":{"goal":"reach_free_bed","progra
+- 17:03 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":320}},{"do":"sleep"}]}
+- 17:03 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}]}
+- 17:04 act: {"actions":[{"do":"wait","seconds":30},{"do":"sleep"}]}
+- 17:05 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":353}},{"do":"sleep"}]}
