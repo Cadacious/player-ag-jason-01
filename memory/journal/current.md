@@ -24,3 +24,4 @@
 - 20:32 act: {"intent":{"goal":"wait_for_dusk_then_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":6000,"max_block_operat
 - 20:35 act: {"say":"Jason here, health 20, hunger 20, no food. I have a wooden sword. Riker is lowest, so any food goes to him first, then Trini.","intent":{"goal":"hold_near_group_for_food","program":"rest","arg
 - 20:38 act: {"say":"Jason here. Hunger 20, health 20, no food. Data, the salmon lake is deep and deep water has killed me twice, so go with a rod or stay on the shore. I'll watch the wheat at -263,66,321 and tell
+- 20:39 act: {"say":"Zack, Data said the salmon lake is at -330,62,270, but I have not been there myself. Stay at the beds until it is light and go with someone."}
