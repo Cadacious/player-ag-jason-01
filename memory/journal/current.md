@@ -65,3 +65,16 @@
 - 21:15 act: {"actions":[{"do":"goto","target":{"x":-300,"y":67,"z":255}}],"say":"Jason, with Tommy, scouting north-west. Calling out anything I see.","intent":{"goal":"scout_northwest_for_sheep","program":"travel
 - 21:16 act: {"actions":[{"do":"goto","target":{"x":-305,"y":66,"z":248}}],"say":"Jason: salmon in the water to the north-west. Going to the shore to try for it. Anyone with a weapon, come along carefully.","inten
 - 21:16 act: {"actions":[{"do":"goto","target":{"x":-290,"y":67,"z":270}}],"say":"Jason: the salmon are out in deep water, two blocks from the shore, too far to reach. Pulling back to dry ground. Shore is no good 
+- 21:19 act: {"say":"Jason here at -290,67,270, no food either, hunger 17. I'll search the grass to the east, away from the lake, for sheep or cows. Anyone who spots one, call the spot.","intent":{"goal":"search_g
+- 21:21 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Phantom on me, fighting it with my sword."}
+- 21:21 act: {"actions":[{"do":"goto","target":{"x":-274,"y":69,"z":290}},{"do":"sleep"}],"say":"Jason: health 10, phantoms are hitting me. Heading to the yellow bed at -274,69,291 near the group to sleep."}
+- 21:22 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}},{"do":"sleep"}],"say":"Jason: health 6, phantoms on me. Going to the white bed at -298,68,294 now."}
+- 21:22 act: {"actions":[{"do":"goto","target":{"x":-274,"y":69,"z":292}},{"do":"sleep"}],"say":"Jason: health 6, going to the yellow bed at -274,69,292 now."}
+- 21:22 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason at the white bed -271,67,318 now, health 6. Going to sleep."}
+- 21:22 act: {"actions":[{"do":"note","text":"Night day 239. Health 6, hunger 17, no food. Sleep failed at white beds (bed unusable, search ran out). Holding at -271,67,319 with Riker, sword in hand, no monsters i
+- 21:22 act: {"actions":[{"do":"goto","target":{"x":-274,"y":69,"z":292}}],"say":"Jason moving north away from the golems to the yellow beds with Data."}
+- 21:22 act: {"actions":[{"do":"goto","target":{"x":-273,"y":67,"z":310}}],"say":"Jason going north now, golem to the south-west."}
+- 21:22 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}}],"say":"Jason going to the white bed at -270,67,318 to sleep. Trini, I see you heading north.","reasoning":"Health 6, phantoms south. Get t
+- 21:22 act: {"actions":[{"do":"goto","target":{"x":-274,"y":69,"z":292}},{"do":"sleep"}],"say":"Jason heading to the yellow bed to sleep, Trini.","reasoning":"Phantom 5 blocks north near the yellow bed, but the b
+- 21:22 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"reasoning":"Phantoms closing from north and south. The white bed at -271,67,318 is the nearest free bed; go there and try 
+- 21:22 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"reasoning":"No phantoms in view now. Riker is beside me. Try the bed once more."}
