@@ -41,3 +41,22 @@
 - 13:05 act: {"actions":[{"do":"note","text":"Day 214 night at white bed (-270,67,318). Health 20, hunger 20, 3 logs and 4 planks. Holding here until first light; Picard has porkchop nearby, Billy sleeping at yell
 - 13:05 act: {"intent":{"goal":"hold_at_white_bed_until_light","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed","goal_completed"],"limits":{"max_world_ticks
 - 13:06 act: {"say":"Jason: Kimberly, glad you're up. I'm at the white bed with 3 logs and 4 planks. Picard, I'll keep my planks ready for Zack's dry route. At first light I'll go with you and Billy.","intent":{"g
+- 13:06 act: {"intent":{"goal":"hold_until_first_light","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":6000,"max_block_operat
+- 13:07 act: {"say":"Jason: dawn. Picard, thank you; keep the porkchops for Zack. I have 4 planks and 3 logs for a bridge or stair toward his pillar. Kimberly, Billy: when you're ready, tell me the dry route and I
+- 13:08 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"oak_planks","count":4}],"say":"Jason: Kimberly, here are my 4 planks for Zack's dry route. Billy, come to us on grass. I keep the 3 logs and will
+- 13:08 act: {"intent":{"goal":"follow_kimberly_to_zack","program":"follow","arguments":{"target":"ag_kimberly_01"},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_t
+- 13:08 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"}],"say":"Jason: Kimberly, I'm coming to you by the grass. Hold a moment."}
+- 13:10 act: {"actions":[{"do":"goto","target":{"x":-274,"y":67,"z":315}}],"say":"Jason: going to Kimberly's spot at -275,70,312 on the grass south of the beds. Trini, I'll be there in sight."}
+- 13:10 act: {"say":"Jason: I'm at -274,68,315 on planks by the beds. Kimberly, Trini, I don't see you yet. Say your spot and I'll come."}
+- 13:10 act: {"actions":[{"do":"goto","target":{"x":-275,"y":69,"z":308}}],"say":"Jason: Trini, I'm coming north to you at -275,69,308. I'll walk with you to Zack's pillar and carry my 3 logs for more planks."}
+- 13:10 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"oak_log","count":3}],"say":"Jason: Trini, here are my 3 logs for more planks for the bridge to Zack. Kimberly is with us too; let's lay the route fr
+- 13:11 act: {"actions":[{"do":"goto","target":{"x":-275,"y":69,"z":300}}],"say":"Jason: Good, Trini. I'm leading north on the grass toward Zack's side. Stay in sight and tell me if you see a gap to bridge."}
+- 13:11 act: {"actions":[],"say":"Jason: Good, Trini has 24 planks and Tommy 16. Zack is at -266,35,196. Trini, you lead the bridge; I'll walk the grass beside you and watch for the zombie to the north. Tommy, han
+- 13:12 act: {"actions":[],"say":"Jason: Trini, scout north, I'm behind you. Picard, the route is not set yet; Trini will call the first waypoint. Kimberly, come down to the grass and follow."}
+- 13:13 act: {"actions":[],"say":"Jason: Holding here at -275,69,301, Trini. Call the next step when you find dry ground."}
+- 13:17 act: {"actions":[],"say":"Jason: Pillagers to the south. I'm staying right here with Kimberly, away from their line. Trini, call the group's spot and I'll come."}
+- 13:18 act: {"actions":[{"do":"goto","target":{"x":-267,"y":68,"z":291}}],"say":"Jason: Going to the group spot at -267,68,291 with Kimberly."}
+- 13:18 act: {"actions":[],"say":"Jason: I'm at the group spot with Trini, Tommy and Billy. Kimberly is 13 back, so Kimberly, please come to us. Sun is low; the white beds are south, so we'll need to decide how to
+- 13:18 act: {"actions":[{"do":"goto","target":{"x":-280,"y":69,"z":291}}],"say":"Jason: Billy is taking the yellow bed at -281,69,291. I'll stay near him for the night, in sight of the group."}
+- 13:19 act: {"actions":[{"do":"goto","target":{"x":-281,"y":69,"z":292}}],"say":"Jason: I'm by the yellow bed at -281,69,292 with Billy. Going to bed here for the night."}
+- 13:19 act: {"actions":[{"do":"goto","target":{"x":-280,"y":69,"z":293}}],"say":"Jason: Trini, I'm staying in sight at -280,69,293 next to your plank shelter. Goodnight, all."}
