@@ -44,3 +44,5 @@
 - 06:45 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":365}},{"do":"sleep"}],"say":"Nobody else is here, so I'm going to the yellow bed to sleep. Iron golems are nearby to the east and north; I'll kee
 - 06:46 act: {"say":"Kimberly, I'm keeping watch. Iron golems are about 12 blocks south of me, so I'll hold here and not go closer.","intent":{"goal":"hold_and_keep_watch_until_light","program":"rest","arguments":
 - 06:46 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":337}},{"do":"sleep"}],"say":"Picard, I'm trying the white bed here to sleep. There is food-less watch for everyone at first light."}
+- 06:48 act: {"say":"Tommy, I have no bread or meat, only seeds and dirt. I'm going to look for animals to the south-west, and I'll bring anything I find to the sign by the crafting table.","intent":{"goal":"searc
+- 06:48 act: {"intent":{"goal":"reach_yellow_bed_for_night","program":"travel","arguments":{"target":{"x":-272,"y":68,"z":365}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_
