@@ -8,3 +8,5 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 16:09 act: {"intent":{"goal":"scout_food_south_west","program":"travel","arguments":{"target":{"x":-290,"y":67,"z":330}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"
 - 16:09 act: {"say":"No food in sight yet. I'm at the south-west grass with Trini and Billy nearby. Still hunger 19. Any meat goes to Kimberly first."}
 - 16:10 act: {"say":"Jason: good, everyone is on the south-west grass. Still no meat here. I'll hold my spot and call out anything I see. Kimberly gets any meat first.","intent":{"goal":"hold_grass_and_watch","pro
+- 16:12 act: {"say":"Jason here, hunger 19 and no food. I'll search the grass to the east for cows, pigs or sheep. I'll call out anything I find.","actions":[{"do":"goto","target":{"x":-262,"y":66,"z":330}}],"inte
+- 16:12 act: {"say":"No animals here yet. I'm going further east.","actions":[{"do":"goto","target":{"x":-236,"y":66,"z":330}}],"intent":{"goal":"search_food_further_east","program":"travel","arguments":{"target":
