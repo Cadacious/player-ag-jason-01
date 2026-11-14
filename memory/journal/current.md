@@ -1378,3 +1378,12 @@
 - 01:51 act: {"actions":[{"do":"unstick"}]}
 - 01:52 act: {"actions":[],"say":"Thanks Zack. Tommy and Billy, eat first, I'm full at 20. I'll keep near the beds and look for seeds or crops nearby."}
 - 01:56 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}}],"say":"Going to the yellow bed for the night. I'm full on hunger but have no food, so Tommy and Kimberly keep the beef."}
+- 02:04 say: {"text":"Jason here, at the yellow beds with full health and hunger, pack empty. Zack, I'll search west with you and Kimberly at first light."}
+- 02:08 act: {"intent":{"goal":"search_west_for_animals","program":"travel","arguments":{"x":-300,"y":67,"z":327},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"limits
+- 02:08 act: {"actions":[{"do":"goto","target":{"x":-300,"y":67,"z":327}}],"say":"Jason heading west to join the search for cows and sheep."}
+- 02:09 act: {"actions":[{"do":"goto","target":{"x":-320,"y":67,"z":320}}],"say":"No animals here yet. Tommy, give the beef to Zack first. I'm going further west-north-west to look."}
+- 02:09 act: {"actions":[{"do":"unstick"}]}
+- 02:09 act: {"actions":[{"do":"goto","target":{"x":-252,"y":68,"z":455}}],"say":"Billy, Jason here. I'm heading to your pig near -252,68,455. Please keep some meat for Zack and Tommy, they are hungriest."}
+- 02:10 act: {"actions":[{"do":"goto","target":{"x":-240,"y":68,"z":456}}],"say":"A skeleton with a bow is 21 blocks west of me. I have no weapon, so I'm moving east, away from it, and will keep near Billy."}
+- 02:10 act: {"actions":[{"do":"goto","target":{"x":-248,"y":65,"z":448}}],"say":"There's a dropped item near -248,65,448. I'm going to check it."}
+- 02:10 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":440}}],"say":"A creeper is 9 blocks east of me. I'm backing off west and will not fight it with no weapon."}
