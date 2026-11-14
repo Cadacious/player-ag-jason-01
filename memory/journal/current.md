@@ -111,3 +111,19 @@
 - 07:44 act: {"say":"Kimberly, I'm right beside you. Please give me one mutton. Thank you."}
 - 07:45 act: {"say":"Thank you, Kimberly. I don't see it in my pack yet. I'll wait a moment."}
 - 07:45 act: {"say":"Kimberly, I think the mutton was eaten by my reflex, since my health rose. Thank you. Zack, keep the last one; I won't take it.","actions":[{"do":"note","text":"Day 198 night: Kimberly gave me
+- 07:50 act: {"intent":{"goal":"reach_crafting_table","program":"travel","arguments":{"target":{"x":-266,"y":67,"z":366}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_
+- 07:50 act: {"actions":[{"do":"craft","item":"wooden_sword","count":1}]}
+- 07:50 act: {"actions":[{"do":"craft","item":"oak_planks","count":4},{"do":"craft","item":"stick","count":4},{"do":"craft","item":"wooden_sword","count":1}]}
+- 07:50 act: {"intent":{"goal":"find_sheep_near_257_375","program":"travel","arguments":{"target":{"x":-258,"y":66,"z":374}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_wor
+- 07:50 act: {"intent":{"goal":"hunt_cow_at_285_235","program":"travel","arguments":{"target":{"x":-285,"y":65,"z":236}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_t
+- 07:51 act: {"intent":{"goal":"hunt_sheep_at_276_212","program":"travel","arguments":{"target":{"x":-276,"y":66,"z":214}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world
+- 07:51 act: {"intent":{"goal":"find_sheep_at_290_192","program":"travel","arguments":{"target":{"x":-290,"y":64,"z":194}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world
+- 07:51 act: {"intent":{"goal":"reach_kimberly_for_mutton","program":"travel","arguments":{"target":{"x":-169,"y":92,"z":312}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_w
+- 07:51 act: {"intent":{"goal":"reach_kimberly_for_mutton","program":"travel","arguments":{"target":{"x":-169,"y":92,"z":312}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_w
+- 07:52 act: {"intent":{"goal":"reach_kimberly_for_mutton","program":"travel","arguments":{"target":{"x":-169,"y":92,"z":312}},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":9000,"max
+- 07:52 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"rotten_flesh","count":1}],"say":"Kimberly, I'm here at hunger 16. If the mutton is still with you, please hand it to me. I'll share what I find a
+- 07:52 act: {"say":"Kimberly, the give I just queued was a mistake and it failed, so I still have my rotten_flesh. Could you give me the mutton? I'm at hunger 16."}
+- 07:53 act: {"say":"Kimberly, I'm at -169,92,313, just south-east of your pit. I can't see you from here. Climb out and come to me, or toss the mutton where I can reach it. A bow was drawn to the east, so be care
+- 07:54 act: {"actions":[{"do":"goto","target":{"x":-165,"y":92,"z":313}}],"say":"Coming to the edge of your pit, Kimberly."}
+- 07:55 act: {"say":"Kimberly, I'm right here at -166,91,313. I can't see you yet. Toss the mutton to me or step up where I can see you.","intent":{"goal":"await_mutton_from_kimberly","program":"rest","arguments":
+- 08:00 act: {"say":"Kimberly, it's night and I'm still in the pit at -165,91,313. If you can't reach me, leave the mutton at the pit edge and I'll pick it up in the morning."}
