@@ -23,3 +23,6 @@
 - 09:03 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":337}}]}
 - 09:03 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}]}
 - 09:03 act: {"actions":[{"do":"sleep"}]}
+- 09:04 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason here at the white bed, hunger and health 20, nothing in my pack. Going to sleep for the night. Tommy, Zack, hu
+- 09:04 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}]}
+- HANDOFF (waking 288, night 202): Asleep in the white bed at -271,67,336 (sleep worked). Health 20, hunger 20, pack empty, no food known. Billy and Tommy at the yellow beds; Zack and Tommy went north toward the sheep at -276,212. Skeletons at -286,229 and -210,340: avoid. Reflect notes for day 202 still to write (day-202 file and summary not yet updated; no write tool for new files this waking).
