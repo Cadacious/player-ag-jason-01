@@ -1357,3 +1357,5 @@
 - 01:34 act: {"actions":[{"do":"goto","target":{"x":-270,"y":66,"z":358}}],"say":"Kimberly, I'm bringing the chicken to you at the yellow beds. Going now."}
 - 01:35 act: {"actions":[{"do":"goto","target":"ag_trini_01"}],"say":"Kimberly, where are you? I'm with Trini at the yellow beds and I have the chicken for you."}
 - 01:35 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"chicken","count":1}],"say":"Trini, you asked for food and you're here, so the chicken is yours. Kimberly, I'll find you some other way."}
+- 01:35 act: {"say":"Kimberly, I'm at the yellow beds too, and I have no food left, only 2 dirt and some wheat seeds. Billy, please give the beef to Kimberly first. I'll go look for the pigs to the south-west.","i
+- 01:36 act: {"actions":[{"do":"goto","target":{"x":-347,"y":64,"z":231}},{"do":"attack","target":"pig"}],"intent":{"goal":"kill_pig_for_food","program":"travel","arguments":{"target":{"x":-348,"y":64,"z":230}},"w
