@@ -155,3 +155,8 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 19:25 act: {"actions":[{"do":"wait","seconds":5}],"say":"Billy, I have no mutton in my hands. Could you give it to me now? I can see you."}
 - 19:25 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}]}
 - 19:25 act: {"actions":[{"do":"sleep"}]}
+- 19:26 act: {"say":"Billy, the mutton has not reached me. Stand in front of me where I can see you and give the 2 mutton. I am hungry and will eat right away.","intent":{"goal":"wait_for_mutton","program":"trade_
+- 19:27 act: {"say":"Billy, I can't see you yet. Walk to me, 2 blocks off, and I'll wait right here for the 2 mutton."}
+- 19:27 act: {"say":"Billy, I am at -271, 67, 319, on the planks next to the white beds. Walk here and stand in front of me, then give the 2 mutton."}
+- 19:28 act: {"actions":[{"do":"eat"}],"say":"Got the mutton, thank you Billy. Eating now."}
+- 19:28 act: {"say":"Ate one mutton. Hunger is 19. I'm keeping the other for Kimberly or whoever is lowest. Let's scout the grass together at first light."}
