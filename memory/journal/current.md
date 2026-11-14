@@ -1387,3 +1387,12 @@
 - 02:10 act: {"actions":[{"do":"goto","target":{"x":-240,"y":68,"z":456}}],"say":"A skeleton with a bow is 21 blocks west of me. I have no weapon, so I'm moving east, away from it, and will keep near Billy."}
 - 02:10 act: {"actions":[{"do":"goto","target":{"x":-248,"y":65,"z":448}}],"say":"There's a dropped item near -248,65,448. I'm going to check it."}
 - 02:10 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":440}}],"say":"A creeper is 9 blocks east of me. I'm backing off west and will not fight it with no weapon."}
+- 05:13 act: {"actions":[{"do":"unstick"}],"say":"I'm stuck in a pit. Getting out first.","reasoning":"Trapped in a pit at midday. Get out before anything else; food is the next concern."}
+- 05:13 act: {"intent":{"goal":"reach_old_beds","program":"travel","arguments":{"target":{"x":-263,"y":67,"z":353}},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"],"limi
+- 05:13 act: {"actions":[{"do":"goto","target":{"x":-255,"y":68,"z":355}}],"say":"Trini, Tommy, Billy: I'm on my way to the old farm. I have no food, only dirt and leaf litter.","reasoning":"Travel intent failed. 
+- 05:15 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":420}}],"reasoning":"Path south is blocked by solid ground. Try a nearer waypoint to the north, then continue."}
+- 05:15 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-262,"y":67,"z":420}}],"reasoning":"The previous goto was blocked by a running action. Clear it, then retry the nearer waypoint once."}
+- 05:15 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":420}}],"reasoning":"Give the stuck action time to clear, then try the waypoint again."}
+- 05:17 act: {"actions":[{"do":"goto","target":{"x":-256,"y":68,"z":360}}],"say":"I'm heading to the old farm to look for food with the others.","reasoning":"Movement seems to work again. Try the farm once more; o
+- 05:17 act: {"actions":[{"do":"unstick"}],"reasoning":"I am perched on a ledge and goto keeps failing. Unstick, then look at the way out."}
+- 05:18 act: {"actions":[{"do":"goto","target":{"x":-256,"y":68,"z":360}}],"say":"Heading to the old farm to find food with the others.","intent":{"goal":"reach_old_farm","program":"travel","arguments":{"target":{
