@@ -114,3 +114,18 @@
 - 22:40 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":320}},{"do":"sleep"}],"say":"Jason going to the free white bed at -281,67,320 for the night. Still no food; Trini first when it turns up.","inten
 - 22:49 say: {"text":"Geldar back, at the white beds with the group. Holding here until light. No food on me; Trini first."}
 - 22:50 say: {"text":"Jason here, daylight. No food. Riker first for any fish, then Trini. I'm staying at the beds for now, out of deep water. Tommy, keep to the group."}
+- 22:55 act: {"intent":{"goal":"hold_at_beds_with_group_for_food","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":2400,"max_bl
+- 22:55 act: {"actions":[{"do":"note","text":"Day 244 morning. At white beds, health 6, hunger 16, no food. Holding with group. Waiting for the salmon trip and any animal news; Riker and Trini first."}]}
+- 22:55 act: {"intent":{"goal":"hold_at_beds_until_food_or_danger","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":3000,"max_b
+- 22:57 act: {"actions":[{"do":"note","text":"Day 244 midday. Still at white beds, health 6, hunger 16, no food. Group reports no animals or fish yet. Holding with the group, watching for golems to the south."}],"
+- 22:59 act: {"actions":[{"do":"sleep"}],"say":"Jason at dusk, day 244, health 6, hunger 16, no food. Trying the white bed here with the group nearby."}
+- 22:59 act: {"intent":{"goal":"hold_at_beds_until_night_then_sleep","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":2400,"max
+- 23:01 act: {"actions":[{"do":"note","text":"Day 244 dusk. At white beds (-271,67,318), health 6, hunger 16, no food. Group holding here. Sleep refused: not night yet. Will try the bed once dark. Trini has the ch
+- 23:01 act: {"actions":[{"do":"sleep"}],"say":"Jason trying the white bed now, night of day 244. No food; Trini first at dawn."}
+- 23:01 act: {"actions":[{"do":"sleep"}],"say":"Jason trying the white bed again, night of day 244."}
+- 23:03 act: {"actions":[{"do":"sleep"}],"say":"Trying the white bed again with the group, sword in hand."}
+- 23:04 act: {"actions":[{"do":"note","text":"Night day 244 at white bed, health 6, hunger 16. Sleep retried; waiting on connection."}]}
+- 23:05 act: {"actions":[{"do":"sleep"}]}
+- 23:08 act: {"actions":[{"do":"note","text":"Dawn day 244 at white bed. Sleep refused all night by phantom. Health 6, hunger 16, no food. Staying with group for dawn food hunt, Trini first."}],"intent":{"goal":"h
+- 23:10 act: {"actions":[{"do":"note","text":"Day 245 midday at white bed with group. Health 6, hunger 16, no food. Iron golem 14 SE. Waiting for dusk, then sleep."}],"intent":{"goal":"hold_at_beds_until_dusk_then
+- 23:12 act: {"actions":[{"do":"sleep"}]}
