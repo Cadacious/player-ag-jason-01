@@ -1251,3 +1251,27 @@
 - 00:22 say: {"text":"Tommy, I'm at -256,65,374 with you. No sheep in sight yet; I'll look around this area."}
 - 00:23 act: {"intent":{"goal":"reach_yellow_bed","program":"travel","arguments":{"target":{"x":-241,"y":69,"z":344}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_tick
 - 00:23 act: {"actions":[{"do":"sleep"}]}
+- 00:29 act: {"say":"I have no food, only pumpkins. I'll head south-east toward the sheep area near -257, 66, 375 and look for food with you.","intent":{"goal":"reach_sheep_area","program":"travel","arguments":{"t
+- 00:29 act: {"say":"Kimberly, I have no food either. I'm following you south-east toward Tommy at -200, 66, 428 to look for sheep. I'll call out if I see one.","intent":{"goal":"join_tommy_sheep_search","program"
+- 00:30 act: {"say":"Tommy, I'm at -200, 66, 428 with you and I have no food. Where is the cow? I'll come if it's close."}
+- 00:30 act: {"say":"Thank you, Zack and Tommy. I'm heading to -186, 67, 455 now for the beef, and I'll keep watch for the zombie.","intent":{"goal":"reach_tommy_beef","program":"travel","arguments":{"target":{"x"
+- 00:30 act: {"actions":[{"do":"goto","target":"ag_zack_01"},{"do":"give","to":"ag_zack_01","item":"wooden_sword","count":1}],"say":"Zack, here is your wooden sword. Kimberly sent it to me by mistake. I'm going on
+- 00:30 act: {"say":"Zack, my give failed, so your wooden sword is on the ground by me, near you. Please pick it up. I'm going to Tommy for the beef.","intent":{"goal":"reach_tommy_beef","program":"travel","argume
+- 00:31 act: {"say":"Tommy, I'm here beside you. My hunger is full at 20, so give your beef to Kimberly first, she's at 14. Trini and Billy need it too. I'm glad to share my 2 wheat with anyone who wants it."}
+- 00:31 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"beef","count":1}],"say":"Kimberly, here is one beef, since Tommy's went to me by mistake. I'll keep the other for Billy, who is walled in and hun
+- 00:32 act: {"say":"Billy, I'm keeping your beef. Dig toward us and I'll hand it over when you're close. I'll wait here by Tommy."}
+- 00:34 act: {"say":"Billy, I'm at -188,67,456 with your beef. I'm coming west toward you now.","intent":{"goal":"reach_billy_with_beef","program":"travel","arguments":{"target":{"x":-389,"y":67,"z":342}},"wake_on
+- 00:34 act: {"say":"Billy, I'm at -218,70,438 heading west. Tell me if you can see a way out of the stone.","intent":{"goal":"reach_billy_with_beef","program":"travel","arguments":{"target":{"x":-262,"y":67,"z":3
+- 00:36 act: {"say":"Zack, I have your wooden sword. I'm coming back toward you now to hand it over.","intent":{"goal":"return_sword_to_zack","program":"travel","arguments":{"target":{"x":-189,"y":67,"z":446}},"wa
+- 00:36 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"wooden_sword","count":1}],"say":"Zack, here is your wooden sword."}
+- 00:36 act: {"actions":[{"do":"goto","target":{"x":-185,"y":67,"z":443}},{"do":"give","to":"ag_zack_01","item":"wooden_sword","count":1}],"say":"Zack, I'm stepping back so I can hand you the sword."}
+- 00:37 act: {"say":"Zack, the give keeps failing because we're too close. Could you step a few blocks away and I'll toss the sword to you?"}
+- 00:37 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"wooden_sword","count":1}],"say":"Zack, trying the sword again now."}
+- 00:37 act: {"say":"Zack, the sword won't hand over while we stand this close. I'll keep it in my pack. Move a little away from me and say so, and I'll try once more from there.","intent":{"goal":"hold_position_b
+- 00:38 act: {"actions":[{"do":"goto","target":"ag_zack_01"},{"do":"give","to":"ag_zack_01","item":"wooden_sword","count":1}]}
+- 00:39 act: {"actions":[],"intent":{"goal":"hold_for_night","program":"rest","arguments":{"note":"hold position through dusk; travel to Billy at first light"},"wake_on":["directly_addressed","unexpected_damage"],
+- 00:39 act: {"actions":[],"intent":{"goal":"hold_for_night","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":6000,"max_block_operations":16}},"say":
+- 00:39 act: {"actions":[],"intent":{"goal":"reach_white_bed_for_night","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":337}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"li
+- 00:40 act: {"actions":[],"intent":{"goal":"reach_white_bed_for_night","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":336}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"li
+- 00:40 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}]}
+- 00:40 act: {"actions":[{"do":"sleep"}]}
