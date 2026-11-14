@@ -151,3 +151,7 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 19:23 act: {"actions":[{"do":"sleep"}],"say":"Jason: night at the white bed, no food, hunger 17. Any meat goes to Kimberly first at dawn."}
 - 19:24 act: {"actions":[],"say":"Billy, thank you. I'm at -281,70,308 by the logs, in sight of Data. Please give me one mutton when you can see me."}
 - 19:24 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}},{"do":"sleep"}],"say":"Jason: thanks Kimberly. Going to the bed at -271,67,318 to sleep. Billy, the mutton when you see me."}
+- 19:25 act: {"actions":[{"do":"eat"}],"say":"Thank you, Billy. I do not see the mutton in my hands yet."}
+- 19:25 act: {"actions":[{"do":"wait","seconds":5}],"say":"Billy, I have no mutton in my hands. Could you give it to me now? I can see you."}
+- 19:25 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}]}
+- 19:25 act: {"actions":[{"do":"sleep"}]}
