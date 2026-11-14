@@ -15,3 +15,8 @@
 - 20:24 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":319}}],"say":"Jason trying the white bed at -281,67,320 that I have not tried yet."}
 - 20:25 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":320}},{"do":"sleep"}],"say":"Going to sleep in the white bed at -281,67,320 now. No golems in sight.","reasoning":"Arrived near the untried white
 - 20:25 act: {"actions":[{"do":"goto","target":{"x":-282,"y":67,"z":320}},{"do":"sleep"}],"say":"Jason trying the white bed at -282,67,320 once more. Bows drawn to the south-east, so I am keeping close.","reasonin
+- 20:26 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"say":"Jason trying the yellow bed at -271,67,326, the golems are 12 or more blocks south-west.","reasoning":"Golems are fa
+- 20:27 act: {"actions":[{"do":"note","text":"Night, day 236. Sleep failed again at the white and yellow beds: search time ran out, 5 golems 14-18 blocks south. Holding at the yellow beds, not enclosed. Health 20,
+- 20:30 act: {"actions":[{"do":"note","text":"Dawn, day 237. Could not sleep last night: golems kept searching the beds and the search ran out. Group is going west to look for animals and apples. Health 20, hunger
+- 20:30 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":316}}],"say":"Jason moving north away from the golems to the white beds.","intent":{"goal":"reach_safe_spot_north","program":"travel","arguments"
+- 20:30 act: {"actions":[{"do":"note","text":"Day 237 morning. At the white beds, north side (-270,67,316), safe, no golems in sight. Health 20, hunger 20, no food. Group is out west looking for animals. Waiting f
