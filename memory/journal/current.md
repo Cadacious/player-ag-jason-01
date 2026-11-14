@@ -82,3 +82,9 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 18:00 act: {"actions":[{"do":"goto","target":{"x":-282,"y":67,"z":320}},{"do":"sleep"}],"say":"Jason going to the white bed at -282,67,320 for the night. No food, but I'm still here if anyone needs me."}
 - 18:01 act: {"say":"Jason here, night, hunger 16, no food. Trini, keep your apple for Kimberly. I'm trying the white bed just north of me.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep
 - 18:02 act: {"say":"Jason, night at the white beds, hunger 16, no food. I'm staying here with the group until dawn. Any meat or apple goes to Kimberly first.","actions":[{"do":"wait","seconds":120}],"intent":{"go
+- 18:10 act: {"say":"Jason, morning of day 230. Hunger 16, no food. Joining the west grass search with Billy and Zack, calling out any animal I see.","actions":[{"do":"goto","target":{"x":-284,"y":66,"z":322}}],"i
+- 18:10 act: {"say":"Jason at the west grass edge with Tommy and LaForge. No animals in sight yet. Calling out any cow, pig or sheep.","actions":[{"do":"goto","target":{"x":-290,"y":67,"z":322}}],"intent":{"goal":
+- 18:10 act: {"say":"Jason heading to Zack at the south-west grass to spread out and search.","actions":[{"do":"goto","target":"ag_zack_01"}],"intent":{"goal":"join_zack_southwest_search","program":"follow","argum
+- 18:11 act: {"say":"Jason: Zack, I can't see you from here. Going south-west toward the grass edge; I'll call out. Two trader llamas to the south-east, not food.","actions":[{"do":"goto","target":{"x":-296,"y":66
+- 18:19 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":322}}],"say":"Jason here, dusk, no food yet. Heading to the group beds near -282,67,320 to rest with everyone. Any apple goes to Kimberly first."
+- 18:19 act: {"actions":[{"do":"sleep"}]}
