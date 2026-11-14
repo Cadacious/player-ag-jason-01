@@ -90,3 +90,13 @@
 - 13:59 act: {"actions":[{"do":"note","text":"Handoff, day 217 night: slept in white bed -298,68,295 (sleep worked). Health 20, hunger 20, no food in pack. Mutton still held by Billy for Zack. Kimberly in bed near
 - 14:00 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":295}},{"do":"note","text":"Waking 310, dusk day 217. At white bed -298,68,295 with Kimberly beside me. Health 20, hunger 20, 1 plank, no food. Go
 - 14:00 act: {"actions":[{"do":"sleep"}]}
+- 14:10 act: {"say":"Jason here, awake at the white beds with health and hunger 20. I have no food to spare, but I'll scout east for animals and call any sheep, cow or pig I find.","intent":{"goal":"scout_east_for
+- 14:11 act: {"say":"Trini, keep the mutton for Zack. My hunger is full at 20, so I don't need it. I'm at -263,67,296 on dirt, scouting east, no animals seen yet. I'll help lay the route once Kimberly calls a walk
+- 14:11 act: {"say":"Jason: holding at -263,67,296 on dirt, in sight of the group's spot. No animals seen east yet. Tommy, if you come, stay in my sight. I'll call any sheep, cow or pig I spot."}
+- 14:12 act: {"actions":[{"do":"goto","target":{"x":-254,"y":67,"z":296}}],"say":"Jason: Tommy, I'm going east with you to -254,67,296 on dry ground. Stay in my sight and call any animal."}
+- 14:16 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":291}}],"say":"Jason: skeletons with bows to the east at about -244,68,295, and I'm hurt to 10. Retreating west to the group spot. Tommy, come wes
+- 14:16 act: {"actions":[{"do":"goto","target":{"x":-270,"y":68,"z":292}}],"intent":{"goal":"retreat_west_to_beds","program":"travel","arguments":{"target":{"x":-270,"y":68,"z":292}},"wake_on":["goal_completed","u
+- 14:16 act: {"actions":[],"say":"Jason: I died to skeletons east at about -244,68,295 and respawned at the beds. Stay out of the east. I'm back at -297,68,295 with nothing in hand."}
+- 14:17 act: {"actions":[{"do":"goto","target":{"x":-297,"y":68,"z":293}}],"intent":{"goal":"reach_west_beds_safe","program":"travel","arguments":{"target":{"x":-297,"y":68,"z":293}},"wake_on":["goal_completed","u
+- 14:17 act: {"actions":[],"say":"Jason: I died again on the way west; I'm back at the spawn at -297,68,295. Skeletons are coming west toward the beds. Stay on the far west side."}
+- 14:19 act: {"actions":[{"do":"goto","target":{"x":-298,"y":68,"z":294}},{"do":"sleep"}],"say":"Jason: I'm at the white bed at -298,68,294 for the night. Skeletons are east, so stay west and hold close to the bed
