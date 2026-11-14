@@ -138,3 +138,4 @@
 - 23:42 act: {"say":"Jason still at the white beds, night 246. Phantom is near, so I'm holding with the group and will try sleep again shortly.","actions":[{"do":"wait","seconds":60}]}
 - 23:43 act: {"say":"Trying the white bed again now.","actions":[{"do":"sleep"}]}
 - 23:47 act: {"actions":[{"do":"sleep"}]}
+- 23:48 act: {"say":"Jason here at the white bed, dawn on day 246. Health 6, hunger 16, no food. Trini, eat the chicken when it lets you. I'm holding with the group and will sleep in a free bed at dusk.","intent":
