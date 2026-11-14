@@ -52,3 +52,31 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 17:03 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}]}
 - 17:04 act: {"actions":[{"do":"wait","seconds":30},{"do":"sleep"}]}
 - 17:05 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":353}},{"do":"sleep"}]}
+- 17:06 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}],"say":"Jason here at the yellow bed by the crafting table. Hunger 17, no food yet. Going to sleep; any meat or apple goes t
+- 17:07 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":353}},{"do":"sleep"}],"say":"Jason: the beds were taken. Trying the yellow bed at -263,67,353 again."}
+- 17:07 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":322}}],"say":"Jason: dawn now, no sleep, hunger 17, no food. I'm heading back toward the group at the white beds to scout for animals. Any meat g
+- 17:08 act: {"actions":[{"do":"goto","target":{"x":-284,"y":66,"z":322}}],"say":"Jason: day 227, dawn. Hunger 17, no food. Scouting the west grass for animals now; calling out anything I see.","intent":{"goal":"s
+- 17:08 act: {"say":"Jason here at the white beds, hunger 17, no food. Scouting the grass with the group; calling out any cow, pig or sheep. Kimberly gets any meat first."}
+- 17:16 act: {"say":"Jason: Riker, please walk to Kimberly at the camp table and hand her the apple now. Everyone else, keep calling any animal you see."}
+- 17:20 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"say":"Jason: dusk, no food, hunger 17. Going to the yellow bed at -271,67,326 to sleep. Kimberly, any food goes to you fir
+- 17:20 act: {"actions":[{"do":"sleep"}]}
+- 17:20 act: {"actions":[{"do":"wait","seconds":45},{"do":"sleep"}]}
+- 17:21 act: {"actions":[{"do":"wait","seconds":60},{"do":"sleep"}]}
+- 17:22 act: {"actions":[{"do":"sleep"}]}
+- 17:22 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason: trying the white bed at -271,67,336 beside Zack. Hunger 17, no food yet; Kimberly gets any food first at dawn
+- 17:23 act: {"actions":[{"do":"sleep"}]}
+- 17:24 act: {"actions":[{"do":"wait","seconds":120},{"do":"sleep"}]}
+- 17:26 act: {"actions":[{"do":"sleep"}]}
+- 17:26 act: {"actions":[{"do":"wait","seconds":180},{"do":"sleep"}]}
+- 17:29 act: {"say":"Jason here at dawn, day 228. No sleep last night, golems kept it refused. Hunger 17, still no food. Whoever finds meat or an apple, Kimberly first. I'll scout west with Tommy and Billy and sta
+- 17:29 act: {"actions":[{"do":"goto","target":{"x":-284,"y":67,"z":326}}],"say":"Jason heading west on the grass to look for animals, Billy in sight. Calling out anything I find."}
+- 17:31 act: {"actions":[{"do":"mine","block":"oak_leaves","count":4}],"say":"Jason: no animals here. I'll try breaking oak leaves for apples too, as Trini suggested. Any apple goes to Kimberly."}
+- 17:32 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":326}}],"say":"Jason: I'm in the oak trees north-west, keeping in sight of Trini and Billy. No apples yet; heading back to the group at the beds."
+- 17:32 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":326}}]}
+- 17:41 act: {"actions":[{"do":"goto","target":{"x":-282,"y":67,"z":320}},{"do":"sleep"}],"say":"Going to the bed for the night with the group. No food yet; anyone with meat or apple, Kimberly first at dawn."}
+- 17:42 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
+- 17:46 act: {"actions":[{"do":"sleep"}]}
+- 17:51 act: {"actions":[{"do":"goto","target":{"x":-290,"y":68,"z":314}}],"say":"Jason, morning of day 229. No food either. Joining the west grass search for animals with Kimberly and Trini. Calling out anything 
+- 17:51 say: {"text":"Jason here at the grass edge with Kimberly and Tommy. No food found yet. I'll stay close and call out anything I see."}
+- 17:52 act: {"say":"Jason here, on the west grass with Kimberly, Tommy and Riker. Still no food. I'll call out anything I see.","intent":{"goal":"stay_with_group_on_west_grass","program":"follow","arguments":{"ta
+- 18:00 act: {"actions":[{"do":"goto","target":{"x":-282,"y":67,"z":320}},{"do":"sleep"}],"say":"Jason going to the white bed at -282,67,320 for the night. No food, but I'm still here if anyone needs me."}
