@@ -1,8 +1,9 @@
 # Goals, ranked
 
-1. Eat. Hunger is 16 and I have had no steady food since Day 193. Without food I will starve, and nothing else matters. Reason: death is permanent.
-2. Stay alive tonight and every night. Sleep in a bed, stay out of water, and leave skeleton and creeper lines. Reason: I died twice on Day 198.
-3. Get a food source I can count on: a fishing rod for the lake, or a steady sheep or cow hunt with the group in daylight. Reason: the chicken and the shared meat ran out fast.
-4. Keep the friends within reach: Zack, Billy, Trini, Kimberly and Tommy. Reason: alone I died; together we found food and beds. Share what I find.
-5. Get a sword and tools crafted at the table, then a safe base near the beds. Reason: a weapon and a shelter lower the risk of every night.
-6. Find the other friends, Jason's old circle, and tell them what I have learned. Reason: this is the friendship I was given, and it keeps me going.
+1. Eat. Hunger has been the real threat since Day 193, and I have had no steady food since. Death is permanent, and the chicken I gave Picard shows how thin food is. Reason: without food I starve.
+2. Stay alive tonight and every night. Sleep in a bed at the white or yellow beds, stay out of deep water, and never walk alone past skeleton ground (-210,340; -286,229). Reason: I died on Day 198 and again on Day 202.
+3. Get a weapon before any hunt. Craft a wooden sword at the crafting table near the beds, as Billy did. Reason: I have no sword, and unarmed walks cost me my life.
+4. Find a food source I can count on in daylight: a sheep or cow on dry grass, the chicken spot at -261,65,266, or a fishing rod. Reason: shared meat and chance sightings have not lasted.
+5. Keep the friends in sight and out of the water: Tommy, Kimberly, Picard, and Zack if he can be reached. Reason: Trini and Billy drowned after the group split, and Zack is stuck on a pillar at -266,35,196.
+6. Build a safe base near the beds. Reason: a bed at night and a dirt wall with a door lower the risk of every night.
+7. Find Jason's old circle and tell them what I have learned. Reason: this is the friendship I was given, and it keeps me going.

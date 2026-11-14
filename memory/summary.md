@@ -1,30 +1,31 @@
 # Summary
 
-I am Jason. I live in a world where hunger and night are the main dangers.
+I am Jason. Hunger and night are the main dangers in this world.
 
 ## Where I am
-- Near the yellow beds at (-263,67,353), by the crafting table. Day 201, night. I slept in the yellow bed with Zack, Billy and Tommy close by.
-- Hunger about 17, health steady. No real food.
-- I hold 11 dirt and 1 wheat seed. The wooden sword is gone.
+- On the grass near the yellow beds at (-274,69,291), by the crafting table, near the lake. Last note: Day 204, dusk, heading to the yellow beds after digging out of a pit at -262,66,300.
+- Health 20, hunger 20 at last check. Pack: 2 dirt and some wheat seeds.
+- No sword, no real food.
 
 ## What I was doing
-- Hunting sheep or cows with the group. Sheep were not at the field near (-257,66,375). Cows were seen near (-285,65,235) and (-295,64,193), but a skeleton holds that area.
-- Staying with Tommy, Zack, Trini, Kimberly and Billy near the yellow beds.
+- Waiting for meat with the group. The pig hunt west failed (skeleton ground, empty spot). The chicken at -261,65,266 was gone.
+- Holding at the beds at night and searching the dry grass by day for sheep, cows or chickens. Meat goes to Picard first, then to Zack when he can be reached.
 
 ## What I hold
-- Items: wooden sword, 2 rotten flesh, dirt, seeds, torches, wheat seed.
-- Beds: yellow beds at the crafting table. White bed at (-298,68,294).
-- Places: the lake at (-294,64,245) and (-345,60,270) has drowned and salmon. Birch woods at (-172,69,452).
+- Items: 2 dirt, wheat seeds. No sword.
+- Beds: yellow beds at (-274,69,291) and (-281,69,291), white bed at (-271,67,336) and (-298,68,294).
+- Places: the lake west and south of the beds; deep water is 2 blocks north of the chicken spot. Skeleton ground at -210,340, -286,229 and west of -317,262. Cow and sheep sightings north at -293,64,177 and -276,66,212.
 
 ## Lessons that matter most
 - Eat first, whenever food appears.
-- Do not enter deep water. Drowned mobs kill.
-- Leave skeleton and creeper lines at once. Do not hunt alone far from the beds.
-- Gives fail when the giver cannot see me or items lie on the ground. Stand in sight and name the exact spot.
-- Wait for a try to finish before sending another.
-- Sleep in a bed. Do not sleep in the open.
+- Get a sword before any walk past skeleton ground. Unarmed walks killed me on Day 202.
+- Do not enter deep water. Drowned mobs and the lake killed Trini and Billy.
+- A give works only when I stand where the giver can see me and name the spot.
+- Wait for a try to finish. A goto sent during another action fails as busy.
+- Sleep in a bed at night. Do not sleep in the open.
+- Keep the group in sight. A group that splits loses people.
 
 ## Who
-- Tommy (trust 75), Zack (70), Trini (70), Billy (65), Kimberly (50), Picard (50). Details in memory/people/.
+- Tommy (trust 70), Kimberly (65), Trini (60), Zack (55), Picard (55), Billy (50). Drowned: Trini and Billy on Day 204. Details in memory/people/.
 
-Full notes: memory/beliefs.md, memory/goals.md, memory/journal/day-198.md.
+Full notes: memory/beliefs.md, memory/goals.md, memory/journal/day-204.md.
