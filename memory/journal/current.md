@@ -1,1 +1,11 @@
 # Journal
+- 08:41 act: {"intent":{"goal":"await_morning_by_beds","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_ticks":12000,"max_block_operat
+- 08:44 act: {"say":"Kimberly, I am Jason and I have no food, hunger 17. Could you spare some? I am at the white bed, close to the yellow beds.","actions":[{"do":"goto","target":{"x":-266,"y":67,"z":350}}]}
+- 08:44 say: {"text":"Thank you, Kimberly. I will head east toward the pig near x -177 at first light."}
+- 08:44 act: {"intent":{"goal":"await_first_light","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_ticks":6000,"max_block_operations"
+- 08:47 say: {"text":"Trini, thank you. It is still dark, so we wait for light by the beds, then walk east to the pig together. I will say go when it is light."}
+- 08:47 say: {"text":"Go. Tommy and Trini, walk with me east toward the pig near x -177. Stay in sight."}
+- 08:47 act: {"intent":{"goal":"reach_pig_east","program":"travel","arguments":{"target":{"x":-180,"y":66,"z":337}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"limi
+- 08:48 say: {"text":"I fell and took 6 damage. I am at -210, 69, 336 in a grove of trees, health 11. Tommy, Trini, where are you? I will wait here for you."}
+- 08:48 say: {"text":"Tommy, Trini: stop, do not come east. I was shot by skeletons near -210, 340 and died. I respawned at the yellow beds with nothing. Do not go there."}
+- Day 202 dawn: I walked east toward the pig at x -177 and fell 6 at -210,69,336. Skeletons shot me and I died at -210,340. Dropped 11 dirt and a wheat seed there. Lesson: the walk east crosses skeleton ground. Do not go alone, and do not go past x -200 without a weapon. Respawned at the yellow beds, hunger 20, no items. Food known: none close. Kimberly reported sheep and chickens south near z 170-200, and a pig east near x -177.
