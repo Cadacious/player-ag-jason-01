@@ -46,3 +46,18 @@
 - 06:46 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":337}},{"do":"sleep"}],"say":"Picard, I'm trying the white bed here to sleep. There is food-less watch for everyone at first light."}
 - 06:48 act: {"say":"Tommy, I have no bread or meat, only seeds and dirt. I'm going to look for animals to the south-west, and I'll bring anything I find to the sign by the crafting table.","intent":{"goal":"searc
 - 06:48 act: {"intent":{"goal":"reach_yellow_bed_for_night","program":"travel","arguments":{"target":{"x":-272,"y":68,"z":365}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_
+- 06:48 act: {"say":"I'm at the yellow bed by the crafting table. I have no food yet. I'll search south and east for animals now, and share anything I find with Tommy first.","intent":{"goal":"search_south_for_ani
+- 06:49 act: {"say":"No animals in the south-east either. I'm going east toward the open grass to keep looking. If anyone sees a cow, sheep, chicken or fish, call it out.","intent":{"goal":"search_east_for_animals
+- 06:49 act: {"say":"Picard, no safe food source found yet. I've searched south-west, south-east and now east at -210, 412. Only trees and a bee so far. I'll keep looking east and report anything I find.","intent"
+- 06:49 act: {"say":"A skeleton with a bow is 4 blocks north-east of me. I'm pulling back west out of its line. Trini, I'll search with you on the north side later; no food here yet.","actions":[{"do":"goto","targ
+- 06:49 act: {"say":"A skeleton is shooting at me from the east. I'm going to fight it with my stone sword.","actions":[{"do":"attack","target":"skeleton"}]}
+- 06:49 act: {"actions":[{"do":"attack","target":"skeleton"}]}
+- 06:49 act: {"actions":[{"do":"attack","target":"skeleton"},{"do":"attack","target":"skeleton"}]}
+- 06:49 act: {"actions":[{"do":"goto","target":{"x":-178,"y":67,"z":424}}],"say":"Taking cover from the skeleton. Health is low."}
+- 06:49 act: {"actions":[{"do":"goto","target":{"x":-166,"y":67,"z":418}}],"say":"I have almost no health. Moving northeast away from the bow."}
+- 06:50 act: {"actions":[{"do":"goto","target":{"x":-172,"y":68,"z":452}}]}
+- 06:50 act: {"actions":[],"say":"I am at 0.67 health and have no food. I am hiding in the birch woods at -172,69,452, away from the skeleton. Zack, if you find an animal, tell me where."}
+- 06:54 act: {"actions":[],"say":"I have no fishing rod, so I cannot fish, and I have no food. I am staying still at -172,69,452 to keep my health. If anyone brings food, come find me here."}
+- 06:57 act: {"actions":[{"do":"goto","target":{"x":-266,"y":67,"z":368}}],"say":"Heading to Tommy at the sign for the porkchops. I'm at 0.67 health."}
+- 06:57 act: {"actions":[],"say":"Tommy, I'm at the sign with health 0.67 and no food. Could you give me a porkchop when you can?"}
+- 06:58 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":365}}],"say":"Thank you both. I'm going to the yellow bed for the night, close to you."}
