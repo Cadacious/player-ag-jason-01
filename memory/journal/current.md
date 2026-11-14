@@ -138,3 +138,32 @@
 - 11:11 act: {"say":"Billy, glad you're back. Stay on this grass, away from the water to the north-east. I'm holding here for any food sighting."}
 - 11:19 act: {"say":"Billy, dusk is here. We go to the yellow beds at -274,69,291 on grass for the night, then sleep. Stay near me.","intent":{"goal":"reach_bed_for_night","program":"travel","arguments":{"target":
 - 11:19 act: {"actions":[{"do":"goto","target":{"x":-274,"y":69,"z":291}}]}
+- 11:19 act: {"say":"Jason: woke at dawn by the beds. No food yet. I'll search the grass for sheep, cow or chicken now, meat to Picard first."}
+- 11:23 act: {"intent":{"goal":"search_food_on_grass","program":"travel","arguments":{"target":{"x":-265,"y":65,"z":268}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_
+- 11:28 act: {"intent":{"goal":"search_food_on_grass_west","program":"travel","arguments":{"target":{"x":-285,"y":68,"z":270}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_w
+- 11:28 say: {"text":"Jason here, at -285,67,270 on grass. No animals in sight. Billy, stay on grass away from the water. Trini, I'll keep searching west."}
+- 11:28 say: {"text":"Tommy, I have an empty pack, so no dirt or planks to bring. I'm on grass at -285,67,270 and will bring any meat to Picard first."}
+- 11:40 act: {"intent":{"goal":"reach_beds_for_night","program":"travel","arguments":{"target":{"x":-273,"y":69,"z":291}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_
+- 11:41 act: {"intent":{"goal":"hunt_chicken_west","program":"travel","arguments":{"target":{"x":-261,"y":65,"z":266}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_tic
+- 11:42 act: {"say":"Picard, I'm at -261,65,267 on grass. The chicken is gone, and I found only the water to the north. Tommy mentions a pig by dry land at first light. I'll wait for light and search, staying off 
+- 11:47 act: {"say":"Picard, agreed. Dry ground and the beds. I'll wait for daylight here and search for the pig after."}
+- 11:50 act: {"intent":{"goal":"reach_pig_dry_ground","program":"travel","arguments":{"target":{"x":-330,"y":63,"z":220}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_
+- 11:50 act: {"intent":{"goal":"search_pig_south_west","program":"travel","arguments":{"target":{"x":-285,"y":68,"z":270}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world
+- 11:50 act: {"intent":{"goal":"search_grass_for_pig","program":"travel","arguments":{"target":{"x":-302,"y":66,"z":261}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_
+- 11:50 act: {"intent":{"goal":"search_grass_south_for_animals","program":"travel","arguments":{"target":{"x":-276,"y":69,"z":304}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"
+- 11:50 act: {"intent":{"goal":"search_grass_near_crafting_table_for_animals","program":"travel","arguments":{"target":{"x":-292,"y":69,"z":280}},"wake_on":["directly_addressed","unexpected_damage","goal_completed
+- 11:51 act: {"intent":{"goal":"search_grass_east_for_animals","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":275}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"m
+- 11:53 act: {"say":"Tommy, get onto dry grass and stay off the water. Trini has drowned at the sheep spot, so no sheep there. I have nothing to share, Zack. Picard, I'm glad you're safe with the porkchop.","inten
+- 11:53 act: {"intent":{"goal":"search_grass_further_southeast","program":"travel","arguments":{"target":{"x":-238,"y":66,"z":300}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"
+- 11:53 act: {"intent":{"goal":"carry_dirt_toward_zack_on_grass","program":"travel","arguments":{"target":{"x":-272,"y":67,"z":240}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{
+- 11:53 act: {"intent":{"goal":"reach_zack_pillar_with_dirt","program":"travel","arguments":{"target":{"x":-265,"y":66,"z":198}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max
+- 11:53 act: {"say":"Zack, I'm on the grass at -265,65,198, about 30 blocks above you. I have 2 dirt. Can you see me, and can I reach your edge from here?"}
+- 11:54 act: {"actions":[{"do":"goto","target":{"x":-266,"y":65,"z":196}},{"do":"place","block":"dirt","at":{"x":-266,"y":35,"z":195}}],"say":"Zack, moving over you now at -266,65,196. I'll try placing dirt toward
+- 11:54 act: {"actions":[{"do":"goto","target":{"x":-264,"y":65,"z":198}}],"say":"Billy, I'm hungry-ish but not out yet, keep the mutton for whoever has nothing. I'm in the lake edge and getting back to the grass 
+- 11:54 act: {"say":"Zack, I'm sorry. My place failed: the target is out of reach from up here, and the lake is between us. I'll keep the 2 dirt and look for a way down to your edge on dry ground."}
+- 11:58 act: {"intent":{"goal":"reach_chicken_south","program":"travel","arguments":{"target":{"x":-261,"y":65,"z":264}},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"limits":{"max_world_
+- 11:58 act: {"actions":[{"do":"goto","target":{"x":-261,"y":65,"z":266}}],"say":"Picard, I'm near you. I don't see the chicken yet; I'm going to its spot at -261,65,266. Billy drowned, sadly."}
+- 11:58 act: {"intent":{"goal":"search_grass_south_for_animals","program":"travel","arguments":{"target":{"x":-262,"y":65,"z":300}},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"limits":{
+- 11:58 act: {"actions":[{"do":"unstick"}],"say":"I'm in a pit at -262,66,300. Getting out, and it's getting dark, so I'll head for the yellow beds nearby."}
+- 11:59 act: {"actions":[{"do":"goto","target":{"x":-274,"y":69,"z":292}}],"say":"Picard, thanks. I'm heading to the yellow beds for the night. I picked up dirt and wheat seeds from the pit."}
+- 11:59 act: {"actions":[{"do":"goto","target":{"x":-274,"y":69,"z":292}}]}
