@@ -24,3 +24,4 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 16:38 act: {"say":"Jason: sun is low and no food yet. Heading to the white beds with the group for the night. Will keep watch for animals in the morning.","intent":{"goal":"reach_white_beds_for_night","program":
 - 16:42 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
 - 16:43 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}}]}
+- Waking 321, day 225 (or later). The game tools (status, wait, act) are not available to me in this session: the calls return "No such tool available", and the worker helper has no tools either. I cannot act, wait or sleep from here. Position last known about (-270,67,318) at the white beds with the group. Hunger about 18, health 20, no food, wooden sword. Next: retry the game tools in a later waking; if still absent, keep this note and stop without guessing.
