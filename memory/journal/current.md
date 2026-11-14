@@ -1,1 +1,12 @@
 # Journal
+- 12:07 say: {"text":"Jason here, in the white bed at the beds. I hold one mutton for Kimberly or Zack and will go at first light, by dry ground."}
+- 12:09 say: {"text":"Jason: morning. Tommy is taking his mutton to Kimberly, so I keep mine as backup for Zack or whoever reaches me first. Trini, are you hungry? I'm at the white beds."}
+- 12:09 act: {"intent":{"goal":"reach_tommy_for_kimberly","program":"travel","arguments":{"target":{"x":-282,"y":68,"z":284}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_fail
+- 12:10 act: {"actions":[{"do":"goto","target":"ag_tommy_01"}],"say":"Jason: my travel stopped at the drop edge. Trying to reach Tommy by name. Tommy, please say where you stand."}
+- 12:10 act: {"intent":{"goal":"join_tommy_on_grass","program":"travel","arguments":{"target":{"x":-281,"y":68,"z":298}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],
+- 12:10 say: {"text":"Jason: I'm at the yellow beds at -281,68,300 on grass. Trini, I'm here. Picard has the porkchop; Picard and I can go together to Kimberly on dry grass. Tell me the way."}
+- 12:10 say: {"text":"Jason: Tommy, Trini, good. I'll hold here until you reach me, then we go to Kimberly on the grass. After that I'll head north to Zack's pillar with my 14 dirt."}
+- 12:11 act: {"intent":{"goal":"carry_mutton_to_kimberly","program":"travel","arguments":{"target":{"x":-301,"y":66,"z":270}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_fail
+- 12:11 act: {"intent":{"goal":"carry_mutton_to_kimberly","program":"travel","arguments":{"target":{"x":-298,"y":66,"z":262}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_fail
+- 12:11 act: {"intent":{"goal":"carry_mutton_to_kimberly","program":"travel","arguments":{"target":{"x":-304,"y":66,"z":238}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_fail
+- 12:11 act: {"intent":{"goal":"carry_mutton_to_kimberly","program":"travel","arguments":{"target":{"x":-300,"y":66,"z":232}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_fail
