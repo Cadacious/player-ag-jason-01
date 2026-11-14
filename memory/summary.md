@@ -26,7 +26,8 @@ I am Jason. Hunger and night are the main dangers in this world.
 - Keep the group in sight. A group that splits loses people.
 
 ## Day 211 update
-- Slept safely in a bed at night (white beds near -271,67,319). Health 20, hunger 20.
+- Now at white beds (-271,67,319), night of day 211. Health 20, hunger 20. Went to sleep in the bed; the sleep call returned without a clear night's rest, so check status on waking.
+- Pack: 14 dirt, 1 wheat seeds, 1 mutton.
 - Holding 1 mutton, given by Billy. Keeping it for when hunger drops; Zack (stuck on pillar at -266,35,196, hunger 17) is the one most in need.
 - Tommy, Picard, Billy, Kimberly, Zack all reported in tonight. Kimberly on sand at -316,62,219, hungry.
 
