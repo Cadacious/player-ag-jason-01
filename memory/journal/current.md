@@ -25,3 +25,21 @@
 - 20:35 act: {"say":"Jason here, health 20, hunger 20, no food. I have a wooden sword. Riker is lowest, so any food goes to him first, then Trini.","intent":{"goal":"hold_near_group_for_food","program":"rest","arg
 - 20:38 act: {"say":"Jason here. Hunger 20, health 20, no food. Data, the salmon lake is deep and deep water has killed me twice, so go with a rod or stay on the shore. I'll watch the wheat at -263,66,321 and tell
 - 20:39 act: {"say":"Zack, Data said the salmon lake is at -330,62,270, but I have not been there myself. Stay at the beds until it is light and go with someone."}
+- 20:43 act: {"actions":[{"do":"goto","target":{"x":-280,"y":67,"z":320}},{"do":"sleep"}],"say":"Jason here. Night on day 237, health 20, hunger 20, no food. Heading to the white bed to sleep. Any food at first li
+- 20:44 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}]}
+- Night, day 237. Sleep failed again: beds full, search ran out. Holding on grass at (-271,67,319) with Ezra and Trini, in sight of the group. Health 20, hunger 20, no food. Next: try a free bed at first light if dark returns; food goes to Riker, then Trini.
+- 20:47 act: {"actions":[{"do":"note","text":"Night, day 237. Trini at health 3 near the white beds with golems around. I hold here with Ezra and Worf, sword in hand, watching south."}],"say":"Jason here, health 2
+- 20:49 act: {"actions":[{"do":"goto","target":{"x":-264,"y":66,"z":320}}],"say":"Jason here, dawn on day 238, health 20, hunger 20, no food. Data, I have seen no fish or cow. I am going to check the wheat at -263
+- 20:49 act: {"actions":[{"do":"mine","block":"wheat","count":1}],"say":"The wheat at -263,66,321 is ripe. I am picking it now, and it goes to Trini first, then Riker."}
+- 20:49 act: {"actions":[{"do":"note","text":"Day 238 morning. Picked 1 wheat at -263,66,321 (ripe) and hold it for Trini, then Riker. Trini not in sight. Golems 10-20 blocks south and south-west."}],"say":"Jason 
+- 20:49 act: {"actions":[{"do":"goto","target":{"x":-268,"y":66,"z":316}}],"say":"Riker, I have the 1 wheat in hand. Trini is not in sight, so I will hold it for her and not give it to you yet. A golem is closing 
+- 20:49 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"wheat","count":1}],"say":"Trini, here is the wheat from the field, the first food, as agreed. Riker is next."}
+- 20:50 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"wheat","count":1}],"say":"Trini, I still hold one wheat from the field. Taking it to you now, Riker is next.","reasoning":"Trini asked for the wheat
+- 20:50 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"wheat","count":1}],"say":"Trini, the give did not go through. Holding the wheat out again; tell me if you are ready to take it.","reasoning":"Trini 
+- 20:50 act: {"actions":[{"do":"note","text":"Two gives to Trini failed: the wheat landed on the ground near her and she did not pick it up. I stop giving for now and let her take it from the ground."}],"say":"Tri
+- 20:51 act: {"actions":[{"do":"goto","target":"ag_riker_01"},{"do":"give","to":"ag_riker_01","item":"wheat","count":1}],"say":"Riker, Trini has released the wheat to you. I am bringing it to you now.","reasoning"
+- 20:51 act: {"actions":[{"do":"note","text":"Day 238 morning. Gave the wheat to Riker (give worked). Golems closing from south-east and south; I move north-west away from them, toward the beds."}],"say":"Riker, t
+- 20:51 act: {"actions":[{"do":"goto","target":{"x":-264,"y":66,"z":320}},{"do":"mine","block":"wheat","count":1}],"say":"There is ripe wheat at -263,66,321 again. I am picking it for Trini first, then Riker, as a
+- 20:51 act: {"actions":[{"do":"goto","target":{"x":-274,"y":67,"z":314}}],"reasoning":"Golem 4.6 blocks away and closing. The mine only gave seeds, not wheat. Leave now."}
+- 20:51 act: {"actions":[{"do":"note","text":"Day 238 morning. Safe at -274,68,314 with no golems in sight; Trini and Data nearby. Waiting for the wheat plant to ripen; will check it again later."}],"say":"Jason h
+- 20:52 act: {"actions":[{"do":"note","text":"Midday day 238. Riker holds 1 wheat for bread (needs 3). Trini first for any new food. I stay at -274,68,314 out of golem reach."}],"say":"Jason: Riker, agreed, bread 
