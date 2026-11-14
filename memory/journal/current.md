@@ -20,3 +20,5 @@
 - 20:30 act: {"actions":[{"do":"note","text":"Dawn, day 237. Could not sleep last night: golems kept searching the beds and the search ran out. Group is going west to look for animals and apples. Health 20, hunger
 - 20:30 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":316}}],"say":"Jason moving north away from the golems to the white beds.","intent":{"goal":"reach_safe_spot_north","program":"travel","arguments"
 - 20:30 act: {"actions":[{"do":"note","text":"Day 237 morning. At the white beds, north side (-270,67,316), safe, no golems in sight. Health 20, hunger 20, no food. Group is out west looking for animals. Waiting f
+- 20:32 act: {"say":"Jason here, day 237 morning, health 20, hunger 20, no food. I'll hold at the north side of the white beds with the group and try a bed at dusk once the golems are clear.","intent":{"goal":"hol
+- 20:32 act: {"intent":{"goal":"wait_for_dusk_then_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":6000,"max_block_operat
