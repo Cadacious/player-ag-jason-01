@@ -160,3 +160,9 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 19:27 act: {"say":"Billy, I am at -271, 67, 319, on the planks next to the white beds. Walk here and stand in front of me, then give the 2 mutton."}
 - 19:28 act: {"actions":[{"do":"eat"}],"say":"Got the mutton, thank you Billy. Eating now."}
 - 19:28 act: {"say":"Ate one mutton. Hunger is 19. I'm keeping the other for Kimberly or whoever is lowest. Let's scout the grass together at first light."}
+- 19:29 act: {"actions":[{"do":"eat"}],"say":"Jason here, awake at dawn with hunger 19. Thank you Billy, I'm eating the mutton now.","reasoning":"Hunger 19 and I hold mutton. Eat it first, as the lessons say."}
+- 19:29 act: {"actions":[],"say":"Billy, I'm ready. I'll scout the grass with you as soon as you're up. I have a wooden sword and hunger is 20.","intent":{"goal":"scout_grass_with_billy","program":"follow","argume
+- 19:29 act: {"actions":[{"do":"goto","target":{"x":-284,"y":66,"z":322}}],"say":"Jason heading to the west grass to scout with Worf and Billy. Calling out any cow, pig, sheep or apple.","intent":{"goal":"scout_we
+- 19:32 act: {"actions":[{"do":"mine","block":"oak_leaves","count":4}],"say":"Jason: I have no food, hunger 20. Tommy, you're at health 5, so any meat or apple goes to you first. I'm breaking oak leaves for apples
+- 19:37 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":322}}],"say":"Jason heading back to the white beds to stay with the group until dusk. No food on me.","intent":{"goal":"return_to_white_beds","pr
+- 19:41 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}],"say":"Jason going to the white bed at -271,67,318 for the night. No food, but I'm holding nothing back: any meat goes to Tommy first."}
