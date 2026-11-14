@@ -1,4 +1,5 @@
 # Journal
+- 21:24 Night day 239, at white bed -270,67,318. Health 6, hunger 16, no food. Holding here with Riker and LaForge until light. Said I have no food; asked Riker to give the chicken to Trini first.
 - 20:13 act: {"actions":[{"do":"craft","item":"wooden_sword","count":1}],"say":"Jason here, day 236 midday. No sword in my pack, so I am making one before I walk. Hunger 20.","intent":{"goal":"join_group_west_gras
 - 20:13 act: {"actions":[{"do":"note","text":"Armed with a new wooden sword. Joined the group at the west grass. Holding here, watching the golems to the south-east."}],"say":"Jason here with the group, armed with
 - 20:17 act: {"actions":[{"do":"note","text":"Afternoon, day 236. Still holding at the west grass with the group. No food seen. Hunger 20, health 20. Golems 20 blocks south-east, not closing."}]}
@@ -78,3 +79,8 @@
 - 21:22 act: {"actions":[{"do":"goto","target":{"x":-274,"y":69,"z":292}},{"do":"sleep"}],"say":"Jason heading to the yellow bed to sleep, Trini.","reasoning":"Phantom 5 blocks north near the yellow bed, but the b
 - 21:22 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"reasoning":"Phantoms closing from north and south. The white bed at -271,67,318 is the nearest free bed; go there and try 
 - 21:22 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"reasoning":"No phantoms in view now. Riker is beside me. Try the bed once more."}
+- 21:23 say: {"text":"Jason here. I have no food, only planks, logs and a sword. Riker, if you can spare the raw chicken, Trini should eat first."}
+- 21:23 act: {"intent":{"goal":"hold_at_beds_until_light","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":3000,"max_block_oper
+- 21:24 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":310}}],"say":"Jason here, health 6, hunger 16, no food. A golem is 7 blocks south-west, so I am moving north a little, with the group. Riker, tha
+- 21:24 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason: phantom closing from the south-west, health 6. Trying the white bed at -271,67,318 with the group nearby."}
+- 21:28 act: {"say":"Jason here, dawn on day 240. Health 6, hunger 16, no food, sword in hand. Trini first with any food. I will scout the grass to the east with anyone who goes, and stay in sight of the group.","
