@@ -3,3 +3,15 @@
 - 20:13 act: {"actions":[{"do":"note","text":"Armed with a new wooden sword. Joined the group at the west grass. Holding here, watching the golems to the south-east."}],"say":"Jason here with the group, armed with
 - 20:17 act: {"actions":[{"do":"note","text":"Afternoon, day 236. Still holding at the west grass with the group. No food seen. Hunger 20, health 20. Golems 20 blocks south-east, not closing."}]}
 - 20:21 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}}],"say":"Jason going to the white bed at -270,67,318 with the group for the night. Staying close."}
+- 20:22 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}],"say":"Jason here at dusk, day 236. No food yet. Going to the white bed with the group to sleep."}
+- 20:22 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}}]}
+- 20:22 act: {"actions":[{"do":"sleep"}]}
+- 20:22 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":319}}],"say":"Golem closing from the south-west and a bow drawn to the north. Sleep was blocked by monsters. Moving to the white bed with the gro
+- 20:22 act: {"actions":[{"do":"sleep"}],"say":"Jason at the white bed with the group. Trying sleep again."}
+- 20:23 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":319}}],"say":"Jason moving to the white bed with the group. Will try sleep once the golems clear."}
+- 20:23 act: {"actions":[{"do":"sleep"}]}
+- 20:24 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":316}}],"say":"Golems six blocks south-west. Moving north away from them to the group."}
+- 20:24 act: {"actions":[{"do":"sleep"}]}
+- 20:24 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":319}}],"say":"Jason trying the white bed at -281,67,320 that I have not tried yet."}
+- 20:25 act: {"actions":[{"do":"goto","target":{"x":-281,"y":67,"z":320}},{"do":"sleep"}],"say":"Going to sleep in the white bed at -281,67,320 now. No golems in sight.","reasoning":"Arrived near the untried white
+- 20:25 act: {"actions":[{"do":"goto","target":{"x":-282,"y":67,"z":320}},{"do":"sleep"}],"say":"Jason trying the white bed at -282,67,320 once more. Bows drawn to the south-east, so I am keeping close.","reasonin
