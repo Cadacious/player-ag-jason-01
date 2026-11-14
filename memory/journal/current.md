@@ -106,3 +106,8 @@
 - 07:43 act: {"intent":{"goal":"rest_at_bed_till_dawn","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":6000,"max_block_operations":
 - 07:43 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}]}
 - 07:43 act: {"actions":[{"do":"sleep"}]}
+- 07:44 act: {"say":"Kimberly, I'm at the yellow bed at -262,67,354, about 20 blocks from you. I'm weakest, hunger 17. Could you bring one mutton here, or I'll come to you at first light."}
+- 07:44 act: {"intent":{"goal":"walk_to_kimberly_for_mutton","program":"travel","arguments":{"target":{"x":-281,"y":69,"z":371}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max
+- 07:44 act: {"say":"Kimberly, I'm right beside you. Please give me one mutton. Thank you."}
+- 07:45 act: {"say":"Thank you, Kimberly. I don't see it in my pack yet. I'll wait a moment."}
+- 07:45 act: {"say":"Kimberly, I think the mutton was eaten by my reflex, since my health rose. Thank you. Zack, keep the last one; I won't take it.","actions":[{"do":"note","text":"Day 198 night: Kimberly gave me
