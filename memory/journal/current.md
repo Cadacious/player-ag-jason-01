@@ -13,3 +13,4 @@
 - 06:14 act: {"actions":[{"do":"goto","target":{"x":-229,"y":68,"z":402}},{"do":"attack","target":"chicken"}],"say":"Chicken spotted to the southeast at -229, 68, 404. I'm going for it now. Everyone, come share.",
 - 06:14 act: {"actions":[{"do":"eat"}],"say":"I got a chicken and I'm eating it now. Everyone, I'll look for more chickens nearby, and I'll share.","reasoning":"Hunger 18 and I now hold one chicken. Eat it, then l
 - 06:14 act: {"actions":[],"say":"Thanks, Zack. I'm full enough for now at hunger 20. I'll hold here and search nearby for more chickens. Tell the others where you are, and we'll share what we find.","reasoning":"
+- 06:21 act: {"say":"It's night and I'm too far from the beds to reach them safely. I'll stay here until morning and look for chickens at first light.","intent":{"goal":"hold_position_until_dawn","program":"rest",
