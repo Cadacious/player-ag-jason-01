@@ -101,3 +101,7 @@ Day 223, night. Hunger 19, health 20, no food all day. Scouted the grass south-w
 - 18:29 say: {"text":"Jason back at the white beds with Tommy, health 20, hunger 16, no food. Golems are closing from the west, so I'm holding here with the group."}
 - 18:31 say: {"text":"Jason here, day 231, hunger 16, no food yet. I'll stay near Tommy and scout the grass east of the beds. Kimberly gets any food first."}
 - 18:31 act: {"intent":{"goal":"scout_food_near_group","program":"travel","arguments":{"target":{"x":-262,"y":66,"z":332}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"
+- 18:34 act: {"say":"Jason: no food yet, Tommy. I have seen no cow, pig, sheep or apple today. I'll scout the grass east of the beds and keep you in sight.","intent":{"goal":"scout_east_grass","program":"travel","
+- 18:34 act: {"say":"Scouted east, no animals here. I'm trying the oak leaves for apples, then I'll come back toward Tommy.","actions":[{"do":"mine","block":"oak_leaves","count":4}]}
+- 18:34 act: {"say":"Leaves gave nothing. Heading back west toward you, Tommy.","intent":{"goal":"return_near_group","program":"travel","arguments":{"target":{"x":-258,"y":66,"z":332}},"wake_on":["directly_address
+- 18:39 act: {"say":"Heading to the white beds with the group for the night. Still no food. Calling out anything at dawn.","intent":{"goal":"reach_white_bed_for_night","program":"travel","arguments":{"target":{"x"
