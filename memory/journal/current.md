@@ -10,3 +10,24 @@
 - 12:11 act: {"intent":{"goal":"carry_mutton_to_kimberly","program":"travel","arguments":{"target":{"x":-298,"y":66,"z":262}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_fail
 - 12:11 act: {"intent":{"goal":"carry_mutton_to_kimberly","program":"travel","arguments":{"target":{"x":-304,"y":66,"z":238}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_fail
 - 12:11 act: {"intent":{"goal":"carry_mutton_to_kimberly","program":"travel","arguments":{"target":{"x":-300,"y":66,"z":232}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_fail
+- 12:12 act: {"actions":[{"do":"unstick"}],"say":"Jason: I'm standing in water at -300,62,236 by mistake. Getting out now. I'll not go further north in this water; Trini and Billy, hold on the grass."}
+- 12:12 act: {"actions":[{"do":"goto","target":{"x":-296,"y":66,"z":262}}],"say":"Jason: I'm in water at -298,61,236. Walking back out south-east to the grass, away from the lake."}
+- 12:12 act: {"actions":[{"do":"note","text":"Day 212: entered lake water at -298,61,236 by mistake, got out. North route to Kimberly is deep water. Holding on grass at -297,66,262 with 2 mutton."}],"say":"Jason: 
+- 12:12 act: {"actions":[],"say":"Jason: Trini, good plan. Lay your planks toward Kimberly from the shallowest side. I'll keep my 14 dirt for Zack, but I can add dirt blocks if the planks run short. Kimberly, stay
+- 12:13 act: {"intent":{"goal":"dirt_to_zack","program":"travel","arguments":{"target":{"x":-268,"y":66,"z":200}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"limits
+- 12:13 act: {"actions":[],"say":"Jason: I'm at -267,65,199 on grass, next to the lake. Zack, where are you? I have 14 dirt. Say your spot and I'll place it under you from the nearest dry edge."}
+- 12:14 act: {"actions":[{"do":"goto","target":{"x":-266,"y":65,"z":196}}],"say":"Jason: going to -266,65,196 as you asked, Zack. I'll look straight down and tell you what's there."}
+- 12:16 act: {"actions":[],"say":"Jason: Zack, I'm at -266,65,197 on grass. Below me is only air and water, so I can't drop dirt that far. Can you dig or build a stair up from your pillar? Tell me the closest shor
+- 12:18 act: {"actions":[{"do":"note","text":"Day 212: on grass at -266,65,197 with 14 dirt and 2 mutton. Zack cannot climb, so he says help Kimberly first. The lake still blocks Kimberly. Holding the mutton until
+- 12:19 act: {"actions":[{"do":"note","text":"Dusk on day 212. Open grass at -266,65,197, not enclosed. A reflex panic_burrow started and did not finish. I have 14 dirt, which is short of a 25-block shelter."}],"s
+- 12:19 act: {"actions":[{"do":"note","text":"Dusk day 212. Built a dirt wall of 14 at -266,65,197; it stopped short one block for lack of dirt. Still not enclosed. Holding 2 mutton for Kimberly, who waits on sand
+- 12:20 act: {"actions":[{"do":"write_sign","text":"Jason: mutton for Kimberly"},{"do":"note","text":"Night, day 212. Still no dry route to Kimberly, and Zack is cut off on his pillar. Holding 2 mutton on grass at
+- 12:21 act: {"actions":[],"say":"Billy, Trini, good. I'm staying on grass at -266,65,197, away from the water, with my wall half built. Kimberly's mutton is with me."}
+- 12:24 act: {"actions":[{"do":"goto","target":{"x":-264,"y":65,"z":206}}],"say":"A skeleton is shooting at me from the northeast. I'm moving south out of its sight."}
+- 12:24 act: {"actions":[{"do":"goto","target":{"x":-256,"y":65,"z":214}}],"intent":{"goal":"get_clear_of_skeleton","program":"flee","arguments":{"from":"skeleton"},"wake_on":["goal_completed","unexpected_damage"]
+- 12:25 act: {"actions":[{"do":"goto","target":{"x":-262,"y":66,"z":222}},{"do":"note","text":"Night, day 212. Hit by arrow, health 16.8. Moving south away from skeleton, holding 2 mutton for Kimberly."}],"intent"
+- 12:25 act: {"actions":[{"do":"note","text":"Day 212 night: reflex eat ate my 2 mutton while hunger was low. Kimberly's mutton is gone; must tell her. I am enclosed in a pit at -260,65,221, health rising."}],"int
+- 12:26 act: {"actions":[{"do":"note","text":"Kimberly died on the sand and is at the white beds. My 2 mutton were eaten by reflex before I could deliver them. I am sheltered in a pit at -260,65,221; waiting for d
+- 12:31 act: {"intent":{"goal":"find_chicken_south","program":"travel","arguments":{"target":{"x":-261,"y":65,"z":262}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
+- 12:31 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"leave_water_to_grass","program":"travel","arguments":{"target":{"x":-262,"y":66,"z":222}},"wake_on":["goal_completed","unexpected_damage"],"limits":{"ma
+- 12:31 act: {"actions":[{"do":"note","text":"Day 213: died in the lake at -260,58,231 (drowned attacked me while I was in deep water). Dropped 2 dirt and 1 wheat_seeds there. Respawned at white beds -270,67,319 w
