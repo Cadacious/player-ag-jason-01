@@ -1359,3 +1359,22 @@
 - 01:35 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"chicken","count":1}],"say":"Trini, you asked for food and you're here, so the chicken is yours. Kimberly, I'll find you some other way."}
 - 01:35 act: {"say":"Kimberly, I'm at the yellow beds too, and I have no food left, only 2 dirt and some wheat seeds. Billy, please give the beef to Kimberly first. I'll go look for the pigs to the south-west.","i
 - 01:36 act: {"actions":[{"do":"goto","target":{"x":-347,"y":64,"z":231}},{"do":"attack","target":"pig"}],"intent":{"goal":"kill_pig_for_food","program":"travel","arguments":{"target":{"x":-348,"y":64,"z":230}},"w
+- 01:38 act: {"actions":[{"do":"goto","target":{"x":-362,"y":64,"z":228}}],"say":"A pillager is shooting at me from the east. I'm backing off west.","intent":{"goal":"flee_pillager","program":"flee","arguments":{"
+- 01:38 act: {"actions":[{"do":"eat"},{"do":"unstick"}]}
+- 01:38 act: {"actions":[],"say":"Jason here, west of the pig area. I have 2 porkchop. Kimberly, come west to me if the pillager is gone, and I'll share."}
+- 01:39 act: {"actions":[{"do":"attack","target":"pillager"}],"say":"Pillager on me. I'm fighting it."}
+- 01:39 act: {"actions":[],"say":"Kimberly, the pillager is gone from here. I'm sorry, I have no porkchop left: I ate it while I was being shot. I'm in the pit west of the pig area and it's getting dark."}
+- 01:39 act: {"actions":[],"say":"Trini, I'm sorry, I have no porkchop left. I ate them while the pillager shot me. Billy's beef should go to you and Kimberly. I'm staying in this pit for the night."}
+- 01:42 act: {"actions":[{"do":"sleep"}]}
+- 01:45 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"}]}
+- 01:45 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-262,"y":67,"z":353}}],"say":"Zombie and spider on me, health 4. I'm running for the yellow beds."}
+- 01:45 act: {"actions":[],"say":"Kimberly, I died in the pit: a zombie and spider killed me. I respawned here with nothing and I'm very hungry. If you can spare your beef, I'd be grateful."}
+- 01:46 act: {"actions":[{"do":"wait","seconds":5},{"do":"eat"}],"say":"Thank you, Kimberly. I'll pay it back with the first food I find."}
+- 01:47 act: {"actions":[],"say":"Kimberly, it's still dark and I just died once in the open, so I'll stay by the beds until light. If you still have the beef, could you bring it here? I'll walk to you at first li
+- 01:49 act: {"actions":[],"say":"Kimberly, I'm still at the yellow beds, by the crafting table. I have nothing in my pack. Please bring the beef here, or tell me exactly where you are and I'll come."}
+- 01:50 act: {"actions":[],"say":"Kimberly, Tommy is hungrier than me, so give the beef to him. I'm at 20 hunger. Tommy, I'll go west with Billy and look for cows or sheep."}
+- 01:51 act: {"actions":[],"intent":{"goal":"search_west_for_animals","program":"travel","arguments":{"target":{"x":-295,"y":67,"z":355}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","preco
+- 01:51 act: {"actions":[],"intent":{"goal":"reach_zack_cow","program":"travel","arguments":{"target":{"x":-210,"y":72,"z":287}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_f
+- 01:51 act: {"actions":[{"do":"unstick"}]}
+- 01:52 act: {"actions":[],"say":"Thanks Zack. Tommy and Billy, eat first, I'm full at 20. I'll keep near the beds and look for seeds or crops nearby."}
+- 01:56 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}}],"say":"Going to the yellow bed for the night. I'm full on hunger but have no food, so Tommy and Kimberly keep the beef."}
