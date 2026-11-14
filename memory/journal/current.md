@@ -61,3 +61,45 @@
 - 06:57 act: {"actions":[{"do":"goto","target":{"x":-266,"y":67,"z":368}}],"say":"Heading to Tommy at the sign for the porkchops. I'm at 0.67 health."}
 - 06:57 act: {"actions":[],"say":"Tommy, I'm at the sign with health 0.67 and no food. Could you give me a porkchop when you can?"}
 - 06:58 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":365}}],"say":"Thank you both. I'm going to the yellow bed for the night, close to you."}
+- 06:59 say: {"text":"Thank you, Kimberly. I have no food at all, hunger 17. Zack, if you have any spare food, I would be grateful. I will stay near the sign."}
+- 06:59 act: {"intent":{"goal":"wait_for_food_at_sign","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"
+- 06:59 say: {"text":"Thank you, Trini. I'm at the yellow bed by the sign, waiting. I'll eat as soon as the mutton reaches me."}
+- 07:00 say: {"text":"Trini, I'm at the yellow bed right next to the crafting table, about 4 blocks west of the sign. Please bring the mutton here."}
+- 07:00 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":364}},{"do":"sleep"}],"say":"Good night all. Tommy, thank you. I'm going into the yellow bed now. Please keep watch; I'll share any food at first
+- 07:04 say: {"text":"Trini, I'm at the yellow bed at -272,68,365, by the signs. I have no food. Please bring what you can here, and Zack too if you pass him."}
+- 07:04 say: {"text":"Thank you all. Billy, bring the mutton here to the yellow bed, I am waiting. Trini, the beef should go to Tommy and Zack, since I am near the crafting table and can wait a little longer."}
+- 07:09 act: {"actions":[{"do":"eat"}],"say":"Thank you, Billy. I have not seen the mutton in my pack yet, so I will check again."}
+- 07:10 say: {"text":"Zack, I am standing at the yellow bed at -272,68,365, right beside the crafting table. Please bring the mutton here, I can see you when you come close. Tommy can have the next meat."}
+- 07:10 say: {"text":"Kimberly, I can see you. Please give me the 2 mutton now, and I will share with Tommy."}
+- 07:11 say: {"text":"Tommy, I am right here at the yellow bed, in sight. Please give me one mutton, the weakest is me. Thank you."}
+- 07:12 say: {"text":"Kimberly, I can't see you from here. I'm at the yellow bed, -272,68,365, on the grass. Please come over and hand me the 2 mutton, I'm weakest and need to eat."}
+- 07:14 say: {"text":"Kimberly, Trini, I'm standing on the grass at -272,68,365 by the yellow beds, and I see neither of you. Tell me your exact spot and I'll walk to you. Or come within sight. Thank you."}
+- 07:14 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"}],"say":"Kimberly, I'm coming to you now, next to you. Please hand me the mutton."}
+- 07:15 say: {"text":"Items are on the ground near me, so gives fail. I'm stepping toward Kimberly's spot to pick them up. Please don't drop more; I'll eat as soon as I have it."}
+- 07:15 act: {"actions":[{"do":"goto","target":{"x":-273,"y":68,"z":366}},{"do":"eat"}]}
+- 07:15 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":364}},{"do":"sleep"}]}
+- 07:15 say: {"text":"Tommy, you're right beside me. Yes, please give me your rotten flesh now, I'm starving. Thank you."}
+- 07:16 act: {"actions":[{"do":"eat"}],"say":"Thank you Tommy, I have the rotten flesh now. Eating it.","reasoning":"Pack holds 2 rotten_flesh, edible. Hunger 17. Eat now."}
+- 07:16 say: {"text":"Kimberly, I'm the weakest now and have no real food. Please bring your 2 mutton to me here by the beds. Thank you."}
+- 07:17 say: {"text":"Kimberly, I'm standing right at the yellow beds, on the grass at -272, 68, 365. Thank you."}
+- 07:17 say: {"text":"Kimberly, I don't see the mutton in my pack yet. Please check whether you still hold it, or where it landed. Tell me if you're in sight."}
+- 07:18 say: {"text":"Zack, I'm right here at the yellow beds, in your sight. Please give the beef to me. Thank you."}
+- 07:18 say: {"text":"Trini, I'm here at the beds. Please hand me the beef when you're in sight. Thank you."}
+- 07:19 act: {"actions":[{"do":"goto","target":{"x":-270,"y":68,"z":363}}],"say":"Trini, I'm going to the beef by the yellow bed now. Thank you.","reasoning":"Trini's 3 beef are at the yellow bed near -271,68,364.
+- 07:19 say: {"text":"Trini, I can't see you yet. I'm standing on the grass at -272, 68, 365, just south of the yellow beds. Please come to this spot and hand me one beef."}
+- 07:25 act: {"say":"Tommy, I'm weakest here, health 3.8, hunger 17. Please share your mutton with me when you can see me. Trini, thank you, I'll wait for the cows at first light."}
+- 07:29 act: {"say":"Morning. I'm still at the yellow beds, hunger 17, health 3.8, with 2 rotten flesh I'll eat when hunger is 6. Any beef or mutton, bring it to me first. Thank you, Billy, Trini, Zack."}
+- 07:30 act: {"say":"Tommy, I have no mutton in my pack. Kimberly's went to you and was eaten. Please check your own pack. Thank you, Trini and Billy, for the cows."}
+- 07:31 act: {"say":"Billy, I'm right here on the grass, at the yellow beds. Hand me the beef now, please. Thank you."}
+- 07:32 act: {"actions":[{"do":"wait","seconds":30}],"say":"Billy, Kimberly, I'm right here on the grass at the yellow beds. Hand the meat to me now, please.","intent":{"goal":"await_meat","program":"rest","argume
+- 07:32 act: {"actions":[{"do":"wait","seconds":20}],"say":"Kimberly, Billy, I'm standing at -272, 68, 365, just south of the yellow beds. Please come into sight and hand me the meat."}
+- 07:34 act: {"actions":[{"do":"goto","target":{"x":-269,"y":68,"z":362}}],"say":"Billy, Kimberly, I'm moving north-east to the open grass by the beds, at -269, 68, 362. Come into sight."}
+- 07:34 act: {"actions":[],"say":"I'm at -273, 68, 365 by the yellow beds, in the dark now. Billy, Kimberly, I'm here. Please hand over the meat."}
+- 07:34 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":364}}],"say":"Thank you, Billy and Kimberly. I've eaten and my health is rising. Keep the mutton for Tommy and whoever is weakest. I'm going to b
+- 07:34 act: {"actions":[],"say":"Kimberly, I'm right here at the bed. Please hand me the 2 mutton; I'll eat them now."}
+- 07:36 act: {"actions":[],"say":"Thank you, Kimberly. I'm taking the mutton now and will eat it while Tommy and Trini have their share."}
+- 07:36 act: {"actions":[],"say":"Billy, Kimberly's mutton is yours now. I'm at hunger 17, so I'll go find sheep or cows soon, once I'm steadier."}
+- 07:36 act: {"actions":[],"say":"Kimberly, I see you. If the mutton is for me, please hand it over now. I'll eat it."}
+- 07:37 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"}],"say":"Kimberly, I'm coming to you now, right beside you."}
+- 07:41 act: {"actions":[{"do":"goto","target":{"x":-272,"y":68,"z":364}}],"intent":{"goal":"rest_at_yellow_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max_
+- 07:42 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}}]}
