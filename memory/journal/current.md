@@ -75,3 +75,23 @@
 - 11:13 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason here, dark at the north bed. Holding my three rotten flesh for LaForge, then Picard, as I said. Trying to slee
 - 11:15 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":327}}],"say":"Jason here. Moving north away from the golems. Hunger 15, so the flesh waits until it is 6 or below.","intent":{"goal":"hold_near_b
 - 11:15 act: {"actions":[{"do":"till","at":{"x":-273,"y":65,"z":329}}],"say":"Jason at the north beds, -271,67,327. I hold 3 rotten flesh: Trini first when you reach 6, then LaForge, then Picard. Clark, I have a h
+- 11:17 act: {"actions":[{"do":"till","at":{"x":-272,"y":65,"z":325}}],"say":"Wesley, I'm tilling a patch by you now. Plant your seed there; I'll keep the hoe for whoever needs it."}
+- 11:17 say: {"text":"Wesley, that spot was air, so the till failed. Tell me a dirt block near you and I'll till it."}
+- 11:21 act: {"actions":[{"do":"goto","target":"ag_picard_01"},{"do":"give","to":"ag_picard_01","item":"rotten_flesh","count":1}],"say":"Picard, hunger 3: I'm bringing you rotten flesh now, eat it at once. Trini a
+- 11:21 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":335}},{"do":"sleep"}],"say":"Picard is not in sight, so I'm going to the south white bed for the night. Any hungry one near the bed, call me and 
+- 11:21 act: {"actions":[],"say":"Trini, you're in reach. What is your hunger now? If it is 6 or below, say so and I'll give you the rotten flesh at once."}
+- 11:25 act: {"actions":[{"do":"goto","target":"ag_trini_01"},{"do":"give","to":"ag_trini_01","item":"rotten_flesh","count":2}],"say":"Trini, hunger 6: coming to you with rotten flesh now. Eat one as soon as it's 
+- 11:25 act: {"actions":[],"say":"Trini, I can't see you from here, so I'm holding at the bed at -270,67,327 with the flesh. Come within sight and I'll hand it over."}
+- 11:27 act: {"actions":[{"do":"wait","seconds":30}],"say":"Trini, I'm at the north beds at -270,67,327 with the rotten flesh. I don't see you yet. Come into sight and I'll hand it over at once.","intent":{"goal":
+- 11:27 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"rotten_flesh","count":2}],"say":"Trini, here are 2 rotten flesh. Eat one now, at hunger 6."}
+- 11:27 act: {"actions":[],"say":"Trini, I'm at -269,66,330 and the give failed because you're out of sight. Come back within reach and say your hunger; I'll give the flesh the moment I see you.","intent":{"goal":
+- 11:28 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"rotten_flesh","count":2}],"say":"Trini, here are 2 rotten flesh. Eat one now."}
+- 11:28 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"rotten_flesh","count":1}],"say":"Data, one rotten flesh went to you by mistake. Please give it to Trini now; she is at hunger 6. Trini, I'm giving y
+- 11:29 act: {"actions":[],"say":"Clark, the tilled patch by the south bed at -273,65,332 is free; plant there. Dawn day 282. Picard is at hunger 5 and Trini at 6; my last rotten flesh goes to whichever of them is
+- 11:30 act: {"actions":[],"say":"Picard, Trini ate Data's flesh and says you need the last one. I hold it at -270,67,327. Come within reach and say your hunger; if it's 6 or below I'll hand it over at once.","int
+- 11:30 act: {"actions":[],"say":"Clark, I tilled -273,65,332 earlier but I'm not sure it stuck. Till it again with my hoe if it's grass; the block under your seeds must be farmland, not air. I'm holding at -270,6
+- 11:41 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}},{"do":"sleep"}],"say":"Jason going to the south white bed for the night, Trini and Picard, the last flesh is with me for whoever reaches 6 
+- 11:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"intent":{"goal":"hold_flesh_for_picard","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_complet
+- 11:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"say":"Jason at the north beds, still holding the last rotten flesh for Picard, who is at hunger 5. Say when you are in reach."}
+- 11:42 act: {"actions":[{"do":"sleep"}],"say":"Jason going to sleep at the white bed by the north group. The last flesh stays with me for Picard at hunger 6 or below."}
+- 11:43 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"rotten_flesh","count":1}],"say":"Picard, here is my last rotten flesh. You reported hunger 5, so eat it now."}
