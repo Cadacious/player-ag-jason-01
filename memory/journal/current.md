@@ -36,3 +36,8 @@
 - 06:40 act: {"actions":[{"do":"note","text":"Reached north white beds at dusk with Worf, Riker, Bcrusher, Kimberly. No food yet; Lewis's wheat and Tommy's porkchops not in my pack. Sleeping in a bed."}]}
 - 06:40 act: {"say":"Picard, I'm here at the white beds with Worf and Bcrusher. I have no food yet. Keep the seeds for now; I'll plant them once I've eaten and we have tilled ground.","actions":[{"do":"note","text
 - 06:40 act: {"actions":[{"do":"sleep"}],"say":"Bcrusher, thanks for the dirt. I'm going to the bed with the group now."}
+- 06:41 act: {"actions":[],"say":"Jason here, at the white beds. My pack has no food; the porkchops and wheat have not come into my hand. Whoever holds meat, give it to the weakest first. I'll stay here by the bed
+- 06:45 act: {"actions":[{"do":"eat"}],"say":"I have 3 rotten flesh in my pack now, thanks LaForge. Eating one, Kimberly is still weakest, so I'll share the rest with her if she is in sight.","intent":{"goal":"hol
+- 06:46 act: {"actions":[],"say":"Kimberly, rotten flesh can only be eaten at hunger 6 or below, and mine is 16. I'll keep the 3 for whoever reaches 6 first, and it goes to you if you are closest then."}
+- 06:50 act: {"actions":[],"say":"Jason, dawn day 268, hunger 16, health 9. My 3 rotten flesh can be eaten at hunger 6, so Picard (hunger 6) can take one now if he is in sight. Kimberly next. I'm going west with t
+- 06:57 act: {"actions":[],"say":"Picard, thank you for the seed. I have a hoe and 9 dirt, so I'll till a patch near the beds and plant my one seed there. Meet me at the white beds and I'll come for the rest."}
