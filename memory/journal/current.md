@@ -9,3 +9,9 @@
 - 00:57 act: {"intent":{"goal":"reach_white_bed_for_night","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":318}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_w
 - 01:02 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Night. I have no food. I'm going to the free-looking bed at the north end and trying to sleep.","intent":{"goal":"sl
 - 01:04 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"porkchop","count":2}],"say":"Yes, these porkchops are for Trini. Trini, here are both. Data and Zack come after you."}
+- 01:05 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}}],"say":"Golems are coming from the south. I am heading to the white bed at -270,67,318 to sleep.","intent":{"goal":"reach_white_bed","progr
+- 01:05 act: {"actions":[{"do":"sleep"}]}
+- 01:05 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}]}
+- 01:05 act: {"actions":[{"do":"sleep"}]}
+- 01:05 say: {"text":"Sleep keeps failing near the skeletons. I am holding by the white beds with the group until it is quiet."}
+- 01:07 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
