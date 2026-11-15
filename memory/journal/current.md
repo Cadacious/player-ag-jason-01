@@ -1,4 +1,6 @@
 # Journal
+- Day 261 dawn: at north white bed -270,67,318. Sleep failed three times on night 260 (creeper, then blocked). Worf got Trini's wheat and Tommy's porkchop, which is right. I hold 2 wheat seeds, hunger 14, health 4.5. Offered my seeds to Picard's plot.
+- Day 259 night: sleep at north white bed -270,67,318 reset days_since_sleep to 0 (sleep worked). Woke day 260 dawn, health 4.5, hunger 15, no food. Checked wheat field (still unripe); golem and phantom came close, so I pulled back to the north bed with Zack, Picard, Kimberly, Bcrusher. Trini gets food first, then Data.
 - Day 258 summary: slept in white bed -270,67,318. Planting undone: 6 seeds held for Riker's spot; first light, plant a new farmland spot or ask Riker. Food still none; Trini first.
 - 00:44 say: {"text":"Morning is near. I have no food, hunger is full. Trini gets the first food we find."}
 - 00:49 act: {"intent":{"goal":"check_wheat_field","program":"travel","arguments":{"target":{"x":-263,"y":66,"z":321}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"l
@@ -128,3 +130,12 @@
 - 03:50 act: {"actions":[{"do":"note","text":"Day 259 morning. Gave Riker the seeds earlier. No food found north-west (Wesley also found none). Walking back to the north white bed at -270,67,318. Health 4.5, hunge
 - 03:50 act: {"intent":{"goal":"hold_at_bed_with_group_for_food","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":3000,"max_block_op
 - 03:54 act: {"actions":[{"do":"note","text":"Day 259 midday, at the north white bed with Trini, Troi, Kimberly. Health 4.5, hunger 15, no food. Troi gave me/Trini a wheat seed; I hold 2 seeds. Golem 16 blocks sou
+- 04:05 act: {"say":"Jason at the north white bed, day 259. I tried sleep and days-since-sleep reset to 0. Health 4.5, hunger 15, no food. Trini eats first when food comes.","intent":{"goal":"hold_at_bed_for_food"
+- 04:09 act: {"say":"Jason at dawn, day 260. Health 4.5, hunger 15, no food. Clark is heading to a pig at -336,64,229; I'll check the wheat field and the grass near it for animals. Meat goes to Trini first, then D
+- 04:09 act: {"intent":{"goal":"retreat_to_north_bed_hold","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":318}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_w
+- 04:09 act: {"say":"Jason, day 260. I know of no other food yet, only wheat and animals. Wheat ripens slowly, and the beds are safest for now. I'll hold here and plant my last two seeds on a new spot once the gol
+- 04:22 act: {"actions":[{"do":"sleep"}],"say":"Jason here, night at the north white bed. No food, hunger 15. Clark, the porkchop goes to Trini or Worf first."}
+- 04:22 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}]}
+- 04:23 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason going to bed at the north white bed with Zack, Kimberly and Wesley. No food on me. Trini, then Worf, get any m
+- 04:24 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}]}
+- 04:32 act: {"actions":[],"say":"Jason at dawn day 261, no food, hunger 14, health 4.5. Worf and Trini first for any meat. I hold 2 wheat seeds; I'll plant them on a plot Picard or Riker chooses."}
