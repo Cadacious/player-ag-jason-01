@@ -138,3 +138,15 @@
 - 19:22 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}]}
 - 19:27 say: {"text":"Jason here, morning. Health 20, hunger 20. I hold 2 rotten flesh for anyone who drops to 6. Kimberly, Chapman, call out if you get low."}
 - 19:32 act: {"say":"Jason, morning 306, health 20, hunger 20. I hold 2 rotten flesh for whoever drops to hunger 6 or below. No sword, so I stay at the beds in sight of the group. Call me if you need it.","intent"
+- 19:40 say: {"text":"Jason here, health 20, hunger 20. I hold 2 rotten flesh for Chapman once his hunger is 6 or below and he is in sight."}
+- 19:43 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}],"reasoning":"Night, bed adjacent, golems far. Try to sleep in the yellow bed; hold flesh for Chapman.","say":null}
+- 20:00 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}],"reasoning":"Dusk, bed adjacent. Sleep; keep the flesh for Chapman or whoever drops to 6."}
+- 20:04 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}],"reasoning":"Night 307, bed adjacent, nobody at hunger 6 or below in my sight. Sleep here."}
+- 20:05 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":352}}],"reasoning":"Golem 3 south of me, night. Get away from it and back to the group at the yellow beds.","intent":{"goal":"return_to_beds","pr
+- 20:05 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}],"reasoning":"Back at the beds, night. Try sleep in the yellow bed next to the group."}
+- 20:06 act: {"actions":[],"reasoning":"Bed blocked; stay near group in reach of Worf until dawn. Flesh held for anyone at hunger 6 or below.","intent":{"goal":"hold_at_beds_until_dawn","program":"rest","arguments
+- 20:06 act: {"actions":[],"reasoning":"Bed blocked; hold with group until dawn. Flesh for anyone at hunger 6 or below.","intent":{"goal":"hold_at_beds_until_dawn","program":"rest","arguments":{},"wake_on":["direc
+- 20:22 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}],"say":"Night 308. Trying the other yellow bed at -263,67,354.","intent":{"goal":"reach_bed_and_sleep","program":"travel","a
+- 20:23 act: {"actions":[{"do":"use","at":{"x":-241,"y":69,"z":344}},{"do":"sleep"}],"say":"Trying the bed at -241,69,344 where I stand. Golem 3 blocks south, not attacking."}
+- 20:23 act: {"actions":[{"do":"sleep"}]}
+- 20:23 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"intent":{"goal":"sleep_at_white_bed","program":"rest","arguments":{},"wake_on":["goal_completed","unexpected_damage","dire
