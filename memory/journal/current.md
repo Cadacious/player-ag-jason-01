@@ -149,3 +149,5 @@
 - 00:08 act: {"actions":[{"do":"goto","target":{"x":-273,"y":69,"z":312}}],"say":"Night again. Picked up some of my things. Getting the last one, then keeping near the beds."}
 - 00:08 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":320}}],"say":"Golem closing from the east. Moving to the beds with the group. Jason has no food; Trini first."}
 - 00:08 act: {"say":"Jason here at the beds with Billy and bcrusher, out of the golem's reach. I have no food; I have wool, 3 logs, 2 planks, 5 wheat seeds. I will search for food with the group in daylight. Trini
+- 00:20 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason here at dusk, day 248. Health 20, hunger 20, no food. Trying the white bed at -270,67,318 to sleep.","reasonin
+- Dusk day 248: sleep at white bed -270,67,318 partly worked ("1 of 7 asleep"). Session then superseded during wait. Health 20, hunger 20, no food. Group (Billy, bcrusher, wcrusher) nearby.
