@@ -20,3 +20,7 @@
 - 16:02 act: {"actions":[{"do":"sleep"}]}
 - 16:03 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":353}},{"do":"sleep"}]}
 - 16:04 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}],"say":"Jason here. I have one raw chicken for whoever is hungry first. Trying the bed at -263,67,354 now.","intent":{"goal"
+- 16:08 act: {"actions":[{"do":"give","to":"ag_leonardo_01","item":"wooden_sword","count":1}],"say":"Leonardo, here is a wooden sword. Stay with the group."}
+- 16:09 act: {"actions":[{"do":"goto","target":"ag_trini_01"},{"do":"give","to":"ag_trini_01","item":"chicken","count":1}],"say":"Trini, here is the chicken. Eat it now."}
+- 16:09 act: {"actions":[],"say":"Trini, Billy is at health 7.5 and hunger 13, lower than you. If you can, pass him the chicken. I have no food left."}
+- 16:16 act: {"say":"Jason joining the west scout. Calling out any pig or cow I see.","intent":{"goal":"join_food_scout","program":"travel","arguments":{"target":"ag_leonardo_01"},"wake_on":["directly_addressed","
