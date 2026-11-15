@@ -152,3 +152,13 @@
 - 04:48 act: {"actions":[{"do":"goto","target":{"x":-250,"y":67,"z":310}}],"intent":{"goal":"search_east_for_animals","program":"travel","arguments":{"target":{"x":-250,"y":67,"z":310}},"wake_on":["directly_addres
 - 04:48 act: {"actions":[{"do":"goto","target":{"x":-228,"y":68,"z":306}}],"intent":{"goal":"search_east_for_animals","program":"travel","arguments":{"target":{"x":-228,"y":68,"z":306}},"wake_on":["directly_addres
 - 04:48 act: {"actions":[{"do":"goto","target":{"x":-200,"y":68,"z":300}}],"intent":{"goal":"search_east_for_animals","program":"travel","arguments":{"target":{"x":-200,"y":68,"z":300}},"wake_on":["directly_addres
+- 04:56 act: {"actions":[{"do":"goto","target":{"x":-268,"y":67,"z":320}}],"intent":{"goal":"return_to_beds_with_group","program":"travel","arguments":{"target":{"x":-268,"y":67,"z":320}},"wake_on":["directly_addr
+- 04:56 act: {"actions":[{"do":"note","text":"Back at the north white beds, daylight day 262. No food, hunger 13. Waiting for news of animals or the mutton."}],"say":"Jason back at the north beds. Eastward search 
+- 05:00 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason going to the white bed at -270,67,318 with the group. No food. Meat goes to Worf, then Trini."}
+- 05:01 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Sleep at the other north bed, -271,67,318. Not enclosed. No food.","intent":{"goal":"sleep_in_bed","program":"rest",
+- 05:12 act: {"actions":[{"do":"note","text":"Day 263 dawn. Sleep blocked again by golems. No food, hunger 12. Scouting west with the group."}],"say":"Jason at dawn, day 263. No food, hunger 12, health 4.5. Scouti
+- 05:12 act: {"actions":[{"do":"note","text":"Reached west grass at -290,336. No animals in view. Scouting south-west."}],"say":"Jason at the west grass, no animals in sight yet. Going south-west with Billy and Da
+- 05:13 act: {"actions":[{"do":"goto","target":{"x":-299,"y":67,"z":319}}],"say":"Phantom attacking me at the west grass, health 2.5. Running north to the group at -299,67,319.","intent":{"goal":"reach_group_hold"
+- 05:13 act: {"actions":[{"do":"note","text":"Health 0.5 after phantom hits at the west grass. Back with the group at -299,66,319. Asking for any food."}],"say":"Jason, health 0.5, hunger 12. A phantom hit me on t
+- 05:13 act: {"actions":[{"do":"goto","target":{"x":-285,"y":67,"z":318}}],"say":"Phantom closing from the west, health 0.5. Moving east, away from it, toward the beds."}
+- 05:21 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason heading to the north white bed for the night, health 0.5, no food.","reasoning":"Night has come. Group is at t
