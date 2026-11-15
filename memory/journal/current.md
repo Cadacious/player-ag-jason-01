@@ -73,3 +73,5 @@
 - 11:05 act: {"actions":[{"do":"sleep"}],"reasoning":"Night, beside the bed with the group. Sleep."}
 - 11:09 act: {"actions":[],"say":"Jason, dawn day 281, hunger 15, no food eaten. I hold 3 rotten flesh, eatable at hunger 6 or below. LaForge first, then Picard, then Trini. Come within reach and I'll hand it over
 - 11:13 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason here, dark at the north bed. Holding my three rotten flesh for LaForge, then Picard, as I said. Trying to slee
+- 11:15 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":327}}],"say":"Jason here. Moving north away from the golems. Hunger 15, so the flesh waits until it is 6 or below.","intent":{"goal":"hold_near_b
+- 11:15 act: {"actions":[{"do":"till","at":{"x":-273,"y":65,"z":329}}],"say":"Jason at the north beds, -271,67,327. I hold 3 rotten flesh: Trini first when you reach 6, then LaForge, then Picard. Clark, I have a h
