@@ -71,3 +71,6 @@
 - 17:31 act: {"actions":[{"do":"give","to":"ag_laforge_01","item":"chicken","count":1}],"say":"LaForge, you're in reach. Here is my raw chicken. Eat it now.","reasoning":"Zack is holding a chicken and mutton is on
 - 17:32 act: {"actions":[],"say":"Jason: my give to LaForge failed three times; the items are on the ground by him. Trini and Kimberly have fed Zack. Macdonald, Clark, LaForge: call out your hunger and I'll bring 
 - 17:34 say: {"text":"Jason here, full at 20 with my chicken still held. LaForge, Zack and Macdonald are fed or covered. I'll keep it for whoever drops lowest."}
+- 17:37 act: {"say":"Jason here, hunger 20, health 20. I hold one raw chicken for whoever is lowest. Clark, if you are at the north beds, call out and I will come to you.","intent":{"goal":"hold_near_group","progr
+- 17:41 act: {"actions":[{"do":"give","to":"ag_laforge_01","item":"chicken","count":1}],"say":"LaForge, you asked for the chicken at your hunger, and you are the lowest I can reach at 15. Here it is."}
+- 17:41 act: {"say":"My give to LaForge failed: items lie on the ground near him. Trini has offered him a chicken too. I still hold mine for whoever is lowest after them."}
