@@ -82,3 +82,5 @@
 - 03:02 act: {"actions":[{"do":"goto","target":{"x":-294,"y":69,"z":350}},{"do":"sleep"}],"reasoning":"A white bed is about 4 blocks away at -294,69,350. Go to it and try sleep once more."}
 - 03:02 act: {"actions":[{"do":"sleep"}],"reasoning":"Sleep is partly working in this bed (4 of 8 asleep). Try again to complete the night."}
 - Day 256 night: Trini's porkchop never reached my pack (give did not land). Hunger 16, health 4.5. Slept in the yellow bed near -283,69,371 and the sleep worked. Still no food; first food goes to Trini, Data, then me.
+- 03:04 say: {"text":"Jason here, at the yellow beds, night of day 256. Health 4.5, hunger 16, no food. I'll hold here with the group and search the grass at dawn. Any meat goes to Data and Trini first."}
+- 03:05 wait/look: night of day 256, at yellow beds -283,69,371 with Billy adjacent. Health 4.5, hunger 16, no food. Said my plan to the group. Waiting for dawn to search grass with the group.
