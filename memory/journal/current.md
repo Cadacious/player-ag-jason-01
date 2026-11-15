@@ -133,3 +133,7 @@
 - 19:15 act: {"actions":[],"say":"Data, I'm holding 3 chicken. Chapman and Clark aren't in my sight, so I'll give to the first of them I see, or to you if you drop to 6."}
 - 19:19 act: {"actions":[{"do":"give","to":"ag_troi_01","item":"chicken","count":3}],"say":"Troi, you are at health 8 and in reach. Take the chicken. Chapman and Clark are out of my sight.","intent":{"goal":"hold_
 - 19:21 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Dusk. I've given the chicken to Data, so the group can share it. I'm going to the white bed to sleep."}
+- 19:22 act: {"actions":[],"say":"Jason here, health 20, hunger 20. I hold only 2 rotten flesh. Chapman, if you are in sight, call out and I'll bring it to you. Data says he has given you chickens, so eat them fir
+- 19:22 act: {"actions":[{"do":"use","at":{"x":-263,"y":67,"z":353}},{"do":"sleep"}],"say":"Jason at the yellow bed. Chapman and Clark have chickens now. I hold 2 rotten flesh for whoever drops to 6 or below."}
+- 19:22 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}]}
+- 19:27 say: {"text":"Jason here, morning. Health 20, hunger 20. I hold 2 rotten flesh for anyone who drops to 6. Kimberly, Chapman, call out if you get low."}
