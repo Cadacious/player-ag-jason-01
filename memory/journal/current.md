@@ -70,3 +70,6 @@
 - 02:24 act: {"say":"Thank you, Trini. I'm eating it now.","actions":[{"do":"eat"}]}
 - 02:30 act: {"say":"Jason at dawn, day 255. Health 4.5, hunger 17, no food. I'll join the pig search north-east and stay in sight of Clark and the group. Any meat goes to Data or Clark first, then me.","intent":{
 - 02:31 act: {"say":"Jason here, north-east near the yellow bed at -241,69,344, in sight. I'll follow anyone who sees a pig. Thanks, Tommy."}
+- 02:35 act: {"actions":[{"do":"goto","target":"ag_tommy_01"}],"say":"Jason here, day 255, hunger 17, no food. I'll search the grass with the group and keep in sight. Any meat goes to Trini, Data, then me.","inten
+- 02:35 act: {"actions":[],"intent":{"goal":"hold_with_group_wait_for_meat","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"limits":{"ma
+- 02:38 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}}],"say":"Jason heading to the yellow bed with Tommy and Worf, day 255. No food yet."}
