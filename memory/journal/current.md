@@ -57,3 +57,12 @@
 - 07:31 act: {"actions":[{"do":"goto","target":{"x":-268,"y":67,"z":322}}],"say":"A golem is closing from the south-west. I'm moving north to the group at -268,67,322. Picard was not in sight for the rotten flesh;
 - 07:40 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"say":"Dusk. Heading to the south white bed to try for a night's sleep. Trini, Clark, Worf and Chapman, stay near."}
 - 07:40 act: {"actions":[{"do":"sleep"}]}
+- 07:41 act: {"actions":[{"do":"sleep"}],"say":"Jason at the south white bed, night, hunger 16, no food in hand. Trini, I still hold 3 rotten flesh for whoever reaches hunger 6 first.","reasoning":"Night, at a fre
+- 07:43 act: {"actions":[{"do":"sleep"}],"say":"Trini, I'm at hunger 16 still; your turn comes first at 6. Holding at the south bed, retrying sleep.","reasoning":"Creeper gone from range; golems are not hostile. R
+- 07:44 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}},{"do":"sleep"}],"say":"Jason going back to the south white bed to sleep. Kimberly and Clark, stay near.","reasoning":"Return to the bed I c
+- 07:44 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"say":"Jason walking to the white bed at -270,67,336 now. Bcrusher and Wcrusher, stay near.","reasoning":"Previous sleep failed after a st
+- 07:45 act: {"actions":[{"do":"sleep"}],"reasoning":"At the bed, golem not hostile. Sleep."}
+- 07:50 act: {"say":"Bcrusher, come to the south bed, I'll hold here with Trini. Trini, you're first for the flesh when you reach 6.","actions":[{"do":"sleep"}]}
+- 08:02 act: {"actions":[{"do":"sleep"}],"intent":{"goal":"rest_night_271","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":12000,"m
+- 08:04 act: {"say":"Jason here with a wooden sword. Riker, Zack, I'm coming to the bed to help with the phantom.","actions":[{"do":"goto","target":"zack"}]}
+- 08:07 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}]}
