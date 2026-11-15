@@ -137,3 +137,4 @@
 - 13:03 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"reasoning":"Sleep was blocked, so I try the yellow bed once more. Phantoms have left the area. This is the second attempt 
 - 13:07 act: {"actions":[],"say":"Jason, hunger 13, health 9, no food. Troi and Clark are lower, so bread goes to them first. I'll wait by the yellow bed.","reasoning":"Bcrusher is handing out his bread. I have no
 - 13:24 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"intent":{"goal":"rest_at_yellow_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","
+- 13:30 act: {"say":"Jason, dawn day 288. No food on me, hunger 13, health 9. I have 3 wheat seeds. Scouting for animals in sight of the group; Kimberly, I'll bring you anything I find.","intent":{"goal":"scout_fo
