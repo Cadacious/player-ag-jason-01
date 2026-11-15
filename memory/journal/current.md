@@ -55,3 +55,5 @@
 - 07:23 act: {"actions":[{"do":"sleep"}],"reasoning":"Night, at a free white bed with the group nearby. Try sleep."}
 - 07:31 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"rotten_flesh","count":1}],"say":"Dawn day 270. Picard, you're at hunger 6, so take one rotten flesh now. I have 2 more for whoever reaches 6. Jason
 - 07:31 act: {"actions":[{"do":"goto","target":{"x":-268,"y":67,"z":322}}],"say":"A golem is closing from the south-west. I'm moving north to the group at -268,67,322. Picard was not in sight for the rotten flesh;
+- 07:40 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"say":"Dusk. Heading to the south white bed to try for a night's sleep. Trini, Clark, Worf and Chapman, stay near."}
+- 07:40 act: {"actions":[{"do":"sleep"}]}
