@@ -139,3 +139,13 @@
 - 23:43 act: {"say":"Trying the white bed again now.","actions":[{"do":"sleep"}]}
 - 23:47 act: {"actions":[{"do":"sleep"}]}
 - 23:48 act: {"say":"Jason here at the white bed, dawn on day 246. Health 6, hunger 16, no food. Trini, eat the chicken when it lets you. I'm holding with the group and will sleep in a free bed at dusk.","intent":
+- 23:50 act: {"say":"Jason at the beds, day 247. Health 6, hunger 16, no food. I won't go to the deep lake; I'll stay here with the group and sleep at dusk. Any salmon goes to Trini first.","intent":{"goal":"hold_
+- 00:03 act: {"actions":[{"do":"sleep"}],"say":"Jason at the white bed, night of day 247. Health 6, hunger 16, no food. Trying to sleep now with the group."}
+- 00:03 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":310}}],"say":"Sleep failed, beds full, golems 7 blocks south. Backing north to the group to hold until light."}
+- 00:06 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Phantom on me at 4 health. Fighting it with my sword."}
+- 00:06 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason at 2 health, phantoms west and south-west, golem north-west. Going to the nearest bed to try sleep."}
+- 00:07 act: {"actions":[{"do":"goto","target":{"x":-282,"y":70,"z":309}},{"do":"sleep"}],"say":"Jason, back at health 20 after the spawn. Going to the yellow bed to sleep. Billy, Picard, the group: food at light,
+- 00:07 act: {"actions":[{"do":"goto","target":{"x":-272,"y":71,"z":316}}],"intent":{"goal":"recover_dropped_items","program":"travel","arguments":{"target":{"x":-272,"y":71,"z":316}},"wake_on":["goal_completed","
+- 00:08 act: {"actions":[{"do":"goto","target":{"x":-273,"y":69,"z":312}}],"say":"Night again. Picked up some of my things. Getting the last one, then keeping near the beds."}
+- 00:08 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":320}}],"say":"Golem closing from the east. Moving to the beds with the group. Jason has no food; Trini first."}
+- 00:08 act: {"say":"Jason here at the beds with Billy and bcrusher, out of the golem's reach. I have no food; I have wool, 3 logs, 2 planks, 5 wheat seeds. I will search for food with the group in daylight. Trini
