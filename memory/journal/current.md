@@ -53,3 +53,7 @@
 - 02:06 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Phantom close. Fighting it."}
 - 02:07 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Going to the bed at -271,67,318 to sleep."}
 - 02:10 act: {"actions":[{"do":"note","text":"Day 254 dawn. Staying beside Trini. Food is going to her first; I have none."}],"say":"Morning. I have no food, so Trini eats first. I'm staying close and will help pl
+- 02:16 say: {"text":"Jason at the beds, day 254. Health 2.5, hunger 16, no food. Trini first, then me if any meat is spare. I'm staying in sight here."}
+- 02:20 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}}]}
+- 02:20 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}]}
+- 02:20 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}]}
