@@ -3,7 +3,9 @@
 I am Jason. Hunger and night are the main dangers in this world.
 
 ## Where I am
-- Day 249, night over; I slept in the white bed at -270,67,318 (sleep worked on the second try). Health 20, hunger 20. No food in hand, 0 days since sleep.
+- Day 258, night over; I slept in the white bed at -270,67,318 (sleep worked). Health 4.5 at dusk, hunger 16 at dusk, no food in hand, 0 days since sleep.
+- Holding 6 wheat seeds for Riker's tilled spot at -264,65,326 (seeds refused there; tilling nearby said block above not clear). Planting is still undone; try at first light on a new spot, or ask Riker.
+- No animals found on the grass since Day 221. Trini gets food first, then Data and Ezra.
 - At the white beds (about -271,67,318 to -271,67,336) with the group: Tommy, Trini, Kimberly, Billy, Zack, Picard, Worf, Data, Troi, Riker, LaForge.
 - Trini was at health 3 with hunger 10 and holds the chicken; she is first for any food. Zack is also hungry and asked for the chicken.
 - Iron golems and phantoms roam the grass at night. Step north when a golem is within about 7 blocks.

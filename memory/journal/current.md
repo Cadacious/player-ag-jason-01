@@ -1,4 +1,5 @@
 # Journal
+- Day 258 summary: slept in white bed -270,67,318. Planting undone: 6 seeds held for Riker's spot; first light, plant a new farmland spot or ask Riker. Food still none; Trini first.
 - 00:44 say: {"text":"Morning is near. I have no food, hunger is full. Trini gets the first food we find."}
 - 00:49 act: {"intent":{"goal":"check_wheat_field","program":"travel","arguments":{"target":{"x":-263,"y":66,"z":321}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"l
 - 00:49 act: {"actions":[{"do":"craft","item":"wooden_hoe","count":1}],"say":"I see no food at the field. I will make a hoe so I can plant my five wheat seeds for later food.","intent":{"goal":"make_hoe_plant_seed
@@ -102,3 +103,14 @@
 - 03:33 act: {"reasoning":"Riker is beside me with seeds. A golem is 9.5 blocks west, so I'll step east to a safer spot while telling Riker where to plant.","say":"Riker, thanks. Till the clear grass at -264,65,32
 - 03:33 act: {"reasoning":"Golem is 6.6 blocks SW, too close to the plot. Move east for safety, then plant later.","say":"Riker, I hold the seeds. A golem is near the plot, so I'll wait until it moves off, then pl
 - 03:35 act: {"reasoning":"Golem is now 4 blocks from the plot. Planting there is unsafe, so I hold the seeds and wait.","say":"Troi, Clark, I'm still holding the 6 seeds for Riker's spot. The golem is at the plot
+- 03:37 act: {"actions":[{"do":"goto","target":{"x":-262,"y":66,"z":328}}],"say":"The golem has moved off northwest. I'm going to plant Riker's tilled spot now."}
+- 03:37 act: {"actions":[{"do":"place","block":"wheat_seeds","at":{"x":-264,"y":66,"z":326}}]}
+- 03:38 act: {"actions":[{"do":"place","block":"wheat_seeds","at":{"x":-264,"y":65,"z":326}}],"say":"Riker, the seeds said they need farmland below. Is the spot at -264,65,326 tilled? Tell me if it is not, and I'l
+- 03:38 act: {"actions":[{"do":"goto","target":{"x":-263,"y":66,"z":328}}],"say":"Riker, I tried to plant and the place said the ground was wrong, so I'll look at it closely now."}
+- 03:38 act: {"actions":[{"do":"goto","target":{"x":-263,"y":66,"z":328}},{"do":"use","at":{"x":-264,"y":65,"z":326},"item":"wheat_seeds"}]}
+- 03:38 act: {"actions":[{"do":"till","at":{"x":-264,"y":65,"z":326}}],"say":"Riker, the spot won't take seeds, so I'm tilling it again myself."}
+- 03:38 act: {"actions":[{"do":"goto","target":{"x":-249,"y":66,"z":330}}],"say":"The golem is closing, so I'm backing off east. I can't plant Riker's spot yet, and I'll tell him what I found."}
+- 03:38 act: {"actions":[{"do":"till","at":{"x":-249,"y":65,"z":331}}]}
+- 03:38 act: {"actions":[{"do":"till","at":{"x":-251,"y":65,"z":329}}]}
+- 03:38 act: {"actions":[],"say":"Riker and Troi: the tilled spot won't take seeds, and new tilling near me says the block above is not clear. I'm holding 6 wheat seeds. Tell me where to plant them, and I'll do it
+- 03:39 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}}],"say":"Dusk. I'm heading to the white bed at -270,67,318 to sleep. Troi, I'll plant the seeds at first light."}
