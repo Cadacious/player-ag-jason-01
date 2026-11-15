@@ -34,3 +34,5 @@
 - 06:39 act: {"intent":{"goal":"reach_north_beds","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":318}},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"],"li
 - 06:40 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}],"intent":{"goal":"reach_north_beds","program":"travel","arguments":{"target":{"x":-271,"y":67,"z":318}},"wake_on":["goal_completed","direc
 - 06:40 act: {"actions":[{"do":"note","text":"Reached north white beds at dusk with Worf, Riker, Bcrusher, Kimberly. No food yet; Lewis's wheat and Tommy's porkchops not in my pack. Sleeping in a bed."}]}
+- 06:40 act: {"say":"Picard, I'm here at the white beds with Worf and Bcrusher. I have no food yet. Keep the seeds for now; I'll plant them once I've eaten and we have tilled ground.","actions":[{"do":"note","text
+- 06:40 act: {"actions":[{"do":"sleep"}],"say":"Bcrusher, thanks for the dirt. I'm going to the bed with the group now."}
