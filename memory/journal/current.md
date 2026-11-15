@@ -152,3 +152,67 @@
 - 13:52 act: {"actions":[{"do":"goto","target":"ag_billy_01"}],"say":"Billy, thanks. My hunger is full, so give the beef to Lewis, LaForge and Troi first. I lost my pack at -248,67,364; if the phantoms clear, I'll
 - 13:52 act: {"actions":[{"do":"goto","target":{"x":-248,"y":67,"z":364}}],"say":"Bright now. I'm going back for my pack at -248,67,364. Billy, Worf, keep the beef for the weak."}
 - 13:52 act: {"actions":[{"do":"goto","target":{"x":-246,"y":67,"z":362}},{"do":"goto","target":{"x":-244,"y":67,"z":361}},{"do":"goto","target":{"x":-246,"y":67,"z":367}}]}
+- 13:58 say: {"text":"Jason here at midday, health 20, hunger 20, no food. I hold 3 wheat seeds and a sword. Tell me where the weakest are and I'll come near."}
+- 14:02 act: {"intent":{"goal":"reach_group_at_beds","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":336}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],
+- 14:02 act: {"actions":[{"do":"sleep"}],"say":"Jason is with the group at the white bed, no food, health 20. Trying to sleep.","reasoning":"Night, now with group at beds. Try the bed once; sleep ends the day."}
+- 14:03 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":335}}],"reasoning":"Sleep was blocked; I drifted north. Return to the bed group at -270,67,336 and wait there."}
+- 14:11 say: {"text":"Jason, dawn 290, health 20, hunger 20, no food. I have a hoe and 3 wheat seeds. Macdonald, Picard: tell me where the tilled ground should be and I'll till it for planting."}
+- 14:12 say: {"text":"Jason, no food and I've seen no animals since I woke. Only unripe wheat at -272,66,331. Zack (health 9) and Leonardo first."}
+- 14:12 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"wheat_seeds","count":6}],"say":"Picard, I'm giving you my 6 wheat seeds (Worf's and Riker's) for the tilled patch, since you're planting there.","r
+- 14:22 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":335}},{"do":"sleep"}],"say":"Jason, dusk 290, going to bed at the white beds with the group. No food; Zack and Leonardo first for meat.","reasoni
+- 14:30 act: {"intent":{"goal":"join_pig_hunt_east","program":"travel","arguments":{"target":{"x":-213,"y":69,"z":351}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ti
+- 14:30 act: {"actions":[{"do":"goto","target":{"x":-241,"y":67,"z":350}}],"say":"Jason heading to Zack, Wesley and Lewis at -241,67,350. Food first to Zack.","reasoning":"Travel to the hunt failed on water; go by
+- 14:32 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"rotten_flesh","count":1}],"say":"Zack, here is the rotten flesh from Troi. Eat it now, you are lowest.","reasoning":"Zack is in reach and lowest in h
+- 14:33 act: {"actions":[{"do":"goto","target":{"x":-222,"y":68,"z":351}}],"say":"Jason heading east to the pig area at -222,68,351 with the hunt.","reasoning":"The pig hunt is east where Macdonald, Leonardo and T
+- 14:41 act: {"intent":{"goal":"reach_white_beds","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":338}},"wake_on":["goal_completed","precondition_failed","directly_addressed","unexpected_damage"],"li
+- 14:42 act: {"actions":[{"do":"sleep"}],"reasoning":"At the white beds at night, golems are around but neutral. Try the free bed next to me."}
+- 14:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":319}},{"do":"sleep"}],"reasoning":"Sleep was blocked at the south bed. Move to the north bed pair and try once more."}
+- 14:51 act: {"intent":{"goal":"join_pig_hunt_east","program":"travel","arguments":{"target":{"x":-222,"y":68,"z":351}},"wake_on":["goal_completed","precondition_failed","directly_addressed","unexpected_damage"],"
+- 15:00 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"intent":{"goal":"reach_white_bed_and_sleep","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":336}},"wake_on":
+- 15:01 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"intent":{"goal":"reach_white_bed_and_sleep","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":336}},"wake_on":
+- 15:02 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"intent":{"goal":"sleep_at_white_bed","program":"rest","arguments":{},"wake_on":["goal_completed","precondition_failed","di
+- 15:10 act: {"actions":[{"do":"goto","target":{"x":-214,"y":69,"z":351}}],"intent":{"goal":"join_group_pig_area_for_meat","program":"travel","arguments":{"target":{"x":-214,"y":69,"z":351}},"wake_on":["goal_compl
+- 15:10 act: {"actions":[{"do":"goto","target":{"x":-180,"y":80,"z":335}}],"intent":{"goal":"search_east_for_cow_or_pig","program":"travel","arguments":{"target":{"x":-180,"y":80,"z":335}},"wake_on":["goal_complet
+- 15:11 act: {"actions":[{"do":"goto","target":{"x":-152,"y":100,"z":327}}],"intent":{"goal":"search_for_cow_east","program":"travel","arguments":{"target":{"x":-152,"y":100,"z":327}},"wake_on":["goal_completed","
+- 15:11 act: {"actions":[{"do":"attack","target":"chicken"}],"intent":{"goal":"kill_chicken_for_food","program":"gather","arguments":{"block":"chicken","count":1},"wake_on":["goal_completed","precondition_failed",
+- 15:11 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"intent":{"goal":"carry_chicken_to_macdonald","program":"travel","arguments":{"target":{"x":-262,"y":67,"z":352}},"wake_on":["goal_complet
+- 15:12 act: {"actions":[],"say":"Jason at the yellow beds with a chicken. Macdonald, Zack, Leonardo: say where you are and I'll bring it to the hungriest."}
+- 15:12 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, you're at health 3 and in reach, so the chicken is yours. Eat it now."}
+- 15:12 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"say":"Riker, my give failed because you were out of sight. I'm walking to the yellow beds now with the chicken."}
+- 15:12 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, here is the chicken. Eat it."}
+- 15:13 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":353}}],"say":"Riker, I'm back at the yellow beds with the chicken. Call out where you are."}
+- 15:13 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, taking the chicken to you now."}
+- 15:13 act: {"actions":[{"do":"goto","target":{"x":-267,"y":67,"z":348}}],"say":"Riker and Macdonald, I'm holding the chicken for Riker. I'm stepping away from the golem; come find me at the sign to the north-wes
+- 15:13 act: {"actions":[{"do":"goto","target":"ag_zack_01"},{"do":"give","to":"ag_zack_01","item":"chicken","count":1}],"say":"Zack, you're the one I can reach now. The chicken is for you, eat it."}
+- 15:13 act: {"actions":[{"do":"goto","target":"ag_zack_01"},{"do":"give","to":"ag_zack_01","item":"chicken","count":1}],"say":"Zack, coming to you with the chicken."}
+- 15:13 act: {"actions":[],"say":"Zack, understood. I'm keeping the chicken for Riker. Riker, come to me here at the white beds and I'll hand it over."}
+- 15:15 act: {"actions":[],"say":"Riker and LaForge, I'm at the white beds with the chicken and I'll hand it to whoever of you walks into sight first."}
+- 15:16 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}},{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, I'm on my way to the yellow beds with the chicken. Stay put."}
+- 15:16 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"say":"Riker, I'm at the yellow beds now. Show yourself and I'll give you the chicken."}
+- 15:17 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, here is the chicken. Eat it."}
+- 15:19 act: {"actions":[{"do":"goto","target":{"x":-261,"y":67,"z":353}}],"say":"Riker, I'm coming to the yellow beds with the chicken. Stay put."}
+- 15:19 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, the chicken is yours. Eat it now."}
+- 15:22 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":353}}],"say":"Riker, I'm right here at the yellow bed with the chicken. Are you in sight?"}
+- 15:22 act: {"actions":[],"say":"Leonardo, Macdonald: Riker is out of sight at health 3, so I'm holding the chicken for him a little longer. If he doesn't show in a few minutes, it goes to whoever is weakest in r
+- 15:23 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, here's the chicken. Eat it."}
+- 15:24 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}]}
+- 15:24 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"say":"Riker, I'm walking to you at the yellow bed with the chicken."}
+- 15:24 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}]}
+- 15:26 act: {"actions":[{"do":"give","to":"ag_leonardo_01","item":"chicken","count":1}],"say":"Leonardo, you're in reach and I'm handing you my raw chicken. Riker is out of sight, so this goes to you."}
+- 15:27 act: {"actions":[{"do":"give","to":"ag_leonardo_01","item":"chicken","count":1}]}
+- 15:27 act: {"actions":[{"do":"goto","target":"ag_leonardo_01"}]}
+- 15:28 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, you're weakest at health 3, so the chicken is yours. Eat it now."}
+- 15:28 act: {"actions":[{"do":"goto","target":"ag_riker_01"}]}
+- 15:29 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}]}
+- 15:29 act: {"actions":[{"do":"goto","target":"ag_riker_01"},{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, Leonardo says you're weakest, so I'm bringing you the chicken now."}
+- 15:29 say: {"text":"Riker, the chicken is still with me. My hand-over keeps getting blocked, so come to me and I'll hold it out."}
+- 15:31 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"reasoning":"Riker asked me to hold it out, and he is in reach now. One new try after his call."}
+- 15:31 act: {"actions":[{"do":"goto","target":"ag_riker_01"}],"reasoning":"Give to Riker is blocked by the toss path. Moving next to him to change the line."}
+- 15:31 act: {"actions":[{"do":"give","to":"ag_leonardo_01","item":"chicken","count":1}],"reasoning":"Riker's line stays blocked. Trying Leonardo once, a different target and line."}
+- 15:31 say: {"text":"Riker, Leonardo: something is blocking the hand-over from here. Whoever is nearest, step clear of the table and log to the open grass and I'll give the chicken right away."}
+- 15:32 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"reasoning":"Riker says he has stepped onto open grass beside me. One give now, since the blocking object was moved."}
+- 15:33 say: {"text":"Riker, the line to you keeps getting blocked at 2 blocks. If you can come right next to me I'll hand it over. If not, I'll find Bcrusher or Wcrusher."}
+- 15:40 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}},{"do":"sleep"}],"reasoning":"Dusk, 11 days since sleep. Walk to the yellow bed and try sleeping in it."}
+- 15:40 act: {"actions":[{"do":"give","to":"ag_leonardo_01","item":"chicken","count":1}],"reasoning":"Leonardo is adjacent now, and Riker has gone to Clark for food. Leonardo is hungry, so the chicken goes to him.
+- 15:40 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}},{"do":"sleep"}],"reasoning":"Sun has set and it is dim. Go to the yellow bed and sleep. The chicken stays in my pack for the weakest in rea
+- 15:43 act: {"actions":[{"do":"sleep"}],"reasoning":"It is night now. I am beside a yellow bed. Try sleep once more. The chicken stays in pack; others say Wesley already has food."}
