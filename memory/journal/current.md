@@ -76,3 +76,9 @@
 - 02:43 act: {"actions":[{"do":"eat"}],"say":"Thank you, Trini. I have no porkchop in my pack yet. Please hand it over here, I am in reach. Golem three blocks north of me, so I am moving to the group."}
 - 02:56 say: {"text":"Jason, day 256. No food, hunger 17, health 4.5. Any meat goes to Trini first, then Data. I'll search the grass in sight of the beds."}
 - 03:00 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"reasoning":"Dusk, no food, golem 3.7 east. Move onto the bed by the group for shelter before night."}
+- 03:01 act: {"actions":[{"do":"wait","seconds":5}],"say":"Trini, I'm here, I can see you. Thank you. I'll eat the porkchop the moment it reaches me.","reasoning":"Trini is in reach with porkchop; my pack shows no
+- 03:01 act: {"actions":[{"do":"sleep"}],"say":"Clark, Trini: no porkchop has reached my pack. I'm trying the bed here for the night.","reasoning":"Night, bed under me, hunger 17 not critical. Porkchop did not arr
+- 03:01 act: {"actions":[{"do":"goto","target":{"x":-271,"y":68,"z":363}},{"do":"sleep"}],"reasoning":"Golems 6+ blocks north of me at night. Move south toward the yellow beds 7 blocks away and try sleep again."}
+- 03:02 act: {"actions":[{"do":"goto","target":{"x":-294,"y":69,"z":350}},{"do":"sleep"}],"reasoning":"A white bed is about 4 blocks away at -294,69,350. Go to it and try sleep once more."}
+- 03:02 act: {"actions":[{"do":"sleep"}],"reasoning":"Sleep is partly working in this bed (4 of 8 asleep). Try again to complete the night."}
+- Day 256 night: Trini's porkchop never reached my pack (give did not land). Hunger 16, health 4.5. Slept in the yellow bed near -283,69,371 and the sleep worked. Still no food; first food goes to Trini, Data, then me.
