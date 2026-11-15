@@ -6,3 +6,7 @@
 - 05:53 act: {"actions":[{"do":"craft","item":"bread","count":1}],"say":"Lewis, thank you. I have 3 wheat now and will make bread."}
 - 05:53 act: {"actions":[{"do":"eat"}]}
 - 05:53 act: {"say":"Thank you Lewis, the bread is eaten and health is climbing. Mutton from the sheep goes to whoever is hungry; Billy, Data, Tommy, Riker, keep it in sight of the beds."}
+- 05:56 act: {"say":"Jason here, day 265, hunger 17, no food in hand. I'm checking the wheat field at -263,66,321. Any meat or bread, I'll eat at once.","actions":[{"do":"goto","target":{"x":-263,"y":66,"z":321}}]
+- 05:56 act: {"say":"Jason at the wheat field, day 265. No food. Kimberly, do you have any meat or bread? I'll try planting my two seeds on tilled ground here.","actions":[{"do":"till","at":{"x":-265,"y":65,"z":32
+- 05:59 say: {"text":"Jason here at the wheat field. Still no food. Thank you all. Dusk is coming; I'll hold here with Kimberly, Zack and Clark, then find a free bed."}
+- 05:59 act: {"say":"Going to the white bed at -271,67,336 for the night. Zack, Clark, Kimberly, come along.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}}],"intent":{"goal":"reach_white_bed","progra
