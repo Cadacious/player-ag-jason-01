@@ -117,3 +117,8 @@
 - 18:23 act: {"actions":[],"say":"Jason, in sight at the yellow bed, health 2, hunger 16, no food but 2 rotten flesh. Zack, the mutton to me if you can spare it; Chapman, I'll share my rotten flesh when you drop t
 - 18:24 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}],"say":"Jason trying the second yellow bed at -263,67,354 now. Worf, I am here in your sight."}
 - 18:25 act: {"actions":[{"do":"goto","target":{"x":-264,"y":66,"z":350}}],"say":"Jason is back, respawned at the yellow bed with health 20. I'm going to pick up my dropped rotten flesh and sword at -264,66,350."}
+- 18:26 act: {"actions":[{"do":"goto","target":{"x":-269,"y":65,"z":350}}],"say":"Data, I'm Jason, empty-handed. If you hold the chicken for me, please hand it over here.","intent":{"goal":"recover_dropped_items",
+- 18:26 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":352}}],"say":"I recovered 2 rotten flesh. Data, Chapman: I'm going to the yellow bed now to try to sleep.","intent":{"goal":"reach_yellow_bed","p
+- 18:26 act: {"actions":[{"do":"goto","target":"ag_chapman_01"},{"do":"give","to":"ag_chapman_01","item":"chicken","count":1}],"say":"Data, I have the chicken, thank you. Chapman is lowest at health 5, so I'm brin
+- 18:26 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}],"say":"Chapman has the chicken; it worked. I'm at full health and hunger, with 2 rotten flesh held for anyone at hunger 6 o
+- 18:27 act: {"actions":[],"say":"Clark, thank you, but my hunger is full at 20. Keep the mutton for Chapman or whoever is lowest. I'm sleeping at the white bed."}
