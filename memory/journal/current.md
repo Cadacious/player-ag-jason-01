@@ -137,3 +137,4 @@
 - 19:22 act: {"actions":[{"do":"use","at":{"x":-263,"y":67,"z":353}},{"do":"sleep"}],"say":"Jason at the yellow bed. Chapman and Clark have chickens now. I hold 2 rotten flesh for whoever drops to 6 or below."}
 - 19:22 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}]}
 - 19:27 say: {"text":"Jason here, morning. Health 20, hunger 20. I hold 2 rotten flesh for anyone who drops to 6. Kimberly, Chapman, call out if you get low."}
+- 19:32 act: {"say":"Jason, morning 306, health 20, hunger 20. I hold 2 rotten flesh for whoever drops to hunger 6 or below. No sword, so I stay at the beds in sight of the group. Call me if you need it.","intent"
