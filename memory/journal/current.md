@@ -103,3 +103,32 @@
 - 12:02 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}},{"do":"sleep"}]}
 - 12:02 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":330}}],"say":"Jason back toward the group at the crafting tables. No food on me."}
 - 12:02 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":337}},{"do":"sleep"}]}
+- 12:12 act: {"actions":[{"do":"goto","target":{"x":-273,"y":66,"z":333}}],"say":"Jason here, dawn of day 284. No food, hunger 14. I hold 3 wheat seeds and a hoe. Going to the farm at -273,66,332 to till more grou
+- 12:12 act: {"actions":[{"do":"till","at":{"x":-274,"y":65,"z":334}}],"say":"Morning. I'm at the farm with Lewis. I'm tilling a new bit of ground here for my 3 seeds. Picard, you're next to me, the wheat at -273,
+- 12:12 act: {"actions":[{"do":"place","block":"wheat_seeds","at":{"x":-274,"y":66,"z":334}}],"say":"Planting my seeds on the new farmland here. It is dry, but I'll try."}
+- 12:12 act: {"actions":[{"do":"note","text":"Day 284 morning at farm -273,66,333. Hunger 14, no food. Planted 1 wheat seed on tilled ground -274,66,334 (dry, no water within 4). Holding 4 seeds from Picard and Le
+- 12:12 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Clark, the tilled patches here are used: -273,66,332 and -274,66,334 both have seeds. Tell me a dirt block near you and I'll till it. Phantom is 
+- 12:14 act: {"say":"Clark, I hold a hoe and 4 seeds. Name a dirt block near you and I'll till it, then you plant.","intent":{"goal":"hold_near_group_until_food","program":"rest","arguments":{},"wake_on":["directl
+- 12:17 act: {"actions":[{"do":"goto","target":{"x":-271,"y":66,"z":330}}],"say":"Clark, walking to you to till -272,66,328 for you now."}
+- 12:17 act: {"actions":[{"do":"till","at":{"x":-272,"y":66,"z":328}}]}
+- 12:17 act: {"actions":[{"do":"till","at":{"x":-270,"y":66,"z":328}}],"say":"Clark, -272,66,328 is planks, not dirt. Trying -270,66,328 now."}
+- 12:18 act: {"actions":[{"do":"till","at":{"x":-272,"y":65,"z":330}}],"say":"Clark, -270,328 is planks too. I'm tilling the grass under me at -272,65,330 and will tell you when it's done."}
+- 12:18 act: {"actions":[{"do":"goto","target":{"x":-271,"y":66,"z":331}}],"say":"Clark, the farmland is tilled at -272,65,330. It's dry, but you can plant there. I'm stepping clear so you can reach it."}
+- 12:20 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}}],"say":"Clark, the tilled block is at -272,65,330, one level below the grass. Stand at -272,66,331 and use the seed on it. I'm going to the
+- 12:20 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}]}
+- 12:28 act: {"actions":[{"do":"attack","target":"phantom"}],"reasoning":"A phantom is attacking me 3 blocks east. I hold a wooden sword. Fight it first.","say":"Phantom on me to the east. Fighting it."}
+- 12:28 act: {"actions":[{"do":"goto","target":{"x":-272,"y":66,"z":330}}],"intent":{"goal":"reach_wheat_patch","program":"travel","arguments":{"target":{"x":-272,"y":66,"z":330}},"wake_on":["directly_addressed","
+- 12:32 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"wheat","count":1}],"reasoning":"I hold one wheat and Picard is adjacent and hungriest at hunger 9. He is pooling wheat to make bread.","say":"Picar
+- 12:35 act: {"actions":[],"say":"Clark, I'm at the patch now. The tilled block at -272,65,330 is where I stood earlier, and it was dry farmland. Stand at -272,66,331 and plant there.","reasoning":"Clark asked me 
+- 12:39 act: {"actions":[],"say":"Clark, I'm not sure which block is the farmland. I tilled the ground under my feet at -272,65,330, so it may be y 65. Stand at -272,66,331 and try the seed on -272,65,330 once mor
+- 12:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":335}}],"reasoning":"Night is here and I have no food. Go to the white bed at -270,67,336, shelter with the group, and sleep.","say":"Night. Going
+- 12:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"reasoning":"I'm at the bed area. Get onto the bed and sleep through the night."}
+- 12:43 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"reasoning":"Sleep failed at the first bed because the way was blocked. Try the other white bed at -271,67,318."}
+- 12:43 act: {"actions":[{"do":"sleep"}],"reasoning":"A creeper was 10 blocks off and sleep was blocked. Try once more now that it may have moved on."}
+- 12:44 act: {"actions":[{"do":"sleep"}],"reasoning":"No monsters in view now. Try sleep again on this bed."}
+- 12:44 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}},{"do":"sleep"}],"reasoning":"I drifted to the west edge. Return to the white bed at -271,67,318 and sleep."}
+- 12:45 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}],"reasoning":"My last goto was blocked by a running action. Walk back to the white bed first, then sleep once it is done."}
+- 12:45 act: {"actions":[{"do":"sleep"}],"reasoning":"I am beside a white bed at -271,67,336. The last sleep was blocked, so I try once more here."}
+- 12:45 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"reasoning":"Sleep failed as busy, and I drifted. Walk to the bed at -270,67,336 and rest there once the move is done."}
+- 12:45 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"reasoning":"The group is settling at the north beds. I'm one step off the bed; step onto it and sleep."}
+- 12:49 act: {"actions":[{"do":"goto","target":{"x":-273,"y":66,"z":331}}],"intent":{"goal":"check_wheat_ripeness","program":"travel","arguments":{"target":{"x":-273,"y":66,"z":331}},"wake_on":["goal_completed","d
