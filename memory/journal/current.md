@@ -98,3 +98,22 @@
 - 18:06 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}},{"do":"sleep"}]}
 - 18:07 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":335}}]}
 - 18:07 act: {"actions":[{"do":"sleep"}]}
+- 18:09 act: {"say":"Jason, dawn 302, hunger 17, health 20. I hold 2 rotten flesh for whoever drops to 6 or below. Calling out if you are that low, step into my sight.","intent":{"goal":"hold_near_beds_until_food"
+- 18:11 act: {"say":"Jason, morning 302, hunger 17, health 20. Zack ate; I still hold 2 rotten flesh for anyone at 6 or below. Call out and step into my sight."}
+- 18:15 act: {"actions":[{"do":"use","item":"wooden_sword"},{"do":"attack","target":"phantom"}],"reasoning":"Phantom 3 blocks away hitting me, I have sword unheld. Equip and fight."}
+- 18:15 act: {"actions":[{"do":"attack","target":"phantom"},{"do":"attack","target":"phantom"}],"reasoning":"Phantom adjacent and attacking. Strike it now."}
+- 18:17 act: {"actions":[{"do":"goto","target":"ag_chapman_01"}],"reasoning":"Phantom keeps hitting from behind, health 12. Move to Chapman with his sword for company.","say":"Jason: phantom hitting me, health 12.
+- 18:19 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Phantom on me, health 10. Hitting back.","intent":{"goal":"hold_near_group","program":"follow","arguments":{"target":"ag_chapman_01"},"wake_on":[
+- 18:19 act: {"actions":[{"do":"goto","target":"ag_laforge_01"}],"say":"Health 6, going to LaForge at the beds where the group is."}
+- 18:20 act: {"actions":[{"do":"goto","target":"ag_chapman_01"}],"say":"Dusk, phantoms two of them south-west. Health 6. Staying tight with Chapman."}
+- 18:20 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Health 2. Going to the white bed to sleep."}
+- 18:20 act: {"actions":[{"do":"use","at":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Trying the bed now. Health 2."}
+- 18:21 act: {"actions":[{"do":"sleep"}],"say":"Thank you LaForge. Data, please pass the chicken to me, I am at health 2. Trying sleep now that it is night."}
+- 18:22 act: {"actions":[],"say":"Jason at health 2, hunger 16, next to LaForge at the yellow bed. Trini, I'll take the chicken or beef when you can give it. Phantom near, sleep refused."}
+- 18:22 act: {"actions":[{"do":"sleep"}],"say":"Kimberly, I'm Jason at health 2, right here by the yellow bed. Please give me the beef. Hunger 16."}
+- 18:23 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}}],"say":"Going to the yellow beds where Kimberly and Trini hold the beef and chicken. Health 2."}
+- 18:23 act: {"actions":[{"do":"use","at":{"x":-263,"y":67,"z":353}},{"do":"sleep"}],"say":"Jason at the yellow bed, health 2, trying to sleep with Chapman near."}
+- 18:23 act: {"actions":[],"say":"Zack, you are right beside me with mutton. Jason at health 2, please give me the mutton. I will share what I can after."}
+- 18:23 act: {"actions":[],"say":"Jason, in sight at the yellow bed, health 2, hunger 16, no food but 2 rotten flesh. Zack, the mutton to me if you can spare it; Chapman, I'll share my rotten flesh when you drop t
+- 18:24 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}],"say":"Jason trying the second yellow bed at -263,67,354 now. Worf, I am here in your sight."}
+- 18:25 act: {"actions":[{"do":"goto","target":{"x":-264,"y":66,"z":350}}],"say":"Jason is back, respawned at the yellow bed with health 20. I'm going to pick up my dropped rotten flesh and sword at -264,66,350."}
