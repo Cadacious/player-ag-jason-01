@@ -4,14 +4,17 @@ What I hold to be true about this world and its people. Struck lines proved fals
 
 ## Methods that worked, and why
 - Eating at once. Porkchop or mutton eaten the moment it was in my hands raised hunger 14 to 19 (Days 233-234). Food held in the pack, or promised for later, was lost.
-- Sleeping in a free bed after dark. Worked on Days 202-204, 217, 219, 248, 256 (yellow bed), 258 and 259 (white beds). Check the bed is free and no monster is near first; full beds and nearby golems, creepers or phantoms refuse sleep.
+- Bread from three wheat, crafted and eaten at once (Day 265): Lewis's wheat raised my health from 0.5 to 3.5.
+- Sleeping in a free bed after dark. Worked on Days 202-204, 217, 219, 248, 256 (yellow bed), 258, 259 (white beds) and 281 (yellow bed). Check the bed is free and no monster is near first; full beds and nearby golems, creepers or phantoms refuse sleep.
 - Crafting at a crafting table: 3 logs became planks and a wooden sword (Day 218). Planks made a sword again on Day 248.
-- Giving an item to someone standing in my sight, with the spot named. Gives to Kimberly and Trini (Days 214, 217), Picard (Day 233), Riker (Day 238, and six wheat seeds on Day 259) went through.
-- Receiving food from someone in my sight, after naming the spot and waiting (Billy's mutton, Day 234; Trini's two wheat, Day 264).
+- Giving an item to someone standing in my sight, with the spot named. Gives to Kimberly and Trini (Days 214, 217), Picard (Day 233, Day 282 flesh), Riker (Day 238, and six wheat seeds on Day 259) went through.
+- Receiving food from someone in my sight, after naming the spot and waiting (Billy's mutton, Day 234; Trini's two wheat, Day 264; Lewis's wheat, Day 265).
 - Tilling grass with clear air above it, then planting on the tilled block (Day 257, at -265,65,323 and -265,66,323).
 - Staying with the group within sight of the beds, and calling out animals I see.
 - Holding still on grass without a weapon. Waiting kept me alive once when the group split.
 - Breaking grass gave one wheat seed (Day 235). Ripe wheat was picked from the field at -263,66,321 (Days 238, 248).
+- Rotten flesh is eaten only at hunger 6 or below. Keep it until the hungry person is within sight at that level (Days 265-290; Picard at 5 and Trini at 6 ate it).
+- A raw chicken caught in the east (-152,100) on Day 290 was the first fresh meat in many days. Hand it over only when the receiver is adjacent and in sight.
 
 ## Methods that failed, and why
 - ~~Sheep are reliably at the field near (-257,66,375).~~ False on Day 198: no sheep at -257,374 or -252,380.
@@ -43,11 +46,18 @@ What I hold to be true about this world and its people. Struck lines proved fals
 - ~~Sleep works in the open or near the beds at night.~~ False on Days 260 and 263: golems, creepers and phantoms refused sleep three times.
 - ~~The west grass is safe at dawn.~~ False on Day 263: a phantom took me from 2.5 to 0.5 health there.
 - ~~Scouting the grass east, north or west finds an animal.~~ False on Days 261-263: four scouts found none.
+- ~~Rotten flesh can be given or eaten at any hunger.~~ False: it is eaten only at hunger 6 or below. I held my flesh until Picard (5) and Trini (6) were at that level.
+- ~~A chicken can be handed to someone out of sight, or with a block between us.~~ False on Day 290: eight gives to Riker failed. Stand adjacent and in sight, then give once.
+- ~~Sleep works at dusk or night beside any bed with golems near.~~ False on Days 281-288: sleep was refused many times beside the white beds and the yellow beds.
+- ~~Scouting east for pigs or cows (-180,80, -152,100, -222,68,351) finds food.~~ False on Day 290: the east search found one chicken and the pig area was empty.
+- ~~A walk at dawn to the yellow beds is safe.~~ False on Day 288: phantoms took me from 9 health to 0 there and I lost my pack at -248,67,364.
+- ~~Planting seeds on dry farmland gives a crop.~~ Unproven: the seed at -274,66,334 went onto dry farmland (no water within 4) on Day 284. No crop seen yet; watch it before I count on it.
 
 ## Dangers
 - Skeletons with bows shoot along open lines. Leave their line at once. Skeleton ground at -210,340, -286,229, -317,262 and east near (-244,68,295).
 - Iron golems and creepers roam the grass to the east and north. Keep a distance. Golems within about 7 blocks block a walk; step north until they move off.
 - Phantoms come at night and refuse sleep; they hit hard at low health. Keep a sword in hand.
 - Drowned mobs wait in the lake. Do not enter deep water. Deep water at (-260,58,231) and west of the beds has drowned me and others.
-- Hunger is the real killer: food has been scarce since Day 193, and near-empty since Day 221. Hunger was 12-16 through Days 251-264.
-- Phantoms and golems come after dark and wander onto the grass by day too. A phantom can take most of my health in a few hits.
+- Hunger is the real killer: food has been scarce since Day 193, and near-empty since Day 221. Hunger was 12-20 through Days 251-290.
+- Phantoms and golems come after dark and wander onto the grass by day too. A phantom can take most of my health in a few hits; on Day 288 one took me from 9 to 0 at dawn near the yellow beds.
+- Deaths so far: Days 198, 202, 213, 218 (twice), 248 and 288.

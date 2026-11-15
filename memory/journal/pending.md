@@ -1,0 +1,218 @@
+# Journal
+- 05:52 act: {"say":"Jason here, hunger 17, no food in hand. Riker, tell me what the trader sells the moment you know. I hold 2 wheat and an oak log to trade.","intent":{"goal":"hold_for_trade_news","program":"res
+- Day 265, dawn at the white beds (-272,67,319). Hunger 17, health 0.5, no food. Trader llama seen to the south-east; Riker and Clark going to trade. Said my hunger aloud and held near the group, waiting for trade news.
+- Day 265: Lewis gave 1 wheat, I crafted bread (3 wheat) at the beds and ate it. Health 0.5 to 3.5 and rising, hunger 20. Trader would not trade with Riker. Sheep spot at -276,66,300 had no sheep in sight. Group is searching NW for mutton.
+- 05:52 act: {"say":"Still no food here. I hold 2 wheat; one more wheat makes bread. Anyone with a wheat, give it to me at the beds and I will eat it at once."}
+- 05:53 act: {"actions":[{"do":"craft","item":"bread","count":1}],"say":"Lewis, thank you. I have 3 wheat now and will make bread."}
+- 05:53 act: {"actions":[{"do":"eat"}]}
+- 05:53 act: {"say":"Thank you Lewis, the bread is eaten and health is climbing. Mutton from the sheep goes to whoever is hungry; Billy, Data, Tommy, Riker, keep it in sight of the beds."}
+- 05:56 act: {"say":"Jason here, day 265, hunger 17, no food in hand. I'm checking the wheat field at -263,66,321. Any meat or bread, I'll eat at once.","actions":[{"do":"goto","target":{"x":-263,"y":66,"z":321}}]
+- 05:56 act: {"say":"Jason at the wheat field, day 265. No food. Kimberly, do you have any meat or bread? I'll try planting my two seeds on tilled ground here.","actions":[{"do":"till","at":{"x":-265,"y":65,"z":32
+- 05:59 say: {"text":"Jason here at the wheat field. Still no food. Thank you all. Dusk is coming; I'll hold here with Kimberly, Zack and Clark, then find a free bed."}
+- 05:59 act: {"say":"Going to the white bed at -271,67,336 for the night. Zack, Clark, Kimberly, come along.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}}],"intent":{"goal":"reach_white_bed","progra
+- 06:00 act: {"say":"Jason here at the white bed. No food in my pack. Clark, come in close to the beds. I'll try the bed again.","actions":[{"do":"sleep"}],"reasoning":"Dusk, at a bed, monsters nearby blocked slee
+- 06:01 act: {"actions":[{"do":"sleep"}],"reasoning":"Night now, I am at a white bed. The last sleep failed as blocked; this is a new try from a different bed.","intent":{"goal":"sleep_in_bed_at_night","program":"
+- 06:02 act: {"actions":[{"do":"sleep"}],"reasoning":"Sleep refused for monsters nearby. Hold at the bed and retry after a wait.","intent":{"goal":"hold_at_bed_until_dawn","program":"rest","arguments":{},"wake_on"
+- 06:10 act: {"say":"Jason here, dawn day 266, hunger 17, no food. I'll check the wheat field at -263,66,321 for ripe wheat. Meat or bread goes to me first.","actions":[{"do":"goto","target":{"x":-263,"y":66,"z":3
+- 06:10 act: {"say":"Jason at the wheat field, day 266. Still unripe, hunger 17. Any meat or bread, give it to me and I'll eat at once.","intent":{"goal":"hold_at_field_for_food","program":"rest","arguments":{},"w
+- 06:12 act: {"say":"Jason at the wheat field, midday. Still no food, hunger 17. Meat or bread to me first; I will share what I get."}
+- 06:15 act: {"intent":{"goal":"hold_at_field_for_food","program":"rest","arguments":{"at":{"x":-263,"y":66,"z":320}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world
+- 06:15 act: {"intent":{"goal":"hold_at_field_for_food","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"max_block_operations"
+- 06:18 act: {"say":"Jason coming to the white beds now, hunger 17. Bcrusher, I'll take the beef. Thank you.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":320}}],"intent":{"goal":"reach_white_beds_for_bee
+- 06:18 act: {"say":"Bcrusher, I'm here. LaForge is weaker than me, so the beef goes to him first. If any is left, I'll take it. Thank you.","actions":[],"intent":{"goal":"wait_for_beef_at_beds","program":"rest","
+- 06:18 act: {"say":"LaForge, your health is lower than mine, so the beef is yours. I'll wait and take whatever is left. Bcrusher, thank you.","actions":[],"intent":{"goal":"wait_at_beds_for_leftover_beef","progra
+- 06:24 act: {"say":"Jason here at the white beds. No food, hunger 17. Going to try the bed for the night.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}]}
+- 06:24 act: {"actions":[{"do":"sleep"}]}
+- 06:24 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}]}
+- 06:25 act: {"say":"Jason at the beds, no food, hunger 16. Sleep was blocked twice. Holding here until light; any food to me first.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}}]}
+- 06:25 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
+- 06:27 act: {"say":"Thank you LaForge. You are weaker than me, so keep your rotten flesh. I'm at health 9 and will hold near the beds until light."}
+- 06:29 act: {"say":"Jason here at the white beds, hunger 16, no food. I'm going to check the wheat at -263, 66, 321. Meat goes to whoever is weakest first.","intent":{"goal":"reach_wheat_field","program":"travel"
+- 06:29 act: {"say":"The wheat here is still unripe. I'll wait by the field and watch for any meat the scouts bring back.","intent":{"goal":"hold_by_wheat_for_food","program":"rest","arguments":{"seconds":240},"wa
+- 06:36 act: {"say":"Jason at the wheat field, midday, hunger 16, health 9, no food. Kimberly, I'm glad your last seed is in. Picard, if you can spare seeds, I can till a patch beside this field and plant them."}
+- 06:39 say: {"text":"Jason here at the wheat field, dusk, hunger 16, no food in hand. Heading north to the white beds to meet Lewis and Tommy. Please hand any wheat or meat to me there."}
+- 06:39 act: {"intent":{"goal":"reach_north_beds","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":318}},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"],"li
+- 06:40 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}],"intent":{"goal":"reach_north_beds","program":"travel","arguments":{"target":{"x":-271,"y":67,"z":318}},"wake_on":["goal_completed","direc
+- 06:40 act: {"actions":[{"do":"note","text":"Reached north white beds at dusk with Worf, Riker, Bcrusher, Kimberly. No food yet; Lewis's wheat and Tommy's porkchops not in my pack. Sleeping in a bed."}]}
+- 06:40 act: {"say":"Picard, I'm here at the white beds with Worf and Bcrusher. I have no food yet. Keep the seeds for now; I'll plant them once I've eaten and we have tilled ground.","actions":[{"do":"note","text
+- 06:40 act: {"actions":[{"do":"sleep"}],"say":"Bcrusher, thanks for the dirt. I'm going to the bed with the group now."}
+- 06:41 act: {"actions":[],"say":"Jason here, at the white beds. My pack has no food; the porkchops and wheat have not come into my hand. Whoever holds meat, give it to the weakest first. I'll stay here by the bed
+- 06:45 act: {"actions":[{"do":"eat"}],"say":"I have 3 rotten flesh in my pack now, thanks LaForge. Eating one, Kimberly is still weakest, so I'll share the rest with her if she is in sight.","intent":{"goal":"hol
+- 06:46 act: {"actions":[],"say":"Kimberly, rotten flesh can only be eaten at hunger 6 or below, and mine is 16. I'll keep the 3 for whoever reaches 6 first, and it goes to you if you are closest then."}
+- 06:50 act: {"actions":[],"say":"Jason, dawn day 268, hunger 16, health 9. My 3 rotten flesh can be eaten at hunger 6, so Picard (hunger 6) can take one now if he is in sight. Kimberly next. I'm going west with t
+- 06:57 act: {"actions":[],"say":"Picard, thank you for the seed. I have a hoe and 9 dirt, so I'll till a patch near the beds and plant my one seed there. Meet me at the white beds and I'll come for the rest."}
+- 06:59 act: {"actions":[{"do":"goto","target":"ag_picard_01"}],"say":"Picard, I'm coming to get the seeds. Thank you.","intent":{"goal":"reach_picard_for_seeds","program":"travel","arguments":{"target":"ag_picard
+- 07:03 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Night. Going to the white bed with the group. Seeds from Picard at first light."}
+- 07:03 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
+- 07:08 act: {"actions":[{"do":"goto","target":"ag_picard_01"}],"say":"Picard, Jason here. Could I have some of your seeds? I have ground ready to till."}
+- 07:08 act: {"actions":[],"say":"Picard, I'm right beside you. Could you give me 4 wheat seeds? I'll till and plant near you."}
+- 07:09 act: {"actions":[{"do":"till","at":{"x":-273,"y":65,"z":332}}],"say":"Thank you Picard, 6 seeds. I'll till a patch here and plant."}
+- 07:09 act: {"actions":[{"do":"place","block":"wheat_seeds","at":{"x":-273,"y":66,"z":332}}]}
+- 07:13 act: {"actions":[{"do":"give","to":"ag_macdonald_01","item":"wheat_seeds","count":2}],"say":"Macdonald, here are 2 wheat seeds. Plant them by the others."}
+- 07:19 act: {"actions":[{"do":"till","at":{"x":-274,"y":65,"z":334}}],"say":"Jason at the white beds, day 269 midday, hunger 16, health 9, no food. I have 4 wheat seeds and a hoe; I'm tilling a patch here to plan
+- 07:19 act: {"actions":[{"do":"place","block":"wheat_seeds","at":{"x":-274,"y":66,"z":334}}],"reasoning":"Planting one of my 4 seeds on the new dry farmland, then keep the rest for the next tilled patch."}
+- 07:19 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Dusk. Jason going to the south white bed at -270,67,336 to sleep. Hunger 16, no food; meat to Chapman and Trini firs
+- 07:23 act: {"actions":[{"do":"sleep"}],"reasoning":"Night, at a free white bed with the group nearby. Try sleep."}
+- 07:31 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"rotten_flesh","count":1}],"say":"Dawn day 270. Picard, you're at hunger 6, so take one rotten flesh now. I have 2 more for whoever reaches 6. Jason
+- 07:31 act: {"actions":[{"do":"goto","target":{"x":-268,"y":67,"z":322}}],"say":"A golem is closing from the south-west. I'm moving north to the group at -268,67,322. Picard was not in sight for the rotten flesh;
+- 07:40 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"say":"Dusk. Heading to the south white bed to try for a night's sleep. Trini, Clark, Worf and Chapman, stay near."}
+- 07:40 act: {"actions":[{"do":"sleep"}]}
+- 07:41 act: {"actions":[{"do":"sleep"}],"say":"Jason at the south white bed, night, hunger 16, no food in hand. Trini, I still hold 3 rotten flesh for whoever reaches hunger 6 first.","reasoning":"Night, at a fre
+- 07:43 act: {"actions":[{"do":"sleep"}],"say":"Trini, I'm at hunger 16 still; your turn comes first at 6. Holding at the south bed, retrying sleep.","reasoning":"Creeper gone from range; golems are not hostile. R
+- 07:44 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}},{"do":"sleep"}],"say":"Jason going back to the south white bed to sleep. Kimberly and Clark, stay near.","reasoning":"Return to the bed I c
+- 07:44 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"say":"Jason walking to the white bed at -270,67,336 now. Bcrusher and Wcrusher, stay near.","reasoning":"Previous sleep failed after a st
+- 07:45 act: {"actions":[{"do":"sleep"}],"reasoning":"At the bed, golem not hostile. Sleep."}
+- 07:50 act: {"say":"Bcrusher, come to the south bed, I'll hold here with Trini. Trini, you're first for the flesh when you reach 6.","actions":[{"do":"sleep"}]}
+- 08:02 act: {"actions":[{"do":"sleep"}],"intent":{"goal":"rest_night_271","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":12000,"m
+- 08:04 act: {"say":"Jason here with a wooden sword. Riker, Zack, I'm coming to the bed to help with the phantom.","actions":[{"do":"goto","target":"zack"}]}
+- 08:07 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}]}
+- 10:51 act: {"actions":[{"do":"eat"}],"say":"I'm awake, hungry, and eating rotten flesh.","reasoning":"Hunger 15 with rotten flesh in pack. Eat now, then decide the day."}
+- 10:51 act: {"actions":[{"do":"wait","seconds":60}],"reasoning":"Rotten flesh only eaten at hunger 6 or below. Wait, staying with the group by the beds."}
+- 10:57 act: {"actions":[],"say":"Picard, hunger 4 is the one for rotten flesh. I have 3. Come within reach of me at the south white bed and I'll hand you one.","reasoning":"Picard is at hunger 4, which is eligibl
+- 11:01 act: {"actions":[{"do":"sleep"}],"reasoning":"Dusk, beside a free white bed with the group. Sleep now."}
+- 11:05 act: {"actions":[{"do":"sleep"}],"reasoning":"Night, beside the bed with the group. Sleep."}
+- 11:09 act: {"actions":[],"say":"Jason, dawn day 281, hunger 15, no food eaten. I hold 3 rotten flesh, eatable at hunger 6 or below. LaForge first, then Picard, then Trini. Come within reach and I'll hand it over
+- 11:13 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason here, dark at the north bed. Holding my three rotten flesh for LaForge, then Picard, as I said. Trying to slee
+- 11:15 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":327}}],"say":"Jason here. Moving north away from the golems. Hunger 15, so the flesh waits until it is 6 or below.","intent":{"goal":"hold_near_b
+- 11:15 act: {"actions":[{"do":"till","at":{"x":-273,"y":65,"z":329}}],"say":"Jason at the north beds, -271,67,327. I hold 3 rotten flesh: Trini first when you reach 6, then LaForge, then Picard. Clark, I have a h
+- 11:17 act: {"actions":[{"do":"till","at":{"x":-272,"y":65,"z":325}}],"say":"Wesley, I'm tilling a patch by you now. Plant your seed there; I'll keep the hoe for whoever needs it."}
+- 11:17 say: {"text":"Wesley, that spot was air, so the till failed. Tell me a dirt block near you and I'll till it."}
+- 11:21 act: {"actions":[{"do":"goto","target":"ag_picard_01"},{"do":"give","to":"ag_picard_01","item":"rotten_flesh","count":1}],"say":"Picard, hunger 3: I'm bringing you rotten flesh now, eat it at once. Trini a
+- 11:21 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":335}},{"do":"sleep"}],"say":"Picard is not in sight, so I'm going to the south white bed for the night. Any hungry one near the bed, call me and 
+- 11:21 act: {"actions":[],"say":"Trini, you're in reach. What is your hunger now? If it is 6 or below, say so and I'll give you the rotten flesh at once."}
+- 11:25 act: {"actions":[{"do":"goto","target":"ag_trini_01"},{"do":"give","to":"ag_trini_01","item":"rotten_flesh","count":2}],"say":"Trini, hunger 6: coming to you with rotten flesh now. Eat one as soon as it's 
+- 11:25 act: {"actions":[],"say":"Trini, I can't see you from here, so I'm holding at the bed at -270,67,327 with the flesh. Come within sight and I'll hand it over."}
+- 11:27 act: {"actions":[{"do":"wait","seconds":30}],"say":"Trini, I'm at the north beds at -270,67,327 with the rotten flesh. I don't see you yet. Come into sight and I'll hand it over at once.","intent":{"goal":
+- 11:27 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"rotten_flesh","count":2}],"say":"Trini, here are 2 rotten flesh. Eat one now, at hunger 6."}
+- 11:27 act: {"actions":[],"say":"Trini, I'm at -269,66,330 and the give failed because you're out of sight. Come back within reach and say your hunger; I'll give the flesh the moment I see you.","intent":{"goal":
+- 11:28 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"rotten_flesh","count":2}],"say":"Trini, here are 2 rotten flesh. Eat one now."}
+- 11:28 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"rotten_flesh","count":1}],"say":"Data, one rotten flesh went to you by mistake. Please give it to Trini now; she is at hunger 6. Trini, I'm giving y
+- 11:29 act: {"actions":[],"say":"Clark, the tilled patch by the south bed at -273,65,332 is free; plant there. Dawn day 282. Picard is at hunger 5 and Trini at 6; my last rotten flesh goes to whichever of them is
+- 11:30 act: {"actions":[],"say":"Picard, Trini ate Data's flesh and says you need the last one. I hold it at -270,67,327. Come within reach and say your hunger; if it's 6 or below I'll hand it over at once.","int
+- 11:30 act: {"actions":[],"say":"Clark, I tilled -273,65,332 earlier but I'm not sure it stuck. Till it again with my hoe if it's grass; the block under your seeds must be farmland, not air. I'm holding at -270,6
+- 11:41 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}},{"do":"sleep"}],"say":"Jason going to the south white bed for the night, Trini and Picard, the last flesh is with me for whoever reaches 6 
+- 11:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"intent":{"goal":"hold_flesh_for_picard","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_complet
+- 11:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"say":"Jason at the north beds, still holding the last rotten flesh for Picard, who is at hunger 5. Say when you are in reach."}
+- 11:42 act: {"actions":[{"do":"sleep"}],"say":"Jason going to sleep at the white bed by the north group. The last flesh stays with me for Picard at hunger 6 or below."}
+- 11:43 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"rotten_flesh","count":1}],"say":"Picard, here is my last rotten flesh. You reported hunger 5, so eat it now."}
+- 11:49 act: {"actions":[{"do":"goto","target":"ag_riker_01"}],"say":"Jason at dawn, day 283. No food. I'll follow the pig hunt with Riker and the group; I carry 3 wheat seeds to plant on tilled ground. Meat goes 
+- 11:52 act: {"actions":[],"say":"Jason, no food on me. Picard, LaForge is at health 2 by the crafting tables, so the chicken goes to him first, then Trini. I hold 3 seeds and a hoe for a tilled patch if anyone ne
+- 11:53 act: {"actions":[],"say":"Lewis, the farmland I tilled is at -273,65,332 and the one I tilled near -274,65,334 is by the south beds. I have 3 seeds and can plant beside whichever is dry."}
+- 11:57 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":325}}],"say":"Jason heading to the crafting tables to be with the group. No food on me; LaForge and then Trini get any meat."}
+- 12:01 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason going to the north white bed to sleep with the group. No food on me; LaForge, Trini, Picard first if any turns
+- 12:02 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}},{"do":"sleep"}]}
+- 12:02 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":330}}],"say":"Jason back toward the group at the crafting tables. No food on me."}
+- 12:02 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":337}},{"do":"sleep"}]}
+- 12:12 act: {"actions":[{"do":"goto","target":{"x":-273,"y":66,"z":333}}],"say":"Jason here, dawn of day 284. No food, hunger 14. I hold 3 wheat seeds and a hoe. Going to the farm at -273,66,332 to till more grou
+- 12:12 act: {"actions":[{"do":"till","at":{"x":-274,"y":65,"z":334}}],"say":"Morning. I'm at the farm with Lewis. I'm tilling a new bit of ground here for my 3 seeds. Picard, you're next to me, the wheat at -273,
+- 12:12 act: {"actions":[{"do":"place","block":"wheat_seeds","at":{"x":-274,"y":66,"z":334}}],"say":"Planting my seeds on the new farmland here. It is dry, but I'll try."}
+- 12:12 act: {"actions":[{"do":"note","text":"Day 284 morning at farm -273,66,333. Hunger 14, no food. Planted 1 wheat seed on tilled ground -274,66,334 (dry, no water within 4). Holding 4 seeds from Picard and Le
+- 12:12 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Clark, the tilled patches here are used: -273,66,332 and -274,66,334 both have seeds. Tell me a dirt block near you and I'll till it. Phantom is 
+- 12:14 act: {"say":"Clark, I hold a hoe and 4 seeds. Name a dirt block near you and I'll till it, then you plant.","intent":{"goal":"hold_near_group_until_food","program":"rest","arguments":{},"wake_on":["directl
+- 12:17 act: {"actions":[{"do":"goto","target":{"x":-271,"y":66,"z":330}}],"say":"Clark, walking to you to till -272,66,328 for you now."}
+- 12:17 act: {"actions":[{"do":"till","at":{"x":-272,"y":66,"z":328}}]}
+- 12:17 act: {"actions":[{"do":"till","at":{"x":-270,"y":66,"z":328}}],"say":"Clark, -272,66,328 is planks, not dirt. Trying -270,66,328 now."}
+- 12:18 act: {"actions":[{"do":"till","at":{"x":-272,"y":65,"z":330}}],"say":"Clark, -270,328 is planks too. I'm tilling the grass under me at -272,65,330 and will tell you when it's done."}
+- 12:18 act: {"actions":[{"do":"goto","target":{"x":-271,"y":66,"z":331}}],"say":"Clark, the farmland is tilled at -272,65,330. It's dry, but you can plant there. I'm stepping clear so you can reach it."}
+- 12:20 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}}],"say":"Clark, the tilled block is at -272,65,330, one level below the grass. Stand at -272,66,331 and use the seed on it. I'm going to the
+- 12:20 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}]}
+- 12:28 act: {"actions":[{"do":"attack","target":"phantom"}],"reasoning":"A phantom is attacking me 3 blocks east. I hold a wooden sword. Fight it first.","say":"Phantom on me to the east. Fighting it."}
+- 12:28 act: {"actions":[{"do":"goto","target":{"x":-272,"y":66,"z":330}}],"intent":{"goal":"reach_wheat_patch","program":"travel","arguments":{"target":{"x":-272,"y":66,"z":330}},"wake_on":["directly_addressed","
+- 12:32 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"wheat","count":1}],"reasoning":"I hold one wheat and Picard is adjacent and hungriest at hunger 9. He is pooling wheat to make bread.","say":"Picar
+- 12:35 act: {"actions":[],"say":"Clark, I'm at the patch now. The tilled block at -272,65,330 is where I stood earlier, and it was dry farmland. Stand at -272,66,331 and plant there.","reasoning":"Clark asked me 
+- 12:39 act: {"actions":[],"say":"Clark, I'm not sure which block is the farmland. I tilled the ground under my feet at -272,65,330, so it may be y 65. Stand at -272,66,331 and try the seed on -272,65,330 once mor
+- 12:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":335}}],"reasoning":"Night is here and I have no food. Go to the white bed at -270,67,336, shelter with the group, and sleep.","say":"Night. Going
+- 12:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"reasoning":"I'm at the bed area. Get onto the bed and sleep through the night."}
+- 12:43 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"reasoning":"Sleep failed at the first bed because the way was blocked. Try the other white bed at -271,67,318."}
+- 12:43 act: {"actions":[{"do":"sleep"}],"reasoning":"A creeper was 10 blocks off and sleep was blocked. Try once more now that it may have moved on."}
+- 12:44 act: {"actions":[{"do":"sleep"}],"reasoning":"No monsters in view now. Try sleep again on this bed."}
+- 12:44 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}},{"do":"sleep"}],"reasoning":"I drifted to the west edge. Return to the white bed at -271,67,318 and sleep."}
+- 12:45 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}],"reasoning":"My last goto was blocked by a running action. Walk back to the white bed first, then sleep once it is done."}
+- 12:45 act: {"actions":[{"do":"sleep"}],"reasoning":"I am beside a white bed at -271,67,336. The last sleep was blocked, so I try once more here."}
+- 12:45 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"reasoning":"Sleep failed as busy, and I drifted. Walk to the bed at -270,67,336 and rest there once the move is done."}
+- 12:45 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"reasoning":"The group is settling at the north beds. I'm one step off the bed; step onto it and sleep."}
+- 12:49 act: {"actions":[{"do":"goto","target":{"x":-273,"y":66,"z":331}}],"intent":{"goal":"check_wheat_ripeness","program":"travel","arguments":{"target":{"x":-273,"y":66,"z":331}},"wake_on":["goal_completed","d
+- 12:58 act: {"actions":[{"do":"till","at":{"x":-274,"y":65,"z":332}},{"do":"place","block":"wheat_seeds","at":{"x":-274,"y":66,"z":332}}],"reasoning":"No food to hand out, and the group is covering the meat. I ca
+- 13:02 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"reasoning":"Dusk with phantoms close. I have no food and no shelter, so I go to the nearby yellow bed and try to sleep the
+- 13:03 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"reasoning":"Sleep was blocked, so I try the yellow bed once more. Phantoms have left the area. This is the second attempt 
+- 13:07 act: {"actions":[],"say":"Jason, hunger 13, health 9, no food. Troi and Clark are lower, so bread goes to them first. I'll wait by the yellow bed.","reasoning":"Bcrusher is handing out his bread. I have no
+- 13:24 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"intent":{"goal":"rest_at_yellow_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","
+- 13:30 act: {"say":"Jason, dawn day 288. No food on me, hunger 13, health 9. I have 3 wheat seeds. Scouting for animals in sight of the group; Kimberly, I'll bring you anything I find.","intent":{"goal":"scout_fo
+- 13:32 act: {"actions":[{"do":"write_sign","text":"Jason: no food yet"}],"say":"Jason here, day 288, hunger 13, health 9, no food. I agree with Worf and Billy: scout for animals, meat to Lewis and LaForge first. 
+- 13:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason going to the white bed at -270,67,336 for the night with the group. Still no food, hunger 13. Meat goes to Lew
+- 13:43 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}},{"do":"sleep"}],"say":"Jason, night 288, sleep was blocked where I stood. Trying the south white bed again, hunger 12, no food."}
+- 13:44 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}],"say":"Jason at the yellow bed -263,67,353 now, trying sleep. Hunger 12, no food."}
+- 13:44 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":351}}],"say":"Jason hit from the right at night, health 7. Phantom to the north. I'm holding here by the yellow beds with my sword until dawn."}
+- 13:45 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Phantom on me, health 5. Swinging back with my sword."}
+- 13:46 act: {"actions":[{"do":"goto","target":{"x":-256,"y":67,"z":358}}],"say":"Health 3. Pulling away from the golems to the south-east."}
+- 13:46 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 13:46 act: {"actions":[{"do":"goto","target":{"x":-248,"y":67,"z":364}}],"say":"Golem right on my north. Moving south-east, away from it."}
+- 13:48 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Health 1. Fighting the phantom now."}
+- 13:50 act: {"actions":[{"do":"goto","target":"ag_riker_01"}],"say":"I died at dawn and lost my pack; I have nothing. I'm with Riker at the beds. Once it is full light I'll search with Trini and Bcrusher, in sigh
+- 13:52 act: {"actions":[{"do":"goto","target":"ag_billy_01"}],"say":"Billy, thanks. My hunger is full, so give the beef to Lewis, LaForge and Troi first. I lost my pack at -248,67,364; if the phantoms clear, I'll
+- 13:52 act: {"actions":[{"do":"goto","target":{"x":-248,"y":67,"z":364}}],"say":"Bright now. I'm going back for my pack at -248,67,364. Billy, Worf, keep the beef for the weak."}
+- 13:52 act: {"actions":[{"do":"goto","target":{"x":-246,"y":67,"z":362}},{"do":"goto","target":{"x":-244,"y":67,"z":361}},{"do":"goto","target":{"x":-246,"y":67,"z":367}}]}
+- 13:58 say: {"text":"Jason here at midday, health 20, hunger 20, no food. I hold 3 wheat seeds and a sword. Tell me where the weakest are and I'll come near."}
+- 14:02 act: {"intent":{"goal":"reach_group_at_beds","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":336}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],
+- 14:02 act: {"actions":[{"do":"sleep"}],"say":"Jason is with the group at the white bed, no food, health 20. Trying to sleep.","reasoning":"Night, now with group at beds. Try the bed once; sleep ends the day."}
+- 14:03 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":335}}],"reasoning":"Sleep was blocked; I drifted north. Return to the bed group at -270,67,336 and wait there."}
+- 14:11 say: {"text":"Jason, dawn 290, health 20, hunger 20, no food. I have a hoe and 3 wheat seeds. Macdonald, Picard: tell me where the tilled ground should be and I'll till it for planting."}
+- 14:12 say: {"text":"Jason, no food and I've seen no animals since I woke. Only unripe wheat at -272,66,331. Zack (health 9) and Leonardo first."}
+- 14:12 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"wheat_seeds","count":6}],"say":"Picard, I'm giving you my 6 wheat seeds (Worf's and Riker's) for the tilled patch, since you're planting there.","r
+- 14:22 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":335}},{"do":"sleep"}],"say":"Jason, dusk 290, going to bed at the white beds with the group. No food; Zack and Leonardo first for meat.","reasoni
+- 14:30 act: {"intent":{"goal":"join_pig_hunt_east","program":"travel","arguments":{"target":{"x":-213,"y":69,"z":351}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ti
+- 14:30 act: {"actions":[{"do":"goto","target":{"x":-241,"y":67,"z":350}}],"say":"Jason heading to Zack, Wesley and Lewis at -241,67,350. Food first to Zack.","reasoning":"Travel to the hunt failed on water; go by
+- 14:32 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"rotten_flesh","count":1}],"say":"Zack, here is the rotten flesh from Troi. Eat it now, you are lowest.","reasoning":"Zack is in reach and lowest in h
+- 14:33 act: {"actions":[{"do":"goto","target":{"x":-222,"y":68,"z":351}}],"say":"Jason heading east to the pig area at -222,68,351 with the hunt.","reasoning":"The pig hunt is east where Macdonald, Leonardo and T
+- 14:41 act: {"intent":{"goal":"reach_white_beds","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":338}},"wake_on":["goal_completed","precondition_failed","directly_addressed","unexpected_damage"],"li
+- 14:42 act: {"actions":[{"do":"sleep"}],"reasoning":"At the white beds at night, golems are around but neutral. Try the free bed next to me."}
+- 14:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":319}},{"do":"sleep"}],"reasoning":"Sleep was blocked at the south bed. Move to the north bed pair and try once more."}
+- 14:51 act: {"intent":{"goal":"join_pig_hunt_east","program":"travel","arguments":{"target":{"x":-222,"y":68,"z":351}},"wake_on":["goal_completed","precondition_failed","directly_addressed","unexpected_damage"],"
+- 15:00 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"intent":{"goal":"reach_white_bed_and_sleep","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":336}},"wake_on":
+- 15:01 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"intent":{"goal":"reach_white_bed_and_sleep","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":336}},"wake_on":
+- 15:02 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"intent":{"goal":"sleep_at_white_bed","program":"rest","arguments":{},"wake_on":["goal_completed","precondition_failed","di
+- 15:10 act: {"actions":[{"do":"goto","target":{"x":-214,"y":69,"z":351}}],"intent":{"goal":"join_group_pig_area_for_meat","program":"travel","arguments":{"target":{"x":-214,"y":69,"z":351}},"wake_on":["goal_compl
+- 15:10 act: {"actions":[{"do":"goto","target":{"x":-180,"y":80,"z":335}}],"intent":{"goal":"search_east_for_cow_or_pig","program":"travel","arguments":{"target":{"x":-180,"y":80,"z":335}},"wake_on":["goal_complet
+- 15:11 act: {"actions":[{"do":"goto","target":{"x":-152,"y":100,"z":327}}],"intent":{"goal":"search_for_cow_east","program":"travel","arguments":{"target":{"x":-152,"y":100,"z":327}},"wake_on":["goal_completed","
+- 15:11 act: {"actions":[{"do":"attack","target":"chicken"}],"intent":{"goal":"kill_chicken_for_food","program":"gather","arguments":{"block":"chicken","count":1},"wake_on":["goal_completed","precondition_failed",
+- 15:11 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"intent":{"goal":"carry_chicken_to_macdonald","program":"travel","arguments":{"target":{"x":-262,"y":67,"z":352}},"wake_on":["goal_complet
+- 15:12 act: {"actions":[],"say":"Jason at the yellow beds with a chicken. Macdonald, Zack, Leonardo: say where you are and I'll bring it to the hungriest."}
+- 15:12 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, you're at health 3 and in reach, so the chicken is yours. Eat it now."}
+- 15:12 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"say":"Riker, my give failed because you were out of sight. I'm walking to the yellow beds now with the chicken."}
+- 15:12 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, here is the chicken. Eat it."}
+- 15:13 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":353}}],"say":"Riker, I'm back at the yellow beds with the chicken. Call out where you are."}
+- 15:13 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, taking the chicken to you now."}
+- 15:13 act: {"actions":[{"do":"goto","target":{"x":-267,"y":67,"z":348}}],"say":"Riker and Macdonald, I'm holding the chicken for Riker. I'm stepping away from the golem; come find me at the sign to the north-wes
+- 15:13 act: {"actions":[{"do":"goto","target":"ag_zack_01"},{"do":"give","to":"ag_zack_01","item":"chicken","count":1}],"say":"Zack, you're the one I can reach now. The chicken is for you, eat it."}
+- 15:13 act: {"actions":[{"do":"goto","target":"ag_zack_01"},{"do":"give","to":"ag_zack_01","item":"chicken","count":1}],"say":"Zack, coming to you with the chicken."}
+- 15:13 act: {"actions":[],"say":"Zack, understood. I'm keeping the chicken for Riker. Riker, come to me here at the white beds and I'll hand it over."}
+- 15:15 act: {"actions":[],"say":"Riker and LaForge, I'm at the white beds with the chicken and I'll hand it to whoever of you walks into sight first."}
+- 15:16 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}},{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, I'm on my way to the yellow beds with the chicken. Stay put."}
+- 15:16 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"say":"Riker, I'm at the yellow beds now. Show yourself and I'll give you the chicken."}
+- 15:17 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, here is the chicken. Eat it."}
+- 15:19 act: {"actions":[{"do":"goto","target":{"x":-261,"y":67,"z":353}}],"say":"Riker, I'm coming to the yellow beds with the chicken. Stay put."}
+- 15:19 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, the chicken is yours. Eat it now."}
+- 15:22 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":353}}],"say":"Riker, I'm right here at the yellow bed with the chicken. Are you in sight?"}
+- 15:22 act: {"actions":[],"say":"Leonardo, Macdonald: Riker is out of sight at health 3, so I'm holding the chicken for him a little longer. If he doesn't show in a few minutes, it goes to whoever is weakest in r
+- 15:23 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, here's the chicken. Eat it."}
+- 15:24 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}]}
+- 15:24 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}],"say":"Riker, I'm walking to you at the yellow bed with the chicken."}
+- 15:24 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":352}}]}
+- 15:26 act: {"actions":[{"do":"give","to":"ag_leonardo_01","item":"chicken","count":1}],"say":"Leonardo, you're in reach and I'm handing you my raw chicken. Riker is out of sight, so this goes to you."}
+- 15:27 act: {"actions":[{"do":"give","to":"ag_leonardo_01","item":"chicken","count":1}]}
+- 15:27 act: {"actions":[{"do":"goto","target":"ag_leonardo_01"}]}
+- 15:28 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, you're weakest at health 3, so the chicken is yours. Eat it now."}
+- 15:28 act: {"actions":[{"do":"goto","target":"ag_riker_01"}]}
+- 15:29 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}]}
+- 15:29 act: {"actions":[{"do":"goto","target":"ag_riker_01"},{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"say":"Riker, Leonardo says you're weakest, so I'm bringing you the chicken now."}
+- 15:29 say: {"text":"Riker, the chicken is still with me. My hand-over keeps getting blocked, so come to me and I'll hold it out."}
+- 15:31 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"reasoning":"Riker asked me to hold it out, and he is in reach now. One new try after his call."}
+- 15:31 act: {"actions":[{"do":"goto","target":"ag_riker_01"}],"reasoning":"Give to Riker is blocked by the toss path. Moving next to him to change the line."}
+- 15:31 act: {"actions":[{"do":"give","to":"ag_leonardo_01","item":"chicken","count":1}],"reasoning":"Riker's line stays blocked. Trying Leonardo once, a different target and line."}
+- 15:31 say: {"text":"Riker, Leonardo: something is blocking the hand-over from here. Whoever is nearest, step clear of the table and log to the open grass and I'll give the chicken right away."}
+- 15:32 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"chicken","count":1}],"reasoning":"Riker says he has stepped onto open grass beside me. One give now, since the blocking object was moved."}
+- 15:33 say: {"text":"Riker, the line to you keeps getting blocked at 2 blocks. If you can come right next to me I'll hand it over. If not, I'll find Bcrusher or Wcrusher."}
+- 15:40 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}},{"do":"sleep"}],"reasoning":"Dusk, 11 days since sleep. Walk to the yellow bed and try sleeping in it."}
+- 15:40 act: {"actions":[{"do":"give","to":"ag_leonardo_01","item":"chicken","count":1}],"reasoning":"Leonardo is adjacent now, and Riker has gone to Clark for food. Leonardo is hungry, so the chicken goes to him.
+- 15:40 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}},{"do":"sleep"}],"reasoning":"Sun has set and it is dim. Go to the yellow bed and sleep. The chicken stays in my pack for the weakest in rea
+- 15:43 act: {"actions":[{"do":"sleep"}],"reasoning":"It is night now. I am beside a yellow bed. Try sleep once more. The chicken stays in pack; others say Wesley already has food."}

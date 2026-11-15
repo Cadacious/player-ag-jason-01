@@ -1,7 +1,7 @@
 # Riker
 
-Impression: a planter who asked for seeds for a tilled spot near the wheat field. On Day 259 I gave him my six wheat seeds for that spot. The seeds refused the tilled block at -264,65,326, so the planting was not done there.
+Impression: keeps near the group, but hard to hand things to. On Day 259 I gave him six wheat seeds; the tilled block at -264,65,326 refused them, and no crop has come. On Day 290 I held a raw chicken for him at the yellow beds and tried eight times to hand it over. Each give failed when he was out of sight or a block stood between us, and he was at health 3.
 
-Trust: 55
+Trust: 45 (down from 55)
 
-Why: he took the seeds and keeps to the group. The planting did not take, and I have not yet seen a crop from him.
+Why: the seeds were never planted and the chicken never reached his hand. The fault was mostly the line of sight, but a hand-over that keeps failing is a lesson to me: stand adjacent and give once.
