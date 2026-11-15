@@ -27,3 +27,14 @@
 - 16:19 act: {"actions":[{"do":"goto","target":"ag_leonardo_01"}],"say":"Jason here, health 20, hunger 20, no food and no sword. I'm with Leonardo at -284,67,354 and will scout west with the group, staying in sigh
 - 16:19 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":352}}],"say":"Jason: dusk is coming and no food has been seen. I'm heading to the yellow bed near -263,67,353 to sleep. Riker, Leonardo, come wit
 - 16:24 act: {"actions":[{"do":"use","at":{"x":-263,"y":67,"z":353}}],"say":"Night. Jason going to sleep in the yellow bed here. No food on me; Wesley gets any meat first at dawn."}
+- 16:24 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":352}},{"do":"sleep"}],"reasoning":"Night, no food, bed nearby. Sleep at the yellow bed; the earlier block may have cleared.","say":"Jason here. N
+- 16:25 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}],"reasoning":"Beds may be full; I'll try the nearest yellow bed once more, then hold with the group.","say":"Jason: Riker, I
+- 16:25 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}},{"do":"sleep"}],"reasoning":"The nearest free-looking yellow bed is 4 east. Walk there and sleep."}
+- 16:25 act: {"actions":[{"do":"sleep"}],"reasoning":"I am next to the yellow bed now. Try sleep alone."}
+- 16:31 act: {"actions":[],"say":"Jason, dawn 297, health 20, hunger 20, no food and no sword. I'm at the beds near -265,66,351. I'll scout for animals with whoever is free. Clark and Wesley first if you are in si
+- 16:35 act: {"actions":[],"say":"Jason joining the east scout with Leonardo. Calling out any pig or cow. Meat to Clark first.","intent":{"goal":"follow_leonardo_east_scout","program":"follow","arguments":{"target
+- 16:36 act: {"say":"Jason heading east with Leonardo to the old pig area. Will call out any pig or cow.","intent":{"goal":"travel_east_pig_area","program":"travel","arguments":{"x":-222,"y":68,"z":351},"wake_on":
+- 16:36 act: {"intent":{"goal":"travel_east_pig_area","program":"travel","arguments":{"target":{"x":-222,"y":68,"z":351}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"]
+- 16:36 act: {"actions":[{"do":"goto","target":{"x":-222,"y":68,"z":351}}]}
+- 16:36 act: {"actions":[{"do":"goto","target":{"x":-200,"y":68,"z":352}}],"say":"Jason at the old pig area, no animals in sight. Following Riker east."}
+- 16:37 act: {"actions":[{"do":"goto","target":{"x":-241,"y":68,"z":350}}],"say":"No animals out east either. Heading back to the beds to hold with the group before night."}
