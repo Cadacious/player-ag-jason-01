@@ -1,7 +1,7 @@
-Handoff, night 312 (dark, around 402,107,-1051)
+Handoff, day 318 (dusk, sealed in a stone hole at 309,73,-877)
 
-- I am alive, health 20, hunger 20, in the spawn village by the beds and chests. I have only 2 rotten flesh.
-- I died 3 times to an unseen attacker, most likely a phantom, because I have not slept for 7 days. My 2 rotten flesh lie at 389,107,-1045.
-- I have been sleeping in the beds. Sleep keeps ending early, so the night is slow to pass.
-- Zack (ag_zack_01) is nearby with a stone sword. Trini, Beverly Crusher (bcrusher), Leonardo, Chapman, Macdonald, Worf and Kimberly are also around.
-- Next: keep sleeping until dawn, then get food, wood and tools. Ask the group to count off.
+- I am alive, health 20, hunger about 18 after a melon slice. Inventory: 10 cobblestone, 7 dirt, 3 melon slices, 6 oak logs, 5 gravel, 1 rotten flesh, wooden sword, wooden pickaxe.
+- I am enclosed (view says solid all around). Zack is nearby at the melon field with 15 melons meant for Johnny.
+- Johnny and Wesley are still not found. Melon field is at 305,79,-872 and 309,80,-873.
+- Food chest at 433,107,-1051 may hold chickens. Beds at 401,107,-1050 and 387,107,-1050.
+- Next at dawn: count the group, find Johnny with Zack's melons, eat when hunger is low, then go to a bed.

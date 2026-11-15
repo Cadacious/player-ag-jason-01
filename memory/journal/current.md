@@ -1,13 +1,1 @@
 # Journal
-- 21:44 act: {"say":"Hello, I'm Jason. I have nothing but rotten flesh. Are you alone out here?","reasoning":"Night, no tools or blocks, 7 days since sleep. A stranger with a sword is 14 blocks away. Greet him fir
-- 21:44 act: {"say":"Jason here, I'm with Zack. Trini, come to us. Stay together, we'll count off and watch each other's backs.","reasoning":"Several of us are out in the dark and something is hitting us. Gatherin
-- 21:45 act: {"say":"I'm being hit from the right, health 7. Heading to Trini by the light.","reasoning":"Something keeps striking me from the right. I have no weapon. Get out of this spot toward Trini and the lig
-- 21:45 act: {"say":"I died and woke at the bed here with nothing. Something is still hitting me. Who has a sword or a wall?","reasoning":"Respawned at the bed area with no items. Attacks continue from left and ri
-- 21:45 act: {"say":"Zack, something on my left keeps killing me. Can you strike it? I'm moving south toward Macdonald's wall.","reasoning":"Died twice in the same spot to something unseen on the left. Staying die
-- 21:45 act: {"say":"It's phantoms, I think: I haven't slept in seven days. I'm going to the bed to sleep.","reasoning":"Phantoms hunt people who have not slept for days, and my days_since_sleep is 7. Health is 3.
-- 21:45 act: {"say":"Zack, I'm here at the bed. Count off with me. Phantom attacks are the danger.","reasoning":"Respawned at the bed with full health. Sleep is the only cure for phantoms. Sleep now in the bed nex
-- 21:45 act: {"say":"I'm in the bed now, Trini. I'll sleep and try to stay alive until morning.","reasoning":"Use on the bed failed, but sleep alone worked earlier. Respawned at full health beside the beds. Sleep 
-- 21:45 act: {"actions":[{"do":"sleep"}],"reasoning":"No damage now, health 20. Sleep is progressing, 6 of 10 asleep. Keep sleeping to wake at dawn.","intent":{"goal":"sleep_through_night","program":"rest","argume
-- 21:45 act: {"actions":[{"do":"sleep"}],"reasoning":"Alive and sheltered in a bed. Keep sleeping until dawn.","intent":{"goal":"sleep_until_dawn","program":"rest","arguments":{},"wake_on":["directly_addressed","u
-- 21:45 act: {"actions":[{"do":"sleep"}],"reasoning":"Sleep keeps ending early. Sleep again and keep waiting until morning."}
-- 21:45 act: {"actions":[{"do":"sleep"}],"reasoning":"Still night, safe and healthy. Keep resting in the bed."}
