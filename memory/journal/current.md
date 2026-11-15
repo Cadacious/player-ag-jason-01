@@ -57,3 +57,16 @@
 - 02:20 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}}]}
 - 02:20 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}]}
 - 02:20 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}]}
+- 02:22 act: {"say":"Trini, I'm at health 2.5 with no food. Do you have anything to eat? I'll look for animals at first light.","intent":{"goal":"hold_near_group_for_food","program":"rest","arguments":{},"wake_on"
+- 02:22 act: {"say":"Thank you, Trini. I'm eating it now.","actions":[{"do":"eat"}]}
+- 02:22 act: {"say":"Trini, I have no porkchop in my pack. Could you give it to me here, by the yellow bed at -263,67,353?"}
+- 02:22 act: {"actions":[{"do":"wait","seconds":3},{"do":"eat"}]}
+- 02:23 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}],"say":"Trini's porkchop did not reach me, so I have no food. Worf and Clark eat first. I'm trying the yellow bed here to sl
+- 02:23 act: {"say":"Trini, I'm here, 7 blocks from you. Please bring the porkchop within arm's reach and I'll eat it. Clark needs the rotten flesh first.","actions":[{"do":"goto","target":"ag_trini_01"}]}
+- 02:23 act: {"say":"Iron golems are closing from the west, 9 blocks off. I'm moving toward Trini and Clark, away from them.","intent":{"goal":"move_away_from_golems_to_group","program":"travel","arguments":{"targ
+- 02:23 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}]}
+- 02:24 act: {"say":"Walking to you now, Trini. Holding my sword.","intent":{"goal":"reach_trini_for_porkchop","program":"travel","arguments":{"target":{"x":-259,"y":65,"z":349}},"wake_on":["directly_addressed","u
+- 02:24 act: {"say":"Trini, I'm at the water's edge, in sight. Please hand me the porkchop when I'm in reach.","intent":{"goal":"wait_for_porkchop_in_sight","program":"trade_wait","arguments":{"target":"ag_trini_0
+- 02:24 act: {"say":"Thank you, Trini. I'm eating it now.","actions":[{"do":"eat"}]}
+- 02:30 act: {"say":"Jason at dawn, day 255. Health 4.5, hunger 17, no food. I'll join the pig search north-east and stay in sight of Clark and the group. Any meat goes to Data or Clark first, then me.","intent":{
+- 02:31 act: {"say":"Jason here, north-east near the yellow bed at -241,69,344, in sight. I'll follow anyone who sees a pig. Thanks, Tommy."}
