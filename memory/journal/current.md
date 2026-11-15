@@ -3,3 +3,20 @@
 - 15:46 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}}],"say":"Night. Jason at the yellow bed, health 20, hunger 20. I still hold one chicken for whoever is weakest in reach."}
 - 15:46 act: {"actions":[{"do":"give","to":"Riker","item":"chicken","count":1}],"say":"Riker, I'm at the yellow bed at -262,67,353 with your chicken. Holding it out now."}
 - 15:46 act: {"actions":[{"do":"sleep"}]}
+- 15:48 act: {"actions":[{"do":"give","to":"ag_worf_01","item":"chicken","count":1}],"say":"Worf, I'm handing you my raw chicken now. Eat it. Riker is out of sight, so this goes to you."}
+- 15:48 act: {"actions":[{"do":"goto","target":{"x":-260,"y":67,"z":351}},{"do":"give","to":"ag_worf_01","item":"chicken","count":1}],"say":"Worf, I'm stepping two blocks back so I can toss you the chicken. Stay p
+- 15:48 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":353}}]}
+- 15:48 act: {"actions":[{"do":"give","to":"ag_worf_01","item":"chicken","count":1}],"say":"Worf, the chicken is yours. Eat it now."}
+- 15:48 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":353}}],"say":"Worf, I'm at the yellow bed with the chicken. Come into sight and I'll hand it over."}
+- 15:48 act: {"actions":[{"do":"give","to":"ag_worf_01","item":"chicken","count":1}]}
+- 15:48 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":353}}]}
+- 15:48 act: {"actions":[{"do":"give","to":"ag_worf_01","item":"chicken","count":1}],"say":"Worf, you're in reach now. Here is the raw chicken."}
+- 15:51 act: {"actions":[],"say":"Jason here with a raw chicken. Wesley, you are weakest: step in front of me by the yellow bed and I will hand it to you."}
+- 15:52 act: {"actions":[{"do":"goto","target":{"x":-268,"y":67,"z":338}}],"say":"Wesley, I am coming to you with the chicken now."}
+- 15:52 act: {"actions":[],"say":"Wesley, I'm at the white beds now. Where are you? Step into sight and I'll hand you the chicken."}
+- 15:54 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":350}}],"say":"Troi, Wesley: I'm going to the south beds with the chicken. Whoever is weakest, step into sight."}
+- 15:56 act: {"actions":[{"do":"goto","target":{"x":-267,"y":66,"z":339}}],"say":"Wesley, I'm heading to you at the white beds with the chicken. Stay put."}
+- 16:02 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}}]}
+- 16:02 act: {"actions":[{"do":"sleep"}]}
+- 16:03 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":353}},{"do":"sleep"}]}
+- 16:04 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":354}},{"do":"sleep"}],"say":"Jason here. I have one raw chicken for whoever is hungry first. Trying the bed at -263,67,354 now.","intent":{"goal"
