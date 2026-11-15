@@ -24,3 +24,6 @@
 - 16:09 act: {"actions":[{"do":"goto","target":"ag_trini_01"},{"do":"give","to":"ag_trini_01","item":"chicken","count":1}],"say":"Trini, here is the chicken. Eat it now."}
 - 16:09 act: {"actions":[],"say":"Trini, Billy is at health 7.5 and hunger 13, lower than you. If you can, pass him the chicken. I have no food left."}
 - 16:16 act: {"say":"Jason joining the west scout. Calling out any pig or cow I see.","intent":{"goal":"join_food_scout","program":"travel","arguments":{"target":"ag_leonardo_01"},"wake_on":["directly_addressed","
+- 16:19 act: {"actions":[{"do":"goto","target":"ag_leonardo_01"}],"say":"Jason here, health 20, hunger 20, no food and no sword. I'm with Leonardo at -284,67,354 and will scout west with the group, staying in sigh
+- 16:19 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":352}}],"say":"Jason: dusk is coming and no food has been seen. I'm heading to the yellow bed near -263,67,353 to sleep. Riker, Leonardo, come wit
+- 16:24 act: {"actions":[{"do":"use","at":{"x":-263,"y":67,"z":353}}],"say":"Night. Jason going to sleep in the yellow bed here. No food on me; Wesley gets any meat first at dawn."}
