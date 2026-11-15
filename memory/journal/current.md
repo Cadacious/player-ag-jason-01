@@ -18,3 +18,6 @@
 - 06:12 act: {"say":"Jason at the wheat field, midday. Still no food, hunger 17. Meat or bread to me first; I will share what I get."}
 - 06:15 act: {"intent":{"goal":"hold_at_field_for_food","program":"rest","arguments":{"at":{"x":-263,"y":66,"z":320}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world
 - 06:15 act: {"intent":{"goal":"hold_at_field_for_food","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"max_block_operations"
+- 06:18 act: {"say":"Jason coming to the white beds now, hunger 17. Bcrusher, I'll take the beef. Thank you.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":320}}],"intent":{"goal":"reach_white_beds_for_bee
+- 06:18 act: {"say":"Bcrusher, I'm here. LaForge is weaker than me, so the beef goes to him first. If any is left, I'll take it. Thank you.","actions":[],"intent":{"goal":"wait_for_beef_at_beds","program":"rest","
+- 06:18 act: {"say":"LaForge, your health is lower than mine, so the beef is yours. I'll wait and take whatever is left. Bcrusher, thank you.","actions":[],"intent":{"goal":"wait_at_beds_for_leftover_beef","progra
