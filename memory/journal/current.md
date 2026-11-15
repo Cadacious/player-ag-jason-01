@@ -27,3 +27,6 @@
 - 06:25 act: {"say":"Jason at the beds, no food, hunger 16. Sleep was blocked twice. Holding here until light; any food to me first.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}}]}
 - 06:25 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
 - 06:27 act: {"say":"Thank you LaForge. You are weaker than me, so keep your rotten flesh. I'm at health 9 and will hold near the beds until light."}
+- 06:29 act: {"say":"Jason here at the white beds, hunger 16, no food. I'm going to check the wheat at -263, 66, 321. Meat goes to whoever is weakest first.","intent":{"goal":"reach_wheat_field","program":"travel"
+- 06:29 act: {"say":"The wheat here is still unripe. I'll wait by the field and watch for any meat the scouts bring back.","intent":{"goal":"hold_by_wheat_for_food","program":"rest","arguments":{"seconds":240},"wa
+- 06:36 act: {"say":"Jason at the wheat field, midday, hunger 16, health 9, no food. Kimberly, I'm glad your last seed is in. Picard, if you can spare seeds, I can till a patch beside this field and plant them."}
