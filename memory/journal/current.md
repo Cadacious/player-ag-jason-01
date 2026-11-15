@@ -15,3 +15,16 @@
 - 01:05 act: {"actions":[{"do":"sleep"}]}
 - 01:05 say: {"text":"Sleep keeps failing near the skeletons. I am holding by the white beds with the group until it is quiet."}
 - 01:07 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
+- 01:09 act: {"say":"Jason here at dawn, day 251. No food on me. Wheat is still unripe. I will check the wheat near the beds, then search the grass for animals with the group.","intent":{"goal":"check_wheat_and_sc
+- 01:09 act: {"say":"I am at the wheat by the crafting table. It is still unripe, so I will not eat it yet. I will stay in sight of the group and look for animals on the grass."}
+- 01:09 act: {"say":"Jason, morning of day 251. Iron golems are 13 to 20 blocks south, so I will search the grass to the north and west, away from them, and stay in sight of the group. Worf, I have no food. Trini 
+- 01:10 act: {"actions":[{"do":"unstick"}]}
+- 01:10 act: {"intent":{"goal":"return_to_group_grass_and_scout","program":"travel","arguments":{"target":{"x":-262,"y":66,"z":330}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_
+- 01:17 act: {"say":"Jason: I have no food, only 2 wheat seeds. Worf is the weakest at health 4.8, so Wesley, give the porkchops to Worf first, then Data and Trini. I am staying here on the grass with Zack."}
+- 01:22 act: {"intent":{"goal":"reach_white_bed_for_night","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":318}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_comple
+- 01:22 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}}],"say":"Jason: going to the white bed at -270,67,318 to sleep. No food on me; Trini and Worf first at light."}
+- 01:27 act: {"actions":[{"do":"sleep"}]}
+- 01:27 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Going north to the white bed at -270,67,318. No food on me; Trini and Worf first at light."}
+- 01:27 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}]}
+- 01:28 act: {"actions":[],"say":"Jason: sleep refused twice, creeper and skeleton close by. I'm staying with the group by the beds, no food on me. Worf and Trini first at light."}
+- 01:30 act: {"actions":[],"say":"Jason here, dawn of 252. Yes Troi, I'll come to the pigs at -255,239 with you and Kimberly. I have a wooden sword and full health. Worf and Trini get the first meat."}
