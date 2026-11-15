@@ -73,3 +73,4 @@
 - 02:35 act: {"actions":[{"do":"goto","target":"ag_tommy_01"}],"say":"Jason here, day 255, hunger 17, no food. I'll search the grass with the group and keep in sight. Any meat goes to Trini, Data, then me.","inten
 - 02:35 act: {"actions":[],"intent":{"goal":"hold_with_group_wait_for_meat","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"limits":{"ma
 - 02:38 act: {"actions":[{"do":"goto","target":{"x":-241,"y":69,"z":344}}],"say":"Jason heading to the yellow bed with Tommy and Worf, day 255. No food yet."}
+- 02:43 act: {"actions":[{"do":"eat"}],"say":"Thank you, Trini. I have no porkchop in my pack yet. Please hand it over here, I am in reach. Golem three blocks north of me, so I am moving to the group."}
