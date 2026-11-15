@@ -66,3 +66,9 @@
 - 08:02 act: {"actions":[{"do":"sleep"}],"intent":{"goal":"rest_night_271","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":12000,"m
 - 08:04 act: {"say":"Jason here with a wooden sword. Riker, Zack, I'm coming to the bed to help with the phantom.","actions":[{"do":"goto","target":"zack"}]}
 - 08:07 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}]}
+- 10:51 act: {"actions":[{"do":"eat"}],"say":"I'm awake, hungry, and eating rotten flesh.","reasoning":"Hunger 15 with rotten flesh in pack. Eat now, then decide the day."}
+- 10:51 act: {"actions":[{"do":"wait","seconds":60}],"reasoning":"Rotten flesh only eaten at hunger 6 or below. Wait, staying with the group by the beds."}
+- 10:57 act: {"actions":[],"say":"Picard, hunger 4 is the one for rotten flesh. I have 3. Come within reach of me at the south white bed and I'll hand you one.","reasoning":"Picard is at hunger 4, which is eligibl
+- 11:01 act: {"actions":[{"do":"sleep"}],"reasoning":"Dusk, beside a free white bed with the group. Sleep now."}
+- 11:05 act: {"actions":[{"do":"sleep"}],"reasoning":"Night, beside the bed with the group. Sleep."}
+- 11:09 act: {"actions":[],"say":"Jason, dawn day 281, hunger 15, no food eaten. I hold 3 rotten flesh, eatable at hunger 6 or below. LaForge first, then Picard, then Trini. Come within reach and I'll hand it over
