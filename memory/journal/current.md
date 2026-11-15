@@ -90,3 +90,11 @@
 - 17:54 act: {"actions":[{"do":"goto","target":"ag_picard_01"}],"say":"Going to you, Picard. Wait for me east."}
 - 18:00 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}}],"say":"Back at the beds before dark. Hunger full, no food on me. Anyone lower, call out.","intent":{"goal":"rest_at_white_bed","program":"
 - 18:00 act: {"actions":[{"do":"sleep"}]}
+- 18:04 act: {"actions":[{"do":"sleep"}]}
+- 18:05 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}},{"do":"sleep"}]}
+- 18:06 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":333}}],"say":"Phantoms are hitting me. Moving back to the beds to the group."}
+- 18:06 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}}],"say":"Going to the white beds with you two. Staying close."}
+- 18:06 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 18:06 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}},{"do":"sleep"}]}
+- 18:07 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":335}}]}
+- 18:07 act: {"actions":[{"do":"sleep"}]}
