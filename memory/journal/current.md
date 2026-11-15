@@ -10,3 +10,6 @@
 - 05:56 act: {"say":"Jason at the wheat field, day 265. No food. Kimberly, do you have any meat or bread? I'll try planting my two seeds on tilled ground here.","actions":[{"do":"till","at":{"x":-265,"y":65,"z":32
 - 05:59 say: {"text":"Jason here at the wheat field. Still no food. Thank you all. Dusk is coming; I'll hold here with Kimberly, Zack and Clark, then find a free bed."}
 - 05:59 act: {"say":"Going to the white bed at -271,67,336 for the night. Zack, Clark, Kimberly, come along.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}}],"intent":{"goal":"reach_white_bed","progra
+- 06:00 act: {"say":"Jason here at the white bed. No food in my pack. Clark, come in close to the beds. I'll try the bed again.","actions":[{"do":"sleep"}],"reasoning":"Dusk, at a bed, monsters nearby blocked slee
+- 06:01 act: {"actions":[{"do":"sleep"}],"reasoning":"Night now, I am at a white bed. The last sleep failed as blocked; this is a new try from a different bed.","intent":{"goal":"sleep_in_bed_at_night","program":"
+- 06:02 act: {"actions":[{"do":"sleep"}],"reasoning":"Sleep refused for monsters nearby. Hold at the bed and retry after a wait.","intent":{"goal":"hold_at_bed_until_dawn","program":"rest","arguments":{},"wake_on"
