@@ -41,3 +41,17 @@
 - 06:46 act: {"actions":[],"say":"Kimberly, rotten flesh can only be eaten at hunger 6 or below, and mine is 16. I'll keep the 3 for whoever reaches 6 first, and it goes to you if you are closest then."}
 - 06:50 act: {"actions":[],"say":"Jason, dawn day 268, hunger 16, health 9. My 3 rotten flesh can be eaten at hunger 6, so Picard (hunger 6) can take one now if he is in sight. Kimberly next. I'm going west with t
 - 06:57 act: {"actions":[],"say":"Picard, thank you for the seed. I have a hoe and 9 dirt, so I'll till a patch near the beds and plant my one seed there. Meet me at the white beds and I'll come for the rest."}
+- 06:59 act: {"actions":[{"do":"goto","target":"ag_picard_01"}],"say":"Picard, I'm coming to get the seeds. Thank you.","intent":{"goal":"reach_picard_for_seeds","program":"travel","arguments":{"target":"ag_picard
+- 07:03 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Night. Going to the white bed with the group. Seeds from Picard at first light."}
+- 07:03 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
+- 07:08 act: {"actions":[{"do":"goto","target":"ag_picard_01"}],"say":"Picard, Jason here. Could I have some of your seeds? I have ground ready to till."}
+- 07:08 act: {"actions":[],"say":"Picard, I'm right beside you. Could you give me 4 wheat seeds? I'll till and plant near you."}
+- 07:09 act: {"actions":[{"do":"till","at":{"x":-273,"y":65,"z":332}}],"say":"Thank you Picard, 6 seeds. I'll till a patch here and plant."}
+- 07:09 act: {"actions":[{"do":"place","block":"wheat_seeds","at":{"x":-273,"y":66,"z":332}}]}
+- 07:13 act: {"actions":[{"do":"give","to":"ag_macdonald_01","item":"wheat_seeds","count":2}],"say":"Macdonald, here are 2 wheat seeds. Plant them by the others."}
+- 07:19 act: {"actions":[{"do":"till","at":{"x":-274,"y":65,"z":334}}],"say":"Jason at the white beds, day 269 midday, hunger 16, health 9, no food. I have 4 wheat seeds and a hoe; I'm tilling a patch here to plan
+- 07:19 act: {"actions":[{"do":"place","block":"wheat_seeds","at":{"x":-274,"y":66,"z":334}}],"reasoning":"Planting one of my 4 seeds on the new dry farmland, then keep the rest for the next tilled patch."}
+- 07:19 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Dusk. Jason going to the south white bed at -270,67,336 to sleep. Hunger 16, no food; meat to Chapman and Trini firs
+- 07:23 act: {"actions":[{"do":"sleep"}],"reasoning":"Night, at a free white bed with the group nearby. Try sleep."}
+- 07:31 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"rotten_flesh","count":1}],"say":"Dawn day 270. Picard, you're at hunger 6, so take one rotten flesh now. I have 2 more for whoever reaches 6. Jason
+- 07:31 act: {"actions":[{"do":"goto","target":{"x":-268,"y":67,"z":322}}],"say":"A golem is closing from the south-west. I'm moving north to the group at -268,67,322. Picard was not in sight for the rotten flesh;
