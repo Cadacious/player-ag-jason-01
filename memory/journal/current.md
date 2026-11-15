@@ -85,3 +85,12 @@
 - 03:04 say: {"text":"Jason here, at the yellow beds, night of day 256. Health 4.5, hunger 16, no food. I'll hold here with the group and search the grass at dawn. Any meat goes to Data and Trini first."}
 - 03:05 wait/look: night of day 256, at yellow beds -283,69,371 with Billy adjacent. Health 4.5, hunger 16, no food. Said my plan to the group. Waiting for dawn to search grass with the group.
 - 03:08 act: {"say":"Jason here, dawn of day 257. Health 4.5, hunger 16, no food. I'll search the grass for animals in sight of the group. Any meat goes to Data and Trini first, then me.","intent":{"goal":"search_
+- 03:09 act: {"say":"Jason: the rest timed out with no food. Walking east on the grass toward -241,69,344 to look for animals with Trini and Clark.","intent":{"goal":"scout_east_grass_for_animals","program":"trave
+- 03:10 act: {"say":"Jason at the crafting table near -251,68,356. Two iron golems are 13 and 17 blocks off, so I'm moving toward Worf to stay in sight of the group. Still no food; meat goes to Data and Trini firs
+- 03:10 act: {"say":"Four iron golems are closing in. Worf, I'm heading north to the wheat at -267,66,325, away from them. Still no food.","intent":{"goal":"flee_golems_north_to_wheat","program":"travel","argument
+- 03:10 act: {"say":"Jason: golems still closing from the southwest. Moving north to the wheat, staying near Worf and Kimberly. No food yet.","intent":{"goal":"keep_clear_of_golems_north","program":"travel","argum
+- 03:14 act: {"say":"Jason at -264,66,323 with 3 wheat seeds and a hoe. I'm tilling the grass beside me and planting now. Tommy, Riker, this is a spot near the wheat if it takes. Still no food; meat goes to Ezra a
+- 03:14 act: {"say":"Till and planting both worked at -265,65,323 and -265,66,323. I still have 2 wheat seeds. Hunger is 16 and I have no food. Has anyone seen an animal on the grass?","intent":{"goal":"search_gra
+- 03:14 act: {"say":"Tommy, good, plant beside the plot at -265,66,323. I'm at -256,66,328 and staying near the group. There is an iron golem 18 blocks west, so I'll keep east of the plot."}
+- 03:15 act: {"say":"Tommy, the one that worked was grass at -265,65,323, with the block above it clear. Then I planted on -265,66,323. Tilling needs the block above to be air. Try the grass at -266,65,323 or -264
+- 03:16 act: {"say":"Tommy: mine was tilled at -265,65,323 and planted at -265,66,323, which is the air above the tilled block. Yours at -266,65 is tilled, so plant at -266,66 if it's free. If it says occupied, tr
