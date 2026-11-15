@@ -30,3 +30,7 @@
 - 06:29 act: {"say":"Jason here at the white beds, hunger 16, no food. I'm going to check the wheat at -263, 66, 321. Meat goes to whoever is weakest first.","intent":{"goal":"reach_wheat_field","program":"travel"
 - 06:29 act: {"say":"The wheat here is still unripe. I'll wait by the field and watch for any meat the scouts bring back.","intent":{"goal":"hold_by_wheat_for_food","program":"rest","arguments":{"seconds":240},"wa
 - 06:36 act: {"say":"Jason at the wheat field, midday, hunger 16, health 9, no food. Kimberly, I'm glad your last seed is in. Picard, if you can spare seeds, I can till a patch beside this field and plant them."}
+- 06:39 say: {"text":"Jason here at the wheat field, dusk, hunger 16, no food in hand. Heading north to the white beds to meet Lewis and Tommy. Please hand any wheat or meat to me there."}
+- 06:39 act: {"intent":{"goal":"reach_north_beds","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":318}},"wake_on":["goal_completed","directly_addressed","precondition_failed","unexpected_damage"],"li
+- 06:40 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}],"intent":{"goal":"reach_north_beds","program":"travel","arguments":{"target":{"x":-271,"y":67,"z":318}},"wake_on":["goal_completed","direc
+- 06:40 act: {"actions":[{"do":"note","text":"Reached north white beds at dusk with Worf, Riker, Bcrusher, Kimberly. No food yet; Lewis's wheat and Tommy's porkchops not in my pack. Sleeping in a bed."}]}
