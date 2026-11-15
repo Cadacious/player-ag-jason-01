@@ -95,3 +95,8 @@
 - 11:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"say":"Jason at the north beds, still holding the last rotten flesh for Picard, who is at hunger 5. Say when you are in reach."}
 - 11:42 act: {"actions":[{"do":"sleep"}],"say":"Jason going to sleep at the white bed by the north group. The last flesh stays with me for Picard at hunger 6 or below."}
 - 11:43 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"rotten_flesh","count":1}],"say":"Picard, here is my last rotten flesh. You reported hunger 5, so eat it now."}
+- 11:49 act: {"actions":[{"do":"goto","target":"ag_riker_01"}],"say":"Jason at dawn, day 283. No food. I'll follow the pig hunt with Riker and the group; I carry 3 wheat seeds to plant on tilled ground. Meat goes 
+- 11:52 act: {"actions":[],"say":"Jason, no food on me. Picard, LaForge is at health 2 by the crafting tables, so the chicken goes to him first, then Trini. I hold 3 seeds and a hoe for a tilled patch if anyone ne
+- 11:53 act: {"actions":[],"say":"Lewis, the farmland I tilled is at -273,65,332 and the one I tilled near -274,65,334 is by the south beds. I have 3 seeds and can plant beside whichever is dry."}
+- 11:57 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":325}}],"say":"Jason heading to the crafting tables to be with the group. No food on me; LaForge and then Trini get any meat."}
+- 12:01 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason going to the north white bed to sleep with the group. No food on me; LaForge, Trini, Picard first if any turns
