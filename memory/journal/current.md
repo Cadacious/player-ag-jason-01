@@ -94,3 +94,11 @@
 - 03:14 act: {"say":"Tommy, good, plant beside the plot at -265,66,323. I'm at -256,66,328 and staying near the group. There is an iron golem 18 blocks west, so I'll keep east of the plot."}
 - 03:15 act: {"say":"Tommy, the one that worked was grass at -265,65,323, with the block above it clear. Then I planted on -265,66,323. Tilling needs the block above to be air. Try the grass at -266,65,323 or -264
 - 03:16 act: {"say":"Tommy: mine was tilled at -265,65,323 and planted at -265,66,323, which is the air above the tilled block. Yours at -266,65 is tilled, so plant at -266,66 if it's free. If it says occupied, tr
+- 03:21 act: {"reasoning":"Night, no food, health 4.5. Yellow bed is 50 blocks SW past golems. Stay on grass by the sign and watch; check for beds when the golems move.","say":"Jason here, night of day 257. No foo
+- 03:28 act: {"reasoning":"Dawn day 258. No golems in view now. Hunger 16, health 4.5. Scout the grass east-south-east, away from the golems, for animals, in sight of Kimberly.","say":"Jason, dawn of day 258. No f
+- 03:28 act: {"reasoning":"Reached the east grass at -241,325, no animals in view. Keep scouting further east, still near the group.","say":"Jason at -241,67,325, no animals in sight. Going on east to -222,325 to 
+- 03:29 act: {"reasoning":"Terrain here has drops south and I got stuck twice. No animals. Try north-east, where Lewis is scouting, keeping away from the drops.","say":"Jason at -222,70,325. No animals; drops to t
+- 03:29 act: {"reasoning":"No animals east or north-east, and I am alone out here. Return to the group near the wheat, where others gather.","say":"Jason: no animals north-east either. Heading back to the group ne
+- 03:33 act: {"reasoning":"Riker is beside me with seeds. A golem is 9.5 blocks west, so I'll step east to a safer spot while telling Riker where to plant.","say":"Riker, thanks. Till the clear grass at -264,65,32
+- 03:33 act: {"reasoning":"Golem is 6.6 blocks SW, too close to the plot. Move east for safety, then plant later.","say":"Riker, I hold the seeds. A golem is near the plot, so I'll wait until it moves off, then pl
+- 03:35 act: {"reasoning":"Golem is now 4 blocks from the plot. Planting there is unsafe, so I hold the seeds and wait.","say":"Troi, Clark, I'm still holding the 6 seeds for Riker's spot. The golem is at the plot
