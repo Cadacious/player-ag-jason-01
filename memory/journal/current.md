@@ -163,3 +163,30 @@
 - 05:13 act: {"actions":[{"do":"goto","target":{"x":-285,"y":67,"z":318}}],"say":"Phantom closing from the west, health 0.5. Moving east, away from it, toward the beds."}
 - 05:21 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason heading to the north white bed for the night, health 0.5, no food.","reasoning":"Night has come. Group is at t
 - 05:25 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason at the north white bed, night of day 263. Health 0.5, hunger 12, no food. Trying to sleep. Worf and Trini firs
+- 05:28 act: {"say":"Jason, dawn of day 264. No food, health 0.5, hunger 12. Checking the wheat field at -263,66,321 first.","actions":[{"do":"goto","target":{"x":-263,"y":66,"z":321}}],"intent":{"goal":"find_food
+- 05:28 act: {"say":"No ripe wheat in sight at -263,66,321. Going back toward the group to search for animals.","actions":[{"do":"goto","target":"ag_kimberly_01"}],"intent":{"goal":"rejoin_group_search_food","prog
+- 05:29 act: {"say":"Trini, I'm weak and need that wheat. I'm at -264,66,338, heading north toward you. Please give me the 2 wheat when I'm in reach.","actions":[{"do":"goto","target":"ag_trini_01"}],"intent":{"go
+- 05:29 act: {"say":"Jason at -264,66,338, weak, no food. Trini, I'm waiting here for your 2 wheat. Troi, thank you, I'll hold with you.","actions":[]}
+- 05:30 act: {"say":"Coming to you now, Trini. Please give me the wheat as soon as I'm in reach.","actions":[{"do":"goto","target":{"x":-263,"y":68,"z":352}}],"intent":{"goal":"reach_trini_for_wheat","program":"tr
+- 05:30 act: {"say":"Jason at the yellow beds, -263,67,353. Trini, I don't see you; where are you? Tommy, I'll come to the white beds for the porkchops.","actions":[]}
+- 05:31 act: {"say":"Got the wheat, thank you Trini. Eating now.","actions":[{"do":"eat"},{"do":"eat"}]}
+- 05:31 act: {"say":"Trini, thank you. Wheat is not edible on its own; bread needs 3. I have 2. Can you spare 1 more wheat, or anyone with wheat? I'll craft bread at once.","actions":[],"reasoning":"Wheat alone is
+- 05:31 act: {"say":"Thank you Trini. Anyone with 1 wheat, please bring it to me at the yellow beds, -263,67,353. Picard, Troi, I'll keep watch here.","actions":[]}
+- 05:32 act: {"say":"Tommy, I'm coming to the white beds for your 2 porkchops. I'm weakest; please give them to me when I'm in reach.","actions":[{"do":"goto","target":"ag_tommy_01"}],"intent":{"goal":"reach_tommy
+- 05:32 act: {"say":"Tommy is out of sight. I'm walking to the white beds at -271,67,318 for the porkchops.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}}],"intent":{"goal":"reach_white_beds_for_pork
+- 05:33 act: {"say":"Jason at the white beds, -272,67,319. Tommy, please bring the 2 porkchops here. Anyone with 1 wheat: I have 2 and need 3 to make bread.","actions":[]}
+- 05:33 act: {"say":"Going to you now, Tommy, at -272,67,336.","actions":[{"do":"goto","target":{"x":-272,"y":67,"z":335}}],"intent":{"goal":"reach_tommy_porkchops","program":"travel","arguments":{"target":{"x":-2
+- 05:36 act: {"say":"Tommy, I'm here at the white beds, -272,67,336. I'm very weak, so food first please. Any meat, or 1 wheat for bread.","intent":{"goal":"hold_for_food","program":"trade_wait","arguments":{},"wa
+- 05:38 act: {"say":"Tommy, I'm standing at -272,67,336 by the white bed, and I'm in reach of anyone next to me. Please walk to me and give the porkchops. I'm not moving.","actions":[{"do":"note","text":"Waiting f
+- 05:41 act: {"actions":[{"do":"use","at":{"x":-271,"y":67,"z":336}}],"say":"Night is here. Tommy, if you're near, the porkchops go to me at the white bed. I'm trying the bed now."}
+- 05:41 act: {"actions":[{"do":"sleep"}]}
+- 05:41 act: {"say":"Golems are closing from the south. I'm heading north to the north beds, to Lewis and Tommy.","intent":{"goal":"reach_north_beds","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":3
+- 05:41 act: {"actions":[{"do":"sleep"}],"say":"At the north beds with Billy, Zack and Worf. Tommy, the porkchops at dawn please."}
+- 05:42 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}]}
+- 05:42 act: {"actions":[],"say":"Thanks Tommy. I'll wait here at the north beds for dawn. Lewis, I'll take your wheat when you're in reach.","intent":{"goal":"hold_at_north_beds_till_dawn","program":"rest","argum
+- 05:42 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
+- 05:42 act: {"actions":[{"do":"goto","target":{"x":-275,"y":69,"z":313}}]}
+- 05:42 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
+- 05:48 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}}],"say":"Dawn. Tommy, please bring the porkchops here. Lewis, I need your wheat for bread. I'm at the north beds.","intent":{"goal":"meet_to
+- 05:48 act: {"actions":[{"do":"goto","target":"ag_lewis_01"}],"say":"Lewis, please give me your wheat. I'll craft bread with my 2."}
+- 05:48 act: {"actions":[],"say":"Lewis, you're holding dirt, not wheat. Do you still have the wheat? Tommy, where are the porkchops?"}
