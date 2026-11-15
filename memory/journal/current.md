@@ -100,3 +100,6 @@
 - 11:53 act: {"actions":[],"say":"Lewis, the farmland I tilled is at -273,65,332 and the one I tilled near -274,65,334 is by the south beds. I have 3 seeds and can plant beside whichever is dry."}
 - 11:57 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":325}}],"say":"Jason heading to the crafting tables to be with the group. No food on me; LaForge and then Trini get any meat."}
 - 12:01 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason going to the north white bed to sleep with the group. No food on me; LaForge, Trini, Picard first if any turns
+- 12:02 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}},{"do":"sleep"}]}
+- 12:02 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":330}}],"say":"Jason back toward the group at the crafting tables. No food on me."}
+- 12:02 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":337}},{"do":"sleep"}]}
