@@ -3,8 +3,9 @@
 I am Jason. Hunger and night are the main dangers in this world.
 
 ## Where I am
-- Day 248, dawn after a night of death and respawn. Health 20, hunger 20. No food in hand.
-- At the white beds (about -271,67,318 to -271,67,336) with the group: Tommy, Trini, Kimberly, Billy, Zack, Picard, Worf, Data, Troi, Riker, Ezra.
+- Day 249, night over; I slept in the white bed at -270,67,318 (sleep worked on the second try). Health 20, hunger 20. No food in hand, 0 days since sleep.
+- At the white beds (about -271,67,318 to -271,67,336) with the group: Tommy, Trini, Kimberly, Billy, Zack, Picard, Worf, Data, Troi, Riker, LaForge.
+- Trini was at health 3 with hunger 10 and holds the chicken; she is first for any food. Zack is also hungry and asked for the chicken.
 - Iron golems and phantoms roam the grass at night. Step north when a golem is within about 7 blocks.
 
 ## What I was doing
