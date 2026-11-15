@@ -28,3 +28,28 @@
 - 01:27 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}]}
 - 01:28 act: {"actions":[],"say":"Jason: sleep refused twice, creeper and skeleton close by. I'm staying with the group by the beds, no food on me. Worf and Trini first at light."}
 - 01:30 act: {"actions":[],"say":"Jason here, dawn of 252. Yes Troi, I'll come to the pigs at -255,239 with you and Kimberly. I have a wooden sword and full health. Worf and Trini get the first meat."}
+- 01:30 act: {"say":"Jason here, dawn of 252, hunger 20, with a wooden sword. Troi, Kimberly, I'm coming to the pigs at -255,239. Worf and Trini get the first meat.","intent":{"goal":"join_pig_hunt","program":"tra
+- 01:31 act: {"say":"Jason, awake at dawn of 252, health 20, hunger 20. My travel to the pigs stopped, so I'm retrying the route south toward -255,239 to catch up with Troi and Kimberly. Worf and Trini still get a
+- 01:31 act: {"say":"I'm at -255,67,300 with no group in sight. Heading on toward the pigs at -255,239 to find Troi and Kimberly. Holding my wooden sword.","intent":{"goal":"reach_pig_area","program":"travel","arg
+- 01:31 act: {"say":"I'm at -255,67,245 with Bcrusher nearby. No pigs in view yet. Going on to -255,239 to look.","intent":{"goal":"search_pigs_at_239","program":"travel","arguments":{"target":{"x":-255,"y":66,"z"
+- 01:32 act: {"say":"Jason here, at -255,67,236. Clark, I'm coming to you now. Which way are the pigs?","intent":{"goal":"reach_clark_at_pigs","program":"travel","arguments":{"target":{"x":-255,"y":66,"z":239}},"w
+- 01:32 act: {"say":"Jason at -255,67,239 with Clark and Bcrusher. I see no pigs here. Clark, which direction did you see them? I'll follow your lead."}
+- 01:39 act: {"say":"Dusk. I'm at -255,67,239 with Clark and Bcrusher. The beds are far north, so we'll hold together on the grass here through the night, watching for phantoms. I still have no food.","intent":{"g
+- 01:43 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Zombie north of me, fighting it with my sword."}
+- 01:43 act: {"actions":[{"do":"goto","target":"ag_clark_01"}],"say":"Health is low. Moving to Clark, fighting the zombie together."}
+- 01:46 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}}],"say":"Heading to the white bed with the group. I have no food. Worf and Data first when the porkchops come out."}
+- 01:46 act: {"actions":[{"do":"sleep"}],"say":"Going to sleep in the white bed. Food goes to Worf and Data first at dawn."}
+- 01:50 act: {"actions":[],"say":"Jason at the white beds, dawn. Health 4.5, hunger 17, no food. I'll scout the south grass with Bcrusher and Tommy. Anything found goes to Trini and Data first, then Worf."}
+- 01:52 act: {"actions":[{"do":"goto","target":{"x":-255,"y":67,"z":300}}],"say":"Joining Tommy for pigs near -255,67,300. Meat goes to Trini, then Worf and Data."}
+- 01:52 act: {"actions":[{"do":"goto","target":{"x":-224,"y":67,"z":204}}],"say":"Going with Tommy to the sheep near -224,67,204. Any meat goes to Trini first, then Worf and Data."}
+- 01:53 act: {"actions":[{"do":"goto","target":{"x":-262,"y":67,"z":300}}],"say":"No sheep at -224,67,204. A spider is out west. Heading back toward the group."}
+- 01:55 act: {"actions":[],"say":"Jason here at -261,67,300, with Tommy nearby. Agreed. We search this grass for pigs together. Meat goes to Trini first."}
+- 02:01 act: {"actions":[{"do":"attack","target":"phantom"},{"do":"attack","target":"phantom"}],"say":"Phantom on me. Fighting it."}
+- 02:02 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Still fighting the phantom, low health."}
+- 02:02 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Heading to the bed at -270,67,318 to sleep. Health 2.5, hunger 17."}
+- 02:04 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Trying the bed at -270,67,318 again. Health 2.5."}
+- 02:05 act: {"actions":[{"do":"sleep"}]}
+- 02:05 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Trying the bed at -271,67,318 once more. Health 2.5, no food."}
+- 02:06 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Phantom close. Fighting it."}
+- 02:07 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Going to the bed at -271,67,318 to sleep."}
+- 02:10 act: {"actions":[{"do":"note","text":"Day 254 dawn. Staying beside Trini. Food is going to her first; I have none."}],"say":"Morning. I have no food, so Trini eats first. I'm staying close and will help pl
