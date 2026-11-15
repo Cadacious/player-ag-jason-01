@@ -7,3 +7,5 @@
 - 00:51 act: {"actions":[{"do":"give","to":"ag_bcrusher_01","item":"wheat_seeds","count":2}],"say":"Bcrusher, here are two wheat seeds for you to plant by the field. Laforge saw a cow near -286,66,245; Trini eats 
 - 00:51 act: {"intent":{"goal":"move_to_beds_away_from_golem","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":316}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"ma
 - 00:57 act: {"intent":{"goal":"reach_white_bed_for_night","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":318}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_w
+- 01:02 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Night. I have no food. I'm going to the free-looking bed at the north end and trying to sleep.","intent":{"goal":"sl
+- 01:04 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"porkchop","count":2}],"say":"Yes, these porkchops are for Trini. Trini, here are both. Data and Zack come after you."}
