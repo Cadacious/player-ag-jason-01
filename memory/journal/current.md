@@ -13,3 +13,6 @@
 - 06:00 act: {"say":"Jason here at the white bed. No food in my pack. Clark, come in close to the beds. I'll try the bed again.","actions":[{"do":"sleep"}],"reasoning":"Dusk, at a bed, monsters nearby blocked slee
 - 06:01 act: {"actions":[{"do":"sleep"}],"reasoning":"Night now, I am at a white bed. The last sleep failed as blocked; this is a new try from a different bed.","intent":{"goal":"sleep_in_bed_at_night","program":"
 - 06:02 act: {"actions":[{"do":"sleep"}],"reasoning":"Sleep refused for monsters nearby. Hold at the bed and retry after a wait.","intent":{"goal":"hold_at_bed_until_dawn","program":"rest","arguments":{},"wake_on"
+- 06:10 act: {"say":"Jason here, dawn day 266, hunger 17, no food. I'll check the wheat field at -263,66,321 for ripe wheat. Meat or bread goes to me first.","actions":[{"do":"goto","target":{"x":-263,"y":66,"z":3
+- 06:10 act: {"say":"Jason at the wheat field, day 266. Still unripe, hunger 17. Any meat or bread, give it to me and I'll eat at once.","intent":{"goal":"hold_at_field_for_food","program":"rest","arguments":{},"w
+- 06:12 act: {"say":"Jason at the wheat field, midday. Still no food, hunger 17. Meat or bread to me first; I will share what I get."}
