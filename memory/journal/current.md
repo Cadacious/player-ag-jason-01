@@ -138,3 +138,13 @@
 - 13:07 act: {"actions":[],"say":"Jason, hunger 13, health 9, no food. Troi and Clark are lower, so bread goes to them first. I'll wait by the yellow bed.","reasoning":"Bcrusher is handing out his bread. I have no
 - 13:24 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"intent":{"goal":"rest_at_yellow_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","
 - 13:30 act: {"say":"Jason, dawn day 288. No food on me, hunger 13, health 9. I have 3 wheat seeds. Scouting for animals in sight of the group; Kimberly, I'll bring you anything I find.","intent":{"goal":"scout_fo
+- 13:32 act: {"actions":[{"do":"write_sign","text":"Jason: no food yet"}],"say":"Jason here, day 288, hunger 13, health 9, no food. I agree with Worf and Billy: scout for animals, meat to Lewis and LaForge first. 
+- 13:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason going to the white bed at -270,67,336 for the night with the group. Still no food, hunger 13. Meat goes to Lew
+- 13:43 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}},{"do":"sleep"}],"say":"Jason, night 288, sleep was blocked where I stood. Trying the south white bed again, hunger 12, no food."}
+- 13:44 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}],"say":"Jason at the yellow bed -263,67,353 now, trying sleep. Hunger 12, no food."}
+- 13:44 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":351}}],"say":"Jason hit from the right at night, health 7. Phantom to the north. I'm holding here by the yellow beds with my sword until dawn."}
+- 13:45 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Phantom on me, health 5. Swinging back with my sword."}
+- 13:46 act: {"actions":[{"do":"goto","target":{"x":-256,"y":67,"z":358}}],"say":"Health 3. Pulling away from the golems to the south-east."}
+- 13:46 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 13:46 act: {"actions":[{"do":"goto","target":{"x":-248,"y":67,"z":364}}],"say":"Golem right on my north. Moving south-east, away from it."}
+- 13:48 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Health 1. Fighting the phantom now."}
