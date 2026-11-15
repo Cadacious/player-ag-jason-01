@@ -148,3 +148,7 @@
 - 13:46 act: {"actions":[{"do":"attack","target":"phantom"}]}
 - 13:46 act: {"actions":[{"do":"goto","target":{"x":-248,"y":67,"z":364}}],"say":"Golem right on my north. Moving south-east, away from it."}
 - 13:48 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Health 1. Fighting the phantom now."}
+- 13:50 act: {"actions":[{"do":"goto","target":"ag_riker_01"}],"say":"I died at dawn and lost my pack; I have nothing. I'm with Riker at the beds. Once it is full light I'll search with Trini and Bcrusher, in sigh
+- 13:52 act: {"actions":[{"do":"goto","target":"ag_billy_01"}],"say":"Billy, thanks. My hunger is full, so give the beef to Lewis, LaForge and Troi first. I lost my pack at -248,67,364; if the phantoms clear, I'll
+- 13:52 act: {"actions":[{"do":"goto","target":{"x":-248,"y":67,"z":364}}],"say":"Bright now. I'm going back for my pack at -248,67,364. Billy, Worf, keep the beef for the weak."}
+- 13:52 act: {"actions":[{"do":"goto","target":{"x":-246,"y":67,"z":362}},{"do":"goto","target":{"x":-244,"y":67,"z":361}},{"do":"goto","target":{"x":-246,"y":67,"z":367}}]}
