@@ -162,3 +162,4 @@
 - 05:13 act: {"actions":[{"do":"note","text":"Health 0.5 after phantom hits at the west grass. Back with the group at -299,66,319. Asking for any food."}],"say":"Jason, health 0.5, hunger 12. A phantom hit me on t
 - 05:13 act: {"actions":[{"do":"goto","target":{"x":-285,"y":67,"z":318}}],"say":"Phantom closing from the west, health 0.5. Moving east, away from it, toward the beds."}
 - 05:21 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason heading to the north white bed for the night, health 0.5, no food.","reasoning":"Night has come. Group is at t
+- 05:25 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason at the north white bed, night of day 263. Health 0.5, hunger 12, no food. Trying to sleep. Worf and Trini firs
