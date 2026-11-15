@@ -74,3 +74,19 @@
 - 17:37 act: {"say":"Jason here, hunger 20, health 20. I hold one raw chicken for whoever is lowest. Clark, if you are at the north beds, call out and I will come to you.","intent":{"goal":"hold_near_group","progr
 - 17:41 act: {"actions":[{"do":"give","to":"ag_laforge_01","item":"chicken","count":1}],"say":"LaForge, you asked for the chicken at your hunger, and you are the lowest I can reach at 15. Here it is."}
 - 17:41 act: {"say":"My give to LaForge failed: items lie on the ground near him. Trini has offered him a chicken too. I still hold mine for whoever is lowest after them."}
+- 17:45 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"use","at":{"x":-271,"y":67,"z":336},"item":"wooden_sword"},{"do":"sleep"}],"say":"Jason at night 300, health 20, hunger 20, sword in
+- 17:45 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason: I still hold my one chicken. Trini has LaForge covered, so I keep mine for whoever drops next. Trying the whi
+- 17:45 act: {"actions":[],"say":"Jason holding at the white bed with Billy, Kimberly, Leonardo, Trini and Zack. Sword out. Sleep refused by a phantom; I will try again when it clears.","intent":{"goal":"hold_with
+- 17:45 act: {"actions":[{"do":"sleep"}]}
+- 17:48 act: {"actions":[],"say":"Jason, hunger 20, holding my chicken. Macdonald and LaForge at 15: Trini and Troi are feeding them, so I hold mine. Whoever drops next, call out in my reach."}
+- 17:52 act: {"actions":[],"say":"Jason, dawn 301, health 20, hunger 20. I hold one raw chicken and a sword. Bcrusher, Zack and Kimberly are lower: step into my reach and it is yours. I am going east toward the co
+- 17:52 act: {"actions":[{"do":"goto","target":"ag_bcrusher_01"}],"say":"Jason heading to Bcrusher with my raw chicken; you were at hunger 9, the lowest I have heard of. Stay in sight."}
+- 17:53 act: {"actions":[{"do":"give","to":"ag_bcrusher_01","item":"chicken","count":1}],"say":"Bcrusher, you are in reach. Here is my raw chicken. Eat it now."}
+- 17:53 act: {"actions":[{"do":"give","to":"ag_chapman_01","item":"chicken","count":1}],"say":"Bcrusher's give failed; the chicken lies on the ground by him, so his pack may be full. Chapman, you are in reach at h
+- 17:53 act: {"actions":[],"say":"Jason: Chapman has my chicken now. I have no food. Clark, Data: I will walk east with you for the cow near -152,100 if you are leaving. Call out.","intent":{"goal":"wait_for_east_
+- 17:53 act: {"actions":[],"say":"I have no food left, my hunger is full. Chapman has my chicken. Clark, if you go east for the cow, call me and I will come.","reasoning":"Hunger is 20 so I should not take food. O
+- 17:54 act: {"actions":[],"say":"Jason going east with Picard, Clark and Worf to the cow. Staying with you.","intent":{"goal":"follow_clark_east","program":"follow","arguments":{"target":"ag_clark_01"},"wake_on":
+- 17:54 act: {"actions":[],"say":"My follow failed and I cannot see Clark or Picard now. I will wait here by the signs until you come back or call me."}
+- 17:54 act: {"actions":[{"do":"goto","target":"ag_picard_01"}],"say":"Going to you, Picard. Wait for me east."}
+- 18:00 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":335}}],"say":"Back at the beds before dark. Hunger full, no food on me. Anyone lower, call out.","intent":{"goal":"rest_at_white_bed","program":"
+- 18:00 act: {"actions":[{"do":"sleep"}]}
