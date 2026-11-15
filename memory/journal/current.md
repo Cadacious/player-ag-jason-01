@@ -151,3 +151,15 @@
 - 00:08 act: {"say":"Jason here at the beds with Billy and bcrusher, out of the golem's reach. I have no food; I have wool, 3 logs, 2 planks, 5 wheat seeds. I will search for food with the group in daylight. Trini
 - 00:20 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason here at dusk, day 248. Health 20, hunger 20, no food. Trying the white bed at -270,67,318 to sleep.","reasonin
 - Dusk day 248: sleep at white bed -270,67,318 partly worked ("1 of 7 asleep"). Session then superseded during wait. Health 20, hunger 20, no food. Group (Billy, bcrusher, wcrusher) nearby.
+- 00:21 act: {"actions":[{"do":"sleep"}],"say":"Jason here, night on day 248. Health 20, hunger 20, no food. Trying the white bed I am standing by.","intent":{"goal":"sleep_at_white_bed","program":"rest","argument
+- 00:22 act: {"actions":[{"do":"goto","target":{"x":-272,"y":71,"z":316}},{"do":"note","text":"Day 248 dawn. Died in the night (killed by something unseen near -272,316), respawned, then slept at the white bed and
+- 00:22 act: {"actions":[{"do":"goto","target":{"x":-272,"y":71,"z":316}},{"do":"craft","item":"oak_planks","count":4}],"say":"Jason here at night, health 20, hunger 20. The sword is not back in my pack yet. I am 
+- 00:22 act: {"actions":[{"do":"craft","item":"oak_planks","count":4},{"do":"craft","item":"crafting_table","count":1},{"do":"craft","item":"wooden_sword","count":1}],"say":"Jason: my sword was not on the ground, 
+- 00:22 act: {"actions":[{"do":"craft","item":"stick","count":4},{"do":"craft","item":"wooden_sword","count":1}],"say":"Jason: a villager is near me. Making sticks and a sword now."}
+- 00:22 act: {"actions":[{"do":"goto","target":{"x":-272,"y":67,"z":316}},{"do":"note","text":"Night, day 248. Armed again with a new wooden sword. Health 20, hunger 20, no food. Holding at the white beds with the
+- 00:22 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason trying the white bed at -271,67,318 now; no monsters in view."}
+- 00:23 act: {"actions":[{"do":"note","text":"Night, day 248. Asleep at the white bed -271,67,336 with Tommy, Data, Picard, Trini and Troi nearby. Health 20, hunger 20, no food. Iron golems 7-14 blocks away. Sword
+- 00:23 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason trying the bed at -271,67,336 again. Golems are closing from the north.","intent":{"goal":"sleep_through_night
+- 00:27 act: {"actions":[{"do":"note","text":"Night, day 248. Sleep refused for a phantom. Holding at the white bed -271,67,336 with the group, sword in hand. Health 20, hunger 20, no food. Zack is very low; Trini
+- 00:27 act: {"actions":[{"do":"sleep"}],"say":"Jason: no monsters in view, trying the bed now.","intent":{"goal":"sleep_through_night_day248","program":"rest","arguments":{},"wake_on":["directly_addressed","unexp
+- 00:27 act: {"actions":[{"do":"sleep"},{"do":"note","text":"Day 248 night. Sleep worked for 3 of 7 asleep; retrying the white bed at -271,67,336. Health 20, hunger 20, no food. Trini is at health 3, hunger 11; I 
