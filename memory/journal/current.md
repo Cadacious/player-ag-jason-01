@@ -139,3 +139,16 @@
 - 04:23 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"say":"Jason going to bed at the north white bed with Zack, Kimberly and Wesley. No food on me. Trini, then Worf, get any m
 - 04:24 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}]}
 - 04:32 act: {"actions":[],"say":"Jason at dawn day 261, no food, hunger 14, health 4.5. Worf and Trini first for any meat. I hold 2 wheat seeds; I'll plant them on a plot Picard or Riker chooses."}
+- 04:37 act: {"say":"Jason here, day 261, hunger 14, no food. I'm going west toward the cow spot with Data to look for meat. Worf and Trini first for any meat.","intent":{"goal":"reach_cow_spot","program":"travel"
+- 04:38 act: {"say":"Jason at the cow spot, hunger 14. I see a horse to the south, not food. Looking for cows and sheep nearby. Worf and Trini first for any meat.","intent":{"goal":"find_cow_near_spot","program":"
+- 04:41 act: {"say":"Night is here at -288,269. No cows found, hunger 14. I'm heading back to the white beds at -270,67,318 to sleep with the group. Holding my sword.","intent":{"goal":"return_to_white_bed_for_nig
+- 04:41 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Back at the white beds with Troi and Bcrusher. No food, hunger 14. Trying the bed for the night."}
+- 04:41 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}]}
+- 04:42 act: {"say":"Jason: sleep blocked by golems 9 blocks south. I'm holding north of the beds with Tommy, Clark and LaForge. Hunger 13, no food. Still holding my 2 seeds for Picard.","intent":{"goal":"hold_wit
+- 04:42 act: {"actions":[{"do":"sleep"}],"say":"Trying the yellow bed here at -263,67,353 for the night. Hunger 13, no food. Trini, Worf first with the wheat."}
+- 04:43 act: {"say":"Jason at -240,69,344, sleep keeps failing. No food, hunger 13. I'll hold here until dawn; Worf and Trini first for any wheat or meat.","intent":{"goal":"hold_until_dawn","program":"rest","argu
+- 04:46 act: {"actions":[{"do":"sleep"}],"say":"Jason trying the white bed at -270,67,336 now. No food; Worf and Trini first at dawn."}
+- 04:48 act: {"actions":[{"do":"note","text":"Dawn day 261. Hunger 13, no food. Holding 2 wheat seeds for Picard's plot."}],"say":"Jason here. I have no food either, only 2 wheat seeds, which I'll keep for Picard'
+- 04:48 act: {"actions":[{"do":"goto","target":{"x":-250,"y":67,"z":310}}],"intent":{"goal":"search_east_for_animals","program":"travel","arguments":{"target":{"x":-250,"y":67,"z":310}},"wake_on":["directly_addres
+- 04:48 act: {"actions":[{"do":"goto","target":{"x":-228,"y":68,"z":306}}],"intent":{"goal":"search_east_for_animals","program":"travel","arguments":{"target":{"x":-228,"y":68,"z":306}},"wake_on":["directly_addres
+- 04:48 act: {"actions":[{"do":"goto","target":{"x":-200,"y":68,"z":300}}],"intent":{"goal":"search_east_for_animals","program":"travel","arguments":{"target":{"x":-200,"y":68,"z":300}},"wake_on":["directly_addres
