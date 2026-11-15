@@ -124,3 +124,12 @@
 - 18:27 act: {"actions":[],"say":"Clark, thank you, but my hunger is full at 20. Keep the mutton for Chapman or whoever is lowest. I'm sleeping at the white bed."}
 - 18:29 act: {"actions":[],"say":"Jason, dawn 303, health 20, hunger 20. Chapman is lowest at health 3: Zack, hand him the mutton. I hold 2 rotten flesh for anyone at hunger 6 or below in sight."}
 - 18:32 act: {"actions":[],"say":"Lewis, welcome. I'm full, with 2 rotten flesh. Tell me your hunger and step into sight, and I'll hand it over if you are at 6 or below."}
+- 18:40 act: {"actions":[{"do":"use","at":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason at the white bed, health 20, hunger 20. Holding 2 rotten flesh for anyone at 6 or below in my sight. Trying to slee
+- 19:01 act: {"actions":[{"do":"use","at":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"intent":{"goal":"sleep_at_white_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_
+- 19:10 act: {"actions":[{"do":"give","to":"ag_clark_01","item":"chicken","count":3}],"say":"Zack's three chicken came to me by mistake. Clark, they are yours, you are lowest.","intent":{"goal":"wait_at_beds_for_h
+- 19:12 act: {"actions":[{"do":"goto","target":"ag_clark_01"},{"do":"give","to":"ag_clark_01","item":"chicken","count":3}],"say":"Clark, I'm bringing you the three chicken now. Eat, you are the lowest."}
+- 19:13 act: {"actions":[{"do":"goto","target":{"x":-244,"y":67,"z":330}}],"say":"Heading to Chapman at -243,67,330 with 3 chicken. Chapman, call out when I'm in sight.","intent":{"goal":"deliver_chicken_to_chapma
+- 19:13 act: {"actions":[],"say":"Jason at -245,67,330 with 3 chicken. Chapman or Clark, call out if you are in my sight and I'll hand it over."}
+- 19:15 act: {"actions":[],"say":"Data, I'm holding 3 chicken. Chapman and Clark aren't in my sight, so I'll give to the first of them I see, or to you if you drop to 6."}
+- 19:19 act: {"actions":[{"do":"give","to":"ag_troi_01","item":"chicken","count":3}],"say":"Troi, you are at health 8 and in reach. Take the chicken. Chapman and Clark are out of my sight.","intent":{"goal":"hold_
+- 19:21 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Dusk. I've given the chicken to Data, so the group can share it. I'm going to the white bed to sleep."}
