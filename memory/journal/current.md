@@ -16,3 +16,5 @@
 - 06:10 act: {"say":"Jason here, dawn day 266, hunger 17, no food. I'll check the wheat field at -263,66,321 for ripe wheat. Meat or bread goes to me first.","actions":[{"do":"goto","target":{"x":-263,"y":66,"z":3
 - 06:10 act: {"say":"Jason at the wheat field, day 266. Still unripe, hunger 17. Any meat or bread, give it to me and I'll eat at once.","intent":{"goal":"hold_at_field_for_food","program":"rest","arguments":{},"w
 - 06:12 act: {"say":"Jason at the wheat field, midday. Still no food, hunger 17. Meat or bread to me first; I will share what I get."}
+- 06:15 act: {"intent":{"goal":"hold_at_field_for_food","program":"rest","arguments":{"at":{"x":-263,"y":66,"z":320}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world
+- 06:15 act: {"intent":{"goal":"hold_at_field_for_food","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"max_block_operations"
