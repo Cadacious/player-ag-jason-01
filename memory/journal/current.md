@@ -38,3 +38,26 @@
 - 16:36 act: {"actions":[{"do":"goto","target":{"x":-222,"y":68,"z":351}}]}
 - 16:36 act: {"actions":[{"do":"goto","target":{"x":-200,"y":68,"z":352}}],"say":"Jason at the old pig area, no animals in sight. Following Riker east."}
 - 16:37 act: {"actions":[{"do":"goto","target":{"x":-241,"y":68,"z":350}}],"say":"No animals out east either. Heading back to the beds to hold with the group before night."}
+- 16:45 act: {"intent":{"goal":"reach_bed_and_sleep","program":"travel","arguments":{"target":{"x":-241,"y":69,"z":344}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],
+- 16:47 act: {"actions":[{"do":"use","at":{"x":-270,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason at the white bed. Wesley, you are next to me at health 2 and I have no food. Sleeping here now."}
+- 16:47 act: {"actions":[{"do":"use","at":{"x":-271,"y":67,"z":336}},{"do":"sleep"}]}
+- 16:47 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}]}
+- 16:48 act: {"actions":[],"say":"Jason holding with the group at the white beds, health 20, hunger 19. Beds are full or occupied. No food on me. Picard, I'll be here for Clark's wheat. Waiting for dawn.","intent"
+- 16:50 act: {"intent":{"goal":"check_wheat_field","program":"travel","arguments":{"target":{"x":-263,"y":66,"z":321}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"l
+- 16:51 act: {"actions":[],"say":"Jason at the wheat spot -264,66,321. No wheat or food visible here. Macdonald, I'll follow your call if you find pigs east. Troi, Wesley has your flesh; good."}
+- 16:55 act: {"actions":[],"say":"Jason: I have no sword, so I won't go east alone. Worf, if you have wheat for Wesley, I'm nearby at the wheat spot and can walk to him if he is in sight."}
+- 17:03 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}],"say":"Phantoms are hitting me. Going to the north white bed to try sleep.","intent":{"goal":"reach_bed_at_night","program"
+- 17:04 act: {"actions":[{"do":"goto","target":"ag_picard_01"}],"say":"Phantom on me, health 10, no sword. Moving to Picard's group."}
+- 17:07 act: {"actions":[{"do":"goto","target":{"x":-263,"y":67,"z":353}},{"do":"sleep"}],"say":"Jason here, respawned with nothing. Trying the yellow bed next to Kimberly."}
+- 17:08 say: {"text":"Thanks Kimberly. I'll wait by you till dawn, then look for food and a sword."}
+- 17:12 say: {"text":"Jason, dawn 299, I respawned with nothing. Anyone with a spare wooden sword or any tool to spare, I'll go hunting with the group. Trini, Picard and Wesley first on any meat."}
+- 17:12 say: {"text":"Thank you Trini. I'm at the yellow bed by -265,66,350, no food. I'll wait here for the hunt to come back."}
+- 17:14 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":321}}],"intent":{"goal":"reach_worf_for_sword","program":"travel","arguments":{"target":{"x":-270,"y":67,"z":321}},"wake_on":["directly_addressed
+- 17:14 say: {"text":"Worf, I'm at the north beds now, no food and no sword. Could you hand me the wooden sword? Zack, if that chicken is spare after Picard and Wesley, I'd be grateful."}
+- 17:16 act: {"actions":[{"do":"goto","target":"ag_worf_01"}],"say":"Worf, I'm coming to you for the wooden sword. Thank you."}
+- 17:16 act: {"actions":[],"say":"Worf, I'm right beside you. I'm ready for the wooden sword whenever you can hand it over."}
+- 17:17 act: {"actions":[],"say":"Trini, thank you. I'm here by the north beds, within reach of Worf. Whatever food you can spare, I'll take it."}
+- 17:17 act: {"actions":[],"say":"Clark, thank you. Keep the chicken for someone hungrier than me; I'm full for now. If you can spare a wooden sword, I'd be glad to have it."}
+- 17:18 act: {"actions":[{"do":"use","item":"wooden_sword"}],"say":"Thank you Clark, Worf and Trini. I have the chicken and the sword. Picard, where are you? Come within reach and the chicken is yours."}
+- 17:19 act: {"actions":[],"say":"Picard, good that you are full. I'm full too, so I'll hold the chicken for Leonardo or Wesley when they get low. I'm keeping my sword close."}
+- 17:23 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}},{"do":"sleep"}],"say":"Night. I'm trying the north white bed with Worf and Zack. Chicken is held for whoever gets low."}
