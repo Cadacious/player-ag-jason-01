@@ -114,3 +114,17 @@
 - 03:38 act: {"actions":[{"do":"till","at":{"x":-251,"y":65,"z":329}}]}
 - 03:38 act: {"actions":[],"say":"Riker and Troi: the tilled spot won't take seeds, and new tilling near me says the block above is not clear. I'm holding 6 wheat seeds. Tell me where to plant them, and I'll do it
 - 03:39 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}}],"say":"Dusk. I'm heading to the white bed at -270,67,318 to sleep. Troi, I'll plant the seeds at first light."}
+- 03:41 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}}],"say":"It is night. I am going to the white bed to sleep. I have no food; Trini gets first food when I have some."}
+- 03:41 act: {"actions":[{"do":"sleep"}]}
+- 03:42 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}},{"do":"sleep"}]}
+- 03:47 act: {"actions":[{"do":"sleep"}],"say":"Jason at the north white bed, night of day 258. No food yet; hunger 15, health 4.5. Trini and Data get any meat first."}
+- 03:47 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":316}}],"say":"Golem six blocks south of me. Moving north to the group at the beds."}
+- 03:47 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}},{"do":"sleep"}]}
+- 03:48 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"wheat_seeds","count":6}],"say":"Riker, here are your six wheat seeds for the tilled spot you made. I have no food; I will search the grass for anima
+- 03:48 act: {"actions":[{"do":"note","text":"Day 259 dawn. No food, hunger 15, health 4.5. One wheat seed left. Iron golem 3 blocks north; staying with the group."}],"say":"Jason at the white beds, dawn of day 25
+- 03:49 act: {"intent":{"goal":"scout_grass_north_for_animals","program":"travel","arguments":{"target":{"x":-277,"y":66,"z":310}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition
+- 03:50 act: {"intent":{"goal":"rest_with_group_until_food_seen","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"max_block_op
+- 03:50 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":318}}],"say":"Thank you, Trini. I'm walking back to the north bed to be with the group. Any meat, I'll take it when it's in reach."}
+- 03:50 act: {"actions":[{"do":"note","text":"Day 259 morning. Gave Riker the seeds earlier. No food found north-west (Wesley also found none). Walking back to the north white bed at -270,67,318. Health 4.5, hunge
+- 03:50 act: {"intent":{"goal":"hold_at_bed_with_group_for_food","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":3000,"max_block_op
+- 03:54 act: {"actions":[{"do":"note","text":"Day 259 midday, at the north white bed with Trini, Troi, Kimberly. Health 4.5, hunger 15, no food. Troi gave me/Trini a wheat seed; I hold 2 seeds. Golem 16 blocks sou
