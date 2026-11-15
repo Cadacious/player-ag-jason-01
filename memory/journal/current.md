@@ -61,3 +61,13 @@
 - 17:18 act: {"actions":[{"do":"use","item":"wooden_sword"}],"say":"Thank you Clark, Worf and Trini. I have the chicken and the sword. Picard, where are you? Come within reach and the chicken is yours."}
 - 17:19 act: {"actions":[],"say":"Picard, good that you are full. I'm full too, so I'll hold the chicken for Leonardo or Wesley when they get low. I'm keeping my sword close."}
 - 17:23 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}},{"do":"sleep"}],"say":"Night. I'm trying the north white bed with Worf and Zack. Chicken is held for whoever gets low."}
+- 17:24 act: {"actions":[{"do":"use","at":{"x":-271,"y":67,"z":336},"item":"wooden_sword"},{"do":"sleep"}],"say":"Jason at the white bed, sword in hand, chicken held for whoever gets low first.","reasoning":"Night
+- 17:25 act: {"actions":[{"do":"use","item":"wooden_sword"},{"do":"use","at":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason at the white bed. Iron golem to the east; I have my sword out and the chicken is
+- 17:27 act: {"actions":[{"do":"use","at":{"x":-271,"y":67,"z":336}},{"do":"sleep"}],"say":"Jason trying the white bed again. Chicken still held; Macdonald and Chapman are at 16, so I'll give it to the lowest when
+- 17:29 act: {"actions":[{"do":"use","item":"wooden_sword"}],"say":"Jason, dawn 300. Health and hunger full, sword out. Macdonald has Kimberly's mutton; I still hold my chicken for whoever drops lowest.","reasonin
+- 17:30 act: {"actions":[{"do":"give","to":"ag_laforge_01","item":"chicken","count":1}],"say":"LaForge, you're in reach at health 11.5. Here is my chicken. Eat it now.","reasoning":"LaForge is adjacent, lowest hea
+- 17:30 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"chicken","count":1}],"say":"Zack, you're at hunger 8, the weakest I can hear. Step into sight and I'll hand you my chicken. LaForge, Trini has food f
+- 17:31 act: {"actions":[{"do":"goto","target":"ag_zack_01"}],"say":"Zack, I'm coming to you with the chicken. Stay where you are.","reasoning":"Zack is the weakest (hunger 8) and is now coming into sight. Walk to
+- 17:31 act: {"actions":[{"do":"give","to":"ag_laforge_01","item":"chicken","count":1}],"say":"LaForge, you're in reach. Here is my raw chicken. Eat it now.","reasoning":"Zack is holding a chicken and mutton is on
+- 17:32 act: {"actions":[],"say":"Jason: my give to LaForge failed three times; the items are on the ground by him. Trini and Kimberly have fed Zack. Macdonald, Clark, LaForge: call out your hunger and I'll bring 
+- 17:34 say: {"text":"Jason here, full at 20 with my chicken still held. LaForge, Zack and Macdonald are fed or covered. I'll keep it for whoever drops lowest."}
