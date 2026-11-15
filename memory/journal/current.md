@@ -21,3 +21,9 @@
 - 06:18 act: {"say":"Jason coming to the white beds now, hunger 17. Bcrusher, I'll take the beef. Thank you.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":320}}],"intent":{"goal":"reach_white_beds_for_bee
 - 06:18 act: {"say":"Bcrusher, I'm here. LaForge is weaker than me, so the beef goes to him first. If any is left, I'll take it. Thank you.","actions":[],"intent":{"goal":"wait_for_beef_at_beds","program":"rest","
 - 06:18 act: {"say":"LaForge, your health is lower than mine, so the beef is yours. I'll wait and take whatever is left. Bcrusher, thank you.","actions":[],"intent":{"goal":"wait_at_beds_for_leftover_beef","progra
+- 06:24 act: {"say":"Jason here at the white beds. No food, hunger 17. Going to try the bed for the night.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}}]}
+- 06:24 act: {"actions":[{"do":"sleep"}]}
+- 06:24 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":336}},{"do":"sleep"}]}
+- 06:25 act: {"say":"Jason at the beds, no food, hunger 16. Sleep was blocked twice. Holding here until light; any food to me first.","actions":[{"do":"goto","target":{"x":-271,"y":67,"z":319}}]}
+- 06:25 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}]}
+- 06:27 act: {"say":"Thank you LaForge. You are weaker than me, so keep your rotten flesh. I'm at health 9 and will hold near the beds until light."}
