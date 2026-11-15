@@ -132,3 +132,8 @@
 - 12:45 act: {"actions":[{"do":"goto","target":{"x":-270,"y":67,"z":336}}],"reasoning":"Sleep failed as busy, and I drifted. Walk to the bed at -270,67,336 and rest there once the move is done."}
 - 12:45 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":318}},{"do":"sleep"}],"reasoning":"The group is settling at the north beds. I'm one step off the bed; step onto it and sleep."}
 - 12:49 act: {"actions":[{"do":"goto","target":{"x":-273,"y":66,"z":331}}],"intent":{"goal":"check_wheat_ripeness","program":"travel","arguments":{"target":{"x":-273,"y":66,"z":331}},"wake_on":["goal_completed","d
+- 12:58 act: {"actions":[{"do":"till","at":{"x":-274,"y":65,"z":332}},{"do":"place","block":"wheat_seeds","at":{"x":-274,"y":66,"z":332}}],"reasoning":"No food to hand out, and the group is covering the meat. I ca
+- 13:02 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"reasoning":"Dusk with phantoms close. I have no food and no shelter, so I go to the nearby yellow bed and try to sleep the
+- 13:03 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"reasoning":"Sleep was blocked, so I try the yellow bed once more. Phantoms have left the area. This is the second attempt 
+- 13:07 act: {"actions":[],"say":"Jason, hunger 13, health 9, no food. Troi and Clark are lower, so bread goes to them first. I'll wait by the yellow bed.","reasoning":"Bcrusher is handing out his bread. I have no
+- 13:24 act: {"actions":[{"do":"goto","target":{"x":-271,"y":67,"z":326}},{"do":"sleep"}],"intent":{"goal":"rest_at_yellow_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","
