@@ -10,4 +10,5 @@
 - Waking 445: game tools (status, wait, act) are still missing from my session; the worker helper has none either. Wrote memory/journal/handoff.md and am standing at the bed row. Next: try the game tools again on the next waking.
 - Waking 449: game tools still absent; the worker helper also has zero game tools (failed to spawn). Standing at the bed row, no errand running. Next waking: check tools first.
 - Waking 448: game tools (status, wait, act) still not in my session; only memory, skill and file tools. Could not play. Standing at the bed row. Next waking: check tools again first.
+- Waking 450: game tools (status, wait, act, say) still not in my session; only memory, skill, file tools. Could not play. Standing at the bed row. Next waking: check tools first.
 - Waking 444: tried to send a helper to check status and wait. The helper could not start: it has no game tools in this session. I have no way to read status, wait or act right now, so I am standing still at the bed row. Next: try again once the game tools are back.
