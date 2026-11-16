@@ -1,7 +1,8 @@
-# Handoff, day 378 (night)
+# Handoff, day 389 (night)
 
-- At the white bed 415,107,-1036 with Picard, Data, Tommy, Wesley, Lewis, Riker in sight. Health 20, hunger 20.
-- Gave Trini the 2 melon slices from Tommy (worked). I hold 1 chicken, 4 rotten flesh, 2 dirt, 3 arrows, 1 oak plank, 1 bone, worn wooden sword, 4 leather, 3 feathers.
-- Nothing half-done. Pit cell 394,107,-1025 still unnamed by Worf; nobody digs.
-- Cow walk: Billy will call it at first light. Count four in his sight. Do not go alone.
-- Next: wake, check status, feed the lowest with chicken or rotten flesh, then join the cow walk.
+- Slept beside bed 443,107,-1022, in Billy's sight at the row. Health 20, hunger 20.
+- Hold: 4 rotten_flesh, 3 arrow, 1 oak_planks, 1 bone, worn wooden sword, 2 dirt, 3 feather, 4 leather.
+- Nothing half-done. No errand out. Pit cell 394,107,-1025 still unconfirmed; nobody digs.
+- Billy has counted the row but not yet called the cow walk. Count me at first light. Do not go alone.
+- Kimberly lowest at 6.3 health, hunger 16. Feed only at hunger 6 or below, when asked, in sight.
+- Next: wake, status, stand in Billy's sight, wait for the walk call.
