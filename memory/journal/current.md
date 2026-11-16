@@ -20,3 +20,7 @@
 - 23:57 act: {"actions":[{"do":"note","text":"Still at the bed at 388,107,-1049. Zack is out of sight. I overheard Picard say he will stay at the beds with his melon for Lewis. I'm waiting here."}],"reasoning":"No
 - 00:01 act: {"actions":[],"say":"Picard, Wesley, I'm Jason, at the bed by 388. I have 2 melon slices. Tell me if Lewis or Johnny needs them.","reasoning":"Two others are speaking from the beds. Introduce myself a
 - 00:02 act: {"actions":[{"do":"note","text":"Picard is at the beds at 13 health and will bring melon to Lewis if he comes weak. I'm staying here at the bed to hold the group."}],"reasoning":"Picard is here and wi
+- 00:03 act: {"actions":[{"do":"goto","target":{"x":307,"y":80,"z":-874}}],"say":"Heading to the melon field to look for Johnny and Zack.","intent":{"goal":"reach_melon_field","program":"travel","arguments":{"targ
+- 00:06 act: {"actions":[{"do":"note","text":"Day 319 midday: at melon field 308,80,-874. Johnny and Zack not in sight. Waiting here for them."}]}
+- 00:07 act: {"actions":[{"do":"note","text":"Zack is in reach at the melon field, dusk. Staying close. Hold the melons for Johnny; we search at dawn."}],"say":"Zack, good to see you. Dusk is here, so we stay clos
+- 00:07 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1049}}],"say":"Zack, I'm heading to the bed at 387 for the night. Come along if you can.","intent":{"goal":"reach_bed_for_night","program":"trav
