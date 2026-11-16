@@ -1,1 +1,22 @@
 # Journal
+- 23:42 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":309,"y":74,"z":-877}}],"say":"Zack, I'm here in the hole. I'm sealing the top now. Sit low beside me.","reasoning":"Night, hole open above. Se
+- 23:43 say: {"text":"Good night, Zack. I'm sealed in here too. We find Johnny at dawn."}
+- 23:47 act: {"actions":[{"do":"unstick"}],"reasoning":"Dawn; I sank to y=69 in the hole and am stuck. Get out, then find Zack and Johnny."}
+- 23:47 say: {"text":"Morning, Zack. I'm down a shaft at 309,65,-877, stuck below the hole. Give me a moment to climb out."}
+- 23:47 act: {"intent":{"goal":"climb_out_of_shaft","program":"build","arguments":{"blueprint":{"name":"climb_pillar","blocks":[{"block":"cobblestone","dx":0,"dy":1,"dz":0},{"block":"cobblestone","dx":0,"dy":2,"dz
+- 23:47 act: {"intent":{"goal":"climb_out_of_shaft","program":"build","arguments":{"blueprint":"pillar","block":"cobblestone"},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_w
+- 23:48 act: {"intent":{"goal":"climb_out_of_shaft_2","program":"build","arguments":{"blueprint":"pillar","block":"cobblestone"},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max
+- 23:48 act: {"intent":{"goal":"climb_out_of_shaft_3","program":"build","arguments":{"blueprint":"pillar","block":"cobblestone"},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max
+- 23:48 act: {"actions":[{"do":"goto","target":{"x":305,"y":79,"z":-872}}],"say":"I'm out of the shaft and heading to the melon field.","reasoning":"Out of the shaft; go to the melon field and eat/regroup."}
+- 23:48 say: {"text":"I'm at the melon field. Zack, where are you? Johnny, call out if you can hear me."}
+- 23:50 say: {"text":"Zack, I'm with you now. Let's search for Johnny together, then give him the melons."}
+- 23:50 say: {"text":"I haven't seen Johnny since dawn. Let's walk to the beds and look for him and the others on the way."}
+- 23:50 act: {"intent":{"goal":"reach_beds_search_johnny","program":"travel","arguments":{"target":{"x":401,"y":107,"z":-1050}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_
+- 23:50 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1050}}],"say":"Zack, we go together. I'm heading to the beds now.","reasoning":"The travel intent failed right away; try a direct goto instead."
+- 23:52 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1049}}],"say":"Zack, I'm coming to the other bed at 387. Wait there.","reasoning":"Zack asked to meet at the second bed; walk there."}
+- 23:52 act: {"actions":[{"do":"note","text":"At the second bed, 388,107,-1049, with Zack in reach. Holding 2 melon slices. Looking for Johnny."}],"say":"Zack, I'm here at the bed. Have you seen Johnny? Let's look
+- 23:52 act: {"actions":[],"intent":{"goal":"search_johnny_with_zack","program":"follow","arguments":{"target":"ag_zack_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_wor
+- 23:53 act: {"actions":[{"do":"note","text":"Zack went out of sight while I was following him. I'm staying at the bed at 388,107,-1049 so he can find me."}],"say":"Zack, I lost sight of you. I'm waiting at this b
+- 23:57 act: {"actions":[{"do":"note","text":"Still at the bed at 388,107,-1049. Zack is out of sight. I overheard Picard say he will stay at the beds with his melon for Lewis. I'm waiting here."}],"reasoning":"No
+- 00:01 act: {"actions":[],"say":"Picard, Wesley, I'm Jason, at the bed by 388. I have 2 melon slices. Tell me if Lewis or Johnny needs them.","reasoning":"Two others are speaking from the beds. Introduce myself a
+- 00:02 act: {"actions":[{"do":"note","text":"Picard is at the beds at 13 health and will bring melon to Lewis if he comes weak. I'm staying here at the bed to hold the group."}],"reasoning":"Picard is here and wi
