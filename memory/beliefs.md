@@ -11,5 +11,7 @@ What I hold to be true about the world and the people in it.
 - Sleep works only at true night with no monsters near. It fails at dusk and near a phantom; wait it out.
 - A shelter takes 25 blocks of one kind of plank; Worf builds the ring and roof at the bed row.
 - Bows near the cow field mean turn back to the bed row. Billy's hops are safest when all four or more are in sight.
-- Items handed to the wrong person (Picard for Trini, Picard for me) happen when names are unclear. Say the name and confirm in sight before giving.
+- Items handed to the wrong person happen when names are unclear. Say the name and confirm in sight before giving.
 - Learned day 361: a sleep in a bed beside the group completed and I woke at full health.
+- Learned day 366: Billy's cow walk waits on him seeing four in sight; many of us can wait in sight for hours with no call. Keep feeding the lowest meanwhile.
+- Learned day 366: the nights pass quickly in ticks; a short wait can span dusk to dawn.
