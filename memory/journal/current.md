@@ -6,3 +6,9 @@
 - Day 367 dusk: still no cow-walk call from Billy. Worf still in the pit, digging from 394,107,-1022 (he asked for help; the group is at the edge). I am beside the white bed at 387,107,-1037, going to sleep with the group in sight.
 - 15:54 act: {"say":"Night, friends. Jason bedding down beside the white bed at 387,107,-1022, in Beverly's and Tommy's sight.","actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1022}},{"do":"sleep"}]}
 - 16:06 act: {"actions":[{"do":"sleep"}]}
+- Day 368 midday: at the pit edge 396,107,-1024 with Beverly, Billy and Kimberly in sight. Worf is still trying to climb out on a pillar. Waiting for his next block.
+- 16:14 act: {"say":"Jason coming to the pit edge near Beverly at 395,107,-1024, to help Worf climb out. Worf, I'm at the edge in your sight soon; tell me the next block.","actions":[{"do":"goto","target":{"x":396
+- 16:17 act: {"say":"Worf, Jason at the edge. Keep placing one plank at a time; I will say when I see you rise. I hold 3 chicken if you need food.","actions":[]}
+- 16:17 act: {"say":"Worf, Jason here. Do not keep the pillar. Mine the gravel wall block east of you, at 395,107,-1022, then step onto it and mine the next one up. One block at a time. Tell me if you rise.","acti
+- 16:19 act: {"say":"Worf, stay in the pit tonight, that is safe. Jason going to the white bed at 387,107,-1022 to sleep in Billy's sight. Good night all.","actions":[{"do":"goto","target":{"x":388,"y":107,"z":-10
+- 16:19 act: {"actions":[{"do":"sleep"}]}
