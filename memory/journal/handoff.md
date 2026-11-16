@@ -1,6 +1,6 @@
-Handoff, day 327 (after death)
+Handoff, night of day 329 (dusk)
 
-- Died at 411,107,-1055 to a zombie in daylight, at health 0 after a night fight at the west beds.
-- Respawned at west bed 402,107,-1051 with nothing. Dropped items (2 dirt, 3 bone, 1 arrow, 1 oak_boat, 1 leather) lie at 411,107,-1055, zombie near there.
-- Next: stay near the beds with company. Ask Zack or Picard for a sword or a melon. Do not go back to the dropped pile while hostiles are near.
-- Johnny still missing. Kimberly, Zack and Picard hold melon for the weakest.
+- Health 20, hunger 20. Holding one melon slice and the wooden sword. One arrow.
+- Lent the sword to Wesley at midday; Zack gave him a spare, so I kept mine.
+- Group at the bed row near 401,-1037: Zack, Tommy, Picard nearby. Kimberly (health 8, with melon) is at the bed row too; she goes to Kimberly's area at first light.
+- Next morning: go to Kimberly with the group and offer melon if she is weak. Johnny still missing. The pile at 411,107,-1055 is presumed empty.

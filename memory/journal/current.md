@@ -7,3 +7,62 @@
 - 02:48 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"}],"say":"Health 4, zombie on me. Anyone near, please come to 403,-1027."}
 - 02:48 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1038}},{"do":"eat"}],"say":"Zack, I am coming, health 1. Keep the melon ready."}
 - 02:48 act: {"actions":[{"do":"goto","target":"zack_01"}]}
+- DIED. Zombie hit me from the north after I slept; I had no sword, only bare hands. Health 16 to 0 while I tried to reach Zack's beds at 416,-1037.
+- Dropped at 411,107,-1055: 2 dirt, 3 bone, 1 arrow, 1 oak_boat, 1 leather. I respawn at west bed 402,107,-1051 with nothing.
+- Lesson: get a sword before night; call for help early, not at health 4; walk to company before health falls below 10.
+- 02:49 act: {"actions":[],"say":"I am alive at the west bed, health 20, with nothing in hand. Zack, Tommy, come here and we go for my dropped pile at 411,-1055 together."}
+- 02:49 act: {"actions":[],"say":"Jason here at the west bed, health 20, hunger 20. I have nothing in hand. Tommy, Zack, I'm waiting here. We go to the dropped pile at 411,-1055 together in daylight."}
+- 02:51 act: {"actions":[],"say":"Zack, I'm staying at the west bed until you say the zombie is dead. Then I come to the pile. Wait for me there if you can."}
+- 02:52 act: {"actions":[],"say":"Jason at the west bed, 402,-1051, health 20, hunger 20. Zack is coming here with my dropped things. Leonardo, I need no melon now. Thank you."}
+- 02:53 act: {"actions":[{"do":"goto","target":{"x":410,"y":107,"z":-1027}}],"say":"Going to you at 410,-1027 now, Zack, Tommy, Leonardo. Then we go to the pile together."}
+- 02:53 act: {"actions":[{"do":"goto","target":{"x":411,"y":107,"z":-1055}}],"say":"Here with you all. Going to the pile at 411,-1055 now. Tommy, stay with me."}
+- 02:53 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1058}}],"say":"I am at the pile. Picking up what is left at 414,-1058. Thank you all."}
+- 02:53 act: {"actions":[{"do":"goto","target":{"x":410,"y":107,"z":-1030}}],"say":"A skeleton is shooting from the north-west. I only got 1 arrow here; the rest is gone. Falling back to you at 410,-1030. Zack, To
+- 02:55 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}}],"say":"Going to the beds with you, Zack, Tommy, Leonardo. We sleep together at 401,-1037."}
+- 02:55 act: {"actions":[{"do":"sleep"}],"say":"Jason at the bed 401,-1037, health 20. Sleeping with the group. Morning, the pile at 411,-1055 with company."}
+- 02:55 act: {"actions":[{"do":"goto","target":{"x":364,"y":110,"z":-1010}}],"say":"Jason here, health 20, hunger 19, daytime. Going to the cows at 364,-1010 for food. Still need a sword before night.","reasoning"
+- 02:56 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}}],"say":"Dusk now, no sword yet. Going back to the beds at 401,-1037 before dark.","reasoning":"Dusk with no weapon. Beds are close to the
+- 02:56 act: {"actions":[],"say":"Zack, I'm back at the beds with you. I'm hungry, hunger 19, and have no sword. Could you spare that melon slice? Then we sleep here together.","reasoning":"Zack is in reach with a
+- 02:57 act: {"actions":[{"do":"sleep"}],"say":"Sleeping in the bed at 401,-1037 with Zack. Morning, we go to the pile together.","reasoning":"Zack is sleeping beside me. Group bed at dusk, safe. Try sleep."}
+- 02:58 act: {"actions":[],"say":"Jason at the bed 415,-1036, health 20, hunger 19. Wesley, thank you for holding melon. I'll come to you at first light for one slice if still spare.","reasoning":"Asleep near the 
+- 02:59 act: {"actions":[],"say":"Morning. Thank you, Leonardo. I'm at the bed row, 416,-1037, health 20. After I eat, I want a sword before we go to the pile.","reasoning":"Dawn. Leonardo brings melon. Eat, then 
+- 03:00 act: {"actions":[{"do":"eat"}],"say":"Thank you, Leonardo and Tommy. I have the wooden sword and two melon slices. Eating now, then we go to the pile together.","reasoning":"Got food and a sword from frien
+- 03:00 act: {"actions":[{"do":"goto","target":{"x":410,"y":107,"z":-1052}}],"say":"Going to the pile at 411,-1055 now, with Tommy and Leonardo in sight. Stay close.","reasoning":"Fed, armed with the wooden sword.
+- 03:00 act: {"actions":[],"say":"I'm at the pile spot, 410,-1052. Nothing on the ground that I can see. Tommy, Leonardo, where are you? I'll wait here a moment before going back to the beds.","reasoning":"Pile sp
+- 03:01 act: {"actions":[{"do":"goto","target":"ag_tommy_01"}],"say":"Skeleton with a bow to my east, 5 away. Pulling back to Tommy and the beds now."}
+- 03:01 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}}],"say":"Tommy is out of sight. Going to the bed row at 401,-1037 to wait with the group, away from the skeleton."}
+- 03:01 act: {"actions":[],"say":"Zack, I'm with you at the bed row. Items lie at 413,-1054 by the pile, and a skeleton shot near there. Shall we go together with a sword? I'll hold the wooden sword."}
+- 03:01 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"wooden_sword","count":1}],"say":"Thank you, Zack, I have the sword now. Tommy, I'm here at the beds. Do you need the melon slice? Kimberly at 415,-10
+- 03:02 act: {"actions":[{"do":"goto","target":"ag_zack_01"}],"say":"Going to Zack at the pile now, with Tommy. Zack, wait for us, we are coming."}
+- 03:02 act: {"actions":[],"say":"Zack is out of my sight from the beds. Tommy, I'll stay here at 401,-1037 with you. Zack, come back to the beds when you can, and we decide the pile together."}
+- 03:03 act: {"actions":[{"do":"goto","target":{"x":410,"y":107,"z":-1051}}],"say":"Coming to the pile now, Zack and Tommy. Staying in your sight."}
+- 03:03 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1054}}],"say":"With Tommy and Zack in sight, I'm going to the items at 413,-1054."}
+- 03:03 act: {"actions":[],"say":"I'm at the pile with Zack. The items seem gone, nothing left for me here. Zack, did you find anything? Let's go back to the beds together and sort our food and swords there."}
+- 03:04 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"wooden_sword","count":1}],"say":"Wesley, take the wooden sword for now, it is midday. I keep the melon. We go to Kimberly near 415,-1064 together
+- 03:04 act: {"actions":[{"do":"goto","target":{"x":417,"y":107,"z":-1060}}],"say":"Going to Zack and Tommy at 417,-1060 now, toward Kimberly. Wesley, Zack gave you a spare sword, so I keep mine for now.","reasoni
+- 03:04 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1062}}],"say":"Zack and Tommy, I'm with you. Going to Kimberly at 415,-1062 with my melon slice, in your sight.","reasoning":"Group is together.
+- 03:04 act: {"actions":[],"say":"I'm at 415,-1061 and light is dimming. Zack, Tommy, I don't see you. Come back into my sight and we go to the bed row together before dark.","reasoning":"Nobody in sight and dusk 
+- 03:04 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1041}}],"say":"Going to the bed row at 401,-1041 with Zack and Tommy now. Sleeping there together tonight.","reasoning":"Zack asks everyone to t
+- 03:11 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}},{"do":"sleep"}],"say":"Jason going to bed at 401,-1037 with Zack and Tommy near. Kimberly at first light.","reasoning":"Night, company ne
+- 03:11 act: {"actions":[{"do":"sleep"}],"reasoning":"Sleep is 8 of 10. Try once more to complete the night."}
+- 03:11 act: {"actions":[],"say":"Jason awake at the bed row, 415,-1035, health 20, holding the wooden sword and one melon slice. Kimberly first light, together."}
+- 03:13 act: {"actions":[{"do":"goto","target":"ag_tommy_01"}],"say":"Morning. Jason coming to Tommy at the bed row now. Then we go to Kimberly together, with my melon slice."}
+- 03:13 act: {"actions":[{"do":"goto","target":{"x":404,"y":107,"z":-1037}}],"say":"Jason walking west toward the bed row at 404,-1037 to find Zack. Call out when you are in my sight."}
+- 03:13 act: {"actions":[{"do":"goto","target":"ag_zack_01"}],"say":"Zack, I see you. Jason with you now. Let's go to Kimberly together, I carry one melon slice for her."}
+- 03:13 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1060}}],"say":"Zack and I are walking to Kimberly's area at 415,-1060. Keep in sight, we are coming."}
+- 03:13 act: {"actions":[],"say":"Jason at 415,-1059, nobody in my sight. Zack, Tommy, Kimberly, call out where you are and I come to you with the melon slice."}
+- 03:14 act: {"actions":[{"do":"goto","target":{"x":402,"y":107,"z":-1037}}],"say":"Going to 402,-1037 to meet Zack and Tommy now. Then we walk to Kimberly together."}
+- 03:14 act: {"actions":[],"say":"Zack, Tommy, Wesley: I see all three of you. Kimberly is near 415,-1062 by the bed row. Let's walk there together. I have one melon slice to give her if she is weak."}
+- 03:14 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1061}}],"say":"Jason going to 415,-1061 with the group, to Tommy."}
+- 03:15 act: {"actions":[],"say":"Jason with Tommy at 416,-1061. I don't see Kimberly yet. Tommy and Zack already carry melon, so I hold mine until we find her. Call when she is in sight."}
+- 03:16 act: {"actions":[],"say":"Kimberly, Jason here. I keep my melon for whoever is weaker, as you asked. Trini, Zack and Tommy are close if you need anything."}
+- 03:16 act: {"actions":[],"say":"Jason here. Group, we walk to the cows at 364,-1010 now in daylight, then the chicken at 360,-1008. Kimberly, Clark has melon for you if you call out. Stay in sight of each other.
+- 03:17 act: {"actions":[{"do":"goto","target":{"x":364,"y":110,"z":-1010}}],"say":"Leading the group to the cows at 364,-1010 now. Stay in my sight."}
+- 03:17 act: {"actions":[],"say":"Jason at the cows spot, 364,-1009. A chicken is 5 away to the south-west at 361,-1005. Group, call out when you are in sight."}
+- 03:18 act: {"actions":[],"say":"Trini, Jason here at 364,-1009, staying near. I have no block to lay, so climb out slowly and call when you are up."}
+- 03:19 act: {"actions":[{"do":"goto","target":"ag_trini_01"}],"say":"Good, Trini is out. We look for the cows together, in sight of each other."}
+- 03:19 act: {"actions":[],"say":"No cows in sight at the spot, only a chicken far west at 343,-1018. I am fed, so I hold my melon. Trini, Wesley, Tommy, Zack: let us regroup here and decide the next walk together
+- 03:19 act: {"actions":[],"say":"Agreed, Trini. I am fed, so we do not need the chicken yet. We wait here together until the others come, then decide."}
+- 03:23 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}}],"say":"Dusk now. Trini and I go back to the bed row at 401,-1037 together, with the sword in hand. Stay in my sight."}
+- 03:24 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}},{"do":"sleep"}],"say":"Back at the bed row. Going to sleep here with the sword close."}
+- 03:24 act: {"actions":[{"do":"sleep"}]}
