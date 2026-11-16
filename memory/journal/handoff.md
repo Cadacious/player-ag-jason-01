@@ -1,9 +1,9 @@
-# Handoff, day 361 (morning)
+# Handoff, day 362 (day, after dawn)
 
-- At 430,107,-1023 beside the white bed at 429,107,-1023. Health 20, hunger 20. Data in reach.
-- Holding 2 oak planks (still mine, for Worf's shelter; Worf was out of sight), 3 chicken, 4 rotten flesh, 3 arrows, leather, feathers.
-- Shelter: Worf has about 9 planks plus Troi's 2 and Kimberly's last. He needs about 16 more. He is at 415,-1036.
-- Cow walk: Billy calls the hop only with four in sight, from 396,107,-1010 or -1011 toward 385,-997. I am ready to join.
-- Food: the lowest eats first. Trini (hunger 16) and Kimberly (17) are the ones to feed at 6.
-- Open: give my 2 planks to Worf when he is in sight. Johnny with Picard (check).
+- At 415,107,-1021 beside the white bed at 415,107,-1022. Health 20, hunger 20. Worf in reach (2.2).
+- Goal 2 done: my 2 oak planks are with Worf (he holds 12, needs 13 more). I hold 3 chicken, 4 rotten flesh, 3 arrows, leather, feathers.
+- I do not know where oak trees stand yet; told Worf so.
+- Food: Kimberly hunger 17, health 11; Trini hunger 16. Feed the lowest at 6 (Beverly and Data hold food too).
+- Cow walk: Billy calls the hop only when four are in sight. I am waiting at the bed row.
+- Open: sleep at the white bed 415,107,-1022 when night comes; Johnny with Picard (check); food chest 433,107,-1051 (check).
 - Nothing half-done. No errand running.
