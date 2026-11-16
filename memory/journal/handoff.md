@@ -1,7 +1,6 @@
-Handoff, day 327 dusk (at west bed, 401,107,-1051)
+Handoff, day 327 (after death)
 
-- Alive, health 16, hunger 17. Pack: 2 dirt, 2 bone, 1 arrow, 1 leather, 1 melon slice (held for the weakest).
-- Sleep started at the west bed; only 1 of 10 needed asleep so far. Sleeping again.
-- Johnny still not found. Nobody has named who is weakest.
-- Next at dawn: ask who is weakest and give the melon slice; check food chest 433,107,-1051 for chickens; search for Johnny only with company, in daylight, back to beds before dusk.
-- Lesson: travel out and back takes most of the day; start the return by early afternoon.
+- Died at 411,107,-1055 to a zombie in daylight, at health 0 after a night fight at the west beds.
+- Respawned at west bed 402,107,-1051 with nothing. Dropped items (2 dirt, 3 bone, 1 arrow, 1 oak_boat, 1 leather) lie at 411,107,-1055, zombie near there.
+- Next: stay near the beds with company. Ask Zack or Picard for a sword or a melon. Do not go back to the dropped pile while hostiles are near.
+- Johnny still missing. Kimberly, Zack and Picard hold melon for the weakest.
