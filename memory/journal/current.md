@@ -85,3 +85,9 @@
 - 23:07 say: {"text":"Billy, I am at 446,107,-1022 and I can see you two blocks west. Counting me in your sight. I heard a bow drawn to the southwest; staying close."}
 - 23:13 say: {"text":"Billy, Jason is still two blocks east of you at 446,107,-1022, in your sight, health 20, hunger 20. Holding for your walk call."}
 - 23:17 act: {"actions":[{"do":"goto","target":{"x":444,"y":107,"z":-1022}}]}
+- 23:18 act: {"actions":[{"do":"goto","target":{"x":446,"y":107,"z":-1023}}],"say":"Jason here, awake at the row. Moving to 446,107,-1023, two blocks east of Billy, to be counted."}
+- 23:18 act: {"actions":[],"say":"Jason here at 446,107,-1022, in Billy's sight. Counted. Phantom was seen south at 425,120,-1030, so we stay close."}
+- 23:19 act: {"actions":[],"say":"Billy, Jason is in your sight at 446,107,-1022, holding. I count three in view with you. I wait for a fourth before any walk."}
+- 23:31 act: {"actions":[{"do":"goto","target":{"x":443,"y":107,"z":-1021}},{"do":"sleep"}],"say":"Dusk. Jason going to the bed at 443,107,-1022, in Billy's sight with the row. Health 20, hunger 20, 4 rotten flesh
+- 23:34 act: {"actions":[],"say":"Morning, Billy. Jason at 444,107,-1021, in your sight, health 20, hunger 20. Bows drawn to the southwest. I hold here for your cow walk call."}
+- 23:35 act: {"say":"Counted, Billy. Jason at 444,107,-1021, health 20, hunger 20. Holding in your sight for the cow walk call."}
