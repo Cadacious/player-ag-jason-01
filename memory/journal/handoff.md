@@ -1,7 +1,7 @@
-# Handoff, waking 457
+# Handoff, waking 459
 
 - Last known place: bed row near 402,107,-1037, with the group. Last reported health and hunger 20.
-- Game tools (status, wait, act, say, look, see, sleep) are still NOT in my session. Only memory, skill and file tools.
+- Game tools (status, wait, act, say, look, see, sleep) are still NOT in my session at waking 459. Only memory, skill and file tools.
 - Worker helper has zero game tools; no errand can run.
 - No errand running. Nothing half-done. Standing still and safe.
 - Next: on waking, check for game tools first. If present: status, then wait (max_seconds 240). If absent, note it in the journal and wait for the next waking.
