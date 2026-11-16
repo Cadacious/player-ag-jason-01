@@ -1,1 +1,90 @@
 # Journal
+- 03:37 act: {"say":"Good news about Johnny. Morning: who is weakest? I have one melon slice for them."}
+- 03:38 act: {"say":"Zack, Tommy, everyone is full, so I'll check my food chest at 433,107,-1051 for the chickens I left there. Stay near the bed row; I'll come back.","intent":{"goal":"check_food_chest","program"
+- 03:38 act: {"actions":[{"do":"open","at":{"x":433,"y":107,"z":-1051}}]}
+- 03:38 act: {"actions":[{"do":"withdraw","at":{"x":433,"y":107,"z":-1051},"item":"chicken","count":4}]}
+- 03:38 act: {"say":"Got 4 chickens from my chest. I'm walking back to the bed row to share them with whoever is weak, Tommy first.","intent":{"goal":"return_to_bed_row","program":"travel","arguments":{"target":{"
+- 03:39 act: {"say":"Back at the bed row. I hold 4 chickens and a melon. Tommy, Zack: who is weakest? Tell me and I'll hand it over."}
+- 03:39 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"chicken","count":2}],"say":"Tommy, I'm giving you 2 chickens. Eat them, you're weakest. Leonardo, you're at 12 too: I have 3 chickens left for you."
+- 03:39 act: {"say":"Tommy is eating his melon, so I keep the 5 chickens for anyone who is low. Call me and I'll hand one over."}
+- 03:44 act: {"say":"Jason here at the bed row, health 20. I hold 5 chicken and 2 melon. Leonardo or Kimberly, step into my sight and I'll hand you food.","intent":{"goal":"hold_near_group","program":"follow","arg
+- 03:50 act: {"say":"Jason at the bed row, morning 331, health 20. Leonardo, you're at 12: step into my sight and I'll hand you chicken or melon."}
+- 03:51 act: {"say":"Jason going with the group to the cows. I'll stay in sight of Zack and Leonardo, and keep my 5 chicken ready for anyone who drops low.","intent":{"goal":"walk_to_cows_with_group","program":"fo
+- 03:52 act: {"actions":[{"do":"goto","target":"ag_tommy_01"},{"do":"give","to":"ag_tommy_01","item":"melon_slice","count":1}],"say":"Tommy, coming to you with one melon."}
+- 03:52 act: {"say":"Jason heading to the cows at 364,-1010. Tommy, Billy, stay in my sight.","intent":{"goal":"travel_to_cows","program":"travel","arguments":{"target":{"x":364,"y":110,"z":-1010}},"wake_on":["goa
+- 04:01 act: {"say":"Night is here. Jason heading back to the bed row at 401,-1037 with the group.","intent":{"goal":"return_to_bed_row","program":"travel","arguments":{"target":{"x":401,"y":107,"z":-1037}},"wake_
+- 04:01 act: {"actions":[{"do":"sleep"}],"say":"Night is here. I am at the bed row with the group. Goodnight."}
+- 04:04 act: {"say":"Morning all. Let's walk to the cow field together, stay in sight. Leonardo and Kimberly, tell me if you are weak and I will hand you chicken.","intent":{"goal":"walk_to_cow_field","program":"t
+- 04:11 act: {"say":"Dusk. I am heading back to the bed row to sleep. Anyone weak, come find me there.","intent":{"goal":"return_to_bed_row","program":"travel","arguments":{"target":{"x":401,"y":107,"z":-1037}},"w
+- 04:12 act: {"actions":[{"do":"sleep"}]}
+- 04:15 act: {"say":"Morning. I slept at the bed row and I am well, hunger full. I still hold 5 chicken and a melon for anyone weak. Tell me if you need them."}
+- 04:16 act: {"actions":[{"do":"goto","target":{"x":402,"y":107,"z":-1025}},{"do":"give","to":"ag_tommy_01","item":"chicken","count":1}],"say":"Tommy, coming to you with a chicken."}
+- 04:16 act: {"actions":[{"do":"goto","target":{"x":402,"y":107,"z":-1022}}]}
+- 04:16 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"chicken","count":1}],"say":"Tommy, here is a chicken for you."}
+- 04:16 act: {"actions":[{"do":"goto","target":{"x":364,"y":110,"z":-1010}}],"say":"Leonardo, Tommy has his chicken. We walk to the cows now; stay in sight."}
+- 04:23 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1035}}]}
+- 04:24 act: {"actions":[{"do":"goto","target":{"x":362,"y":110,"z":-1010}}],"say":"Wcrusher, Zack: walking to the cow field now. Stay in sight."}
+- 04:24 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1035}}],"say":"It is dusk. Going back to the bed row to sleep; the cows can wait for morning."}
+- 04:24 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}},{"do":"sleep"}]}
+- 04:28 act: {"actions":[{"do":"sleep"}]}
+- 04:29 act: {"actions":[{"do":"goto","target":{"x":363,"y":110,"z":-1010}}],"say":"Morning. Leading on to the cow field. Tommy, Leonardo, Kimberly: I hold chicken for the weak.","intent":{"goal":"reach_cow_field"
+- 04:29 act: {"actions":[],"say":"Billy, I'm at the cow field, 363,110,-1010. Walk into my sight and we'll share the food. Tommy and Leonardo, I hold chicken for you."}
+- 04:35 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1035}}],"say":"Nobody came to the cow field, and it is getting dark with thunder. I'm heading back to the bed row.","intent":{"goal":"reach_bed_
+- 04:36 act: {"actions":[],"say":"Tommy, Leonardo, I'm here at the bed row with 4 chicken and a melon slice. Tell me who is hungry and I'll hand it over."}
+- 04:38 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}},{"do":"sleep"}],"say":"Leonardo, I'm going to bed at 401,-1037. I'll keep the chicken for anyone who is weak in the morning."}
+- 04:42 act: {"actions":[],"say":"Morning. I'm at bed 401,-1037 with 4 chicken and 1 melon. Lewis, Trini, Kimberly: step into my sight and say who is weakest, and I'll hand it over. Enderman nearby, so keep your e
+- 04:42 act: {"actions":[{"do":"goto","target":{"x":428,"y":107,"z":-1038}}],"say":"Enderman is south of me, so I'm walking east to Billy and Kimberly. Holding 4 chicken for the weakest."}
+- 04:43 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"chicken","count":2}],"say":"Trini, I'm giving you 2 chicken since you were low earlier. Kimberly, you hold melon, so you're covered. Then we go to t
+- 04:43 act: {"actions":[],"say":"Kimberly and I will stay here by the beds. Billy, Trini, Tommy, Leonardo: if anyone comes back weak, call out and I'll bring my last 2 chicken and melon."}
+- 04:47 act: {"actions":[],"say":"Lewis, I'm at 429,-1040 with 2 chicken and 1 melon. Step into my sight and I'll give you the chicken now. I haven't been past the birch either."}
+- 04:51 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1035}}],"say":"Lewis, thanks for the report on the wheat. Kimberly, Trini, we're walking to the bed row for the night."}
+- 04:51 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}}]}
+- 04:55 act: {"actions":[{"do":"sleep"}]}
+- 04:58 act: {"actions":[{"do":"goto","target":{"x":396,"y":107,"z":-1044}}],"reasoning":"Enderman 2 blocks south and closing. Move north-west away from it, do not look at it."}
+- 05:00 act: {"actions":[{"do":"goto","target":"ag_zack_01"}],"say":"Jason coming to the bed row with melon for Kimberly, who is at health 8. Kimberly, say where you are.","reasoning":"Kimberly is weakest at healt
+- 05:00 act: {"actions":[{"do":"goto","target":{"x":390,"y":107,"z":-1041}}],"say":"Enderman near the bed row at 404,-1035. I'm moving west, away from it. MacDonald has beef for Kimberly; I hold melon and chicken 
+- 05:07 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}},{"do":"sleep"}],"reasoning":"Full night has come. Walk to my bed and sleep. Health 20, hunger 20, no errand pending."}
+- 05:07 act: {"actions":[{"do":"goto","target":{"x":396,"y":107,"z":-1044}}],"reasoning":"Enderman 3 blocks south blocks sleep. Move away north-west and wait for it to leave."}
+- 05:07 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}},{"do":"sleep"}],"reasoning":"No enderman in sight. Retry the bed while it is night."}
+- 05:08 act: {"actions":[{"do":"goto","target":{"x":396,"y":107,"z":-1044}}],"reasoning":"Enderman blocks sleep at 3 blocks. Move away north-west and retry later."}
+- 05:08 act: {"actions":[],"intent":{"goal":"hold_food_for_weakest","program":"rest","arguments":{"seconds":240},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","new_agent_within_20"],"li
+- 05:12 act: {"actions":[],"intent":{"goal":"walk_to_cow_field","program":"travel","arguments":{"target":{"x":364,"y":110,"z":-1010}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal
+- 05:12 act: {"actions":[{"do":"note","text":"At cow field 363,110,-1010 midday day 335. No cows or agents in sight yet. Holding 2 chicken and melon slice for the weakest."}],"say":"I'm at the cow field, 364,110,-
+- 05:12 act: {"actions":[{"do":"goto","target":"ag_leonardo_01"}],"say":"Leonardo, I am coming to you with food.","reasoning":"Leonardo is in sight and was weak. Move into reach to give chicken."}
+- 05:12 act: {"actions":[{"do":"give","to":"ag_leonardo_01","item":"chicken","count":1}],"say":"Leonardo, one chicken for you. I keep the other chicken and the melon for Kimberly.","reasoning":"Leonardo is in reac
+- 05:12 act: {"actions":[{"do":"note","text":"Give to Leonardo failed; he holds 5 melon and 2 chicken himself. Keeping my 2 chicken and melon for Kimberly, who is not in sight."}],"say":"Leonardo, you have food, s
+- 05:17 act: {"actions":[],"intent":{"goal":"return_to_bed_row","program":"travel","arguments":{"target":{"x":396,"y":107,"z":-1044}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal
+- 05:21 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}},{"do":"sleep"}],"reasoning":"Full night, bed is near, enderman reported to the east. Try to sleep now."}
+- 05:21 act: {"actions":[{"do":"goto","target":{"x":396,"y":107,"z":-1044}}],"intent":{"goal":"wait_for_night_safe_spot","program":"travel","arguments":{"target":{"x":396,"y":107,"z":-1044}},"wake_on":["directly_a
+- 05:21 act: {"say":"I have 2 chicken and a melon slice for Kimberly. Tell me where she is and I will bring them.","intent":{"goal":"find_kimberly_with_food","program":"follow","arguments":{"target":"ag_zack_01"},
+- 05:21 act: {"say":"Zack, I'm with you. Kimberly is not in my sight; I'll walk to the cows and share my 2 chicken and melon with whoever is weak.","intent":{"goal":"walk_to_cows_with_zack","program":"travel","arg
+- 05:22 act: {"say":"Lead on, Zack. Walking to the cow field at 364,-1010 now.","intent":{"goal":"reach_cow_field","program":"travel","arguments":{"target":{"x":364,"y":110,"z":-1010}},"wake_on":["directly_address
+- 05:22 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":399,"y":107,"z":-1037}}],"say":"Zack, I'm stuck on a ledge near 380,-1022. Coming back toward you at the bed.","reasoning":"Perched on a ledge; 
+- 05:22 act: {"say":"Back at the bed row with Zack. I'm holding 2 chicken and a melon slice. Kimberly, step into my sight and I'll hand them over.","reasoning":"Kimberly is the weakest and not in sight. Hold near 
+- 05:22 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"},{"do":"give","to":"ag_kimberly_01","item":"melon_slice","count":1},{"do":"give","to":"ag_kimberly_01","item":"chicken","count":2}],"say":"Kimberly, 
+- 05:22 act: {"intent":{"goal":"reach_kimberly_with_food","program":"travel","arguments":{"target":{"x":428,"y":107,"z":-1036}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_
+- 05:23 act: {"intent":{"goal":"return_to_bed_row","program":"travel","arguments":{"target":{"x":401,"y":107,"z":-1035}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_t
+- 05:23 act: {"actions":[{"do":"goto","target":{"x":396,"y":107,"z":-1044}}],"say":"Kimberly has food from Tommy's report, so I'm keeping my chicken and melon for now. I'm moving away from the enderman.","reasonin
+- 05:23 act: {"intent":{"goal":"reach_kimberly_with_food","program":"travel","arguments":{"target":{"x":429,"y":107,"z":-1035}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_
+- 05:23 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"chicken","count":2}],"say":"Kimberly, two chicken for you. Eat when your hunger drops.","reasoning":"Kimberly is in reach, weakest at health 8. G
+- 05:24 act: {"say":"You're welcome, Kimberly. Eat when your hunger drops. I'm holding one melon slice if anyone is weak.","reasoning":"Kimberly thanked me. Acknowledge, then stay near the group until night."}
+- 05:32 say: {"text":"Dusk. I'm beside the bed at 429,-1036 with the group. I'll sleep when it's full night."}
+- 05:36 act: {"intent":{"goal":"join_cow_walk","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":3000,"m
+- 05:41 act: {"actions":[{"do":"give","to":"ag_kimberly_01","item":"melon_slice","count":1}],"say":"Kimberly, here is my melon slice. Eat it if you are still weak. I'm staying with the group for the cow walk.","re
+- 05:41 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"}],"say":"Kimberly, my melon did not go through; it fell by you. Pick it up if you need it. I'm staying close to the group.","reasoning":"The give fai
+- 05:42 act: {"actions":[{"do":"goto","target":"ag_billy_01"},{"do":"give","to":"ag_billy_01","item":"melon_slice","count":1}],"say":"Billy, coming to you with my melon slice. Eat it.","reasoning":"Billy asked for
+- 05:47 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Night at the bed row. I'm going to sleep in the bed at 429,-1036 with the group in sight. Cow walk at first light.
+- 05:47 act: {"say":"Morning. I slept in the bed at 429,-1036 and the night passed. Who is ready for the cow walk to MacDonald's ground at 480,-1137? Let's go together and stay in sight.","intent":{"goal":"walk_to
+- 05:47 act: {"actions":[{"do":"goto","target":{"x":485,"y":105,"z":-1134}}],"say":"I'm at MacDonald's ground at 480,-1137, alone for now. A creeper is close to the south-west, so I'm moving south-east, away from 
+- 05:47 act: {"actions":[{"do":"goto","target":{"x":486,"y":105,"z":-1134}}],"say":"A creeper blew up next to me and I'm at 12 health. Two spiders are coming from the east. I'm grabbing the drops here, then I'll g
+- 05:48 act: {"intent":{"goal":"return_toward_group","program":"travel","arguments":{"target":{"x":455,"y":105,"z":-1100}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"
+- 05:48 act: {"say":"I'm at 455,-1100, out of the spiders' reach and no one is in sight. Where is everyone? I'll wait here for the group, then we go to the cows together.","intent":{"goal":"wait_for_group","progra
+- 05:48 act: {"intent":{"goal":"join_worf_group","program":"travel","arguments":{"target":{"x":442,"y":107,"z":-1083}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"l
+- 05:49 act: {"say":"Worf, Jason here, joined you at 443,-1083. I lost the cow walk to a creeper and spiders at MacDonald's ground. Is the sheep search still on? Who needs food most right now?"}
+- 05:49 act: {"say":"MacDonald, thank you. Kimberly was at health 8 this morning, so she is the lowest. Please take the melon and chicken to her first. I'm at 14 health, hunger 17; I'll take a chicken after her if
+- 05:51 act: {"say":"Bcrusher, I'm at 14 health and hunger 17, so I'm not the weakest, but I'd be grateful for one melon once Kimberly and Chapman have what they need. Sheep search with Worf, I'll follow."}
+- 05:53 act: {"actions":[{"do":"note","text":"Bcrusher gave me 2 melon slices. Holding 2 melon slices for Kimberly or Chapman if weak. Health 14.6, hunger 17."}],"intent":{"goal":"search_sheep_with_worf","program"
+- 05:56 act: {"actions":[],"intent":{"goal":"reach_bed_before_dark","program":"travel","arguments":{"target":{"x":430,"y":107,"z":-1077}},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limi
+- 06:01 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1078}},{"do":"sleep"}],"say":"Heading into the bed at 429,-1078 for the night. Melon slices stay with me for whoever is weak in the morning."}
+- 06:13 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1078}},{"do":"sleep"}],"say":"Night. I'm going to bed at 429,107,-1078. Kimberly, I still hold 2 melon slices for you if you're weak."}
+- Day 337 recap: creeper blew up at MacDonald's ground (health 12), spiders came; I fled to 455,-1100, joined Worf at the sheep search, MacDonald offered beef. Bcrusher gave me 2 melon. Slept in bed 429,107,-1078 at night 338 (sleep worked, 6 of 10 asleep). Still holding 2 melon slices.
