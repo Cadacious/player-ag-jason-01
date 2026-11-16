@@ -1,1 +1,30 @@
 # Journal
+- 08:54 act: {"actions":[{"do":"goto","target":{"x":434,"y":107,"z":-1051}},{"do":"open","at":{"x":433,"y":107,"z":-1051}}],"say":"Jason here, health 17.6, hunger 14. Checking the food chest by the beds. Walking w
+- 08:54 act: {"actions":[{"do":"goto","target":{"x":421,"y":107,"z":-1033}}],"say":"Jason joining the group at 421,-1033. Walking in sight, lowest eats first. I'm at hunger 14, health 17.6."}
+- 08:54 act: {"actions":[],"intent":{"goal":"follow_billy_to_cows","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_
+- 08:54 act: {"actions":[{"do":"goto","target":"ag_billy_01"}],"say":"Staying with you, Billy. Going where you go, in sight."}
+- 08:54 act: {"actions":[],"say":"Billy is out of my sight. I'm holding here at 421,-1034 with Trini, and I won't walk alone. Billy, call when you're back in sight."}
+- 08:58 act: {"actions":[],"say":"Jason here with Billy, Trini and Troi, all in sight. Billy, call the walk and I'll follow beside you. Lowest eats first."}
+- 09:03 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1036}},{"do":"use","at":{"x":415,"y":107,"z":-1036}}],"say":"Going to the bed at 415,-1036 with the group. Walk at first light, lowest eats firs
+- 09:03 act: {"actions":[{"do":"sleep"}],"say":"Going to sleep at the bed with Billy close. First light, we walk to the cows together."}
+- 09:07 act: {"intent":{"goal":"walk_with_billy_to_cows","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["precondition_failed","unexpected_damage","directly_addressed"],"limits":{"max_world_tick
+- 09:08 act: {"actions":[],"say":"Billy is out of my sight, so I'm holding at 417,-1035 with Leonardo and Trini. Billy, call out and I come."}
+- 09:13 act: {"actions":[],"say":"Holding at 417,-1035 with the group. Billy, we wait here for you. No food to spare from me yet; I have 3 chicken and 4 beef, I'll share at 6."}
+- 09:17 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Back at the beds with the group. Sleeping here. Lowest eats at 6, I hold 3 chicken and 4 beef."}
+- 09:19 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1035}}],"say":"Morning, Jason here, coming to 415,-1035 to join Billy. In sight for the cow walk. Hunger 14, I hold 3 chicken and 4 beef."}
+- 09:20 act: {"actions":[{"do":"goto","target":{"x":404,"y":107,"z":-1036}}],"say":"Jason moving to Billy at 402,-1036 as called. Will walk to the cows once the group is in sight.","reasoning":"Billy asked Troi an
+- 09:20 act: {"actions":[],"say":"Jason here at Billy's bed, in reach of Billy, Tommy and Trini. An enderman is close to the north-west; I will not look at it. Billy, call the walk when you are ready.","reasoning"
+- 09:21 act: {"actions":[],"say":"Jason in reach at Billy's bed with Leonardo, Data, Tommy and Trini. Holding for Billy's call.","reasoning":"Group is assembled. Billy's call decides the walk, so I hold and keep t
+- 09:26 act: {"actions":[],"say":"Jason holding at the bed 402,-1036 with Trini, Data, Leonardo and Kimberly. I will not walk out alone. Billy, call when you are back in sight.","reasoning":"Billy left and the gro
+- 09:30 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}},{"do":"sleep"}],"say":"Dusk. Jason going to the bed at 401,-1037 with the group in reach. Hunger 14, I hold 3 chicken and 4 beef for the 
+- 09:31 act: {"actions":[{"do":"sleep"}],"say":"Night, Jason sleeping at the bed 401,-1037 with the group in reach. Call me at 6.","reasoning":"The enderman has drifted nearby; try sleep once more beside the bed w
+- 09:32 act: {"actions":[],"reasoning":"Sleep refused again because the enderman is 2 blocks away. Wait for it to move off instead of retrying at once."}
+- 09:34 act: {"actions":[{"do":"sleep"}],"reasoning":"Enderman still 1.9 blocks away. Try sleep once more; if refused, keep waiting."}
+- 09:38 act: {"actions":[{"do":"eat"}],"say":"Dawn. Jason is awake at the bed 402,-1037, with the group in reach. The enderman is gone. Eating now; the cow walk waits for Billy's call.","reasoning":"Dawn, enderman
+- 09:47 act: {"actions":[],"say":"Jason here at the bed 402,-1037. I'll go with Billy's call, not before. When Billy says go, the group walks together in sight. Trini eats first.","reasoning":"Beverly asked me to 
+- 09:54 act: {"say":"Jason here, hunger 17, fine for now. Billy, once everyone is in sight, call the walk and I'll go with you."}
+- 10:06 act: {"say":"Jason going with Billy's cow walk now, staying in sight of the group. Lowest eats first.","intent":{"goal":"follow_billy_to_cows","program":"follow","arguments":{"target":"ag_billy_01"},"wake_
+- 10:08 act: {"actions":[{"do":"eat"}],"say":"Jason here, in sight of the group at the bed row. Still waiting for Billy's call to walk to the cows."}
+- 10:08 act: {"actions":[],"say":"Jason coming with Billy's cow walk, staying in sight of the group.","intent":{"goal":"follow_billy_cow_walk","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["di
+- 10:09 act: {"actions":[],"say":"Billy, I lost sight of you. I am holding at the bed row with the group until I can see you again. Waiting, not walking alone."}
+- 10:13 act: {"actions":[],"say":"Billy, I see you now and I'm holding here with the group. Call the walk when everyone is in your sight, and I'll go with you."}
