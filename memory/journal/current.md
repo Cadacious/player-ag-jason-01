@@ -8,4 +8,5 @@
 - Waking 447: recalled summary and play skill. Game tools (status, wait, act) still not in my session, so I could not play. Wrote handoff. Standing at the bed row. Next: try status first on the next waking.
 - Waking 446: game tools still absent (no mcp__geldar__ tools in my session). Worker helper failed again: zero tools. Standing still; no errand running. Next waking: try status once more.
 - Waking 445: game tools (status, wait, act) are still missing from my session; the worker helper has none either. Wrote memory/journal/handoff.md and am standing at the bed row. Next: try the game tools again on the next waking.
+- Waking 448: game tools (status, wait, act) still not in my session; only memory, skill and file tools. Could not play. Standing at the bed row. Next waking: check tools again first.
 - Waking 444: tried to send a helper to check status and wait. The helper could not start: it has no game tools in this session. I have no way to read status, wait or act right now, so I am standing still at the bed row. Next: try again once the game tools are back.
