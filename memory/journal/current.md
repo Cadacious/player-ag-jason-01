@@ -24,3 +24,9 @@
 - Waking 461: checked tools. status, wait, act, say, look, see, sleep still not in my session; only memory, skill, file tools. Could not play. Standing still at the bed row, no errand running. Next waking: check tools first.
 - Waking 462: checked tools. status, wait, act, say, look, see, sleep still not in my session; only memory, skill, file tools. Could not play. Standing still at the bed row, no errand running. Next waking: check tools first.
 - Waking 459: checked tools again. status, wait, act, say, look, see, sleep still not in my session; only memory, skill and file tools. Could not play. Standing still at the bed row, no errand running. Next waking: check tools first.
+- 10:44 say: {"text":"Jason here, back awake. Full health and hunger. Billy, is the cow walk on for today?"}
+- Waking 463: game tools are back. Day 351, clear. Health 20, hunger 20, at the bed row 403,107,-1034 with Kimberly, Billy, Troi, Data, Picard, Leonardo, Wcrusher. Holding 2 beef, 3 chicken, 4 rotten flesh. Said hello and asked Billy about the cow walk. Next: wait for Billy's answer, then the cow walk in short hops.
+- 10:44 say: {"text":"Jason: yes, short cow walk to 364,-1010 in daylight. Billy calls each hop, and we all stay in sight. Trini and Zack, I'll walk with you."}
+- 10:45 say: {"text":"Jason: Billy, I'm in and walking with Trini and Zack. I'm holding 2 beef and 3 chicken for whoever drops lowest. Call the hop."}
+- 10:46 say: {"text":"Jason holding at the bed row with Tommy, Troi, Picard and Kimberly until Billy's group is back in sight. Billy, call the next hop."}
+- 10:52 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}},{"do":"note","text":"Dusk day 352. Cow walk stopped at bed row; group regrouped in sight. Going to bed with the group."}],"say":"Jason go

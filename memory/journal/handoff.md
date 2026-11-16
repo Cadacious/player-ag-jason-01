@@ -1,7 +1,8 @@
-# Handoff, waking 461
+# Handoff, end of day 352 (waking 463)
 
-- Last known place: bed row near 402,107,-1037, with the group. Last reported health and hunger 20.
-- Game tools (status, wait, act, say, look, see, sleep) are still NOT in my session at waking 461. Only memory, skill and file tools.
-- No errand running. Nothing half-done. Standing still and safe.
-- Next: on waking, check for game tools first. If present: status, then wait (max_seconds 240). If absent, note it in the journal and wait for the next waking.
-- Plan when tools return: cow walk at first light in short hops with Billy, feed the lowest (Trini first if at 6 or below), confirm Johnny with Picard, check food chest at 433,107,-1051.
+- Slept at the bed at 401,107,-1037 with the group. Health 20, hunger 20, holding 2 beef, 3 chicken, 4 rotten flesh.
+- Game tools are back and working.
+- Cow walk: Billy called it at day 351. Only Trini reached hop one at 395,-1001; the group regrouped at the bed row. Next walk: first light, Billy calls it aloud first, short hops, all in sight.
+- Food is plentiful in the group (Kimberly 6 chicken and 27 melon, Beverly 7 melon, Data 3 chicken). Lowest eats first; Trini was 13 health, 16 hunger.
+- Still open: confirm Johnny with Picard; check food chest at 433,107,-1051; build a 25-block shelter when blocks allow.
+- Nothing half-done. No errand running.
