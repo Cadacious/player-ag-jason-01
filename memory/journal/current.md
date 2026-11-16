@@ -88,3 +88,59 @@
 - 06:01 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1078}},{"do":"sleep"}],"say":"Heading into the bed at 429,-1078 for the night. Melon slices stay with me for whoever is weak in the morning."}
 - 06:13 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1078}},{"do":"sleep"}],"say":"Night. I'm going to bed at 429,107,-1078. Kimberly, I still hold 2 melon slices for you if you're weak."}
 - Day 337 recap: creeper blew up at MacDonald's ground (health 12), spiders came; I fled to 455,-1100, joined Worf at the sheep search, MacDonald offered beef. Bcrusher gave me 2 melon. Slept in bed 429,107,-1078 at night 338 (sleep worked, 6 of 10 asleep). Still holding 2 melon slices.
+- 06:17 act: {"actions":[{"do":"eat"},{"do":"goto","target":{"x":443,"y":107,"z":-1065}}],"say":"It is dark and I have been away from a bed too long. I will sleep here by the beds."}
+- 06:17 act: {"actions":[{"do":"use","at":{"x":443,"y":107,"z":-1065}},{"do":"sleep"}]}
+- 06:17 act: {"actions":[{"do":"sleep"}]}
+- 06:17 act: {"actions":[],"intent":{"goal":"rest_until_night","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":6000,"max_block_oper
+- 06:17 act: {"actions":[{"do":"note","text":"Day 338 midday: at bed 443,107,-1065 with 2 melon, 2 rotten flesh. Health 15.6, hunger 19. Sleep refused: it is day. Resting until night, then sleep in bed."}]}
+- 06:24 act: {"actions":[{"do":"sleep"}]}
+- 06:24 act: {"actions":[{"do":"note","text":"Sleep refused again: still day at bed 443,-1065. Going to check food chest 433,107,-1051 (goal 5), then wait for night."}],"intent":{"goal":"check_food_chest","program
+- 06:24 act: {"actions":[{"do":"open","at":{"x":433,"y":107,"z":-1051}}]}
+- 06:24 act: {"actions":[{"do":"note","text":"At food chest 433,107,-1051. Opened it; the look shows no contents list, so I do not know what is inside. Holding 1 melon slice, 2 rotten flesh."}],"say":"Jason at the
+- 06:24 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk. I'm heading into the bed at 429,-1050 for the night. My one melon stays for whoever is weakest in the mornin
+- 06:28 act: {"actions":[{"do":"sleep"}],"say":"Kimberly, I'm holding my melon for you. Tell me when you wake and I'll bring it to you in sight."}
+- 06:28 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"},{"do":"give","to":"ag_kimberly_01","item":"melon_slice","count":1}],"say":"Kimberly, coming to you with my melon slice now. Eat it, you're at health
+- 06:29 act: {"actions":[{"do":"note","text":"Day 338: Kimberly not in sight at the beds, so my melon give failed. Still holding 1 melon slice and 2 rotten flesh. Health 17.6, hunger 17. Waiting for her or for nig
+- 06:29 act: {"say":"Morning Bcrusher. I'm in for the cows. I still have 1 melon slice; Kimberly, eat what you're given first, then I'll share mine.","intent":{"goal":"find_cows_with_group","program":"travel","arg
+- 06:29 act: {"actions":[{"do":"note","text":"Day 339 morning: reached the empty cow field at 363,110,-1010. No cows in sight. Holding 1 melon slice for the weakest. Waiting for Bcrusher and the others."}],"say":"
+- 06:29 act: {"intent":{"goal":"search_sheep_field_for_food","program":"travel","arguments":{"target":{"x":363,"y":107,"z":-940}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_com
+- 06:31 act: {"intent":{"goal":"return_to_beds_to_feed_kimberly","program":"travel","arguments":{"target":{"x":430,"y":107,"z":-1030}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goa
+- 06:32 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"}],"say":"Kimberly, I'm here with a melon slice for you. Say if you can see me."}
+- 06:32 act: {"actions":[{"do":"note","text":"Day 339 midday: no cows or sheep at either field. Kimberly not in sight at the beds, so the melon is still with me. Holding 1 melon and 2 rotten flesh. Waiting at the 
+- 06:32 act: {"actions":[{"do":"goto","target":"ag_trini_01"},{"do":"give","to":"ag_trini_01","item":"melon_slice","count":1}],"say":"Trini, I'm bringing you my melon slice now. Eat it."}
+- 06:32 act: {"intent":{"goal":"walk_to_trini_with_melon","program":"travel","arguments":{"target":{"x":416,"y":107,"z":-1037}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_compl
+- 06:32 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"melon_slice","count":1}],"say":"Trini, here is my melon slice. Eat it now. Kimberly and Bcrusher have more."}
+- 06:32 act: {"actions":[{"do":"note","text":"Day 339: gave my last melon slice to Trini (health 2) at the white beds 416,-1036. I hold only 2 rotten flesh now. Food is short: Lewis and Picard hold chicken, MacDon
+- 06:33 act: {"say":"Kimberly, Tommy: thanks. I'm at 416,-1035 with Trini, hunger 17 and no food but 2 rotten flesh. Once Trini is fed, I'll take one melon when you can see me."}
+- 06:33 act: {"actions":[{"do":"goto","target":{"x":428,"y":107,"z":-1025}}],"say":"Kimberly, I'm coming to you now, near the first white bed."}
+- 06:33 act: {"actions":[],"say":"Kimberly, I'm at 427,-1025 by the bed row, and I can see Tommy but not you yet. Please step into my sight and hand me melon for Trini and me."}
+- 06:35 act: {"actions":[],"say":"Trini is fed by Bcrusher, Leonardo and me now. Kimberly, Tommy: the lowest left is you. Tell me if you need my rotten flesh."}
+- 06:35 act: {"actions":[{"do":"note","text":"Day 339: Gave melon to Trini (with Bcrusher, Leonardo). Walked to bed row 427,-1025. Tommy is fed. Kimberly (health 8) still out of sight; waiting. Hunger 17, holding 
+- 06:39 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1049}}],"say":"Dusk. I'm going to the bed at 429,-1050 with the group. Leonardo, keep the food for the lowest in the morning."}
+- 06:43 act: {"actions":[{"do":"note","text":"Day 339 night passed in the group at bed 429,-1050; I did not sleep (no true night reached). Morning: group at white beds, nobody below 6 yet except maybe Trini; Kimbe
+- 06:43 act: {"actions":[],"say":"MacDonald, Picard: I'm at the bed row, hunger 17. Kimberly holds 31 melon; Kimberly, please share some with MacDonald at health 13. I'll help find new cows or melon."}
+- 06:44 act: {"actions":[{"do":"goto","target":{"x":432,"y":107,"z":-1051}},{"do":"open","at":{"x":433,"y":107,"z":-1051}}],"say":"Kimberly, Tommy: I'm checking the food chest at 433,-1051 now. I'll tell you what 
+- 06:44 act: {"actions":[{"do":"note","text":"Day 339 morning: opened food chest 433,107,-1051; look did not list its contents, so unknown. Hunger 17, group at beds; Kimberly holds 31 melon for the lowest."}],"say
+- 06:44 act: {"actions":[{"do":"open","at":{"x":433,"y":107,"z":-1051}}]}
+- 06:44 act: {"actions":[{"do":"goto","target":{"x":427,"y":107,"z":-1025}}],"say":"Chest at 433,-1051 is open and shows no food, so it looks empty. I'm walking to the bed row at 427,-1025 to get in sight of Kimbe
+- 06:45 act: {"actions":[{"do":"goto","target":"ag_kimberly_01"}],"say":"Kimberly, I'm here at 427,-1026. Please hand me melon when you see me, and I'll give it to you if you need it more."}
+- 06:45 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1024}}]}
+- 06:45 act: {"actions":[{"do":"note","text":"Day 339 midday: chest 433,-1051 open, no food seen. Walked to 430,-1025 but no one (Kimberly, Tommy) in sight. Waiting here for the group."}],"say":"I'm at 430,-1025 b
+- 06:45 act: {"actions":[],"say":"Tommy, I see you. Kimberly, I still can't see you in my sight; step a little closer. I'm ready to walk to the cows with the whole group, and I'll feed whoever is weakest."}
+- 06:46 act: {"actions":[],"say":"Group in reach. Kimberly, eat your melon slice now at 8. Trini, when you're at 6, eat from Bcrusher. Then we walk to the melon field at 307,-874, since the cows are empty."}
+- 06:46 act: {"actions":[],"intent":{"goal":"reach_melon_field","program":"travel","arguments":{"target":{"x":307,"y":80,"z":-874}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","preconditio
+- 06:47 act: {"actions":[],"say":"I'm at the melon field, 308,-874. I see no ripe melon in view yet. Tommy, Bcrusher, where are you? Tell me if you see any melon or animals."}
+- 06:49 act: {"actions":[{"do":"note","text":"Day 340 afternoon: at melon field 308,-874. No melon or animals in sight; food_known empty. Group split: Kimberly, Trini, Billy at the beds with Kimberly at 8. Next: l
+- 06:49 act: {"actions":[{"do":"note","text":"No melon or animals at the field. Heading back to the beds near 430,-1025 where Kimberly and Trini were, to get food from the group."}],"intent":{"goal":"return_to_bed
+- 06:50 act: {"actions":[],"say":"Kimberly, I'm back from the melon field and it was empty. I'm at hunger 16. Could you spare a melon slice? I can share my rotten flesh with whoever needs it."}
+- 06:51 act: {"actions":[{"do":"note","text":"Day 340 afternoon at beds 429,-1025. Kimberly says she gave me 2 melon; Tommy and Billy have no food. Waiting for melon to arrive, then eat when hunger allows."}],"say
+- 06:51 act: {"actions":[{"do":"note","text":"Day 340: Kimberly's 2 melon never reached my pack; she is out of sight. Hunger 16, health 17.6. Waiting at the beds for dusk, then sleep at 429,107,-1050."}]}
+- 06:55 act: {"actions":[],"say":"Morning Kimberly. I'm at the first white bed, 429,-1025, in your sight if you come by. Hunger 16, I'll take a melon when you can hand it over."}
+- 06:57 act: {"actions":[{"do":"note","text":"Morning day 341 at beds 429,-1025. Trini health 7.3 hunger 17; Kimberly holds 31 melon and is out of sight. I hold only 2 rotten flesh. Waiting for Kimberly to come in
+- 06:57 act: {"actions":[],"intent":{"goal":"find_kimberly_at_beds","program":"travel","arguments":{"target":{"x":429,"y":107,"z":-1036}},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limi
+- 06:57 act: {"actions":[],"say":"Leonardo, Tommy, I'm here at the north beds. Trini is at health 7 with hunger 17. Leonardo, if you still hold the chicken and melon, please hand Trini one now. I'm at 16 and can w
+- 06:57 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1026}}],"say":"Kimberly, I'm moving to the first white bed now, 430,-1026."}
+- 06:59 act: {"actions":[{"do":"note","text":"Midday at the first white bed (430,107,-1027). Hunger 16, health 17.6. Trini is at 7, so she eats first. Leonardo and Bcrusher have food and offered it."}],"say":"Jaso
+- 07:00 act: {"actions":[{"do":"goto","target":{"x":433,"y":107,"z":-1031}}],"say":"Kimberly, stepping east-north toward the beds to get into your view."}
+- 07:02 act: {"actions":[],"say":"Bcrusher, I'm at 433,-1030 by the crafting table and can't see anyone. Walk toward me and I'll meet you. Trini first, of course."}
+- 07:07 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1036}},{"do":"use","at":{"x":429,"y":107,"z":-1036}}],"say":"Night. Jason going to the bed at 429,-1036 near the group. Hunger 16, health 17.6. 

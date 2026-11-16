@@ -1,7 +1,7 @@
-Handoff, dusk of day 337
+Handoff, night of day 340
 
-- Health 14.6, hunger 17. Holding 2 melon slices for Kimberly or Chapman if weak.
-- Bcrusher gave me 2 melon. Worf and Data went east on the sheep search; Bcrusher and Clark went to bed.
-- Next: sleep in bed 429,107,-1078 at full night, if no enderman is near. Otherwise retry.
-- Day 337 events still to journal: creeper at MacDonald's ground 480,-1137, spiders, joining Worf, MacDonald's offer.
-- After waking: check food chest 433,107,-1051. Build a shelter when convenient. Find a new food source, since the cow field 364,-1010 is empty.
+- Health 17.6, hunger 16. Holding 2 rotten flesh, 3 arrows, bone, wooden sword.
+- Standing at 430,107,-1036 beside the bed at 429,107,-1036, with Tommy and Leonardo in reach. Not enclosed.
+- No melon has reached me yet. Kimberly, Bcrusher and Leonardo each promised food but none came into sight.
+- Trini is at health 7, hunger 17, asleep in the bed at 415,-1037 with Kimberly, Billy and Bcrusher near. She eats first at 6.
+- Next after waking: ask Kimberly or Bcrusher for melon once in sight; Trini first. Then find a food source (cow and sheep fields were empty). Confirm Johnny with Picard.
