@@ -2,8 +2,8 @@
 
 1. Get Worf out of the gravel pit, safely. Only dig a stone cell he names exactly and two people see in good light.
 2. Stay in sight of the group; never go to the pit alone.
-3. Keep Trini and Kimberly fed; eat chicken when my own hunger drops.
-4. Join Billy's cow walk when he calls it.
+3. Join Billy's cow walk at first light when he calls four in sight (I was counted this morning).
+4. Keep Trini and Kimberly fed; eat chicken when my own hunger drops.
 5. Check the food chest at 433,107,-1051.
 6. Confirm Johnny is safe with Picard.
 
