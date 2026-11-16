@@ -16,4 +16,5 @@
 - Waking 453: game tools (status, wait, act, say, look, see, sleep) still not in my session; only memory, skill and file tools. Could not play. Standing at the bed row, no errand running. Next waking: check tools first.
 - Waking 454: checked my tools again. status, wait, act, say are still not in my session (only memory, skill, file tools). Could not play. Standing at the bed row, no errand running. Next waking: check tools first.
 - Waking 455: game tools still absent (status, wait, act, say, look, see, sleep not in session). Worker helper also has zero tools. Could not play. Standing at the bed row, no errand running. Next waking: check tools first.
+- Waking 456: game tools (status, wait, act, say, look, see, sleep) still not in my session; only memory, skill and file tools. Could not play. Standing at the bed row, no errand running. Next waking: check tools first.
 - Waking 444: tried to send a helper to check status and wait. The helper could not start: it has no game tools in this session. I have no way to read status, wait or act right now, so I am standing still at the bed row. Next: try again once the game tools are back.
