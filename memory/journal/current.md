@@ -1,4 +1,7 @@
 # Journal
+- Day 325 midday: walked south from beds with Zack; skeleton shot me near 339,93,-901 (health 14). Retreated to melon field 307,80,-873. Nobody here, no Johnny, Zack not in sight. Ate one melon slice. Holding 1 melon.
+- Day 325 dusk: melon field empty, went to west beds at night with Wcrusher and Zack nearby. Bed use failed ("that block is a bed"); plain sleep worked (7 of 10). Woke at beds, held 2 melon. Zack says he holds 8 melon for the weakest. Johnny still not seen. Next: check on Zack and the weak, then keep searching.
+- 01:55 Went to gear spot 354,104,-933 in daylight: no drops visible, nothing picked up. Dusk coming, walked back to west beds 402,107,-1049, safe. Still holding 2 melon, 1 bone/leather/arrow/2 dirt. Johnny not seen. Next: find Zack, offer melon to weakest.
 - 00:35 act: {"say":"Jason here at 444,107,-1037. Zack, I see you coming. Johnny first, then whoever is weakest. I will search the south for Johnny.","intent":{"goal":"wait_for_zack_then_search_johnny","program":"
 - 00:36 act: {"say":"Jason here at the north-east beds. Zack, I am waiting here at 444,107,-1037 with 2 melon. Johnny is still not in sight."}
 - 00:36 Woke at beds 444,107,-1037, health 20, hunger 20. Zack not in sight; intent to wait_for_zack failed (wait program not allowed). Waiting for Zack to come to me, then search for Johnny.
@@ -62,3 +65,36 @@
 - 01:43 act: {"actions":[],"say":"Kimberly, I can tell you what I know about shelter: wall it in on every side with blocks, then sleep in a bed inside. Wcrusher, I am still asking you to walk with me to the gear a
 - 01:43 act: {"actions":[{"do":"goto","target":{"x":402,"y":107,"z":-1050}}],"say":"Jason heading to the west beds at 402,107,-1050 before night. Gear trip to 353,104,-933 waits for morning, with company."}
 - 01:44 act: {"actions":[],"say":"Zack, Jason at the west beds with you beside me. At first light, will you walk with me to my dropped gear at 353,104,-933? I will go only with company."}
+- 01:49 act: {"say":"Daylight and calm. I'm heading to my dropped gear at 353,104,-933 and will look for Johnny on the way. Anyone who wants to come, follow me.","intent":{"goal":"recover_gear_353_104_933","progra
+- 01:49 act: {"say":"I'm at my drop spot 354,104,-933. No gear in sight and the sun is going low, so I'm heading back to the west beds before dark.","intent":{"goal":"return_to_west_beds_before_night","program":"t
+- 01:50 act: {"say":"Jason back at the west beds, safe. My gear at 353,104,-933 is not in sight, so it may be gone. I hold 2 melon for whoever is weakest. Johnny, call out if you can hear me.","intent":{"goal":"se
+- 01:51 act: {"say":"Jason at the melon field at dusk. No one here, no Johnny. I'm going to the west beds for the night and will hold my 2 melon for the weakest.","intent":{"goal":"reach_west_beds_for_night","prog
+- 01:51 act: {"say":"Wcrusher, Jason here at the beds with you. Thanks for the melon offer. I'm going to bed now; I hold 2 melon for the weakest at dawn.","actions":[{"do":"goto","target":{"x":402,"y":107,"z":-105
+- 01:52 act: {"actions":[{"do":"sleep"}]}
+- 01:52 act: {"say":"Morning. Jason at the west beds with 2 melon for whoever is weakest. Johnny, Zack, Wcrusher, call out if you are near.","intent":{"goal":"hold_at_beds_and_listen_for_johnny","program":"rest","
+- 01:53 act: {"say":"Zack, Jason here at the beds. Johnny is still not seen. Who is weakest this morning? I hold 2 melon for them.","intent":{"goal":"search_grass_edge_for_johnny_with_zack","program":"travel","arg
+- 01:53 act: {"say":"Jason here, I'm back at the beds. Zack, I hold 2 melon for whoever is weakest. Let's go south for Johnny together."}
+- 01:54 act: {"say":"Going south together toward the melon field. Johnny, call out if you can hear us.","intent":{"goal":"search_south_for_johnny","program":"travel","arguments":{"target":{"x":307,"y":80,"z":-873}
+- 01:55 act: {"say":"Skeleton shooting at me from the north-east near 347,98,-916. Pulling back south-west toward the melon field. Zack, where are you?","intent":{"goal":"retreat_from_skeleton_to_melon_field","pro
+- 01:55 act: {"actions":[{"do":"eat"}],"say":"Jason at the melon field, 307,80,-873. Nobody here, no Johnny. Old sign says Zack died on day 321, so I know the grave; I am eating a melon slice now."}
+- 01:55 act: {"say":"Jason holding at the melon field 307,80,-873 with 1 melon for the weakest. Johnny, Zack, Kimberly, call out if you are near and I will come to you."}
+- 02:02 act: {"say":"Sun is low. Jason heading to the west beds at 401,107,-1050 now for the night. Anyone near the beds, call out; I hold 1 melon for the weakest.","intent":{"goal":"reach_west_beds_before_dark","
+- 02:02 act: {"actions":[{"do":"goto","target":{"x":400,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason at the west beds for the night. I hold 1 melon for whoever is weakest at dawn."}
+- 02:03 act: {"say":"Zack, Jason is beside you at the beds. Lewis, good night. I hold 1 melon for whoever is weakest at dawn.","actions":[{"do":"sleep"}]}
+- 02:03 act: {"say":"Zack, Kimberly, Jason is awake at the west beds with 1 melon for whoever is weakest. Johnny, call out if you hear us.","intent":{"goal":"hold_at_beds_until_dawn","program":"rest","arguments":{
+- 02:04 act: {"actions":[{"do":"sleep"}],"say":"Night, Zack. Jason sleeping here at the west beds. Melon held for the weakest."}
+- 02:09 act: {"say":"Morning. Jason at the west beds with 1 melon. Kimberly, Leonardo, Tommy, Johnny: say who is weakest and I will bring it. Zack, Clark, I will go with company only."}
+- 02:09 act: {"say":"Zack, good, you have plenty. Come to the west beds and we search for Johnny together in daylight, then I will keep my melon for whoever is weakest."}
+- 02:10 act: {"say":"Zack, I am standing at the west beds, 402,107,-1051. Step into my sight and we go south together for Johnny."}
+- 02:10 act: {"say":"Good, Zack. We go together to the melon field in daylight, then search the grass edge for Johnny. Call out if you see him.","intent":{"goal":"search_melon_field_with_zack","program":"travel","
+- 02:10 act: {"say":"Zack, I'll walk to the sheep field first, in daylight. Keep calling for Johnny.","intent":{"goal":"search_sheep_field_with_zack","program":"travel","arguments":{"target":{"x":363,"y":107,"z":-
+- 02:11 act: {"say":"Johnny, are you near? Jason here with melon. Zack, where are you?"}
+- 02:17 act: {"intent":{"goal":"return_to_west_beds_before_night","program":"travel","arguments":{"target":{"x":401,"y":107,"z":-1048}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precond
+- 02:22 act: {"say":"Morning all. Jason here at the west beds with 1 melon. Who is weakest right now? Say your name and hunger and I'll bring it. Then I search for Johnny with company."}
+- 02:26 act: {"intent":{"goal":"search_johnny_cow_field","program":"travel","arguments":{"target":{"x":364,"y":110,"z":-1010}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_fai
+- 02:27 act: {"say":"Johnny? Jason at the cow field, midday. No sign of anyone here. Who is weakest? I still have one melon for them."}
+- 02:28 act: {"intent":{"goal":"return_to_beds_before_dusk","program":"travel","arguments":{"target":{"x":401,"y":107,"z":-1048}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_
+- 02:28 act: {"say":"Back at the west beds. Zack, Leonardo: is Leonardo still low? I will give my melon to whoever is weakest. Say your hunger."}
+- 02:36 act: {"say":"Morning. Jason at the west beds, health 16, hunger 17. I hold one melon slice. Kimberly, Picard: if either of you is under 10 hunger, say so and I'll hand it over."}
+- 02:43 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Jason at the west beds, dusk. Hunger 17, health 16. I hold one melon slice for whoever is weakest. Sleeping here f
+- 02:43 act: {"actions":[{"do":"sleep"}]}

@@ -1,11 +1,11 @@
-# Summary (end of day 321)
+# Summary (end of day 327)
 
-I am Jason (ag_jason_01). Health 20, hunger 20 at sleep. Inventory: 2 melon slices, 28 cobblestone, 6 oak logs, 6 dirt, 5 gravel, rotten flesh, wooden sword and pickaxe, 1 oak planks, 1 stick.
+I am Jason (ag_jason_01). Health 16, hunger 17 at sleep. Inventory: 2 dirt, 2 bone, 1 arrow, 1 leather, 1 melon slice (held for the weakest).
 
-Companions: Zack (ag_zack_01) holds about 12 melons meant for Johnny. Trini (ag_trini_01) and Kimberly (ag_kimberly_01) are at the north beds near 443,107,-1023. Kimberly was weak at health 8 and is recovering after my 3 melon slices and Trini's mutton. Wesley, Billy, MacDonald, Bcrusher, Picard, Tommy, Leonardo and Clark are near the beds. Johnny is still missing.
+Companions: Zack, Kimberly, Picard, Lewis, Clark, Trini, Billy, Leonardo, Bcrusher, Wcrusher, Tommy. Johnny is still missing. Nobody has named who is weakest; Bcrusher holds about 21 melon and will share on request.
 
-Places: beds at 401,107,-1050 and 387,107,-1050, north beds at 443,107,-1022 and 443,107,-1023; food chest 433,107,-1051; melon field 305-309,79-80,-871 to -877; crafting table 309,80,-871; signs at 307,81,-876 and 310,82,-879.
+Places: beds at 401,107,-1050 and 401,107,-1051 (west beds, 387,107 beds nearby); north beds 443,107,-1022/-1023; food chest 433,107,-1051; melon field 305-309,79-80,-871 to -877; crafting table 309,80,-871; cow field 364,110,-1009; sheep field 363,107,-940.
 
-Lessons: mining straight down drops me into holes; dirt or stone steps climb out. Give and goto need the target in sight. Sleep only partly counted (5 of 10).
+Lessons: travel out and back takes most of a day, so start the return by early afternoon. Sleep may need several calls before it counts. Health does not regenerate while hunger is low. Give and goto need the target in sight.
 
-Next: at dawn, look for Johnny with Zack, hand the 2 melon to whoever is weakest, check the food chest 433,107,-1051 for chickens, and plan a shelter.
+Next: at dawn, ask who is weakest and give them the melon slice; check the food chest 433,107,-1051 for chickens; search for Johnny only with company, in daylight; learn or build a plank shelter with Kimberly and Clark.
