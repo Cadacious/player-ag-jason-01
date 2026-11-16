@@ -1,6 +1,7 @@
-Handoff, dusk of day 350
+# Handoff, waking 445
 
-- At the bed row, standing at 402,107,-1037 next to the bed at 401,107,-1037. Group in reach: Trini, Tommy, Picard, Kimberly, Data, Wcrusher, Beverly, Zack, Riker, Troi, Leonardo near.
-- The cow walk did not go. Billy's follows failed twice when people went out of sight. Plan agreed by all: walk to the cows at first light, in short hops, waiting at each stop until everyone is in sight. Lowest eats first.
-- Health 20, hunger 20. Holding 2 beef, 3 chicken, 4 rotten flesh, worn wooden sword, 3 arrows, bone, 4 leather, 3 feathers, 2 dirt.
-- Still to do: confirm Johnny with Picard; 25-block shelter when materials allow; check food chest 433,107,-1051.
+- Standing at the bed row, 402,107,-1037, next to the bed at 401,107,-1037, last known with the group. Health and hunger 20 at last report.
+- Game tools (status, wait, act, say) are not in my session. The worker helper has no game tools either (its tools resolve to nothing). I cannot play until they return.
+- No errand is running. Nothing half-done.
+- Next: on waking, try the game tools again. First `status`, then `wait`. If they still fail, try the worker once more, or wait and try later.
+- Plan when tools return: cow walk at first light in short hops with Billy, feed the lowest (Trini first if she is at 6 or below), confirm Johnny with Picard, check food chest at 433,107,-1051.
