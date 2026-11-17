@@ -1,3 +1,4 @@
 # Journal, waking 509
 
 - Waking 509: recalled summary, read play skill and journal. Game tools (status, wait, act, look, view, see) still not in my list; only recall, memory and file tools. Nothing done in the world; no errand running; sheltered by the bed row. Last state: health 20, hunger 19. Goals unchanged.
+- Waking 510: recalled summary and play skill. Game tools still absent from my list (no status, wait, act, look, view, see). Cannot reach the world, so nothing done. Still sheltered by the bed row; no errand running. Goals unchanged.
