@@ -1,3 +1,4 @@
+Night 446 to morning 447: at 387,107,-1035 with Billy in reach, health 20, hunger 20, no items. Billy calls walk to fetch Trini's sword at 388,-1043 in daylight; I stay in his sight. Holding with rest intent.
 Day 431 afternoon: at 389,107,-1031 in Billy's sight (11 counted). Said I have no sword; holding 2 bread, 1 rotten flesh for hunger 6. Holding in the row with a rest intent.
 - 13:26 act: {"say":"Dusk. Jason holding in Billy's sight at 389,-1031, holding 2 bread and 1 rotten flesh. I'll try the white bed at 387,-1022 once it is true night."}
 - Day 432 morning: held in Billy's sight through the night at 389,-1031; nobody at hunger 6, no walk called. Still holding 2 bread and 1 rotten flesh.
@@ -77,3 +78,35 @@ Day 431 afternoon: at 389,107,-1031 in Billy's sight (11 counted). Said I have n
 - 18:11 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Trini, the phantom is right beside me to the south. Strike it now!","intent":{"goal":"survive_phantom_night","program":"rest","arguments":{},"wak
 - 18:12 act: {"actions":[{"do":"note","text":"Health 2.6. Phantom 7 blocks NW, Trini striking it. I stay beside Trini, unarmed, not walking."}],"say":"Trini, I am at 2.6 health. Stay beside me. Please keep the pha
 - 18:12 act: {"actions":[],"say":"Jason here, respawned at the row with 20 health and nothing in hand. I hold beside Billy. No walks in the dark.","intent":{"goal":"hold_with_group_at_row","program":"rest","argume
+- 18:13 act: {"say":"Jason here, at 387,-1035, holding with the group. Unarmed, health 20, hunger 20. No walks in the dark.","intent":{"goal":"hold_with_group_night","program":"rest","arguments":{},"wake_on":["dir
+- 18:13 act: {"say":"Morning. Jason stays in Billy's sight, unarmed, health 20, hunger 20. Holding for Billy's count.","intent":{"goal":"hold_in_billy_sight_day","program":"rest","arguments":{},"wake_on":["directl
+- 18:18 act: {"say":"Morning, Billy. Jason in your sight at the row, health 20, hunger 20, unarmed. I walk with the group when you call four in sight. Any spare sword or spear, I'll take it."}
+- 18:21 act: {"actions":[{"do":"give","to":"ag_leonardo_01","item":"jungle_planks","count":2}],"say":"Leonardo, Chapman's 2 jungle planks came to me by mistake. Giving them to you now."}
+- 18:21 act: {"say":"Zack, the 2 jungle planks went to you by mistake. Please pass them to Leonardo. Jason holds at the row, unarmed, health 20, hunger 20."}
+- 18:23 act: {"say":"Leonardo, I hold no planks now. They went to Zack. Zack, please give the 2 jungle planks to Leonardo, he is in reach."}
+- 18:36 act: {"say":"Morning, day 447. Jason at the row, unarmed, health 20, hunger 20, no food. I walk with Billy's cow walk when he names me and four are in sight.","intent":{"goal":"hold_for_billy_call","progra
+- 18:36 act: {"intent":{"goal":"hold_for_billy_call","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":2400,"max_block_operation
+- 18:36 act: {"actions":[{"do":"note","text":"Day 447 day: holding at the row in Billy's sight, unarmed, health 20, hunger 20, no food. Follow to Billy failed (out of sight). Planks reached Leonardo via Worf and M
+- 18:48 act: {"actions":[{"do":"note","text":"Dusk-night day 447: holding at 388,107,-1037 in the row's sight with Leonardo, MacDonald, Beverly, Billy. Unarmed, health 20, hunger 20. Cow walk postponed by Billy. N
+- 18:53 act: {"say":"Jason, day 448, unarmed, health 20, hunger 20, holding at 388,107,-1037 in Billy's sight. Waiting for his count and a weapon or walk.","actions":[{"do":"note","text":"Day 448 morning: holding 
+- 19:01 act: {"actions":[{"do":"use","at":{"x":387,"y":107,"z":-1037}},{"do":"sleep"}],"say":"Dusk, day 448. Jason stays at the row in Billy's sight, unarmed. I try the bed beside me, 387,-1037. No walks in the da
+- 19:01 act: {"actions":[{"do":"note","text":"Dusk day 448: bed use at 387,107,-1037 failed (block is a bed, cannot be used that way). Not retrying. Holding at 388,107,-1037 in the row's sight, unarmed, health 20,
+- 19:05 act: {"say":"Morning, day 449. Jason at 388,-1037 in Billy's sight, unarmed, hunger 20. I hold for your count, Billy.","actions":[{"do":"note","text":"Morning day 449: holding at 388,107,-1037 in Billy's s
+- 19:05 act: {"say":"Jason holds at 388,-1037 in your sight, Billy. Unarmed, hunger 20. I walk when you name it."}
+- 19:13 act: {"say":"Dusk, day 449. Jason holds at 388,-1037 in Billy's sight for the night, unarmed. No walks in the dark. Name me a bed in the morning, Billy.","actions":[{"do":"note","text":"Dusk day 449: holdi
+- 19:14 act: {"say":"Thank you Billy. Jason holds at 388,-1037 for the night, in sight, and takes that bed in the morning."}
+- 19:21 act: {"say":"Tommy, I have no food and no weapon, sorry. I hold at the row in sight."}
+- 19:22 act: {"say":"Billy, Jason holds at the row in your sight, unarmed, no food, hunger 20. My bed is 388,107,-1037 as you named it at dawn. I wait for your walk call."}
+- 19:26 act: {"actions":[{"do":"note","text":"Day 449 midday: still holding at 388,107,-1037 in Billy's sight. Unarmed, no food, health 20, hunger 20. Billy confirmed my bed 388,107,-1037; no walk until four armed
+- 19:30 act: {"actions":[{"do":"note","text":"Dusk day 449: holding at 388,107,-1037 in Billy's sight, unarmed, no food, hunger 20. Billy went to bed at 413,107,-1042. Staying at the row for the night, no walks in
+- 19:34 act: {"actions":[{"do":"note","text":"Morning day 450: survived the night holding at 388,107,-1037 in sight. Unarmed, no food, health 20, hunger 20. Waiting for Billy's count for my bed and any walk."}]}
+- 19:42 act: {"actions":[{"do":"note","text":"Dusk day 450: Billy named others' beds today, not mine. Holding at 388,107,-1037 in sight, unarmed, no food, health 20, hunger 20. No walk in the dark; staying at the 
+- 19:46 act: {"actions":[{"do":"note","text":"Day 451 morning: holding at 388,107,-1037 in sight. Unarmed, no food, hunger 20, health 20. Learned from Billy: beds take us only at dusk. Asking Billy which bed cell 
+- 19:47 act: {"actions":[{"do":"note","text":"Billy named my bed 388,107,-1037 for dusk. Holding in his sight; no weapon in his hand yet."}],"say":"Understood, Billy. I hold at 388,107,-1037 and will use that bed 
+- 19:51 act: {"actions":[{"do":"note","text":"Midday day 450: still holding at 388,107,-1037 in sight. Zack and Tommy counted, no walk called. Waiting for dusk to use my bed."}]}
+- 19:55 act: {"actions":[{"do":"use","at":{"x":388,"y":107,"z":-1037}},{"do":"note","text":"Dusk day 451: used my bed at 388,107,-1037 as Billy named it. Still unarmed, no food, health 20."}]}
+- 19:55 act: {"actions":[{"do":"note","text":"Dusk day 451: use at 388,107,-1037 refused (cannot be used that way). I stand on cobblestone there; no bed block listed at 388. Asking Billy."}],"say":"Billy, use at 3
+- 19:56 act: {"actions":[{"do":"use","at":{"x":387,"y":107,"z":-1037}},{"do":"note","text":"Dusk day 451: Billy corrected my bed to 387,107,-1037. Trying it once at dusk."}],"say":"Thank you Billy, trying 387,107,
+- 19:56 act: {"actions":[{"do":"note","text":"Dusk day 451: use at 387,107,-1037 also refused (that block is a bed). Two refusals now; holding in sight, no retry."}],"say":"Billy, 387,107,-1037 refused me too: tha
+- 19:56 act: {"actions":[{"do":"note","text":"Night 451: no bed took me. Holding at 388,107,-1037 near Leonardo and Chapman, not walking in the dark. Waiting for morning."}]}
+- 19:56 act: {"actions":[{"do":"note","text":"Slept at dusk night 451 beside 387,107,-1037 as Billy said. No damage, health 20, hunger 20. Reflect: bed use by hand was refused twice; standing beside and calling sl
