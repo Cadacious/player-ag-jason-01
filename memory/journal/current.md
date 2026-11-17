@@ -7,3 +7,4 @@
 - 02:48 act: {"say":"Jason counted at first light, in Billy's sight at 433,107,-1030. Health 20, hunger 19. Ready for the walk."}
 - 02:58 act: {"actions":[{"do":"goto","target":{"x":443,"y":107,"z":-1034}}],"say":"Jason here, at Billy's bed row, holding for the cow walk. Health 20, hunger 19. Ready when you call it."}
 - 02:58 act: {"actions":[{"do":"goto","target":{"x":443,"y":107,"z":-1049}}],"say":"Dusk, so no cow walk today. Going to the bed row to sleep in the group's sight."}
+- 02:59 act: {"say":"Jason here, by the bed row with Billy's group. Holding still until Billy calls the cow walk.","intent":{"goal":"hold_at_bed_row","program":"rest","arguments":{},"wake_on":["directly_addressed"
