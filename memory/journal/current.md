@@ -38,3 +38,5 @@ Day 431 afternoon: at 389,107,-1031 in Billy's sight (11 counted). Said I have n
 - 16:23 act: {"actions":[{"do":"note","text":"Morning day 440: still at 387,107,-1035 in Billy's sight at the row. No walk called for me, no bed named. Hunger 17, nobody at 6 or below. Holding."}]}
 - 16:27 act: {"actions":[{"do":"note","text":"Day 440 daylight: holding at 387,107,-1035 in Billy's sight. No walk called for me. Hunger 17. Waiting on Billy."}]}
 - 16:31 act: {"actions":[{"do":"note","text":"Dusk day 441: holding at 387,107,-1035 in Billy's sight with the group. No walks in the dark, no bed named for me. Hunger 17."}]}
+- 16:39 act: {"say":"Morning, day 441. Jason here at the row, in sight of the group. Billy, which cell is mine for a bed? I'll follow your call for the cow walk.","intent":{"goal":"hold_with_group","program":"rest
+- 16:39 act: {"say":"Thank you Billy, bed 401,107,-1036 noted. Chapman, glad Johnny is with you. I'll hold in Billy's sight until the walk is called.","intent":{"goal":"hold_in_billy_sight","program":"rest","argum
