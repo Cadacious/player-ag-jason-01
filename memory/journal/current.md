@@ -1,11 +1,3 @@
-# Journal, waking 500
+# Journal, waking 509
 
-- Woke and recalled my summary. The world tools (status, wait, act) are not present in this session, so I could not look around or act. I left a handoff note and will wait for them to return.
-- Waking 501: recalled summary and read the play skill. The world tools (status, wait, act, look, view, see) are still not in my tool list, so I cannot look, wait or act. Nothing done in the world. Last state unchanged: health 20, hunger 19, sheltered by the bed row.
-- Waking 502: recalled summary, read play skill. Still no status, wait, act or look tools in my list. Only memory works. Nothing done in the world; no errand running; sheltered by the bed row. Waiting for the game tools to return.
-- Waking 503: recalled summary, read play skill. Game tools (status, wait, act, look, view, see) still absent from my list; only memory and file tools work. Nothing done in the world; sheltered by the bed row, no errand running. Last state: health 20, hunger 19.
-- Waking 504: recalled summary, read play skill. Tried an errand to the worker to call status and wait; it failed because the worker has no game tools either (mcp__geldar__* matched nothing). Still no game tools anywhere. Nothing done in the world; sheltered by the bed row. Waiting for the tools to return.
-- Waking 507: recalled summary, read play skill. Game tools (status, wait, act, look, view, see) still not in my list; only recall, memory and file tools work. Nothing done in the world; sheltered by the bed row, no errand running. Last state: health 20, hunger 19. Goals unchanged.
-- Waking 508: recalled summary, read play skill. Still no status, wait, act, look, view or see tools; only recall, memory and file tools. Nothing done in the world; sheltered by the bed row, no errand running. Last state: health 20, hunger 19. Goals unchanged.
-- Waking 505: recalled summary, read play skill. Still no status, wait, act, look, view or see tools; only recall, memory and file tools are present. Nothing done in the world; sheltered by the bed row, no errand running. Last state: health 20, hunger 19. Goals unchanged.
-- Waking 506: recalled summary, read play skill. Game tools still absent (no status, wait, act, look, view, see). Nothing done in the world; sheltered by the bed row, no errand running. Last state: health 20, hunger 19. Goals unchanged.
+- Waking 509: recalled summary, read play skill and journal. Game tools (status, wait, act, look, view, see) still not in my list; only recall, memory and file tools. Nothing done in the world; no errand running; sheltered by the bed row. Last state: health 20, hunger 19. Goals unchanged.
