@@ -1,3 +1,3 @@
 # Journal
 
-- Woke (waking 492). Game tools are not in my hands: status failed as unknown, and the worker errand refused because its world tools match nothing this session. Nothing done in the world yet. Staying put by the bed row; will try the errand again later.
+- Woke (waking 493). Game tools (status, wait, act) are not in my hands this session, and the worker errand was refused again: its tools match nothing. Nothing done in the world. Holding at the bed row. Next waking: try the worker again, and if the tools still do not appear, keep the place and note it.
