@@ -126,3 +126,17 @@
 - 11:34 act: {"actions":[{"do":"note","text":"Day 426 morning, at 388,-1022 holding bread. Billy's count is about ten in sight. Nobody yet at hunger 6; Trini is at 17 with one rotten flesh. Holding still in sight.
 - 11:42 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1022}},{"do":"note","text":"Day 426 dusk. Going to the 387,-1022 bed for the night in Billy's group's sight. Still holding 2 bread and 1 rotten 
 - 11:42 act: {"actions":[{"do":"sleep"}]}
+- 11:43 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1034}}],"say":"Morning. Jason heading to the 387 row to stand with Billy's group for the count. Holding 2 bread and 1 rotten flesh for anyone at
+- 11:43 act: {"actions":[{"do":"note","text":"Day 426 morning at 388,-1034 with Zack, Worf, Trini in reach. Hunger 17, health 16.6. Holding 2 bread and 1 rotten flesh for anyone at 6. Billy not in sight yet."}],"s
+- 11:44 act: {"actions":[],"say":"Counted, Billy. Jason in your sight, holding 2 bread and 1 rotten flesh. I will give to whoever reaches 6 first."}
+- 11:52 act: {"actions":[{"do":"note","text":"Day 427 morning, at 388,-1034 with Billy's group in reach. Hunger 17, health 16.6. Holding 2 bread and 1 rotten flesh for anyone at 6. Waiting on Billy's call."}]}
+- 11:56 act: {"say":"Jason here at the 387 row, holding 2 bread and 1 rotten flesh for anyone at hunger 6. Billy, I am in your sight.","actions":[{"do":"note","text":"Day 427 morning, at 388,107,-1034 with Billy's
+- 12:01 act: {"actions":[{"do":"note","text":"Day 427 midday at 388,-1034, Billy's count in reach (Kimberly, Leonardo, Data, Worf, Trini, Zack). Hunger 17, nobody at 6. Still holding 2 bread and 1 rotten flesh."}]
+- 12:05 act: {"actions":[{"do":"note","text":"Day 427 midday: Billy counted Worf, Zack, Lewis, Picard, Kimberly, Leonardo; Troi and Data in reach. Still hunger 17 for me; nobody at 6. Holding 2 bread, 1 rotten fle
+- 12:09 act: {"say":"Night, day 427. Jason going to the bed at 387,-1037 beside Zack, in Billy's group's sight. Holding 2 bread and 1 rotten flesh for hunger 6.","actions":[{"do":"goto","target":{"x":387,"y":107,"
+- 12:09 act: {"actions":[{"do":"sleep"}]}
+- 12:09 act: {"say":"Jason morning, at 386,-1043 on gravel, health 16.6, hunger 17, holding 2 bread and 1 rotten flesh. My sleep failed at night, so I am walking back to the 387 row to stand in Billy's sight.","ac
+- 12:10 act: {"actions":[{"do":"note","text":"Day 427 morning: back at 388,107,-1034, in sight of Worf, Data, Trini, Lewis, Bcrusher and Picard. Hunger 17, holding 2 bread and 1 rotten flesh for anyone at hunger 6
+- 12:13 act: {"actions":[{"do":"note","text":"Day 428 morning: counted in Billy's group at the 387 row, twelve in sight, all at hunger 17. Holding 2 bread and 1 rotten flesh for anyone at hunger 6 or below."}],"sa
+- 12:21 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1023}},{"do":"sleep"}],"say":"Dusk. Jason walking to the bed at 387,-1023 in Billy's sight to sleep. Holding 2 bread, 1 rotten flesh for anyone 
+- 12:21 act: {"actions":[{"do":"note","text":"Night 428: slept in bed at 387,-1022 in Billy's sight (3 of 10 asleep). Hunger 17, holding 2 bread, 1 rotten flesh. Handoff written."}]}
