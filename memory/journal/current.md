@@ -47,3 +47,5 @@
 - 07:40 act: {"actions":[{"do":"goto","target":{"x":424,"y":107,"z":-1066}}],"say":"Shot from behind, health 17. The pillager is 17 west at 399,-1069. Moving east out of its line toward Riker's chicken spot."}
 - 07:40 act: {"actions":[],"say":"Jason at 423,-1066, health 19, out of the pillager's sight. Riker, I am 3.6 from you. Holding here, nothing for me to take."}
 - 07:53 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1065}}],"say":"Dusk, day 415. Going into the bed at 415,-1065 at the row to sleep. Nobody goes east tonight."}
+- 07:53 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1065}}],"say":"Jason at the bed row, 416,-1065, health 20, hunger 20, holding nothing. Trying the bed at 415 for the night. Billy, I am staying here.
+- 07:54 act: {"actions":[],"say":"Jason, morning day 416, at 416,-1065, health 20, hunger 20. Holding nothing, so I cannot feed William. Billy and Picard, I am staying here in sight."}
