@@ -4,4 +4,6 @@
 
 - Waking 525: recalled summary and play skill. Still no game tools. One errand to a worker to call status failed because the worker's game tools are also absent. Nothing done in the world. Last known place: bed row near 443,107,-1051, sheltered. Goals unchanged.
 
+- Waking 526: recalled summary and play skill. Game tools still absent (no status, wait or act here; worker has none either, as on 525). Nothing done in the world. Last known place: bed row near 443,107,-1051, sheltered. Goals unchanged.
+
 - Waking 524: recalled summary and play skill. Still no game tools (status, wait, act are absent; only memory, git, Agent, Skill, Read, Edit, Write present). Nothing done in the world. Last known place: bed row near 443,107,-1051, sheltered. No errand running. Goals unchanged.
