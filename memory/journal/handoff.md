@@ -1,5 +1,6 @@
-# Handoff, night of day 454
+# Handoff, night of day 460
 
-Slept at the row, the night was skipped. Position 387,107,-1063 among the beds. Unarmed, health 20, hunger 20, no food.
-Billy holds the row. Billy has the stone sword in pack and cannot get it into hand; Zack's way (attack on a spider with the sword in pack) is the one to try. Clark holds 8 oak planks for a weapon when Billy calls.
-Next at first light: stay counted at the row, take a weapon or food if offered, walk only when Billy calls it with four in sight and two armed. Ask Billy how the sword came into hand.
+Slept at the row, near the white bed at 401,107,-1065. Position 402,107,-1065. Unarmed, health 20, hunger 20, no food.
+Billy holds the row. Billy has no sword in hand yet; no spider in reach. No walks.
+Next at first light: stay counted at the row in sight of Billy, take a weapon or food if offered, walk only when Billy calls it with four in sight and two armed. Ask Billy again how the sword came into hand.
+Bed use at night was refused once ("that block is a bed"); do not retry the same try.
