@@ -104,3 +104,25 @@
 - 10:38 act: {"actions":[],"say":"Laforge, I am the hungriest: health 4.6, hunger 17, holding only one rotten flesh. Please give me one bread, thank you."}
 - 10:38 act: {"actions":[{"do":"eat"}],"say":"Thank you, Laforge. I am eating the bread now."}
 - 10:39 act: {"actions":[],"say":"Thank you, Laforge. I ate the bread, and I am holding the rotten flesh until I am hungrier."}
+- 10:48 act: {"actions":[{"do":"use","at":{"x":401,"y":107,"z":-1064}},{"do":"sleep"}],"say":"Jason here, at the 401 beds, holding rotten flesh, health 16. I'm trying to sleep in the white bed."}
+- 10:48 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1065}},{"do":"use","at":{"x":401,"y":107,"z":-1065}},{"do":"sleep"}]}
+- 10:48 act: {"actions":[{"do":"sleep"}]}
+- 10:52 act: {"actions":[{"do":"goto","target":{"x":402,"y":107,"z":-1034}}],"say":"Jason awake, day 424, holding one rotten flesh, health 16. Walking to Billy's group at 402,-1034. Billy, I'm counted when I am in
+- 10:52 act: {"actions":[],"say":"Jason counted at 402,-1033 with Billy, Zack, Trini and Kimberly in sight. Holding 1 rotten flesh for whoever is at hunger 6 or below. Waiting on Billy's call."}
+- 10:57 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"bread","count":1}],"say":"Laforge sent me two bread by mistake. I'm passing one to Trini now. I keep one for whoever is at hunger 6 next."}
+- 10:57 act: {"actions":[{"do":"goto","target":{"x":402,"y":107,"z":-1034}}],"say":"Trini, the give failed because you were not in my sight. I'm back at the row with one bread, holding for hunger 6."}
+- 10:57 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"bread","count":1}],"say":"Trini, one bread from Laforge's pair, handed over now."}
+- 11:02 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1037}},{"do":"sleep"}],"say":"Jason at dusk, day 424, trying the bed at 401,-1037 beside the group, in Billy's sight. Holding 2 bread for hunger
+- 11:02 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1022}},{"do":"sleep"}]}
+- 11:07 act: {"actions":[{"do":"goto","target":{"x":402,"y":107,"z":-1033}}],"say":"Jason heading back to the row at 402,-1033 to stay in Billy's sight. I hold 2 bread for whoever reaches hunger 6.","intent":{"goa
+- 11:07 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"bread","count":1}],"say":"Trini, one bread for you. Holding one more and the rotten flesh for anyone at hunger 6."}
+- 11:11 act: {"actions":[{"do":"goto","target":{"x":390,"y":107,"z":-1033}}],"say":"Jason walking to Billy at 390,-1033 in daylight to stand in his sight. Holding 2 bread and 1 rotten flesh for hunger 6."}
+- 11:11 act: {"actions":[],"say":"Jason in reach at 389,-1033 with Billy, Clark, Tommy, Zack, Leonardo, Trini. Holding 2 bread and 1 rotten flesh. I will give to whoever reaches hunger 6 first. Billy, I hold for y
+- 11:13 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason going to the bed at 387,-1036 with Billy's group in sight. Holding 2 bread and 1 rotten flesh for hunger 6. 
+- 11:17 act: {"actions":[],"say":"Jason awake at 388,-1023, morning of day 425. Holding 2 bread and 1 rotten flesh for anyone at hunger 6. Billy, I hold for your call."}
+- 11:29 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1022}},{"do":"sleep"}],"say":"Jason going to the bed at 387,-1022 for the night, in the group's sight. Holding 2 bread and 1 rotten flesh for hu
+- 11:30 act: {"actions":[{"do":"note","text":"Day 425 morning at 388,107,-1022 beside the 387 bed row. Sleep failed: it is not night. Hunger 17, health 16.6. Holding 2 bread and 1 rotten flesh for hunger 6 callers
+- 11:30 act: {"actions":[],"say":"Jason holding at the 387 row in sight of the group. Waiting for Billy's count. Bread ready for anyone at hunger 6."}
+- 11:34 act: {"actions":[{"do":"note","text":"Day 426 morning, at 388,-1022 holding bread. Billy's count is about ten in sight. Nobody yet at hunger 6; Trini is at 17 with one rotten flesh. Holding still in sight.
+- 11:42 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1022}},{"do":"note","text":"Day 426 dusk. Going to the 387,-1022 bed for the night in Billy's group's sight. Still holding 2 bread and 1 rotten 
+- 11:42 act: {"actions":[{"do":"sleep"}]}
