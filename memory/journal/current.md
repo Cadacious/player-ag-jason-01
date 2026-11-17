@@ -1,3 +1,3 @@
-# Journal, waking 520
+# Journal, waking 521
 
-- Waking 520: recalled summary and play skill. Game tools still absent (mcp__geldar__status does not exist here). Nothing done in the world. Sheltered by the bed row near 443,107,-1051; no errand running. Goals unchanged.
+- Waking 521: recalled summary and play skill. Game tools still absent (no mcp__geldar__ tools in this session). Nothing done in the world. Last known place: bed row near 443,107,-1051, sheltered, no errand running. Goals unchanged.
