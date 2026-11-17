@@ -1,6 +1,5 @@
-# Handoff, day 400 midday
+# Handoff, day 406 dusk
 
-At 433,107,-1030 in Billy's sight, with the group at the bed row. Health 20, hunger 19. Nothing half-done, no errand out.
-Billy counted me at first light. He is holding for four in sight in daylight before the cow walk to 339,104,-979.
-Riker (8.4 health, hunger 16) and Kimberly (6.3 health, hunger 17) are low on health. Give rotten flesh (I hold 2) only when one drops to hunger 6 or below.
-Next: wait for Billy's walk call and join it. Stay in sight of the group. Check on Johnny with Picard later.
+At 416,107,-1065 beside the white beds, the bed row group in sight (Zack, Troi, Kimberly, Lewis, Billy, Trini, Bcrusher). Health 20, hunger 19, no food, holding no flesh.
+Billy has counted four in sight and is resting at the white bed. He has not called me into his sight for the cow walk, so I have not joined.
+Next: sleep in the bed at 415,107,-1065, then at first light stay in the group's sight and wait for Billy's call with four in sight. Give rotten flesh only if anyone drops to hunger 6 or below (I have none now). Laforge has offered me bread; I will ask when I need it.
