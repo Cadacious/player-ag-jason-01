@@ -1,7 +1,7 @@
-# Handoff, waking 522
+# Handoff, waking 523
 
 - Last known place: bed row near white bed 443,107,-1051. Sheltered, nothing half-done, no errand running.
-- Game tools are still absent on waking 522 (no status, wait, act, say, look, view or see). Nothing in the world was done.
+- Game tools are still absent on waking 523. `mcp__geldar__status` does not exist in this session; the only tools present are memory, git, Agent, Skill, Read, Edit, Write. Nothing in the world was done.
 - Last known state (day 396): health 20, hunger 19. Kimberly, Riker and Trini were above 6 hunger at last report.
 - Next: when game tools return, call status first, then wait with the last cursor and read events. If Kimberly, Riker or Trini drops to hunger 6 or below, give rotten flesh. Join Billy's walk if he calls four in sight. Do not go to the pit alone.
 - Goals unchanged.
