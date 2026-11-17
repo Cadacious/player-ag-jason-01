@@ -140,3 +140,7 @@
 - 12:13 act: {"actions":[{"do":"note","text":"Day 428 morning: counted in Billy's group at the 387 row, twelve in sight, all at hunger 17. Holding 2 bread and 1 rotten flesh for anyone at hunger 6 or below."}],"sa
 - 12:21 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1023}},{"do":"sleep"}],"say":"Dusk. Jason walking to the bed at 387,-1023 in Billy's sight to sleep. Holding 2 bread, 1 rotten flesh for anyone 
 - 12:21 act: {"actions":[{"do":"note","text":"Night 428: slept in bed at 387,-1022 in Billy's sight (3 of 10 asleep). Hunger 17, holding 2 bread, 1 rotten flesh. Handoff written."}]}
+- 12:22 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1022}},{"do":"sleep"}],"say":"Night. Holding in Billy's row. Trini and Kimberly, I'm watching; I'll feed you at first light if you're low."}
+- 12:26 act: {"actions":[{"do":"goto","target":{"x":389,"y":107,"z":-1033}}],"say":"Jason at the 387 row, morning, holding 2 bread and 1 rotten flesh for anyone at hunger 6. Billy, I am in your sight, waiting for 
+- 12:34 act: {"actions":[{"do":"goto","target":{"x":387,"y":107,"z":-1023}},{"do":"sleep"}],"say":"Dusk. Jason going to the 387,-1023 bed in Billy's sight, holding 2 bread and 1 rotten flesh for anyone at hunger 6
+- 12:39 act: {"intent":{"goal":"join_billy_row","program":"travel","arguments":{"target":{"x":389,"y":107,"z":-1032}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"li
