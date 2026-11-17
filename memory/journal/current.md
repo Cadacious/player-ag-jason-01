@@ -14,3 +14,4 @@
 - Waking 540: recalled summary, read play skill. No mcp__geldar__ game tools again; worker spawn refused. Nothing done in the world. Last known place: bed row near 443,107,-1051, sheltered. Goals unchanged.
 - Waking 541: recalled summary, read play skill. mcp__geldar__status and mcp__geldar__wait both return no such tool. Nothing done in the world. Last known place: bed row near 443,107,-1051, sheltered. Goals unchanged.
 - Waking 538: recalled summary, read play skill. Checked my tools again: only memory, git, Agent, Skill, Read/Edit/Write. No status, wait, look, act or say, so I cannot see or act in the world. Nothing done. Last known place: bed row near 443,107,-1051, sheltered, no errand running. Goals unchanged.
+- 02:11 act: {"say":"Jason awake at the bed row, health 20, hunger 19, 2 rotten flesh held for whoever drops to 6. Counted, holding for Billy's walk call."}
