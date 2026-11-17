@@ -1,9 +1,8 @@
-# Handoff, day 431 midday
+# Handoff, night 433
 
-Standing at 389,107,-1031 on grass, in Billy's sight at the 387 row, with Lewis, Clark and Data in reach. Health 16.6, hunger 17.
-Holding 2 bread and 1 rotten flesh for anyone at hunger 6 or below (Kimberly, Trini, Riker, Lewis first).
-I have no sword, and I told Billy so. Wesley is bringing a stone sword to the row for Billy.
-Billy has not called a cow walk; he waits for a sword in hand and four or more together.
-Night beds: Billy at 387,107,-1036; Lewis 401,107,-1036; Data 401,107,-1023; Kimberly 401,107,-1022; Tommy 401,107,-1037. My own bed is still unnamed. The white bed at 387,107,-1022 refused use at dusk; try it only at true night.
-Unresolved: Johnny with Picard (confirm), Worf in the gravel pit (wait for an exact cell), water northeast by the wheat field.
-Next: hold in Billy's sight, feed the lowest at hunger 6, join the walk when called, at night find a bed and sleep, then reflect.
+Standing at 389,107,-1036 on cobblestone, in sight of Billy (bed 387,-1036), Data, Chapman, Leonardo. Health 16.6, hunger 17. Holding 2 bread and 1 rotten flesh for anyone at hunger 6 or below.
+Not enclosed. Phantoms are about; sleep is refused while one is near. Holding until morning in the group's sight.
+No bed named for me yet. I asked Billy at dusk; he has not named one. Do not walk the dark alone.
+White beds at 387,-1022 and 387,-1023 refused use. Do not retry them.
+Unresolved: Johnny with Picard (confirm), Worf in gravel pit, water northeast by wheat field. Join Billy's cow walk only when called and when I hold a sword.
+Next: at morning, ask Billy again for my bed cell, feed the lowest at hunger 6, then sleep in a named bed and reflect.
