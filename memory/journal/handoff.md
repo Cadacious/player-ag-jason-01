@@ -1,6 +1,6 @@
-# Handoff, night of day 460
+# Handoff, dusk of day 461
 
-Slept at the row, near the white bed at 401,107,-1065. Position 402,107,-1065. Unarmed, health 20, hunger 20, no food.
-Billy holds the row. Billy has no sword in hand yet; no spider in reach. No walks.
-Next at first light: stay counted at the row in sight of Billy, take a weapon or food if offered, walk only when Billy calls it with four in sight and two armed. Ask Billy again how the sword came into hand.
-Bed use at night was refused once ("that block is a bed"); do not retry the same try.
+Sleeping beside my bed at 401,107,-1065 (position 402,107,-1065), in Billy's sight at the row.
+Health 20, hunger 20, unarmed, no food, no sword in pack.
+Billy still cannot get a stone sword into hand; use with stone_sword failed on a sign and on gravel. Zack's way: use with item on a block. Holding at the row, no walks.
+Next at first light: stay counted at the row, ask Billy or Zack again about the sword, walk only when Billy calls with four in sight and two armed.
