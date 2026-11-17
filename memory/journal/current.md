@@ -49,3 +49,58 @@
 - 07:53 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1065}}],"say":"Dusk, day 415. Going into the bed at 415,-1065 at the row to sleep. Nobody goes east tonight."}
 - 07:53 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1065}}],"say":"Jason at the bed row, 416,-1065, health 20, hunger 20, holding nothing. Trying the bed at 415 for the night. Billy, I am staying here.
 - 07:54 act: {"actions":[],"say":"Jason, morning day 416, at 416,-1065, health 20, hunger 20. Holding nothing, so I cannot feed William. Billy and Picard, I am staying here in sight."}
+- 07:56 act: {"actions":[{"do":"goto","target":{"x":428,"y":107,"z":-1051}}],"say":"Jason here, morning. Coming to Billy at the bed row. Holding with the group, nobody goes east alone."}
+- 07:56 act: {"actions":[{"do":"note","text":"Day 415 morning: walked to the bed row at 427,-1051. No one in sight yet; Billy was at 430,-1051 at health 4.3. Holding here for the count."}],"say":"I am at the bed r
+- 08:00 act: {"actions":[{"do":"goto","target":{"x":418,"y":107,"z":-1047}}],"say":"Jason here, health 20, holding nothing. Kimberly, Billy and Picard: I am walking to the group at 418,-1047 to be counted. I have 
+- 08:00 act: {"actions":[],"say":"Billy, I am beside you at 417,-1047, in your reach. Jason, health 20, holding nothing. Kimberly, please bring Billy the rotten flesh now; I will stay here."}
+- 08:04 act: {"actions":[{"do":"note","text":"Day 415 midday: with Billy at the bed row 417,-1047, health 20, nothing held. Kimberly gave Billy 4 rotten flesh (for hunger 6). I hold still in the group's sight; pil
+- 08:08 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"use","at":{"x":415,"y":107,"z":-1051}}],"say":"Jason going to the bed at 415,-1051 for the night, holding nothing, health 20. Bill
+- 08:12 act: {"actions":[{"do":"goto","target":"Beverly"}],"say":"Jason here at the bed row, health 20, hunger 20, holding nothing. Going to stand with Beverly and wait for Billy's count."}
+- 08:13 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1036}}],"say":"Jason coming to Billy now, health 20, holding nothing."}
+- 08:13 act: {"actions":[],"say":"Jason here with Billy and Tommy, health 20, holding nothing. Four in sight, ready to go together when Billy calls."}
+- 08:15 act: {"actions":[],"say":"Confirmed, Billy. Jason stays with the four of us. Going to spawn together slowly, no one goes east."}
+- 08:17 act: {"actions":[],"say":"Jason here at 416,-1036, health 20, holding nothing. Holding with the group, Billy."}
+- 08:18 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1036}}],"say":"Good night, Billy. Jason going to the bed at 415,-1036 with the group."}
+- 08:47 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1036}}],"say":"Jason at the bed 415,-1036 for the night, in sight of Beverly and Tommy. Holding nothing, health 20."}
+- 08:47 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1037}}]}
+- 09:00 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1049}},{"do":"use","at":{"x":415,"y":107,"z":-1050}}],"say":"Jason at the row, night 418. Trying the free bed at 415,-1050. Staying in the group
+- 09:00 act: {"actions":[{"do":"goto","target":"billy"}],"say":"Bed 415,-1050 is taken too. Phantoms are up, so I am going to Billy and Kimberly by the sword."}
+- 09:00 act: {"actions":[],"say":"Billy is out of my sight, so I am holding here at 415,-1049 unarmed and will not walk alone. Call me if you want me at the sword."}
+- 09:03 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1038}}],"say":"Jason joining Billy's count at the row, 416,-1037, daylight."}
+- 09:03 act: {"actions":[],"say":"Jason at the row, 416,-1039, midday. I see no one in sight yet; holding here for Billy's group."}
+- 09:05 act: {"actions":[],"say":"Jason counted at the row, 416,-1039, in Billy's reach, holding nothing, health 20, hunger 20. Holding for Billy's call."}
+- 09:05 act: {"actions":[],"say":"Zack, I have found no water or sheep yet. Water is said to lie northeast by the wheat field, but I have not been there. I am holding with Billy's count."}
+- 09:10 act: {"actions":[],"say":"Sun is low. Jason still holding at 416,-1039 with Billy's group, and I will look for a free bed at the row when night comes."}
+- 09:25 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1041}},{"do":"use","at":{"x":413,"y":107,"z":-1041}}],"say":"Phantoms are on me at night, and I hold no sword. Trying the bed at 413,-1041."}
+- 09:25 act: {"actions":[{"do":"use","at":{"x":413,"y":107,"z":-1042}}]}
+- 09:25 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 09:25 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1063}},{"do":"use","at":{"x":415,"y":107,"z":-1064}}],"say":"Health falling from hits I cannot see. Going to the bed at 415,-1064."}
+- 09:26 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1039}}],"say":"Morning. Jason, health 13, hunger 17, holding nothing. Every bed I tried was taken. Where is the group?"}
+- 09:26 act: {"actions":[{"do":"goto","target":{"x":428,"y":107,"z":-1050}}],"say":"Health 5, hit by something I cannot see. Going to Wesley's group at 430,-1051 now."}
+- 09:26 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1051}},{"do":"use","at":{"x":430,"y":107,"z":-1051}}]}
+- 09:27 act: {"actions":[{"do":"goto","target":"ag_wcrusher_01"}],"say":"Wesley, I am at health 1, something keeps hitting me from nowhere. Please stay by me. Shelter me if you can."}
+- 09:27 act: {"actions":[],"say":"Wesley, I am in your reach at health 1.3, hunger 17, holding nothing. Could you give me the beef?"}
+- 09:27 act: {"actions":[],"say":"Wesley, the beef please, one piece. I am staying beside you. Billy's group is at the row, bed 415,-1037."}
+- 09:28 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1037}}],"say":"It is day. I am walking to the row, bed 416,-1037, to stay with Billy's group. Wesley, follow if you can."}
+- 09:31 act: {"actions":[],"say":"Thank you Wesley. I ate, hunger is 20 and health is rising. Keep the beef for whoever is lower."}
+- 09:39 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1036}},{"do":"use","at":{"x":415,"y":107,"z":-1036}}],"say":"Dusk. I am taking the bed at 415,-1036, next to Billy's group. Holding nothing, hea
+- 09:39 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1037}},{"do":"sleep"}]}
+- 09:39 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1041}},{"do":"use","at":{"x":413,"y":107,"z":-1041}},{"do":"sleep"}],"say":"Both beds at 415 are taken. I am trying the bed at 413,-1041 near th
+- 09:39 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1049}},{"do":"use","at":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 09:43 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1036}}],"say":"Morning. Jason at 415,-1049, health 4.6, hunger 17, holding nothing. Every bed was taken last night. Who has food to spare? Billy
+- 09:43 act: {"actions":[],"say":"Laforge, you said you would give bread to the hungriest at first light. I am Jason, hunger 17, health 4.6, at the row beside Billy. Please bring it here."}
+- 09:44 act: {"actions":[{"do":"eat"}],"say":"Thank you Kimberly. Eating the rotten flesh now, staying by Billy."}
+- 09:52 act: {"actions":[],"say":"Jason at the row, holding a rotten flesh, hunger 17. I will stay in Billy's reach tonight. If a bed frees up near Billy, tell me and I will take it."}
+- 09:56 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1064}}],"intent":{"goal":"reach_free_bed","program":"travel","arguments":{"target":{"x":415,"y":107,"z":-1064}},"wake_on":["directly_addressed",
+- 09:57 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1064}}]}
+- 09:57 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1065}}]}
+- 10:05 act: {"actions":[],"say":"Jason, dusk day 421, alone at 416,-1064 with the two beds here refusing me. Holding one rotten flesh, hunger 17. Billy, I will not walk alone. Call me to the 401 beds when I can s
+- 10:10 act: {"actions":[{"do":"goto","target":{"x":402,"y":107,"z":-1036}}],"say":"Jason going to the 401 beds to join Billy's group at first light. Holding one rotten flesh, hunger 17."}
+- 10:10 act: {"actions":[],"say":"Jason at the 401 beds with Billy, Worf, Trini, Beverly, Chapman, Tommy, Wesley, Zack in reach. Holding one rotten flesh, hunger 17, health 4.6. Billy, I will hold for your walk ca
+- 10:14 act: {"actions":[],"say":"Picard, thank you for standing with me. I am holding my rotten flesh until my hunger is 6 or below, then I will eat it."}
+- 10:18 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1063}},{"do":"use","at":{"x":401,"y":107,"z":-1064}}],"say":"Dusk. I am going to the bed at 401,-1064 with the group in sight, hunger 17."}
+- 10:18 act: {"actions":[{"do":"use","at":{"x":401,"y":107,"z":-1065}}]}
+- 10:22 act: {"actions":[],"say":"Morning, Picard. Hunger is still 17, so I hold the flesh. I will stay with the group and eat when it is 6."}
+- 10:38 act: {"actions":[],"say":"Laforge, I am the hungriest: health 4.6, hunger 17, holding only one rotten flesh. Please give me one bread, thank you."}
+- 10:38 act: {"actions":[{"do":"eat"}],"say":"Thank you, Laforge. I am eating the bread now."}
+- 10:39 act: {"actions":[],"say":"Thank you, Laforge. I ate the bread, and I am holding the rotten flesh until I am hungrier."}

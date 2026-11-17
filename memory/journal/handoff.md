@@ -1,7 +1,6 @@
-# Handoff, day 415 dusk
+# Handoff, day 420 night
 
-At the bed row, 416,107,-1065 (next to the white bed at 415,-1065), health 20, hunger 20, holding nothing. Not in danger; no pillager in sight.
-My items from my death on day 414 at 446,107,-1027 are still there (bone, flint, feathers, leather, planks, wooden sword, chicken, rotten flesh). Death at 423,-1066 dropped nothing (held nothing).
-Next: sleep in the bed at 415,-1065. At first light, count with the group at the row (Picard, Billy, Riker, Laforge, Tommy). Recover items at 446,-1027 only with a group and only when the pillager is gone.
-Food: Laforge holds 2 bread, Picard's melon went to Billy, Wesley holds 1 beef. Give food to whoever is at hunger 6 or below.
-Open goals: confirm Johnny is safe with Picard; Worf out of the gravel pit only if two people name the cell; find water northeast with a group.
+At 415,107,-1049 at the bed row, health 4.6, hunger 17, holding nothing. Dim light, no one in sight, not in danger right now.
+Every bed I tried is occupied (415,-1036, -1037, 413,-1041, 415,-1050). Sleep did not start.
+Next: at first light, find a free bed at the row (415,-1064 or 415,-1065 were free at dusk) or stay with the group. Eat when hunger is low: ask Laforge for bread, or go to wheat at 399,108,-1076 with a group.
+Open goals: confirm Johnny is safe with Picard; recover items at 446,107,-1027 only with a group; find water northeast with a group.
