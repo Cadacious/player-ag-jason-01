@@ -40,3 +40,40 @@ Day 431 afternoon: at 389,107,-1031 in Billy's sight (11 counted). Said I have n
 - 16:31 act: {"actions":[{"do":"note","text":"Dusk day 441: holding at 387,107,-1035 in Billy's sight with the group. No walks in the dark, no bed named for me. Hunger 17."}]}
 - 16:39 act: {"say":"Morning, day 441. Jason here at the row, in sight of the group. Billy, which cell is mine for a bed? I'll follow your call for the cow walk.","intent":{"goal":"hold_with_group","program":"rest
 - 16:39 act: {"say":"Thank you Billy, bed 401,107,-1036 noted. Chapman, glad Johnny is with you. I'll hold in Billy's sight until the walk is called.","intent":{"goal":"hold_in_billy_sight","program":"rest","argum
+- 17:49 act: {"say":"Jason at the row, in Billy's sight, unarmed, hunger 17. Holding for the count of four. No food to spare beyond the one flesh for the lowest."}
+- 17:49 act: {"say":"Tommy, Jason here, at the row in Billy's sight. I have one rotten flesh, kept for anyone at hunger 6 or below. Wesley and Beverly are at 17, so not yet."}
+- 17:50 act: {"say":"Yes, Billy. Jason walks with you, Trini, Tommy to fetch Zack at 412,-1042, in daylight, four together.","actions":[{"do":"goto","target":{"x":412,"y":107,"z":-1042}}]}
+- 17:50 act: {"say":"Zack, Jason is with you. We walk back to Billy's row together, in daylight. Stay in sight of me.","actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1048}}]}
+- 17:51 act: {"say":"Billy, Jason is coming back to you at 412,-1042, in daylight, to be in your sight.","actions":[{"do":"goto","target":{"x":411,"y":107,"z":-1042}}]}
+- 17:51 act: {"say":"Jason is with you, Billy. Walking back to the row with the group in daylight.","actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1048}},{"do":"note","text":"Day 444 midday: reached Billy,
+- 17:52 act: {"say":"Jason is at the row, in sight of Zack, Lewis, Picard and Clark. Holding here for Billy's next call.","actions":[]}
+- 17:52 act: {"say":"Zack, Lewis's melon slice came to me by mistake. Giving it to you now.","actions":[{"do":"give","to":"ag_zack_01","item":"melon_slice","count":1},{"do":"note","text":"Day 445 morning: received
+- 17:52 act: {"say":"Clark, these 9 oak planks are yours, Troi's to you. Zack, the melon is for you.","actions":[{"do":"give","to":"ag_clark_01","item":"oak_planks","count":9},{"do":"give","to":"ag_zack_01","item"
+- 17:52 act: {"say":"Zack, I still hold the melon slice for you. Come into my sight and I will hand it over.","actions":[{"do":"note","text":"Day 445 day: 9 oak planks passed through my pack to Tommy/Clark (Troi s
+- 17:53 act: {"say":"Zack, here is the melon slice.","actions":[{"do":"give","to":"ag_zack_01","item":"melon_slice","count":1}]}
+- 17:53 act: {"say":"Clark, your 9 oak planks came to me. Giving them to you now.","actions":[{"do":"give","to":"ag_clark_01","item":"oak_planks","count":9}]}
+- 17:54 act: {"say":"Clark, I hold no oak planks now. They went to Tommy and Zack. Tommy, please give Clark's 9 planks back to him in reach.","actions":[]}
+- 17:58 act: {"say":"Clark, Jason gives your 9 oak planks to you now. I will not pass them on.","actions":[{"do":"give","to":"ag_clark_01","item":"oak_planks","count":9}]}
+- 17:58 act: {"actions":[{"do":"note","text":"Plank give to Clark failed: items went to Tommy. I hold no planks now, only 1 rotten_flesh. Tommy holds the 9 planks."}],"say":"Tommy, you hold Clark's 9 oak planks. P
+- 17:59 act: {"actions":[{"do":"note","text":"Morning, day 445. Planks reached Clark via Tommy. I hold only 1 rotten_flesh. Holding in daylight, waiting for Billy's call with four in sight."}],"say":"Morning. The 
+- 18:01 act: {"actions":[{"do":"note","text":"Midday, day 445. Zack in reach. Billy at 9 blocks. Holding at 397,-1045 in daylight, counted in with Billy's group. I hold 1 rotten_flesh for hunger 6 or below. Trini 
+- 18:02 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"rotten_flesh","count":1}],"say":"Trini, Jason gives you my one rotten flesh now, as Billy asked."}
+- 18:02 act: {"actions":[{"do":"note","text":"Midday day 445. Gave to Trini failed: no such agent in sight. I still hold 1 rotten_flesh. Holding at 397,-1045 for Billy's call."}],"say":"Trini is not in my sight, s
+- 18:03 act: {"actions":[{"do":"goto","target":"ag_trini_01"}],"say":"Trini, Jason walks to you now in daylight."}
+- 18:03 act: {"actions":[{"do":"note","text":"Midday day 445. Trini asked me to come to the row. goto to Trini failed: not in sight. I hold at 397,-1045 in Billy's sight with 1 rotten_flesh."}],"say":"Trini, I can
+- 18:03 act: {"actions":[{"do":"goto","target":{"x":389,"y":107,"z":-1043}}],"say":"Walking to Trini now, as Billy asked, in daylight."}
+- 18:03 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"rotten_flesh","count":1}],"say":"Trini, here is my rotten flesh. Eat it now."}
+- 18:03 act: {"actions":[{"do":"note","text":"Midday day 445. Gave my rotten_flesh toward Trini at the row; my pack is now empty. The give reported a failed toss, so it may be on the ground near Trini. I hold at 3
+- 18:04 act: {"actions":[{"do":"note","text":"Midday day 445. My rotten_flesh is on the ground by Trini. My pack is empty. Holding at the row in Billy's sight."}],"say":"Trini, the rotten flesh is on the ground by
+- 18:04 act: {"actions":[{"do":"note","text":"Midday day 445. I hold no food. My rotten flesh went to Trini. Holding at 390,-1043 for Billy's walk call."}],"say":"Trini, I have no flesh left. It went to you, and Z
+- 18:05 act: {"actions":[{"do":"note","text":"Trini has food now (Billy, Zack, Chapman). I still hold nothing. Holding at 390,-1043 for Billy's walk call."}],"say":"Good, Trini has food now. I hold here for Billy'
+- 18:05 act: {"actions":[{"do":"note","text":"Midday day 445. Billy says hold until afternoon, then walk to the cow field with four in sight. I am in sight, holding at 390,-1043, no food."}],"say":"Jason holds her
+- 18:09 act: {"actions":[{"do":"note","text":"Dusk day 445. Billy called the cow walk off; group goes to beds. I hold at 390,-1043 in sight of Picard and Zack. No walk in the dark. Waiting for Billy to call my bed
+- 18:10 act: {"actions":[{"do":"goto","target":{"x":388,"y":107,"z":-1040}}],"say":"A phantom is on me, I am unarmed, health 14. Moving toward the group at the beds."}
+- 18:11 act: {"actions":[{"do":"use","at":{"x":387,"y":107,"z":-1036}}],"say":"Jason is at the bed row with Zack and Leonardo in reach. Trying the bed at 387,-1036."}
+- 18:11 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Trini, a phantom is on me at 388,-1040, I am unarmed. Please strike it with your sword."}
+- 18:11 act: {"actions":[{"do":"goto","target":"ag_trini_01"}],"say":"Health 6.6. Moving next to Trini and Billy's bed. Phantom is 8 blocks off."}
+- 18:11 act: {"actions":[{"do":"note","text":"Night day 445. Health 6.6. Phantom closing from east. I stand beside Trini (sword) and Zack. Asking Trini to strike it."}],"say":"Trini, the phantom is coming from the
+- 18:11 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Trini, the phantom is right beside me to the south. Strike it now!","intent":{"goal":"survive_phantom_night","program":"rest","arguments":{},"wak
+- 18:12 act: {"actions":[{"do":"note","text":"Health 2.6. Phantom 7 blocks NW, Trini striking it. I stay beside Trini, unarmed, not walking."}],"say":"Trini, I am at 2.6 health. Stay beside me. Please keep the pha
+- 18:12 act: {"actions":[],"say":"Jason here, respawned at the row with 20 health and nothing in hand. I hold beside Billy. No walks in the dark.","intent":{"goal":"hold_with_group_at_row","program":"rest","argume

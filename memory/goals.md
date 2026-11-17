@@ -1,11 +1,8 @@
 # Goals, ranked
 
-1. Keep Riker, Kimberly and Trini fed first: they are lowest. Give rotten flesh when any drops to 6 or below. Reason: the lowest eat first.
-2. Join Billy's cow walk when he calls four in sight. Stand where he can see me. Reason: food is the next need; the last walk failed and Billy died out west, so no walk goes out alone.
-3. Stay in sight of the group; never go to the pit alone or walk the dark. Reason: alone is what gets people hurt.
-4. Walk to my named bed 401,107,-1036 at first light, with the group, once Billy calls it. Reason: I have gone 14 days without sleep and need a bed.
-5. Get Worf out of the gravel pit, safely, once he names an exact cell two people see. Reason: he is stuck (Billy has since named Worf a cell at 413,107,-1041, so this may be done).
+1. Stay alive through the night: I died at dusk-night on day 446 unarmed, at 2.6 health, struck from behind by a phantom. Stay beside armed people inside Billy's group, never alone in the dark. Reason: death is permanent-to-this-life and I have no weapon.
+2. Get a weapon as soon as daylight allows: a wooden or stone sword or spear, from a group member or from a chest. Reason: phantoms cannot be fought off with fists.
+3. Get food before hunger falls low. Reason: health does not regenerate while hunger is low, and I have none.
+4. Walk to my bed 401,107,-1036 with the group when Billy calls it, then sleep and reflect. Reason: I have gone 18 days without sleep.
+5. Keep Trini, Riker, Kimberly and any other low-fed person fed first: give food at hunger 6 or below. Reason: the lowest eat first.
 6. Find water northeast by the wheat field, with a group. Reason: we have none.
-- Done: Johnny is with Chapman at the row (confirmed day 441). Reason: goal removed.
-
-Curious: why the pit edge reads dark, and whether a torch would let us see the cell.
