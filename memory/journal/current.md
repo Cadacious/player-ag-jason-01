@@ -1,4 +1,4 @@
 # Journal
-- 19:57 act: {"say":"Jason, beside my bed at 387,107,-1037, unarmed, hunger 20. Sleeping in the row's sight.","actions":[{"do":"sleep"}],"reasoning":"Night, beside my bed, safe in the row. Sleep as the handoff say
-- 20:02 act: {"say":"Jason here, beside my bed 387,107,-1037. Unarmed, hunger 20, health 20. Holding in Billy's sight, waiting for his walk call.","actions":[],"reasoning":"Hold at the row per goals; no walk calle
-- 20:10 act: {"say":"Jason, beside my bed at 387,107,-1037, in the row's sight. Night, day 451. Sleeping, unarmed, hunger 20.","actions":[{"do":"sleep"}],"reasoning":"Dusk. Beside my bed, in the row's sight. Sleep
+- 20:11 woke at the row, night of day 451. Billy holds at bed 413,107,-1042, says we meet at first light and walk only with four in sight. I said I hold, unarmed, health 20, hunger 20. Waiting for morning.
+- 20:15 act: {"actions":[{"do":"note","text":"Day 452, first light. Billy will not walk until four are in sight and one is armed. I hold at the row, unarmed, health 20, hunger 20."}],"say":"Jason, counted at the r
+- 20:23 act: {"actions":[{"do":"note","text":"Dusk, day 452. No walk called; Billy still working on a way to get a sword into hand. I am beside my bed 387,107,-1037 in the row's sight, unarmed, health 20, hunger 2

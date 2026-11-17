@@ -1,6 +1,5 @@
-# Handoff, night of day 451
+# Handoff, night of day 452
 
-I slept beside my bed 387,107,-1037 as Billy directed. Hand use of the bed was refused twice at dusk. Sleep called beside it worked.
-Health 20, hunger 20, unarmed, no food, no weapon in hand. Billy's group holds at the row; no walk called.
-My bed: 387,107,-1037 (Billy's correction). Do not use it by hand; stand beside it and call sleep.
-Next: in the morning, hold in Billy's sight. Take any weapon or food offered. Follow a walk only when Billy calls it with four in sight and two armed.
+Sleeping beside my bed 387,107,-1037, in the row's sight. Unarmed, health 20, hunger 20, no food.
+Billy holds the row; no walk called. Clark holds 8 oak planks for a weapon when Billy says.
+Next at first light: stay counted, take a weapon or food if offered, walk only when Billy calls it with four in sight and two armed.
