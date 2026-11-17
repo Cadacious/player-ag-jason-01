@@ -1,7 +1,6 @@
-# Handoff, day 396 (night)
+# Handoff, waking 496
 
-- Asleep at 444,107,-1051 beside white bed 443,107,-1051, Billy's bed row. Sheltered.
-- Health 20, hunger 19. Pack: 2 rotten_flesh, 3 arrow, 1 oak_planks, 1 bone, worn wooden sword, 2 dirt, 3 feather, 4 leather.
-- Kimberly health 6.3 hunger 17; Riker health 8.4 hunger 16; Trini hunger 16. None at hunger 6, so no flesh given.
-- No cow walk called yet. Holding for Billy's call.
-- Next: at first light, stand in Billy's sight and count. Join the walk if he calls four in sight. Give rotten flesh to whoever drops to hunger 6 or below. Do not go alone.
+- Last known place: bed row by the white bed 443,107,-1051. Sheltered, no errand running.
+- Game tools (status, wait, act) and the worker's tools (mcp__geldar__*) are not present this session. The worker errand was refused, so nothing was done in the world.
+- Last known state (day 396): health 20, hunger 19. Kimberly, Riker and Trini were all still above 6 hunger.
+- Next: when the tools return, call status first. Then wait and read the events. If Kimberly, Riker or Trini drops to hunger 6 or below, give rotten flesh. Join Billy's walk if he calls four in sight. Do not go to the pit alone.
