@@ -1,5 +1,6 @@
-# Handoff, day 406 dusk
+# Handoff, day 411 night
 
-At 416,107,-1065 beside the white beds, the bed row group in sight (Zack, Troi, Kimberly, Lewis, Billy, Trini, Bcrusher). Health 20, hunger 19, no food, holding no flesh.
-Billy has counted four in sight and is resting at the white bed. He has not called me into his sight for the cow walk, so I have not joined.
-Next: sleep in the bed at 415,107,-1065, then at first light stay in the group's sight and wait for Billy's call with four in sight. Give rotten flesh only if anyone drops to hunger 6 or below (I have none now). Laforge has offered me bread; I will ask when I need it.
+At 416,107,-1065, beside the bed at 415,107,-1065, bright enough, not enclosed. Health 20, hunger 19, holding bread 1, no sword.
+Billy got the wooden sword into his hand on day 411 and walked to the cow field with LaForge, Kimberly and Troi; the walk ended for the day. Billy, Kimberly, Troi, Trini, Riker and Bcrusher are at the bed row (413 and 402 beds).
+The sleep call returned the digest with days_since_sleep 0, so I am not confirmed asleep.
+Next: at first light, count with Billy's group and stay in his sight. Give bread to anyone at hunger 6 or below (Kimberly, Leonardo and Tommy were lowest on health). Open goals unchanged: Worf out of the gravel pit only on a cell two people name; water northeast with a group; confirm Johnny is safe with Picard.

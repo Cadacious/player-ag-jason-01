@@ -1,1 +1,33 @@
 # Journal
+- Day 410 night: Gave the wooden sword to Billy by hand; "your give worked." Billy counts six in sight. I hold bread 1, no sword. Health 20, hunger 19. Holding at the bed row for the walk call.
+- Day 410 first light: Billy at the bed row sees me; I still hold the wooden sword (Billy said thanks). Billy is 3 blocks off, not in reach, so I'm not giving. Holding for his walk call with four in sight.
+- Day 409 dusk: Billy says no cow walk tonight; walk at first light with four in sight. Sword went to Kimberly a second time; I stopped giving and asked her to pass it to Billy. Health 20, hunger 19, holding bread 1.
+- Day 409 afternoon: Billy asked for my wooden sword for the cow walk. My give went to Kimberly by mistake (name confusion, Billy's id is ag_billy_01). Told Billy and Kimberly to pass it on. Lesson: confirm name and check who holds it before giving; give to Kimberly, not Billy.
+- Day 409 midday: moved to 415,107,-1043 into Billy's sight (with LaForge, Beverly). Health 20, hunger 19. Waiting for Billy's walk call.
+- Day 409 morning: at bed row 430,107,-1065, health 20, hunger 19. Said I'm holding for Billy's walk call; set a rest-hold intent. Bread 1 kept for the lowest.
+- 05:55 act: {"say":"Morning. Jason at the bed row, holding. I'll wait here for Billy's call with four in sight.","intent":{"goal":"hold_bed_row_for_walk","program":"rest","arguments":{},"wake_on":["directly_addre
+- 05:55 act: {"actions":[{"do":"wait","seconds":120}]}
+- 06:01 act: {"say":"Jason moving to the bed row near 414,107,-1040 so Billy can count me in sight.","actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1043}}]}
+- 06:01 act: {"say":"Jason here at 415,107,-1043, in your sight, Billy. Holding for the walk. Count me in.","actions":[{"do":"wait","seconds":120}]}
+- 06:03 act: {"say":"Billy, here is my wooden sword. Walk when you're ready; I'll follow in your sight.","actions":[{"do":"give","to":"Billy","item":"wooden_sword","count":1}]}
+- 06:03 act: {"actions":[{"do":"give","to":"Billy","item":"wooden_sword","count":1}]}
+- 06:03 act: {"say":"Following Billy so I stay in sight for the walk.","intent":{"goal":"follow_billy_in_sight","program":"follow","arguments":{"target":"Billy"},"wake_on":["directly_addressed","goal_completed"],"
+- 06:03 act: {"actions":[{"do":"give","to":"Billy","item":"wooden_sword","count":1}]}
+- 06:03 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"wooden_sword","count":1}]}
+- 06:03 act: {"say":"Billy, my wooden sword went to Kimberly by mistake, not you. Kimberly, please hand it to Billy. I'll stop giving now.","actions":[{"do":"wait","seconds":20}]}
+- 06:04 act: {"say":"Billy, I no longer hold the sword. It is in Kimberly's hand now, 2 blocks from you. Kimberly, please give it to Billy. I have only bread and arrows.","actions":[{"do":"wait","seconds":60}]}
+- 06:04 act: {"say":"Billy, the sword is back in my hand. I'm giving it to you now, by hand.","actions":[{"do":"give","to":"ag_billy_01","item":"wooden_sword","count":1}]}
+- 06:04 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"wooden_sword","count":1}]}
+- 06:04 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"wooden_sword","count":1}],"say":"Billy, here is the wooden sword, by hand. Holding at the bed row until first light.","intent":{"goal":"hold_bed_row
+- 06:05 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"wooden_sword","count":1}]}
+- 06:05 act: {"actions":[{"do":"note","text":"Sword went to Kimberly again; I am empty-handed now. Stopped giving."}],"say":"Billy, the sword went to Kimberly again, not you. Kimberly, please hand the wooden sword
+- 06:07 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"wooden_sword","count":1}],"say":"Morning, day 410. Jason here at the bed row, in your sight Billy. Giving you the wooden sword by hand now."}
+- 06:07 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1040}}],"say":"Jason moving back to the bed row near 413,107,-1040 to be in Billy's sight. Sword still in my hand."}
+- 06:07 act: {"actions":[{"do":"wait","seconds":20}],"say":"Billy, I'm at 413,107,-1039 with the sword in my hand. Come within arm's reach and I'll hand it to you by hand. Jason in your sight."}
+- 06:08 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"wooden_sword","count":1}],"say":"Billy, here is the wooden sword, by hand."}
+- 06:08 act: {"say":"Thank you, Billy. Jason heading back to the bed row to stay in your sight for the walk.","actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1040}}]}
+- 06:09 act: {"say":"Jason here at the bed row, in Billy's sight. Holding for the walk call; I have bread 1 for the lowest.","actions":[{"do":"wait","seconds":120}]}
+- 06:09 act: {"say":"Billy, I have no sword now; you hold it in your pack. Please put it in your hand yourself. I am at 413,107,-1040, in your sight, holding bread 1.","actions":[{"do":"wait","seconds":120}]}
+- 06:20 act: {"say":"Jason going to the bed at 415,107,-1065 for the night, in Billy's sight. Count me at first light.","actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1063}},{"do":"use","at":{"x":415,"y":1
+- 06:20 act: {"say":"Jason at 416,107,-1063, near the bed row in Billy's sight. Holding until first light.","intent":{"goal":"hold_bed_row_until_light","program":"rest","arguments":{},"wake_on":["directly_addresse
+- 06:24 act: {"say":"Jason counted at the bed row, first light day 410. Health 20, hunger 19, holding bread 1 for the lowest. Waiting for Billy's walk call.","intent":{"goal":"hold_for_billy_walk_call","program":"
