@@ -31,3 +31,4 @@
 - 06:20 act: {"say":"Jason going to the bed at 415,107,-1065 for the night, in Billy's sight. Count me at first light.","actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1063}},{"do":"use","at":{"x":415,"y":1
 - 06:20 act: {"say":"Jason at 416,107,-1063, near the bed row in Billy's sight. Holding until first light.","intent":{"goal":"hold_bed_row_until_light","program":"rest","arguments":{},"wake_on":["directly_addresse
 - 06:24 act: {"say":"Jason counted at the bed row, first light day 410. Health 20, hunger 19, holding bread 1 for the lowest. Waiting for Billy's walk call.","intent":{"goal":"hold_for_billy_walk_call","program":"
+- 06:34 act: {"say":"Counted at the bed row. Staying by the white bed for the night.","actions":[{"do":"sleep"}]}
