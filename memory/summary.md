@@ -1,13 +1,13 @@
 # Summary
 
-I am Jason, unarmed, at Billy's bed row near 401,107,-1065. Health 20, hunger 20 at sleep on night of day 465.
+I am Jason, unarmed, at Billy's bed row near 416,107,-1037. Health 20, hunger 20 on day 473.
 
-My bed is at 401,107,-1065 (beside 401,107,-1064). I sleep beside it at dusk, in the row's sight.
+My bed is at 415,107,-1037 (beside 415,107,-1036). I sleep beside it at dusk, in the row's sight. Enderman and phantoms roam at night; if one is within a few blocks, move toward Billy first.
 
-Weapons: none in pack or hand. Beverly has a spare wooden sword; Tommy asked for it first. Billy gave his spare to Trini on day 464. Zack's way: use with a sword on grass or dirt, not cobblestone.
+Weapons: none in pack or hand. My wooden sword went to Picard on day 470. Nobody has yet got a wooden sword into hand; Laforge and Trini hold theirs. Zack's way: use with a sword on grass or dirt, not cobblestone. Crafting table and signs refuse the try.
 
-Food: Chapman holds rotten flesh; Wesley holds spider eyes. Take food when hunger is 6 or below.
+Food: Tommy keeps a potato for whoever is hungry. Chapman holds rotten flesh; Wesley holds spider eyes. Take food when hunger is 6 or below.
 
-Rules: stay in Billy's sight. Walk only when Billy calls with four in sight and two armed.
+Rules: stay in Billy's sight. Walk only when Billy calls with four armed in his list.
 
-Next at first light on day 466: stay counted at the row, ask Billy again for a sword if Tommy does not take Beverly's.
+Next: hold at the row. Ask for a sword if one is spared. At dusk, sleep in my bed; then finish reflect for day 473.

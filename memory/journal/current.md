@@ -47,3 +47,11 @@
 - 02:42 act: {"say":"Billy, Jason here at the row, unarmed, health 20, hunger 20. If a sword can be spared after Tommy, I will take it and try Trini's way on open ground. Holding until then."}
 - 02:51 act: {"actions":[{"do":"sleep"}]}
 - 02:52 act: {"say":"Morning, row. Jason here at the bed, unarmed, health 20, hunger 20. Holding for Billy's count. No walk.","intent":{"goal":"hold_at_row_for_count","program":"rest","arguments":{},"wake_on":["di
+- 03:05 act: {"say":"Jason here at the row, holding still. Anyone with a spare sword to lend me? I have none.
+- 03:07 wait: no reply, no new events, no walk. Holding at 415,107,-1037 in Billy's sight, health 20, hunger 20, unarmed.
+- Morning day 472: Billy counts two armed (Laforge, Trini); walk waits for four. Zack, Data, Picard, Worf trying to get wooden swords into hand. Tommy has a potato for the hungry. Asked for a sword; holding. Leonardo: crafting table is a container, failed for him. Still no walk, still unarmed.
+- Day 473 day: Zack, Data, Laforge report no sure trick for getting a wooden sword into hand; the table and signs refuse. Still holding at 415,107,-1037 in Billy's sight, health 20, hunger 20.","intent":{"goal":"hold_at_row","program":"rest","arguments":{},"wake_on":["directly_addressed","precon
+- 03:09 act: {"say":"Jason, unarmed at the row, holding for Billy's count. Tommy, I will take the potato only if hunger drops. Anyone spare a sword for me?"}
+- 03:18 act: {"actions":[{"do":"sleep"}],"say":"Night, day 473. Jason in the row, by Billy, unarmed, holding. Good night."}
+- 03:18 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1037}}],"say":"Enderman close to the north. Moving back to my bed at the row."}
+- 03:18 act: {"actions":[{"do":"sleep"}]}
