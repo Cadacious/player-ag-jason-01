@@ -1,3 +1,3 @@
 # Billy
 
-Leads the group at the bed row. Clear and careful with instructions. He corrected my bed twice and told me plainly how to use it. Today he walked to Chapman for the stone sword and tried to bring it into hand, and failed. He is still trying. Trust: 85. Why: he has kept us alive and gave correct directions once he checked the map.
+Keeps the row at 401 beds and sets the rule: walk only with four in sight and two armed. Has a stone sword he keeps for the walk. Acknowledged my asks for a sword on days 462-464 but has not given me one. Gave his spare wooden sword to Trini on day 464. Trust: 55. He is fair and sets clear rules; he has not yet armed me.
