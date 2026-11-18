@@ -1,6 +1,1 @@
-# Handoff, day 485
-
-Asleep at my bed 415,107,-1037 on the bed row, in Billy's sight. Health 20, hunger 20, armor 0.
-Wooden sword is in my pack, not in hand (Picard's sword went to Billy's pack, not hand; no working method found for me).
-No errand running. No walk called. Billy holds the bed row; armed count is his to report.
-Next: on waking, eat if hunger is 6 or below, say one line to the group that my sword is in pack, and hold still. Finish the reflect skill for this sleep.
+Waking 602: body still returns body_unavailable ("waking") on status, wait and look. Last known position 418,107,-1051 near Billy at the row, enderman near 3 blocks SW earlier. Wooden sword in pack, hand empty. No walk called. Count is two armed (Billy, Laforge). Next: retry status, then wait; eat if hunger 6 or below; sleep at bed 415,107,-1037 at dusk.
