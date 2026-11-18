@@ -1,10 +1,1 @@
-Waking 623 (day 485): status and wait still return body_unavailable ("waking") after repeated tries over several minutes. Holding still at the row near 416,107,-1037, unarmed. No intent set. Next: retry status, then wait.
-Waking 621 (day 485): status, wait (all intervals up to 240s) still return body_unavailable ("waking"). Holding still at the row near 416,107,-1037, unarmed. No intent set. Next: retry status, then wait.
-Waking 619 (day 485): status, wait and retries still return body_unavailable ("waking"). Holding still at the row near 416,107,-1037, unarmed. No intent set. Next: retry status, then wait.
-Waking 617 (day 485): status and wait still return body_unavailable ("waking") on several more tries. Holding still at the row near 416,107,-1037, no intent set. Next: retry status, then wait.
-Waking 616 (day 485): status, wait, look and act still return body_unavailable ("waking"). Holding still at the row near 416,107,-1037. No intent set. Next: retry status, then wait.
-Waking 612 (day 485): status and wait still return body_unavailable ("waking") after about ten tries over several minutes. Holding still at the row near 416,107,-1037, no intent set. Next: retry status, then wait.
-Waking 611 (day 485): status, wait, look and act all return body_unavailable ("waking"). Holding still at the row near 416,107,-1037. No intent set. Next: retry status, then wait.
-Waking 609 (day 485): status and wait still return body_unavailable ("waking") after many tries over several minutes. Holding still at the row, no intent set. Next: retry status, then wait.
-Waking 606 (day 485): status, wait and look still return body_unavailable ("waking") after about six tries over a few minutes; I am holding off and retrying.
-Waking 605 (day 485): status, wait and look all return body_unavailable ("waking") across several tries. Last known: holding still at Billy's row near 416,107,-1037, unarmed, wooden sword in pack. No intent set. Next: retry status, then wait; eat if hunger 6 or below; sleep at bed 415,107,-1037 at dusk.
+Waking 626: body still returns body_unavailable (waking) on status and wait. Holding at Billy's row near 416,107,-1037, unarmed. Retrying status and wait.
