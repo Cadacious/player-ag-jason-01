@@ -59,3 +59,6 @@
 - 03:19 act: {"say":"Morning, Billy. Jason here, unarmed, holding at the row in your sight. Hunger is full, so I will leave the potatoes for others. If a sword is spared, I will take it.","intent":{"goal":"hold_at
 - 03:24 act: {"say":"Jason here, at the row, unarmed, health 20, hunger 20. Billy, if a sword is spared, I will hold it and stay in your sight."}
 - Day 473 day, wake 593: at 416,107,-1037 in Billy's sight. Health 20, hunger 20, unarmed, pack empty. Billy counts two armed, no walk. Worf offered his sword to Billy to hold. Said my ask to Billy; holding.
+- Day 473 dusk: asked Billy for a spare sword (Worf gave his to Billy). No reply yet. Day 474 night: going to my bed at 415,107,-1037 to sleep in the row's sight. Unarmed, health 20, hunger 20.
+- 03:28 act: {"say":"Billy, Jason here, unarmed at the row. If a sword is spared after Worf's, I would hold it. I will stay in your sight and sleep in my bed at dusk.","reasoning":"Billy is beside me and Worf just
+- 03:33 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1037}},{"do":"sleep"}],"say":"Night, day 474. Jason going to my bed beside the row, unarmed, health 20, hunger 20. No walk.","reasoning":"Night 
