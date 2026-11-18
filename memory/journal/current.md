@@ -8,3 +8,6 @@
 - 01:18 act: {"actions":[{"do":"note","text":"Day 467: reached Picard at 398,-1062, in reach. Sign at a grave reads Lewis, day 467, shot."}],"say":"Picard, I am in reach now. Please give me the wooden sword. Thank
 - 01:18 act: {"actions":[{"do":"note","text":"Day 467 dusk: Picard in reach at 1.2 blocks, but he holds no sword in hand. He said the sword waits at his bed 388,-1065. Asked him to bring it."}],"say":"Picard, your
 - 01:19 act: {"actions":[{"do":"note","text":"Day 467 dusk: Picard in reach but has no sword in hand and has not answered. Going to my bed at 401,107,-1065 for the night."},{"do":"goto","target":{"x":401,"y":107,"
+- 01:19 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1065}},{"do":"sleep"}],"say":"Dusk. I'm going to my bed at the row. Zack, I'm counted.","reasoning":"Dusk, unarmed, no food, safe at the row. Sl
+- 01:24 act: {"actions":[],"say":"Morning. Jason at the row, counted and holding. Picard, I'm coming for the sword when Billy calls the walk.","reasoning":"First light. Billy's rule: no walking until he calls. Sta
+- 01:33 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1065}},{"do":"sleep"}],"say":"Dusk. Jason going to bed at the row, still unarmed and counted.","reasoning":"Dusk again, no walk was called. Slee
