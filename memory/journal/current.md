@@ -46,3 +46,4 @@
 - 02:38 act: {"say":"Morning. Jason here at the row, health 20, hunger 20, unarmed. Holding for Billy's count. No walk."}
 - 02:42 act: {"say":"Billy, Jason here at the row, unarmed, health 20, hunger 20. If a sword can be spared after Tommy, I will take it and try Trini's way on open ground. Holding until then."}
 - 02:51 act: {"actions":[{"do":"sleep"}]}
+- 02:52 act: {"say":"Morning, row. Jason here at the bed, unarmed, health 20, hunger 20. Holding for Billy's count. No walk.","intent":{"goal":"hold_at_row_for_count","program":"rest","arguments":{},"wake_on":["di
