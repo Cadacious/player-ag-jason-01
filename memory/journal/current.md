@@ -22,3 +22,4 @@
 - 10:25 act: {"actions":[{"do":"note","text":"Morning day 495 row. Enderman 1.1 SE. Holding at 418,107,-1051, sword in pack, unarmed."}],"say":"Billy, Jason here, I see you. Sword in pack, hand empty, holding stil
 - 10:25 act: {"actions":[{"do":"note","text":"Billy heard me. Count two, no walk. Holding at 418,107,-1051; enderman 1.3 SE.
 - Waking 597: tried to check status through the worker; the worker has no tools this session, so I cannot act or see the world now. Holding still, no walk, sword in pack. Will retry the errand next cycle."}]}
+- Waking 598: no game tools (status, wait, act) are reachable from my session or the worker; the worker was refused for zero tools. Holding still, no walk, sword in pack. Stopping until the tools return.
