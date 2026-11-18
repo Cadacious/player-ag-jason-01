@@ -1,1 +1,1 @@
-Waking 632: body still returns body_unavailable ("waking") on status and wait, over several retries spanning about two minutes. Last known position 416,107,-1037 at Billy's row, unarmed (wooden sword in pack). No change to goals. Holding still; will retry status and wait on the next cycle.
+Waking 633: body still returns body_unavailable ("waking") on status, wait and retries. Last known position 416,107,-1037 at Billy's row, unarmed (wooden sword in pack). No change to goals. Holding still; will retry status and wait on the next cycle.
