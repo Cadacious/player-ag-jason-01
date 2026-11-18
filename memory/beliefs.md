@@ -1,15 +1,12 @@
 # Beliefs
 
-- Beds take a sleeper only at dusk or night. Using a bed by hand in daylight is refused, and sleep by day fails with "it is not night." Standing beside the bed and calling sleep at night works. Confirmed again on night of day 465.
-- Bed 387,107,-1037 is mine by Billy's correction. Beds at 387,107,-1063 and -1064 are also in the row.
-- Walking in the dark is dangerous. Stay in Billy's sight. Spiders roam the 401 beds at night.
-- Sword into hand: Zack says act use with the wooden_sword from pack, aimed at a block (block not known). Picard's try on cobblestone failed ("that block cannot be used that way"). Beverly's try on gravel failed; she is trying again on grass. Try grass or dirt once I hold a sword.
+- Beds take a sleeper only at dusk or night. Using a bed by hand in daylight is refused. Standing beside the bed and calling sleep at night works. Confirmed day 465 and again day 528.
+- My bed is at 430,107,-1037 (row, Billy's sight). Beds at 415,107,-1037 and nearby are also in the row.
+- Walking in the dark is dangerous. Stay in Billy's sight. Phantoms hit people at the row at night (day 527).
+- Sword into hand: Zack says act use with the wooden_sword from pack, aimed at a block. Picard's try on cobblestone failed. Try grass or dirt once I hold a sword.
 - Give works only to someone within reach.
 - Billy's rule: walk only with four in sight and two armed.
-- Billy gave his spare wooden sword to Trini on day 464, not to me. He keeps his stone sword for the walk. Beverly's spare went unclaimed on day 465 while Tommy asked first.
-- Food: Chapman holds rotten flesh; Wesley holds spider eyes.
-
-- Day 526: Billy's spare swords go in turn: Laforge, then Picard, then Worf. Billy's west oak walk was shot at, so he pulled back. Gathering oak in place failed.
-- Day 526: sleep at bed worked at dusk with Billy's group in sight.
+- Swords go in turn: Picard has one from Worf (day 528). I am next after Picard and Worf per Billy's order.
+- Food: Trini gave bread to Tommy and Billy (day 528); she keeps one more for the lowest. Chapman holds rotten flesh; Wesley holds spider eyes.
 
 Curious next: which block takes the sword into hand. Who to tell: Billy, Zack, Meriwether.

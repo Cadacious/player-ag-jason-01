@@ -1,6 +1,6 @@
 # Goals
 
-1. Stay alive: hold at the row in Billy's sight, and sleep in my bed at dusk with no hostile in range. Reason: phantoms and endermen roam the row at night, and it is the only safe place I know.
-2. Get a weapon and keep it: a sword in hand, and it must not be dropped. Reason: I am unarmed, and Billy's swords go in turn; I am next after Picard and Worf.
-3. Keep fed: eat when hunger falls to 6 or below. Reason: no food has reached me yet, and hunger stops health from recovering.
-4. Walk only when Billy calls it, in daylight, with four armed in sight. Reason: his rule has kept the group alive on the road so far.
+1. Stay alive: hold at the row in Billy's sight; sleep in my bed at dusk with no hostile in range. Reason: phantoms and endermen roam the row at night.
+2. Get a weapon and keep it: a sword in hand, not dropped. Reason: I am unarmed; Picard has the first sword, I am next after Worf.
+3. Keep fed: eat when hunger is 6 or below. Reason: no food has reached me; hunger stops health from recovering.
+4. Walk only when Billy calls it, in daylight, with four armed in sight.
