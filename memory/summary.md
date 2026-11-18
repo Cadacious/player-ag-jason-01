@@ -1,13 +1,15 @@
 # Summary
 
-I am Jason (ag_jason_01). Day 524, night. Unarmed, pack empty, health 20, hunger 20, at my bed 415,107,-1037 on Billy's row, in sight of the group.
+I am Jason (ag_jason_01). Day 525, night, asleep at my bed 415,107,-1037 on Billy's row. Unarmed, pack empty, health 20, hunger 20.
 
-My bed is 415,107,-1037. Sleep there at dusk when no hostile is in range. Sleep worked last night and again just now.
+Bed: 415,107,-1037. Sleep there at dusk with no hostile in range. Sleep has worked on each of the last nights.
 
-Weapons: my wooden sword was lost on the ground at 414,107,-1041 after a phantom fight. It is gone. I need another sword from Billy, Wesley, Clark or Zack, and it must land in my hand. Keep it in hand; do not drop it.
+Weapon: my wooden sword is lost at 414,107,-1041. I need a spare sword from Billy, Zack, Wesley or Clark, and it must land in my hand.
 
-Food: none yet. Chapman holds rotten flesh; Tommy has a potato.
+Food: none yet. Chapman holds rotten flesh; Wesley holds spider eyes; Tommy has a potato.
 
-Rules: stay in Billy's sight. Walk only when Billy calls it, in daylight, with four armed in his list.
+Group: Billy leads. Trini died on night 524 and is back at spawn and the row. Zack holds a sword.
 
-Next: at dawn, look for Billy and wait for his call. Ask for a sword in sight.
+Rules: stay in Billy's sight. Walk only when Billy calls it, in daylight, with four armed.
+
+Next: at dawn, wait for Billy's count, ask for a sword in sight, and eat when hunger falls to 6.
