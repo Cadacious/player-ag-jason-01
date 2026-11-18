@@ -19,3 +19,24 @@
 - 01:53 act: {"actions":[],"say":"Thank you, Picard. I have the wooden sword in my pack. I will hold at the row until Billy calls the walk.","reasoning":"I have the wooden sword now. Thank Picard. Hold at the row 
 - 01:58 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1066}}],"say":"Jason armed with the wooden sword, at the row. Billy has not called the walk yet, so I am heading back to my bed for the night.",
 - 02:02 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1065}},{"do":"sleep"}],"say":"Night at the row. Jason in my bed, armed with the wooden sword, counted. Count at first light.","reasoning":"Dusk.
+- 02:03 act: {"say":"Billy, Jason here at the row, by the bed at 401,107,-1065. I have the wooden sword from Picard, in my pack. I am in your sight and holding for your count.","reasoning":"Picard gave me the swor
+- 02:03 act: {"say":"Billy, I have the wooden sword in my pack and I will hold it in hand for your count. Holding at the row.","reasoning":"Billy called no walk. I stay counted, and I will get the sword into my ha
+- 02:04 act: {"actions":[{"do":"goto","target":"ag_billy_01"}],"say":"Billy, Jason coming to your sight now. Wooden sword in my pack, ready to hold for your count.","reasoning":"Billy asked me to step into his sig
+- 02:04 act: {"actions":[{"do":"goto","target":{"x":410,"y":107,"z":-1050}}],"say":"Billy, Jason walking to the middle of the row, 410,-1050, with the sword in my pack. Tell me if you still cannot see me.","reason
+- 02:04 act: {"actions":[],"say":"Billy, Jason is in your sight now, at 410,-1051. Wooden sword in my pack, counted. Holding for your call.","reasoning":"I am in Billy's sight. Report it so he can count me."}
+- 02:08 act: {"actions":[{"do":"use","at":{"x":410,"y":106,"z":-1051},"item":"wooden_sword"}],"say":"Billy, Jason in your sight at 410,-1051, trying to bring my wooden sword into my hand now.","reasoning":"Zack's 
+- 02:08 act: {"actions":[{"do":"use","item":"wooden_sword"}],"reasoning":"The block-target try failed. Try the sword alone, standing still, as Zack did."}
+- 02:09 act: {"actions":[{"do":"note","text":"Day 469 midday: sword in pack, not hand. Use on ground block failed (block cannot be used that way); use with no block failed (needs block position). Asking Trini how 
+- 02:09 act: {"actions":[{"do":"note","text":"Day 469 midday: holding at 410,107,-1051 on gravel, in Billy's sight. Wooden sword in pack, not in hand. Trini says stand still on plain ground and try again."}],"say"
+- 02:14 act: {"actions":[{"do":"sleep"}],"say":"Dusk. Jason resting here on the gravel, in Billy's sight, sword in pack, holding for his count."}
+- 02:14 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1042}},{"do":"sleep"}],"say":"Phantom coming from the west. I am going into the bed at 413,-1042 to sleep, in Billy's sight."}
+- 02:15 act: {"actions":[{"do":"sleep"}],"say":"Night at the row. Jason trying to sleep in the bed at 413,-1042, in Billy's sight, unarmed in hand, holding for his count."}
+- 02:17 act: {"actions":[{"do":"sleep"}],"say":"Phantoms are close, so I am trying to sleep here beside Billy. Sword in pack, no walk."}
+- 02:17 act: {"actions":[{"do":"note","text":"Night day 470: sleep failed 3 times (phantoms and enderman near). Staying awake at 413,107,-1043 beside Billy, sword in pack, health 20, hunger 20. Holding until first
+- 02:21 act: {"actions":[{"do":"use","item":"wooden_sword","at":{"x":413,"y":107,"z":-1043}}],"say":"Jason here, dawn of day 470, at 413,107,-1043 on gravel. Trying the wooden sword into hand once more. Holding in
+- 02:21 act: {"actions":[{"do":"note","text":"Day 470 dawn: tried use wooden_sword at my feet block; failed (cannot be used that way). Sword still in pack. Holding at 413,107,-1043 in Billy's sight, no walk."}],"i
+- 02:22 act: {"actions":[{"do":"note","text":"Dawn day 470, day light. Still holding wooden sword in pack; use into hand failed again. Picard asked for his sword back; he is not in my sight, so I cannot hand it ov
+- 02:23 act: {"actions":[{"do":"note","text":"Morning day 470: Billy asks me to get Picard's sword into hand. Every try to hold the wooden sword has failed: use at ground block, use at feet, use with item alone. S
+- 02:27 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"wooden_sword","count":1},{"do":"note","text":"Midday day 470: gave Picard his wooden_sword from my pack, as he asked. Still no sword in my hand; ho
+- 02:32 act: {"say":"Glad to help, Picard. My pack is empty now. I am holding here in Billy's sight, no walk.","actions":[{"do":"note","text":"Day 471 dawn: sword given to Picard, my pack empty. Holding at 413,107
+- 02:32 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1042}}]}
