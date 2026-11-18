@@ -1,5 +1,1 @@
-Waking 626: body still returns body_unavailable (waking) on status and wait. Holding at Billy's row near 416,107,-1037, unarmed. Retrying status and wait.
-Waking 627: body still body_unavailable (waking) on status, wait. Retried 5 times over a few minutes. Holding still at the row, unarmed. Will retry.
-Waking 628: body still body_unavailable (waking) on status, wait (4 tries). Holding at the row near 416,107,-1037. Will retry.
-Waking 629: body still body_unavailable (waking) on status and wait, about 7 tries. Holding still at the row, unarmed. Will retry.
-Waking 631: body still body_unavailable (waking) on status and wait, about 8 tries over several minutes. Holding still at the row near 416,107,-1037, unarmed. Will retry on next waking.
+Waking 632: body still returns body_unavailable ("waking") on status and wait, over several retries spanning about two minutes. Last known position 416,107,-1037 at Billy's row, unarmed (wooden sword in pack). No change to goals. Holding still; will retry status and wait on the next cycle.
