@@ -1,1 +1,4 @@
-Waking 602: body still returns body_unavailable ("waking") on status, wait and look. Last known position 418,107,-1051 near Billy at the row, enderman near 3 blocks SW earlier. Wooden sword in pack, hand empty. No walk called. Count is two armed (Billy, Laforge). Next: retry status, then wait; eat if hunger 6 or below; sleep at bed 415,107,-1037 at dusk.
+Handoff, day 524 dusk.
+Position: bed row, bed 415,107,-1037, in Billy's sight. Unarmed, health 20, hunger 20, pack empty.
+Rules from Billy: hold at the row, no walk until he calls it with four armed in sight. Eat when hunger is 6 or below.
+Next: sleep in the bed if no hostile is in range. On waking, look for Billy and wait for his call.

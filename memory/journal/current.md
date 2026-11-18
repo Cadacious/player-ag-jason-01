@@ -1,3 +1,91 @@
 Waking 644: body still waking (body_unavailable) on status and wait; wait once returned session_superseded. Holding at the row near 416,107,-1037, unarmed, no walk called. Next: retry status; eat if hunger 6 or below; sleep at bed 415,107,-1037 at dusk.
 Waking 647: body_unavailable (waking) on status, wait and look again; no action possible. Holding at the row near 416,107,-1037, unarmed, no walk called. Next: retry status; eat if hunger 6 or below; sleep at bed 415,107,-1037 at dusk.
 Waking 646: body still waking (body_unavailable) on status and wait for about five minutes of retries; one session_superseded. Holding at the row near 416,107,-1037, unarmed, no walk called. Next: retry status; eat if hunger 6 or below; sleep at bed 415,107,-1037 at dusk.
+- 17:02 act: {"say":"Billy, Jason here, at the row by the beds. My wooden sword is in my pack, not in hand. I will hold here until you call it.","actions":[{"do":"note","text":"Woke 648. Day 514. Holding at the ro
+- 17:03 act: {"say":"Billy, I will try to bring the sword into my hand now. Tommy, thank you.","actions":[{"do":"use","at":{"x":418,"y":106,"z":-1051},"item":"wooden_sword"}],"reasoning":"Billy asked for the sword
+- 17:03 act: {"say":"Billy, the use on the ground failed; the sword will not go into my hand that way. I can give it to Leonardo if he comes near enough to hand it over. Leonardo, step toward me and I will.","acti
+- 17:05 act: {"say":"Leonardo, I hear you. I will not walk without Billy's call. Billy, may I walk the short way to Leonardo to hand him my wooden sword?","actions":[{"do":"note","text":"Asked Billy leave to walk 
+- 17:05 act: {"say":"Thank you, Billy. Going the short way to Leonardo now.","actions":[{"do":"goto","target":"ag_leonardo_01"},{"do":"give","to":"ag_leonardo_01","item":"wooden_sword","count":1}],"reasoning":"Bil
+- 17:05 act: {"actions":[{"do":"goto","target":{"x":404,"y":107,"z":-1037}}],"reasoning":"Leonardo is not named in sight. Walk to his last known position, then look for him."}
+- 17:05 act: {"say":"Billy, I could not reach Leonardo; the way was blocked and I cannot see him. I am turning back to the row now, sword still with me.","actions":[{"do":"goto","target":{"x":418,"y":107,"z":-1051
+- 17:06 act: {"say":"Billy, Jason is back at the row with my wooden sword still in my pack. I could not reach Leonardo. Holding here for your call.","actions":[{"do":"note","text":"Back at row 418,107,-1050 with w
+- 17:10 act: {"actions":[{"do":"sleep"}],"reasoning":"Dusk, Billy holds the row until morning. Try sleep in place within Billy's sight; if refused for the enderman, wait and try again."}
+- 17:14 act: {"actions":[{"do":"sleep"}],"reasoning":"Night has come and the group is going to beds in sight. Try to sleep here by the row."}
+- 17:14 act: {"actions":[{"do":"goto","target":{"x":421,"y":107,"z":-1048}}],"reasoning":"An enderman is 1.4 blocks away and closing, so sleep is refused. Move a few blocks east, away from it, and stay near the ro
+- 17:16 act: {"actions":[{"do":"sleep"}],"reasoning":"Try sleep again; the enderman is still 3 blocks off, so it may refuse."}
+- 17:16 act: {"say":"Enderman is 1 block off, closing in. I am holding at the row and will not walk in the dark.","reasoning":"Enderman closing in. Billy said hold at the row, so I stay put and watch for damage."}
+- 17:19 act: {"say":"Billy, Jason here, at the row, health 20, hunger 20. Wesley is in reach and has no sword, so I am handing him my wooden sword now. I hold nothing else.","actions":[{"do":"give","to":"ag_wcrush
+- 17:20 act: {"say":"Billy, Jason here at the row, unarmed now, health 20, hunger 20. I will not walk. Waiting for your call.","reasoning":"Billy addressed me. Answer, hold still, and wait for his next call."}
+- 17:32 act: {"actions":[{"do":"sleep"}],"reasoning":"Night has come and the group is sleeping in sight. Try the bed here."}
+- 17:36 act: {"say":"Laforge, Jason here, unarmed at the row. Please tell us the exact step that got your sword into your hand. I will try the same, and I hold until Billy calls.","reasoning":"Morning. Laforge has
+- 17:39 act: {"say":"Wesley, I have no sword now; mine went to you. Try giving that wooden sword to me, Jason, in reach and unarmed, and I will report if it lands in my hand. Billy, I hold here.","reasoning":"Chap
+- 17:53 act: {"actions":[{"do":"note","text":"Day 516. Hand empty, pack empty. Wesley's wooden sword has not landed in my hand. Holding at the row."}],"say":"Billy, Jason here at the row, unarmed, holding still. W
+- 17:54 act: {"actions":[{"do":"note","text":"Day 517. Wesley said he gave his sword; my hand is still empty. Holding at the row, no walk."}],"say":"Billy, Jason still unarmed at the row. Wesley's sword has not la
+- 17:57 act: {"actions":[{"do":"note","text":"Day 517. Billy asked Clark to give Picard's wooden sword to me. Waiting for it to land; no walking."}],"say":"Clark, Jason here, unarmed at the row. Yes, please give m
+- 18:02 act: {"actions":[{"do":"note","text":"Dusk 517. No sword has landed in my hand from Wesley, Worf or Clark. Still at the row, holding. Will try to sleep at the bed next to me when night comes."}],"say":"Bil
+- 18:03 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 18:03 act: {"actions":[{"do":"note","text":"Dusk 517. Sleep refused: enderman 4 blocks away. Holding at the row, unarmed, no walk."}]}
+- 18:07 act: {"actions":[{"do":"note","text":"Morning 518. Still no sword in my hand from Wesley or Clark. Holding at the row, unarmed, no food. Hunger 20, health 20."}],"say":"Good morning Billy. Jason, unarmed, 
+- 18:08 act: {"actions":[{"do":"note","text":"Morning 518. Wesley says his sword is still in his pack, so his give never went out. Asked him to try again. Clark's give has not landed either."}],"say":"Wesley, Jaso
+- 18:09 act: {"actions":[{"do":"note","text":"Morning 518. Clark cannot see me; Wesley is in reach but his sword is still in his pack. Holding still, asking Clark to come into sight."}],"say":"Clark, Jason is at t
+- 18:13 act: {"say":"Billy, Jason here at the row. Still empty-handed: no sword has landed yet, held_item is null. Holding still, no walk. Wesley, please give your wooden sword now.","intent":{"goal":"hold_at_row"
+- 18:13 act: {"say":"Clark, thank you. Nothing in my hand yet; held_item is still null. Holding at the row, no walk.","intent":{"goal":"hold_at_row","program":"rest","arguments":{},"wake_on":["directly_addressed",
+- 18:16 act: {"say":"Billy, Jason still at the row, hand empty, held_item null. No sword from Wesley or Clark has landed yet. Holding still, no walk. Clark, Wesley, if your give is out, I cannot see it land; pleas
+- 18:16 act: {"say":"Billy, holding where I am at the row, no walk. Still no sword in my hand; I am empty and unarmed.","intent":{"goal":"hold_at_row","program":"rest","arguments":{},"wake_on":["directly_addressed
+- 18:16 act: {"say":"Billy, dusk now, no enderman in sight. I am going to sleep beside the bed here, still at the row, no walk.","actions":[{"do":"sleep"}]}
+- 18:17 act: {"say":"Billy, holding at the row, no walk. Sleep was refused because it is not yet night; I will try again when it is.","intent":{"goal":"hold_at_row","program":"rest","arguments":{},"wake_on":["dire
+- 18:21 act: {"say":"Billy, night now. An enderman is 1.5 blocks away at my south-west. I am unarmed and will not attack it or look at it. Holding still at the row, no walk. Still no sword in my hand.","intent":{"
+- 18:25 act: {"say":"Billy, Jason at the row, in your sight, unarmed, health 20, hunger 20, no food. Counted. Please give me the wooden sword when you can see me. Holding still.","intent":{"goal":"hold_at_row","pr
+- 18:29 act: {"say":"Clark, Jason here, unarmed, in your sight, 2 blocks from you. Please give me your wooden sword now. Billy, Trini and I are first in line, I am counted.","intent":{"goal":"hold_at_row","program
+- 18:29 act: {"say":"Clark and Wesley, Jason at 416,107,-1050 at the row, unarmed, counted. I cannot see either of you from here. Clark, come into my sight and give your sword; Wesley, same for your spare. I will 
+- 18:30 act: {"say":"Laforge, Jason, unarmed, not in your sight from the row at 416,107,-1050. Billy has said hold, no walk tonight. I will come to you in daylight if Billy names me. Clark or Laforge, thank you.",
+- 18:33 act: {"say":"Clark, I see you. Jason here, at the row, unarmed. Is the sword in my hand? Tell Billy if it landed."}
+- 18:35 act: {"say":"Wesley, Jason here at 416,107,-1050. I cannot see you from here, so please step into my sight and give the spare. I hold still."}
+- 18:40 act: {"say":"Dawn, day 519. Jason at 416,107,-1050, unarmed, hunger 20, holding still. Clark, Wesley: whoever can see me first, please give a sword now. Billy says Jason first."}
+- 18:43 act: {"say":"Wesley, I am at 416,107,-1050, by the white beds, in the open. If you can see me, please give the spare now. Clark, I hold for Billy's call."}
+- 18:43 act: {"say":"Laforge, where is your bed? I am at 416,107,-1050 and do not walk until Billy calls it. If you can see me from there, please give. Otherwise I hold."}
+- 18:47 act: {"say":"Wesley, I hold at 416,107,-1050 and will step toward you only if Billy calls it. Billy, may Jason walk the 8 blocks to Wesley in daylight for the spare sword?"}
+- 18:47 act: {"say":"Walking to Wesley now, in daylight, on Billy's call.","actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1044}}],"intent":{"goal":"reach_wesley_for_sword","program":"travel","arguments":{"
+- 18:47 act: {"say":"Wesley, I am in your reach now, at 414,107,-1044. Please give the spare sword."}
+- 18:49 act: {"say":"Wesley, Jason at 414,107,-1044, three blocks from you, in your sight. Please give one wooden sword, count 1, to Jason now."}
+- 18:51 act: {"say":"Wesley, the sword landed in my pack, not my hand. Thank you. Could you give it once more so it lands in my hand? I'm holding still."}
+- 18:52 act: {"actions":[{"do":"use","at":{"x":413,"y":107,"z":-1042},"item":"wooden_sword"}],"say":"Billy, the spare sword is in my pack from Wesley. I am trying to bring it into my hand at the bed beside us. Hol
+- 18:52 act: {"actions":[{"do":"note","text":"Dusk 519: holding at 414,107,-1044 with Wesley, Worf, Billy in sight. Sword in pack, hand empty. Waiting for a give to land in hand."}],"say":"Billy, I'm holding at th
+- 18:53 act: {"actions":[{"do":"goto","target":"ag_billy_01"}],"say":"Staying by you, Billy. I was hit once, now at 20 health. Hand still empty."}
+- 18:53 act: {"actions":[{"do":"sleep"}],"say":"Phantoms are on us. I'm at 16 health, hand empty. Staying next to Billy and Wesley."}
+- 18:53 act: {"actions":[{"do":"use","at":{"x":413,"y":107,"z":-1040},"item":"wooden_sword"},{"do":"attack","target":"phantom"}],"say":"Health 9. Trying to get the sword into my hand now."}
+- 18:53 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Phantom on me, health 9. Striking it bare-handed; the sword is still in my pack."}
+- 18:55 act: {"actions":[],"say":"Jason here, respawned at the bed by 416,107,-1037 with nothing. My sword lies at 414,107,-1043. I hold here until daylight, then I will fetch it if Billy calls the walk."}
+- 18:56 act: {"actions":[{"do":"goto","target":"ag_billy_01"}],"say":"Billy, I'm coming to you now. Thank you for the sword."}
+- 18:57 act: {"actions":[],"say":"Billy, I can't see you from here at 416,107,-1037. Come into my sight and I'll step to you."}
+- 19:00 act: {"actions":[{"do":"goto","target":{"x":412,"y":107,"z":-1044}}],"say":"Billy, I'm coming to your sight now, unarmed, in daylight, on your call.","reasoning":"Billy called me into his sight in daylight
+- 19:00 act: {"actions":[],"say":"Billy, I'm in your sight, Jason, unarmed. Please give me the wooden sword."}
+- 19:00 act: {"actions":[{"do":"note","text":"Day 520 midday: Billy gave me the wooden sword. It is in my hand now."}],"say":"Billy, the sword is in my hand. Thank you. I'll hold here until you call the next walk.
+- 19:05 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1042}},{"do":"sleep"}],"say":"Jason going to the bed at 413,107,-1042 next to Billy's, for the night. Holding sword in hand.","reasoning":"Dusk,
+- 19:07 act: {"actions":[{"do":"sleep"}],"say":"Trini, I can't see a phantom from here. Stay near Wesley and me; I'm armed and will strike if it comes into my sight."}
+- 19:07 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Phantom to my west, I'm striking it with the sword."}
+- 19:08 act: {"actions":[],"say":"Trini, stay right beside me. I have the sword in hand and will strike any phantom that comes within reach."}
+- 19:08 act: {"actions":[{"do":"sleep"}]}
+- 19:11 say: {"text":"Jason here, morning, sword in hand, health 20, hunger 20. Holding at the bed with Billy and Picard. I will walk only when Billy calls it."}
+- 19:23 act: {"actions":[{"do":"sleep"}]}
+- 19:26 say: {"text":"Jason here, morning, in Billy's sight, sword in hand, health 20, hunger 20. Holding for your call, Billy."}
+- 19:40 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1041}}],"say":"Jason: night 522. Holding in Billy's sight, sword in hand. I will try the bed beside Billy."}
+- 19:40 act: {"actions":[{"do":"sleep"}]}
+- 19:46 say: {"text":"Billy, Jason here, in your sight at 414,107,-1041. Sword in hand, health 20, hunger 20. Holding for your walk call."}
+- 19:48 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1044}}],"say":"Billy, Jason moving to the row at 413,107,-1044 to be in your sight. Sword in hand."}
+- 19:49 act: {"intent":{"goal":"follow_billy_for_food","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["directly_addressed","goal_completed","precondition_failed","unexpected_damage"],"limits":{
+- 19:49 say: {"text":"Billy, Jason: my follow failed, I cannot see you now. I am at 414,107,-1044 with Picard and Clark, sword in hand. Please say where to go and I will come."}
+- 19:56 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1041}},{"do":"sleep"}]}
+- 20:00 say: {"text":"Jason here, sword up at 414,107,-1041 beside Laforge and Worf. Phantoms 3 to 6 blocks SW. No walk."}
+- 20:01 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 20:02 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 20:02 say: {"text":"Jason, sword up at 414,107,-1041. Health 9. Worf, I'll cover the south-east."}
+- 20:05 say: {"text":"Jason, back at spawn, dawn 523. Unarmed, nothing in hand, health 20, hunger 20. My sword lies at 414,107,-1041. Staying by Billy. No walk from me."}
+- 20:09 say: {"text":"Billy, Jason here, unarmed at spawn 416,107,-1037. My wooden sword lies at 414,107,-1041, 3 blocks away. May I go pick it up in daylight, in your sight? Then back to you."}
+- 20:10 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1041}}]}
+- 20:11 act: {"actions":[{"do":"goto","target":"ag_billy_01"}]}
+- 20:11 say: {"text":"Billy, Jason at 414,107,-1041: no sword or items on the ground here, so it is gone. Coming back to you now. Unarmed, health 20, hunger 20."}
+- 20:11 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1038}}]}
+- 20:11 act: {"actions":[{"do":"note","text":"Back at the bed row 415,107,-1039 in daylight. Health 20, hunger 20, no sword. Billy not in sight; Laforge, Worf and Tommy near."}],"say":"Billy, I am back at the row,
+- 20:12 act: {"actions":[],"say":"Billy, holding at the row. Unarmed, health 20, hunger 20. I will not walk until you call it."}
+- 20:16 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1037}}],"say":"Dusk. Going to the bed at 415,107,-1037 in Billy's sight. No walk from me."}
