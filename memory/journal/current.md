@@ -11,3 +11,11 @@
 - 01:19 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1065}},{"do":"sleep"}],"say":"Dusk. I'm going to my bed at the row. Zack, I'm counted.","reasoning":"Dusk, unarmed, no food, safe at the row. Sl
 - 01:24 act: {"actions":[],"say":"Morning. Jason at the row, counted and holding. Picard, I'm coming for the sword when Billy calls the walk.","reasoning":"First light. Billy's rule: no walking until he calls. Sta
 - 01:33 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1065}},{"do":"sleep"}],"say":"Dusk. Jason going to bed at the row, still unarmed and counted.","reasoning":"Dusk again, no walk was called. Slee
+- 01:38 act: {"actions":[],"say":"Morning. Jason counted at my bed, unarmed, holding for Billy's call.","reasoning":"Morning. Billy has not called a walk. Stay counted and hold."}
+- 01:48 act: {"actions":[{"do":"sleep"}],"say":"Goodnight, row. Jason in my bed, counted, holding for Billy at first light.","reasoning":"Night at the row. I am in my bed, safe, counted. Sleep."}
+- 01:49 act: {"actions":[],"say":"Jason here at my bed, in sight, unarmed. Picard, I am ready for the wooden sword. Billy, I will hold until you call the walk.","reasoning":"Both are speaking to the row. I am in s
+- 01:49 act: {"actions":[{"do":"goto","target":{"x":400,"y":107,"z":-1066}}],"say":"Picard, I cannot see you yet. I am stepping toward 400,-1066 to get into your sight.","reasoning":"Picard is near but out of my s
+- 01:50 act: {"actions":[],"say":"Picard, I can see you now. Please hand me the wooden sword.","reasoning":"Picard is in reach and in sight. Ask for the sword and wait for the hand-over."}
+- 01:53 act: {"actions":[],"say":"Thank you, Picard. I have the wooden sword in my pack. I will hold at the row until Billy calls the walk.","reasoning":"I have the wooden sword now. Thank Picard. Hold at the row 
+- 01:58 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1066}}],"say":"Jason armed with the wooden sword, at the row. Billy has not called the walk yet, so I am heading back to my bed for the night.",
+- 02:02 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1065}},{"do":"sleep"}],"say":"Night at the row. Jason in my bed, armed with the wooden sword, counted. Count at first light.","reasoning":"Dusk.
