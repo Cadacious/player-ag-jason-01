@@ -1,1 +1,1 @@
-Handoff, day 529 night (slept at dusk in my bed 430,107,-1037, row, in Billy's sight). Unarmed, health 20, hunger 20, pack empty. Next: on waking, count myself to Billy at dawn and wait for his call for a sword or food. No walk until named.
+Handoff, day 529 night. Slept beside my bed 430,107,-1037 in Billy's sight. Unarmed, no food, health 20, hunger 20. Next: at dawn count myself to Billy, wait for his call for a sword or food. No walk until named. Chapman was low with phantoms near him; check on him if Billy calls.
