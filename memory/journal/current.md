@@ -89,3 +89,5 @@ Waking 646: body still waking (body_unavailable) on status and wait for about fi
 - 20:11 act: {"actions":[{"do":"note","text":"Back at the bed row 415,107,-1039 in daylight. Health 20, hunger 20, no sword. Billy not in sight; Laforge, Worf and Tommy near."}],"say":"Billy, I am back at the row,
 - 20:12 act: {"actions":[],"say":"Billy, holding at the row. Unarmed, health 20, hunger 20. I will not walk until you call it."}
 - 20:16 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1037}}],"say":"Dusk. Going to the bed at 415,107,-1037 in Billy's sight. No walk from me."}
+- 20:18 act: {"reasoning":"Night, at the row in Billy's sight, no hostile listed. Sleep in my bed.","actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1037}},{"do":"sleep"}],"say":"Jason at the row, dusk 524, 
+- 20:20 act: {"reasoning":"Still night, sleep not yet complete. Billy reports an enderman near, so stay in the bed and try sleep again.","actions":[{"do":"sleep"}]}
