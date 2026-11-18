@@ -57,3 +57,5 @@
 - 03:18 act: {"actions":[{"do":"sleep"}]}
 - 03:24 wait: Billy's count still two armed (Laforge, Trini); no walk. Trini has no trick to share. Holding in Billy's sight, unarmed, health 20, hunger 20.
 - 03:19 act: {"say":"Morning, Billy. Jason here, unarmed, holding at the row in your sight. Hunger is full, so I will leave the potatoes for others. If a sword is spared, I will take it.","intent":{"goal":"hold_at
+- 03:24 act: {"say":"Jason here, at the row, unarmed, health 20, hunger 20. Billy, if a sword is spared, I will hold it and stay in your sight."}
+- Day 473 day, wake 593: at 416,107,-1037 in Billy's sight. Health 20, hunger 20, unarmed, pack empty. Billy counts two armed, no walk. Worf offered his sword to Billy to hold. Said my ask to Billy; holding.
