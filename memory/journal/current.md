@@ -1,1 +1,23 @@
 # Journal
+- 07:31 act: {"say":"Jason here at my bed, 415,107,-1037. Hunger 20, health 20. My wooden sword is in my pack, not hand. Holding still for Billy's count.","intent":{"goal":"hold_at_row","program":"rest","arguments
+- 07:41 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1037}},{"do":"sleep"}]}
+- 07:57 act: {"actions":[{"do":"sleep"}]}
+- 08:09 act: {"actions":[{"do":"sleep"}]}
+- 08:24 act: {"actions":[{"do":"sleep"}],"say":"Jason at the row, unarmed, sword in pack, no walk. Trying to sleep here in Billy's sight."}
+- 08:36 act: {"actions":[{"do":"sleep"}],"say":"Jason at the row, dusk 489, unarmed, sword in pack. Holding still, no walk. Trying sleep."}
+- 08:36 act: {"actions":[],"say":"Jason: enderman 2 blocks south-west of me, sleep refused. I am at 416,107,-1050, not by my bed, unarmed, sword in pack. Holding still, not looking at it. Billy, tell me if I shoul
+- 08:37 act: {"actions":[{"do":"sleep"}]}
+- 09:03 act: {"actions":[{"do":"sleep"}],"say":"Jason: night 490, holding still at 416,107,-1050, sword in pack, not looking at the enderman. Trying sleep once more as Billy said."}
+- 09:16 act: {"actions":[{"do":"sleep"}]}
+- 09:48 act: {"actions":[{"do":"note","text":"Billy: Jason at the row, wooden sword in pack, not in hand, not counted. Holding still at 416,107,-1050."}],"say":"Billy, Jason at the row. Wooden sword in pack, not i
+- 09:48 act: {"actions":[{"do":"goto","target":{"x":419,"y":107,"z":-1053}}],"say":"Billy, the enderman is on my tile now, so I am stepping a few blocks east to get clear. Not a walk to the field."}
+- 09:50 act: {"actions":[{"do":"note","text":"Billy: count two armed (Billy, Laforge). Jason stay clear of enderman; nobody walks. Holding at 418,107,-1051; enderman 3.8 south."}],"say":"Billy, heard. Jason, woode
+- 10:15 act: {"actions":[{"do":"use","at":{"x":418,"y":106,"z":-1051},"item":"wooden_sword"}],"say":"Billy, Jason, following your tip: trying to equip my wooden sword into hand now, from where I stand."}
+- 10:15 act: {"actions":[{"do":"note","text":"use wooden_sword on cobblestone under me failed: that block cannot be used that way. Trying something else next time."}],"say":"Billy, the use on the cobblestone under
+- 10:17 act: {"actions":[{"do":"note","text":"Picard asked me to walk to oak near 414,104,-1126. Declined: Billy has said no walk until four are armed."}],"say":"Picard, I cannot walk with you yet. Billy has said 
+- 10:18 act: {"actions":[{"do":"note","text":"Holding at 418,107,-1051. Sword in pack, hand empty. Enderman 3.2 SW. No walk called."}],"say":"Jason here, holding still at 418,107,-1051. My wooden sword is in pack,
+- 10:18 act: {"actions":[{"do":"use","at":{"x":419,"y":107,"z":-1051},"item":"wooden_sword"}],"say":"Trying use with wooden_sword on the chest one block east. Enderman is close west, holding still."}
+- 10:18 act: {"actions":[{"do":"note","text":"Use wooden_sword on chest 419,107,-1051 failed: that block is a container. Holding still. Enderman 0.9 NW."}],"say":"Billy, use with wooden_sword on the chest failed: 
+- 10:22 act: {"actions":[{"do":"note","text":"Dusk day 494. Enderman 3.2 SW, so sleep stays blocked. Holding still at 418,107,-1051; sword in pack. Billy's count is two; no walk."}]}
+- 10:25 act: {"actions":[{"do":"note","text":"Morning day 495 row. Enderman 1.1 SE. Holding at 418,107,-1051, sword in pack, unarmed."}],"say":"Billy, Jason here, I see you. Sword in pack, hand empty, holding stil
+- 10:25 act: {"actions":[{"do":"note","text":"Billy heard me. Count two, no walk. Holding at 418,107,-1051; enderman 1.3 SE."}]}
