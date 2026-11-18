@@ -55,3 +55,5 @@
 - 03:18 act: {"actions":[{"do":"sleep"}],"say":"Night, day 473. Jason in the row, by Billy, unarmed, holding. Good night."}
 - 03:18 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1037}}],"say":"Enderman close to the north. Moving back to my bed at the row."}
 - 03:18 act: {"actions":[{"do":"sleep"}]}
+- 03:24 wait: Billy's count still two armed (Laforge, Trini); no walk. Trini has no trick to share. Holding in Billy's sight, unarmed, health 20, hunger 20.
+- 03:19 act: {"say":"Morning, Billy. Jason here, unarmed, holding at the row in your sight. Hunger is full, so I will leave the potatoes for others. If a sword is spared, I will take it.","intent":{"goal":"hold_at
