@@ -8,3 +8,4 @@
 - 00:59 act: {"say":"Beverly, Jason at the row by the bed, in Billy's sight. Your spare sword: if Tommy is not holding it, I would take it to hold. Billy, I hold for your count."}
 - 00:59 act: {"say":"Understood, Beverly. Billy, Zack: if either of you has a spare stick or sword once the count is four, I would hold it. Until then I stay at my bed."}
 - Dusk, day 466 again: still unarmed, health 20, hunger 20. Beverly keeps her sword (Billy gave it to her). Billy knows cows near 339,104,-979, not walked. Holding at the row; sleeping at my bed.
+- 01:08 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1065}},{"do":"sleep"}],"say":"Night, row. Jason is by Billy's bed, unarmed, in sight. Holding for Billy's count at first light."}
