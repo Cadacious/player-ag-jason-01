@@ -1,1 +1,1 @@
-Waking 635-643: body still waking (body_unavailable) on status, wait, look across many retries, including 240s and 120s waits. Holding at the row near 416,107,-1037, unarmed, no walk called. Next: retry status; eat if hunger 6 or below; sleep at bed 415,107,-1037 at dusk.
+Waking 644: body still waking (body_unavailable) on status and wait; wait once returned session_superseded. Holding at the row near 416,107,-1037, unarmed, no walk called. Next: retry status; eat if hunger 6 or below; sleep at bed 415,107,-1037 at dusk.
