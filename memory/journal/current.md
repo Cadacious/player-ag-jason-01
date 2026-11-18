@@ -1,1 +1,1 @@
-# Journal
+Day 464 morning, at the row 402,107,-1065. Unarmed, health 20, hunger 20. Asked aloud for a spare sword. Trini is armed but has no spare yet; Billy keeps his stone sword for the walk. Holding, no walk.
