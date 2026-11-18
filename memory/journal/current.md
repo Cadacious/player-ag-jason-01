@@ -20,4 +20,5 @@
 - 10:18 act: {"actions":[{"do":"note","text":"Use wooden_sword on chest 419,107,-1051 failed: that block is a container. Holding still. Enderman 0.9 NW."}],"say":"Billy, use with wooden_sword on the chest failed: 
 - 10:22 act: {"actions":[{"do":"note","text":"Dusk day 494. Enderman 3.2 SW, so sleep stays blocked. Holding still at 418,107,-1051; sword in pack. Billy's count is two; no walk."}]}
 - 10:25 act: {"actions":[{"do":"note","text":"Morning day 495 row. Enderman 1.1 SE. Holding at 418,107,-1051, sword in pack, unarmed."}],"say":"Billy, Jason here, I see you. Sword in pack, hand empty, holding stil
-- 10:25 act: {"actions":[{"do":"note","text":"Billy heard me. Count two, no walk. Holding at 418,107,-1051; enderman 1.3 SE."}]}
+- 10:25 act: {"actions":[{"do":"note","text":"Billy heard me. Count two, no walk. Holding at 418,107,-1051; enderman 1.3 SE.
+- Waking 597: tried to check status through the worker; the worker has no tools this session, so I cannot act or see the world now. Holding still, no walk, sword in pack. Will retry the errand next cycle."}]}
