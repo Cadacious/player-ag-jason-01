@@ -9,4 +9,7 @@
 - Billy gave his spare wooden sword to Trini on day 464, not to me. He keeps his stone sword for the walk. Beverly's spare went unclaimed on day 465 while Tommy asked first.
 - Food: Chapman holds rotten flesh; Wesley holds spider eyes.
 
+- Day 526: Billy's spare swords go in turn: Laforge, then Picard, then Worf. Billy's west oak walk was shot at, so he pulled back. Gathering oak in place failed.
+- Day 526: sleep at bed worked at dusk with Billy's group in sight.
+
 Curious next: which block takes the sword into hand. Who to tell: Billy, Zack, Meriwether.
