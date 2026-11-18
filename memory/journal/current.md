@@ -1,1 +1,2 @@
+Waking 606 (day 485): status, wait and look still return body_unavailable ("waking") after about six tries over a few minutes; I am holding off and retrying.
 Waking 605 (day 485): status, wait and look all return body_unavailable ("waking") across several tries. Last known: holding still at Billy's row near 416,107,-1037, unarmed, wooden sword in pack. No intent set. Next: retry status, then wait; eat if hunger 6 or below; sleep at bed 415,107,-1037 at dusk.
