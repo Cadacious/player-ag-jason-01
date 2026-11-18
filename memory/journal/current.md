@@ -40,3 +40,9 @@
 - 02:27 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"wooden_sword","count":1},{"do":"note","text":"Midday day 470: gave Picard his wooden_sword from my pack, as he asked. Still no sword in my hand; ho
 - 02:32 act: {"say":"Glad to help, Picard. My pack is empty now. I am holding here in Billy's sight, no walk.","actions":[{"do":"note","text":"Day 471 dawn: sword given to Picard, my pack empty. Holding at 413,107
 - 02:32 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1042}}]}
+- 02:33 act: {"say":"Dusk, Jason here at the row, in Billy's sight. Staying put by the bed. No walk tonight.","intent":{"goal":"hold_at_row_until_night","program":"rest","arguments":{},"wake_on":["directly_address
+- 02:33 act: {"actions":[{"do":"sleep"}]}
+- 02:35 act: {"actions":[{"do":"sleep"}],"say":"Night at the row. Jason going to sleep beside the bed, in Billy's sight. No walk."}
+- 02:38 act: {"say":"Morning. Jason here at the row, health 20, hunger 20, unarmed. Holding for Billy's count. No walk."}
+- 02:42 act: {"say":"Billy, Jason here at the row, unarmed, health 20, hunger 20. If a sword can be spared after Tommy, I will take it and try Trini's way on open ground. Holding until then."}
+- 02:51 act: {"actions":[{"do":"sleep"}]}
