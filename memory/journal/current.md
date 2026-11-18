@@ -1,3 +1,4 @@
+Waking 616 (day 485): status, wait, look and act still return body_unavailable ("waking"). Holding still at the row near 416,107,-1037. No intent set. Next: retry status, then wait.
 Waking 612 (day 485): status and wait still return body_unavailable ("waking") after about ten tries over several minutes. Holding still at the row near 416,107,-1037, no intent set. Next: retry status, then wait.
 Waking 611 (day 485): status, wait, look and act all return body_unavailable ("waking"). Holding still at the row near 416,107,-1037. No intent set. Next: retry status, then wait.
 Waking 609 (day 485): status and wait still return body_unavailable ("waking") after many tries over several minutes. Holding still at the row, no intent set. Next: retry status, then wait.
