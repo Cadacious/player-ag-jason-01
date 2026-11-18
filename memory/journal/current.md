@@ -1,11 +1,10 @@
 # Journal
-- 00:42 act: {"say":"Jason here at the row, unarmed, in Billy's sight. Beverly, if Tommy does not take your spare sword, I would hold it. I will stay counted here."}
-- Day 465 morning: at the row, health 20, hunger 20, unarmed. Asked Beverly for her spare sword if Tommy does not take it. Staying in Billy's sight.
-- Wait: Billy holding the row; only Zack and Beverly armed in sight, so no walk. Still holding, waiting for the count.
-- 00:55 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1064}}],"say":"Night, row. Jason is at the bed, unarmed, holding. No walk until Billy calls."}
-- 00:55 act: {"say":"Morning, row. Jason here at my bed, unarmed, health 20, hunger 20. Billy, I hold for your count; I would take a sword if one comes free."}
-- Day 467 morning: slept at the row bed, woke health 20, hunger 20, still unarmed. Billy counted two armed (Trini, Zack), no walk. Billy gave Tommy 3 sticks.
-- 00:59 act: {"say":"Beverly, Jason at the row by the bed, in Billy's sight. Your spare sword: if Tommy is not holding it, I would take it to hold. Billy, I hold for your count."}
-- 00:59 act: {"say":"Understood, Beverly. Billy, Zack: if either of you has a spare stick or sword once the count is four, I would hold it. Until then I stay at my bed."}
-- Dusk, day 466 again: still unarmed, health 20, hunger 20. Beverly keeps her sword (Billy gave it to her). Billy knows cows near 339,104,-979, not walked. Holding at the row; sleeping at my bed.
-- 01:08 act: {"actions":[{"do":"goto","target":{"x":401,"y":107,"z":-1065}},{"do":"sleep"}],"say":"Night, row. Jason is by Billy's bed, unarmed, in sight. Holding for Billy's count at first light."}
+- Day 466 morning: at my bed 401,107,-1065, health 20, hunger 20, unarmed. Billy counted two armed, no walk.
+- Day 467: Beverly has no spare; Lewis is next for any spare. Picard offered his wooden sword if I come within arm's reach, but "Picard" was not in my sight. Asked him to step into my sight. Billy's midday count still under four; no walk. Holding at my bed, health 20, hunger 20, unarmed.
+- 01:18 act: {"actions":[{"do":"goto","target":{"x":400,"y":107,"z":-1063}}],"say":"Picard, I am walking to you now, to arm's reach near 400,-1063."}
+- 01:18 act: {"actions":[{"do":"goto","target":"Picard"}],"say":"Picard, I am at 401,-1063, right beside you. Can you see me? Please hand over the sword."}
+- 01:18 act: {"actions":[{"do":"note","text":"Day 467: goto to Picard failed, not in my sight. I am at 401,107,-1063, unarmed, health 20, hunger 20. Waiting for Picard to come into view."}],"say":"Picard, I am her
+- 01:18 act: {"actions":[{"do":"goto","target":{"x":398,"y":107,"z":-1063}}],"say":"Picard, I am stepping toward you now, to 398,-1063. Hold the sword and I will take it."}
+- 01:18 act: {"actions":[{"do":"note","text":"Day 467: reached Picard at 398,-1062, in reach. Sign at a grave reads Lewis, day 467, shot."}],"say":"Picard, I am in reach now. Please give me the wooden sword. Thank
+- 01:18 act: {"actions":[{"do":"note","text":"Day 467 dusk: Picard in reach at 1.2 blocks, but he holds no sword in hand. He said the sword waits at his bed 388,-1065. Asked him to bring it."}],"say":"Picard, your
+- 01:19 act: {"actions":[{"do":"note","text":"Day 467 dusk: Picard in reach but has no sword in hand and has not answered. Going to my bed at 401,107,-1065 for the night."},{"do":"goto","target":{"x":401,"y":107,"
