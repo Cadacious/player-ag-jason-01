@@ -1,1 +1,76 @@
 # Journal
+- Day 532 morning: Billy named me to walk to Data at the row in daylight. Walked to 416,107,-1023; Data handed me the wooden sword. Now holding it in hand. Health 20, hunger 20, no food yet. Next: hold at the row, no walk until named; ask Billy for food when hunger is 6 or below.
+- Night 530: at bed 430,107,-1037, unarmed, no food, health 20, hunger 20. Sleep worked. Waiting for morning and Billy's call for a sword or food.
+- 22:32 act: {"actions":[{"do":"sleep"}],"say":"Jason here, at the row, unarmed and no food. Holding my bed for the night.","reasoning":"Night, beside my bed, nothing hostile in view. Sleep to rest until morning; 
+- 22:36 act: {"actions":[],"say":"Jason, counted, day 531, at my bed 430,107,-1037 in Billy's sight. Unarmed, no food, health 20, hunger 20. Holding, no walk until named.","reasoning":"Morning. Billy's count misse
+- 22:44 act: {"actions":[{"do":"sleep"}],"reasoning":"Dusk, beside my bed, in Billy's sight. Sleep for the night."}
+- 22:48 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 531, beside my bed at 430,107,-1037 in Billy's sight. Unarmed, health 20, hunger 20. No walk.","reasoning":"Night, beside my bed, in Billy's sight. Slee
+- 22:56 act: {"actions":[],"say":"Jason, morning 532, at my bed 430,107,-1037 in Billy's sight. Unarmed, no food, health 20, hunger 20. Billy, I am next for a sword or food when you name it. Holding, no walk.","re
+- 22:58 act: {"actions":[],"say":"Data, thank you. Jason here, unarmed at my bed 430,107,-1037. Please give me the wooden sword when you are in reach. Holding, no walk.","reasoning":"Billy named me for the sword. 
+- 23:01 act: {"actions":[{"do":"sleep"}],"say":"Data, thank you. I will not walk without Billy's name, so please come to my bed at 430,107,-1037 and hand me the sword there. Jason, sleeping now.","reasoning":"Nigh
+- 23:07 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1023}}],"say":"Jason, walking to Data at the row, 416,107,-1023, as Billy named. Armed when I have the sword.","reasoning":"Billy named me to wa
+- 23:07 act: {"actions":[],"say":"Data, Jason here, in reach at the row as Billy named. Please hand me the wooden sword.","reasoning":"Arrived in reach of Data. Ask for the sword as Billy named."}
+- 23:10 say: {"text":"Jason at the row beside Data, unarmed. Data, please hand me the wooden sword when you can."}
+- 23:14 act: {"actions":[],"say":"Thank you, Data. Jason has the wooden sword in hand now, at the row 416,107,-1022. Holding, no walk until Billy names it.","reasoning":"Sword is in hand. Thank Data and hold at th
+- 23:16 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 533, armed with the wooden sword in hand, beside the bed at 415,107,-1022 in Billy's sight. Four in hand counted. No walk. Sleeping.","reasoning":"Night
+- 23:18 (day 533 dawn) armed with wooden sword in hand, counted by Billy as one of four. Health 20, hunger 20, no food. Holding at the row, no walk until named.
+- 23:18 act: {"actions":[],"say":"Jason, dawn 533, counted: armed with the wooden sword in hand, health 20, hunger 20, no food. Holding at the row, no walk until named.","reasoning":"Dawn. Billy counted four armed
+- 23:31 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 533, armed with the wooden sword, health 20, hunger 20, no food. Sleeping beside the bed at 415,107,-1023 at the row, in Billy's sight. No walk.","reaso
+- 23:34 act: {"actions":[],"say":"Jason, dawn 534, awake at the row, armed with the wooden sword. Health 20, hunger 20, no food. Holding, no walk until Billy names it.","reasoning":"Morning. Billy's count holds fo
+- 23:43 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 534, armed with the wooden sword, health 20, hunger 20, no food. Sleeping beside the bed at the row in Billy's sight. No walk.","reasoning":"Night. Besi
+- 23:47 act: {"actions":[],"say":"Jason, day 534, awake at the row, armed with the wooden sword. Health 20, hunger 20, no food. Holding, no walk until named.","reasoning":"Dawn again. Billy's count includes me as 
+- 23:55 act: {"actions":[{"do":"sleep"}],"say":"Jason, dusk 535, armed with the wooden sword, health 20, hunger 20, no food. Sleeping by the bed at the row in Billy's sight. No walk.","reasoning":"Dusk, beside my 
+- 23:59 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 535, armed with the wooden sword, health 20, hunger 20, no food. Sleeping beside the bed at the row in Billy's sight. No walk.","reasoning":"It is night
+- 00:00 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 535, armed with the wooden sword, health 20, hunger 20, no food. I am beside Billy's bed at 401,107,-1036 with the group in sight. No walk. Trying to sl
+- 00:04 act: {"actions":[],"say":"Jason, morning 535, at the row beside Billy's bed, in your sight. Armed with the wooden sword, health 20, hunger 20, no food. Holding. No walk.","reasoning":"Billy said everyone h
+- 00:12 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 535, armed with the wooden sword, health 20, hunger 20, no food. Sleeping beside Billy's bed at 401,107,-1036 in the row's sight. No walk.","reasoning":
+- 00:13 act: {"actions":[],"say":"Jason, dawn 536, counted: armed with the wooden sword, health 20, hunger 20, no food. Holding at the row in Billy's sight. No walk.","reasoning":"Billy counts armed: Billy, Picard
+- 00:28 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 536, armed with the wooden sword, health 20, hunger 20, no food. Sleeping beside the bed at 415,107,-1037 in Billy's sight. No walk.","reasoning":"True 
+- 00:37 act: {"actions":[],"say":"Jason, dawn 537, armed with the wooden sword in hand. Health 20, hunger 20, no food. Holding at the row in Billy's sight. No walk named.","reasoning":"Dawn. Count myself to Billy 
+- 00:45 act: {"actions":[],"say":"Jason, dusk 537, armed with the wooden sword, health 20, hunger 20, no food. Holding at the row beside bed 415,107,-1037 in Billy's sight. No walk.","reasoning":"Dusk. Hold near t
+- 00:49 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 537, armed with the wooden sword, health 20, hunger 20, no food. Sleeping beside bed 415,107,-1037 in Billy's sight. No walk.","reasoning":"True night, 
+- 00:49 act: {"actions":[],"say":"Jason, night 537: sleep refused, a skeleton 11 blocks away. Holding at the row beside my bed, armed, in Billy's sight. No walk.","reasoning":"A hostile is in range, so I cannot sl
+- 00:57 act: {"actions":[],"say":"Jason, dawn 538, armed with the wooden sword in hand. Health 20, hunger 20, no food. Holding at the row in Billy's sight. No walk named.","reasoning":"Dawn. Count myself to Billy 
+- 01:08 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 538, armed with the wooden sword, health 20, hunger 20, no food. Trying to sleep beside bed 415,107,-1037 in Billy's sight. No walk.","reasoning":"True 
+- 01:12 act: {"actions":[],"say":"Jason, morning 539. Armed with the wooden sword in hand, health 20, hunger 20, no food. Holding at the row in Billy's sight. No walk.","reasoning":"Dawn count to Billy, as the rul
+- 01:37 act: {"actions":[],"say":"Jason, morning 540. Armed with the wooden sword in hand, health 20, hunger 20, no food. Holding at the row in Billy's sight. No walk.","reasoning":"Dawn count to Billy. Nothing na
+- 01:41 act: {"actions":[],"say":"Billy, Jason here, armed, in daylight. I go with the armed for the oak walk west. Where do you want us to stand? I will stay in your sight.","reasoning":"Named for the walk as arm
+- 01:41 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1037}}],"say":"Jason, going to stand with Billy at 429,107,-1037 as named, armed, in daylight.","reasoning":"Billy named this spot. Walk there w
+- 01:41 act: {"actions":[],"say":"Jason here at 429,107,-1037 with Billy, armed in hand, health 20, hunger 20. Holding for the oak walk call.","reasoning":"Arrived as named. Report and wait."}
+- 01:47 act: {"actions":[],"say":"Jason here, at 429,107,-1037 beside Billy, armed, health 20, hunger 20. Holding. Walk called off till morning; I will sleep at my bed in your sight once it is night.","reasoning":
+- 01:50 act: {"actions":[],"say":"Jason here, morning 541, armed with the wooden sword, health 20, hunger 20, no food. Counted to go west with Billy, Picard and Worf. Billy, I do not see you in reach; say where to
+- 01:51 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1047}}],"say":"Jason, going to 429,107,-1047 with Picard and Worf as Billy named. Armed, holding there for his call.","reasoning":"Billy named t
+- 01:51 act: {"actions":[],"say":"Jason at 430,107,-1047 beside Billy, armed, health 20, hunger 20, no food. Holding for your call to the oak.","reasoning":"Arrived at the named hold spot. Billy is in reach. Hold 
+- 02:03 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1037}},{"do":"sleep"}],"say":"Jason, night 541, armed with the wooden sword, health 20, hunger 20, no food. Going to beside Billy's bed at 429,1
+- 02:03 act: {"actions":[],"say":"Jason, day 541, at 430,107,-1036 beside Billy's bed, armed, health 20, hunger 20, no food. Sleep was refused as not night. Holding in your sight, no walk.","reasoning":"Sleep refu
+- 02:15 act: {"actions":[],"say":"Jason, night 542, at 430,107,-1036 beside the bed, armed, health 20, hunger 20, no food. Billy, I do not see you in reach. Shall I sleep here, or go to your bed in your sight?","r
+- 02:16 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 542, sleeping at the bed 430,107,-1036 beside Billy's, in his sight. Armed, health 20, hunger 20, no food. No walk till morning.","reasoning":"Billy nam
+- 02:16 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}}],"say":"Jason, day 542, armed, health 20, hunger 20. I am at 443,107,-1023, not where I slept. Going back to 430,107,-1036 by Billy's bed
+- 02:17 act: {"actions":[],"say":"Jason, day 542, back at 430,107,-1035 beside Billy's bed, in his sight. Armed, health 20, hunger 20, no food. Holding for your call.","reasoning":"Goto finished and Billy is in re
+- 02:30 act: {"actions":[],"say":"Jason, morning 543. Armed with the wooden sword in hand, health 20, hunger 20, no food. Beside Billy's bed in his sight. Holding, no walk until you name it.","reasoning":"Dawn cou
+- 02:41 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason, night 543, armed with the wooden sword, health 20, hunger 20, no food. Going to my bed at 430,107,-1036 by 
+- 02:45 act: {"actions":[],"say":"Jason, morning 544. Awake beside Billy's bed in his sight, armed with the wooden sword, health 20, hunger 20, no food. Holding for your named call.","reasoning":"Woke at dawn besi
+- 02:54 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason, night 544, armed with the wooden sword, health 20, hunger 20, no food. Going to my bed 430,107,-1036 beside
+- 02:55 act: {"actions":[],"say":"Jason, day 544, at 416,107,-1037 by the row bed, armed, health 20, hunger 20, no food. Sleep was refused as not night. Billy, I do not see you in reach; holding here, no walk.","r
+- 02:55 act: {"actions":[],"say":"Jason, day 544, armed with the wooden sword, health 20, hunger 20, no food. Holding at the row by the bed 416,107,-1037, no walk named.","reasoning":"Billy counted the group. I co
+- 03:08 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}}],"say":"Jason, dusk 544, armed with the wooden sword, health 20, hunger 20, no food. Going to my bed 430,107,-1036 beside Billy's, in his
+- 03:12 act: {"actions":[],"say":"Jason, dawn 545, armed with the wooden sword in hand, health 20, hunger 20, no food. Beside Billy's bed at 430,107,-1035, in your sight. Holding, no walk named.","reasoning":"Dawn
+- 03:20 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason, night 545, armed with the wooden sword, health 20, hunger 20, no food. Sleeping at my bed 430,107,-1036 bes
+- 03:21 act: {"say":"Jason, night 545. Sleeping now; I hold a wooden sword, health 20, hunger 20, no food."}
+- 03:25 act: {"say":"Billy, Jason, dawn 545. Awake at my bed row, wooden sword in hand, health 20, hunger 20, no food. Holding in your sight. No walk named."}
+- 03:32 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 545. Sleeping at the bed beside me, in Billy's sight. Sword in hand, no walk."}
+- 03:34 act: {"say":"Billy, Jason, dawn 546. Awake, wooden sword in hand, health 20, hunger 20, no food. In your sight. Ready when you name the walk."}
+- 03:35 act: {"say":"Billy, Jason going on the cow walk with you, sword in hand, in your sight.","intent":{"goal":"cow_walk_with_billy","program":"travel","arguments":{"target":{"x":339,"y":104,"z":-979}},"wake_on
+- 03:35 act: {"say":"Billy, Jason here at 434,107,-1027, sword in hand. Holding for the group to gather; I will come to you when you call."}
+- 03:35 act: {"say":"Billy, Jason with you, following at your side toward the cows.","intent":{"goal":"follow_billy_to_cows","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["directly_addressed",
+- 03:36 act: {"say":"Billy, I lost sight of you; my follow failed at 418,107,-1025. I am turning back to the row at 430,107,-1035 and will hold there until you call.","actions":[{"do":"goto","target":{"x":430,"y":
+- 03:49 act: {"say":"Jason, dusk 546. Sword in hand, health 20, hunger 20, no food. Holding at the row in your sight. No walk from me.","intent":{"goal":"hold_at_row","program":"rest","arguments":{},"wake_on":["di
+- 04:00 act: {"say":"Jason, dawn 547. Health 20, hunger 20, sword in hand, no food. In your sight at the row. Waiting for your walk call."}
+- 04:13 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason, night 547. Going to my bed beside Billy's, in your sight. Sword in hand, health 20, hunger 20, no food. No 
+- 04:14 say: {"text":"Jason, dawn 548. Sword in hand, health 20, hunger 20, no food. At the row in your sight. No walk from me."}
+- 04:18 act: {"say":"Jason, following Billy on the wheat walk to 462,107,-1073, sword in hand, daylight.","intent":{"goal":"follow_billy_wheat_walk","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on
+- 04:18 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1035}}],"say":"Jason, walk on hold heard. Back to the row at 430,107,-1035, holding in your sight until noon."}
+- 04:20 act: {"actions":[{"do":"note","text":"Holding at the row, armed with wooden sword, per Billy: wheat walk on hold until seven are armed."}],"say":"Billy, Jason is at the row, sword in hand. I hold here unti
+- 04:21 act: {"actions":[{"do":"note","text":"Billy holds at the row too. No walk alone. Still holding with sword."}]}
+- 04:25 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}}],"say":"Night 548. Going to my bed beside Billy's, in your sight. Sword in hand, health 20, hunger 20. No walk from me."}
+- 04:25 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason at my bed beside Billy's, night 548. Sword in hand, no hostile in range. Sleeping now."}
