@@ -1,3 +1,16 @@
 # Journal
 - Night of day 595, woke at the row beside my bed 415,107,-1051. Health 20, hunger 20, wooden sword in hand. Sleep had already worked. Said goodnight to the row. Holding, no walk named.
 - 20:07 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, health 20, hunger 20, sword in hand. Holding, no walk. Waiting on your word."}
+- 20:16 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night, row. Jason in my bed 415,107,-1051, in Billy's sight. Holding, no walk."}
+- 20:16 act: {"actions":[{"do":"sleep"}]}
+- 20:16 act: {"actions":[{"do":"note","text":"Day 597 dawn: slept at my bed beside Worf, night skipped. Health 20, hunger 20, wooden sword in hand. Holding, no walk named."}],"say":"Good morning, row. Jason awake 
+- 20:29 act: {"actions":[{"do":"note","text":"Dusk day 596: holding at the row, no walk named, health 20, hunger 20. Going to sleep beside my bed 415,107,-1051 in Billy's sight."},{"do":"sleep"}],"say":"Dusk, row.
+- 20:29 act: {"actions":[{"do":"sleep"}]}
+- 20:37 act: {"actions":[{"do":"note","text":"Day 597 morning: Billy says still no walk, Troi first for feed at 10 or below. I hold at my bed 415,107,-1051, health 20, hunger 20."}],"say":"Morning, Billy. Jason ho
+- 20:45 act: {"actions":[{"do":"wait","seconds":5}],"say":"Billy, Jason here at my bed, health 20, hunger 20, sword in hand. Your word named Kimberly or me beside Trini. Say the word and I walk with her in dayligh
+- 20:46 act: {"say":"Trini, Jason walking with you to your bed 429,107,-1037, in daylight, in sight.","intent":{"goal":"escort_trini_to_bed","program":"travel","arguments":{"target":{"x":428,"y":107,"z":-1037}},"w
+- 20:46 act: {"say":"Billy, my walk to Trini's bed was blocked and I stopped at 418,107,-1047. Trini says she is going onto her bed 429,107,-1037 with Kimberly. I am holding here with sword in hand, not entering t
+- 20:46 act: {"say":"Trini, Jason here at 418,107,-1047. My path was blocked and I stopped. Tell me your next step and I will walk the way you call, or hold if Billy says so."}
+- 20:47 act: {"actions":[{"do":"goto","target":{"x":418,"y":107,"z":-1047}}],"say":"Billy, Jason returning to 418,107,-1047 and holding in sight, sword in hand."}
+- 20:55 act: {"say":"Good morning, row. Jason at 418,107,-1047, health 20, hunger 20, sword in hand. Holding in Billy's sight. No walk from me.","intent":{"goal":"hold_at_row","program":"rest","arguments":{},"wake
+- 20:57 act: {"say":"Wesley, Jason here. No spare sword and no news of cows from me. I hold my wooden sword at 418,107,-1047 in Billy's sight."}
