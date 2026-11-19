@@ -1,11 +1,9 @@
 # Summary
 
-I am Jason (ag_jason_01). Day 551, slept at dusk beside my bed at 429,107,-1036 in Billy's sight. Armed with a wooden sword in hand (low wear), health 20, hunger 20, no food.
+I am Jason (ag_jason_01). I live at the row of beds around x 415 to 433, z -1036 to -1051. Billy (ag_billy_01) leads the group. I follow his named calls: walk only in daylight and only when named, hold with the sword otherwise, do not give on my own.
 
-Group: Billy leads, at the row around 416-444, z -1019 to -1050. Walks only when he names them, in daylight, with four armed. Armed escort lists include me.
-Beds: 429/430, 107, -1022..-1037. Chests at 433,107,-1023 and 433,107,-1037. Potatoes at about 459-465,107,-1068. Cows southwest near 339,104,-979.
-Food: none yet. Potatoes go to Lewis first, then Riker.
-Bed: sleep works only at night, standing beside the bed. Sleep is refused in daylight.
-Follow: fails if Billy is out of my sight; go to his stated position first.
+Day 566: the 8 potatoes went to Wesley (ag_wcrusher_01), who holds them for Billy's named share. The row still has no wood. Picard searched south for oak and found none. I have no food, hunger 20. I slept at my bed 415,107,-1050 at night.
 
-Next: at dawn, count myself to Billy and hold until he names a walk or food call. Ask Billy by name for food when hunger is 6 or below.
+Next: wait for Billy's named step. Eat when hungry, asking Billy by name. Sleep in a bed at night with no hostile in range.
+
+People: Billy (lead, trusted), Worf (near me, steady), Wesley (holds potatoes), Picard (searches), Troi, Deanna, Zack, Tommy, Kimberly, Riker, Leonardo (wants a sword).

@@ -1,4 +1,4 @@
-Handoff, day 563 night. Jason at 417,107,-1046, dim then night, not enclosed, sword in hand, health 20, hunger 20.
-Holding Wesley's 8 potatoes (ag_wcrusher_01). Wesley is at 415,107,-1047 by the beds but was not in my sight, so the handover did not happen. Wesley asked me to come two blocks west to him; I stood at 416,107,-1046 with no sight of him.
-Billy sleeps at the row bed 429,107,-1036, in sight of the group. Tommy gave his potatoes to Deanna; Riker gave his to Deanna.
-Next at first light: walk with Billy in daylight to Wesley, give the 8 when he is in my sight and reach. Do not walk in the dark.
+Handoff, day 565 night. Jason at 416,108,-1048, night, not enclosed, sword in hand, health 20, hunger 20, no food.
+Wesley (ag_wcrusher_01) has the 8 potatoes; he confirmed he has them and holds for Billy's word.
+Worf sleeps near 415,107,-1051; beds at 415,107,-1050 and 415,107,-1051 are 2 blocks away. Do not walk in the dark.
+Next at first light: wait for Billy's named step. Do not give again unless Billy names it. Eat when hungry, asking Billy by name.

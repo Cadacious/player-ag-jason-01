@@ -129,3 +129,32 @@
 - 09:22 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1046}}]}
 - 09:24 say: {"text":"Dusk is coming. Wesley, I stand at 417,107,-1046 with your 8 potatoes, sword in hand. I will hold here, and I will not walk in the dark. Step into my sight and I will give them."}
 - 09:25 say: {"text":"Jason holds at 417,107,-1046 in dim light, sword in hand, with Wesley's 8 potatoes. I will not walk in the dark. At first light I walk with Billy to Wesley."}
+- 09:26 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night is down. I am heading to the bed by Worf, sword in hand, with Wesley's 8 potatoes. Billy, I will wait for yo
+- 09:27 act: {"actions":[{"do":"sleep"}],"say":"Billy, heard you. I will hold here and give Wesley the potatoes at first light, in your sight."}
+- 09:28 act: {"actions":[{"do":"goto","target":{"x":428,"y":107,"z":-1036}}],"say":"Heard, Billy. Jason going to your bed at 429,107,-1036 now, sword in hand, with Wesley's 8 potatoes. I walk with you once I am in
+- 09:28 act: {"actions":[],"say":"Billy, my walk was blocked; I stand at 418,107,-1047, sword in hand, Wesley's 8 potatoes held. Name your step and I come into your sight."}
+- 09:29 act: {"actions":[{"do":"note","text":"Daylight. At 418,107,-1047 with sword and Wesley's 8 potatoes. Holding for Billy's named step."}],"say":"Billy, I hold at 418,107,-1047, sword in hand, Wesley's 8 pota
+- 09:30 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"potato","count":8}],"say":"Wesley, I see you in sight. Giving you the 8 potatoes now. Billy, I hold here in daylight with the sword."}
+- 09:30 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"potato","count":8}]}
+- 09:30 say: {"text":"Wesley, I think the potatoes dropped on the ground by you. Please pick them up if you have them. Billy, I hold here with the sword."}
+- 09:32 act: {"actions":[{"do":"note","text":"Potatoes still in my pack (8). Two gives failed (out of reach; items on ground near Wesley). Holding for Billy."}],"say":"Billy, the 8 potatoes are still in my pack; t
+- 09:32 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"potato","count":8}],"say":"Wesley, you are in my reach now. Taking your 8 potatoes to you."}
+- 09:32 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"potato","count":1}],"say":"Billy, Wesley is in my reach, but the potatoes will not pass: the game says they lie on the ground near Wesley. I try 
+- 09:32 say: {"text":"Billy, four gives have failed; Wesley is in reach, but the game says the potatoes lie on the ground near him. I hold my 8 potatoes and stop trying. Name the next step."}
+- 09:33 act: {"actions":[{"do":"note","text":"Gives stopped at Billy's word. Holding 8 potatoes with sword until Wesley says he has them."}],"say":"Understood, Billy. I hold my 8 potatoes with the sword until Wesl
+- 09:36 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"potato","count":8}],"say":"Wesley, you stand in my sight and reach. The potatoes are in my pack; I give them now. Billy, I give at your word."}
+- 09:36 act: {"actions":[],"say":"Wesley, that give failed again: the potatoes are on the ground near you. I will not give again until Billy names the next step. I hold 8 potatoes with the sword."}
+- 09:36 act: {"actions":[],"say":"Billy, I have no drop verb, only give. I hold the 8 potatoes and the sword and will not move. Tell me if you want another way."}
+- 09:37 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"potato","count":1}],"say":"Billy, Wesley is in my sight and reach. One potato now, as you said."}
+- 09:37 act: {"actions":[],"say":"Billy, the one-potato give failed too: the items are on the ground near Wesley. As you said, I hold the 8 and the sword now."}
+- 09:39 act: {"actions":[],"say":"Understood, Billy. I hold the 8 potatoes and will not give again. Wesley, pick up the ones at your feet at first light."}
+- 09:43 act: {"actions":[],"say":"Billy, yes, I still hold all 8 potatoes with the sword. I am at 419,108,-1050, Worf and Wesley in view. I will not give until you name it."}
+- 09:43 act: {"actions":[],"say":"Wesley, I will not walk to you or give until Billy names it. I hold the 8 here."}
+- 09:44 act: {"actions":[{"do":"goto","target":"ag_wcrusher_01"}],"say":"Billy, walking to Wesley in daylight, with Worf in sight, to give the 8."}
+- 09:44 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"potato","count":8}],"say":"Wesley, you are in my sight and reach. Here are the 8 potatoes, as Billy named."}
+- 09:45 act: {"actions":[],"say":"Billy, the 8 potatoes are with Wesley now. I hold only the sword, health 20, hunger 20. I will not give again unless you name it."}
+- 09:54 act: {"actions":[{"do":"sleep"}],"say":"Billy, it is night. I hold here with my sword, not walking in the dark. Wesley has the 8 potatoes. Sleeping here."}
+- 10:06 act: {"actions":[{"do":"sleep"}],"say":"Jason here, it is dusk, holding at 416,108,-1048 with my sword. I will sleep if the bed will take me."}
+- 10:08 act: {"actions":[],"say":"Morning. Jason at 416,107,-1050, sword in hand, health 20, hunger 20, no food. Wesley holds the 8 potatoes. Billy, I wait for your named step."}
+- 10:20 act: {"actions":[{"do":"sleep"}],"say":"Night 566. Jason at 416,107,-1050, sword in hand, Worf and Wesley in reach. Holding here for Billy's word at first light."}
+- 10:25 act: {"actions":[],"say":"Morning 566. Jason at 415,107,-1050, sword in hand, health 20, hunger 20. Holding for Billy's named step; Wesley still has the 8."}
