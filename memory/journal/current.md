@@ -83,3 +83,5 @@
 - 04:51 act: {"actions":[],"say":"Tommy, Jason here. I have only the one wooden sword, so I cannot spare it. Ask Billy for a sword for you; I hold at the row until he names the walk."}
 - 04:52 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason, dusk 549. Going to my bed beside Billy's, sword in hand, health 20, hunger 20, no food. No walk tonight."}
 - 04:56 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}}],"say":"Jason here, day 550. Holding at the row with my sword, no walk until Billy names it.","intent":{"goal":"hold_at_row_until_night",
+- 04:58 say: {"text":"Jason here at the row, sword in hand, holding in Billy's sight. Any word on food or a walk?"}
+- 05:06 say: {"text":"Billy, Jason heard you: potatoes go to Lewis, then Riker. I hold at my bed in your sight and will sleep at dusk."}
