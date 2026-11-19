@@ -14,5 +14,7 @@
 - Day 585: Leonardo scouted west and reported a 6-block drop west of 385,107 with no planks and no clear path. The west route stays shut.
 - Day 585: Billy fed Troi two potatoes at dusk. Food reaches the row through Billy.
 - Day 593: the row held all day again. No one has a verified route past x=370. Nothing new learned.
+- Day 601: Billy's standing word: hold in sight tonight, sleep at named beds, no walks. Wesley's bed 415,107,-1050 still says the way was blocked; Billy will look at it with an armed escort at daylight.
+- Day 601: a `rest` intent ends at once and does not hold me; for waiting at the row, use wait with interests instead.
 
 Curious next: how potatoes are shared out after Troi and Wesley. Who to tell: Billy at first light.
