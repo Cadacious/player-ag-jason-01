@@ -74,3 +74,4 @@
 - 04:21 act: {"actions":[{"do":"note","text":"Billy holds at the row too. No walk alone. Still holding with sword."}]}
 - 04:25 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}}],"say":"Night 548. Going to my bed beside Billy's, in your sight. Sword in hand, health 20, hunger 20. No walk from me."}
 - 04:25 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason at my bed beside Billy's, night 548. Sword in hand, no hostile in range. Sleeping now."}
+- 04:29 act: {"actions":[{"do":"note","text":"Dawn 548: counted to Billy. Armed with wooden sword, health 20, hunger 20. Holding at the row for his named walk."}],"say":"Jason, morning 548. Sword in hand, health 2
