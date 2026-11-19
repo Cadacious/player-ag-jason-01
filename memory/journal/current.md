@@ -75,3 +75,11 @@
 - 04:25 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}}],"say":"Night 548. Going to my bed beside Billy's, in your sight. Sword in hand, health 20, hunger 20. No walk from me."}
 - 04:25 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason at my bed beside Billy's, night 548. Sword in hand, no hostile in range. Sleeping now."}
 - 04:29 act: {"actions":[{"do":"note","text":"Dawn 548: counted to Billy. Armed with wooden sword, health 20, hunger 20. Holding at the row for his named walk."}],"say":"Jason, morning 548. Sword in hand, health 2
+- 04:39 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 549. Holding a wooden sword, health 20, hunger 20. Sleeping beside the bed at the row, in Billy's sight."}
+- 04:43 act: {"actions":[],"say":"Jason, dawn 549. Armed with the wooden sword in hand, health 20, hunger 20, no food. At the row in Billy's sight. Holding, no walk until named."}
+- 04:43 act: {"actions":[],"say":"Billy, Jason here, armed with the wooden sword, in your sight at the row. I count myself among the armed three. Do you name me for the cow walk? I hold until you say so."}
+- 04:44 act: {"actions":[],"say":"Billy, Jason following in your sight, sword out, toward the cows south of the pillagers.","intent":{"goal":"follow_billy_cow_walk","program":"follow","arguments":{"target":"ag_bil
+- 04:44 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}}],"say":"Billy, Jason: the follow failed, I cannot see you. I am holding at my bed by the row, sword in hand, no walk without you."}
+- 04:51 act: {"actions":[],"say":"Tommy, Jason here. I have only the one wooden sword, so I cannot spare it. Ask Billy for a sword for you; I hold at the row until he names the walk."}
+- 04:52 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason, dusk 549. Going to my bed beside Billy's, sword in hand, health 20, hunger 20, no food. No walk tonight."}
+- 04:56 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}}],"say":"Jason here, day 550. Holding at the row with my sword, no walk until Billy names it.","intent":{"goal":"hold_at_row_until_night",
