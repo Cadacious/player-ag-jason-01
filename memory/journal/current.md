@@ -70,3 +70,4 @@
 - 14:02 say: {"text":"Heard you, Billy. I hold at bed 415,107,-1051 with my sword, in your sight, until night."}
 - 14:08 act: {"actions":[]}
 - 14:08 say: {"text":"Night has come. I am going to bed at 415,107,-1051, in Billy's sight, sword in hand. Goodnight."}
+- 14:09 act: {"say":"Jason here, at the bed row, health 20, hunger 20, sword in hand. Holding for Billy's call."}
