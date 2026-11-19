@@ -14,3 +14,8 @@
 - 20:47 act: {"actions":[{"do":"goto","target":{"x":418,"y":107,"z":-1047}}],"say":"Billy, Jason returning to 418,107,-1047 and holding in sight, sword in hand."}
 - 20:55 act: {"say":"Good morning, row. Jason at 418,107,-1047, health 20, hunger 20, sword in hand. Holding in Billy's sight. No walk from me.","intent":{"goal":"hold_at_row","program":"rest","arguments":{},"wake
 - 20:57 act: {"say":"Wesley, Jason here. No spare sword and no news of cows from me. I hold my wooden sword at 418,107,-1047 in Billy's sight."}
+- 21:07 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"use","at":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Dusk, row. Jason going to my bed 415,107,-1051 in Billy's sight. Hea
+- 21:07 act: {"actions":[{"do":"sleep"}],"say":"Jason at 416,107,-1050 beside my bed, in Billy's sight. Bed would not take me, so I sleep here in the row. No hostile near."}
+- 21:08 act: {"actions":[{"do":"unstick"}],"say":"Billy, Jason cannot sleep at my bed yet: the bed would not take me and sleep said the way was blocked. I am standing at 415,107,-1050 beside the row, sword in hand
+- 21:08 act: {"actions":[],"say":"Good morning, Billy. Jason at 417,107,-1050, health 20, hunger 20, sword in hand. My bed would not take me last night, so I held in the row. No walk from me until you name it."}
+- 21:20 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason at 417,107,-1050 in Billy's sight, health 20, hunger 20. No walk. Sleeping here."}
