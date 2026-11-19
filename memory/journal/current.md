@@ -1,8 +1,73 @@
 # Journal
 - 05:25 act: {"say":"Jason here at the row, morning 551, beside Billy. Health 20, hunger 20, sword in hand. Holding for your named call."}
-- 05:38 act: {"say":"Jason here, day 552, at the row at 430,107,-1051. Hunger 20, health 20, sword in hand. Holding until Billy names a walk or food call.","intent":{"goal":"hold_at_row_for_billy","program":"rest"
-- 05:38 act: {"say":"Yes, Billy, I'm coming. Walking to you now with my sword.","intent":{"goal":"walk_with_billy_to_field","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["directly_addressed","
-- 05:38 act: {"say":"Billy, my follow failed because I can't see you from here. Going to your stated spot, 414,107,-1041.","actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1041}}]}
-- 05:39 learned: follow to Billy failed because he was out of my sight at the row. Goto to his stated spot worked.
-- 05:39 act: {"say":"Jason at 415,107,-1041, where you said. Hunger 20, sword in hand. Billy, name the next walk and I follow.","intent":{"goal":"hold_at_billys_spot","program":"rest","arguments":{},"wake_on":["di
-- 05:39 act: {"say":"Understood, Billy. Holding here at the row, nobody leaves. I'll wait for your call."}
+- 05:38 act: {"say":"Jason here, day 552, at the row at 430,107,-1051. Hunger 20, health 20, sword in hand. Holding until Billy names a walk or food call.","intent":{"goal":"hold_at_row_for_billy","program":"rest"}}
+- 05:38 act: follow to Billy failed because he was out of my sight. Goto to his stated spot worked.
+- 05:47 act: Billy (midday 552) asked Jason, MacDonald, Worf to walk to the potato field and asked for confirmation. I confirmed aloud and goto ag_billy_01 (daylight, in his sight). Result pending.
+- 05:47 act: {"actions":[],"say":"Billy, I cannot see you from 415,107,-1041. Name your spot and I walk there. Holding with my sword until then.","reasoning":"Goto by name failed: he is out of sight. Do not walk b
+- 05:47 act: {"actions":[],"say":"Billy, I do not see you. I am still at 415,107,-1041 with my sword. Please give me the field coordinates or wait for me here.","reasoning":"Billy thinks I am with him; I am not in
+- 05:48 act: {"actions":[{"do":"goto","target":{"x":431,"y":107,"z":-1032}}],"say":"Billy, going to your stated spot by the crafting table now, 431,107,-1032. Dusk is here, so I will come into your sight.","reason
+- 05:48 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason going to the bed at 429,107,-1036 in Billy's sight for the night. Sword in hand, health 20, hunger 20.","rea
+- 05:53 act: {"actions":[],"say":"Jason here, 3 blocks from you, Billy, in your sight. Hunger 20, no food needed yet. Holding with the group.","reasoning":"Billy named me to stay with him. I need no potatoes at fu
+- 05:55 act: {"actions":[],"say":"Jason, in your sight, Billy. Hunger 20, sword in hand. No potatoes for me; the hungry go first.","reasoning":"Billy asked me to say my name when in sight. Done. I need no food now
+- 05:59 act: {"actions":[{"do":"sleep"}],"say":"Jason going to bed here beside my bed in Billy's sight. Sword in hand, hunger 20.","reasoning":"Night is coming. I am beside my bed in Billy's sight; try to sleep."}
+- 06:05 dawn 553: sleep refused, not night yet. Holding beside bed 429,107,-1036 in Billy's sight, 3.3 blocks, sword in hand, hunger 20. Billy holds 27 potatoes for the hungry first; I need none.
+- 06:08 night 553: sleep worked (5 of 10 asleep) at bed 429,107,-1036 in Billy's sight. Safe, no hostile near. Lesson: sleep is refused until night has come.
+- 06:12 day 553: awake beside bed 429,107,-1036 in Billy's sight. Health 20, hunger 20, sword in hand. Lewis (18) and others are hungry at the row; Billy is feeding them. I wait for his named call.
+- 06:20 day 554: Billy said I am in his sight; he sleeps at the row bed at dusk. I hold beside my bed 429,107,-1037, health 20, hunger 20, sword in hand, and will sleep when night comes. Lewis, Clark, Riker hold potatoes for the hungriest at first light.
+- 06:22 midday 554: Billy named an escorted walk to Wesley's bed 415,107,-1050. I confirmed aloud; follow failed when he went out of sight. Goto to his stated road point 415,107,-1041 worked. Billy not in sight now; holding here with my sword, health 20, hunger 20.
+- 06:03 act: {"actions":[{"do":"sleep"}],"say":"Jason sleeping beside my bed at 429,107,-1036, in Billy's sight. Sword in hand, hunger 20.","reasoning":"It is night now and I am sheltered by company. Sleep in my b
+- 06:07 act: {"actions":[],"say":"Jason awake at dawn 553 beside my bed, in Billy's sight. Health 20, hunger 20, sword in hand. No food needed; the hungry go first.","reasoning":"Dawn. I am well, in sight of Billy
+- 06:15 act: {"actions":[],"say":"Jason in your sight, Billy. Health 20, hunger 20, sword in hand. I hold beside my bed here and sleep when night comes.","reasoning":"Billy says I am in sight and he goes to the ro
+- 06:21 act: {"actions":[],"say":"Jason confirmed, Billy. Sword in hand, I walk as your escort to Wesley's bed in daylight. I stay in your sight.","intent":{"goal":"escort_billy_to_wesley","program":"follow","argu
+- 06:22 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1041}}],"say":"Billy, I cannot see you now; the follow ended. I go to your stated road point 414,107,-1041, then to Wesley's bed. Say your spot 
+- 06:23 act: {"actions":[{"do":"goto","target":{"x":427,"y":107,"z":-1036}}],"say":"Jason coming to you at the row, Billy, sword in hand. Wesley, come with me.","reasoning":"Billy turned back to the row at 427,107
+- 06:23 act: {"actions":[],"say":"Jason with you at the row, Billy, in your sight. Hunger 20, sword in hand. Holding for the next named call.","reasoning":"I reached Billy's spot and am in his sight. Hold until he
+- 06:31 night 554: went to bed beside Billy's row bed; sleep worked (9 of 10 asleep). Hunger 20, health 20, sword in hand. Wesley and Lewis hungry; Billy holds potatoes for dawn.
+- 06:31 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason going to my bed at 429,107,-1036 beside Billy's bed for the night, in his sight. Hunger 20, sword in hand.",
+- 06:35 act: {"actions":[{"do":"goto","target":{"x":427,"y":107,"z":-1036}}],"say":"Jason, morning 555, going to the row to be in Billy's sight. Hunger 20, sword in hand. No food needed; Wesley and the hungry go f
+- 06:50 afternoon 555: Billy's walk to Wesley's bed was blocked; he returned to the row with me in sight. I hold at 426,107,-1036, hunger 20, sword in hand, no food needed.
+- 06:35 act: {"actions":[],"say":"Jason at the row at 426,107,-1036, morning 555. Hunger 20, sword in hand. I do not see Billy yet; holding here for his named call.","reasoning":"I am at the row. Billy is not in m
+- 06:43 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason going to my bed at 429,107,-1036 at the row for the night, in Billy's sight. Hunger 20, sword in hand.","rea
+- 06:44 act: {"actions":[{"do":"goto","target":{"x":427,"y":107,"z":-1036}}],"say":"Jason awake at dawn 556 at 443,107,-1035, health 20, hunger 20, sword in hand. Going back to the row at 427,107,-1036 to be in Bi
+- 06:44 act: {"actions":[{"do":"sleep"}],"say":"Jason at the row, 427,107,-1035, in Billy's sight for the night. Health 20, hunger 20, sword in hand. Sleeping here.","reasoning":"Night again, I am at the row in si
+- 06:44 act: {"actions":[{"do":"goto","target":{"x":427,"y":107,"z":-1036}}],"say":"Jason awake at dawn 556, health 20, hunger 20, sword in hand. Going to the row at 427,107,-1036 to be in Billy's sight.","reasoni
+- 06:45 act: {"actions":[],"say":"Jason awake at dawn at the row, 427,107,-1035, in your sight, Billy. Health 20, hunger 20, sword in hand. No potatoes for me; Wesley and the hungry first. Holding for your named c
+- 06:56 act: {"actions":[{"do":"sleep"}],"say":"Jason at the row, 427,107,-1035, dusk 556, in Billy's sight. Health 20, hunger 20, sword in hand. Sleeping here for the night.","reasoning":"Dusk with thunder. I am 
+- 07:00 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason at my bed beside Billy's, night 556, in the group's sight. Health 20, hunger 20, sword in hand. Sleeping now
+- 07:00 act: {"actions":[{"do":"goto","target":{"x":427,"y":107,"z":-1036}}],"say":"Jason awake at morning 556, at 414,107,-1041 after the sleep moved me. Going back to the row at 427,107,-1036. Health 20, hunger 
+- 07:01 act: {"actions":[],"say":"Jason confirmed, Billy. Day light, sword in hand, I walk with you to Wesley's bed at 415,107,-1050. I stay in your sight. If I lose sight of you, I go to your stated spot, not by 
+- 07:01 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1048}}],"say":"Billy, follow ended when you went out of my sight. I go to your stated spot 413,107,-1049 now, sword in hand. Say when I am in yo
+- 07:01 act: {"actions":[],"say":"Jason in your sight, Billy, at 413,107,-1048. Sword in hand, health 20, hunger 20. No potatoes for me. Wesley, come to Billy and Worf."}
+- 07:03 day 556: Follow to Billy failed when he went out of sight; goto to his stated spot 413,107,-1049 worked. I am in his sight at 413,107,-1048 with Worf and Wesley near. Hunger 20, sword in hand, no food needed.
+- 07:06 act: {"actions":[{"do":"goto","target":{"x":427,"y":107,"z":-1036}}],"say":"Jason heading back to the row at 427,107,-1036 with Billy, sword in hand. Hunger 20, health 20. Holding for his named call."}
+- 07:06 act: {"actions":[],"say":"Jason at the row, 427,107,-1036, in Billy's sight. Health 20, hunger 20, sword in hand. Holding for your named call."}
+- 07:08 day 556: Back at the row 427,107,-1036 in Billy's sight (distance 1.1). Health 20, hunger 20, sword in hand. Holding for his next named call. Billy said Wesley is out of sight, so he returned with the 21 potatoes.
+- 07:13 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason here at night 556, going to my bed 429,107,-1036 in the group's sight. Sword in hand, health 20, hunger 20. 
+- 07:14 act: {"actions":[{"do":"goto","target":{"x":427,"y":107,"z":-1036}}],"say":"Jason coming to the row, 427,107,-1036, sword in hand, to be in Billy's sight for the walk to Wesley."}
+- 07:15 act: {"actions":[],"say":"Jason at the row, 427,107,-1035, morning 557, sword in hand. Billy, I do not see you yet. Say your spot and I go there."}
+- 07:23 act: {"actions":[],"say":"Billy, I am at 427,107,-1035 at the row with my sword, but I do not see you in my sight. Where are you exactly? Give me a coordinate and I go there."}
+- 07:24 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1037}}],"say":"Going to you now, Billy, at 430,107,-1037, sword in hand."}
+- 07:24 act: {"actions":[],"say":"Jason with you, Billy, at 430,107,-1036, in your reach. Sword in hand, health 20, hunger 20. Say the walk and I go with you."}
+- 07:25 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Billy, Jason heard: the walk waits for first light. I go to my bed 429,107,-1036 in your sight and sleep. Lesson f
+- 07:29 act: {"actions":[],"say":"Jason at the row in your sight, Billy, morning 557. Sword in hand, health 20, hunger 20. Name the walk and I go."}
+- 07:29 act: {"actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1048}}],"say":"Confirmed, Billy. Jason with sword in hand, walking with you to Wesley's bed. I go to your stated spot 413,107,-1048 and stay in 
+- 07:30 act: {"actions":[],"say":"Jason at 413,107,-1047, near your spot, Billy. I do not see you now. Sword in hand, health 20, hunger 20. Say where to go next and I go."}
+- 07:30 act: {"actions":[],"say":"Jason in your sight, Billy, beside you at 413,107,-1047. Sword in hand. I hold here; Wesley, come to Billy."}
+- 07:32 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1048}}],"say":"Going with you, Billy, to Wesley's bed, sword in hand. Holding in your sight."}
+- 07:32 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1049}}],"say":"Got 8 potatoes from Billy, Wesley. I am going to your bed at 416,107,-1050 to give them to you first."}
+- 07:33 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1050}}],"say":"Billy, the way to Wesley's bed was blocked at 415,107,-1048. I'm trying 414,107,-1050 instead, still holding the 8 potatoes."}
+- 07:33 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1051}}],"say":"Wesley, I have 8 potatoes from Billy for you. Where are you? I am close to your bed. Tell me where to stand and I will give them 
+- 07:33 act: {"actions":[{"do":"note","text":"Day 557 midday: Wesley not in sight at his bed area; holding 8 potatoes beside Billy at 413,107,-1051. Waiting for Wesley to come into view."}],"say":"Billy, Wesley is
+- 07:35 act: {"actions":[{"do":"note","text":"Day 558 afternoon: Billy went to 415,107,-1047 to find Wesley and Worf; told me to stay with him. Holding 8 potatoes at 413,107,-1051, sword in hand. Waiting for Wesle
+- 07:35 act: {"actions":[{"do":"goto","target":{"x":427,"y":107,"z":-1035}}],"say":"Going to the row at 427,107,-1035 as you said, Billy. Holding the potatoes."}
+- 07:35 act: {"actions":[{"do":"note","text":"Day 558 dusk: at the row 427,107,-1035 with Billy gone to bed at 429,107,-1036. Still holding 8 potatoes for Wesley; he did not come. Will give them at first light."}]
+- 07:39 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1036}}],"say":"Dusk, Jason going to my bed at 429,107,-1036 to rest with the 8 potatoes still held for Wesley. Will give them at first light."}
+- 07:40 act: {"actions":[{"do":"sleep"}]}
+- 07:42 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1050}}],"say":"Morning 559. Jason, sword in hand, walking to Wesley's bed at 415,107,-1050 with Billy as he named. I carry 8 potatoes for Wesley
+- 07:42 act: {"actions":[{"do":"note","text":"Day 559 morning: at 413,107,-1050 near Wesley's bed with 8 potatoes, sword in hand. Billy's escort not yet in sight. Holding for Wesley and Billy's word."}],"say":"Jas
+- 07:43 act: {"actions":[{"do":"note","text":"Day 559 morning. At 413,107,-1050 beside Billy, sword in hand, 8 potatoes. Wesley not in sight yet; holding until he is."}],"say":"Billy, I hold at 413,107,-1050 with 
+- 07:45 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1050}}],"say":"Wesley, I come to you at 414,107,-1050, sword in hand, with the 8 potatoes."}
+- 07:45 act: {"actions":[{"do":"goto","target":{"x":427,"y":107,"z":-1035}}],"say":"Billy, walking to the row at 427,107,-1035 as you named. Wesley, I hold the potatoes there for you."}
+- 07:45 act: {"actions":[{"do":"note","text":"Midday day 559. Walked to the row 427,107,-1035 with Billy as named. Wesley still not in sight; holding the 8 potatoes for him."}]}
+- 07:46 act: {"actions":[],"say":"Billy, Wesley is not in my sight. Wesley, walk to the row at 427,107,-1035 and I hand you the potatoes there."}
+- 07:54 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1035}},{"do":"note","text":"Night 559. Wesley never came into sight; I keep the 8 potatoes. Going to bed beside Billy at 429,107,-1037."}]}
