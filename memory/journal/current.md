@@ -1,1 +1,72 @@
 # Journal
+- Night 567: at bed 415,107,-1050 with Worf and Wesley near. Health 20, hunger 20, sword in hand. Sent sleep; it did not fully take. Morning 567 came. I told Billy I hold a wooden sword, no food, and wait for his named step. Clark holds 6 potatoes, Deanna 13, Riker 3, Wesley 6. Nobody has named a share yet.
+- 10:43 act: {"actions":[],"say":"Billy, Jason is armed with a wooden sword, health 20. I can go with Picard east if you name me. Holding here until then."}
+- 10:43 act: {"actions":[],"say":"Billy, Picard is back at the row with no oak logs found east. Jason is ready with a sword. Do you want me to search again, or hold at the row?"}
+- 10:44 act: {"actions":[{"do":"goto","target":{"x":447,"y":107,"z":-1055}}],"say":"Going north-east as Billy named, to x 447, z -1055. Looking for oak logs."}
+- 10:44 act: {"actions":[],"say":"Billy, the way north-east was blocked. I stopped at 418,107,-1051, still at the row. No logs seen yet. Waiting for your next call."}
+- 10:44 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1048}}],"say":"Coming back to the row, Billy. Then I will go south-east when you name the next search."}
+- 10:45 act: {"actions":[{"do":"goto","target":{"x":447,"y":107,"z":-1015}}],"say":"Going south-east as Billy named, to x 447, z -1015. Oak logs only."}
+- 10:45 act: {"actions":[],"say":"Billy, south-east has no path to x 447, z -1015. I am at 418,107,-1047, back near the row. No logs seen. Waiting for your next named call."}
+- 10:46 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Holding at the row, Billy. Going to my bed at 415,107,-1050 for the night, in the group's sight. Jason is armed, health 20."}
+- Dusk 567: south-east blocked ("no path"), reported to Billy. Billy says hold at the row. At bed 415,107,-1050 with Worf and Wesley near, health 20, hunger 20. Sent sleep. No food held.
+- Morning 568: woke at my bed 416,107,-1050, health 20, hunger 20, sword in hand. Holding at the row for Billy's named call. Still no logs found.
+- Morning 568, 10:56: Billy named north search (416,107,-1066, within 20 of row). Goto blocked: no path. Said so to Billy, returning to the row bed. No logs.
+- Night 568: Billy at row bed. I go to bed 415,107,-1050 with sword, health 20, hunger 20, no food. Holding for first light.
+- 10:46 act: {"actions":[{"do":"sleep"}]}
+- 10:56 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1066}}],"say":"Going north of the row as Billy named, to 416,107,-1066, looking for oak logs. Picard, I go with you if you are with me."}
+- 10:56 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Billy, north of the row is blocked: no path to 416,107,-1066. I am coming back to the row bed at 416,107,-1050. Picard, I did not
+- 11:00 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night 568. Jason going to my bed at 415,107,-1050 in the group's sight, sword in hand, health 20, hunger 20. No fo
+- 11:01 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}]}
+- Morning 568 later: south goto blocked (416,107,-1040). Told Billy, held at 416,107,-1047. Billy named Worf, MacDonald, Clark for oak trip; I stayed at the row.
+- Morning 569: at the row 416,107,-1047, sword in hand, health 20, hunger 20. Holding for Billy's named call.
+- Morning 569, later: wait timed out, nobody addressed me. Wesley and Worf near. Set a hold intent at the row for Billy's call. No food held.
+- Dusk 569: night now, dim. Holding at 416,107,-1047, not walking in the dark, sword in hand, health 20, hunger 20. Wesley and Worf near. Will sleep at first light or when Billy names a bed.
+- Morning 570: at 416,107,-1047, in the row's sight, sword in hand, health 20, hunger 20, no food. Billy's north wood trip has Zack and Tommy only; he did not name me, so I hold at the row.
+- Morning 570, later: Billy's wood trip is out of my sight; Trini and Laforge are getting swords at the row table. Not named, so I hold at 416,107,-1047 with my sword.
+- Dusk 570: night. Billy has the swords handed out and named beds for Trini and Tommy, not me. I hold at 416,107,-1047, not walking in the dark, sword in hand, health 20, hunger 20, no food. Wesley sleeps at his bed 416,107,-1050 near me.
+- Morning 570 (day again): Worf beside me, Wesley near, all in sight. Not named. Holding at 416,107,-1047, sword in hand, health 20, hunger 20, no food.
+- Night 568, later: back at the row bed 416,107,-1050 in Wesley's and Worf's sight. Sleep at 415,107,-1050 had failed (way blocked). Holding for Billy's call or first light. Health 20, hunger 20, no food.
+- 11:01 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Billy, Jason is back at the row bed 415,107,-1050, the night sleep there failed earlier with the way blocked. I hold here with my
+- 11:02 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1040}}],"say":"Billy, Jason going south of the row as you named, to 416,107,-1040, within 20 of the row bed, with my wooden sword, health 20, hu
+- 11:03 act: {"actions":[],"say":"Billy, south of the row is blocked: the way to 416,107,-1040 was blocked. I stopped at 416,107,-1047, still at the row, sword in hand, health 20. No logs seen. Waiting for your ne
+- 11:11 act: {"actions":[],"say":"Billy, Jason holds at the row at 416,107,-1047 with my wooden sword, health 20, hunger 20. You named Worf, MacDonald and Clark for the oak trip, so I stay. Call me if you want me 
+- 11:23 act: {"actions":[],"intent":{"goal":"hold_at_row_for_billy","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_
+- Day 573 morning: Billy says no walk today, hunger 6 or below only. I am at 20. Holding at 416,107,-1047 with my sword, health 20, no food.
+- Day 572 morning: Billy's potato walk came back with 35 potatoes, at the row. I am not on the list. Hunger 20, so I hold at 416,107,-1047 with my sword, health 20.
+- Night 571: phantom hitting Troi at the east end of the row, Billy went to her. Not named, so I hold at 416,107,-1047 with my sword, health 20, hunger 20, no food. Worf 4 blocks off.
+- Morning 575, later: wait timed out. Troi's potatoes are being arranged by Clark and Lewis, not me. Holding at 416,107,-1047, sword in hand, health 20, hunger 20.
+- Morning 575: bright. Billy says no walk until he names it, tree walk unnamed. Not named. Holding at 416,107,-1047, sword in hand, health 20, hunger 20, no food.
+- Morning 576, later 2: Billy fed Tommy 4 potatoes, and plans a daylight walk to Zack at the potato field 466,107,-1070 with Picard. I am not named. Holding at 416,107,-1047, sword in hand, health 20, hunger 20.
+- Morning 576, later: Billy feeding Tommy at his bed, Riker given the bed at 443,107,-1036. Not named to a bed or food. Holding at 416,107,-1047, sword in hand, health 20, hunger 20. Days since sleep 9; I will ask Billy for a bed at dusk.
+- Dusk 576: dusk. Billy has Zack back at the row; no walk named, nothing for me. Holding at 416,107,-1047 in sight, sword in hand, health 20, hunger 20, no food. Not walking in the dark.
+- Morning 576: bright. Billy taking a potato to Tommy at his bed. Nothing named for me. Holding at 416,107,-1047, sword in hand, health 20, hunger 20, no food.
+- Day 575 later: Tommy at health 3, Billy named a potato from Wesley for him, Riker given a bed. Nothing named for me. Holding at 416,107,-1047 in sight, sword in hand, health 20, hunger 20, no food.
+- Dusk 575: dim, Trini and Troi going to their beds, nobody names me a bed. Holding at 416,107,-1047 in sight, sword in hand, health 20, hunger 20, no food. Not walking in the dark.
+- Morning 575, later: Billy says still no walk named; Troi at 8, Clark and Leonardo hold food for her at 6. Not named. Holding at 416,107,-1047, sword in hand, health 20, hunger 20.
+- Morning 575 (again): bright. Billy and Lewis sleeping in beds, no walk named. Troi at health 8, hunger 17. Not named. Holding at 416,107,-1047, sword in hand, health 20, hunger 20.
+- Night 575: dim now, wait timed out with no one naming me. Wesley and Worf about 3 blocks away. Holding at 416,107,-1047 in sight, sword in hand, health 20, hunger 20, no food. Not walking in the dark.
+- Night 574: dim now. Worf sleeping at the row, Laforge in his bed. Not named to a bed, so I hold at 416,107,-1047 in Billy's sight, sword in hand, health 20, hunger 20, no food. Not walking in the dark.
+- Day 574 later: wait timed out. Clark and Leonardo talk of food for Troi at 8 health, not me. I hold at 416,107,-1047, sword in hand, health 20, hunger 20.
+- Day 574 morning: Billy has no word on the oak, everyone holds at the row until a daylight walk is named. I am at 416,107,-1047, sword in hand, health 20, hunger 20, no food. Holding.
+- Dusk 573: dusk coming. Wesley at bed 415,107,-1050, Troi and Laforge settling in beds. Not named to a bed, so I hold at 416,107,-1047 in sight, sword in hand, health 20, hunger 20, no food.
+- Day 573 later: Billy says no walk today, potatoes only at hunger 6 or below. Harvest failed; he holds 23. I am at 20. Holding at 416,107,-1047, sword in hand, health 20.
+- Day 573 wait: Billy's potato walk is for Trini and the escort, not me. Night 573 bed rows named for others. I hold at 416,107,-1047, health 20, hunger 20, sword in hand, no food.
+- Day 572 wait: timed out again. Billy is helping Riker with 2 potatoes, not me. Bright at 416,107,-1047, health 20, hunger 20, sword in hand, no food. Holding.
+- Day 571: wait timed out. Nobody named me. Bright at 416,107,-1047, health 20, hunger 20, wooden sword in hand, no food. Worf in reach. Holding for Billy's named call.
+- 13:52 act: {"actions":[{"do":"note","text":"Holding at 416,107,-1047 in sight, sword in hand, health 20, hunger 20, no food. Not named yet."}],"say":"Billy, Jason is at 416,107,-1047 in your sight, sword in hand
+- 13:53 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1037}},{"do":"sleep"}],"say":"Billy, Jason is going to the bed at 429,107,-1037 as you named, in the row's sight, sword in hand, health 20, hung
+- 13:53 act: {"actions":[{"do":"note","text":"Dusk 576: Billy named bed 429,107,-1037. Goto blocked (way was blocked), I stopped at 418,107,-1047 in the row. Holding here, sword in hand."}],"say":"Billy, the way t
+- 13:54 act: {"actions":[{"do":"note","text":"Night 577: Billy cannot see me from his bed. Holding at 418,107,-1047 with the row, sword in hand, health 20, hunger 20, no food."}],"say":"Billy, Jason holds at 418,1
+- 13:55 act: {"actions":[{"do":"note","text":"Night 577: Billy sleeping at 443,107,-1037. He will name a bed at first light. I hold at 418,107,-1047, sword in hand, health 20, hunger 20."}]}
+- 13:56 act: {"actions":[{"do":"goto","target":{"x":443,"y":107,"z":-1050}}],"say":"Billy, Jason going to the white bed at 443,107,-1050 as you named, in the row's sight, daylight, sword in hand, health 20, hunger
+- 13:57 act: {"actions":[{"do":"note","text":"Day 577: goto to bed 443,107,-1050 blocked; I stopped at 419,108,-1050 in the row's sight. Holding, sword in hand, health 20, hunger 20."}],"say":"Billy, the way to th
+- 13:57 act: {"actions":[{"do":"note","text":"Day 577: Tommy says the bed at 443,107,-1050 is mine, he stands beside it. My goto was blocked; I hold at 419,108,-1050 in sight, sword in hand, health 20, hunger 20."
+- 13:57 act: {"actions":[{"do":"note","text":"Day 577: still holding at 419,108,-1050 in the row's sight, sword in hand, health 20, hunger 20. No new word from Billy; bed at 443,107,-1050 not reached."}]}
+- 13:57 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1050}},{"do":"note","text":"Day 577: Billy named bed 429,107,-1050 in the row's sight. Going there slowly, sword in hand."}],"say":"Billy, going
+- 13:57 act: {"actions":[{"do":"note","text":"Day 577: goto to bed 429,107,-1050 blocked; I got stuck and unstuck. Now at 417,107,-1050, near Wesley and Worf, sword in hand, health 20, hunger 20."}],"say":"Billy, 
+- 13:58 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"note","text":"Day 577: Billy named bed 415,107,-1051, two steps away, in the row's sight. Going there, sword in hand."}],"say":"Bi
+- 13:58 act: {"actions":[{"do":"note","text":"Day 577: at the white bed 415,107,-1051 in the row's sight, sword in hand, health 20, hunger 20. Not night yet, so I wait here for Billy."}],"say":"Billy, Jason is at 
+- 13:58 act: {"actions":[{"do":"note","text":"At white bed 415,107,-1051 in daylight, sword in hand, health 20, hunger 20. Worf and Wesley within reach. Billy not in sight. Waiting here for night or Billy's word."
+- 14:02 say: {"text":"Heard you, Billy. I hold at bed 415,107,-1051 with my sword, in your sight, until night."}
+- 14:08 act: {"actions":[]}
+- 14:08 say: {"text":"Night has come. I am going to bed at 415,107,-1051, in Billy's sight, sword in hand. Goodnight."}
