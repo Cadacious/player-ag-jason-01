@@ -88,3 +88,5 @@
 - 05:07 say: {"text":"Jason here, dusk 550, sword in hand, health 20, hunger 20, no food. Holding at the row in Billy's sight. No walk from me."}
 - 05:07 act: {"actions":[{"do":"sleep"}],"say":"Billy, Jason: night 550, sleeping beside the bed at the row in your sight. Sword in hand, health 20, hunger 20. No walk from me."}
 - 05:07 act: {"actions":[{"do":"sleep"}]}
+- 05:09 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 550. Beside my bed at the row, in Billy's sight. Sword in hand, health 20, hunger 20. Going to sleep."}
+- 05:09 act: {"actions":[{"do":"note","text":"Night 550: slept beside my bed at 430,107,-1023 in Billy's sight, sleep worked. Sword in hand, health 20, hunger 20, no food. No walk named."}]}
