@@ -5,5 +5,5 @@
 3. Keep a sword in hand, and get a better one when Billy names it. Reason: the wooden sword is the only one I have.
 4. Walk only when Billy names it, in daylight, in his sight, on a route someone has verified. Reason: the west is still blocked.
 
-Curious next: how the potatoes are shared out after Troi and Wesley; whether Billy's escort finds Wesley's bed open.
+Curious next: how the potatoes are shared out; whether the oak planks west can be cleared.
 Who to tell: Billy, first thing at first light.
