@@ -7,11 +7,12 @@
 - Give works only to someone within reach.
 - Billy's rule: walk only with four in sight and two armed.
 - Swords go in turn: Picard has one from Worf (day 528). I am next after Picard and Worf per Billy's order.
-- Food: food is scarce. Potatoes are with Wesley, Zack and others; Billy's rule is that anyone at hunger 6 or below says so and is fed from them. Bread can go astray when given by mistake; check who it reached.
+- Food: food is scarce. Potatoes are with Wesley, Zack and others; anyone at hunger 6 or below says so and is fed from them. Bread can go astray when given by mistake; check who it reached.
 - Waiting at the row for a named call costs nothing but time; the group holds until dawn.
 - A named intent to hold at a bed can be refused by the body if its schema is wrong; the `rest` program takes no note argument.
-- Day 585: the whole row held at beds all day with no walk named. Billy speaks first each morning.
+- Billy speaks first each morning.
 - Day 585: Leonardo scouted west and reported a 6-block drop west of 385,107 with no planks and no clear path. The west route stays shut.
 - Day 585: Billy fed Troi two potatoes at dusk. Food reaches the row through Billy.
+- Day 593: the row held all day again. No one has a verified route past x=370. Nothing new learned.
 
 Curious next: how potatoes are shared out after Troi and Wesley. Who to tell: Billy at first light.
