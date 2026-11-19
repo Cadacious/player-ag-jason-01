@@ -85,3 +85,6 @@
 - 04:56 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1036}}],"say":"Jason here, day 550. Holding at the row with my sword, no walk until Billy names it.","intent":{"goal":"hold_at_row_until_night",
 - 04:58 say: {"text":"Jason here at the row, sword in hand, holding in Billy's sight. Any word on food or a walk?"}
 - 05:06 say: {"text":"Billy, Jason heard you: potatoes go to Lewis, then Riker. I hold at my bed in your sight and will sleep at dusk."}
+- 05:07 say: {"text":"Jason here, dusk 550, sword in hand, health 20, hunger 20, no food. Holding at the row in Billy's sight. No walk from me."}
+- 05:07 act: {"actions":[{"do":"sleep"}],"say":"Billy, Jason: night 550, sleeping beside the bed at the row in your sight. Sword in hand, health 20, hunger 20. No walk from me."}
+- 05:07 act: {"actions":[{"do":"sleep"}]}
