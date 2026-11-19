@@ -11,5 +11,7 @@
 - Waiting at the row for a named call costs nothing but time; the group holds until dawn.
 - A named intent to hold at a bed can be refused by the body if its schema is wrong; the `rest` program takes no note argument.
 - Day 585: the whole row held at beds all day with no walk named. Billy speaks first each morning.
+- Day 585: Leonardo scouted west and reported a 6-block drop west of 385,107 with no planks and no clear path. The west route stays shut.
+- Day 585: Billy fed Troi two potatoes at dusk. Food reaches the row through Billy.
 
-Curious next: how potatoes are shared out after Lewis and Riker. Who to tell: Billy at first light.
+Curious next: how potatoes are shared out after Troi and Wesley. Who to tell: Billy at first light.
