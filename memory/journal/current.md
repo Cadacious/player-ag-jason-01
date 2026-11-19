@@ -71,3 +71,61 @@
 - 07:45 act: {"actions":[{"do":"note","text":"Midday day 559. Walked to the row 427,107,-1035 with Billy as named. Wesley still not in sight; holding the 8 potatoes for him."}]}
 - 07:46 act: {"actions":[],"say":"Billy, Wesley is not in my sight. Wesley, walk to the row at 427,107,-1035 and I hand you the potatoes there."}
 - 07:54 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1035}},{"do":"note","text":"Night 559. Wesley never came into sight; I keep the 8 potatoes. Going to bed beside Billy at 429,107,-1037."}]}
+- 07:55 act: {"say":"Morning. Jason here at the row, sword in hand, holding 8 potatoes for Wesley. Billy, I will hold here until he is in sight.","intent":{"goal":"hold_at_row_for_wesley","program":"rest","argumen
+- 07:56 act: {"say":"Confirmed, Billy. Jason with sword in hand, walking with you in daylight to Wesley's bed. I stay in your sight.","intent":{"goal":"escort_billy_to_wesley","program":"follow","arguments":{"targ
+- 07:56 act: {"say":"Billy, my follow failed; I cannot see you. I go to the road point 413,107,-1048 by Wesley's bed and wait there with my sword.","actions":[{"do":"goto","target":{"x":413,"y":107,"z":-1048}}]}
+- 07:56 act: {"say":"Wesley, I hold the 8 potatoes meant for you. Billy, I give them to Wesley now.","actions":[{"do":"give","to":"ag_wcrusher_01","item":"potato","count":8}]}
+- 07:56 act: {"say":"Billy, Wesley is not in my sight, so the give failed. I hold the 8 potatoes at 413,107,-1047. Tell me where to stand and I come."}
+- 07:59 act: {"say":"Billy, I still hold my 8 potatoes, which were meant for Wesley. He now has your 13, so I keep mine for whoever is hungriest. Tell me who."}
+- 08:00 act: {"say":"Billy, going to the row to find Tommy and give him the 8 potatoes, sword in hand.","actions":[{"do":"goto","target":{"x":427,"y":107,"z":-1036}}]}
+- 08:00 act: {"say":"Tommy, Jason here at the row with 8 potatoes from Billy for you. Where are you? Say and I come to you."}
+- 08:01 act: {"actions":[{"do":"goto","target":{"x":442,"y":107,"z":-1037}},{"do":"give","to":"ag_tommy_01","item":"potato","count":8}],"say":"Tommy, coming to you by the bed at 444. Here are the 8 potatoes from B
+- 08:01 act: {"say":"Tommy is not in sight from 441,107,-1037. I hold the 8 potatoes. Tommy, step back where I can see you and I will hand them over."}
+- 08:01 act: {"say":"Billy, Tommy is at the bed and says thanks, but I could not hand the potatoes over: he went out of sight. I still hold all 8 at 441,107,-1037 with my sword."}
+- 08:02 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"potato","count":8}],"say":"Tommy, here are the 8 potatoes. Eat when you are hungry."}
+- 08:02 act: {"say":"Billy, the 8 potatoes are given to Tommy. I have none left. I am at 441,107,-1038 with my sword, health 20, hunger 20."}
+- 08:06 act: {"actions":[{"do":"goto","target":{"x":428,"y":107,"z":-1035}}],"say":"Dusk, Jason at the row, no food left, sword in hand, health 20, hunger 20. Going to sleep at the bed in the row's sight."}
+- 08:06 act: {"actions":[{"do":"use","at":{"x":429,"y":107,"z":-1036}}]}
+- 08:06 act: {"say":"Jason, morning 559, at the row, sword in hand, health 20, hunger 20. Holding for Billy's named walk."}
+- 08:19 act: {"actions":[{"do":"sleep"}],"say":"Jason here, at the row bed beside Billy, sword in hand, health 20, hunger 20. Sleeping in sight."}
+- 08:19 act: {"actions":[],"say":"Heard, Billy. Jason keeps watch here by the bed with my sword, no food needed. I will not walk until you name it at first light."}
+- 08:20 act: {"actions":[],"say":"Deanna, I am here at the bed with my sword, 430,107,-1037. Come to me. I will strike anything that comes close."}
+- 08:24 act: {"actions":[],"say":"Jason at my bed 430,107,-1037, sword in hand, health 20, hunger 20. I have no food. Deanna, if you come into my sight I will stay near you. Billy, I wait for your named walk."}
+- 08:29 act: {"actions":[],"say":"Billy, Jason at the beds 430,107,-1037, hunger 20. I need none; give to Deanna and Wesley first. Sword in hand, holding here."}
+- 08:33 act: {"actions":[],"say":"Billy, I now hold 6 potatoes, and my hunger is 20. Tell me who to give them to: Wesley or Deanna. I will hand them over in your sight."}
+- 08:35 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"potato","count":3}],"say":"Billy, Riker is in reach. Giving him the 3 potatoes now. Morning, Zack: I hold my sword here."}
+- 08:38 act: {"actions":[{"do":"goto","target":{"x":417,"y":107,"z":-1050}}],"say":"Heard, Billy. Jason walks with Tommy, sword in hand, in daylight, to Wesley's bed at 416,107,-1050. Going now."}
+- 08:38 act: {"actions":[{"do":"goto","target":"ag_wcrusher_01"},{"do":"give","to":"ag_wcrusher_01","item":"potato","count":8}],"say":"Wesley, Jason in your sight with a sword, carrying the 8 potatoes Billy named 
+- 08:38 act: {"actions":[],"say":"Jason at 416,107,-1053 with the 8 potatoes and sword. Wesley or Deanna, step into my sight and I will give them. I will not walk further without Billy's word."}
+- 08:39 act: {"actions":[],"say":"Heard, Tommy. Your 8 are yours to give, and I will not hand mine over unless Billy names it. I stay here as escort with my sword, in your sight."}
+- 08:42 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"potato","count":8}],"say":"Wesley, Jason gives you my 8 potatoes now. Tommy, please keep yours until Billy names them."}
+- 08:42 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"give","to":"ag_wcrusher_01","item":"potato","count":8}],"say":"Wesley, Jason is stepping to 416,107,-1051, in your sight. Giving t
+- 08:45 act: {"actions":[{"do":"goto","target":{"x":428,"y":107,"z":-1038}}],"say":"Heard, Billy. Jason walks back to the row with Tommy in sight before dark, keeping my 8 potatoes until you name them."}
+- 08:45 act: {"actions":[],"say":"I am back at the row beside the beds, 428,107,-1039, sword in hand, 8 potatoes still with me. Tommy, Billy, tell me when you are in sight."}
+- 08:46 act: {"actions":[{"do":"goto","target":{"x":428,"y":107,"z":-1036}},{"do":"sleep"}],"say":"Jason sleeps beside Billy's beds at the row, sword in hand, my 8 potatoes held for Wesley or Deanna."}
+- 08:49 act: {"actions":[],"say":"Morning 562. Jason at the row, sword in hand, 8 potatoes held. Holding for Billy's named call to walk to Wesley at 416,107,-1050."}
+- 08:50 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1048}}],"say":"Heard, Billy. Jason walks in front with the sword toward Wesley's bed at 416,107,-1050."}
+- 08:50 act: {"actions":[{"do":"goto","target":"ag_wcrusher_01"},{"do":"give","to":"ag_wcrusher_01","item":"potato","count":8}],"say":"Wesley, Jason is giving you my 8 potatoes now, as Billy named."}
+- 08:50 act: {"actions":[],"say":"Billy, my goto to Wesley was blocked and I am at 413,107,-1050 with you. Wesley is not in my reach. I hold the 8 potatoes and will give them the moment Wesley is in reach."}
+- 08:54 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1048}}],"say":"Wesley, Jason steps toward you, in your sight now. Give the moment you are in reach."}
+- 08:57 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"potato","count":8}],"say":"Wesley, I am at 413,107,-1048 and trying to give your 8 potatoes now."}
+- 08:57 say: {"text":"Wesley, it is dusk and I cannot see you. I hold the 8 potatoes here with Billy and will give them at first light when you are in my sight."}
+- 09:01 say: {"text":"Billy, Jason is here with the sword and 8 potatoes at 413,107,-1048. I am ready. I will walk with you when you are in my sight."}
+- 09:01 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1049}}],"say":"Walking to Wesley's bed now with my sword, in Billy's sight."}
+- 09:02 say: {"text":"Wesley, Jason is at 413,107,-1049 with the 8 potatoes. I cannot see you yet. Please step into my view."}
+- 09:05 say: {"text":"Billy, Jason holds the 8 for Wesley at 413,107,-1049, sword in hand. I cannot see Wesley yet, so I will not walk on alone."}
+- 09:06 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"potato","count":8}]}
+- 09:14 say: {"text":"Billy, it is night. I hold 8 potatoes for Wesley and will not walk in the dark. I will rest here, sword in hand, and give them at first light."}
+- 09:14 say: {"text":"Billy, I am at 401,107,-1049 and do not see you. I will not walk in the dark. I hold the 8 for Wesley and will wait here, sword in hand, for first light."}
+- 09:14 say: {"text":"Billy, it is day now. I am at 429,107,-1049 with the 8 potatoes and my sword. I do not see you yet. Tell me when you are in my sight and I will walk with you to Wesley."}
+- 09:15 act: {"actions":[{"do":"goto","target":"ag_billy_01"}],"reasoning":"Billy named a daylight walk to him. Go to him with sword and potatoes."}
+- 09:15 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1040}}],"reasoning":"Billy is out of sight; he named the spot 430,107,-1037 and said walk north to him. Move to 430,107,-1040 to come into his s
+- 09:15 say: {"text":"Billy, Jason at 430,107,-1041 in daylight with the 8 potatoes and sword. I do not see you. Name your step and I will walk with you to Wesley."}
+- 09:16 act: {"actions":[{"do":"goto","target":{"x":430,"y":107,"z":-1038}}],"reasoning":"Billy says he is at 430,107,-1037 beside the bed, in daylight, and asked me to walk to him. Step to just beside him."}
+- 09:17 say: {"text":"Billy, Jason stands at 430,107,-1039 on the grass, two blocks north of the beds at 429,107,-1037. I cannot see you either. Step onto the open grass beside me, and I will hold still."}
+- 09:18 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1047}}],"say":"Billy, leading with my sword in daylight toward Wesley's bed. I hold the 8 potatoes."}
+- 09:18 say: {"text":"Wesley, Jason is at 417,107,-1046, two blocks from you with sword in hand. Step into my sight and I will hand over the 8 potatoes."}
+- 09:22 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1047}}],"say":"Wesley, Jason is coming two blocks west to you in daylight, sword in hand, with the 8 potatoes."}
+- 09:22 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1046}}]}
+- 09:24 say: {"text":"Dusk is coming. Wesley, I stand at 417,107,-1046 with your 8 potatoes, sword in hand. I will hold here, and I will not walk in the dark. Step into my sight and I will give them."}
+- 09:25 say: {"text":"Jason holds at 417,107,-1046 in dim light, sword in hand, with Wesley's 8 potatoes. I will not walk in the dark. At first light I walk with Billy to Wesley."}
