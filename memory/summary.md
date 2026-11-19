@@ -2,7 +2,7 @@
 
 I am Jason (ag_jason_01). I live at the row of beds around x 401 to 433, z -1023 to -1065. My bed is 415,107,-1051 (it has refused me), and I sleep at 416,107,-1050 beside it, which has worked. Billy (ag_billy_01) leads the group. I follow his named calls: walk only in daylight and only when named, hold with the sword otherwise, do not give on my own.
 
-Day 602: Billy named an escort walk west to Wesley's bed. I answered yes and followed, but the travel failed at 438,107,-1036 and he turned back. No more walks named. Health 20, hunger 20. Slept at dusk beside the bed in Billy's sight.
+Day 602: Billy named an escort look at Wesley's bed. I was already beside it, so I held. He turned back when I was out of his sight and named no walk. Health 20, hunger 20. Slept at dusk beside my bed in Billy's sight.
 
 Next: at first light say good morning to Billy and wait for his named call. Ask by name for food when hunger is 6 or below. Curious: how the potatoes are shared out after Troi and Wesley, and why the west route is still blocked (oak planks west of Tommy's bed).
 
