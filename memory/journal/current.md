@@ -1,15 +1,1 @@
 # Journal
-- 17:38 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night, row. Holding at my bed, no walk."}
-- 17:38 act: {"actions":[{"do":"sleep"}]}
-- 17:43 act: {"say":"Morning, Billy. Jason here at my bed, health 20, hunger 20. Holding in the row with my sword. No walk named yet.","intent":{"goal":"hold_at_bed","program":"rest","arguments":{},"wake_on":["dir
-- 17:51 act: {"say":"Night, row. Jason going to my bed 415,107,-1051 in Billy's sight. No walk.","actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}]}
-- 17:51 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"use","at":{"x":415,"y":107,"z":-1051}}]}
-- 17:51 act: {"actions":[{"do":"sleep"}]}
-- 17:51 act: {"intent":{"goal":"hold_at_bed_until_night","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":6000
-- 17:55 act: {"say":"Morning, Billy. Jason at my bed 415,107,-1051, health 20, hunger 20. Holding with my sword. No walk from me until you name one."}
-- 18:03 act: {"say":"Night, row. Jason at my bed 415,107,-1051, in Billy's sight. Health 20, hunger 20. No walk.","actions":[{"do":"sleep"}]}
-- 18:16 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason at my bed 415,107,-1051, health 20, hunger 20. Trying to sleep here in Billy's sight. No walk."}
-- 18:28 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Dusk, row. Jason going to my bed 415,107,-1051 in Billy's sight. Health 20, hunger 20. No walk. Goodnight."}
-- 18:30 act: {"actions":[{"do":"sleep"}]}
-- 18:34 act: {"actions":[],"say":"Morning, Billy. Jason here at my bed, health 20, hunger 20, sword in hand. Holding. No walk until you name one."}
-- 18:43 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"intent":{"goal":"hold_at_bed_overnight","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_fa
