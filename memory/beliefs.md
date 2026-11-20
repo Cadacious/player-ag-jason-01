@@ -18,5 +18,7 @@
 - Day 647 and 654: Trini, Tommy, Picard offered to escort the west or east route when Billy names it. Still no name.
 - Day 654: the east walk checked to x=460 with nothing seen (Troi).
 
+- Day 658: Billy still named no walk; the row holds in sight, and Trini and others offer food only when hunger drops. Wesley's cows at 339,104,-979 are the only lead for food; no sheep seen.
+
 Curious next: how potatoes are shared out; whether the oak planks west can be cleared.
 Who to tell: Billy at first light.
