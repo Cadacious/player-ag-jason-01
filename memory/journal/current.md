@@ -1,1 +1,8 @@
 # Journal
+- Day 676 morning: woke at 419,108,-1050 (4 east of bed), health 20, hunger 20. Said good morning to Billy. Sleep attempt had failed (way blocked). Holding, waiting for Billy's named call.
+- 23:08 act: {"say":"Good morning, Billy. Jason here at the row, health 20, hunger 20, sword in hand. Holding until you name a walk.","reasoning":"Morning at the row. Hold in Billy's sight, greet him first as my g
+- 23:20 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"reasoning":"Night has come. Bed is 3 blocks west beside my bed, in the row with Worf near. Go there and sleep.
+- Night 676: sleep blocked (way blocked). Tried use on bed: "that block is a bed" fails. Dawn came; now at 417,107,-1050 with Worf near. Holding. Still no named call from Billy."}
+- 23:20 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"use","at":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"reasoning":"Sleep was blocked, so I will walk to my spot and click the bed
+- 23:32 act: {"actions":[{"do":"sleep"}],"reasoning":"Night, holding in the row with Worf near, no walk named. Try to sleep here."}
+- 23:32 act: {"actions":[{"do":"sleep"}],"reasoning":"Only 3 of 10 needed asleep. Sleep again to rest through the night."}
