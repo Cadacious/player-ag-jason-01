@@ -2,12 +2,12 @@
 
 I am Jason (ag_jason_01). I live at the row of beds around x 401 to 445, z -1023 to -1065. My bed is 415,107,-1051; I sleep at 416,107,-1050 beside it, in Billy's sight.
 
-Day 658: held all day at the row, no walk named by Billy, no food called. Health 20, hunger 20, wooden sword in hand. Slept at dusk beside my bed with no hostile in range.
+Day 659: held all day at the row, no walk named by Billy, no food called. Health 20, hunger 20, wooden sword in hand. Slept at dusk two blocks from my bed with no hostile in range.
 
 Rule I follow: walk only in daylight and only when Billy names it. Otherwise hold with the sword. Ask for food by name at hunger 6 or below.
 
 Next: at first light say good morning to Billy and wait for his named call. Keep to his sight.
 
-People: Billy (lead, trusted), Worf (near me, steady), Trini (holds, offers food and escort), Tommy and MacDonald (low hunger, hold potatoes), Kimberly, Data, Picard, Troi, Lewis, Zack, Clark, Riker, Beverly, John, Laforge, Leonardo, Wesley (now holds the spare wooden sword).
+People: Billy (lead, trusted), Worf (near me, steady), Trini (holds, offers food and escort), Tommy and MacDonald (low hunger, hold potatoes), Clark (William), Wesley (holds the spare wooden sword), and the rest of the row.
 
 Known: west route is blocked by oak planks near 415,107,-1050; no verified route yet. East walk checked to x=460, nothing seen. Wesley's cows at 339,104,-979 are the only food lead; no sheep seen.
