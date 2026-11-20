@@ -6,3 +6,6 @@
 - 23:20 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"use","at":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"reasoning":"Sleep was blocked, so I will walk to my spot and click the bed
 - 23:32 act: {"actions":[{"do":"sleep"}],"reasoning":"Night, holding in the row with Worf near, no walk named. Try to sleep here."}
 - 23:32 act: {"actions":[{"do":"sleep"}],"reasoning":"Only 3 of 10 needed asleep. Sleep again to rest through the night."}
+- 23:36 act: {"say":"Good morning, Billy. Jason here at my bed, health 20, hunger 20. Holding for your named call.","reasoning":"Dawn on day 677. Greet Billy and hold, as my goals say."}
+- 23:45 act: {"actions":[{"do":"sleep"}],"reasoning":"Dusk on day 678, no walk named, I am holding at my bed. Sleep now."}
+- 23:45 act: {"actions":[{"do":"sleep"}],"reasoning":"Only 2 of 10 asleep. Sleep again."}
