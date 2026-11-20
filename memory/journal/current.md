@@ -10,3 +10,15 @@
 - Still holding at the row; no walk named. Health 20, hunger 20. Waiting on Billy's call and the night.
 - Billy: everyone hold, no walk, call him at hunger 10. I hold with my sword.
 - Night has come. Going to sleep at 416,107,-1050 beside my bed, Worf within reach, no hostile in view.
+- 00:54 act: {"say":"Jason here, holding at my spot beside the bed. No walk until Billy calls. Good night, row.","actions":[{"do":"sleep"}]}
+- 00:58 act: {"say":"Jason, morning, day 610. Health 20, hunger 20, wooden sword in hand. Holding at my bed 415,107,-1051. No route known to me. Waiting on Billy's call.","actions":[]}
+- 01:06 act: {"say":"Jason, dusk on day 610. Sleeping at 416,107,-1050 beside my bed, in the row's sight, no walk named.","actions":[{"do":"sleep"}]}
+- 01:06 act: {"say":"Jason: my sleep failed, the way was blocked, and I am now at 419,108,-1050, near the crafting table. Not hurt, no hostile in view. I will not walk at night; holding here until first light.","a
+- 01:10 act: {"say":"Jason, morning, day 611. Health 20, hunger 20. I am at 419,108,-1050, sword in hand, in Billy's sight. No walk named; holding until Billy calls.","actions":[]}
+- 01:14 act: {"say":"Billy, Jason here at 419,108,-1050. My sleep failed last night, so I am three blocks from my bed at 416,107,-1050. May I walk back to it in daylight, in your sight, before dusk? I will wait fo
+- 01:17 act: {"say":"Thank you, Billy. Walking to my bed at 416,107,-1050 now, in your sight.","actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}]}
+- 01:17 act: {"say":"Billy, I am at my bed, 416,107,-1050. Health 20, hunger 20, sword in hand. Holding here in your sight.","actions":[]}
+- 01:17 act: {"say":"Billy, Jason at 416,107,-1050 now, in your sight. Health 20, hunger 20. Sleeping here, no walk tonight.","actions":[{"do":"sleep"}]}
+- 01:22 act: {"say":"Jason, morning. Health 20, hunger 20, sword in hand, at my bed 416,107,-1050 in Billy's sight. No walk named; holding for your call, Billy.","actions":[]}
+- 01:34 act: {"say":"Jason, dusk on 612. Sleeping at 416,107,-1050 in Billy's sight, health 20, hunger 20, no walk.","actions":[{"do":"sleep"}]}
+- 01:35 say: {"text":"Morning, Billy. Jason here at my bed, health 20, hunger 20, sword in hand. Holding, no walk."}
