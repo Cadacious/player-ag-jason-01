@@ -28,3 +28,5 @@
 - 02:00 act: {"actions":[{"do":"note","text":"Day 613: Billy says no verified route, no walk; holding at bed 415,107,-1051 with Worf. Health 20, hunger 20."}]}
 - 02:12 act: {"actions":[{"do":"note","text":"Day 613 dusk: held all day with no walk named by Billy. Sleeping at 416,107,-1050 beside my bed, Worf in reach, Billy in sight. Health 20, hunger 20."}]}
 - 02:13 act: {"actions":[{"do":"note","text":"Night, day 613. Holding at bed beside Billy and the row. No walk named. Health 20, hunger 20."}],"say":"Good night, Billy. Holding here by my bed beside Worf, in your 
+- 02:14 act: {"say":"Good morning, Billy. Jason here at my bed, health 20, hunger 20, sword in hand. Holding for your named call.","intent":{"goal":"hold_at_bed","program":"rest","arguments":{},"wake_on":["directl
+- 02:15 act: {"say":"Morning, Billy. Holding at my bed in your sight, no walk. I will call you at hunger 10 as you said."}
