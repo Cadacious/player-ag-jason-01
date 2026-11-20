@@ -2,3 +2,11 @@
 - 23:06 act: {"actions":[{"do":"sleep"}],"say":"Good night, Worf. I am staying beside my bed at 416,107,-1050."}
 - 23:11 act: {"say":"Good morning, row. Jason at my bed 416,107,-1050, health 20, hunger 20, wooden sword in hand. Holding in Billy's sight, no walk named.
 - Day 604 morning: greeted the row; Billy, Worf and others holding, no walk named. Waiting for Billy's call."}
+- 00:36 act: {"say":"Good morning. Jason here, holding at my bed with my sword. Billy, I'm waiting for your call.","actions":[]}
+- Day 609 waking: status steady, health 20, hunger 20, Worf in reach, Billy not in view, no walk named. Said good morning; waiting for Billy's call.
+- 00:36 act: {"say":"Billy, I'm here at 416,107,-1050, in the row with my sword, health 20, hunger 20. Holding, no walk from me. Waiting for your named call.","actions":[]}
+- Billy says no walk today; the row holds. Anyone at hunger 10 calls him for food. I hold at my bed and wait.
+- Dusk coming in the row. Billy and others going to bed; no walks at night. I stay at 416,107,-1050, sword in hand, and will sleep there when it is night.
+- Still holding at the row; no walk named. Health 20, hunger 20. Waiting on Billy's call and the night.
+- Billy: everyone hold, no walk, call him at hunger 10. I hold with my sword.
+- Night has come. Going to sleep at 416,107,-1050 beside my bed, Worf within reach, no hostile in view.
