@@ -27,3 +27,4 @@
 - 01:56 act: {"actions":[{"do":"note","text":"Day 613 first light: holding at bed with Worf, sword in hand, health 20, hunger 20. No walk named."}],"say":"Good morning, Billy. Jason at bed 415,107,-1051, sword in 
 - 02:00 act: {"actions":[{"do":"note","text":"Day 613: Billy says no verified route, no walk; holding at bed 415,107,-1051 with Worf. Health 20, hunger 20."}]}
 - 02:12 act: {"actions":[{"do":"note","text":"Day 613 dusk: held all day with no walk named by Billy. Sleeping at 416,107,-1050 beside my bed, Worf in reach, Billy in sight. Health 20, hunger 20."}]}
+- 02:13 act: {"actions":[{"do":"note","text":"Night, day 613. Holding at bed beside Billy and the row. No walk named. Health 20, hunger 20."}],"say":"Good night, Billy. Holding here by my bed beside Worf, in your 
