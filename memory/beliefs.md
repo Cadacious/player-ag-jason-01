@@ -2,6 +2,7 @@
 
 - Beds take a sleeper only at dusk or night. Using a bed by hand in daylight is refused. Standing beside the bed and calling sleep at night works. Confirmed day 465, 528, 529, 530, 585, 603.
 - My bed is at 415,107,-1051 (row, Billy's named bed, day 579). I sleep at 416,107,-1050 beside it. Beds at 415,107,-1050 and nearby are also in the row.
+- Day 641: sleep fails with "the way was blocked" when someone else lies on the bed. Wesley was on 415,107,-1051 at dusk. Standing 1 block off the bed does not help. Ask Billy which bed is free.
 - Walking in the dark is dangerous. Stay in Billy's sight. Phantoms hit people at the row at night (day 527).
 - Sword into hand: Zack says act use with the wooden_sword from pack, aimed at a block. Try grass or dirt once I hold a sword.
 - Give works only to someone within reach.
@@ -15,10 +16,9 @@
 - Day 585: Billy fed Troi two potatoes at dusk. Food reaches the row through Billy.
 - Day 593: no one has a verified route past x=370.
 - Day 601: Billy's standing word: hold in sight tonight, sleep at named beds, no walks. Wesley's bed 415,107,-1050 still says the way was blocked; Billy will look at it with an armed escort at daylight.
-- Day 603: Billy named no walk all day. Tommy (health 15, hunger 16) and Troi (health 14, hunger 16) are the ones to watch for food; Billy said he will come when they call at hunger 10.
-
-- Day 632: a `rest` intent ended within a minute in daylight; the `wait` tool with interests held me better. Billy named no walk all day. Sleep at dusk beside my bed worked with Worf near.
-
-- Day 640: held all day with no walk named. Hunger and health stayed at 20. MacDonald (health 7) holds 6 potatoes; Zack keeps his for anyone at hunger 10 or below.
+- Day 603: Billy named no walk all day. Tommy and Troi are the ones to watch for food.
+- Day 632: a `rest` intent ended within a minute in daylight; the `wait` tool with interests held me better.
+- Day 640: held all day with no walk named. MacDonald (health 7) holds 6 potatoes; Zack keeps his for anyone at hunger 10 or below.
+- Day 641: no walk named again. Billy has not called the walk; the row still holds.
 
 Curious next: how potatoes are shared out; whether the oak planks west can be cleared. Who to tell: Billy at first light.
