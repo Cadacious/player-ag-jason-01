@@ -30,3 +30,45 @@
 - 02:13 act: {"actions":[{"do":"note","text":"Night, day 613. Holding at bed beside Billy and the row. No walk named. Health 20, hunger 20."}],"say":"Good night, Billy. Holding here by my bed beside Worf, in your 
 - 02:14 act: {"say":"Good morning, Billy. Jason here at my bed, health 20, hunger 20, sword in hand. Holding for your named call.","intent":{"goal":"hold_at_bed","program":"rest","arguments":{},"wake_on":["directl
 - 02:15 act: {"say":"Morning, Billy. Holding at my bed in your sight, no walk. I will call you at hunger 10 as you said."}
+- 02:28 act: {"say":"Good morning, Billy. Jason here, health 20, hunger 20, holding at my bed in your sight. Waiting for your named call.","intent":{"goal":"hold_at_bed","program":"rest","arguments":{},"wake_on":[
+- Day 614 morning: greeted Billy, holding at bed in his sight. Health 20, hunger 20, sword in hand. No walk named.
+- 02:36 act: {"say":"Morning, Billy. Jason at my bed, health 20, hunger 20, sword in hand. Holding, no walk. I will call you at hunger 10."}
+- Day 615: held all day, no walk. Dusk sleep failed (not night yet); Billy asked for a verified west route. I have none: only the oak planks west of Wesley's bed, which block it. Told Billy. Holding at 418,107,-1051 in his sight, health 20, hunger 20.
+- 02:40 act: {"say":"Dusk, row. Jason holding here at 418,107,-1051 in Billy's sight, sword in hand, no walk tonight. Good night.","actions":[{"do":"sleep"}]}
+- 02:41 act: {"say":"Billy, Jason here. I have no verified west route. I have only seen the oak planks west of my bed, which block the way. I hold at my bed, sword in hand, health 20, hunger 20."}
+- 02:53 act: {"say":"Dusk, row. Jason sleeping here at 418,107,-1051, in Billy's sight, sword in hand. No walk. Good night.","actions":[{"do":"sleep"}]}
+- 02:53 act: {"say":"Jason: my sleep failed three times, the way was blocked. I am awake at 415,107,-1051 beside Worf, in Billy's sight, sword in hand, health 20, hunger 20. No walk tonight; I hold here until firs
+- Day 616 morning: sleep failed three times (blocked) at 415,107,-1051; stayed awake in Billy's sight beside Worf, health 20, hunger 20, sword in hand. Holding, no walk named.
+- Day 616 night: sleep failed again (blocked). Pillagers hit Riker south of the row; I stayed at 415,107,-1051 beside Worf, sword in hand, unhurt. Morning: Billy says no walk, feeds anyone at hunger 10. Holding.
+- Day 616 day: hostiles came close and my reflex fought them off; health still 20. Macdonald hit at health 5 south-east; Riker unarmed, asks Billy for a sword. Holding at bed, no walk.
+- Day 617: night stayed awake in Billy's sight beside Worf, no sleep tried. Morning: Billy has no walk named; I have no food to spare, told Billy and MacDonald. Holding, health 20, hunger 20.
+- Day 618 morning: Billy named a walk only for Riker to Trini. I hold at 415,107,-1051 beside Worf, health 20, hunger 20, sword in hand.
+- Day 618 dusk: held all day, no walk for me. Staying awake at 415,107,-1051 beside Worf in Billy's sight, sword in hand, health 20, hunger 20.
+- Day 619 dusk: held all day at 415,107,-1051 with Worf, no walk named for me. MacDonald and Tommy went to Troi's potatoes in daylight by Billy's word. I stay awake here, health 20, hunger 20.
+- 02:57 act: {"say":"Good morning, Billy. Jason awake at 415,107,-1051, health 20, hunger 20, sword in hand. Holding in your sight, no walk. Sleep here keeps failing as blocked, so I will try the other bed later o
+- 03:12 act: {"actions":[{"do":"note","text":"Day 616: Wesley hit by a shot and moved to 415,108,-1048; Kimberly died to pillagers and respawned. Holding at 415,107,-1051 beside Worf, sword in hand, health 20, hun
+- 03:16 act: {"actions":[],"say":"Billy, I have no food, only my sword. Holding at 415,107,-1051. MacDonald, I can't spare anything, sorry."}
+- 03:20 act: {"actions":[],"say":"Night, row. Jason awake at 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. No walk. I stay awake here in sight."}
+- 03:36 act: {"actions":[],"say":"Morning, row. Jason at 415,107,-1051, health 20, hunger 20, sword in hand. Holding; Riker's walk is his alone."}
+- 04:09 act: {"actions":[{"do":"note","text":"Day 619 morning: Billy, Tommy and Picard walk west to Wesley; I hold at 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. No walk named for me."}],"say":
+- 04:09 act: {"actions":[{"do":"note","text":"Day 619: Billy's west walk to Wesley was blocked; Billy heads back east to the row before dusk. Tommy will try again tomorrow morning. I hold at 415,107,-1051, health 
+- 04:10 act: {"actions":[{"do":"note","text":"Day 619 dusk: Billy says the Wesley walk waits for morning. I hold awake at 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. No sleep tried."}],"say":"H
+- 04:13 act: {"actions":[{"do":"note","text":"Day 620 morning: awake at 415,107,-1051 beside Worf and Wesley, sword in hand, health 20, hunger 20. No walk named for me; holding for Billy's call."}],"say":"Morning,
+- 04:14 act: {"actions":[{"do":"note","text":"Day 620: Billy's Tommy walk west was blocked at 416,107,-1053 and Tommy came back east. Billy told me to stay by Worf. I hold at 415,107,-1051, health 20, hunger 20, s
+- 04:26 act: {"actions":[{"do":"note","text":"Day 620 dusk: no walk named; Billy went to bed at 443,107,-1051. I stay awake at 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. Sleep not tried."}],"s
+- 04:27 act: {"actions":[{"do":"note","text":"Day 620 day: Billy's call sends Tommy with the spare sword to Wesley, Picard escorting, and I stay beside Worf. I am already at 415,107,-1051 beside Worf, health 20, h
+- 04:31 act: {"actions":[{"do":"note","text":"Day 620: Tommy's walk stopped short at 413,107,-1050 (blocked) and he returned to the row. Billy says the next west try waits for a clear route. I hold at 415,107,-105
+- 04:35 act: {"actions":[{"do":"note","text":"Day 621 dusk: no walk named. Holding awake at 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. Sleep not tried."}],"say":"Dusk, row. Jason holding at 41
+- 04:39 act: {"actions":[],"say":"Morning, row. Jason at 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. No walk from me. Waiting for Billy's named call."}
+- 05:44 act: {"actions":[{"do":"note","text":"Day 624 dusk: no walk named. Holding awake at 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. Sleep not tried."}],"say":"Dusk, row. Jason holding at 41
+- 05:48 act: {"actions":[{"do":"note","text":"Day 625 morning: awake through night at 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. No walk named for me; holding for Billy's call."}],"say":"Good 
+- 06:00 act: {"actions":[{"do":"note","text":"Day 625 dusk: Tommy's west walk blocked again at 413,107,-1050; no walk for me. Holding awake at 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. Sleep 
+- 06:14 act: {"actions":[{"do":"note","text":"Day 626 night: no walk named for me. Awake at 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. Holding for Billy's call at first light."}]}
+- 06:27 act: {"actions":[{"do":"note","text":"Day 626 dusk, thunder: no walk for me. Staying awake at 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. Sleep not tried."}],"say":"Dusk, row. Jason hol
+- 06:37 act: {"actions":[{"do":"note","text":"Day 627 morning, 415,107,-1051 beside Worf. Health 20, hunger 20, wooden sword in hand. No walk named; holding for Billy."}],"say":"Good morning, row. Jason at my bed,
+- 06:49 act: {"actions":[{"do":"note","text":"Day 627 dusk. Walk called off. At 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. Staying awake in Billy's sight."}],"say":"Dusk, row. Jason at my bed,
+- 06:58 act: {"actions":[{"do":"note","text":"Day 628 morning. At 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. No walk named for me; holding for Billy."}],"say":"Morning, row. Jason at my bed, h
+- 07:04 act: {"actions":[{"do":"note","text":"Day 628 dusk. Holding at 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. Awake in Billy's sight; no walk for me."}],"say":"Night, row. Jason awake at m
+- 07:09 act: {"actions":[],"say":"Jason here, not John. I hold no food at all, so I cannot pass a potato. Troi, please hand it to MacDonald directly. I am holding at my bed."}
+- 07:17 act: {"actions":[{"do":"note","text":"Day 629 morning. Holding at 415,107,-1051 beside Worf, sword in hand, health 20, hunger 20. No walk named for me; waiting for Billy."}]}
+- 07:29 act: {"actions":[{"do":"note","text":"Day 629 dusk. Holding beside Worf at 415,107,-1051, sword in hand, health 20, hunger 20. Awake in Billy's sight. No sheep seen."}],"say":"Dusk, row. Jason at my bed, h
