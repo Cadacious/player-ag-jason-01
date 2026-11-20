@@ -15,6 +15,7 @@
 - Day 585: Leonardo scouted west and reported a 6-block drop west of 385,107 with no planks and no clear path. The west route stays shut.
 - Day 593: no one has a verified route past x=370.
 - Day 601: Wesley's bed 415,107,-1050 still says the way was blocked.
+- Day 646: Wesley said he would try my spot once at dusk. Picard and John hold at their own beds for Billy's call. Nothing new on food.
 - Day 644: Wesley was shot (sign at the row). Tommy holds 2 potatoes; MacDonald holds 5 (health 7); Troi holds 1 and will give it to the hungriest. I hold no food.
 
 Curious next: how potatoes are shared out; whether the oak planks west can be cleared. Who to tell: Billy at first light.
