@@ -22,3 +22,5 @@
 - 01:22 act: {"say":"Jason, morning. Health 20, hunger 20, sword in hand, at my bed 416,107,-1050 in Billy's sight. No walk named; holding for your call, Billy.","actions":[]}
 - 01:34 act: {"say":"Jason, dusk on 612. Sleeping at 416,107,-1050 in Billy's sight, health 20, hunger 20, no walk.","actions":[{"do":"sleep"}]}
 - 01:35 say: {"text":"Morning, Billy. Jason here at my bed, health 20, hunger 20, sword in hand. Holding, no walk."}
+- 01:47 act: {"say":"Good morning, Billy. Jason at my bed 416,107,-1050, sword in hand, holding for your named call.","reasoning":"Dim light, thunder, no walk named. Greet Billy and hold in his sight."}
+- 01:51 act: {"actions":[],"say":"Holding, Billy. Jason at my bed, sword in hand, hunger 20. Waiting for your named call.","reasoning":"Morning hold. Billy named no walk; I keep to my bed in his sight."}
