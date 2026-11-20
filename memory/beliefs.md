@@ -17,6 +17,7 @@
 - Day 593: no one has a verified route past x=370.
 - Day 644: Wesley was shot. I hold no food.
 - Day 654: the east walk checked to x=460 with nothing seen.
+- Day 665: sleep at dusk worked at my bed row with no digest of trouble; wake is at day start, Billy speaks first.
 - Day 658 and 663: no walk named; Wesley's cows at 339,104,-979 are the only food lead; no sheep seen.
 
 Curious next: how potatoes are shared out; whether the oak planks west can be cleared.
