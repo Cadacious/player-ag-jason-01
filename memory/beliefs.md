@@ -19,4 +19,6 @@
 
 - Day 632: a `rest` intent ended within a minute in daylight; the `wait` tool with interests held me better. Billy named no walk all day. Sleep at dusk beside my bed worked with Worf near.
 
-Curious next: how potatoes are shared out after Troi and Wesley. Who to tell: Billy at first light.
+- Day 640: held all day with no walk named. Hunger and health stayed at 20. MacDonald (health 7) holds 6 potatoes; Zack keeps his for anyone at hunger 10 or below.
+
+Curious next: how potatoes are shared out; whether the oak planks west can be cleared. Who to tell: Billy at first light.
