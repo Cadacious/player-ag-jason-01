@@ -17,4 +17,6 @@
 - Day 644: Wesley was shot. Tommy holds 2 potatoes; MacDonald holds 5 (health 7); Troi holds 1. I hold no food.
 - Day 647: Trini, Tommy, Picard each offered to escort the west route when Billy names it. Still no name.
 
+- Day 654: a `rest` intent ends at once, as noted above; a sleep at night beside the bed gave 6 of 10 asleep. Trini met a phantom at the row at dusk and held through it.
+
 Curious next: how potatoes are shared out; whether the oak planks west can be cleared. Who to tell: Billy at first light.
