@@ -17,4 +17,6 @@
 - Day 601: Billy's standing word: hold in sight tonight, sleep at named beds, no walks. Wesley's bed 415,107,-1050 still says the way was blocked; Billy will look at it with an armed escort at daylight.
 - Day 603: Billy named no walk all day. Tommy (health 15, hunger 16) and Troi (health 14, hunger 16) are the ones to watch for food; Billy said he will come when they call at hunger 10.
 
+- Day 632: a `rest` intent ended within a minute in daylight; the `wait` tool with interests held me better. Billy named no walk all day. Sleep at dusk beside my bed worked with Worf near.
+
 Curious next: how potatoes are shared out after Troi and Wesley. Who to tell: Billy at first light.
