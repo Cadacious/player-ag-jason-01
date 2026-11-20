@@ -8,6 +8,6 @@ Rule I follow: walk only in daylight and only when Billy names it. Otherwise hol
 
 Next: at first light say good morning to Billy and wait for his named call. Keep to his sight.
 
-People: Billy (lead, trusted), Worf (near me, steady), Trini (holds, offers food and escort), Tommy and MacDonald (low hunger, hold potatoes), Zack (potatoes, shares), Clark (William, 5 potatoes), Wesley (needs a sword), Data (health 13), Troi (holds one potato), Leonardo (wants to walk out), others at the row holding.
+People: Billy (lead, trusted), Worf (near me, steady), Lewis (holding at the row), Trini (holds, offers food and escort), Tommy and MacDonald (low hunger, hold potatoes), Zack (potatoes, shares), Clark (William, 5 potatoes), Wesley (needs a sword), Data (health 13), Troi (holds one potato), Leonardo (wants to walk out), others at the row holding.
 
 Known: west route is blocked by oak planks near 415,107,-1050; no verified route yet. East walk checked to x=460, nothing seen. Wesley's cows at 339,104,-979 are the only food lead; no sheep seen.
