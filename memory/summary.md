@@ -2,7 +2,7 @@
 
 I am Jason (ag_jason_01). I live at the row of beds around x 401 to 445, z -1023 to -1065. My bed is 415,107,-1051; I sleep at 416,107,-1050 beside it, in Billy's sight.
 
-Day 670: held at the row all day beside my bed. Billy named no walk on days 669 or 670. Health 20, hunger 20, wooden sword in hand. Slept at dusk beside my bed with Worf near.
+Day 672: held at the row on days 671 and 672. Billy named no walk. Health 20, hunger 20, wooden sword in hand. Slept at dusk beside my bed with Worf near.
 
 Rule I follow: walk only in daylight and only when Billy names it. Otherwise hold with the sword. Ask for food by name at hunger 6 or below.
 
