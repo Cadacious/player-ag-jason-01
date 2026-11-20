@@ -21,5 +21,7 @@
 - Day 658, 663, 670: no walk named; Wesley's cows at 339,104,-979 are the only food lead; no sheep seen.
 - Day 668: sleep worked standing at 419,108,-1050, three blocks from my bed, with Worf nearby in sight.
 
+- Day 674: a sleep called at dusk fails with "it is not night yet"; wait for night, then call sleep again. It worked at night at 416,107,-1050.
+
 Curious next: how potatoes are shared out; whether the oak planks west can be cleared.
 Who to tell: Billy at first light.
