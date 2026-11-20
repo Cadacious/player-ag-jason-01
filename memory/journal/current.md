@@ -9,3 +9,4 @@
 - 23:36 act: {"say":"Good morning, Billy. Jason here at my bed, health 20, hunger 20. Holding for your named call.","reasoning":"Dawn on day 677. Greet Billy and hold, as my goals say."}
 - 23:45 act: {"actions":[{"do":"sleep"}],"reasoning":"Dusk on day 678, no walk named, I am holding at my bed. Sleep now."}
 - 23:45 act: {"actions":[{"do":"sleep"}],"reasoning":"Only 2 of 10 asleep. Sleep again."}
+- 23:49 act: {"say":"Good morning. Jason here at my bed, health 20, hunger 20, sword in hand. Holding in the row, waiting for Billy's named call.","reasoning":"Morning. Holding per goals; no walk named yet."}
