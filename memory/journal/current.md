@@ -18,3 +18,6 @@
 - 10:32 act: {"actions":[{"do":"note","text":"Morning day 639. Health 20, hunger 20, holding at 418,107,-1051 in sight with sword. No walk named; no food reached me. Waiting for Billy."}],"say":"Good morning, row.
 - 10:37 act: {"actions":[{"do":"note","text":"Day 639, morning. Health 20, hunger 20, holding at 418,107,-1051 in sight. No walk named; no food. Waiting."}]}
 - 10:38 act: {"actions":[{"do":"note","text":"Dusk day 639. Health 20, hunger 20, holding at 418,107,-1051 in sight, sword in hand. No walk named; no food. Not moving in the dark."}],"say":"Night, row. Jason at 41
+- 10:40 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Night, row. Jason going to my bed beside 415,107,-1051, in Billy's sight. Holding, no walk."}
+- 10:40 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at 416,107,-1050 beside my bed, in Billy's sight. Holding, no walk."}
+- 10:42 act: {"actions":[{"do":"note","text":"Woke morning day 640 at 416,107,-1050 in Billy's sight. Health 20, hunger 20, sword in hand. No walk named; no food yet."}],"say":"Good morning, Billy. Jason at my bed
