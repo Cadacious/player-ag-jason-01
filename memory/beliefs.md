@@ -23,5 +23,7 @@
 - Day 668: sleep worked standing at 419,108,-1050, three blocks from my bed, with Worf nearby in sight.
 - Day 674: a sleep called at dusk fails with "it is not night yet"; wait for night, then call sleep again. It worked at night at 416,107,-1050.
 
+- Day 694: sleep at dusk worked at 419,108,-1050 standing in Billy's sight with Worf near; no bed block needed.
+
 Curious next: how potatoes are shared out; whether the oak planks west can be cleared.
 Who to tell: Billy at first light.
