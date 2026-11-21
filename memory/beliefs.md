@@ -23,6 +23,7 @@
 - Day 716: sleep at 416,107,-1050 worked after a goto from 419,108,-1050; the earlier sleep at 419,108,-1050 failed "the way was blocked."
 - Day 716: Billy was not seen in my sight; he named no walk or food. Trini, Beverly, Worf, Laforge, Wesley all holding and waiting for his call.
 
+- Day 724: Billy said everyone is fed above 10 and asked to be called at hunger 10. Sleep at dusk worked beside my bed at 416,107,-1050 with Worf near.
 - Day 724: Billy again named no walk or food. Wesley was blocked on the way to bed 443,107,-1037 and was told to try 429,107,-1036. Zack holds 3 potatoes for anyone who steps into his sight. Trini at hunger 17, Worf at 16.
 
 Curious next: how potatoes and cow food are shared out; whether the oak planks west can be cleared; where the sheep are.
