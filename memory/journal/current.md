@@ -3,3 +3,13 @@
 - Night, day 708. Woke at 419,108,-1050, off my bed (sleep failed: way blocked). Health 20, hunger 20. Worf beside me, Billy not in sight. Said I would hold until Billy names a bed. Waiting.
 - Morning, day 708. Said good morning. Zack, Wesley and Picard all holding for Billy's named word. Still holding at 419,108,-1050, no walk named. Waiting for Billy.
 - 09:46 say: {"text":"Good morning. Jason here, health 20, hunger 20, sword in hand. Holding at the row. Billy, I wait for your named call."}
+- 09:58 act: {"say":"Night now. I'm staying near the beds and will sleep here.","actions":[{"do":"sleep"}]}
+- 09:59 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 10:03 act: {"say":"Good morning, row. Jason here, health 20, hunger 20, sword in hand. Holding at my bed for Billy's named call.","intent":{"goal":"hold_at_row_for_billy","program":"rest","arguments":{},"wake_on
+- 10:11 act: {"say":"Dusk, row. Jason going to the proven square at 416,107,-1050 to sleep in sight.","actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 10:23 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 10:40 act: {"say":"Night, row. Jason to the bed square 416,107,-1050 to sleep, in sight.","actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 10:44 act: {"say":"Good morning, row. Jason here, health 20, hunger 20, sword in hand. My sleep at the bed square failed twice, so I stayed in sight. Billy, I hold for your named call."}
+- 10:52 act: {"actions":[{"do":"sleep"}]}
+- 10:52 act: {"actions":[{"do":"note","text":"Dusk day 711: sleep worked, 4 of 10 needed asleep. Still at 415,107,-1050 beside the bed, in sight of Worf and Wcrusher. Holding."}],"say":"Going to rest here, near th
+- 10:52 act: {"actions":[{"do":"sleep"}]}
