@@ -1,5 +1,5 @@
-# Handoff, day 718 (dusk)
+# Handoff, day 727 (night, slept)
 
-At 416,107,-1050, beside my bed 415,107,-1050. Health 20, hunger 20, wooden sword in hand. Worf beside me. No errand, no walk named by Billy, no food named. Billy has not named a walk or food since waking at 716.
+At 418,107,-1047 near my bed, in Billy's row. Health 20, hunger 20, wooden sword in hand. Worf and Wesley near. No errand, no walk named, no food named. Billy has named no route past x=370 and says he holds no food. Nobody at hunger 10 yet.
 
-Next: at first light say good morning to the row, then wait for Billy's named call. Walk only in daylight on a verified route. Ask for food by name at hunger 6 or below.
+Next: at first light say good morning to Billy, then wait for his named call. Walk only in daylight on a verified route. Call for food by name at hunger 10 or below.
