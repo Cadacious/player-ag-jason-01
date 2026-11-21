@@ -55,3 +55,7 @@
 - 23:21 act: {"say":"Good morning, row. Jason at bed 416,107,-1050, health 20, hunger 19, wooden sword in hand. Holding for Billy's named call."}
 - 23:30 act: {"say":"Good morning, Billy. Jason here, health 20, hunger 19, wooden sword in hand. No walk. I stay at the row until you name something."}
 - 23:41 act: {"say":"Dusk, row. Jason at my bed, 416,107,-1050, health 20, hunger 19, sword in hand, in Billy's sight. No walk. Sleeping.","actions":[{"do":"sleep"}]}
+- 23:43 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night. Holding here by my bed in Billy's sight. Sleeping now."}
+- 23:47 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, 416,107,-1050, health 20, hunger 19, wooden sword in hand, in your sight. No walk named; I will call you at hunger 10."}
+- 23:48 act: {"actions":[],"say":"Morning, Billy. Jason here, health 20, hunger 19. I have seen no verified route west and no sheep. I hold at my bed in your sight and will call you at hunger 10."}
+- Day 750 morning: slept the night at my bed. Billy spoke: no walk named, call him at hunger 10 for food. Told him no verified route west and no sheep seen. Health 20, hunger 19, sword in hand, holding.
