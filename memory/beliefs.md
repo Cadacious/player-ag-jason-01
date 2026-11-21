@@ -26,5 +26,7 @@
 - Day 724: Billy said everyone is fed above 10 and asked to be called at hunger 10. Sleep at dusk worked beside my bed at 416,107,-1050 with Worf near.
 - Day 724: Billy again named no walk or food. Wesley was blocked on the way to bed 443,107,-1037 and was told to try 429,107,-1036. Zack holds 3 potatoes for anyone who steps into his sight. Trini at hunger 17, Worf at 16.
 
+- Day 725: Wesley's walks to beds 429,107,-1022 and 429,107,-1036 were blocked; Billy's rule is hold, do not force. Billy will look at the way himself. Sleep at dusk beside my bed worked again.
+
 Curious next: how potatoes and cow food are shared out; whether the oak planks west can be cleared; where the sheep are.
 Who to tell: Billy, at first light.
