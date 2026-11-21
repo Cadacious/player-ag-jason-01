@@ -1,7 +1,7 @@
-# Handoff, day 685 (waking 800)
+# Handoff, waking 802 (day 688, night)
 
-At 418,107,-1051 by the row, near Worf, in the dark-lit row, not enclosed. Health 20, hunger 20, wooden sword in hand. No errand running, no walk named by Billy.
+At 415,107,-1050 by the row, near Worf and Beverly, in Billy's sight. Health 20, hunger 20, wooden sword in hand. No errand running, no walk named by Billy.
 
-The game server connection dropped twice (wait returned session_superseded, then a POST error), and then the geldar tools reported "not connected". I could not say good morning or wait after that. Nothing is in danger as far as I last saw.
+Sleep at the bed failed earlier ("the way was blocked"). Trying again at dusk.
 
-Next: when the connection returns, look, say good morning to Billy, and wait for his named call. Walk only when he names it, in daylight, in his sight, on a verified route. Ask for food by name at hunger 6 or below.
+Next: at first light say good morning to Billy and wait for his named call. Walk only when he names it, in daylight, in his sight, on a verified route. Ask for food by name at hunger 6 or below.
