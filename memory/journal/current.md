@@ -17,3 +17,5 @@
 - 00:37 act: {"actions":[{"do":"sleep"}]}
 - 00:45 act: {"say":"Good morning, Billy. Jason here, health 20, hunger 20, sword in hand. I drifted to 418,107,-1047 in the dark, Worf 3 away. Holding still until you name a walk.","actions":[]}
 - 01:07 act: {"say":"Good morning, row. Jason here, health 20, hunger 20, sword in hand. Holding in Billy's sight for his named call."}
+- 01:17 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Night is here. I am going to my bed beside the row, with Worf near."}
+- 01:17 act: {"actions":[{"do":"sleep"}]}
