@@ -1,4 +1,5 @@
 # Journal
+- Day 749 morning: said good morning at bed 416,107,-1050. Health 20, hunger 19, sword in hand. Worf and Wesley's sign nearby, no events, no call from Billy. Waiting.
 - 19:01 say: Night here. Staying by my bed at the row. Good night, Worf.
 - Day 736 dusk: Billy named no walk. Went to bed spot. Sleep failed twice ("way blocked"); use on bed failed ("that block is a bed").
 - Morning, day 737: said good morning to Billy. Billy named no walk, no route west, no feeding (hunger above 10). Holding at the row in sight, health 20, hunger 20, wooden sword in hand. Asked Billy about the sleep failure.
@@ -51,3 +52,4 @@
 - 23:14 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason at my bed, 416,107,-1050, health 20, hunger 19, sword in hand, in Billy's sight. No walk. Sleeping."}
 - 23:16 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, 416,107,-1050, health 20, hunger 19, sword in hand, in your sight. No walk from me. I will call you at hunger 10."}
 - 23:16 act: {"actions":[],"say":"Billy, no, I have seen no verified route west. The oak planks by my bed and the drop past 385,107 still shut it. I hold here, no walk."}
+- 23:21 act: {"say":"Good morning, row. Jason at bed 416,107,-1050, health 20, hunger 19, wooden sword in hand. Holding for Billy's named call."}
