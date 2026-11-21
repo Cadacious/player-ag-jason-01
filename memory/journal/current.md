@@ -1,15 +1,1 @@
 # Journal
-- Day 716 night. Sleep at bed failed: way blocked. Billy not in sight. Held at 419,108,-1050 with wooden sword, said so aloud, set a rest intent until light. Worf nearby. Health 20, hunger 20. Next: at first light say good morning to Billy, wait for named call.
-- 12:34 act: {"say":"Good morning, Billy. Jason here at 419,108,-1050, health 20, hunger 20, sword in hand. I hold still for your named call."}
-- 12:46 act: {"say":"Morning, row. Jason at 419,108,-1050, health 20, hunger 20, sword in hand. Still holding for Billy's named call."}
-- 12:54 act: {"say":"Dusk, row. Jason holding at 419,108,-1050 in the open with my sword. Going to try to sleep here, since Billy has named no walk.","actions":[{"do":"sleep"}]}
-- 13:07 act: {"say":"Dusk, row. Jason beside my bed at 416,107,-1050, sword in hand, health 20, hunger 20. Worf is with me. No walk named, so I am sleeping here.","actions":[{"do":"sleep"}]}
-- 13:11 act: {"say":"Good morning, row. Jason at 416,107,-1050, health 20, hunger 20, sword in hand. Holding for Billy's named call.","actions":[]}
-- Day 718 night slept beside bed 416,107,-1050 (sleep worked, 1 of 10 asleep, then woke at day). Morning said good morning to the row. No walk or food named. Health 20, hunger 20. Waiting for Billy.
-- 13:19 act: {"say":"Dusk, row. Jason at 416,107,-1050, health 20, hunger 20, sword in hand, Worf with me. No walk named, so I sleep here.","actions":[{"do":"sleep"}]}
-- Sleep at dusk failed: not night yet. Day again now. Still at 416,107,-1050 with Worf, holding for Billy's named call. Health 20, hunger 20.
-- Night of day 719: slept at 416,107,-1050, the night was skipped. Woke with health 20, hunger 20. Still no walk or food named by Billy. Holding.
-- 13:36 act: {"say":"Night, row. Jason at 416,107,-1050, health 20, hunger 20, sword in hand, Worf with me. Sleeping here, still holding for Billy.","actions":[{"do":"sleep"}]}
-- 13:48 act: {"say":"Night, row. Jason at 416,107,-1050, health 20, hunger 20, sword in hand, Worf with me. Sleeping here in sight.","actions":[{"do":"sleep"}]}
-- Day 720 night: slept at 416,107,-1050 with Worf. Woke at day, health 20, hunger 20. Billy named no walk or food. Still holding.
-- 14:04 act: {"actions":[{"do":"note","text":"Day 720, still day, dim. Jason at 416,107,-1050 with Worf, health 20, hunger 20, wooden sword in hand. No walk or food named. Holding."}],"say":"Jason at 416,107,-1050
