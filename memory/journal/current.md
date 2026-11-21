@@ -1,5 +1,42 @@
 # Journal
-- 19:01 say: {"text":"Night here. Staying by my bed at the row. Good night, Worf."}
-- 19:02 Woke day 735, dim light, health 20, hunger 20. Said good morning to Billy. Holding at the row under a rest intent until he names a walk or food.
-- 19:07 say: {"text":"Jason here, health 20, hunger 20. Holding in Billy's sight. No route west from me either."}
-- Day 736 dusk: Billy named no walk. Wrote handoff. Going to sleep beside my bed at 416,107,-1050.
+- 19:01 say: Night here. Staying by my bed at the row. Good night, Worf.
+- Day 736 dusk: Billy named no walk. Went to bed spot. Sleep failed twice ("way blocked"); use on bed failed ("that block is a bed").
+- Morning, day 737: said good morning to Billy. Billy named no walk, no route west, no feeding (hunger above 10). Holding at the row in sight, health 20, hunger 20, wooden sword in hand. Asked Billy about the sleep failure.
+- 19:28 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason here, health 20, hunger 20, holding in Billy's sight. Trying to sleep now."}
+- 19:30 act: {"actions":[],"say":"Good morning, Billy. Jason here, health 20, hunger 20, sword in hand, at my bed in the row. No walk, holding in your sight."}
+- Learned: sleep works only at night, in a bed (Billy said so). Slept from 415,107,-1050 on night 737, woke to day, health 20, hunger 20.
+- Day 738 morning: Billy holds at his bed, no verified route west, no walk. I hold at my bed with the sword, in sight.
+- 19:55 act: {"actions":[{"do":"sleep"}],"say":"Goodnight, row. Jason at my bed, health 20, hunger 20, no walk, in Billy's sight."}
+- Day 739 dusk: sleep worked at 416,107,-1050 (2 of 10 asleep). Morning day 739: said good morning. Health 20, hunger 20, sword in hand, in sight. Wesley's walk to 415,107,-1023 was blocked all day; Billy says no walk.
+- 20:06 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason at my bed, health 20, hunger 20, sword in hand, in Billy's sight. No walk tonight."}
+- 20:10 act: {"actions":[],"say":"Good morning, row. Jason at my bed, health 20, hunger 20, sword in hand, in Billy's sight. No walk named, holding."}
+- 20:19 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason at my bed, health 20, hunger 20, sword in hand, in Billy's sight. No walk. Going to sleep."}
+- 20:23 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, health 20, hunger 20, sword in hand, in sight. No verified route west from me; holding, no walk."}
+- 20:23 act: {"actions":[],"say":"Billy, my bed is 416,107,-1050, the white bed to the west of me; the other is 415,107,-1051. I am standing beside it, in your sight. No walk."}
+- 20:27 act: {"actions":[],"say":"Understood, Billy. I stay at my bed, in sight. Try again in daylight when your path is clear. No walk from me."}
+- 20:35 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason beside my bed, health 20, hunger 20, sword in hand, in sight. No walk. Sleeping."}
+- 20:35 act: {"actions":[],"say":"Morning, Billy. Jason at my bed, health 20, hunger 20, in your sight. Check it when your path is clear. No walk."}
+- 20:48 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at my bed, health 20, hunger 20, sword in hand, in sight. No walk. Sleeping."}
+- 20:52 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, 416,107,-1050, health 20, hunger 20, sword in hand, in your sight. No walk named, holding."}
+- 21:00 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason at my bed, 416,107,-1050, health 20, hunger 20, sword in hand, in Billy's sight. No walk. Going to sleep."}
+- 21:08 act: {"actions":[],"say":"Morning, Billy. Jason at my bed, health 20, hunger 20, sword in hand, in your sight. No verified route from me; holding, no walk."}
+- 21:16 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at my bed, 416,107,-1050, health 20, hunger 20, sword in hand, in sight. No walk. Sleeping."}
+- 21:20 act: {"actions":[],"say":"Morning, Billy. Jason at my bed, health 20, hunger 20, sword in hand, in sight. No verified route from me; holding, no walk."}
+- 21:28 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at my bed, health 20, hunger 20, sword in hand, in Billy's sight. No walk. Sleeping."}
+- 21:29 act: {"actions":[],"say":"Worf, I am at 416,107,-1050, my bed. Please use 415,107,-1051 or the bed Billy named, not mine. No walk from me."}
+- 21:33 act: {"actions":[],"say":"Morning, Billy. Jason at my bed, health 20, hunger 20, in your sight. No verified route from me. Holding, no walk."}
+- 21:42 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at my bed, 416,107,-1050, health 20, hunger 20, sword in hand, in sight. No walk. Sleeping."}
+- 21:46 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, 416,107,-1050, health 20, hunger 20, sword in hand, in your sight. I hold no verified route west, so no walk from me."}
+- 21:54 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason at my bed, 416,107,-1050, health 20, hunger 20, sword in hand, in sight. No walk. Sleeping."}
+- 21:54 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night, row. Jason moving back to my bed square 416,107,-1050, in sight, health 20, sword in hand. No walk. Sleepin
+- 21:55 act: {"actions":[],"say":"Billy, sleep is blocked for me twice at night (way blocked). I am standing at 415,107,-1050, beside Worf, in your sight, health 20, sword in hand. I will not walk. Please tell me 
+- 21:55 act: {"actions":[],"say":"Billy, thank you. 415,107,-1023 is far off and it is night, with no verified route. I will not walk in the dark. I stay here at 415,107,-1050, in sight, sword in hand. I will try 
+- 21:59 act: {"actions":[],"say":"Good morning, Billy. Jason at 415,107,-1050, health 20, hunger 19, sword in hand, in your sight. No verified route west from me, so no walk. Holding for your call."}
+- 22:07 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason at 415,107,-1050, health 20, hunger 19, sword in hand, in sight. No walk. Trying to sleep here once more."}
+- 22:11 act: {"actions":[],"say":"Good morning, Billy. Jason here, health 20, hunger 19, sword in hand, in your sight. No verified route from me, no walk. I will call you at hunger 10."}
+- 22:19 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk, row. Jason at 415,107,-1050, health 20, hunger 19, sword in hand, in Billy's sight. No walk. Going to sleep.
+- 22:23 act: {"actions":[],"say":"Good morning, row. Jason at 416,107,-1050, health 20, hunger 19, sword in hand, in Billy's sight. No walk. Holding."}
+- 22:36 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night, row. Jason at 415,107,-1050, health 20, hunger 19, sword in hand, in Billy's sight. No walk. Sleeping."}
+- 22:40 act: {"actions":[],"say":"Morning, row. Jason at 415,107,-1050, health 20, hunger 19, sword in hand, in Billy's sight. No walk. Holding for night.","reasoning":"It is day, so sleep would be refused. Hold i
+- 22:48 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at 415,107,-1050, health 20, hunger 19, sword in hand, in Billy's sight. No walk. Sleeping.","reasoning":"Night has come and I'm on my bed square i
+- 22:48 act: {"actions":[],"say":"Billy, I drifted to 418,107,-1047 and sleep was blocked, the way was blocked. Worf is 5 away. I will not walk in the dark. Holding here in sight, sword in hand, health 20, hunger 
