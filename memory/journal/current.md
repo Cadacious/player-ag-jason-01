@@ -5,3 +5,4 @@
 - 07:40 act: {"actions":[{"do":"note","text":"Day 701: said good morning. Worf asked about cows/sheep; no sheep seen by me. Still no call from Billy; holding at bed."}],"say":"Worf, I have seen no sheep either. Th
 - 07:48 act: {"actions":[{"do":"note","text":"Day 702: still holding at 416,107,-1049 beside bed, health 20, hunger 20. No call from Billy. Others going to sleep in sight. days_since_sleep 2; I will sleep at dusk 
 - 08:00 act: {"actions":[{"do":"note","text":"Day 702 dusk: held at bed all day, no call from Billy, health 20, hunger 20. Sleeping beside bed in sight of Worf and Wesley."}]}
+- 08:01 act: {"say":"Good morning. Holding at the row with my sword, waiting for Billy's call.","reasoning":"Daylight, health 20, hunger 20. Billy not in sight. Hold and wait for his named call."}
