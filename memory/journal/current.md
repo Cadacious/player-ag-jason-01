@@ -48,3 +48,6 @@
 - 23:02 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}]}
 - 23:02 act: {"actions":[{"do":"sleep"}]}
 - 23:04 act: {"say":"Good morning, Billy. Jason at my bed, 416,107,-1050, health 20, hunger 19, sword in hand, in your sight. No walk from me. I will call you at hunger 10."}
+- 23:14 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason at my bed, 416,107,-1050, health 20, hunger 19, sword in hand, in Billy's sight. No walk. Sleeping."}
+- 23:16 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, 416,107,-1050, health 20, hunger 19, sword in hand, in your sight. No walk from me. I will call you at hunger 10."}
+- 23:16 act: {"actions":[],"say":"Billy, no, I have seen no verified route west. The oak planks by my bed and the drop past 385,107 still shut it. I hold here, no walk."}
