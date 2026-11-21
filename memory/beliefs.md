@@ -25,5 +25,7 @@
 
 - Day 694: sleep at dusk worked at 419,108,-1050 standing in Billy's sight with Worf near; no bed block needed.
 
-Curious next: how potatoes are shared out; whether the oak planks west can be cleared.
+- Day 704: slept at night at 416,107,-1050 beside the bed; sleep returned the digest with no block of trouble. Zack shares potatoes with anyone in his sight who asks.
+
+Curious next: how potatoes are shared out; whether the oak planks west can be cleared; where the sheep are.
 Who to tell: Billy at first light.
