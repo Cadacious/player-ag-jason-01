@@ -1,3 +1,12 @@
 # Journal
 - 05:12 say: {"text":"Goodnight, row. Jason going to sleep in Billy's sight. Health 20, hunger 20. No walk named."}
 - 05:12 act: {"say":"Good morning. Jason here, holding at the row with my sword. Waiting for Billy's call."}
+- 05:21 act: {"say":"Jason here, good morning. Health 20, hunger 20, holding at the row with my sword. Waiting for Billy's named call.","intent":{"goal":"hold_at_row","program":"rest","arguments":{},"wake_on":["di
+- Day 694 morning: woke at the row, health 20, hunger 20, sword in hand. Worf and Wesley nearby, no walk named. Said good morning and set hold_at_row intent.
+- Day 695 morning: still at the row, health 20, hunger 20, no walk named by Billy. Said good morning. Laforge, Wesley, Leonardo, Beverly reported holding too.
+- 05:21 act: {"intent":{"goal":"hold_at_row_again","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_block_operations"
+- 05:25 act: {"say":"Good morning, row. Jason here, health 20, hunger 20, holding in Billy's sight. No walk named yet."}
+- Day 695 dusk: goto to bed square worked, sleep failed "the way was blocked" (as before). Staying in Billy's sight at 419,108,-1050 with sword, health 20, hunger 20. Not retrying sleep.
+- 05:37 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk, row. Jason going to the bed square at 416,107,-1050, in Billy's sight. Health 20, hunger 20. No walk named."
+- Day 696: morning and dusk at 419,108,-1050 in Billy's sight. Health 20, hunger 20. Worf hunger 17, Zack 19, Tommy 16 with 3 potatoes. No walk named. Holding; not retrying sleep at bed.
+- 05:41 act: {"say":"Good morning, row. Jason here at 419,108,-1050, health 20, hunger 20, sword in hand. Holding in Billy's sight; no walk named."}
