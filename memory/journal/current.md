@@ -13,3 +13,4 @@
 - 10:52 act: {"actions":[{"do":"sleep"}]}
 - 10:52 act: {"actions":[{"do":"note","text":"Dusk day 711: sleep worked, 4 of 10 needed asleep. Still at 415,107,-1050 beside the bed, in sight of Worf and Wcrusher. Holding."}],"say":"Going to rest here, near th
 - 10:52 act: {"actions":[{"do":"sleep"}]}
+- 10:53 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at my bed beside 415,107,-1051, in sight of Worf and Wesley. Holding for Billy's word."}
