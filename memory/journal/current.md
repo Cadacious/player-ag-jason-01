@@ -22,3 +22,5 @@
 - 11:35 act: {"say":"Night, row. Jason trying to sleep here at 418,107,-1047, in sight of Wesley and Worf.","actions":[{"do":"sleep"}],"reasoning":"Night, in sight, safe. One sleep try here; I will not walk unname
 - 11:47 act: {"say":"Dusk, row. Jason trying to sleep here at 418,107,-1047, in sight of Wesley. Health 20, hunger 20.","actions":[{"do":"sleep"}],"reasoning":"Dusk, in sight of row-mates. Try sleep here, no walki
 - 11:51 say: {"text":"Jason here, holding at 418,107,-1047 in Wesley's sight, health 20, hunger 20. Waiting for Billy's word."}
+- 12:01 act: {"say":"Dusk. I'm holding here with my sword, and I'll sleep where I stand.","actions":[{"do":"sleep"}]}
+- 12:03 act: {"say":"Night, row. Jason at my bed square 415,107,-1050, in Worf's sight. Holding for Billy at first light.","actions":[{"do":"sleep"}]}
