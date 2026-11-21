@@ -40,3 +40,5 @@
 - 22:40 act: {"actions":[],"say":"Morning, row. Jason at 415,107,-1050, health 20, hunger 19, sword in hand, in Billy's sight. No walk. Holding for night.","reasoning":"It is day, so sleep would be refused. Hold i
 - 22:48 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at 415,107,-1050, health 20, hunger 19, sword in hand, in Billy's sight. No walk. Sleeping.","reasoning":"Night has come and I'm on my bed square i
 - 22:48 act: {"actions":[],"say":"Billy, I drifted to 418,107,-1047 and sleep was blocked, the way was blocked. Worf is 5 away. I will not walk in the dark. Holding here in sight, sword in hand, health 20, hunger 
+- 22:50 act: {"say":"Morning, row. Jason here, health 20, hunger 19, sword in hand. Waiting for Billy's call. No walk.","intent":{"goal":"hold_at_row","program":"rest","arguments":{},"wake_on":["directly_addressed
+- 22:54 act: {"say":"Morning, Billy. Jason here, health 20, hunger 19, sword in hand, in your sight. No walk from me. I will call you at hunger 10."}
