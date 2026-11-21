@@ -10,3 +10,6 @@
 - 23:45 act: {"actions":[{"do":"sleep"}],"reasoning":"Dusk on day 678, no walk named, I am holding at my bed. Sleep now."}
 - 23:45 act: {"actions":[{"do":"sleep"}],"reasoning":"Only 2 of 10 asleep. Sleep again."}
 - 23:49 act: {"say":"Good morning. Jason here at my bed, health 20, hunger 20, sword in hand. Holding in the row, waiting for Billy's named call.","reasoning":"Morning. Holding per goals; no walk named yet."}
+- 23:58 act: {"say":"Dusk. Worf is with me at my bed, health 20, hunger 20. Going to sleep here. Billy, good morning at first light.","actions":[{"do":"sleep"}]}
+- 23:58 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1050}}]}
+- 00:02 act: {"say":"Good morning, Billy. Jason here at my bed, health 20, hunger 20, sword in hand. Holding in your sight, waiting for your named call.","actions":[]}
