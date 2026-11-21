@@ -28,5 +28,7 @@
 
 - Day 725: Wesley's walks to beds 429,107,-1022 and 429,107,-1036 were blocked; Billy's rule is hold, do not force. Billy will look at the way himself. Sleep at dusk beside my bed worked again.
 
+- Day 729: Billy's morning call again: hold, no route, no food named. Zack holds 3 potatoes; Troi first. Sleep at dusk beside my bed in Billy's sight worked.
+
 Curious next: how potatoes and cow food are shared out; whether the oak planks west can be cleared; where the sheep are.
 Who to tell: Billy, at first light.
