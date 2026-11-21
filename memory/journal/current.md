@@ -13,3 +13,7 @@
 - 23:58 act: {"say":"Dusk. Worf is with me at my bed, health 20, hunger 20. Going to sleep here. Billy, good morning at first light.","actions":[{"do":"sleep"}]}
 - 23:58 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1050}}]}
 - 00:02 act: {"say":"Good morning, Billy. Jason here at my bed, health 20, hunger 20, sword in hand. Holding in your sight, waiting for your named call.","actions":[]}
+- 00:28 act: {"say":"Trini, Jason here at 416,107,-1050, beside my bed. Health 20, hunger 20, sword in hand. Holding in Billy's sight. Nothing needed yet.","actions":[]}
+- 00:37 act: {"actions":[{"do":"sleep"}]}
+- 00:45 act: {"say":"Good morning, Billy. Jason here, health 20, hunger 20, sword in hand. I drifted to 418,107,-1047 in the dark, Worf 3 away. Holding still until you name a walk.","actions":[]}
+- 01:07 act: {"say":"Good morning, row. Jason here, health 20, hunger 20, sword in hand. Holding in Billy's sight for his named call."}
