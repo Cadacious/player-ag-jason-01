@@ -12,3 +12,6 @@
 - 05:41 act: {"say":"Good morning, row. Jason here at 419,108,-1050, health 20, hunger 20, sword in hand. Holding in Billy's sight; no walk named."}
 - 06:02 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Evening. Going to sleep beside my bed at 416,107,-1050, with Worf near."}
 - 06:08 act: {"actions":[],"say":"Good morning, row. Jason here at 416,107,-1050, health 20, hunger 20, sword in hand. Holding in Billy's sight; no walk named yet.","intent":{"goal":"hold_at_row","program":"rest",
+- 06:08 act: {"actions":[],"intent":{"goal":"hold_at_row_again","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_ticks":2400,"max_bloc
+- 06:17 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason trying to sleep beside my bed at 416,107,-1050, in Billy's sight. Health 20, hunger 20."}
+- 06:21 say: {"text":"Good morning, Billy. Jason here at 416,107,-1050, health 20, hunger 20, sword in hand. Holding in your sight. Waiting for your named call."}
