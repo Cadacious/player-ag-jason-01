@@ -14,3 +14,11 @@
 - 10:52 act: {"actions":[{"do":"note","text":"Dusk day 711: sleep worked, 4 of 10 needed asleep. Still at 415,107,-1050 beside the bed, in sight of Worf and Wcrusher. Holding."}],"say":"Going to rest here, near th
 - 10:52 act: {"actions":[{"do":"sleep"}]}
 - 10:53 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at my bed beside 415,107,-1051, in sight of Worf and Wesley. Holding for Billy's word."}
+- 10:58 act: {"say":"Good morning, row. Jason here, holding at my bed in sight. Health 20, hunger 20, sword in hand. Billy, I wait for your named call.","reasoning":"Daylight, no call named yet. Hold, greet, wait 
+- 11:06 act: {"say":"Dusk, row. Jason sleeping here at 416,107,-1049, in sight of Worf and Wesley. Health 20, hunger 20. Holding for Billy's word at first light.","actions":[{"do":"sleep"}],"reasoning":"Dusk, in s
+- 11:22 act: {"say":"Night, row. Jason sleeping here at 416,107,-1049, in sight of Worf and Wesley. Holding for Billy at first light.","actions":[{"do":"sleep"}],"reasoning":"Night, in sight of row-mates, safe. Sl
+- 11:22 act: {"say":"Jason at 419,108,-1050, night in the row. Trying to sleep here in sight of Wesley and Worf.","actions":[{"do":"sleep"}],"reasoning":"Sleep failed on the way; stay put in sight, try once more h
+- 11:27 act: {"say":"Morning, row. Jason here at 418,107,-1047, health 20, hunger 20, sword in hand. Holding in sight. Billy, I wait for your named call."}
+- 11:35 act: {"say":"Night, row. Jason trying to sleep here at 418,107,-1047, in sight of Wesley and Worf.","actions":[{"do":"sleep"}],"reasoning":"Night, in sight, safe. One sleep try here; I will not walk unname
+- 11:47 act: {"say":"Dusk, row. Jason trying to sleep here at 418,107,-1047, in sight of Wesley. Health 20, hunger 20.","actions":[{"do":"sleep"}],"reasoning":"Dusk, in sight of row-mates. Try sleep here, no walki
+- 11:51 say: {"text":"Jason here, holding at 418,107,-1047 in Wesley's sight, health 20, hunger 20. Waiting for Billy's word."}
