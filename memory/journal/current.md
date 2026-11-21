@@ -16,3 +16,5 @@
 - 06:17 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason trying to sleep beside my bed at 416,107,-1050, in Billy's sight. Health 20, hunger 20."}
 - 06:21 say: {"text":"Good morning, Billy. Jason here at 416,107,-1050, health 20, hunger 20, sword in hand. Holding in your sight. Waiting for your named call."}
 - 06:29 say: {"text":"Dusk, row. Jason holding at 416,107,-1050 in Billy's sight, health 20, hunger 20, sword in hand. No walk named."}
+- 06:38 act: {"say":"Morning. Jason here, holding at the row in Billy's sight. Billy has not named a walk yet.","reasoning":"Morning greeting; hold per goals until Billy names a call."}
+- 06:42 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1050}}],"reasoning":"Dusk, days since sleep 4. Try the bed west of me."}
