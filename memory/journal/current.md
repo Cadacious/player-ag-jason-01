@@ -44,3 +44,7 @@
 - 22:54 act: {"say":"Morning, Billy. Jason here, health 20, hunger 19, sword in hand, in your sight. No walk from me. I will call you at hunger 10."}
 - 23:00 act: {"say":"Jason here at the row, dusk. Holding still in Billy's sight, wooden sword in hand. Going to sleep here."}
 - 23:00 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk, row. Jason moving back to my bed square 416,107,-1050, in Billy's sight, health 20, hunger 19. No walk beyon
+- 23:02 act: {"say":"Night, Worf. Jason beside my bed at 416,107,-1049, sleeping in the row. No walk named."}
+- 23:02 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}]}
+- 23:02 act: {"actions":[{"do":"sleep"}]}
+- 23:04 act: {"say":"Good morning, Billy. Jason at my bed, 416,107,-1050, health 20, hunger 19, sword in hand, in your sight. No walk from me. I will call you at hunger 10."}
