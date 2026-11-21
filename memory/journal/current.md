@@ -53,3 +53,5 @@
 - 23:16 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, 416,107,-1050, health 20, hunger 19, sword in hand, in your sight. No walk from me. I will call you at hunger 10."}
 - 23:16 act: {"actions":[],"say":"Billy, no, I have seen no verified route west. The oak planks by my bed and the drop past 385,107 still shut it. I hold here, no walk."}
 - 23:21 act: {"say":"Good morning, row. Jason at bed 416,107,-1050, health 20, hunger 19, wooden sword in hand. Holding for Billy's named call."}
+- 23:30 act: {"say":"Good morning, Billy. Jason here, health 20, hunger 19, wooden sword in hand. No walk. I stay at the row until you name something."}
+- 23:41 act: {"say":"Dusk, row. Jason at my bed, 416,107,-1050, health 20, hunger 19, sword in hand, in Billy's sight. No walk. Sleeping.","actions":[{"do":"sleep"}]}
