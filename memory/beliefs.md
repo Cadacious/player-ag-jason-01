@@ -20,5 +20,8 @@
 - Day 674: a sleep called at dusk fails with "it is not night yet"; wait for night, then call sleep again.
 - Day 706: the oak planks west (near 415,107,-1050) still block the west route; no one has cleared them.
 
+- Day 716: sleep at 416,107,-1050 worked after a goto from 419,108,-1050; the earlier sleep at 419,108,-1050 failed "the way was blocked."
+- Day 716: Billy was not seen in my sight; he named no walk or food. Trini, Beverly, Worf, Laforge, Wesley all holding and waiting for his call.
+
 Curious next: how potatoes and cow food are shared out; whether the oak planks west can be cleared; where the sheep are.
 Who to tell: Billy, at first light.
