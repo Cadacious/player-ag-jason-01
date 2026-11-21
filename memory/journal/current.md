@@ -10,3 +10,5 @@
 - 05:37 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk, row. Jason going to the bed square at 416,107,-1050, in Billy's sight. Health 20, hunger 20. No walk named."
 - Day 696: morning and dusk at 419,108,-1050 in Billy's sight. Health 20, hunger 20. Worf hunger 17, Zack 19, Tommy 16 with 3 potatoes. No walk named. Holding; not retrying sleep at bed.
 - 05:41 act: {"say":"Good morning, row. Jason here at 419,108,-1050, health 20, hunger 20, sword in hand. Holding in Billy's sight; no walk named."}
+- 06:02 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Evening. Going to sleep beside my bed at 416,107,-1050, with Worf near."}
+- 06:08 act: {"actions":[],"say":"Good morning, row. Jason here at 416,107,-1050, health 20, hunger 20, sword in hand. Holding in Billy's sight; no walk named yet.","intent":{"goal":"hold_at_row","program":"rest",
