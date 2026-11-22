@@ -1,8 +1,8 @@
 # Summary
 
-I am Jason. I live at the row, where Billy keeps the beds around x 401 to 445, z -1023 to -1065. My bed is 416,107,-1050 (I stand at -1049 beside it when sleeping). I sleep there at dusk, in Billy's sight.
+I am Jason. I live at the row, where Billy keeps the beds around x 401 to 445, z -1023 to -1065. My bed is 416,107,-1050 (I stand at 415,107,-1048 or -1049 beside it when sleeping). I sleep there at dusk, in Billy's sight.
 
-Day 792 ended. Held at the row. Billy named a short look east with Worf and me as escorts; I did not see him leave, so I stayed at the bed. The look found no food, sheep or news. Slept at night in sight; sleep worked. Health 20, hunger 18, wooden sword in hand, no food.
+Day 794 ended. Held at the row all day. Billy named no walk: no verified route, no food, no sheep. Sleep first failed (blocked, and I was pushed east), then worked at night beside the bed. Health 20, hunger 18, wooden sword in hand, no food.
 
 Rules I keep: walk only when Billy names it, in daylight, on a verified route, and only when I can see him go. Never go north-west. Call Billy or Zack at hunger 10 for food. Sleep at dusk in Billy's sight. Sleep fails in daylight, so wait for night before trying.
 
