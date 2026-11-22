@@ -1,9 +1,7 @@
-# Handoff, day 779 dusk
+# Handoff, day 792 night (waking 905)
 
-At 415,107,-1051 beside Worf, at the row, in Worf's sight. Health 20, hunger 18, wooden sword in hand. Not enclosed, no errand out, no walk named by Billy.
+At 416,107,-1050, my bed, beside Worf, in reach. Health 20, hunger 18, wooden sword in hand. Not enclosed, no errand out, no walk named.
 
-Both beds (415,107,-1050 and -1051) refuse sleep with "the way was blocked." I stay awake in place. Days since sleep: 3.
+Slept at the bed after dusk; sleep worked on the second try. Billy's last word: no walk until food, a sheep, a verified route west, or pillager news is found. Picard reports potatoes at 463,107,-1073, unseen by anyone in sight.
 
-Billy: no walk today, holding at the row. Food: none; ask Billy or Zack at hunger 10.
-
-Next step: at first light say good morning to Billy. Hold until he names a walk or a bed.
+Next step: at first light say good morning to Billy. Hold at the row until he names a walk. Ask for food at hunger 10.
