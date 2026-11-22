@@ -36,3 +36,5 @@
 - 07:42 act: {"say":"Good morning, Worf. Holding at the row with my sword. Still no walk named.","actions":[]}
 - Day 774 morning: Worf beside me at 417,107,-1049, health 20, hunger 18, sword in hand. Billy not in sight; no walk named, no food. Waiting.
 - Day 774 midday: still holding beside Worf at 417,107,-1049, health 20, hunger 18. Heard Zack and Chapman; Chapman asks for a spare potato. No change for me; waiting.
+- 08:06 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night at the row. Jason here, health 20, hunger 18, sword in hand. I am trying my bed now, in Billy's sight. No wa
+- 08:06 act: {"actions":[{"do":"sleep"}]}
