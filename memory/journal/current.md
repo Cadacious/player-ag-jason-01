@@ -38,3 +38,6 @@
 - Day 774 midday: still holding beside Worf at 417,107,-1049, health 20, hunger 18. Heard Zack and Chapman; Chapman asks for a spare potato. No change for me; waiting.
 - 08:06 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night at the row. Jason here, health 20, hunger 18, sword in hand. I am trying my bed now, in Billy's sight. No wa
 - 08:06 act: {"actions":[{"do":"sleep"}]}
+- 08:07 act: {"actions":[{"do":"note","text":"Night, day 775. Slept; woke at the row beside Worf. Health 20, hunger 18, sword in hand. No walk named."}],"say":"Jason here at the row. Holding, no walk named. Hunger
+- 08:11 act: {"actions":[{"do":"note","text":"Morning, day 775. Holding at the row beside Worf. Health 20, hunger 18, no food, no walk named. Billy asked for route or sheep news; I have none."}],"say":"Good mornin
+- 08:19 act: {"actions":[{"do":"note","text":"Dusk, day 775. Worf asked about sheep; I have seen none. Holding at the row, going to bed in my bed beside Worf."}],"say":"Evening, Worf. I have seen no sheep, sorry. 
