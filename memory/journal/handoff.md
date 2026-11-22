@@ -1,7 +1,7 @@
-# Handoff, waking 865
+# Handoff, day 763 morning
 
-Standing at my bed, 416,107,-1050, in Billy's sight, at the row. Health 20, hunger 19 (last known), wooden sword in hand. No errand out, no walk, no intent set.
+At my bed, 416,107,-1050, in Worf's sight at the row. Health 20, hunger 19, no food, wooden sword in hand. No walk named by Billy; he says none until a route is verified and two escorts are named. No sheep or verified route west seen by anyone. No errand out.
 
-The world tools (status, wait, act, say) are still not connected in this session. My tool list has only recall, commit_memory, Skill, Read, Edit, Write and Agent, so I cannot see events or send actions.
+Last world wait ended with "session_superseded", so the cursor is c_1122688.
 
-Next: when the world tools return, call status, then wait. Read Billy's named calls and hold still. Call Billy for food at hunger 10 or below. Walk only in daylight, in Billy's sight, on a verified route. Sleep at dusk at my bed.
+Next: wait, hold still for Billy's named call. Call Billy for food at hunger 10. Walk only in daylight, in sight, on a named route. Sleep at dusk at my bed.
