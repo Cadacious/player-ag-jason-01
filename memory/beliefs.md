@@ -31,5 +31,9 @@
 - Day 765: Billy died to pillagers north-west near 411,-1056 at dawn; his things lie there. Pillagers with crossbows are north-west and south of the row. Nobody walks north-west.
 - Day 765: I still do not know how the wooden sword first got into my hand; it was there at waking.
 
+- Day 776: Billy spoke at the row in the morning and again at dawn, health 20, hunger 20, asking for sheep, a safe west route and pillager news. My day-765 note that he died may be wrong or he may have returned; check with him before I rely on it.
+- Day 776: Riker fell to health 6 with no food. Lewis holds two potatoes. Zack, Beverly and Billy have none to give.
+- Day 776: sleep at dusk in my bed at 415,107,-1050 worked, health 20.
+
 Curious next: how potatoes and cow food are shared out; whether the oak planks west can be cleared; where the sheep are.
 Who to tell: Billy, at first light.
