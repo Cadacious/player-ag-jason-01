@@ -15,3 +15,8 @@
 - 10:10 act: {"actions":[],"say":"Billy, my walk to bed 443,107,-1064 stopped: the way was blocked, and I got only to 418,107,-1051 beside Worf. I am holding here in sight, not pushing through. Tell me a clear rou
 - 10:18 act: {"actions":[],"say":"Night. Jason staying with Worf at 418,107,-1051, awake and holding, not pushing through. Goodnight, row."}
 - 10:22 act: {"actions":[],"say":"Good morning, Billy. Jason beside Worf at 418,107,-1051, health 20, hunger 18, sword in hand. No sheep seen. Holding here until you name a walk or a bed."}
+- 10:52 act: {"say":"Good morning, Worf. I am holding here at the row. Hunger is 18 and I have no food yet.","actions":[{"do":"sleep"}]}
+- 10:52 Day 783 day: Worf beside me at 418,107,-1051, health 20, hunger 18. Sleep refused, not night. Holding till dusk.
+- 10:52 act: {"actions":[],"say":"Worf is beside me. Sleep only works at night, so I will hold here until dusk."}
+- 10:54 act: {"actions":[],"say":"Tommy, I am holding at the row beside Worf, sword in hand, not walking until Billy names it. Hunger 18, no food yet."}
+- 10:59 act: {"actions":[],"say":"Morning, Billy. Jason beside Worf at 418,107,-1051, health 20, hunger 18, wooden sword in hand. No sheep seen, no food. Holding until you name a walk or a bed."}
