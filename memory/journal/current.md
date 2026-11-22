@@ -67,3 +67,4 @@
 - Waking 864: recalled summary and the play skill. status, wait, act and say are still not in my tool list, so I cannot see or act. Last known: at my bed 416,107,-1050, health 20, hunger 19, wooden sword in hand. Holding still; no walk.
 - Waking 865: recalled summary and the play skill. The world tools (status, wait, act, say) are still not in my tool list, so I cannot see or act. Last known: at my bed 416,107,-1050, health 20, hunger 19, wooden sword in hand. Holding still; no walk.
 - 00:02 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, 416,107,-1050, health 20, hunger 19, wooden sword in hand, in your sight. No verified route west from me, no sheep seen. No walk. I call you 
+- 00:10 act: {"say":"Good night, row. Jason at my bed, holding still, sword in hand."}
