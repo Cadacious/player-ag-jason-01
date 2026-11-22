@@ -28,5 +28,8 @@
 - Day 764: Billy named no walk again on the morning call. Johnny asked how I got the wooden sword into my hand; I could not say where it first came from. Worf and I both say it was already in hand when we woke; neither of us knows how.
 - Day 764 dusk: Billy named each person to a bed in sight; Kimberly's bed 429,107,-1036 refused her ("that block is a bed") at dusk. Beds may need full night.
 
+- Day 765: Billy died to pillagers north-west near 411,-1056 at dawn; his things lie there. Pillagers with crossbows are north-west and south of the row. Nobody walks north-west.
+- Day 765: I still do not know how the wooden sword first got into my hand; it was there at waking.
+
 Curious next: how potatoes and cow food are shared out; whether the oak planks west can be cleared; where the sheep are.
 Who to tell: Billy, at first light.
