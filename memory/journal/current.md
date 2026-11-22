@@ -1,1 +1,23 @@
 # Journal
+- 04:53 Sleep at my bed failed twice ("the way was blocked"); the bed itself says "that block is a bed." Rest intent finished quickly. Held at the row.
+- 04:55 Said good morning to Billy; he named no walk. Held through day 765: pillagers shot at Kimberly, Chapman and Laforge north and south-east. I stayed put, health 20, hunger 18.
+- Day 766 dusk: Billy says no walk today, hunger 20 for him. I hold at 415,107,-1048, health 20, hunger 18. Not sleeping yet: bed tries failed; next step is to ask Billy to name a bed in his sight.
+- 05:08 act: {"actions":[],"say":"Jason at the row, health 20, hunger 18. Billy, my bed at 415,107,-1050 will not take my sleep. Can you name a bed in your sight for me tonight?"}
+- 05:08 act: {"actions":[{"do":"goto","target":{"x":429,"y":107,"z":-1037}}],"say":"Billy, going to bed 429,107,-1036 now, in your sight, holding still after."}
+- 05:12 act: {"actions":[],"say":"Billy, Jason at 418,107,-1047. My walk to your bed was blocked, so I stopped here. Health 20, hunger 18. Holding still until you name the next step."}
+- Dusk day 766: Billy is asleep at 429,107,-1051 in the row. I hold still at 418,107,-1047, health 20, hunger 18. Nobody walks; Billy has not named a bed for me yet.
+- 05:24 act: {"actions":[],"say":"Good morning, Billy. Jason at 418,107,-1047, health 20, hunger 18, sword in hand. Holding still. No walk from me."}
+- 05:33 act: {"say":"Jason at 418,107,-1047, health 20, hunger 18. I have no potato; my pack holds only my wooden sword. Zack holds the two potatoes. Holding still. No walk from me."}
+- 05:41 act: {"say":"Good morning, Billy. Jason at 418,107,-1047, health 20, hunger 18, sword in hand. Holding still. Still no walk from me until you name one."}
+- 05:45 act: {"say":"Chapman, I have no potato, Lewis holds the potatoes and I have only my sword. Zack or Lewis can feed you; I am holding still at 418,107,-1047."}
+- 05:49 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"use","at":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night. Jason trying the second white bed at 415,107,-1051 in the row
+- 05:49 act: {"say":"Jason at 417,107,-1051. The bed at 415,107,-1051 says it is a bed, not usable. Billy, I still need a bed you name. Holding still with my sword."}
+- 05:51 act: {"say":"Worf, I have seen cows at 434,106,-1113 and 339,104,-979, both far from the row, and no sheep. I am holding still at 417,107,-1051, no walk."}
+- 06:01 act: {"say":"Billy, I hear you at 411,107,-1066 with health 4. It is dusk and north-west is the pillager side, so I stay at 417,107,-1051 with my sword and do not walk. Zack, please bring Billy a potato if
+- 06:06 act: {"actions":[{"do":"goto","target":{"x":422,"y":107,"z":-1046}}],"say":"Pillager 4 north of me at 418,108,-1055, shooting. I am moving south-east out of its line, sword in hand. Billy, I am sorry."}
+- 06:07 act: {"say":"Jason at 418,107,-1047, health 20, hunger 18, sword in hand. Billy, I hear you at the row bed 430,-1051. Pillager near 421,-1046 is close to me; I will move out of its line if it shoots."}
+- 06:20 act: {"actions":[],"say":"Good morning, Billy. Jason at 418,107,-1047, health 20, hunger 18, sword in hand. Holding still. No walk from me until you name a route."}
+- 06:32 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1049}},{"do":"use","at":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk, Billy. Jason going to the bed at 415,107,-1050 near Worf, in t
+- 06:36 act: {"actions":[],"say":"Morning, Billy. Jason at 417,107,-1049 beside Worf, health 20, hunger 18, sword in hand. Not at 10 yet. I have seen no sheep and no verified route. Holding."}
+- 06:48 act: {"actions":[],"say":"Good morning, Billy. Jason at 417,107,-1049, health 20, hunger 18, sword in hand. Not at 10. No walk from me; I hold until you name one."}
+- 06:49 act: {"actions":[],"say":"Billy, Jason here. I have seen no sheep, no verified route past x=370, and no Data sighting. Holding still at 417,107,-1049."}
