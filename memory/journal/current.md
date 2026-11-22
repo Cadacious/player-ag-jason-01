@@ -21,3 +21,15 @@
 - 06:36 act: {"actions":[],"say":"Morning, Billy. Jason at 417,107,-1049 beside Worf, health 20, hunger 18, sword in hand. Not at 10 yet. I have seen no sheep and no verified route. Holding."}
 - 06:48 act: {"actions":[],"say":"Good morning, Billy. Jason at 417,107,-1049, health 20, hunger 18, sword in hand. Not at 10. No walk from me; I hold until you name one."}
 - 06:49 act: {"actions":[],"say":"Billy, Jason here. I have seen no sheep, no verified route past x=370, and no Data sighting. Holding still at 417,107,-1049."}
+- 07:01 act: {"say":"Good morning, Billy. Jason here, health 20, hunger 18. Holding at the row with Worf. No verified route west and no sheep seen. I will wait for your named call."}
+- Day 771 morning: said good morning to Billy (hunger 18, holding, no walk). Worf beside me. Waiting for Billy's named call; no walk, no food yet.
+- 07:01 act: {"say":"Leonardo, I have not seen the sheep either; my only sightings are cows far off at 339,104,-979 and 434,106,-1113. Holding still at the row with Worf."}
+- Day 772 morning: Billy has named no walk. Zack, Lewis gave potatoes to Riker and Chapman. Worf and Wesley hold at the row. I hold at 417,107,-1049, health 20, hunger 18, sword in hand. Waiting.
+- Night day 772: Billy, Zack, Laforge, Chapman asleep at the row; no walk named. I hold at 417,107,-1049 beside Worf, health 20, hunger 18. My bed still refuses sleep; I stay awake in place.
+- Day 773 first light: said good morning to Billy. Still no walk named. Holding at 417,107,-1049, health 20, hunger 18. Zack and Lewis are feeding Riker and John.
+- Dusk day 772: still holding at 417,107,-1049, health 20, hunger 18. Bed refuses me; Billy has named no bed or walk. Staying awake in place.
+- Night day 773: row has no food left (Zack empty). Still no walk or bed named. Holding at 417,107,-1049, health 20, hunger 18. Handoff written.
+- Day 773 midday: no walk, no bed named. Riker at 2.3 health chasing Zack's potato. I hold at 417,107,-1049, health 20, hunger 18.
+- 07:13 act: {"say":"Goodnight, row. Jason holding at 417,107,-1049 beside Worf, health 20, hunger 18, sword in hand. No walk from me. Billy, I will eat when Zack hands out food at 10."}
+- 07:20 act: {"say":"Good morning, Billy. Jason at 417,107,-1049, health 20, hunger 18, sword in hand. Still no walk from me until you name one. Zack, I will ask for a potato at hunger 10."}
+- 07:24 act: {"say":"Dusk at the row. Jason at 417,107,-1049 beside Worf, health 20, hunger 18. Holding, no walk. Billy, my bed still refuses sleep, so I stay awake here. Goodnight."}

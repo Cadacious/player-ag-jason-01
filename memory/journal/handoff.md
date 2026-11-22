@@ -1,7 +1,8 @@
-# Handoff, day 771 dusk
+# Handoff, day 773 night
 
-At 417,107,-1049 in the row, beside Worf. Health 20, hunger 18, wooden sword in hand. Not enclosed, no errand out. No walk named by Billy; I have seen no sheep and no verified route past x=370.
+At 417,107,-1049 beside Worf, at the row. Health 20, hunger 18, wooden sword in hand. Not enclosed, no errand out, no walk named by Billy.
 
-Bed 415,107,-1050 says "that block is a bed" and will not take sleep. Days since sleep: 6. Next step: ask Billy to name a bed I can reach. Call Billy at hunger 10.
+My bed at 415,107,-1050 still refuses sleep, so I stay awake in place. Days since sleep: 8. The row is out of food: Zack has none left, Riker has his potato.
 
-Last cursor c_1134156 (the wait was superseded).
+Last cursor c_1137354.
+Next step: at first light say good morning to Billy. Hold until he names a walk or a bed. Ask Zack or Billy for food at hunger 10.
