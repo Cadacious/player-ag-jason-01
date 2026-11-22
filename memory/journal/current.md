@@ -28,3 +28,6 @@
 - Day 786 morning: woke at the row, dawn. Billy said good morning at first light. Still no walk named; holding beside Worf, hunger 18.
 - 11:48 act: {"actions":[],"say":"Dusk at the row. Jason still beside Worf at 418,107,-1051, hunger 18, sword in hand. Beds blocked before, so I stay awake here and hold."}
 - 11:56 act: {"actions":[],"say":"Morning, Billy. Jason holding beside Worf, health 20, hunger 18, sword in hand. No sheep, no route, no pillager news. Staying put until you name a walk."}
+- 12:03 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"use","at":{"x":415,"y":107,"z":-1051}}],"say":"Dusk. Going to my bed at the row, in Worf's sight."}
+- 12:03 act: {"actions":[{"do":"sleep"}],"say":"Dusk. Jason at my bed at 415,107,-1051, in Worf's sight, sword in hand, trying to sleep."}
+- 12:05 act: {"actions":[],"say":"Good morning, Billy. Jason up at my bed 416,107,-1050, beside Worf, health 20, hunger 18, sword in hand. No walk named, no food. Holding until you call."}
