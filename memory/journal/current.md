@@ -12,3 +12,12 @@
 - Morning, day 795 new light. Billy at bed 429,107,-1037 says no walk, no food, no route. Holding at the row. Ask for food at hunger 10.
 - 15:05 act: {"say":"Night, row. Jason going to sleep at my bed, in Billy's sight. Health 20, hunger 17.","actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1049}},{"do":"sleep"}]}
 - Sleep worked beside the bed on the night of day 796 (3 of 10 asleep). Health 20, hunger 17, sword in hand. No walk, no food yet.
+- Day 796 light. Billy said morning and no walk, no food, no route; Lewis and Worf holding too. Held at bed.
+- Still holding, hunger 17. Billy: no food, no route, no walk. Riker at health 6 gets food first. I have none to give.
+- 15:06 act: {"say":"Morning, Billy. Jason at my bed beside Worf, health 20, hunger 17, sword in hand. Holding here, no walk."}
+- 15:19 act: {"say":"Good night, Billy and row. Jason going to sleep beside my bed, in Billy's sight. Health 20, hunger 17, no walk.","actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1049}},{"do":"sleep"}]}
+- Night, day 796. Sleep blocked ("the way was blocked") and I was pushed to 419,108,-1050. Health 20, hunger 17, Worf 4 away, not enclosed. Stepping back to the bed to try once more.
+- Dawn came before the retry: sleep failed, "not night yet". Now day, health 20, hunger 17, at 415,107,-1047 by the row. Holding; Laforge and Worf awake. Next: wait for Billy's named word.
+- 15:19 act: {"say":"Sleep was blocked, and I was pushed off. Stepping back beside the bed to try once more.","actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1049}},{"do":"sleep"}]}
+- 15:23 act: {"say":"Jason here at the row, health 20, hunger 17, wooden sword in hand. No food, no route, no sheep from me. Holding in sight, no walk."}
+- 15:32 act: {"say":"Billy, Jason here, health 20, hunger 17. No food or route from me. Going to my bed beside Worf to sleep, in your sight.","actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1049}},{"do":"sl
