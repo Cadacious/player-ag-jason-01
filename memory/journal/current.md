@@ -13,3 +13,5 @@
 - 01:47 act: {"actions":[],"say":"Billy, sleep will not take at the bed; the way is blocked. I am standing at 418,107,-1051 in Worf's sight, no walk. Holding till morning."}
 - 01:52 act: {"actions":[],"say":"Morning, Billy. Jason here, health 20, hunger 19, sword in hand. Holding at the row. I will call out at hunger 10."}
 - Day 756 morning. Sleep at the bed was blocked twice; Billy said hold till morning. Billy: no walk today, no one west of x=370. Hunger 19, health 20. Holding at 418,107,-1051.
+- 02:00 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason at 418,107,-1051, no walk, in Worf's sight. Trying to rest here."}
+- 02:04 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, 416,107,-1050. Health 20, hunger 19, sword in hand. No verified route west from me. Holding, no walk."}
