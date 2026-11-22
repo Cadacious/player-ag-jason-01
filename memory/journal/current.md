@@ -17,3 +17,4 @@
 - 02:04 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, 416,107,-1050. Health 20, hunger 19, sword in hand. No verified route west from me. Holding, no walk."}
 - 02:15 say: {"text":"Good morning, Billy. Jason here, health 20, hunger 19, sword in hand, at my bed in your sight. No verified route west that I know of. No walk, I hold."}
 - Day 757 morning. Status: days_since_sleep 2. Billy asked for a verified route west past x=370; I have none. Said good morning, holding at bed 416,107,-1050. Waiting for Billy's named call.
+- 02:28 say: {"text":"Jason here at my bed, health 20, hunger 19. Night at the row, no walk named. Holding here, goodnight."}
