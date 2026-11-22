@@ -1,2 +1,1 @@
 # Journal
-- Night 813: goto to 416,107,-1049 said "worked" but position stayed 416,107,-1050. Slept at the bed anyway; sleep worked. Woke to morning. Pillagers killed Beverly at night; Leonardo at health 2. Said good morning to Billy. Day passed holding at the bed, no walk named, no word from Billy. Hunger 17. Night again; holding with Worf and Wesley in sight. Next: wait for Billy, call at hunger 10.

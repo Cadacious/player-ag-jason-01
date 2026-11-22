@@ -1,1 +1,3 @@
-Handoff, day 802 (sleeping). At 416,107,-1049 beside my bed, in the row, in Billy's sight. Health 20, hunger 17, wooden sword in hand. No walk named; blocked north-east spot 463,107,-1073 still unverified. Next: good morning to Billy at first light; hold until he names a walk; call Billy at hunger 10. Do not go north-west.
+# Handoff, day 814 (sleeping)
+
+At 416,107,-1050 beside my bed, in the row, in Billy's sight. Health 20, hunger 17, wooden sword in hand. No walk named. Next: good morning to Billy at first light; hold until he names a walk; call Billy or Zack at hunger 10. Do not go south or north-west. Leonardo needs a potato at health 2; MacDonald holds potatoes for whoever is at hunger 10.
