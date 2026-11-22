@@ -35,5 +35,8 @@
 - Day 776: Riker fell to health 6 with no food. Lewis holds two potatoes. Zack, Beverly and Billy have none to give.
 - Day 776: sleep at dusk in my bed at 415,107,-1050 worked, health 20.
 
+- Day 792: Billy's named short look east: I was named an escort, but I only hold when I cannot see him leave. Wait for him in sight before I count myself as walking.
+- Day 792: the east look found no food, sheep or news. Sleep at night beside bed 416,107,-1050 in Billy's sight worked.
+
 Curious next: how potatoes and cow food are shared out; whether the oak planks west can be cleared; where the sheep are.
 Who to tell: Billy, at first light.
