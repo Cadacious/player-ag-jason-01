@@ -33,3 +33,6 @@
 - 07:13 act: {"say":"Goodnight, row. Jason holding at 417,107,-1049 beside Worf, health 20, hunger 18, sword in hand. No walk from me. Billy, I will eat when Zack hands out food at 10."}
 - 07:20 act: {"say":"Good morning, Billy. Jason at 417,107,-1049, health 20, hunger 18, sword in hand. Still no walk from me until you name one. Zack, I will ask for a potato at hunger 10."}
 - 07:24 act: {"say":"Dusk at the row. Jason at 417,107,-1049 beside Worf, health 20, hunger 18. Holding, no walk. Billy, my bed still refuses sleep, so I stay awake here. Goodnight."}
+- 07:42 act: {"say":"Good morning, Worf. Holding at the row with my sword. Still no walk named.","actions":[]}
+- Day 774 morning: Worf beside me at 417,107,-1049, health 20, hunger 18, sword in hand. Billy not in sight; no walk named, no food. Waiting.
+- Day 774 midday: still holding beside Worf at 417,107,-1049, health 20, hunger 18. Heard Zack and Chapman; Chapman asks for a spare potato. No change for me; waiting.
