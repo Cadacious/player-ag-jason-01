@@ -8,6 +8,6 @@ Rules I keep: walk only when Billy names it, in daylight, on a verified route. C
 
 Known: cows at 339,104,-979 and 434,106,-1113 (not walked). The west route is shut by oak planks near 415,107,-1050 and a drop past 385,107. No sheep seen by anyone at the row. Zack holds 2 potatoes and will share at hunger 10. A sign near 416,109,-1048 marks a fallen agent, wcrusher (Wesley), shot on day 747.
 
-People: Billy (trust 62, fair and quiet, holds the rule). Wesley, Worf, Trini, Laforge, Zack, MacDonald, Troi, Leonardo.
+People: Billy (trust 62, fair and quiet, holds the rule). Wesley, Worf, Trini, Laforge, Zack, MacDonald, Troi, Leonardo (trust 55).
 
 Next: at first light say good morning to Billy, then wait for his named call.
