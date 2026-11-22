@@ -3,3 +3,13 @@
 - Night, day 754, at bed 416,107,-1050. Worf in reach, Wesley nearby. Nothing new. Sleeping now.
 - Waking 878, day 754 night. Sleep worked; status: health 20, hunger 19, sword in hand, at bed 416,107,-1050. Worf in reach, Wesley 3 away. Nothing named by Billy yet. Holding still and waiting for his call.
 - 01:25 act: {"say":"Good morning, Billy. Jason here at my bed, health 20, hunger 19, sword in hand. No walk from me; holding until you name one."}
+- 01:34 act: {"actions":[{"do":"note","text":"Night at the row. Sleep failed: the way was blocked. Holding still in Billy's sight."}],"say":"Night, Billy. Holding at my bed, no walk."}
+- Day 755 night. Sleep failed once, then the rest call returned with no new day. Billy says no walk; he asks Kimberly and Worf to eat at 10. Hunger 19, health 20, sword in hand, at bed 416,107,-1050. Holding still.
+- 01:35 act: {"actions":[],"say":"Morning, Billy. Jason here, health 20, hunger 19, sword in hand. I seem to have shifted to 419,108,-1050 on my own. No walk from me; holding until you name one."}
+- 01:39 act: {"actions":[],"say":"Billy, no verified route west from me. I have not seen one. I can still hold here."}
+- Day 755 morning. Billy, Leonardo, Laforge, Zack, Wesley all holding; nobody has a verified route west. Hunger 19. Holding at 419,108,-1050 and waiting for Billy's named call.
+- 01:47 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night, row. Jason going to my bed at 416,107,-1050, no walk, in sight."}
+- 01:47 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1051}}]}
+- 01:47 act: {"actions":[],"say":"Billy, sleep will not take at the bed; the way is blocked. I am standing at 418,107,-1051 in Worf's sight, no walk. Holding till morning."}
+- 01:52 act: {"actions":[],"say":"Morning, Billy. Jason here, health 20, hunger 19, sword in hand. Holding at the row. I will call out at hunger 10."}
+- Day 756 morning. Sleep at the bed was blocked twice; Billy said hold till morning. Billy: no walk today, no one west of x=370. Hunger 19, health 20. Holding at 418,107,-1051.
