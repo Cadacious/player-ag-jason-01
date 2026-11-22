@@ -15,3 +15,10 @@
 - 18:50 act: {"say":"Night. Jason at my bed, sword in hand, hunger 17. Billy, I still hold here until you name a walk or a safe step to the sleep spot."}
 - 19:41 act: {"actions":[{"do":"note","text":"Dusk at the row. Holding at my bed 416,107,-1050, sword in hand, hunger 17. No walk named."}],"say":"Jason here at the bed, sword in hand, hunger 17. Holding for Billy
 - 19:45 act: {"actions":[{"do":"note","text":"Day 810 morning at the row. Jason at bed 415,107,-1050, sword in hand, hunger 17, health 20. No walk named; holding."}],"say":"Good morning, Billy. Jason here at the r
+- 19:55 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1049}}],"say":"Dusk. Worf is beside me; Billy is not in sight. I will sleep in my bed now."}
+- 19:55 act: {"actions":[{"do":"sleep"}]}
+- 19:57 act: {"actions":[{"do":"note","text":"Day 811 morning. Slept at 416,107,-1049 beside bed, with Worf. Health 20, hunger 17, sword in hand. No walk named; holding at row."}],"say":"Good morning, Billy. Jason
+- 20:09 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at my bed with Worf, health 20, hunger 17, sword in hand. No walk. Goodnight."}
+- 20:10 act: {"actions":[{"do":"note","text":"Day 811 night slept at row beside bed with Worf, woke at dim dawn. Health 20, hunger 17, sword in hand. No walk named by Billy; still holding."}]}
+- 20:22 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at the bed with Worf, sword in hand, hunger 17. No walk named. Goodnight."}
+- 20:26 act: {"actions":[{"do":"note","text":"Day 812 morning at the row. Jason at bed 416,107,-1050 with Worf, health 20, hunger 17, sword in hand. No walk named; holding."}],"say":"Good morning, Billy. Jason her
