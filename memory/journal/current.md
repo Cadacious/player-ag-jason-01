@@ -1,1 +1,15 @@
 # Journal
+- 17:06 act: {"say":"Good morning, row. Jason here at my bed, health 20, hunger 17, sword in hand. Holding until Billy names a walk."}
+- 17:17 act: {"say":"Jason at my bed, dusk. No walk tonight. Holding here with Worf, sword in hand. Goodnight, row.","actions":[{"do":"sleep"}]}
+- 17:19 act: {"say":"Morning, Billy. Jason here, health 20, hunger 17, sword in hand. My sleep failed last night: I was standing on the bed tile. No walk from me; I hold until you name one."}
+- 17:45 act: {"say":"Good morning, Billy. Jason here, health 20, hunger 17. No food, no route, no bow from me. Holding at my bed until you name a walk."}
+- 17:46 act: {"say":"Yes, Billy. Jason will walk NE with you, in sight, sword in hand. Lead the way and I will follow your line."}
+- 17:46 act: {"say":"Billy, I cannot spare my sword; it is my only weapon. I will walk beside you with it in hand, in sight. Worf or Beverly may have one to lend."}
+- 17:50 act: {"say":"Following you, Billy. Jason, sword in hand, in your sight.","intent":{"goal":"escort_billy_ne","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["directly_addressed","precondi
+- 17:50 act: {"say":"Jason here. I am still at the row, sword in hand. My follow failed, so I hold until Billy names the walk."}
+- 17:52 act: {"say":"Billy, Jason here at the row, in sight, sword in hand. Hunger 17. I will eat when it reaches 10.","intent":{"goal":"hold_at_row_in_sight","program":"rest","arguments":{},"wake_on":["directly_a
+- 17:56 act: {"say":"Jason here, dusk, at the row by my bed, sword in hand, hunger 17. Billy, I hold here and will not walk in the dark. Call me to move."}
+- 18:00 act: {"say":"Jason here, following you in daylight, sword in hand, Billy.","intent":{"goal":"escort_billy_to_trini","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["directly_addressed","
+- 18:01 act: {"say":"Billy, I cannot see you from the row, so my follow failed. I hold at my bed until you are in my sight, then I will walk with you."}
+- 18:11 act: {"say":"Jason at my bed 415,107,-1050, night, in sight of Worf and the row, sword in hand. I stand on the bed tile, so I cannot sleep here. Billy, may I step one block to 416,107,-1049, the sleep spot
+- 18:50 act: {"say":"Night. Jason at my bed, sword in hand, hunger 17. Billy, I still hold here until you name a walk or a safe step to the sleep spot."}
