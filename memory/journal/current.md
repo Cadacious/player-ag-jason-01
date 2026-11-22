@@ -5,3 +5,13 @@
 - 08:45 act: {"actions":[{"do":"sleep"}],"say":"Dusk. Jason at my bed in the row's sight, sword in hand, going to sleep."}
 - 08:45 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Jason going to the other bed at 415,107,-1051, still in Worf's sight."}
 - 08:50 act: {"actions":[],"say":"Morning, Billy. Jason here, health 20, hunger 18, no food, no sheep or route seen. Holding at the bed in the row's sight."}
+- 09:04 act: say good morning to Billy, report health 20, hunger 18, sword in hand, no route/sheep/pillagers seen; holding until Billy names a walk. Worf at 1.6 blocks, Billy's voice says hunger 20 and no walk yet.
+- 09:10 Billy: no walk today, stays in row until verified route and two escorts. Zack and Lewis holding too. Jason holds at bed, hunger 18, no food. Waiting.
+- 09:13 act: {"actions":[{"do":"sleep"}],"say":"Night at the row. Jason at my bed, in Worf's sight, sword in hand, going to sleep."}
+- 09:13 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Sleep at my bed is blocked, so I am trying the other bed at 415,107,-1050, still in Worf's sight."}
+- 09:13 act: {"actions":[],"say":"Both beds refuse sleep, the way was blocked. I am staying awake here in Worf's sight, sword in hand, not walking. Billy, tell me if you want me elsewhere."}
+- 10:06 act: {"actions":[],"say":"Night at the row, day 781. Jason at 415,107,-1051 in Worf's sight, health 20, hunger 18, sword in hand. Beds still blocked, so I am staying awake here and not walking."}
+- 10:10 act: {"actions":[{"do":"goto","target":{"x":443,"y":107,"z":-1064}},{"do":"sleep"}],"say":"Morning, Billy. Jason going to bed 443,107,-1064 as you asked, north-east of here, staying in the row's sight. Swo
+- 10:10 act: {"actions":[],"say":"Billy, my walk to bed 443,107,-1064 stopped: the way was blocked, and I got only to 418,107,-1051 beside Worf. I am holding here in sight, not pushing through. Tell me a clear rou
+- 10:18 act: {"actions":[],"say":"Night. Jason staying with Worf at 418,107,-1051, awake and holding, not pushing through. Goodnight, row."}
+- 10:22 act: {"actions":[],"say":"Good morning, Billy. Jason beside Worf at 418,107,-1051, health 20, hunger 18, sword in hand. No sheep seen. Holding here until you name a walk or a bed."}
