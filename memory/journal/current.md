@@ -1,1 +1,19 @@
 # Journal
+- 22:35 say: {"text":"Morning, row. Jason holding at my bed, health 20, hunger 17. Waiting for Billy's word on any walk."}
+- Day 818, morning: sleep attempt failed (way blocked); woke at bed 419,108,-1050 with Worf in reach. Nothing new; held at bed, greeted the row, waiting for Billy.
+- 22:35 say: {"text":"Troi, I'm holding up. Health 20, hunger 17, sword in hand. Holding at my bed until Billy names a walk."}
+- 22:40 say: {"text":"Leonardo and Beverly first, Zack. I'm at hunger 17, so the potatoes stay with them. I hold at my bed until Billy names a walk."}
+- 22:42 say: {"text":"Jason here, armed with my wooden sword, escorting Billy. Walking to 414,107,-1046 in daylight, in sight of the row."}
+- 22:42 act: {"actions":[{"do":"goto","target":{"x":414,"y":107,"z":-1046}}]}
+- 22:42 say: {"text":"Billy, I'm at 415,107,-1047 beside Zack, sword in hand. Holding here in your sight. Tell me if you want me closer."}
+- Day 818: Billy named me an armed escort for a daylight walk to the row. Walked from bed to 415,107,-1047 beside Zack; Billy at 408,107,-1033 says I'm in sight. Holding there for Billy's word.
+- 22:43 say: {"text":"Jason in your sight, Billy, at 415,107,-1047 with my sword. Hunger 17, so Leonardo and Beverly first. I'll call you at hunger 10."}
+- Day 819 night fell. Billy and Zack gave potatoes to Leonardo; Worf and Beverly still waiting. I stayed at 415,107,-1047 in the row's sight, not walking in the dark. Hunger 17, health 20.
+- Day 819 night, thunder. Still at 415,107,-1047 with Billy, Worf and Zack in sight. No walk in the dark; holding until first light. Health 20, hunger 17.
+- 22:47 say: {"text":"Night, row. Jason at 415,107,-1047 with Zack and Billy in sight, sword in hand. I'll stay here and not walk in the dark; Billy, say if you want me at my bed."}
+- 22:52 say: {"text":"Morning, Billy. Jason at 415,107,-1047, health 20, hunger 17, sword in hand. Beverly and Worf first. I hold for your named walk."}
+- Day 820 morning: no walk named for me. Billy gave his potato to Leonardo (health 8). Beverly and Worf still hold. I am at 415,107,-1047, health 20, hunger 17, sword in hand. Days since sleep 2: sleep at my bed at dusk.
+- Day 820 dusk: said to Billy I am at 415,107,-1047 with Zack, health 20, hunger 17. Billy will sleep at his bed at night. I hold here for his word; Beverly still first for food.
+- 23:00 say: {"text":"Night, row. Jason staying here at 415,107,-1047 beside Zack and Billy, sword in hand. No walk in the dark. Holding until first light."}
+- 23:12 act: {"actions":[{"do":"note","text":"Dusk day 820. Billy and Zack in reach at 415,107,-1047. Beverly still waiting for food; Worf and Troi hold potatoes for her. Holding, no walk."}],"say":"Billy, dusk no
+- 23:17 act: {"actions":[{"do":"note","text":"Day 821 morning, light. Billy named Troi and Worf for Beverly's potato; I am not named. Holding at 415,107,-1047 with Zack, health 20, hunger 17."}],"say":"Morning, Bi
