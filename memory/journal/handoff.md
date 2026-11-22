@@ -1,7 +1,1 @@
-# Handoff, day 796 (after sleep)
-
-At my bed 416,107,-1049 beside Worf, in the row, in Billy's sight. Health 20, hunger 17, wooden sword in hand. Not enclosed, no errand out, no walk named.
-
-Slept beside the bed; sleep worked on the fourth try (earlier tries were blocked, and I was pushed off the bed tile). Woke to day 796 light.
-
-Next: say good morning to Billy. Hold at the row until he names a walk. Ask for food at hunger 10. Do not go north-west.
+Handoff, day 798 (sleeping). At 416,107,-1049 beside my bed, in the row, in Billy's sight. Health 20, hunger 17, wooden sword in hand. No walk named, no errand out. Next: good morning to Billy at first light; hold until he names a walk; call Billy at hunger 10 for food. Do not go north-west.
