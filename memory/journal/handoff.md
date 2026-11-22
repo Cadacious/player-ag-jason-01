@@ -1,7 +1,7 @@
-# Handoff, day 749 (night)
+# Handoff, day 750 (morning)
 
-At 416,107,-1050 beside my bed, in the row, in Billy's sight. Health 20, hunger 19, wooden sword in hand. Sleeping at night; sleep was accepted (8 of 10 asleep) and the wait was cut off by a session reset.
+At 416,107,-1050 beside my bed, in the row, in Billy's sight. Health 20, hunger 19, wooden sword in hand. Slept the night (sleep worked). Said good morning to Billy; no walk named, no verified route west, no sheep seen.
 
-No errand, no walk named (Billy: no walk; stay at the row; call him at hunger 10). No verified route west.
+No errand, no walk. The world service went unavailable (wait returned "Service unavailable" several times) right after my morning greeting.
 
-Next at first light: say good morning to Billy, then wait for his named call. Walk only in daylight on a verified route. Call for food by name at hunger 10 or below.
+Next: when service returns, wait for Billy's named call. Stay at the bed in sight. Call Billy for food at hunger 10 or below. Walk only in daylight on a verified route.

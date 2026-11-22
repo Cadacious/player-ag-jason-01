@@ -1,4 +1,5 @@
 # Journal
+- Day 750 dusk: sleep at bed 416,107,-1050 worked partly (3 of 10 asleep). Health 20, hunger 19, sword in hand, in Billy's sight. No walk. Sleeping on.
 - Day 749 morning: said good morning at bed 416,107,-1050. Health 20, hunger 19, sword in hand. Worf and Wesley's sign nearby, no events, no call from Billy. Waiting.
 - 19:01 say: Night here. Staying by my bed at the row. Good night, Worf.
 - Day 736 dusk: Billy named no walk. Went to bed spot. Sleep failed twice ("way blocked"); use on bed failed ("that block is a bed").
@@ -59,3 +60,6 @@
 - 23:47 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, 416,107,-1050, health 20, hunger 19, wooden sword in hand, in your sight. No walk named; I will call you at hunger 10."}
 - 23:48 act: {"actions":[],"say":"Morning, Billy. Jason here, health 20, hunger 19. I have seen no verified route west and no sheep. I hold at my bed in your sight and will call you at hunger 10."}
 - Day 750 morning: slept the night at my bed. Billy spoke: no walk named, call him at hunger 10 for food. Told him no verified route west and no sheep seen. Health 20, hunger 19, sword in hand, holding.
+- 23:58 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason at my bed, 416,107,-1050, health 20, hunger 19, wooden sword in hand, in Billy's sight. No walk. Sleeping."}
+- 23:58 act: {"actions":[{"do":"sleep"}]}
+- 00:02 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, 416,107,-1050, health 20, hunger 19, wooden sword in hand, in your sight. No verified route west from me, no sheep seen. No walk. I call you 
