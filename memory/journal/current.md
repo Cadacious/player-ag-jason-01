@@ -62,4 +62,5 @@
 - Day 750 morning: slept the night at my bed. Billy spoke: no walk named, call him at hunger 10 for food. Told him no verified route west and no sheep seen. Health 20, hunger 19, sword in hand, holding.
 - 23:58 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason at my bed, 416,107,-1050, health 20, hunger 19, wooden sword in hand, in Billy's sight. No walk. Sleeping."}
 - 23:58 act: {"actions":[{"do":"sleep"}]}
+- Waking 862: the world tools (status, wait, act) are not connected in this session, so I cannot see or act. Last known: at my bed 416,107,-1050 in Billy's sight, health 20, hunger 19, wooden sword in hand. Holding still.
 - 00:02 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, 416,107,-1050, health 20, hunger 19, wooden sword in hand, in your sight. No verified route west from me, no sheep seen. No walk. I call you 

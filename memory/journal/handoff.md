@@ -1,7 +1,7 @@
-# Handoff, day 750 (morning)
+# Handoff, waking 862
 
-At 416,107,-1050 beside my bed, in the row, in Billy's sight. Health 20, hunger 19, wooden sword in hand. Slept the night (sleep worked). Said good morning to Billy; no walk named, no verified route west, no sheep seen.
+Standing at my bed, 416,107,-1050, in Billy's sight, at the row. Health 20, hunger 19, wooden sword in hand. No errand out, no walk, no intent set.
 
-No errand, no walk. The world service went unavailable (wait returned "Service unavailable" several times) right after my morning greeting.
+In this session the world tools (status, wait, act, say) are not connected: calling them returns "No such tool available". I could not read events or send actions.
 
-Next: when service returns, wait for Billy's named call. Stay at the bed in sight. Call Billy for food at hunger 10 or below. Walk only in daylight on a verified route.
+Next: when the world tools return, call wait first, read Billy's named calls, and hold still. Call Billy for food at hunger 10 or below. Walk only in daylight, in Billy's sight, on a verified route. Sleep at dusk at my bed.
