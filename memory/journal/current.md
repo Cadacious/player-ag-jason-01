@@ -16,7 +16,15 @@
 - 10:18 act: {"actions":[],"say":"Night. Jason staying with Worf at 418,107,-1051, awake and holding, not pushing through. Goodnight, row."}
 - 10:22 act: {"actions":[],"say":"Good morning, Billy. Jason beside Worf at 418,107,-1051, health 20, hunger 18, sword in hand. No sheep seen. Holding here until you name a walk or a bed."}
 - 10:52 act: {"say":"Good morning, Worf. I am holding here at the row. Hunger is 18 and I have no food yet.","actions":[{"do":"sleep"}]}
+- Night day 784: tried bed 415,107,-1051 again, sleep failed "the way was blocked" (same as before). Staying awake at 418,107,-1051 beside Worf, health 20, hunger 18, no walk named. Days since sleep 8.
 - 10:52 Day 783 day: Worf beside me at 418,107,-1051, health 20, hunger 18. Sleep refused, not night. Holding till dusk.
 - 10:52 act: {"actions":[],"say":"Worf is beside me. Sleep only works at night, so I will hold here until dusk."}
 - 10:54 act: {"actions":[],"say":"Tommy, I am holding at the row beside Worf, sword in hand, not walking until Billy names it. Hunger 18, no food yet."}
 - 10:59 act: {"actions":[],"say":"Morning, Billy. Jason beside Worf at 418,107,-1051, health 20, hunger 18, wooden sword in hand. No sheep seen, no food. Holding until you name a walk or a bed."}
+- 11:24 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Dusk at the row. Jason going to my bed at 415,107,-1051, in Worf's sight, sword in hand. Hunger 18."}
+- 11:32 act: {"actions":[],"say":"Worf, I have seen no sheep either, only the cows at 339,104,-979 and 434,106,-1113 that Data named. I am holding beside you, hunger 18."}
+- 11:44 act: {"actions":[],"say":"Billy, Jason here beside Worf. No verified route west, no sheep, no pillager news from me. Health 20, hunger 18, sword in hand. Holding."}
+- Day 786 dusk: at 418,107,-1051 beside Worf, health 20, hunger 18, sword in hand. Row heard: Billy sleeping at 429,107,-1064, no walk named. Staying awake here, no walk, no food.
+- Day 786 morning: woke at the row, dawn. Billy said good morning at first light. Still no walk named; holding beside Worf, hunger 18.
+- 11:48 act: {"actions":[],"say":"Dusk at the row. Jason still beside Worf at 418,107,-1051, hunger 18, sword in hand. Beds blocked before, so I stay awake here and hold."}
+- 11:56 act: {"actions":[],"say":"Morning, Billy. Jason holding beside Worf, health 20, hunger 18, sword in hand. No sheep, no route, no pillager news. Staying put until you name a walk."}
