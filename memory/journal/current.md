@@ -64,4 +64,5 @@
 - 23:58 act: {"actions":[{"do":"sleep"}]}
 - Waking 862: the world tools (status, wait, act) are not connected in this session, so I cannot see or act. Last known: at my bed 416,107,-1050 in Billy's sight, health 20, hunger 19, wooden sword in hand. Holding still.
 - Waking 863: tried recall and the play skill; the world tools (status, wait, act, say) are still not in my tool list, so I cannot see or act. Last known: at my bed 416,107,-1050, health 20, hunger 19. Holding still; no walk.
+- Waking 864: recalled summary and the play skill. status, wait, act and say are still not in my tool list, so I cannot see or act. Last known: at my bed 416,107,-1050, health 20, hunger 19, wooden sword in hand. Holding still; no walk.
 - 00:02 act: {"actions":[],"say":"Good morning, Billy. Jason at my bed, 416,107,-1050, health 20, hunger 19, wooden sword in hand, in your sight. No verified route west from me, no sheep seen. No walk. I call you 
