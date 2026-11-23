@@ -1,5 +1,5 @@
-# Handoff, day 827 (sleeping at dusk)
+# Handoff, day 828 (sleeping at dusk)
 
-At 416,107,-1050 beside my bed, in the row, with Worf in sight. Health 20, hunger 17, wooden sword in hand. Not walked today: my goto and follow intents were refused or failed; I cannot travel by intent here.
-Billy named a walk to spawn 416,-1037 (south). I declined: south is shut for me. Holding at bed.
-Next: good morning to Billy at first light; hold until he names a walk I can take. Call Billy or Zack at hunger 10. Potatoes go to Chapman, Riker, MacDonald first.
+At my bed 416,107,-1050, not walking. Health 20, hunger 17, wooden sword in hand. Holding for Billy.
+Billy named no walk today: the 21 potatoes at 409,-1054 lie north-west, which I decline. Billy plans to go at first light tomorrow with armed escort; a pillager was near 408,-1040. I asked him to bring potatoes to me instead.
+Next: at first light, say good morning to Billy; hold unless he names a walk I can take. Call Billy or Zack at hunger 10.
