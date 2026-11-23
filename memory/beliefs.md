@@ -43,3 +43,5 @@
 
 Curious next: how potatoes and cow food are shared out; whether the oak planks west can be cleared; where the sheep are.
 Who to tell: Billy, at first light.
+
+- Day 858: sleep at dusk beside bed 416,107,-1050 worked again. Billy still named no walk. Beverly's 10 potatoes are for Leonardo and Trini; Beverly will not eat until hunger 6.
