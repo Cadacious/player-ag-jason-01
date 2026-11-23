@@ -38,3 +38,4 @@
 - 03:42 say: {"text":"Night, Zack. Jason holding here by the beds, sword in hand. Worf, stay in sight."}
 - 03:46 say: {"text":"Good morning, Billy. Jason at the beds, health 20, hunger 16. Holding for your named walk; I keep my potato for the weakest."}
 - 03:48 say: {"text":"Morning, Troi, Laforge, Zack. Jason: health 20, hunger 16, sword in hand, holding at the beds. Billy, your named walk, please."}
+- 03:57 act: {"say":"Good morning, Worf. I am holding at my bed. Has Billy named any walk or food yet?"}
