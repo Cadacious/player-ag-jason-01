@@ -53,3 +53,4 @@
 - 19:12 act: {"actions":[],"say":"Troi, Jason is hunger 14, health 20. I hold at 419,108,-1047 with sword in hand and wait for Billy's word."}
 - 19:33 act: {"actions":[],"say":"Zack, Jason does not walk. I hold at 419,108,-1047, hunger 14, sword in hand, until Billy names me. Go with Worf only if Billy named it."}
 - 20:14 act: {"actions":[],"say":"Jason holds at 419,108,-1047, hunger 14, health 20, sword in hand. Bcrusher, Billy has not named me yet; I wait for his word and will call at hunger 10."}
+- 20:20 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Dusk. I'm going to my bed at 416,107,-1050 with Zack and Worf near. Good night."}
