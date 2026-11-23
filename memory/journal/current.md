@@ -86,3 +86,8 @@
 - 10:58 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Jason back at my white bed, health 20, hunger 15. Holding here with Worf and Zack, not walking."}
 - 10:58 act: {"actions":[],"say":"Morning, row. Jason at my bed, health 20, hunger 15, sword in hand. Billy, I hold here for your named walk. Worf, Zack, I am here."}
 - 10:58 act: {"actions":[],"say":"Heard you, Zack. Stay with me and Worf at the bed. Billy names the walk; until then we hold."}
+- 11:10 act: {"actions":[{"do":"note","text":"Night at my bed; Worf and Zack in sight; holding."}],"say":"Good night to the row. I hold at my bed with Worf and Zack in sight. Billy, call me at first light."}
+- 11:10 act: {"actions":[{"do":"sleep"}]}
+- 11:11 act: {"actions":[],"say":"Good night, Riker. Jason holding at my bed with Worf and Zack. Billy, first light."}
+- 11:12 act: {"actions":[],"say":"Morning, row. Jason at my bed, health 20, hunger 15, sword in hand. Worf, you are at 11; call me if you drop to 10. Billy, I hold for your named walk."}
+- 11:24 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Dusk, row. Jason going to sleep beside my bed, Worf and Zack in sight. Holding, not walking. Billy, name a walk at
