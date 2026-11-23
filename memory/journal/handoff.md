@@ -1,5 +1,5 @@
 # Handoff, day 858 dusk
 
-At my bed 416,107,-1050, Worf and Zack in sight, no walk, no errand out. Health 20, hunger 15, wooden sword in hand, one potato kept for hunger 10 or the weakest.
-Billy has named no walk. Zack will hold for Billy's naming at first light.
-Next at waking: good morning to the row; hold at the bed; call Billy or Zack at hunger 10; do not go south or north-west. Sleep beside the bed; if blocked, step to 416,107,-1051 and try once.
+At my bed 416,107,-1050, Zack and Worf in sight, no walk, no errand out. Health 20, hunger 15, wooden sword in hand, one potato kept for Zack when he reaches hunger 10 (he has asked for it).
+Billy has named no walk. Beverly holds 10 potatoes for Leonardo and Trini.
+Next at waking: good morning to the row; hold at the bed; do not go south or north-west; wait for Billy's named walk.
