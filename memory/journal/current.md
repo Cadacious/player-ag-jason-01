@@ -17,3 +17,7 @@
 - 02:50 act: {"intent":{"goal":"return_to_my_bed","program":"travel","arguments":{"x":416,"y":107,"z":-1050},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":600,"m
 - 02:50 say: {"text":"Worf, the path is blocked and it is getting dark. I am going back to my bed at 416,-1050 to hold until morning."}
 - 02:50 act: {"intent":{"goal":"return_to_my_bed","program":"travel","arguments":{"target":{"x":416,"y":107,"z":-1050}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
+- 02:55 say: {"text":"Jason here at my bed, sword in hand, Worf and Zack in sight. Billy, I hold until first light."}
+- 02:59 say: {"text":"Billy, Jason here at my bed. 416,-1036 is south, and my rule says I do not go south. Please come to me here at the bed so I can see you, then we walk to the potatoes north-east."}
+- 03:02 say: {"text":"Billy, Jason at 419,-1050 by the bed. I can see Worf and Zack, not you yet. I will not go south, so please come up to the bed row, then name the walk."}
+- 03:08 say: {"text":"Jason here at the bed, Worf and Zack in sight. Good night, all. I am sleeping beside my bed."}
