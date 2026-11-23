@@ -56,3 +56,19 @@
 - 08:39 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night, row. Jason going to my bed, sword in hand, Worf in sight. Holding, not walking. Billy, name a walk at first
 - 08:48 act: {"actions":[],"say":"Morning, row, day 849. Jason at my bed, health 20, hunger 15, sword in hand. Leonardo, Trini first for food. Billy, I hold for your named walk."}
 - 09:06 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night, row. Jason going to sleep beside my bed, Worf and Zack in sight. Holding, not walking."}
+- 09:07 act: {"actions":[],"say":"Zack, Jason is here at my bed with Worf, health 20, hunger 15, sword in hand. Holding in sight with you. Billy, name the walk and I go in daylight with my sword."}
+- 09:19 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night, row. Jason going to sleep beside my bed, Worf and Zack in sight. Holding, not walking."}
+- 09:19 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night. Jason going back to my bed at 416,107,-1051 to sleep. Holding, not walking."}
+- 09:20 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}}]}
+- 09:20 act: {"actions":[{"do":"sleep"}]}
+- 09:20 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}}]}
+- 09:20 act: {"actions":[{"do":"sleep"}]}
+- 09:24 act: {"actions":[],"say":"Morning, row. Jason at my bed, health 20, hunger 15, sword in hand. Holding for Billy's named walk. Worf, Zack, I am here."}
+- 09:36 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night, row. Jason going to sleep at my bed, Worf in sight. Holding, not walking. Billy, name a walk at first light
+- 09:38 act: {"actions":[],"say":"Morning, row. Jason at my bed, health 20, hunger 15, sword in hand. Worf, you are at 11; tell me when you are low. Billy, I hold for your named walk."}
+- 09:48 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night, row. Jason going to sleep at my bed, Worf in sight. Holding, not walking."}
+- 09:49 act: {"actions":[],"say":"Zack, Jason here at my bed, health 20, hunger 15. The second white bed at 415,107,-1050 is free if Worf is not in it. Stay in sight, and we hold until Billy names a walk."}
+- 10:01 act: {"actions":[],"say":"Zack, I see you at the bed, and I am holding here with Worf. Hold where you are and rest if you can. Billy, we hold until you name a walk."}
+- 10:10 act: {"say":"Jason here at my bed, health 20, hunger 15, sword in hand. Holding for Billy's named walk.","intent":{"goal":"hold_at_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unex
+- 10:14 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}]}
+- 10:18 act: {"say":"Good morning, row. Jason here, health 20, hunger 15, sword in hand. Holding for Billy's named walk."}
