@@ -103,3 +103,5 @@
 - 16:30 say: {"text":"Billy, Jason holds at 419 with Zack and Worf, sword in hand. Walk to 424 when the light is clear, and I come in your sight."}
 - 16:30 say: {"text":"Billy, my walk east stops at 419 every time. Please come west to 421 and I meet you there. I hold at 419 until then."}
 - 16:35 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"use","at":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk, row. Jason goes to my bed at 416,107,-1050 with Zack and Worf 
+- 16:36 act: {"say":"Worf, Zack, I hear you. I am at my bed, holding here. Billy, at first light I wait for your word."}
+- Day 872 dusk: at my bed 416,107,-1050, health 20, hunger 14, sword in hand. Worf and Zack in reach, Billy's 8 held at 430 for Beverly, Worf 5, Zack 3. Sleep call returned without a night; days_since_sleep 0. Holding for first light.
