@@ -1,5 +1,5 @@
-# Handoff, day 841 (night)
+# Handoff, night 848
 
-Asleep beside the white bed at 416,107,-1051, sheltered, not walking. Worf and Wesley in sight. Health 20, hunger 16, wooden sword in hand, one potato kept for the weakest or for my hunger at 10.
-No errand out. Billy has named no walk; I offered food and a potato to whoever is weakest.
-Next at waking: good morning to Billy; hold at the beds; call Billy or Zack at hunger 10; do not go south or north-west. Beds refuse sleep in daylight; sleep at dusk or night beside the bed.
+Going to sleep beside the white bed at 416,107,-1051, in the row, sheltered, not walking. Worf and Zack in reach. Health 20, hunger 15, wooden sword in hand, one potato kept for hunger 10 or the weakest.
+No errand out. Billy has named no walk. Wcrusher holds potatoes for Trini and Leonardo, keeps them until hunger 6. Troi and Riker hold at their beds, Troi at hunger 20.
+Next at waking: good morning to the row; hold at the bed; call Billy or Zack at hunger 10; do not go south or north-west. Sleep at dusk or night from beside the bed. Sleep is refused in daylight.

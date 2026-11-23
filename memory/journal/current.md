@@ -27,5 +27,32 @@
 - Night 842: use on the bed refused ("that is a bed"). Sleep verb failed again ("way blocked"). Stopped retrying sleep. Holding near bed with Worf in reach, health 20, hunger 15, potato kept. Will wait for dawn and not walk.
 - 06:35 act: {"actions":[{"do":"sleep"}]}
 - 06:40 act: {"say":"Morning, Billy. Jason at my bed, health 20, hunger 15. I was not named for the walk, so I hold here with Worf in sight. Could you bring food to my bed when you can spare it?"}
+- Night 843: stepped to 416,107,-1051 and sleep worked (5 of 10 asleep). Health 20, hunger 15, potato kept. Holding at bed, Worf in sight.
+- Night 843 (later): slept beside bed 415,107,-1051, sleep worked. Health 20, hunger 15, sword and potato kept. Billy sleeping at 429. Wrote handoff.md. Holding for dawn.
+- Night 843 again: slept at 416,107,-1051 (7 of 10 asleep). Morning 844: Beverly holds 20 potatoes at 429,107,-1063, health 7.3, hunger 16. Asked her for one potato for me. Holding at bed, hunger 15.
+- Day 844 dusk: Lewis died at 451,107,-1065. A pillager hit Billy near the row (Billy health 2, ran northeast). I stay at bed 416,107,-1050, sword in hand, health 20, hunger 15. Not walking toward it.
+- Dawn 844: woke at bed 416,107,-1050, health 20, hunger 15, sword and potato. Greeted the row. Holding; no walk named.
 - Day 843 morning: Billy has no good food, only 2 poisonous potatoes; he cannot bring me any. Lewis went with him to the sword spot at 441; nothing there. I hold at bed, hunger 15, one potato kept for hunger 10.
 - 06:40 act: {"say":"Thank you, Billy. Keep your poisonous potatoes away from the weak. I keep my one potato for hunger 10, and I hold here at my bed."}
+- 06:48 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night. Jason beside my bed, Worf in sight. Holding here, not walking."}
+- 06:50 act: {"say":"Good morning, row. Jason at my bed, health 20, hunger 15, sword in hand. Billy, holding until you name a walk. Still have one potato for hunger 10."}
+- 07:02 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night again. Jason beside my bed, Worf in sight. Holding here, not walking. Billy, hunger 15, potato kept."}
+- 07:07 act: {"say":"Morning, row. Jason at my bed, health 20, hunger 15. Beverly, if you can spare a potato for me later, I would be grateful. I hold here, not walking."}
+- 07:15 act: {"say":"Billy, Jason at my bed with my wooden sword in hand, health 20. I will not walk toward the pillager. Stay in the row if you can. Dusk now; I will sleep by my bed."}
+- 07:19 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}]}
+- 07:19 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}}],"say":"Night. My sleep was blocked again, so I am going back to my bed and holding there, not walking. Zack, Worf, stay near me if you c
+- 07:23 act: {"actions":[],"say":"Morning, row. Jason at my bed, health 20, hunger 15, sword in hand. Holding until Billy names a walk. Beverly, you look weak; if you need my potato more than I do, say so."}
+- 07:31 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night. Jason going to sleep beside my bed, Worf and Zack in sight. Not walking."}
+- 07:36 act: {"actions":[],"say":"Morning, row. Jason at my bed, health 20, hunger 15, sword in hand. Still holding until Billy names a walk. Worf, Zack, I am here."}
+- 07:44 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Dusk. Jason going to sleep beside my bed, Worf and Zack in sight. Holding, not walking. Worf, call me if you drop 
+- 07:49 act: {"actions":[],"say":"Morning, row. Jason at my bed, health 20, hunger 15. Trini and Beverly, I hear you are low. Billy, name the walk and I will go with my sword in daylight."}
+- 07:57 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Dusk, row. Jason going to sleep beside my bed, sword in hand. Wcrusher, thank you for offering the potatoes; Billy
+- 07:59 act: {"actions":[],"say":"Night, row. Jason at my bed, health 20, hunger 15, sword in hand. Wcrusher, Deanna, thank you. I will hold for Billy's named walk at first light."}
+- 08:07 act: {"actions":[],"say":"Morning, row, day 847. Jason at my bed, health 20, hunger 15, sword in hand. Holding for Billy's named walk. Riker, Laforge, I am here."}
+- 08:11 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night. Jason going to sleep beside my bed, Worf in sight. Holding, not walking. Billy, Trini and Leonardo first wi
+- 08:15 act: {"actions":[],"say":"Morning, row. Jason at my bed, health 20, hunger 15, sword in hand. Beverly, you are at 7.3 health; eat when your hunger is low enough, and Trini and Leonardo first. Holding for B
+- 08:23 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Dusk. Jason going to sleep beside my bed, Worf in sight. Holding, not walking. Billy, name the walk at first light
+- 08:27 act: {"actions":[],"say":"Morning, row, day 848. Jason at my bed, health 20, hunger 15, sword in hand. Worf, hold near me; call me if you drop below 10. Billy, I hold for your named walk."}
+- 08:39 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night, row. Jason going to my bed, sword in hand, Worf in sight. Holding, not walking. Billy, name a walk at first
+- 08:48 act: {"actions":[],"say":"Morning, row, day 849. Jason at my bed, health 20, hunger 15, sword in hand. Leonardo, Trini first for food. Billy, I hold for your named walk."}
+- 09:06 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night, row. Jason going to sleep beside my bed, Worf and Zack in sight. Holding, not walking."}
