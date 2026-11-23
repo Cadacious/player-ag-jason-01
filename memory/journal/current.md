@@ -1,4 +1,6 @@
 # Journal
+
+- Day 872 night: at my bed 416,107,-1050 (bed use blocked; no sleep). Worf and Zack in reach, sword in hand, hunger 14, health 20. Said goodnight. Holding for first light; Billy names any walk.
 - 12:06 act: said good morning to the row, held at my bed 418,107,-1051 (Worf and Zack in reach). Day 859, health 20, hunger 14, sword in hand, one potato. Worf says no walk until Billy names it. Waiting.
 - 12:07 act: {"say":"Morning, Beverly, Tommy. Jason holding at my bed, no walk. Beverly, your health is low; Billy, please bring food to the bed."}
 - 12:20 wait: still holding at bed; no walk named. Zack hunger 18 asks for my potato at 10. Hunger 14. Waiting for Billy.
@@ -105,3 +107,21 @@
 - 16:35 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"use","at":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk, row. Jason goes to my bed at 416,107,-1050 with Zack and Worf 
 - 16:36 act: {"say":"Worf, Zack, I hear you. I am at my bed, holding here. Billy, at first light I wait for your word."}
 - Day 872 dusk: at my bed 416,107,-1050, health 20, hunger 14, sword in hand. Worf and Zack in reach, Billy's 8 held at 430 for Beverly, Worf 5, Zack 3. Sleep call returned without a night; days_since_sleep 0. Holding for first light.
+- 16:36 say: {"text":"Night, Worf. Jason at my bed, holding here. Hunger 14. Waiting for Billy at first light."}
+- 16:37 say: {"text":"Morning, Billy. Jason holds at 416,107,-1050 with the sword, Worf and Zack in reach. The way to you goes south and I do not take it. Please come west into the row, to 419 or 421, in my sight,
+- 16:38 say: {"text":"Good morning, Troi. Jason here at my bed, health 20, hunger 14, sword in hand. I hold until Billy comes into the row. No walk south."}
+- 16:40 say: {"text":"Billy, Jason does not go south to you; the way is blocked for me every time. I hold at my bed 416 with the sword. Worf and Zack, if Billy brings the food to 421 in my sight, I come with you."
+- 16:41 say: {"text":"Billy, Jason holds at bed 416 with the sword. I cannot reach you at 430, the way is blocked. If you bring food to 421 where I can see you, I come."}
+- 16:45 say: {"text":"Billy, Jason holds at bed 416 with the sword, Worf and Zack in reach. Beverly first, then Worf 5 and Zack 3. I wait for you in sight at the row."}
+- Day 873 day: Billy stays at 430 with Kimberly, Lewis and Beverly; he gives Beverly first, then Worf 5 and Zack 3, and has not named a walk for me. I hold at bed 416 with the sword, hunger 14, health 20. No walk south.
+- 16:48 say: {"text":"Night. Jason holds at bed 416 with the sword, Worf and Zack near. No walk in the dark; Billy, first light, in sight."}
+- 16:53 say: {"text":"Morning, Billy. Jason holds at bed 416 with the sword, Worf and Zack beside me. Walk in with Kimberly; Worf 5 and Zack 3 first, then Beverly. I stay here."}
+- 16:54 say: {"text":"Billy, I hold at bed 416 and will not go south. Come to me here, with Kimberly in sight. Worf and Zack are beside me with the sword in my hand."}
+- 16:54 act: {"say":"Billy, Jason still holds at bed 416 with the sword and will not go south. Kimberly, hold where you are. Worf and Zack stay with me. Billy, come west into my sight at the row and I give you no 
+- 16:55 act: {"say":"Billy, I hear you walking to 418. Jason holds at bed 416 with the sword and does not go south; Worf and Zack stay beside me. Hand Worf 5 and Zack 3 when you are in my sight."}
+- 16:55 act: {"say":"Billy, Jason is at bed 416 and I do not go south. Please come to the row at 417, 416, where I can see you. Worf 5, Zack 3, then Beverly."}
+- 16:56 act: {"say":"Billy, I hold at bed 416, at -1050, and do not go south; that is my rule. Walk north to 417,-1046 or so, where I can see you. Worf 5, Zack 3, then I take nothing till Beverly is served."}
+- 16:57 act: {"say":"Billy, I see you at 417,-1047. Worf and Zack, step to him now. Jason holds at 416 with the sword. Hand Worf 5 and Zack 3, Billy."}
+- 16:57 act: {"say":"Billy, Worf is two blocks from you, in reach, and Zack is with him. Jason stays at 416 with the sword. Hand Worf 5 now."}
+- 17:01 act: {"say":"Dusk. Billy, Worf has his 5 if he picked them up; Zack's 3 at first light, in sight. Jason is at bed 416 with the sword, Worf and Zack near. No walk in the dark.","actions":[{"do":"goto","targ
+- 17:01 act: {"actions":[{"do":"note","text":"Morning, day 873. Holding at bed 416 with Worf and Zack. Waiting for Billy's named handover."}],"say":"Billy, Jason here at 416, in the light. Worf, pick up the potato

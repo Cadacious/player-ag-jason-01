@@ -1,7 +1,6 @@
-# Handoff, day 872 night
+# Handoff, day 873 dusk
 
-Slept at 417,107,-1051 beside the white beds at 415 (sleep tool worked; days_since_sleep reset to 0). Zack and Worf were in reach at sleep. Sword in hand.
-Owed: Billy's 8 potatoes at 430 are held for Beverly first (weakest), then Worf 5 and Zack 3. My share comes after that, when Billy names it.
-Beverly's 10 potatoes are with her at 425. Nobody walks until Billy names it.
-Hunger 14, health 20 at dusk. Call Billy or Zack at hunger 10.
-Next at waking: wait for daylight, then answer Billy. Do not walk east alone. Do not go south or north-west. The bed-use try failed ("that block is a bed"); use the sleep tool from beside the bed.
+At bed 416,107,-1050, sword in hand, Worf and Zack near. Health 20, hunger 14.
+Billy handed Worf 5 potatoes (Worf's pack showed none; items may be on the ground by him, Billy asked him to pick up). Zack's 3 still owed; Billy will hand them at first light, in sight.
+Beverly's 10 potatoes are with her at 430. Kimberly is armed near Billy.
+Rule kept: no walk south, no walk in the dark. Call Billy or Zack at hunger 10.
