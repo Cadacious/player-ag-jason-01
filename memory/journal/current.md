@@ -94,3 +94,12 @@
 - 16:05 act: {"actions":[],"say":"The way east is blocked again for me; I got as far as 417. I hold here with Zack and Worf in reach, sword in hand. Billy, if you want me, walk west to 424 and I come to you in sig
 - 16:12 act: {"actions":[],"say":"Morning. Zack and Worf, go to Billy in sight; I hold at 417 in your sight. The way east stopped me yesterday, so I will not force it. Billy, name a clear spot west and I come."}
 - 16:25 act: {"say":"Morning. Jason at 417, with Zack and Worf in reach. Beverly, walk west to 424 where we can see you, and I will take my share there in daylight.","intent":{"goal":"hold_at_row","program":"rest"
+- 16:25 act: {"actions":[{"do":"goto","target":{"x":424,"y":107,"z":-1051}}],"say":"Billy, I am coming to 424 with my sword in hand, Zack and Worf too.","intent":{"goal":"walk_to_billy_424","program":"travel","arg
+- 16:26 say: {"text":"Billy, the way to 424 is blocked and it is dark. I hold at 418 with Zack and Worf, sword in hand. I will not walk in the dark."}
+- 16:26 say: {"text":"Understood, Billy. Jason holds at 418 with Zack and Worf, sword in hand. First light, in your sight."}
+- 16:28 say: {"text":"Morning. Jason holds at 418 with Zack and Worf, sword in hand. When the light is clear and Billy names it, I walk to 424 in your sight."}
+- 16:29 act: {"actions":[{"do":"goto","target":{"x":424,"y":107,"z":-1051}}],"say":"Billy named the walk. Jason goes to 424 with Zack and Worf, sword in hand."}
+- 16:29 say: {"text":"Billy, the way east to 424 is blocked three times over. I hold at 418 with Zack and Worf. Please walk west to 424 or to 421 where I can see you, and I come in your sight."}
+- 16:30 say: {"text":"Billy, Jason holds at 419 with Zack and Worf, sword in hand. Walk to 424 when the light is clear, and I come in your sight."}
+- 16:30 say: {"text":"Billy, my walk east stops at 419 every time. Please come west to 421 and I meet you there. I hold at 419 until then."}
+- 16:35 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"use","at":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk, row. Jason goes to my bed at 416,107,-1050 with Zack and Worf 
