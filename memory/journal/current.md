@@ -77,3 +77,6 @@
 - Day 854: sleep partly worked (2 of 10). Woke to day at bed 416,107,-1050, health 20, hunger 15, Worf and Zack in reach. No walk named. Holding; Riker, Troi and Beverly also holding for Billy."}
 - Day 853 waking: at bed 416,107,-1049, health 20, hunger 15, wooden sword and one potato. Worf and Zack in reach. No walk named; holding. Heard Wesley, Troi, Beverly (health 7.3), Worf (hunger 11) all waiting on Billy. Still no food from Billy.
 - 10:27 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Dusk, row. Jason going to sleep beside my bed, Worf and Zack in sight. Holding, not walking. Billy, name a walk at
+- 10:44 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Dusk. Jason going to sleep beside my bed, Worf and Zack in sight. Holding, not walking."}
+- Day 855 morning: sleep refused at dusk ("not night"), so I stayed at bed 416,107,-1050. Health 20, hunger 15, sword and potato kept. Zack hunger 18, Worf 11, Beverly 7.3. No walk named by Billy; holding.
+- 10:57 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Night, row. Jason sleeping at my white bed, Worf and Zack in sight. No walk."}
