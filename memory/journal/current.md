@@ -81,3 +81,16 @@
 - 15:33 act: {"actions":[{"do":"note","text":"Day 869 morning. At 418,107,-1051 with the sword. Zack and Worf here. Path east is blocked for us. Holding and waiting for Billy to see us from 430."}],"say":"Jason at
 - 15:34 act: {"actions":[{"do":"note","text":"Billy holds at 430 and asks us to stay at 418 with the sword. Waiting in daylight for him to come into our sight."}]}
 - 15:42 act: {"actions":[{"do":"note","text":"Day 869 dusk. Billy never came into our sight, so no handover yet. Still at 418 with the sword. Zack and Worf in reach. Hunger 14, potato kept for Zack at 10."}]}
+- 15:43 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Goodnight, row. I am going to my bed. Zack is near me, and I hold until first light."}
+- 15:43 act: {"actions":[],"say":"Morning, Billy. Jason holds at 419,108,-1050 with the sword, Zack and Worf in reach. Beverly first, then Zack's 3 and Worf's 5. I do not walk; I wait for you in sight."}
+- 15:44 act: {"actions":[{"do":"goto","target":{"x":428,"y":107,"z":-1051}}],"say":"Billy named the walk. Jason goes east along the row to you at 430, sword in hand, with Zack and Worf."}
+- 15:44 act: {"actions":[],"say":"Billy, the way east is blocked again; I stand at 419,108,-1051 with Zack and Worf. Please walk west into my sight. I will not go south."}
+- 15:44 act: {"actions":[],"say":"Zack, Worf, I hold at 419,107,-1051 with the sword. Billy, I still cannot reach you east. Come west into my sight and I will hand Zack the potato if he reaches 10."}
+- 15:50 act: {"actions":[],"say":"Good, Wesley and Worf. Jason holds at 419,107,-1051 with the sword, in your sight. Billy, we wait for you to come west, in daylight."}
+- 16:00 act: {"actions":[{"do":"give","to":"ag_zack_01","item":"potato","count":1}],"say":"Morning. Zack, you have had no food since night and I am in your sight, so I give you my potato now. Billy, your 3 to Zack
+- 16:01 act: {"actions":[],"say":"Billy, I hear you. Jason holds at 419,107,-1051 with the sword, in reach of Zack. I will not go east alone. If Zack and Worf walk to you, I follow in their sight."}
+- 16:04 act: {"actions":[],"say":"Zack and Worf, go in sight of each other and I hold at 419 in sight of you. Billy, the potatoes to Zack and Worf first, and Beverly as you said. Jason will come only if the way cl
+- 16:05 act: {"actions":[{"do":"goto","target":{"x":424,"y":107,"z":-1051}}],"say":"Billy, named walk heard. Zack and Worf first, I come last in their sight, sword in hand, to 424 first."}
+- 16:05 act: {"actions":[],"say":"The way east is blocked again for me; I got as far as 417. I hold here with Zack and Worf in reach, sword in hand. Billy, if you want me, walk west to 424 and I come to you in sig
+- 16:12 act: {"actions":[],"say":"Morning. Zack and Worf, go to Billy in sight; I hold at 417 in your sight. The way east stopped me yesterday, so I will not force it. Billy, name a clear spot west and I come."}
+- 16:25 act: {"say":"Morning. Jason at 417, with Zack and Worf in reach. Beverly, walk west to 424 where we can see you, and I will take my share there in daylight.","intent":{"goal":"hold_at_row","program":"rest"
