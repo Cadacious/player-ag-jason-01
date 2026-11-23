@@ -9,3 +9,12 @@
 - Riker pointed Zack to the bed at 429,107,-1050. Troi holds with Trini. No walk named by Billy; I hold at my bed, hunger 16.
 - Night came. Worf holds in sight. Going to sleep beside my bed 415,107,-1048 as my goals say.
 - Slept. Sleep worked; days_since_sleep reset to 0. No walk named, none taken. Reflect: holding and not walking kept me safe; I still need Billy to name food. Next waking: greet Billy, hold, call at hunger 10.
+- 05:55 say: {"text":"Good morning. I am holding at my bed. Billy, if you can, bring some food here."}
+- Day 840 waking: at bed 415,107,-1050, health 20, hunger 16, wooden sword. Sleep attempt blocked (not needed by day). Worf in reach, Wcrusher nearby. Greeted Billy, asked for food at bed. Holding; no walk.
+- 05:56 say: {"text":"Troi, Riker, Laforge: I am well, health 20, hunger 16. Holding at my bed until Billy names a walk."}
+- Heard Worf (hunger 12, holding potato for Leonardo) and Troi (no food, holding). Billy has not named a walk. Still holding at bed, hunger 16, no walk.
+- Day 841 dusk: sleep blocked at first bed; stepped to the second white bed 416,107,-1051 and slept (worked). Woke at morning: health 20, hunger 16, Worf in reach, Zack near. Billy still names no walk. Holding.
+- 06:06 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Dusk. Worf, I am going to rest beside my bed. Still no walk named; I am not going anywhere."}
+- 06:18 say: {"text":"Billy, Jason here at my bed, holding, hunger 16. I have one potato for whoever is weakest. Tell me when to walk and where."}
+- 06:18 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}]}
+- 06:22 act: {"actions":[{"do":"sleep"}]}
