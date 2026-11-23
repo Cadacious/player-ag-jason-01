@@ -6,3 +6,5 @@
 - 11:56 act: {"say":"Morning, row. Jason at my bed, sword in hand, health 20, hunger 15. Holding for Billy's named walk. Zack, I keep my potato for you if you hit 10.
 - Morning day 858: Zack says he will ask for my potato at hunger 10. Still no walk named by Billy. Holding at bed, health 20, hunger 15.
 - Dusk day 858: no walk named; health 20, hunger 15. Wrote handoff.md, slept at my bed. Reflect: the day held steady; nothing new to change. Next: good morning, hold, wait for Billy."}
+- 12:04 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Jason at night, moving to my bed 416,107,-1050 with Worf and Zack in sight. No walk.","intent":{"goal":"hold_at_bed_night","progr
+- 12:05 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night, row. Jason at my bed, Worf and Zack in sight. No walk."}
