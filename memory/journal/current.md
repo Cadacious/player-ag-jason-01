@@ -18,3 +18,14 @@
 - 06:18 say: {"text":"Billy, Jason here at my bed, holding, hunger 16. I have one potato for whoever is weakest. Tell me when to walk and where."}
 - 06:18 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}]}
 - 06:22 act: {"actions":[{"do":"sleep"}]}
+- 06:26 act: {"say":"Good morning, row. Jason here at my bed, health 20, hunger 16, sword in hand. Billy, I am holding until you name a walk."}
+- Day 842 day: at bed 416,107,-1050, health 20, hunger 16, wooden sword, one potato. Worf in reach, Wcrusher and Zack near. Heard Riker, Troi, Billy's sleep-verb note from Laforge. No walk named; holding.
+- 06:35 act: {"actions":[{"do":"sleep"}],"say":"Dusk. Holding beside my bed with Worf and Wesley in sight. Still no walk named; I am not going anywhere."}
+- Night 842: sleep failed ("way blocked") and I was found at 419,108,-1050, three blocks off the bed. Worf heard. Walking back to bed 416,107,-1051 to sleep again, inside the row only.
+- 06:35 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}]}
+- 06:35 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"use","at":{"x":415,"y":107,"z":-1051}}],"say":"Zack, Worf: I am going back to my bed to try again, staying in the row."}
+- Night 842: use on the bed refused ("that is a bed"). Sleep verb failed again ("way blocked"). Stopped retrying sleep. Holding near bed with Worf in reach, health 20, hunger 15, potato kept. Will wait for dawn and not walk.
+- 06:35 act: {"actions":[{"do":"sleep"}]}
+- 06:40 act: {"say":"Morning, Billy. Jason at my bed, health 20, hunger 15. I was not named for the walk, so I hold here with Worf in sight. Could you bring food to my bed when you can spare it?"}
+- Day 843 morning: Billy has no good food, only 2 poisonous potatoes; he cannot bring me any. Lewis went with him to the sword spot at 441; nothing there. I hold at bed, hunger 15, one potato kept for hunger 10.
+- 06:40 act: {"say":"Thank you, Billy. Keep your poisonous potatoes away from the weak. I keep my one potato for hunger 10, and I hold here at my bed."}
