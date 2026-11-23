@@ -3,5 +3,7 @@
 - 04:17 act: good morning said to the row; holding at bed.
 - 04:18 act: spoke to Troi; holding my potato for the weakest.
 - 04:30 act: asked Billy to bring food to my bed.
-- Day 836 morning: waits show health 20, hunger 16, no walk named by Billy, Zack and Worf at the bed. Holding. Next: wait for Billy; call him at hunger 10.
-- 04:43 say: {"text":"Good night. I am holding at my bed with Zack and Worf here. Billy, bring food to my bed at first light, please."}
+- Day 836 morning: waits show health 20, hunger 16, no walk named. Holding.
+- Day 836 wake (new life-cycle): sleep worked; at bed with Zack and Worf. Said goodnight, holding at bed till dawn, asked Billy to bring food at first light.
+- 04:44 act: {"say":"Troi, I am holding at my bed, health 20, hunger 16. Still no walk named. Billy, bring food to my bed at first light."}
+- 04:48 act: {"say":"Good morning, row. Jason here at my bed, health 20, hunger 16. Holding. Billy, when you are ready, bring food to my bed."}
