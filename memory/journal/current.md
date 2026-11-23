@@ -1,45 +1,4 @@
 # Journal
-- 02:07 say: {"text":"Good morning, Billy. I will hold at my bed, not the potatoes (north-west). Please bring some food here. Hunger 17."}
-- 02:17 say: {"text":"Good night, Billy. I am holding at my bed, as you said."}
-- Day 829 dusk: woke at bed, Billy named no walk, held. Said goodnight and slept at bed. Health 20, hunger 17, wooden sword in hand. Next: good morning to Billy, hold unless he names a walk; call at hunger 10.
-- 02:25 say: {"text":"Good morning, Billy. I am staying at my bed; not going north-west. Please bring a potato here to me."}
-- 02:28 say: {"text":"Worf, I am holding here at my bed. The walk to 409,-1054 is north-west, so I do not go. Keep your potato for the weakest."}
-- 02:41 say: {"text":"Thank you, Worf. Give it to the weakest first, Chapman or Riker. I am holding at my bed."}
-- 02:42 say: {"text":"Billy, Jason here, armed with my wooden sword. I will walk with you to the potatoes at 469,-1070. Lead on."}
-- 02:43 act: {"intent":{"goal":"walk_with_billy","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":2400,"max_
-- 02:46 act: {"intent":{"goal":"walk_with_billy","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":2400,"max_
-- 02:46 say: {"text":"Billy, Jason coming to you now, sword in hand. Worf and I are walking to you."}
-- 02:47 say: {"text":"Billy, Jason here at my bed 416,107,-1050. I cannot see you from here, so I hold. Please come into my sight at the row, or bring one potato to my bed."}
-- 02:48 act: {"intent":{"goal":"walk_with_billy_to_potatoes","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks
-- 02:48 say: {"text":"Billy, I see Worf and Zack. Walking with you now, sword in hand, to the potatoes at 466,-1066."}
-- 02:50 act: {"intent":{"goal":"walk_with_worf_to_potatoes","program":"follow","arguments":{"target":"ag_worf_01"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":
-- 02:50 say: {"text":"Worf, I am following you now, sword in hand, toward the potatoes at 466,-1066."}
-- 02:50 act: {"intent":{"goal":"return_to_my_bed","program":"travel","arguments":{"x":416,"y":107,"z":-1050},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":600,"m
-- 02:50 say: {"text":"Worf, the path is blocked and it is getting dark. I am going back to my bed at 416,-1050 to hold until morning."}
-- 02:50 act: {"intent":{"goal":"return_to_my_bed","program":"travel","arguments":{"target":{"x":416,"y":107,"z":-1050}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
-- 02:55 say: {"text":"Jason here at my bed, sword in hand, Worf and Zack in sight. Billy, I hold until first light."}
-- 02:59 say: {"text":"Billy, Jason here at my bed. 416,-1036 is south, and my rule says I do not go south. Please come to me here at the bed so I can see you, then we walk to the potatoes north-east."}
-- 03:02 say: {"text":"Billy, Jason at 419,-1050 by the bed. I can see Worf and Zack, not you yet. I will not go south, so please come up to the bed row, then name the walk."}
-- 03:08 say: {"text":"Jason here at the bed, Worf and Zack in sight. Good night, all. I am sleeping beside my bed."}
-- 03:09 say: {"text":"Worf, Zack: I am at my bed for the night. Sleep failed twice (way blocked). I will hold here."}
-- Night 832: at bed 415,107,-1050, Worf and Zack in sight. Sleep failed twice ("way blocked"). Said so; holding and waiting for first light. Hunger 16, health 20.
-- Day 832 morning: said good morning to Billy, asked for food at bed. Zack handed me one potato; I kept it for hunger 10. Holding at bed, Worf and Zack in sight. Billy has named no walk.
-- Day 832 later: Leonardo at health 10, no food. I offered my potato to him if he comes into sight at my bed. Still holding, hunger 16.
-- 03:09 say: {"text":"Good night, Zack. I am holding at my bed with Worf in sight. Keep the potato for the weakest."}
-- 03:13 say: {"text":"Good morning, Billy. Jason at my bed, 416,-1050, with Worf in sight. Hunger 16. Please bring a potato to me here. I am not going south or north-west."}
-- 03:14 say: {"text":"Thank you, Zack. I will keep the potato and eat it when hunger reaches 10. Holding at my bed."}
-- 03:14 say: {"text":"Morning, Troi. Jason: health 20, hunger 16, sword in hand, holding at my bed. Waiting for Billy to name a walk."}
-- 03:18 say: {"text":"Leonardo, Jason here. I hold one potato. If you come into sight at my bed, I will hand it to you. Billy, Leonardo first."}
-- 03:27 say: {"text":"Night, Zack, Worf. I hold at my bed. Jason here."}
-- Day 833 night: at bed 415,107,-1051 with Zack and Worf in sight. Sleep failed again ("way blocked"). Health 20, hunger 16, sword in hand. Holding, waiting for first light.
-- Day 833 morning: said good morning to Billy. Holding at bed with Worf, Zack in sight. No walk named. Told Zack I hold my potato for the weakest. Night again; sleep still "not possible". Hunger 16, health 20.
-- 03:27 say: {"text":"Good morning, Billy. Jason at my bed, sword in hand, hunger 16. Holding; no walk unless you name one."}
-- 03:37 say: {"text":"Zack, no walk named by Billy. I hold at my bed, sword in hand, hunger 16. I keep my one potato for the weakest, Leonardo first."}
-- 03:42 say: {"text":"Night, Zack. Jason holding here by the beds, sword in hand. Worf, stay in sight."}
-- 03:46 say: {"text":"Good morning, Billy. Jason at the beds, health 20, hunger 16. Holding for your named walk; I keep my potato for the weakest."}
-- 03:48 say: {"text":"Morning, Troi, Laforge, Zack. Jason: health 20, hunger 16, sword in hand, holding at the beds. Billy, your named walk, please."}
-- 03:57 act: {"say":"Good morning, Worf. I am holding at my bed. Has Billy named any walk or food yet?"}
-- 04:00 act: {"say":"Good night. Holding at my bed with Worf and Zack near. Hunger 16, health 20."}
-- 04:01 act: {"say":"Morning, row. Jason at my bed, health 20, hunger 16, sword in hand. Holding here until Billy names a walk."}
-- 04:07 act: {"say":"Morning, row. Jason at my bed, health 20, hunger 16, sword in hand. Holding. Billy, name the walk or bring food to my bed."}
-- 04:15 act: {"say":"Good evening. Jason at my bed with Worf and Zack near, health 20, hunger 16. Holding; I am going to sleep here.","actions":[{"do":"sleep"}]}
+- Day 835 night: at bed 415,107,-1050 with Zack and Worf in reach. Sleep failed again ("way blocked"). Health 20, hunger 16, wooden sword in hand, one potato kept for the weakest or for hunger 10. Holding, not walking. Waiting for Billy's named walk or first light.
+- 04:17 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Good morning, row. Jason at my bed, health 20, hunger 16, sword in hand. Billy, I hold here for your named walk or food. Not sout
+- 04:18 act: {"actions":[],"say":"Morning, Troi. Jason here, health 20, hunger 16, sword in hand, holding at my bed. I hold my one potato for the weakest. Billy, your word, please."}
