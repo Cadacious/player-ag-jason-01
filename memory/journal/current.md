@@ -80,3 +80,9 @@
 - 10:44 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Dusk. Jason going to sleep beside my bed, Worf and Zack in sight. Holding, not walking."}
 - Day 855 morning: sleep refused at dusk ("not night"), so I stayed at bed 416,107,-1050. Health 20, hunger 15, sword and potato kept. Zack hunger 18, Worf 11, Beverly 7.3. No walk named by Billy; holding.
 - 10:57 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Night, row. Jason sleeping at my white bed, Worf and Zack in sight. No walk."}
+- 10:57 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Night, row. Jason holding at my white bed, health 20, hunger 15, sword in hand. Worf and Zack in sight. No walk in the dark."}
+- Day 855 night: at bed 416,107,-1050 (stood at 415,107,-1050), health 20, hunger 15, sword and potato kept. Sleep said "not sleeping" with days_since_sleep 0, so I did not sleep. Holding at bed with Worf, Zack and Wesley in sight. No walk.
+- Day 856 morning: sleep failed again ("way blocked") and I drifted to 419,108,-1050, then walked back to 416,107,-1050. Greeted row, answered Zack. Health 20, hunger 15, potato and sword kept. Troi says Leonardo health 10, Trini 12. Billy names no walk; holding.
+- 10:58 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Jason back at my white bed, health 20, hunger 15. Holding here with Worf and Zack, not walking."}
+- 10:58 act: {"actions":[],"say":"Morning, row. Jason at my bed, health 20, hunger 15, sword in hand. Billy, I hold here for your named walk. Worf, Zack, I am here."}
+- 10:58 act: {"actions":[],"say":"Heard you, Zack. Stay with me and Worf at the bed. Billy names the walk; until then we hold."}
