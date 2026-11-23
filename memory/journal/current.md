@@ -3,3 +3,9 @@
 - Day 839 morning: woke at my bed, health 20, hunger 16. Greeted the row and asked Billy for food. Holding; no walk.
 - Heard Troi, Riker, Zack all holding for Billy's word. Still holding at bed, health 20, hunger 16.
 - Night came. Slept beside my bed with Wesley in sight. Health 20, hunger 16, potato kept. No walk named by Billy; none taken.
+- 05:42 act: {"say":"Good morning. Jason here at my bed, holding. Worf, Billy, you are close. I am hungry at 16 and will call at 10."}
+- Day 839 waking: at bed 415,107,-1048, health 20, hunger 16, wooden sword. Greeted Worf and Billy. Holding; no walk. A rest intent was rejected (limits need >= 1 block op), so I held with no intent.
+- Heard Worf, Troi, Riker, Zack all waiting on Billy's named walk. Zack has no food and has not slept. I hold at bed, hunger 16, one potato kept for Leonardo's or my own need at 10.
+- Riker pointed Zack to the bed at 429,107,-1050. Troi holds with Trini. No walk named by Billy; I hold at my bed, hunger 16.
+- Night came. Worf holds in sight. Going to sleep beside my bed 415,107,-1048 as my goals say.
+- Slept. Sleep worked; days_since_sleep reset to 0. No walk named, none taken. Reflect: holding and not walking kept me safe; I still need Billy to name food. Next waking: greet Billy, hold, call at hunger 10.
