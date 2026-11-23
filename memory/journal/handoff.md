@@ -1,5 +1,7 @@
-# Handoff, day 828 (night, sleep attempted at bed)
+# Handoff, day 834 (morning)
 
-At my bed 416,107,-1050, not walking. Health 20, hunger 17, wooden sword in hand. Sheltered beside the bed, no errand out.
-Sleep call returned only "intent finished", not a full night; I may still be awake at night.
-Next: if still night, sleep again at the bed. At first light, say good morning to Billy; hold unless he names a walk I can take. Call Billy or Zack at hunger 10. Do not go south or north-west.
+At the beds near 419,108,-1050, not walking. Health 20, hunger 16, wooden sword in hand, one potato kept for the weakest (Leonardo, Chapman, Riker first) or for my own hunger at 10.
+Sheltered by the row; Worf and Zack in sight. No errand out.
+Billy has named no walk. I have said good morning and asked for his named walk.
+Sleep at night only; sleep has failed when not night.
+Next: hold at the beds; call Billy or Zack at hunger 10; do not go south or north-west.

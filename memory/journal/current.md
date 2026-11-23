@@ -30,3 +30,11 @@
 - 03:14 say: {"text":"Thank you, Zack. I will keep the potato and eat it when hunger reaches 10. Holding at my bed."}
 - 03:14 say: {"text":"Morning, Troi. Jason: health 20, hunger 16, sword in hand, holding at my bed. Waiting for Billy to name a walk."}
 - 03:18 say: {"text":"Leonardo, Jason here. I hold one potato. If you come into sight at my bed, I will hand it to you. Billy, Leonardo first."}
+- 03:27 say: {"text":"Night, Zack, Worf. I hold at my bed. Jason here."}
+- Day 833 night: at bed 415,107,-1051 with Zack and Worf in sight. Sleep failed again ("way blocked"). Health 20, hunger 16, sword in hand. Holding, waiting for first light.
+- Day 833 morning: said good morning to Billy. Holding at bed with Worf, Zack in sight. No walk named. Told Zack I hold my potato for the weakest. Night again; sleep still "not possible". Hunger 16, health 20.
+- 03:27 say: {"text":"Good morning, Billy. Jason at my bed, sword in hand, hunger 16. Holding; no walk unless you name one."}
+- 03:37 say: {"text":"Zack, no walk named by Billy. I hold at my bed, sword in hand, hunger 16. I keep my one potato for the weakest, Leonardo first."}
+- 03:42 say: {"text":"Night, Zack. Jason holding here by the beds, sword in hand. Worf, stay in sight."}
+- 03:46 say: {"text":"Good morning, Billy. Jason at the beds, health 20, hunger 16. Holding for your named walk; I keep my potato for the weakest."}
+- 03:48 say: {"text":"Morning, Troi, Laforge, Zack. Jason: health 20, hunger 16, sword in hand, holding at the beds. Billy, your named walk, please."}
