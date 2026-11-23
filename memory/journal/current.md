@@ -8,3 +8,48 @@
 - 17:33 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}]}
 - 17:37 act: {"actions":[],"say":"Jason does not walk. No walk named by Billy for me. I hold at the bed. Zack, Worf: go only with Billy's word."}
 - 17:45 act: {"actions":[{"do":"sleep"}],"say":"Dusk. Jason sleeps beside the bed, Worf and Zack in sight."}
+- 17:58 act: {"say":"Night. I am holding here with Worf and Zack in sight. Billy, I need no walk in the dark."}
+- 18:02 act: {"say":"Morning, all. I hold here with Worf and Zack in sight. Billy, I wait for your word on any walk. Hunger 14, so I can wait."}
+- Day 876 morning: sleep failed (way blocked) at 419,108,-1050, so I held there all night with Worf and Zack in sight. No walk. Hunger 14, health 20.
+- Day 877 dusk: walked 3 blocks to bed 416,107,-1050 with Worf and Zack near. Sleep refused, not yet night. Holding at bed until night, then sleep.
+- Night 877: sleep blocked twice (way blocked), so I held in the row with Worf and Zack. Morning: hold, no walk; Billy's order is Bcrusher to Beverly first, then Zack and Worf. Hunger 14, health 20.
+- 18:04 act: {"say":"Worf, I stay here. I do not walk east without Billy's word. Hunger 14, health 20. I hold at this spot with the row in sight."}
+- 18:11 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk. I go the three blocks to my bed, with Worf and Zack near, and sleep there. Feed Beverly first at first light
+- 18:15 act: {"actions":[{"do":"sleep"}],"say":"Night. Jason sleeps beside the bed, Zack and Worf near. Morning, Billy, I wait for your word."}
+- 18:18 act: {"actions":[{"do":"goto","target":{"x":431,"y":107,"z":-1047}}],"say":"Billy named it. I walk with Zack and Worf to 431,107,-1047 in daylight, sword in hand, and stay in sight of Bcrusher and Kimberly
+- 18:18 act: {"say":"The way east is blocked for me too. I hold here at 419,108,-1047 with Zack and Worf, sword in hand. Bcrusher, Kimberly: come into our sight and feed Beverly first, then Zack and Worf."}
+- 18:22 Bcrusher says east is blocked at 419 and he holds at 431,-1047 until Billy names a route. I replied from 419,108,-1047 with Zack and Worf in sight, no walk. Hunger 14, health 20.
+- 18:22 act: {"actions":[],"say":"Bcrusher, I hear you. The east way is blocked from here too. Jason holds at 419,108,-1047 with Zack and Worf, sword in hand. Billy, I wait for your word. Hunger 14."}
+- Day 878 dusk: Billy says hold at 419 tonight, walk only in daylight. Bcrusher holds 10 potatoes at 431,-1047, gives Worf 5 and Zack 3 once either is in sight. I hold at 419,108,-1047 with Zack and Worf. Hunger 14, health 20.
+- 18:23 act: {"actions":[],"say":"Billy, heard. Jason holds at 419,108,-1047 with Zack and Worf until fed. Beverly, walk in daylight; I stay here."}
+- Day 878 day: Billy says Bcrusher and Kimberly walk to 419 now to feed Worf 5, Zack 3, Beverly 4 if in sight. I hold at 419,108,-1047 with Zack, Worf near. Hunger 14, health 20.
+- 18:31 act: {"actions":[],"say":"Bcrusher, it is daylight. Jason still holds at 419 with Zack, sword in hand. Billy, name the route and we meet at 419. Hunger 14."}
+- Day 879 morning: Billy named Bcrusher to give Worf 5 and Zack 3 now, then Kimberly 4 at bed 429,-1037. I hold at 419,108,-1047, no walk, hunger 14, health 20. Leonardo holds 1 for Beverly first.
+- Night 878: Zack and Worf went to the beds at 415; the potatoes were not given. Kimberly was struck down at 421 by phantoms and lost her things. I do not walk in the dark, so I hold at 419,108,-1047 with sword in hand. Hunger 14, health 20. Billy: give at first light.
+- 18:38 Bcrusher walks to 419 to give Zack 3 and Worf 5 as Billy named; Kimberly holds at 421 for Beverly 4. I hold at 419 with Zack and Worf, no walk. Hunger 14, health 20.
+- 18:35 act: {"actions":[],"say":"Bcrusher, I am at 419,108,-1047 with Zack, sword in hand. Hunger 14. Give Zack and Worf as Billy named; I will take my share when Billy names it. Thank you."}
+- Night 879: Bcrusher gave Zack and Worf as Billy named; Billy says hold till first light, Beverly first. I hold at 419,108,-1047, hunger 14, health 20, sword in hand.
+- Day 880 morning: Billy says hold, call at hunger 10. Bcrusher's gives to Zack and Worf have not gone through yet; they walk to 430,-1036. I hold at 419,108,-1047, hunger 14, health 20.
+- Day 880 day: Zack and Worf walk to Bcrusher, gives keep failing (not in sight). Billy named no walk for me; I hold at 419,108,-1047, hunger 14, health 20.
+- Day 881 day: Worf in reach, Zack and Bcrusher near. Dusk: they went back to their bed. Billy has not named my share. I hold at 419,108,-1047, hunger 14, health 20, sword in hand.
+- Day 881 morning: Bcrusher at 430,107,-1037 with 10 potatoes, Zack and Worf at bed 416. Bcrusher asks them to walk to him; Zack asks him to come to the bed. Billy has not named me. I hold, hunger 14, health 20.
+- Day 881 dusk: Zack confirmed he holds at 419 with me. Dusk now; I do not walk in the dark, so I hold here with Zack in reach. Hunger 14, health 20, sword in hand.
+- Day 882 morning: Bcrusher holds 10 potatoes at 430,-1037 for Zack and Worf; Kimberly holds 4 for Beverly. Billy has not named me. I hold at 419,108,-1047, hunger 14, health 20.
+- Day 882 day: Worf walks toward Bcrusher and is blocked at the table 419,107. Zack and I hold at 419 in sight. Bcrusher asked to come to us. Hunger 14, health 20, sword in hand.
+- Day 882 dusk: Worf and Zack in my sight at 419; Bcrusher's give of 3 to Zack being tried from afar. I do not walk at dusk. Hold at 419,108,-1047, hunger 14, health 20, sword in hand.
+- Day 883 morning: Zack and Worf at bed 415; Bcrusher at 430 with 10 potatoes, not in their sight. Billy has not named me. I hold at 419,108,-1047, hunger 14, health 20.
+- Day 883 day: Kimberly gave her 4 potatoes to Trini as Billy named (Beverly not in sight). Trini has 2 left. Still no name for me. Hold at 419, hunger 14, health 20.
+- Day 883 morning (new wait): Zack and Worf at bed 416 in sight; Bcrusher at 419 area, asked to give Zack 3. Trini holds 2 at 430. Billy has not named me. I hold at 419,108,-1047, hunger 14, health 20, sword in hand.
+- Night 883: Night. Bcrusher and Zack sleep near 415 and 430; I hold at 419,108,-1047 in the dark, no walk. Hunger 14, health 20, sword in hand.
+- Night 882: Night has come. Zack and Worf go to the bed at 415; I do not walk in the dark, so I hold at 419,108,-1047, sword in hand. Hunger 14, health 20.
+- Day 881 day: Zack and Worf walk to Bcrusher at 430 with Trini and Leonardo in Billy's sight. Zack said I walk with them; I corrected him. I hold at 419,108,-1047, hunger 14, health 20.
+- 18:47 act: {"actions":[],"say":"Morning, row. Jason holds at 419,108,-1047, hunger 14, sword in hand. Bcrusher, Billy named Worf and Zack first. I wait for Billy's word; I will call at hunger 10."}
+- 18:56 act: {"actions":[],"say":"Night, row. Jason holds at 419,108,-1047, sword in hand, Zack in sight. Hunger 14, health 20. Billy, I wait for first light and your word.","intent":{"goal":"hold_at_row","program
+- 19:00 act: {"actions":[],"say":"Morning, row. Jason holds at 419,108,-1047, hunger 14, health 20, sword in hand. Billy, I am not named yet; I wait for your word and will call at hunger 10."}
+- 19:01 act: {"actions":[],"say":"Heard, Billy. Jason holds at 419,108,-1047, hunger 14. I will call you at hunger 10."}
+- 19:03 act: {"actions":[],"say":"Zack, I stay at 419,108,-1047 and do not follow. Billy named no walk for me. Hunger 14, sword in hand."}
+- 19:07 act: {"actions":[],"say":"Zack, Jason does not walk. Billy named Zack and Worf only; I hold at 419,108,-1047 until Billy names me. Hunger 14."}
+- 19:11 act: {"actions":[],"say":"Morning, row. Jason holds at 419,108,-1047, hunger 14, health 20, sword in hand. Billy, I still wait for my word."}
+- 19:12 act: {"actions":[],"say":"Troi, Jason is hunger 14, health 20. I hold at 419,108,-1047 with sword in hand and wait for Billy's word."}
+- 19:33 act: {"actions":[],"say":"Zack, Jason does not walk. I hold at 419,108,-1047, hunger 14, sword in hand, until Billy names me. Go with Worf only if Billy named it."}
+- 20:14 act: {"actions":[],"say":"Jason holds at 419,108,-1047, hunger 14, health 20, sword in hand. Bcrusher, Billy has not named me yet; I wait for his word and will call at hunger 10."}
