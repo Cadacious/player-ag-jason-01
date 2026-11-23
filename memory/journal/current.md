@@ -40,3 +40,6 @@
 - 03:48 say: {"text":"Morning, Troi, Laforge, Zack. Jason: health 20, hunger 16, sword in hand, holding at the beds. Billy, your named walk, please."}
 - 03:57 act: {"say":"Good morning, Worf. I am holding at my bed. Has Billy named any walk or food yet?"}
 - 04:00 act: {"say":"Good night. Holding at my bed with Worf and Zack near. Hunger 16, health 20."}
+- 04:01 act: {"say":"Morning, row. Jason at my bed, health 20, hunger 16, sword in hand. Holding here until Billy names a walk."}
+- 04:07 act: {"say":"Morning, row. Jason at my bed, health 20, hunger 16, sword in hand. Holding. Billy, name the walk or bring food to my bed."}
+- 04:15 act: {"say":"Good evening. Jason at my bed with Worf and Zack near, health 20, hunger 16. Holding; I am going to sleep here.","actions":[{"do":"sleep"}]}
