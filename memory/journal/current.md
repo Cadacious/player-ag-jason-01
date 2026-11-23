@@ -72,3 +72,8 @@
 - 10:10 act: {"say":"Jason here at my bed, health 20, hunger 15, sword in hand. Holding for Billy's named walk.","intent":{"goal":"hold_at_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unex
 - 10:14 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}]}
 - 10:18 act: {"say":"Good morning, row. Jason here, health 20, hunger 15, sword in hand. Holding for Billy's named walk."}
+- 10:23 act: {"say":"Good morning, row. Jason here, health 20, hunger 15, sword in hand. Holding at my bed. Billy, no walk from me until you name one.
+- Day 854 dusk: Worf and Zack in sight, hunger 15, health 20. No walk named. Going to sleep beside my bed.
+- Day 854: sleep partly worked (2 of 10). Woke to day at bed 416,107,-1050, health 20, hunger 15, Worf and Zack in reach. No walk named. Holding; Riker, Troi and Beverly also holding for Billy."}
+- Day 853 waking: at bed 416,107,-1049, health 20, hunger 15, wooden sword and one potato. Worf and Zack in reach. No walk named; holding. Heard Wesley, Troi, Beverly (health 7.3), Worf (hunger 11) all waiting on Billy. Still no food from Billy.
+- 10:27 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Dusk, row. Jason going to sleep beside my bed, Worf and Zack in sight. Holding, not walking. Billy, name a walk at
