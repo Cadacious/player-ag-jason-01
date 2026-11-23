@@ -4,3 +4,16 @@
 - Day 829 dusk: woke at bed, Billy named no walk, held. Said goodnight and slept at bed. Health 20, hunger 17, wooden sword in hand. Next: good morning to Billy, hold unless he names a walk; call at hunger 10.
 - 02:25 say: {"text":"Good morning, Billy. I am staying at my bed; not going north-west. Please bring a potato here to me."}
 - 02:28 say: {"text":"Worf, I am holding here at my bed. The walk to 409,-1054 is north-west, so I do not go. Keep your potato for the weakest."}
+- 02:41 say: {"text":"Thank you, Worf. Give it to the weakest first, Chapman or Riker. I am holding at my bed."}
+- 02:42 say: {"text":"Billy, Jason here, armed with my wooden sword. I will walk with you to the potatoes at 469,-1070. Lead on."}
+- 02:43 act: {"intent":{"goal":"walk_with_billy","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":2400,"max_
+- 02:46 act: {"intent":{"goal":"walk_with_billy","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":2400,"max_
+- 02:46 say: {"text":"Billy, Jason coming to you now, sword in hand. Worf and I are walking to you."}
+- 02:47 say: {"text":"Billy, Jason here at my bed 416,107,-1050. I cannot see you from here, so I hold. Please come into my sight at the row, or bring one potato to my bed."}
+- 02:48 act: {"intent":{"goal":"walk_with_billy_to_potatoes","program":"follow","arguments":{"target":"ag_billy_01"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks
+- 02:48 say: {"text":"Billy, I see Worf and Zack. Walking with you now, sword in hand, to the potatoes at 466,-1066."}
+- 02:50 act: {"intent":{"goal":"walk_with_worf_to_potatoes","program":"follow","arguments":{"target":"ag_worf_01"},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":
+- 02:50 say: {"text":"Worf, I am following you now, sword in hand, toward the potatoes at 466,-1066."}
+- 02:50 act: {"intent":{"goal":"return_to_my_bed","program":"travel","arguments":{"x":416,"y":107,"z":-1050},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":600,"m
+- 02:50 say: {"text":"Worf, the path is blocked and it is getting dark. I am going back to my bed at 416,-1050 to hold until morning."}
+- 02:50 act: {"intent":{"goal":"return_to_my_bed","program":"travel","arguments":{"target":{"x":416,"y":107,"z":-1050}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ti
