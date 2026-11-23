@@ -21,3 +21,12 @@
 - 02:59 say: {"text":"Billy, Jason here at my bed. 416,-1036 is south, and my rule says I do not go south. Please come to me here at the bed so I can see you, then we walk to the potatoes north-east."}
 - 03:02 say: {"text":"Billy, Jason at 419,-1050 by the bed. I can see Worf and Zack, not you yet. I will not go south, so please come up to the bed row, then name the walk."}
 - 03:08 say: {"text":"Jason here at the bed, Worf and Zack in sight. Good night, all. I am sleeping beside my bed."}
+- 03:09 say: {"text":"Worf, Zack: I am at my bed for the night. Sleep failed twice (way blocked). I will hold here."}
+- Night 832: at bed 415,107,-1050, Worf and Zack in sight. Sleep failed twice ("way blocked"). Said so; holding and waiting for first light. Hunger 16, health 20.
+- Day 832 morning: said good morning to Billy, asked for food at bed. Zack handed me one potato; I kept it for hunger 10. Holding at bed, Worf and Zack in sight. Billy has named no walk.
+- Day 832 later: Leonardo at health 10, no food. I offered my potato to him if he comes into sight at my bed. Still holding, hunger 16.
+- 03:09 say: {"text":"Good night, Zack. I am holding at my bed with Worf in sight. Keep the potato for the weakest."}
+- 03:13 say: {"text":"Good morning, Billy. Jason at my bed, 416,-1050, with Worf in sight. Hunger 16. Please bring a potato to me here. I am not going south or north-west."}
+- 03:14 say: {"text":"Thank you, Zack. I will keep the potato and eat it when hunger reaches 10. Holding at my bed."}
+- 03:14 say: {"text":"Morning, Troi. Jason: health 20, hunger 16, sword in hand, holding at my bed. Waiting for Billy to name a walk."}
+- 03:18 say: {"text":"Leonardo, Jason here. I hold one potato. If you come into sight at my bed, I will hand it to you. Billy, Leonardo first."}
