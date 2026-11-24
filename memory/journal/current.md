@@ -36,3 +36,4 @@
 - 20:24 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night, row. Jason at the bed 415,107,-1050, health 20, hunger 20, no food. Sleeping here."}
 - 20:25 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Jason, dark night. Trying the bed 415,107,-1051 from 416,107,-1051. Holding in sight of Worf and Zack."}
 - 20:39 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night, row. Going to the bed at 415,107,-1051 in sight of Worf and Zack. Holding no food, health 20."}
+- 20:52 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Dusk, row. Going to the bed at 415,107,-1051 for the night, in sight of Worf and Zack. Health 20, no food."}
