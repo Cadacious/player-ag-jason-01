@@ -56,3 +56,7 @@
 - 23:06 say: {"text":"Jason here, morning day 964, at my bed. Health 20, hunger 20, no food. Holding in sight of Worf and Zack. Name the route when you see an open cell and I will walk it."}
 - 23:14 say: {"text":"Dusk. I'm at my bed with Zack and Worf beside me. Holding here until morning."}
 - 23:15 sleep at bed 415,107,-1051 on day 964. Health 20, hunger 20, no food. No walk named; holding for Worf or Billy's daylight route.
+- 23:15 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Troi, I'm holding at my bed, health 20, no food, wooden sword in hand. Worf and Zack are beside me.","intent":{"goal":"hold_at_be
+- 23:16 act: {"actions":[{"do":"sleep"}],"say":"Troi, thank you. Jason here, at my bed in the row for the night. Health 20, hunger 20, no food. No walk in the dark."}
+- 23:18 act: {"actions":[],"say":"Morning, row. Jason at the white bed, health 20, hunger 20, no food. Worf, I'm holding in your sight. Name the open air and the exact cells, and I'll walk only that, east or north
+- 23:34 act: {"actions":[],"say":"Worf, Jason here. I have no food, pack holds only my wooden sword. I'm still at my bed in your sight, holding for your named daylight route."}
