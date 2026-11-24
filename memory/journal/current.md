@@ -44,3 +44,4 @@
 - 21:31 act: {"actions":[{"do":"sleep"}]}
 - 21:43 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}}],"say":"Dusk. Going to my bed at 415,107,-1051 for the night, in sight of Worf and Zack. No food, health 20."}
 - 21:55 act: {"actions":[{"do":"sleep"}],"say":"Dusk. Sleeping at my bed 415,107,-1051, in sight of Worf and Zack. No food, health 20."}
+- 22:23 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night on 961. Going to my bed at 415,107,-1051 in sight of Worf and Zack. No food, health 20."}
