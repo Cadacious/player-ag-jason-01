@@ -42,3 +42,5 @@
 - 21:22 act: {"actions":[],"say":"Worf, Jason, morning. Health 20, hunger 20, no food. Holding by my bed in your sight, and I'll walk only on your named route."}
 - 21:31 act: {"actions":[{"do":"sleep"}],"say":"Night on 959. Sleeping at my bed, 415,107,-1051, in sight of Worf and Zack. No food, health 20. No walk in the dark."}
 - 21:31 act: {"actions":[{"do":"sleep"}]}
+- 21:43 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}}],"say":"Dusk. Going to my bed at 415,107,-1051 for the night, in sight of Worf and Zack. No food, health 20."}
+- 21:55 act: {"actions":[{"do":"sleep"}],"say":"Dusk. Sleeping at my bed 415,107,-1051, in sight of Worf and Zack. No food, health 20."}
