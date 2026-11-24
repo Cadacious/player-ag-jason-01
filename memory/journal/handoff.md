@@ -1,6 +1,7 @@
-# Handoff, day 873 dusk
+# Handoff, day 909 dusk
 
-At bed 416,107,-1050, sword in hand, Worf and Zack near. Health 20, hunger 14.
-Billy handed Worf 5 potatoes (Worf's pack showed none; items may be on the ground by him, Billy asked him to pick up). Zack's 3 still owed; Billy will hand them at first light, in sight.
-Beverly's 10 potatoes are with her at 430. Kimberly is armed near Billy.
-Rule kept: no walk south, no walk in the dark. Call Billy or Zack at hunger 10.
+At 416,107,-1050 beside the bed, not enclosed, dim light. Worf (stone sword) and Zack in sight, about 1 to 2 blocks. Health 20, hunger 20, pack empty, unarmed.
+Beds: 415,107,-1050 and 415,107,-1051 (white_bed). Chest 419,107,-1051. Crafting table 419,107,-1047.
+Billy at about 418,107,-1053, health 1, unarmed, in Zack's sight. Leonardo in his bed at 415,107,-1037 with his sword. Tommy at the row bed, unarmed. No food in my pack.
+The potato patch 463,107,-1073 is north-east, about 45 blocks; the first walk was blocked. Not named for a new walk.
+Rules: no walk south or north-west; no walk in the dark; hold unless Worf or Billy names a daylight walk with armed people in sight. Sleep once per dusk from a bed; if it fails, hold, no retry. Call Billy or Zack at hunger 10.
