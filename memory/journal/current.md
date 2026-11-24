@@ -1,4 +1,9 @@
 # Journal
+- Day 912 dusk: pillagers shot Lewis, who died at 393,-1047, and Macdonald, who is down to 4. Billy is holding in the row. I am at the bed with Zack, health 20, hunger 20, unarmed. I am going to sleep once here.
+- Day 912 day: Worf named a walk south-west to the cows at 339,104,-979. I declined aloud, since south-west is not allowed. I hold at the bed with Zack. Health 20, hunger 20, unarmed.
+- Day 912 morning: light is back. Worf at the bed with hunger 12 and no food; Zack hunger 16; Billy and Riker hold in the row with empty packs. No walk is named yet. I hold at 416,107,-1050 with Worf and Zack, health 20, hunger 20, unarmed.
+- Day 911 night: it is dark now. Worf says he holds at the bed until morning light, with Zack and me near. Hunger 20 for me; Worf reports hunger 12 with no food. I hold and wait.
+- Day 911 dusk: the sleep at bed 416,107,-1050 worked. Still dusk; no morning yet. Worf and Zack in reach, health 20, hunger 20, unarmed, no food. I hold at the bed and will not walk in the dark. I said aloud that I follow only north-east or east daylight walks.
 - Day 911 day: Worf named a daylight walk to the potatoes (north-east); I followed in his sight. The way east was blocked, so the group holds at the bed. I am at 418,107,-1051, health 20, hunger 20, unarmed, no food.
 - Day 911 morning: holding at 418,107,-1051 with Zack and Worf in reach. Billy asked Worf to name the potato walk; no walk named yet. Picard at health 2.3, I have no food. Health 20, hunger 20, unarmed.
 - Day 910 night: Worf's potato walk blocked; I followed to the bed, sleep blocked once (no retry). Held at 418,107,-1051 with Zack. Declined Worf's south-west cow walk. Health 20, hunger 20, unarmed, pack empty.
@@ -123,3 +128,6 @@
 - 05:27 act: {"say":"Morning. Jason at 418,107,-1051, health 20, hunger 20, unarmed, no food. Holding with Zack. Worf, if you name a daylight walk north-east or east, I will follow in your sight."}
 - 05:31 act: {"intent":{"goal":"follow_worf_potatoes","program":"follow","arguments":{"target":"ag_worf_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"
 - 05:37 act: {"intent":{"goal":"rest_dusk_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":12000,"max_block_operations":1}},"ac
+- 05:37 act: {"say":"Morning, row. Jason at 418,107,-1051, health 20, hunger 20, unarmed, no food. Worf, the cow walk is south-west, so I hold here with Zack. I will follow a north-east or east daylight walk only.
+- 05:48 act: {"say":"Worf, I cannot take the cow walk. It goes south-west, which I am not allowed. I hold here at the bed with Zack. I will follow a north-east or east daylight walk only."}
+- 05:48 act: {"say":"Troi, Jason here at the bed, health 20, hunger 20, unarmed, no food. Worf is out of my sight, so I hold with Zack at 416,107,-1050."}
