@@ -152,3 +152,34 @@
 - 06:47 act: {"actions":[{"do":"note","text":"Day 915: Worf gave me a wooden sword. East hop blocked again; Worf holds the row in sight. I hold with him."}],"say":"Thank you, Worf. I am armed now and holding with 
 - 06:54 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"note","text":"Day 915 dusk: the east hop stayed blocked all day. No food yet. Moving to bed 416,107,-1050 with Worf and Zack in si
 - 06:54 act: {"actions":[{"do":"note","text":"Day 915 night: slept near the bed with Worf and Zack in sight. Got a wooden sword from Worf. East walk blocked twice; no food found yet."}]}
+- 06:55 act: {"say":"Jason here at my bed, health 20, hunger 20. Holding in the row with Worf and Zack in reach. No walk in the dark."}
+- 06:58 act: {"say":"Morning, row. Jason at my bed, health 20, hunger 20, wooden sword in hand, Worf and Zack in reach. I hold for Worf's named daylight walk. No food to share yet."}
+- 06:59 act: {"say":"Worf, I cannot follow a south-east walk. My row rule is no south and no north-west. I hold at my bed in your sight, and I will join an east or north-east walk when you name it."}
+- 07:00 act: {"say":"Worf, Jason follows your north-east walk to 421,107,-1057, in your sight, sword in hand. I turn back the moment you stop.","actions":[{"do":"goto","target":{"x":421,"y":107,"z":-1057}}]}
+- 07:00 act: {"say":"The north-east way was blocked, and it is getting dark. Jason holds at 418,107,-1051 with Worf and Zack in reach. No walk in the dark.","actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1
+- 07:08 act: {"say":"Dusk. Jason going to sleep at my bed 416,107,-1050, Worf and Zack in reach. No walk in the dark.","actions":[{"do":"sleep"}]}
+- 07:12 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night. Jason going to sleep in my bed at 415,107,-1050, Worf and Zack in reach. No walk in the dark."}
+- 07:14 act: {"actions":[],"say":"Morning. Worf, I hear the north-east hop to 420,107,-1056. I stay at my bed and keep Zack in sight. Shout when you are back. Still no food here."}
+- 07:15 act: {"actions":[],"say":"Jason here at my bed, health 20, hunger 20, no food. I see no gap from here either. Holding in sight of Worf and Zack until a route is named."}
+- 07:27 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night. Jason in my bed at 415,107,-1050, Worf and Zack near. Phantom noted to the north-west; no walk in the dark.
+- 07:27 act: {"actions":[],"say":"Jason: my sleep was blocked and I am at 418,107,-1047, a few steps off my bed. Worf, Zack, I hold here in the dark and will not walk. Tell me if you see me wrong."}
+- 07:31 act: {"actions":[],"say":"Jason, morning, health 20, hunger 20, no food, unarmed but for a wooden sword. Leonardo, I have nothing to give. Holding in sight of Worf and Zack until a named daylight walk."}
+- 07:39 act: {"actions":[],"say":"Dusk. Jason holds at 418,107,-1047, no walk in the dark. Worf, Zack, I will go to bed at 415,107,-1050 when night comes, if you are still near it."}
+- 07:44 act: {"actions":[],"say":"Jason, morning, health 20, hunger 20, no food. Laforge, you are welcome in my sight. Worf, I hold at 418,107,-1047 until you name a walk."}
+- 07:55 act: {"say":"Jason holding at 418,107,-1047 in sight of Worf and Zack. Leonardo, I have no food, sorry. Will go to my bed at night.","intent":{"goal":"hold_in_sight_until_night","program":"rest","arguments
+- 07:55 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 08:00 act: {"say":"Jason here at the bed, 415,107,-1050. Health 20, hunger 20, no food. Night passed without harm. Holding in the row until Worf names a walk."}
+- 08:12 act: {"actions":[{"do":"sleep"}]}
+- 08:20 act: {"say":"Jason at the bed, health 20, hunger 20, no food. Holding with Worf and Zack. I will walk only on a named daylight route with an armed escort."}
+- 08:28 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 08:33 say: {"text":"Jason here, health 20, hunger 20, no food, wooden sword. Worf, I will walk only on your named daylight route, with you in sight and the exact cells."}
+- 08:45 say: {"text":"Jason, morning, health 20, hunger 20, no food. Holding here with Worf and Zack, waiting for a named daylight walk."}
+- 08:58 say: {"text":"Jason, morning, health 20, hunger 20, no food. Zack, I am here at 418,107,-1051 with you and Worf. No walk without a named route."}
+- 09:17 act: {"say":"Jason, morning day 922. Health 20, hunger 20, no food, wooden sword only. Holding at 418,107,-1051 in sight of Worf and Zack. Worf, I will walk only on a route you name with exact cells."}
+- 09:33 act: {"say":"Jason, dawn day 923. Health 20, hunger 20, no food. Holding at 418,107,-1051 with Worf and Zack. Waiting for Worf's named route."}
+- 09:41 act: {"actions":[{"do":"open","at":{"x":419,"y":107,"z":-1051}}],"say":"Jason: I am opening the chest at 419,107,-1051 beside me to look. I will take nothing without telling Worf."}
+- 10:06 say: {"text":"Jason, morning, health 20, hunger 20, no food, wooden sword only, at 418,107,-1051. Holding for Worf's named daylight route."}
+- 11:06 act: {"intent":{"goal":"hold_at_row","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"max_block_
+- 11:28 act: {"intent":{"goal":"hold_at_row_night","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"max_block_operations":8}},
+- 11:52 act: {"intent":{"goal":"hold_at_row_day","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"max_block_operations":8}},"s
+- 12:50 act: {"actions":[],"say":"Worf, Jason here. I hold no food, only a wooden sword. I am staying in the row at 418,107,-1051 and will go where you name."}
