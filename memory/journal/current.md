@@ -54,3 +54,5 @@
 - 23:01 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}]}
 - 23:01 act: {"actions":[{"do":"wait","seconds":30},{"do":"sleep"}]}
 - 23:06 say: {"text":"Jason here, morning day 964, at my bed. Health 20, hunger 20, no food. Holding in sight of Worf and Zack. Name the route when you see an open cell and I will walk it."}
+- 23:14 say: {"text":"Dusk. I'm at my bed with Zack and Worf beside me. Holding here until morning."}
+- 23:15 sleep at bed 415,107,-1051 on day 964. Health 20, hunger 20, no food. No walk named; holding for Worf or Billy's daylight route.
