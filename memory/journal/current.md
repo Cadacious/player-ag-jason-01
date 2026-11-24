@@ -137,3 +137,18 @@
 - 06:00 act: {"say":"Worf, Jason here, following you north-east to the cows at 434,106,-1113, staying in your sight at the back.","intent":{"goal":"follow_worf_ne","program":"follow","arguments":{"target":"ag_worf
 - 06:05 act: {"actions":[{"do":"note","text":"Day 913 morning. Holding at the bed with Zack and Worf. Worf will name one walk after full light; I will follow only an armed, daylight, permitted walk."}],"say":"Jaso
 - 06:13 act: {"actions":[{"do":"note","text":"Day 913 dusk. No walk named today; held at bed with Zack and Worf. Sleeping once from bed 416,107,-1050."}],"say":"Dusk. Jason is sleeping at the bed, 416,107,-1050. G
+- 06:15 act: {"say":"Troi, Jason here at my bed 416,107,-1050. Health 20, hunger 20, unarmed, pack empty. Worf and Zack in reach. I hold through the night, no walk.","intent":{"goal":"hold_bed_until_day","program"
+- 06:17 act: {"say":"Billy, Jason heard you. Health 20, hunger 20, unarmed, at my bed 416,107,-1050. I hold for Worf's named daylight walk and will follow in sight only."}
+- 06:26 act: {"actions":[{"do":"note","text":"Day 914 dusk at bed 416,107,-1050. Health 20, hunger 20, unarmed. Worf says he names the walk after full day. Holding in sight of the row."}],"say":"Holding at the row
+- 06:29 act: {"actions":[],"say":"Worf, I will not walk north-west. Those roads have killed people here. I hold at the row in sight and will go only east or north-east, armed, with you in sight."}
+- 06:30 act: {"actions":[],"say":"Worf, north-east to 425,107,-1090 with you in sight. I will follow you, unarmed, and stay close.","intent":{"goal":"follow_worf_ne","program":"follow","arguments":{"target":"ag_wo
+- 06:32 act: {"actions":[{"do":"note","text":"Day 914 morning. Worf named NE walk to 425,107,-1090 armed; my follow intent failed and I stayed at the bed, unarmed. Holding in the row."}]}
+- 06:34 act: {"actions":[],"say":"Following Worf, in his sight.","intent":{"goal":"follow_worf_ne2","program":"follow","arguments":{"target":"ag_worf_01"},"wake_on":["directly_addressed","unexpected_damage","goal_
+- 06:45 act: {"actions":[{"do":"note","text":"Day 915 morning at bed 416,107,-1050. Health 20, hunger 20, pack empty, unarmed. Worf and Zack beside me. Holding for Worf's named daylight walk."}],"say":"Morning. Ja
+- 06:46 act: {"actions":[],"say":"Jason here at the bed. Health 20, hunger 20, unarmed, pack empty. Holding until Worf names a daylight walk."}
+- 06:47 act: {"actions":[{"do":"goto","target":"ag_worf_01"}],"say":"Worf, Jason is with you on the east walk, in your sight. I am unarmed; if you can spare a sword, I will take it."}
+- 06:47 act: {"actions":[{"do":"note","text":"Day 915 morning: Worf named an armed east walk toward potatoes at 463,107,-1073. I moved to Worf at 417,107,-1050, unarmed, following in his sight."}],"intent":{"goal"
+- 06:47 act: {"actions":[],"intent":{"goal":"follow_worf_hop","program":"follow","arguments":{"target":"ag_worf_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"lim
+- 06:47 act: {"actions":[{"do":"note","text":"Day 915: Worf gave me a wooden sword. East hop blocked again; Worf holds the row in sight. I hold with him."}],"say":"Thank you, Worf. I am armed now and holding with 
+- 06:54 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"note","text":"Day 915 dusk: the east hop stayed blocked all day. No food yet. Moving to bed 416,107,-1050 with Worf and Zack in si
+- 06:54 act: {"actions":[{"do":"note","text":"Day 915 night: slept near the bed with Worf and Zack in sight. Got a wooden sword from Worf. East walk blocked twice; no food found yet."}]}

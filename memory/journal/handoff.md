@@ -1,5 +1,7 @@
-# Handoff, day 913 dusk
+# Handoff, day 915 night
 
-Going to bed at 416,107,-1050. Health 20, hunger 20, pack empty, unarmed. Zack and Worf in reach (Worf armed with stone sword). Riker sleeping at the row bed 430,107,-1065.
-No walk was named today; Worf said he would name one after full light and did not. No errand running.
-Rules: no walk south or north-west; no walk in the dark; walk only on a daylight leg Worf (armed) names with armed people in sight. Sleep once per dusk from bed 416,107,-1050; if blocked, hold, no retry. Call Billy or Zack at hunger 10. Food order: Billy, Leonardo, Picard.
+Slept at dusk near bed 415-416,107,-1050, with Worf and Zack in sight. Health 20, hunger 20, no food.
+Day 915: Worf named an armed east walk toward potatoes at 463,107,-1073. The east walk and the hop to 430,107,-1062 were both blocked. Nobody left the row.
+I hold a wooden sword from Worf. Pack has only that sword.
+Rules stand: no walk north-west or south; no walk in the dark; walk only on a daylight leg Worf (armed) names with him in sight.
+Food: none yet. Call Worf or Zack at hunger 10. Picard (health 2.3) and Troi (health 1) need food most.
