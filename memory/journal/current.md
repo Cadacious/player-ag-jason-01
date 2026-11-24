@@ -60,3 +60,4 @@
 - 23:16 act: {"actions":[{"do":"sleep"}],"say":"Troi, thank you. Jason here, at my bed in the row for the night. Health 20, hunger 20, no food. No walk in the dark."}
 - 23:18 act: {"actions":[],"say":"Morning, row. Jason at the white bed, health 20, hunger 20, no food. Worf, I'm holding in your sight. Name the open air and the exact cells, and I'll walk only that, east or north
 - 23:34 act: {"actions":[],"say":"Worf, Jason here. I have no food, pack holds only my wooden sword. I'm still at my bed in your sight, holding for your named daylight route."}
+- 23:43 act: {"say":"Good morning. Jason here, at my bed, health 20, hunger 20. I am holding here until Worf or Billy names a daylight route."}
