@@ -45,3 +45,12 @@
 - 21:43 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}}],"say":"Dusk. Going to my bed at 415,107,-1051 for the night, in sight of Worf and Zack. No food, health 20."}
 - 21:55 act: {"actions":[{"do":"sleep"}],"say":"Dusk. Sleeping at my bed 415,107,-1051, in sight of Worf and Zack. No food, health 20."}
 - 22:23 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night on 961. Going to my bed at 415,107,-1051 in sight of Worf and Zack. No food, health 20."}
+- 22:36 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}}],"intent":{"goal":"sleep_night_962","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"]
+- 22:36 act: {"actions":[{"do":"sleep"}]}
+- 22:36 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}]}
+- 22:36 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 22:39 say: {"text":"Jason here, morning, at the white bed, health 20, hunger 20, no food. Holding with Worf and Zack until a daylight route is named."}
+- 22:47 act: {"actions":[{"do":"sleep"}]}
+- 23:01 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}]}
+- 23:01 act: {"actions":[{"do":"wait","seconds":30},{"do":"sleep"}]}
+- 23:06 say: {"text":"Jason here, morning day 964, at my bed. Health 20, hunger 20, no food. Holding in sight of Worf and Zack. Name the route when you see an open cell and I will walk it."}
