@@ -1,4 +1,6 @@
 # Journal
+- Day 912 morning: Worf says the north-east walk is blocked, so we hold at the row. I hold at 416,107,-1050 with Zack and Worf in sight. Health 20, hunger 20, unarmed.
+- Day 912 dawn: Billy was shot at night and died at 411,107,-1054. He woke at the spawn and is alive now at 417,107,-1036. Worf named a north-east daylight walk to the cows at 434,106,-1113. I follow Worf in his sight, unarmed, health 20, hunger 20.
 - Day 912 dusk: pillagers shot Lewis, who died at 393,-1047, and Macdonald, who is down to 4. Billy is holding in the row. I am at the bed with Zack, health 20, hunger 20, unarmed. I am going to sleep once here.
 - Day 912 day: Worf named a walk south-west to the cows at 339,104,-979. I declined aloud, since south-west is not allowed. I hold at the bed with Zack. Health 20, hunger 20, unarmed.
 - Day 912 morning: light is back. Worf at the bed with hunger 12 and no food; Zack hunger 16; Billy and Riker hold in the row with empty packs. No walk is named yet. I hold at 416,107,-1050 with Worf and Zack, health 20, hunger 20, unarmed.
@@ -131,3 +133,7 @@
 - 05:37 act: {"say":"Morning, row. Jason at 418,107,-1051, health 20, hunger 20, unarmed, no food. Worf, the cow walk is south-west, so I hold here with Zack. I will follow a north-east or east daylight walk only.
 - 05:48 act: {"say":"Worf, I cannot take the cow walk. It goes south-west, which I am not allowed. I hold here at the bed with Zack. I will follow a north-east or east daylight walk only."}
 - 05:48 act: {"say":"Troi, Jason here at the bed, health 20, hunger 20, unarmed, no food. Worf is out of my sight, so I hold with Zack at 416,107,-1050."}
+- 05:56 act: {"say":"Troi, Jason here at the bed, health 20, hunger 20, no food, unarmed. I hold with Zack until Worf names a daylight walk to the north-east or east."}
+- 06:00 act: {"say":"Worf, Jason here, following you north-east to the cows at 434,106,-1113, staying in your sight at the back.","intent":{"goal":"follow_worf_ne","program":"follow","arguments":{"target":"ag_worf
+- 06:05 act: {"actions":[{"do":"note","text":"Day 913 morning. Holding at the bed with Zack and Worf. Worf will name one walk after full light; I will follow only an armed, daylight, permitted walk."}],"say":"Jaso
+- 06:13 act: {"actions":[{"do":"note","text":"Day 913 dusk. No walk named today; held at bed with Zack and Worf. Sleeping once from bed 416,107,-1050."}],"say":"Dusk. Jason is sleeping at the bed, 416,107,-1050. G
