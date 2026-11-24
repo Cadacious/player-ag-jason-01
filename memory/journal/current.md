@@ -1,1 +1,14 @@
 # Journal
+- 14:47 say: {"text":"Jason here, at 418,107,-1051 in the row. Health 20, hunger 20, no food. Holding until first light; Worf, I'll walk only your named daylight route."}
+- 14:51 say: {"text":"Jason, morning. Zack, I'll come to the melon field only on Worf's named daylight route, in his sight. Worf, name the route and I follow. Until then I hold here."}
+- 14:59 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}]}
+- 15:08 say: {"text":"Jason, morning. Zack, I come only when Worf names the route. I'm holding by my bed."}
+- 15:16 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 15:16 say: {"text":"Jason, morning. Zack, I'm with you, but I walk only on Worf's named route. Worf, is there open air yet?"}
+- 15:28 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Jason, dusk. Going to my white bed at 415,107,-1050 to sleep, in sight of the row. No food, health 20."}
+- 15:28 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 15:28 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"use","at":{"x":415,"y":107,"z":-1051}}]}
+- 15:28 act: {"actions":[{"do":"sleep"}]}
+- 15:29 say: {"text":"Jason, night. My sleep keeps failing at the beds, so I'll hold awake here beside you, Worf and Zack, until light. No food, health 20."}
+- 15:29 say: {"text":"Zack, morning. I'm with you, but I walk only on Worf's named route. Worf, is there a daylight route yet?"}
+- 15:43 say: {"text":"Jason, daylight. Still holding for Worf's named route. Worf, name it when open air shows, and I'll come in your sight."}
