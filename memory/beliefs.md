@@ -1,47 +1,31 @@
 # Beliefs
 
-- Beds take a sleeper only at dusk or night. Standing beside the bed and calling sleep at night works. Confirmed day 465 through 753.
-- My bed is at 415,107,-1051 (row, Billy's named bed). I sleep at 416,107,-1050 beside it.
-- Day 641: sleep fails with "the way was blocked" when someone else lies on the bed. Ask Billy which bed is free.
-- Day 663: a sleep can take only part ("5 of 10 needed are asleep"); a second call that night changed nothing.
-- Day 753: a sleep at night beside my bed worked, "2 of 10 needed are asleep" reported; the sleep call itself ran at 416,107,-1050.
-- Walking in the dark is dangerous. Stay in Billy's sight. Phantoms hit people at the row at night (days 527, 654).
-- Sword into hand: act use with the wooden_sword from pack, aimed at a block.
+## Methods that worked
+- Beds take a sleeper only at dusk or night. "It is not night" means wait, then call sleep again. (Days 465 to 753; day 674; day 885.)
+- Sleep at bed 416,107,-1050 worked when the bed was free, I stood beside it at dusk or night, and Worf or Zack was near (days 753, 815, 858, 886, 889, 915). A partial sleep ("3 of 10 asleep") still counted.
+- Holding at the row in sight of Worf or Zack through the night kept me alive (days 884 to 923).
 - Give works only to someone within reach.
-- Billy's rule: walk only with four in sight and two armed.
-- Food is scarce. Potatoes are with Zack (2 now), Tommy, Troi, Clark. Food reaches the row through Billy, and Zack shares potatoes with anyone in his sight who asks.
-- Waiting at the row for a named call costs nothing but time; the group holds until dawn.
-- A `rest` intent ends at once and does not hold me; for waiting at the row, use wait with interests instead.
-- Billy speaks first each morning when he speaks at all. Billy has not named a walk (as of day 753).
-- Day 585: the west route is shut by a 6-block drop west of 385,107 with no clear path.
-- Day 593: no one has a verified route past x=370.
-- Day 654: the east walk checked to x=460 with nothing seen.
-- Day 658 to 753: no walk named; cows at 339,104,-979 and 434,106,-1113 are the only food leads, neither walked; no sheep seen.
-- Day 668, 694, 706: sleep at night worked standing at 419,108,-1050 in Billy's sight with others near; no bed block needed.
-- Day 674: a sleep called at dusk fails with "it is not night yet"; wait for night, then call sleep again.
-- Day 706: the oak planks west (near 415,107,-1050) still block the west route; no one has cleared them.
-- Day 716: sleep at 416,107,-1050 worked after a goto from 419,108,-1050; the earlier sleep at 419,108,-1050 failed "the way was blocked."
-- Day 724: Billy said everyone is fed above 10 and asked to be called at hunger 10. Sleep at dusk worked beside my bed at 416,107,-1050 with Worf near.
-- Day 725: Wesley's walks to beds 429,107,-1022 and 429,107,-1036 were blocked; Billy's rule is hold, do not force.
-- Day 729 to 753: Billy's calls: hold, no route, no food named. Sleep at dusk beside my bed in Billy's sight has worked each night.
+- Waiting at the row for a named call costs only time. Hold with wait, not a rest intent: rest intents ended at once before (day 815), and the later rest intents of day 923 are not yet known to work.
+- Following Worf in his sight, and stopping when he stops, is the one way I have moved safely.
+- Billy's rule (as told to me): walk only in daylight, with four in sight and two armed.
 
-- Day 764: Billy named no walk again on the morning call. Johnny asked how I got the wooden sword into my hand; I could not say where it first came from. Worf and I both say it was already in hand when we woke; neither of us knows how.
-- Day 764 dusk: Billy named each person to a bed in sight; Kimberly's bed 429,107,-1036 refused her ("that block is a bed") at dusk. Beds may need full night.
+## Methods that failed, and why
+- ~~Sleep at bed 416,107,-1050 always works.~~ From day 884 to 923 it was often refused with "the way was blocked" when someone lay on the bed. Ask who is on it, or use 415,107,-1050 (which worked once, day 915). Never a third try in one night.
+- ~~Sleep at dusk always works.~~ Refused at dusk on days 885, 891 and 892; it needs real night.
+- ~~The east way is open.~~ Blocked on days 893, 911 and 915. Check the way from close by, not from the bed.
+- ~~The south-west cow walks (339,104,-979 and 364,-1010) are safe food.~~ They are south-west, which I do not walk; pillagers are south and north-west.
+- ~~Sleeping in the dark is safe.~~ Phantoms and pillagers hit people at the row at night (days 527, 654, 915). Nobody walks at night.
+- ~~The wooden sword first in my hand is a mystery I cannot solve.~~ It was lost at 419,107,-1051 when a pillager killed me in the night before day 902. Worf gave me a new wooden sword on day 915. How the first one got into my hand is still unknown.
 
-- Day 765: Billy died to pillagers north-west near 411,-1056 at dawn; his things lie there. Pillagers with crossbows are north-west and south of the row. Nobody walks north-west.
-- Day 765: I still do not know how the wooden sword first got into my hand; it was there at waking.
+## Facts about the world
+- Walks: the potatoes are at 463,107,-1073 (north-east). The first leg went to 440,107,-1062; Worf's north-east hop went to 420,107,-1056 and 421,107,-1057; the north-east walk to 425,107,-1090 was named on day 914. The chest 447,107,-1065 is on the east walk. The cows at 434,106,-1113 are north-east.
+- Walls: oak planks west near 415,107,-1050 still shut the west route. Nobody has cleared them.
+- Pillagers: north-west and south of the row. Billy died to them near 411,-1056 (day 765) and again at 411,107,-1054 (night of day 912).
+- Food is held by others, not by the chests I have seen: Worf holds 5 potatoes and waits for them to be taken in his sight; Zack has 3 (day 890); Bcrusher holds potatoes and gives when seen; Leonardo holds a potato for Worf. Beverly's potatoes are for Leonardo and Trini, and she will not eat until hunger 6.
+- Billy names no walk most mornings. When he does, he puts Beverly first for food, then Worf or Zack.
 
-- Day 776: Billy spoke at the row in the morning and again at dawn, health 20, hunger 20, asking for sheep, a safe west route and pillager news. My day-765 note that he died may be wrong or he may have returned; check with him before I rely on it.
-- Day 776: Riker fell to health 6 with no food. Lewis holds two potatoes. Zack, Beverly and Billy have none to give.
-- Day 776: sleep at dusk in my bed at 415,107,-1050 worked, health 20.
-
-- Day 792: Billy's named short look east: I was named an escort, but I only hold when I cannot see him leave. Wait for him in sight before I count myself as walking.
-- Day 792: the east look found no food, sheep or news. Sleep at night beside bed 416,107,-1050 in Billy's sight worked.
-
-- Day 815: a rest intent at the bed ended at once with goal_completed, as before; holding by wait with interests worked all day. Billy named no walk. Beverly (health 3.3) and Leonardo (health 2) need potatoes; MacDonald holds two.
-- Day 815: sleep at dusk beside bed 416,107,-1050 worked, Worf and Laforge nearby.
-
-Curious next: how potatoes and cow food are shared out; whether the oak planks west can be cleared; where the sheep are.
-Who to tell: Billy, at first light.
-
-- Day 858: sleep at dusk beside bed 416,107,-1050 worked again. Billy still named no walk. Beverly's 10 potatoes are for Leonardo and Trini; Beverly will not eat until hunger 6.
+## Corrected or struck
+- ~~My bed is 415,107,-1051 and I sleep at 416,107,-1050.~~ Both are near the row; the bed I use is 416,107,-1050, with 415,107,-1050 as the alternate.
+- ~~Billy died for good on day 765.~~ He was alive again on day 776. He was shot again at night on day 912 and woke at the spawn at 417,107,-1036.
+- ~~Potatoes are with Zack (2 now), Tommy, Troi, Clark.~~ Out of date: Zack has 3 (day 890); others have moved since.
+- ~~Billy has not named a walk.~~ He named a north-east chest walk to 447,107,-1065 on day 893, and Worf named the north-east walks from day 909 on.
