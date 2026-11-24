@@ -1,12 +1,12 @@
 # Summary
 
-I am Jason, in the row near beds around x 401 to 445, z -1023 to -1065. Day 937, asleep beside the bed at 416,107,-1050 in sight of Worf and Zack.
+I am Jason, in the row near beds around x 401 to 445, z -1023 to -1065. Day 939, asleep at 419,108,-1050 in sight of Zack and Worf.
 
 Where I am: health 20, hunger 20, pack holds only my wooden sword. No food.
 
 Lessons:
 - Walk only on a named daylight route, in sight, with exact cells. Never south or north-west, never in the dark.
-- Sleep beside 416,107,-1050 at real night, with Worf or Zack near. If refused, try 415,107,-1050, once.
+- Sleep at a bed at real night, with Worf or Zack near.
 - Worf sees only planks past the gap; no daylight route has been named.
 - Call Billy or Zack at hunger 10.
 
