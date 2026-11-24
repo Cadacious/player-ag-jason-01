@@ -12,3 +12,7 @@
 - 15:29 say: {"text":"Jason, night. My sleep keeps failing at the beds, so I'll hold awake here beside you, Worf and Zack, until light. No food, health 20."}
 - 15:29 say: {"text":"Zack, morning. I'm with you, but I walk only on Worf's named route. Worf, is there a daylight route yet?"}
 - 15:43 say: {"text":"Jason, daylight. Still holding for Worf's named route. Worf, name it when open air shows, and I'll come in your sight."}
+- 16:41 act: {"say":"Morning. I am holding at my bed, health and hunger full. Worf, Zack, if you name a daylight walk I will follow in sight."}
+- 16:45 act: {"say":"Troi, I hear you. Health 20, hunger 20, no food. I hold at my bed beside Worf and Zack until light."}
+- 16:46 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 16:50 act: {"say":"Jason, morning. Health 20, hunger 20, no food. Holding at my bed with Worf and Zack until a daylight walk is named."}
