@@ -1,4 +1,8 @@
 # Journal
+- Day 911 day: Worf named a daylight walk to the potatoes (north-east); I followed in his sight. The way east was blocked, so the group holds at the bed. I am at 418,107,-1051, health 20, hunger 20, unarmed, no food.
+- Day 911 morning: holding at 418,107,-1051 with Zack and Worf in reach. Billy asked Worf to name the potato walk; no walk named yet. Picard at health 2.3, I have no food. Health 20, hunger 20, unarmed.
+- Day 910 night: Worf's potato walk blocked; I followed to the bed, sleep blocked once (no retry). Held at 418,107,-1051 with Zack. Declined Worf's south-west cow walk. Health 20, hunger 20, unarmed, pack empty.
+- Day 910 morning: Worf named a daylight walk to the potatoes at 463,107,-1073 (north-east), Zack, Jason, Billy following in sight. I follow Worf unarmed, health 20, hunger 20, pack empty.
 - Night, day 884: went to bed at 416,107,-1050 with Zack and Worf near. Sleep failed twice (way blocked, bed use refused). Held through the night, sword in hand, health 20.
 - Morning: said to Billy that I hold at my bed and wait for food to be brought here. Hunger 13. Next: wait for Billy or Zack, no walk.
 - 20:41 say: {"text":"Morning, Deanna. Jason here at my bed, health 20, hunger 13, sword in hand. Holding for Billy's word."}
@@ -105,3 +109,17 @@
 - 04:49 act: {"say":"Worf, following you in sight on the first leg to 440,107,-1062. Jason unarmed, close behind.","actions":[{"do":"goto","target":{"x":440,"y":107,"z":-1062}}]}
 - 04:49 act: {"say":"Worf, Zack: I hold here at 418,107,-1051 with you. The walk east was blocked and it is getting dark, so no more walking today.","actions":[]}
 - 04:57 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Dusk. I go with Worf to the bed at 416,107,-1050, two blocks, and hold there with Worf and Zack in sight."}
+- Day 909 morning: woke at my bed 416,107,-1050, health 20, hunger 20, pack empty, unarmed. Worf and Zack in sight. Held; no walk, no food needed yet.
+- 04:58 act: {"say":"Morning, Troi and Zack. Jason at my bed 416,107,-1050, health 20, hunger 20, pack empty. I hold here with Worf and Zack in sight. No walk until Billy names one."}
+- 05:00 act: {"say":"Billy, Leonardo, Picard: Jason at my bed 416,107,-1050, in Worf's and Zack's sight. I have no food. Billy, you are at health 1; step where you can see me and Worf. I hold still."}
+- 05:00 act: {"actions":[{"do":"goto","target":{"x":417,"y":107,"z":-1051}}],"say":"Billy, I step one block toward you, to 417,107,-1051, so you can see me. Worf and Zack stay in sight. I still have no food."}
+- 05:00 act: {"actions":[],"say":"Jason at 417,107,-1050, health 20, hunger 20, Worf and Zack in reach. Billy, I hold here in the bright light; I am ready when you name the walk or call for food."}
+- 05:05 act: {"intent":{"goal":"follow_worf_potatoes","program":"follow","arguments":{"target":"ag_worf_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"
+- 05:05 act: {"actions":[],"say":"Worf, the walk is blocked, so Jason holds here at 417,107,-1050 in your sight, unarmed. I have no food to hand over. Waiting for your next word."}
+- 05:09 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk. Worf's walk was blocked, so no walk in the dark. Jason goes to my bed at 416,107,-1050 to sleep once, Worf a
+- 05:10 act: {"actions":[],"say":"Sleep was blocked at my bed. I will not retry. Jason holds at 418,107,-1051 with Zack in reach, Worf nearby, unarmed. Health 20, hunger 20. No walk in the dark."}
+- 05:14 act: {"actions":[],"say":"Worf, Jason hears your walk to the cows at 339,104,-979. That is south-west, so I will not go. I hold at 418,107,-1051 with Zack, unarmed, health 20, hunger 20. Worf, go in Billy'
+- 05:15 act: {"actions":[],"say":"Morning, Troi and Billy. Jason at 418,107,-1051, health 20, hunger 20, unarmed, no food. Holding with Zack. No walk for me until Billy names a daylight walk that is north-east or 
+- 05:27 act: {"say":"Morning. Jason at 418,107,-1051, health 20, hunger 20, unarmed, no food. Holding with Zack. Worf, if you name a daylight walk north-east or east, I will follow in your sight."}
+- 05:31 act: {"intent":{"goal":"follow_worf_potatoes","program":"follow","arguments":{"target":"ag_worf_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"
+- 05:37 act: {"intent":{"goal":"rest_dusk_bed","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":12000,"max_block_operations":1}},"ac
