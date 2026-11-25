@@ -38,3 +38,6 @@
 - 10:25 say: {"text":"Jason here, morning. Health 20, hunger 20, sword in hand, holding at the row bed. Worf, Billy: when you see open air, name the exact cells and I will walk in your sight."}
 - 10:57 act: {"say":"Jason here, at the row, health 20, hunger 20, no food, sword in hand. Worf or Billy, name the exact daylight cells when you see air and I will walk only in your sight."}
 - 10:57 act: {"say":"Jason: I looked east from the row. Planks 1 to 2 blocks ahead on every side, a gap up on the right, gravel 5 ahead down. No open air cell I can name toward 440,-1065. I hold here."}
+- 11:28 say: {"text":"Jason here, holding at my bed with Worf, Billy and Zack in reach. Hunger 20, sword in hand. I'll walk only on a named daylight route."}
+- 11:32 say: {"text":"Tommy, I'm holding here too. I'll walk only when Worf or Billy names a daylight route, and I'll tell you the cells before we go."}
+- 11:40 say: {"text":"Jason: morning. Billy, I keep my wooden sword in hand for now, Worf gave it to me. I have no food. Still holding here, and I walk only on Worf's or Billy's named daylight route."}
