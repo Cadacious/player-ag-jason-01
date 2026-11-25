@@ -64,3 +64,5 @@
 - 00:08 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk. Jason going to the bed at 415,107,-1050 for the night, in sight of Worf and Zack. Health 20, hunger 20, no f
 - 00:09 say: {"text":"Deanna, good night. Jason at my bed, health 20, hunger 20, no food. I hold until light."}
 - 00:10 say: {"text":"Worf, Zack: Jason holding at the bed in your sight. No walk until Worf names open cells. Hunger 20, no food."}
+- 00:16 act: {"say":"Jason here, health 20, hunger 20, no food. Holding at my bed 416,107,-1050 in sight of Worf and Zack. Worf, Billy: name a daylight cell route east or north-east and I will follow."}
+- 00:20 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk. Jason going to my white bed at 415,107,-1050 for the night, in sight of Worf and Zack. Health 20, hunger 20,
