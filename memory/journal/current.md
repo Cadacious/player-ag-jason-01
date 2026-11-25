@@ -35,3 +35,4 @@
 - 09:22 say: {"text":"Jason: I walk only on a route Worf names, in daylight, with exact cells. Worf, your yes or your own route first. I hold until then."}
 - 09:57 say: {"text":"Jason here, holding in the row, health 20, hunger 20, no food. I walk only on a route Worf names with exact cells, in daylight. Zack, I hear you at 15; I will call you first if I find food."}
 - 10:05 say: {"text":"Jason, morning, health 20, hunger 20, no food, sword in hand. Worf, go carefully. I hold in the row and will walk only to exact open cells you name, in your sight."}
+- 10:25 say: {"text":"Jason here, morning. Health 20, hunger 20, sword in hand, holding at the row bed. Worf, Billy: when you see open air, name the exact cells and I will walk in your sight."}
