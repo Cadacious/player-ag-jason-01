@@ -86,3 +86,10 @@
 - 01:22 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Sleep at 415,107,-1050 was blocked. Trying the other bed at 415,107,-1051, in the row's sight."}
 - 01:44 act: {"say":"Jason at the white bed, morning. No route named yet, no food. Holding here, sword in hand, with Worf and Zack in sight."}
 - 02:13 act: {"say":"Jason here, at the white bed. Trini, if the potatoes are for Leonardo, tell me the cells and I will watch. I hold at the bed until Worf names a daylight route; I will not walk without it."}
+- 02:26 say: {"text":"Jason, day 974. Health 20, hunger 20, sword in hand, no food. Holding at my bed with Worf and Zack in sight. Worf, when you see open daylight cells, name the route and I will follow."}
+- 02:30 act: {"actions":[{"do":"sleep"}],"say":"Jason, night. I'm at my bed 415,107,-1051 with Worf beside me, sword in hand, no food. Holding here until light."}
+- 02:31 say: {"text":"Jason, morning. Health 20, hunger 20, sword in hand, no food. Billy, I hold at my bed in Worf's and Zack's sight. No walk until Worf names open daylight cells."}
+- 02:32 say: {"text":"Zack, Jason here. I have no route to the melon field and I see no open cells past the planks. I will not walk that far. Worf decides the route with me in sight. I'm holding at the bed."}
+- 02:44 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night. I'm going to the bed at 415,107,-1051 to try sleep, with Worf and Zack near."}
+- 02:47 say: {"text":"Morning. Jason here, at the bed with you two. I have no open route to the melon field and I see none past the planks. I walk only a route Worf or Billy names, cell by cell. Holding."}
+- 03:11 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night. Trying the other white bed, 415,107,-1050, with Worf and Zack beside me."}
