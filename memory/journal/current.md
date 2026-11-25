@@ -93,3 +93,7 @@
 - 02:44 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Night. I'm going to the bed at 415,107,-1051 to try sleep, with Worf and Zack near."}
 - 02:47 say: {"text":"Morning. Jason here, at the bed with you two. I have no open route to the melon field and I see none past the planks. I walk only a route Worf or Billy names, cell by cell. Holding."}
 - 03:11 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night. Trying the other white bed, 415,107,-1050, with Worf and Zack beside me."}
+- 03:28 act: {"say":"Holding here, Worf. I will wait for full daylight and your named route, and I will walk only in your sight.","intent":{"goal":"hold_for_worf_route","program":"rest","arguments":{},"wake_on":["
+- 03:36 act: {"say":"Dusk. Jason going to sleep at my bed 415,107,-1051, with Worf and Zack in sight. No food, health 20. No walk in the dark.","actions":[{"do":"sleep"}]}
+- 03:48 act: {"say":"Dusk. Jason going to sleep at the bed 415,107,-1050, with Worf and Zack in sight. Health 20, hunger 20, no food. No walk in the dark.","actions":[{"do":"goto","target":{"x":415,"y":107,"z":-10
+- 04:05 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}]}
