@@ -41,3 +41,5 @@
 - 11:28 say: {"text":"Jason here, holding at my bed with Worf, Billy and Zack in reach. Hunger 20, sword in hand. I'll walk only on a named daylight route."}
 - 11:32 say: {"text":"Tommy, I'm holding here too. I'll walk only when Worf or Billy names a daylight route, and I'll tell you the cells before we go."}
 - 11:40 say: {"text":"Jason: morning. Billy, I keep my wooden sword in hand for now, Worf gave it to me. I have no food. Still holding here, and I walk only on Worf's or Billy's named daylight route."}
+- 11:50 act: {"actions":[{"do":"note","text":"Day 1002 morning, holding at bed 416,107,-1050. Health 20, hunger 20, sword in hand. Billy asked me to lead; I have no open cells named, so I hold."}],"say":"Jason her
+- 11:50 act: {"actions":[{"do":"note","text":"Day 1002: Billy and Tommy hold too; no open cells named by anyone. I stay at bed 416,107,-1050, sword in hand, health 20, hunger 20."}]}
