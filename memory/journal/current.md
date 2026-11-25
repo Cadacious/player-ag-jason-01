@@ -101,3 +101,17 @@
 - 04:10 act: {"actions":[{"do":"wait","seconds":240}],"say":"Jason here, still at my bed in the row, health 20, hunger 20, no food. Holding for Worf's named daylight walk, in his sight."}
 - 04:14 act: {"say":"Jason here, morning. Health 20, hunger 20, no food, sword in hand. I hold at my bed. Worf, when you name a daylight route, east or north-east, I walk only in your sight."}
 - 04:18 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk. Jason going to my bed at 415,107,-1050 for the night, in sight of Worf and Zack. Health 20, hunger 20, no fo
+- 04:30 say: {"text":"Dusk. I am holding at my bed with Worf and Zack in sight. No walk tonight. Leonardo, Picard, I have no food yet."}
+- Day 980 dusk: waited at 416,107,-1050 beside Worf and Zack, health 20, hunger 20, no food. Heard Troi say Leonardo is at 1 health and asked for potatoes. Said I hold, no walk tonight.
+- 04:34 say: {"text":"Worf, Jason here, daylight, health 20, hunger 20. I hold at my bed in your sight while you look east. If you find food or open cells, name them and I will come."}
+- Worf walled in by planks, hunger 9; Zack hunger 15. I have no food to give. Holding at bed, waiting.
+- 981 dusk: no open air named, no route. Went to bed 415,107,-1050 in sight of Worf and Zack, sleep began (1 of 10 asleep). Health 20, hunger 20, no food.
+- 982 morning, later: still daylight, no route named, Worf and Zack in sight at the bed. Health 20, hunger 20, no food. Holding.
+- 982 morning: thunder, held at bed 416,107,-1050 in sight of Worf and Zack. Troi says Leonardo at health 1. No food in row, no route named. Holding.
+- 04:46 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, night on 981. Sleeping at my bed 415,107,-1050 in sight of Worf and Zack. Health 20, hunger 20, no food. No
+- 04:48 say: {"text":"Jason, morning 981. Health 20, hunger 20, no food, sword in hand. Zack, I hear you at 13. I hold at my bed in your sight and will not walk until Worf names open air."}
+- 04:48 say: {"text":"Jason: I see no open air from my bed yet. Only planks and glass. I hold here, in sight of Worf and Zack. Billy, I will name it when I see it."}
+- 04:57 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason: dusk. Going to my bed at 415,107,-1050 in sight of Worf and Zack. Health 20, hunger 20, no food. No walk in
+- 05:05 act: {"actions":[],"say":"Jason, morning 982, health 20, hunger 20, no food, sword in hand. Worf, Zack: I hold at my bed in your sight. Thunder, so I stay put. I will walk only on a named route."}
+- 05:13 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason: night 982. Going to my bed at 415,107,-1050 in sight of Worf and Zack. Health 20, hunger 20, no food. No wa
+- 05:18 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Jason here, morning, at my bed. Health 20, hunger 20, wooden sword in hand, no food. Holding until Worf or Billy names a daylight
