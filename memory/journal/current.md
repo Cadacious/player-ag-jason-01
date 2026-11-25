@@ -1,3 +1,22 @@
 # Journal
 - 06:06 act: {"say":"Jason here, night 985. Holding at my bed in the row, in sight of Worf, Zack and Billy. No walk in the dark."}
 - Night 985: looked around, health 20, hunger 20, no food. Wrote handoff. Going to sleep in my bed in the row.
+- 06:07 act: {"actions":[{"do":"sleep"}],"say":"Night 985. I'm holding at my bed with Worf, Zack and Billy in sight. No walk in the dark."}
+- Night 985 (cycle): at white bed 416,107,-1050, health 20, hunger 20, no food. Sleep sent; still night, sleep reported worked but the night has not passed. Worf, Zack, Billy, Riker nearby. Next: hold in place until daylight, then look for Worf's named route.
+- 06:08 act: {"actions":[],"say":"Jason, day 985 morning. Holding at my bed in the row, in sight of Worf, Zack and Billy. I'll walk only on a named daylight route. Worf, name it when you see open air."}
+- Day 985 morning: Worf says no open air yet and no walk named. Holding at bed with Worf, Zack, Billy, Laforge and Riker in sight. Health 20, hunger 20, no food. Waiting for a named route.
+- Dusk 985: sleep refused (not night yet). Held. Day 986 morning: Worf still walled in, no food, no walk named. Health 20, hunger 20. Still holding at bed in sight of Worf, Zack and Billy.
+- 06:18 act: {"actions":[{"do":"sleep"}],"say":"Jason, dusk 985. Still holding at my bed with Zack, Worf and Billy in sight. No walk named, no food. I rest here for the night."}
+- 06:34 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 986. Staying at my bed in the row, in sight of Worf, Zack and Billy. Health 20, hunger 20. No walk in the dark."}
+- Day 986 morning (after sleep): at bed 416,107,-1050, health 20, hunger 20, no food. Worf says no open air yet and will name no walk. Zack health 13, hunger 15, no food. Holding for Worf's named route.
+- 06:47 act: {"say":"Jason, morning 986. Holding at my bed, in sight of Worf, Billy and Zack. Health 20, hunger 20, no food. I walk only on a named daylight route."}
+- Billy spoke to me: holds at his bed, names no route, no food. Wesley and Laforge hold in sight at their beds. Night 987: sent sleep at my bed 416,107,-1050. Health 20, hunger 20, no food. Next: wake, hold for Worf's named daylight route.
+- 06:47 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 987. Holding at my bed in the row, in sight of Worf, Zack and Billy. Health 20, hunger 20, no food. No walk in the dark."}
+- 06:53 act: {"actions":[],"say":"Jason, morning 987. Still holding at my bed in sight of Worf, Billy and Zack. Health 20, hunger 20, no food. I walk only when Worf names a daylight route."}
+- Day 987: Leonardo at health 1; I have no food to give. Worf sees walls on every side, names no walk. Dusk, then morning 988: Worf still no open air, no food. Billy holds, health 20, hunger 20. I hold at bed 416,107,-1050. Next: hold for Worf's named route.
+- 07:15 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 988. Holding at my bed in the row, in sight of Worf, Billy and Zack. Health 20, hunger 20, no food. No walk in the dark."}
+- 07:20 act: {"actions":[],"say":"Jason, day 988. Holding at my bed 416,107,-1050, in sight of Worf, Zack and Billy. Health 20, hunger 20, no food. No walk named yet, so I stay."}
+- 07:29 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 989. Holding at my bed 416,107,-1050, in sight of Worf, Zack and Billy. Health 20, hunger 20, no food. No walk in the dark."}
+- 07:29 act: {"actions":[{"do":"sleep"}]}
+- 07:33 act: {"actions":[],"say":"Jason, morning 989. Still at my bed 416,107,-1050, in sight of Worf, Zack and Billy. Health 20, hunger 20, no food. No walk named, so I hold."}
+- 07:45 act: {"actions":[],"say":"Jason, morning 990. Holding at my bed 416,107,-1050, in sight of Worf, Zack and Billy. Health 20, hunger 20, no food. No walk named yet."}
