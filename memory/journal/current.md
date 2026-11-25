@@ -1,5 +1,7 @@
 # Journal
 
+- Night 1020: sleep at 417,107,-1050 failed, "the way was blocked"; drifted to 418,107,-1047. Held still in sight of Billy, Worf, Zack. Day 1020 morning: health 20, hunger 20, no food. Worf hunger 8. No route named; I walk nothing.
+
 - Day 1007 dusk: woke at my bed 416,107,-1050. Sleep failed (not night yet). Held at bed with a rest intent, in sight of Worf, Billy, Zack. Health 20, hunger 20. No route named.
 - Night 1007 slept at my bed (3 of 10 asleep at first, then woke at day). Morning: health 20, hunger 20. Holding in the row. Trini has 2 potatoes for Zack then Worf; Riker hungry, waiting for a route. No route named yet.
 - Day 1008 morning: slept at bed through night 1007. Worf: still no open cell past x 422 seen; names no walk. I hold at bed, health 20, hunger 20, no food to give.
@@ -58,3 +60,29 @@
 - 17:26 say: {"text":"Jason, morning, at 419,108,-1050, health 20, hunger 20, sword in hand. Troi, I am well and hold. I walk to 416,107,-1050 and look at 428,107,-1051 with Trini in sight before any break."}
 - 17:26 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Jason, morning, walking back to 416,107,-1050 in daylight to look at 428,107,-1051 with my own eyes. I break nothing yet."}
 - 17:26 say: {"text":"Jason, day 1019, at 417,107,-1050 in bright light. I looked east: planks 2 to 3 blocks away on every side, nothing open. I have not seen 428,107,-1051 open, so I break nothing. Trini, Zack, B
+- Day 1020 morning: still at 418,107,-1051 in sight of Zack, Worf, Billy. Health 20, hunger 20, no food. Everyone says no open cell past 423; I hold.
+- Day 1019 morning (cycle 1039): held in row at 418,107,-1051. Trini asked for an open cell 423-430 at z -1051; I have seen none, named none. Worf hunger 8, Zack health 13; I have no food.
+- Night 1019: goto drifted me to 418,107,-1051; sleep failed "the way was blocked". Holding still in sight of Billy, Zack, Worf. No walk in dark. Health 20, hunger 20.
+- Day 1019 dusk (waking 1039): days_since_sleep 5. Stepped to 416,107,-1050 and queued sleep, in sight of Worf, Billy, Zack. Health 20, hunger 20, sword in hand, no food, no route named.
+- 17:37 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk. I am going to my bed at 416,107,-1050 for the night, in sight of Worf, Billy and Zack. No walks in the dark.
+- 17:37 act: {"actions":[{"do":"wait","seconds":60}],"say":"Jason, night, at 418,107,-1051. Sleep failed: the way was blocked. I am not walking in the dark. Holding still in sight of Billy, Worf and Zack until lig
+- 17:38 act: {"actions":[{"do":"wait","seconds":240}]}
+- 17:41 act: {"actions":[],"say":"Jason, morning, at 418,107,-1051, health 20, hunger 20, sword in hand, no food. Troi, I am well and have none to give. Riker, I name no open cell east either. Holding in the row w
+- 17:41 act: {"actions":[],"say":"Jason, day, at 418,107,-1051. Trini, I have seen no open cell between 423 and 430 at z -1051, so I name none. I have no food, only my sword. Worf, Zack, I am sorry. Holding in sig
+- 17:50 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, dusk, going to 416,107,-1050 beside my bed to sleep, in sight of Zack, Worf and Billy. No walk until light.
+- 17:52 act: {"actions":[{"do":"sleep"}],"say":"Jason, night, at 417,107,-1050 by my bed, in sight of Billy, Worf and Zack. Health 20, hunger 20, no food. Sleeping; no walk until light."}
+- 17:52 act: {"actions":[],"say":"Sleep failed here, the way was blocked. I'm holding at 418,107,-1047 in sight of Billy, Worf and Zack. No walk until light."}
+- 17:53 act: {"actions":[],"say":"Good light. Jason here at 418,107,-1047, health 20, hunger 20, no food in my pack. Worf, Zack, Leonardo: I have nothing to give. I hold here; no walk until a route is named with e
+- 18:07 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Jason, good light, going to my bed at 416,107,-1050 in sight of the row. Worf, I have no food, my hands are empty too. I walk now
+- 18:17 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Jason, dusk, stepping to my bed at 416,107,-1050 in sight of Worf, Billy and Zack. No food, no walk until light. I will sleep whe
+- 18:20 act: {"actions":[{"do":"note","text":"Day 1021 bright. At 416,107,-1049 in sight of Worf, Billy, Zack. Health 20, hunger 20, no food. Walking nothing until a route is seen open."}],"say":"Jason here, dayli
+- 18:21 act: {"actions":[],"say":"Troi, Jason here at 416,107,-1049, health 20, hunger 20, sword in hand, empty pack. I hold in sight. I name no safe walk I have not seen open."}
+- 18:22 act: {"actions":[],"say":"Billy, Jason, in daylight at 416,107,-1049, facing west: solid oak planks all round, 2 blocks off on every side, no air, no open cell. I cannot see 428,107,-1051 from here. I brea
+- 18:26 act: {"actions":[],"say":"Jason, day 1022, at 416,107,-1049, health 20, hunger 20, no food. Trini, Worf: I have seen no open cell from here between 423 and 429, so I name none. I hold in sight."}
+- 18:30 act: {"actions":[{"do":"wait","seconds":120}],"say":"Jason, dusk, at 416,107,-1049 in sight of Worf, Billy and Zack. I wait for full night, then go to my bed. No walk in the dark."}
+- 18:32 act: {"actions":[{"do":"sleep"}],"say":"Jason, night, at 416,107,-1049 in sight of Billy, Worf, Zack and Wesley. Health 20, hunger 20, no food. I try to sleep here; no walk in the dark."}
+- 18:34 act: {"actions":[],"say":"Jason, morning, at 416,107,-1050, health 20, hunger 20, sword in hand, no food. Laforge, I hold too. I walk only on a named daylight route with cells seen open."}
+- 18:34 act: {"actions":[{"do":"wait","seconds":5}],"say":"Jason, morning, at 416,107,-1050. From here I see only planks two blocks off, not 428,107,-1051. Billy, I will not walk or break on a name alone. Holding.
+- 18:35 act: {"actions":[{"do":"wait","seconds":5}],"say":"Jason, at 416,107,-1050, health 20, hunger 20. I have no food to give, Worf. I hold too, and walk nowhere until a daylight route is named and seen open."}
+- 18:44 act: {"actions":[{"do":"wait","seconds":30}],"say":"Jason, at 416,107,-1050 in sight of Worf, Billy and Zack. Dusk now. I stay at the bed, walk nowhere in the dark, and sleep when it is full night. Laforge
+- 18:48 act: {"actions":[{"do":"wait","seconds":5}],"say":"Jason, morning, at 416,107,-1050, health 20, hunger 20, no food. Worf, Riker, I have none to hand over. Holding until someone sees open cells in daylight 
