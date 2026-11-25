@@ -1,6 +1,5 @@
-# Handoff, night 1030
+# Handoff, night 1031
 
-Slept at the row bed 415,107,-1050 on night 1030; days_since_sleep reads 0. Health 20, hunger 20, wooden sword only, no food. Not walking at night.
-Route: still no named open cell that I have seen. Worf reports 420-423 open at z -1051; I have not seen it. Trini's break of 424 failed because it is already air. No breaks or walks without someone naming a cell they see in daylight.
-Food: none. Worf hunger 8. Trini holds 2 potatoes for Worf. Riker hunger 17.
-Next: at light, stay in sight of Worf and Billy, ask for each open cell by name, and give nothing I do not have.
+Slept at the row bed 415,107,-1050 on night 1031; days_since_sleep reads 0. Health 20, hunger 20, wooden sword only, no food.
+Route: still no named open cell past x 420 that I have seen. Trini holds 2 potatoes for Worf; Worf cannot be reached past the planks 424-429. No walks or breaks without someone naming an exact cell they see in daylight.
+Next: at light, stay in sight of Worf, Billy and Zack, ask for each cell by name, give nothing I do not have. Call Billy or Zack at hunger 10.
