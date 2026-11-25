@@ -116,3 +116,6 @@
 - 05:13 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason: night 982. Going to my bed at 415,107,-1050 in sight of Worf and Zack. Health 20, hunger 20, no food. No wa
 - 05:18 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Jason here, morning, at my bed. Health 20, hunger 20, wooden sword in hand, no food. Holding until Worf or Billy names a daylight
 - 05:20 act: {"actions":[{"do":"note","text":"Day 982 morning, at bed 416,107,-1050. Health 20, hunger 20, wooden sword only. No open route seen by me; no walk named."}],"say":"Jason here, morning. Health 20, hung
+- 05:23 act: {"actions":[{"do":"note","text":"Day 982 morning: Worf says no open air, will open one plank only if group agrees in daylight. Jason holds at bed 416,107,-1050, health 20, hunger 20, no food."}],"say"
+- 05:28 act: {"actions":[{"do":"note","text":"Day 983: Billy, Zack, Wesley, Riker agree to open one plank in daylight with all in sight. Waiting for Worf to name plank and hour. Jason at bed 416,107,-1050, health 
+- 05:32 act: {"actions":[{"do":"note","text":"Day 983: Worf opened plank 416,107,-1052 but beyond is glass pane, still enclosed. No walk. Jason holds at bed in sight, health 20, hunger 20, no food."}],"say":"Jason
