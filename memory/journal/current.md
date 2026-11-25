@@ -124,3 +124,4 @@
 - 20:55 act: {"say":"Jason, daylight 1029, at 416,107,-1050 in sight of Worf and Billy. I still see no open cell past the planks, so I will not walk or break. Trini, I cannot confirm 421 or 423 open. Holding."}
 - 21:09 act: {"say":"Jason, day 1030, at 416,107,-1050, armed with a wooden sword. My view north-west is planks all round, no open air. I cannot name an open route. Laforge, Tommy, Riker: I will not walk the plank
 - 21:10 act: {"say":"Jason, morning 1030, at 416,107,-1050. Health 20, hunger 20, wooden sword, no food. Holding in sight of Worf and Billy. No open cell named yet."}
+- 21:22 act: {"actions":[{"do":"wait","seconds":30}],"say":"Jason, morning 1030, at 416,107,-1050. Health 20, hunger 20, no food. I am in sight of Worf and Billy. I have not seen an open cell east myself, so I wil
