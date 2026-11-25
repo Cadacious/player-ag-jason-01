@@ -97,3 +97,5 @@
 - 03:36 act: {"say":"Dusk. Jason going to sleep at my bed 415,107,-1051, with Worf and Zack in sight. No food, health 20. No walk in the dark.","actions":[{"do":"sleep"}]}
 - 03:48 act: {"say":"Dusk. Jason going to sleep at the bed 415,107,-1050, with Worf and Zack in sight. Health 20, hunger 20, no food. No walk in the dark.","actions":[{"do":"goto","target":{"x":415,"y":107,"z":-10
 - 04:05 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}]}
+- 04:10 act: {"say":"Jason here, at my white bed in the row, health 20, hunger 20, no food. Holding for Worf's named daylight walk, in sight. Counting us off: Zack, Worf, Riker, Laforge, Troi, all here.","intent":
+- 04:10 act: {"actions":[{"do":"wait","seconds":240}],"say":"Jason here, still at my bed in the row, health 20, hunger 20, no food. Holding for Worf's named daylight walk, in his sight."}
