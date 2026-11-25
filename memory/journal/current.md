@@ -115,3 +115,4 @@
 - 05:05 act: {"actions":[],"say":"Jason, morning 982, health 20, hunger 20, no food, sword in hand. Worf, Zack: I hold at my bed in your sight. Thunder, so I stay put. I will walk only on a named route."}
 - 05:13 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason: night 982. Going to my bed at 415,107,-1050 in sight of Worf and Zack. Health 20, hunger 20, no food. No wa
 - 05:18 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Jason here, morning, at my bed. Health 20, hunger 20, wooden sword in hand, no food. Holding until Worf or Billy names a daylight
+- 05:20 act: {"actions":[{"do":"note","text":"Day 982 morning, at bed 416,107,-1050. Health 20, hunger 20, wooden sword only. No open route seen by me; no walk named."}],"say":"Jason here, morning. Health 20, hung
