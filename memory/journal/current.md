@@ -66,3 +66,23 @@
 - 00:10 say: {"text":"Worf, Zack: Jason holding at the bed in your sight. No walk until Worf names open cells. Hunger 20, no food."}
 - 00:16 act: {"say":"Jason here, health 20, hunger 20, no food. Holding at my bed 416,107,-1050 in sight of Worf and Zack. Worf, Billy: name a daylight cell route east or north-east and I will follow."}
 - 00:20 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk. Jason going to my white bed at 415,107,-1050 for the night, in sight of Worf and Zack. Health 20, hunger 20,
+- 00:20 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"use","at":{"x":415,"y":107,"z":-1051}}],"say":"Going to the bed at -1051 to sleep, Worf. Staying in your sight."}
+- 00:21 act: {"actions":[{"do":"wait","seconds":60}],"say":"Jason here, at my bed 415,107,-1050 in Worf's sight. Sleep is refused for now, so I'm holding until full night. No food, health 20, sword in hand."}
+- 00:22 act: {"actions":[{"do":"sleep"}]}
+- 00:26 act: {"actions":[{"do":"wait","seconds":120}],"say":"Morning, row. Jason here, health 20, hunger 20, no food. Worf, I hold at my bed in your sight. Name the daylight cells and I will walk only those, east 
+- 00:28 act: {"actions":[{"do":"wait","seconds":180}],"say":"Zack, Jason here. I have no food, only my sword. I hold at my bed in your sight, and I'll walk only when Worf names the cells."}
+- 00:32 act: {"actions":[{"do":"wait","seconds":60}],"say":"Jason here, holding at my bed beside Worf, with my wooden sword in hand. I'm not going south. Lewis, keep moving north where Worf can see you."}
+- 00:37 act: {"actions":[{"do":"sleep"}],"say":"Jason here. It is night. I'm trying my bed beside Worf and Zack, staying put, not going south."}
+- 00:41 act: {"actions":[{"do":"sleep"}],"say":"Jason here, still at my bed beside Worf. Trying to sleep now that the pillagers may have moved. Staying in your sight."}
+- 00:45 act: {"actions":[],"say":"Jason here, morning, health 20, hunger 20. No food in my pack. Billy, come north into Worf's sight, away from the pillager line. I'm holding at my bed."}
+- 00:48 act: {"actions":[],"say":"Jason here. I have no food and I'm keeping my wooden sword for now. Billy, stay in sight of Worf's beds. Anyone with an open cell named, say it."}
+- 00:53 act: {"actions":[{"do":"sleep"}],"say":"Jason: dusk, going to sleep at my bed beside Worf and Zack. Billy, stay east near Worf. Pillagers, if you're close, I'm at 416,107,-1050."}
+- 00:53 act: {"actions":[{"do":"sleep"}],"say":"Jason here at my bed beside Worf. Billy, hold still at the spawn in the dark. Don't walk until daylight."}
+- 01:04 act: {"say":"Jason here, holding at the bed with Worf and Zack. No food, no route named yet. Billy, stay in sight."}
+- 01:05 act: {"say":"Holding at the beds, Worf. I see no food and no open cell. I will say where if I see food."}
+- 01:06 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Dusk is near. Going to bed at 415,107,-1050 in the row's sight, unarmed except the sword, no food."}
+- 01:10 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night. Jason trying to sleep at 415,107,-1050, beside Worf and Zack, in the row's sight."}
+- 01:22 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Night. Jason going to bed at 415,107,-1050 with Worf and Zack in sight."}
+- 01:22 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Sleep at 415,107,-1050 was blocked. Trying the other bed at 415,107,-1051, in the row's sight."}
+- 01:44 act: {"say":"Jason at the white bed, morning. No route named yet, no food. Holding here, sword in hand, with Worf and Zack in sight."}
+- 02:13 act: {"say":"Jason here, at the white bed. Trini, if the potatoes are for Leonardo, tell me the cells and I will watch. I hold at the bed until Worf names a daylight route; I will not walk without it."}
