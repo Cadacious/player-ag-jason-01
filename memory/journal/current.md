@@ -36,3 +36,5 @@
 - 09:57 say: {"text":"Jason here, holding in the row, health 20, hunger 20, no food. I walk only on a route Worf names with exact cells, in daylight. Zack, I hear you at 15; I will call you first if I find food."}
 - 10:05 say: {"text":"Jason, morning, health 20, hunger 20, no food, sword in hand. Worf, go carefully. I hold in the row and will walk only to exact open cells you name, in your sight."}
 - 10:25 say: {"text":"Jason here, morning. Health 20, hunger 20, sword in hand, holding at the row bed. Worf, Billy: when you see open air, name the exact cells and I will walk in your sight."}
+- 10:57 act: {"say":"Jason here, at the row, health 20, hunger 20, no food, sword in hand. Worf or Billy, name the exact daylight cells when you see air and I will walk only in your sight."}
+- 10:57 act: {"say":"Jason: I looked east from the row. Planks 1 to 2 blocks ahead on every side, a gap up on the right, gravel 5 ahead down. No open air cell I can name toward 440,-1065. I hold here."}
