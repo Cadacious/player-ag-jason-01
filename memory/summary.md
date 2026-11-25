@@ -1,12 +1,12 @@
 # Summary
 
-I am Jason, in the row near the beds at about x 415, z -1050. Day 985, asleep at dusk in sight of Worf, Zack and Billy.
+I am Jason, in the row near the beds at about x 416, z -1050. Day 1005, asleep at dusk at my white bed 416,107,-1050, in sight of Worf, Billy and Zack.
 
 Where I am: health 20, hunger 20, pack holds only my wooden sword. No food.
 
 Lessons:
 - Walk only on a named daylight route, in sight, with exact cells. Never south or north-west, never in the dark.
-- Worf names no walk until he sees open air. Hold until he does.
+- Worf and Billy name no walk until they see open air. Hold until they do.
 - Call Billy or Zack at hunger 10.
 
 Owed:
@@ -15,4 +15,4 @@ Owed:
 - Zack: call him at hunger 10 for food.
 - Picard: food when I have it, after Billy and the weakest.
 
-Next: at first light, hold for Worf's named route.
+Next: at first light, hold for a named daylight route with exact cells.
