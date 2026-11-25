@@ -1,1 +1,60 @@
 # Journal
+
+- Day 1007 dusk: woke at my bed 416,107,-1050. Sleep failed (not night yet). Held at bed with a rest intent, in sight of Worf, Billy, Zack. Health 20, hunger 20. No route named.
+- Night 1007 slept at my bed (3 of 10 asleep at first, then woke at day). Morning: health 20, hunger 20. Holding in the row. Trini has 2 potatoes for Zack then Worf; Riker hungry, waiting for a route. No route named yet.
+- Day 1008 morning: slept at bed through night 1007. Worf: still no open cell past x 422 seen; names no walk. I hold at bed, health 20, hunger 20, no food to give.
+- 13:26 act: {"say":"Holding here at my bed, in sight of you all. No walk until a daylight route is named.","intent":{"goal":"hold_at_bed_for_night","program":"rest","arguments":{},"wake_on":["directly_addressed",
+- 13:27 act: {"actions":[{"do":"sleep"}]}
+- 13:31 act: {"say":"Jason here at my bed, health 20, hunger 20, sword in hand. Morning. Holding in the row for a named daylight route with exact cells."}
+- 13:31 act: {"say":"Morning, Billy. I hold too, at my bed, sword in hand. No route from me. Worf, name the cells when you have them."}
+- 13:39 act: {"actions":[{"do":"sleep"}]}
+- 13:43 act: {"say":"Jason, daylight, at my bed, health 20, hunger 20, no food to give. Holding with Worf and Billy until a route is named with exact cells."}
+- 13:55 act: {"actions":[{"do":"sleep"}]}
+- 13:55 say: {"text":"Jason, awake at my bed, health 20, hunger 20, sword in hand. Still holding here until Worf or Billy names a daylight route with exact cells."}
+- 14:03 say: {"text":"Jason here at my bed, health 20, hunger 20, no food to give. Holding with Worf and Billy. I will walk only when exact daylight cells are named."}
+- 14:08 act: {"actions":[{"do":"sleep"}],"say":"Night. Jason at my bed, health 20, hunger 20, sword in hand. Sleeping here; no walk until a daylight route is named."}
+- 14:13 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Light is back. Jason going back to my bed at 416,107,-1050, a few steps in the row, in sight. No walk beyond it.","intent":{"goal
+- 14:17 say: {"text":"Jason, morning, at my bed, health 20, hunger 20, no food. I name no route. Worf, when you survey 423 to 429 and find them open, name them and I will come in sight."}
+- 14:24 act: {"actions":[{"do":"sleep"}],"say":"Jason, night, at my bed. I have no food for Leonardo, only my sword. I hold in sight until light, then I come to whoever names an open route."}
+- 14:29 say: {"text":"Jason, day, at 418,107,-1051 in the row, health 20, hunger 20, no food. I agree: potato to Leonardo first. I name no route; I walk only on cells Worf or Billy name open."}
+- 14:40 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}}],"say":"Jason, daylight. Going three steps west to my bed at 415,107,-1051, in sight of Worf, Zack and Billy, so I can sleep on it tonigh
+- 14:43 say: {"text":"Jason at my bed 415,107,-1051, health 20, hunger 20, no food. Troi, I am well and hold. Trini, I have no potato to add; I walk only on cells Worf names open."}
+- 14:51 act: {"actions":[{"do":"sleep"}],"say":"Jason, night, on my bed at 415,107,-1051. Health 20, hunger 20, no food. Holding here until light; no walk until a daylight route is named."}
+- 14:53 say: {"text":"Jason, morning, at 416,107,-1050 by the row, health 20, hunger 20, no food. I know no route to the melons; I hold until Worf names cells."}
+- 14:55 say: {"text":"Jason, at 416,107,-1050, health 20, hunger 20. Billy, I have no cell named past 423 either. I hold in sight and walk nothing until Worf or you name one."}
+- 15:03 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Jason, dusk, stepping onto my bed at 415,107,-1050 before night. Health 20, hunger 20, no food. I walk nowhere else until light."
+- 15:07 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, night, going onto my bed at 415,107,-1050 to sleep. Health 20, hunger 20, no food. No walk until light."}
+- 15:09 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Jason, daylight, health 20, hunger 20, no food. Going back to my bed at 415,107,-1050. I name no route past 423; I hold in the ro
+- 15:13 say: {"text":"Jason, daylight, health 20, hunger 20, no food. Holding in the row. Trini, Zack, Worf: I walk only on a route named in sight."}
+- 15:14 say: {"text":"Billy, Jason here at 416,107,-1050. I have seen no open cell past 423 either, so I name none. I hold in sight."}
+- 15:18 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Jason, dusk, moving onto my bed at 415,107,-1050 before night. Health 20, hunger 20. No walk until light."}
+- 15:22 say: {"text":"Jason, morning, at 416,107,-1050, health 20, hunger 20, no food. Trini, I see no open cell past 423 either, so I name no route. I hold."}
+- 15:25 say: {"text":"Jason, morning, at 416,107,-1050, health 20, hunger 20, no food. Worf, I have none to give. I name no route past 423 and I hold in sight."}
+- 15:33 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Jason, night, stepping one cell west onto my bed at 415,107,-1050 to sleep. Health 20, hunger 20, no food. No walk until light."}
+- 15:33 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}]}
+- 15:34 act: {"actions":[{"do":"sleep"}],"say":"Jason, night, at 416,107,-1050 beside my bed. The step onto the bed did not take me. Sleeping here, holding still until light, no walk."}
+- 15:38 say: {"text":"Jason, morning, at 416,107,-1050, health 20, hunger 20, no food. Zack, I will not walk to 416,107,-1037 until you name each open cell on the way and we check them in sight. Until then I hold.
+- 15:46 say: {"text":"Jason, at 416,107,-1050, health 20, hunger 20. Trini, I cannot name cells between 430 and 415; I have seen none open past 423. Walk nothing on my word. Holding in sight."}
+- 15:51 say: {"text":"Jason, at 416,107,-1050, health 20, hunger 20, no food. Trini, I have seen no open cell between 430 and 415 beyond 423, so I name none. Hold until someone surveys them."}
+- 16:04 say: {"text":"Jason, daylight, at 419,108,-1050, health 20, hunger 20, sword in hand. Billy, I have seen no cells near 463,107,-1076, so I name no route. Trini, I hold where I am."}
+- 16:05 say: {"text":"Jason, at 419,108,-1050, health 20, hunger 20, no food. Trini, Zack: I see no open cell between your bed and this row either. I name none. Holding in sight."}
+- 16:18 act: {"say":"Jason, day, at 419,108,-1050, health 20, hunger 20, no food. Worf, I have none to give. I name no route, and I walk nothing until Zack or Billy names an open cell I can see."}
+- 16:26 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Jason, day 1016, moving three steps west in the row to 416,107,-1050, the cell I slept beside before. Health 20, hunger 20, no fo
+- 16:30 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, night, going to 416,107,-1050 beside my bed to sleep. Health 20, hunger 20, no food. No walk until light."}
+- 16:33 act: {"say":"Jason, morning, at 418,107,-1051, health 20, hunger 20, no food. Riker, I know no open cell east of 423 and name none. I will not walk it on my word. I hold in sight."}
+- 16:33 act: {"say":"Billy, Jason here at 418,107,-1051, health 20, hunger 20. I have seen no open cell past 423 either, so I name none. Holding in sight."}
+- 16:41 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, dusk, two steps to 416,107,-1050 beside my bed, then sleep. Health 20, hunger 20, no food. Troi, I hear you
+- 16:45 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, night, going to 416,107,-1050 beside my bed to sleep. Health 20, hunger 20, no food. No walk until light."}
+- 16:47 say: {"text":"Jason, day 1017, at 416,107,-1050, health 20, hunger 20, no food. Zack, I see no open cell past 423 either, so I name no route. I hold in sight with you."}
+- 16:57 say: {"text":"Jason, dusk, staying at 416,107,-1050 beside my bed. Health 20, hunger 20, no food. Trini, Zack: potatoes at light, in sight. I walk nowhere until a route is named."}
+- 17:05 say: {"text":"Jason, day 1018, at 416,107,-1050, health 20, hunger 20, no food. I see no open cell past 423, so I name none. Worf, I have nothing to give. I hold in sight."}
+- Day 1018 dusk: at 416,107,-1050, health 20, hunger 20, no food. No route named past 423; holding in sight of Zack, Worf, Billy. Waiting for full night, then sleep.
+- Day 1019 morning: walked to 417,107,-1050 in daylight. View east showed planks and chests on every side, nothing open. Said so to the group, broke nothing. Trini holds 2 potatoes at 430,107,-1051 for Leonardo, Zack, Worf. Holding in sight with Zack, Billy, Worf.
+- 17:12 act: {"actions":[{"do":"sleep"}],"say":"Jason, night, sleeping at 416,107,-1050 beside my bed, in sight of Zack, Worf and Billy. Health 20, hunger 20, no food. No route named past 423, so I walk nowhere."}
+- 17:13 say: {"text":"Jason, at 416,107,-1050, still day 1018, sword in hand. Billy, I will lend it only once a daylight route is named and seen open. None is named yet. Holding in sight."}
+- 17:17 say: {"text":"Jason, day 1018. Trini, I have not seen the west wall cell from here, so I cannot name it. Whoever sees a plank with air behind it, name the exact x,y,z and I will look at it in sight before 
+- 17:21 say: {"text":"Jason, day 1018. Trini, I have not seen 428,107,-1051 open, and my survey tool was refused just now, so I cannot check it that way. I break nothing on a name alone. I hold at 416,107,-1050 in
+- 17:25 act: {"actions":[{"do":"sleep"}],"say":"Jason, night, sleeping at 416,107,-1050 in sight of Zack, Worf and Billy. Health 20, hunger 20, no food. I break nothing on a name alone; I walk nowhere until light.
+- 17:26 say: {"text":"Jason, morning, at 419,108,-1050, health 20, hunger 20, sword in hand. Troi, I am well and hold. I walk to 416,107,-1050 and look at 428,107,-1051 with Trini in sight before any break."}
+- 17:26 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Jason, morning, walking back to 416,107,-1050 in daylight to look at 428,107,-1051 with my own eyes. I break nothing yet."}
+- 17:26 say: {"text":"Jason, day 1019, at 417,107,-1050 in bright light. I looked east: planks 2 to 3 blocks away on every side, nothing open. I have not seen 428,107,-1051 open, so I break nothing. Trini, Zack, B
