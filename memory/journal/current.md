@@ -127,3 +127,5 @@
 - 21:22 act: {"actions":[{"do":"wait","seconds":30}],"say":"Jason, morning 1030, at 416,107,-1050. Health 20, hunger 20, no food. I am in sight of Worf and Billy. I have not seen an open cell east myself, so I wil
 - 21:23 act: {"say":"Jason, morning 1030, at my bed 416,107,-1050. Health 20, hunger 20, wooden sword only, no food. I have seen no open cell past the planks, so I hold. Worf, Billy: if you see a cell open in dayl
 - 21:23 act: {"say":"Billy, Jason here at 416,107,-1050. I have seen no open cell past x 420 either, so I name none. I hold, walking nowhere until a cell is named and seen."}
+- 21:32 act: {"say":"Jason, night, at my bed 415,107,-1050 area, health 20, hunger 20, wooden sword only, no food. I walk nowhere in the dark. Holding in sight of Worf, Billy and Zack until light.","actions":[{"do
+- 21:36 act: {"say":"Jason, morning, at 416,107,-1050 in sight of Worf, Billy and Zack. Health 20, hunger 20, no food, only my sword. Worf, I have nothing to hand you. I still see no open cell past 423, so I name 
