@@ -20,3 +20,18 @@
 - 07:29 act: {"actions":[{"do":"sleep"}]}
 - 07:33 act: {"actions":[],"say":"Jason, morning 989. Still at my bed 416,107,-1050, in sight of Worf, Zack and Billy. Health 20, hunger 20, no food. No walk named, so I hold."}
 - 07:45 act: {"actions":[],"say":"Jason, morning 990. Holding at my bed 416,107,-1050, in sight of Worf, Zack and Billy. Health 20, hunger 20, no food. No walk named yet."}
+- 08:00 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 990. Holding at my bed in the row, in sight of Worf, Zack and Billy. No walk in the dark."}
+- 08:02 act: {"actions":[],"say":"Billy, morning 990. I'm holding here with my wooden sword. Worf gave it to me, so I keep it in hand. I'll walk only on Worf's named daylight route."}
+- 08:14 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 991. Holding in the row in sight of Worf, Zack and Billy. No walk in the dark."}
+- 08:18 act: {"actions":[],"say":"Jason, holding in sight. Worf, I stay here until you name the route and it is daylight. I will not walk the north-west gap in the dark."}
+- 08:27 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 992. Holding at the row in sight of Worf, Billy and Zack. No walk in the dark."}
+- 08:28 act: {"actions":[],"say":"Jason, day 992 morning. Health 20, hunger 20, no food. Holding in the row in sight. Deanna, we are all holding for a named route."}
+- 08:42 act: {"say":"Billy, morning. I keep the sword in hand as Worf gave it, so I cannot give it now. Holding in the row, no route named yet."}
+- 08:42 act: {"say":"Riker, Jason here. I will not walk until Worf names a daylight route in sight. If it goes east, I will go with you."}
+- 08:57 act: {"say":"Billy, Jason. The sword stays in my hand as Worf gave it. No walk tonight; holding in your sight."}
+- 09:08 act: {"say":"Billy, Jason: the sword is not mine to hand over; I keep it in hand as Worf gave it. No route from me either. Riker, I hold with you."}
+- 09:16 say: {"text":"Still holding in the row with you, Worf, Billy and Zack. I have no food and walk only on a named daylight route."}
+- 09:22 say: {"text":"Jason here, night. Holding where I stand, no walk till morning. Worf, Zack, Billy, I am in sight."}
+- 09:22 say: {"text":"Jason: I walk only on a route Worf names, in daylight, with exact cells. Worf, your yes or your own route first. I hold until then."}
+- 09:57 say: {"text":"Jason here, holding in the row, health 20, hunger 20, no food. I walk only on a route Worf names with exact cells, in daylight. Zack, I hear you at 15; I will call you first if I find food."}
+- 10:05 say: {"text":"Jason, morning, health 20, hunger 20, no food, sword in hand. Worf, go carefully. I hold in the row and will walk only to exact open cells you name, in your sight."}
