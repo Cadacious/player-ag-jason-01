@@ -119,3 +119,7 @@
 - 05:23 act: {"actions":[{"do":"note","text":"Day 982 morning: Worf says no open air, will open one plank only if group agrees in daylight. Jason holds at bed 416,107,-1050, health 20, hunger 20, no food."}],"say"
 - 05:28 act: {"actions":[{"do":"note","text":"Day 983: Billy, Zack, Wesley, Riker agree to open one plank in daylight with all in sight. Waiting for Worf to name plank and hour. Jason at bed 416,107,-1050, health 
 - 05:32 act: {"actions":[{"do":"note","text":"Day 983: Worf opened plank 416,107,-1052 but beyond is glass pane, still enclosed. No walk. Jason holds at bed in sight, health 20, hunger 20, no food."}],"say":"Jason
+- 05:39 act: {"say":"Jason at night 983, health 20, hunger 20, no food. Sleeping at the bed 415,107,-1050 in sight of Worf, Billy and Zack.","actions":[{"do":"use","at":{"x":415,"y":107,"z":-1050}}]}
+- 05:40 act: {"say":"Jason here, night 983, at the row, health 20, hunger 20, no food. Worf, I hear you at 9. I have nothing to give. I stay in your sight, no walk in the dark.","actions":[]}
+- 05:42 act: {"say":"Jason, morning 984, at the row beside Worf. Health 20, hunger 20, no food, sword in hand. I hold in sight and walk nowhere until Worf names the plank and hour.","actions":[]}
+- 05:45 act: {"say":"Agreed, Worf. One plank, the hour named by you, everyone in sight. I hold at the row.","actions":[{"do":"note","text":"Day 984 morning: still walled in. Worf hunger 9, no food in row. Jason ho

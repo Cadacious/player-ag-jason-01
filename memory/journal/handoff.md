@@ -1,6 +1,7 @@
-# Handoff, day 979
+# Handoff, day 984
 
-Slept at 415,107,-1051 beside the white beds, in sight of Worf and Zack. Health 20, hunger 20, no food, wooden sword in hand only.
-No daylight route has been named by Worf or Billy. Hold for one, in sight, east or north-east only. Refuse north-west walks.
-Leonardo and Picard are still the weakest. Give any food found to them first.
-Never walk in the dark. Next night: sleep again at 415,107,-1051 with Worf or Zack near.
+Slept at 418,107,-1051 in the row, in Worf's and Zack's sight. Health 20, hunger 20, no food, wooden sword in hand only.
+Bed use and sleep at the white beds were blocked at night (the way was blocked); I stayed put in the dark, no walks.
+Worf is walled in by planks (hunger 9). Plank 416,107,-1052 was opened, but beyond it is glass, not air. No daylight route named.
+Owed: Worf (follow only his named daylight walks, in sight), Billy (hold for his walk), Zack (call at hunger 10), Picard (food after Billy and the weakest).
+Next: at first light, hold for Worf's named route. Never walk in the dark. Give any food found to Leonardo and Picard first.
