@@ -1,1 +1,1 @@
-- Day 984 night: woke at bed 415,107,-1051 in sight of Worf, Zack, Billy. Health 20, hunger 20, no food. Held still. Billy said he sleeps at 415,107,-1050 in our sight. No walk in the dark.
+# Journal
