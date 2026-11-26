@@ -161,3 +161,8 @@
 - 00:03 act: {"say":"Billy, Jason here, armed, in sight at 416,107,-1050. I hear you read 420 open, Laforge reads planks. I will not walk or break until Worf says yes and two of us confirm the cells. Worf, your wo
 - 00:11 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, dusk, going to my bed at 415,107,-1050 in sight of Worf, Billy and Zack. No food to give Riker, I am sorry.
 - 00:11 act: {"actions":[{"do":"sleep"}]}
+- 00:12 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Jason, night. Holding at my bed in sight of Worf, Billy and Zack. No walks, no digs."}
+- 00:13 act: {"actions":[],"say":"Night, row. Jason holding at my bed, in sight of Trini, Zack, Billy and Worf. No walks, no digs. At light I wait for Worf's yes on 420, and I name nothing I have not seen open."}
+- 00:17 act: {"actions":[],"say":"Morning, row. Jason at my bed, health 20, hunger 20, sword only. Worf, I hold with you. I see no open cell past 423 and I name none. Trini, Laforge, Riker: no walks from me until 
+- 00:31 act: {"say":"Jason here, daylight, at my bed 416,107,-1050. Holding with Worf. Armed with the wooden sword, no food. I will walk only on a named route with exact cells."}
+- 00:39 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}]}
