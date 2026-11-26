@@ -166,3 +166,4 @@
 - 00:17 act: {"actions":[],"say":"Morning, row. Jason at my bed, health 20, hunger 20, sword only. Worf, I hold with you. I see no open cell past 423 and I name none. Trini, Laforge, Riker: no walks from me until 
 - 00:31 act: {"say":"Jason here, daylight, at my bed 416,107,-1050. Holding with Worf. Armed with the wooden sword, no food. I will walk only on a named route with exact cells."}
 - 00:39 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}]}
+- 00:44 act: {"actions":[{"do":"wait","seconds":30}],"say":"Jason, morning, at my bed 416,107,-1050 in sight of Worf, Billy, Zack. Health 20, hunger 20, sword only, no food. I hold; no walk until a daylight route 
