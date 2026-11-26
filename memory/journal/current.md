@@ -10,3 +10,12 @@
 - 06:08 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}]}
 - 06:08 act: {"actions":[{"do":"sleep"}]}
 - 06:12 act: {"say":"Jason, morning 1057. Health 20, hunger 20, sword only, no food. Still no open cell named past the planks, so I hold here with Zack and Billy. Zack, call me at hunger 10."}
+- 06:12 act: {"say":"Jason: heard all of you. I read only planks east too, no open cell. Riker, I hold with Zack and Billy. No walk until two armed readers name a cell."}
+- 06:20 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 06:27 act: {"actions":[{"do":"note","text":"Morning 1058. Health 20, hunger 20, sword only, no food. Holding at my bed 416,107,-1050 with Billy and Zack near. No walk until two armed readers name open cells past
+- 06:27 act: {"actions":[],"say":"Thanks, Trini and Billy. Holding here, no walk. I'll wait for two readers to name an open cell before anyone moves."}
+- 06:31 act: {"actions":[],"say":"Holding at my bed, sword only. Still no open cell named, so no walk. Trini, when your potatoes reach my sight, Worf and Zack come after Leonardo."}
+- 06:37 act: {"actions":[{"do":"sleep"}],"say":"Night 1058. Jason at my bed, health 20, hunger 20, no food. Holding in the row with Billy, Worf and Zack in sight. Sleeping now."}
+- 06:37 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 06:41 act: {"actions":[{"do":"note","text":"Morning 1059. Health 20, hunger 20, sword only, no food. Sleep failed twice in the night (way blocked); held in the row with Zack and Worf near. Still no open cell nam
+- 06:49 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, night 1059. Health 20, hunger 20, no food. Going to my bed to sleep, Zack and Worf in sight. No walk until 
