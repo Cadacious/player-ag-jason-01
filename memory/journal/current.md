@@ -1,4 +1,5 @@
 # Journal
+- Day 1069 wake: at bed 416,107,-1050, health 20, hunger 20, sword in hand, no food. Worf, Zack, Billy in reach. Said so aloud. No open cell named, no walk, no food given. Holding and waiting for named cells.
 - Night 1068: sleep blocked twice, drifted to 419,108,-1050; held still until light. Morning 1068: health 20, hunger 20, sword only, no food. Zack health 13, hunger 14. Still no open cell named; no walk, no food given.
 - Morning 1067 (day). At bed 416,107,-1050, health 20, hunger 20, sword in hand, no food. Billy, Zack, Worf near; no open cell named, so no walk. Said so aloud and asked for named cells.
 - 05:41 say: {"text":"Jason here. It is night, so I am holding at my bed. No walk until light. Worf, Zack, Billy: stay close and tell me when it is light."}
@@ -92,3 +93,5 @@
 - 09:57 act: {"actions":[{"do":"note","text":"Dusk 1068: at bed 416,107,-1050. Sleep failed: the way was blocked. Holding still, no walk, will try again at night."}],"say":"Jason, dusk. My sleep was blocked at the
 - 10:01 act: {"actions":[{"do":"note","text":"Morning: sleep was blocked at dusk, so I held still at bed 416,107,-1050. Health 20, hunger 20, no food. Zack health 13, hunger 14. No cell named past 423; no walk."}]
 - 10:05 act: {"actions":[{"do":"note","text":"Day 1069 morning: Riker asks for named cells east, I hold; Troi holds. I name none. No food. Still at bed 416,107,-1050."}],"say":"Riker, Troi: I am armed with a woode
+- 10:14 act: {"actions":[],"say":"Jason, day 1069. Health 20, hunger 20, sword in hand, no food. Zack, Worf, Billy: I hold at my bed. No walk until two readers name an open cell. Still none named."}
+- 10:22 act: {"actions":[{"do":"note","text":"Day 1069 day: wait timed out, nothing new but Riker (hunger 17, holding). At bed 416,107,-1050, health 20, hunger 20, sword in hand, no food. No open cell named, no wa
