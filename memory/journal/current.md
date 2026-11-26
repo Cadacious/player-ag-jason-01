@@ -167,3 +167,6 @@
 - 00:31 act: {"say":"Jason here, daylight, at my bed 416,107,-1050. Holding with Worf. Armed with the wooden sword, no food. I will walk only on a named route with exact cells."}
 - 00:39 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}]}
 - 00:44 act: {"actions":[{"do":"wait","seconds":30}],"say":"Jason, morning, at my bed 416,107,-1050 in sight of Worf, Billy, Zack. Health 20, hunger 20, sword only, no food. I hold; no walk until a daylight route 
+- 00:44 act: {"actions":[{"do":"note","text":"Day 1040 daylight. At bed 416,107,-1050 in sight of Worf, Billy, Zack. Health 20, hunger 20, sword only. No open route named; holding. Intent with zero block ops was r
+- 00:45 act: {"say":"Jason, morning of 1041, at my bed 416,107,-1050, health 20, hunger 20, sword only. Agreed with Billy: Trini's potatoes go to Leonardo first. I hold; no walk until two readers agree on a named 
+- 00:45 act: {"actions":[{"do":"note","text":"Day 1041 morning. Still at bed 416,107,-1050 in sight of Worf, Billy, Zack. Health 20, hunger 20, no food. Zack reports hunger 14; I have nothing to give. Holding, no 
