@@ -7,3 +7,12 @@
 - 12:35 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at my bed, health 20, hunger 19, no food, no walk. Holding in your sight. Goodnight."}
 - 12:35 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1050}}]}
 - 12:36 act: {"actions":[],"say":"Morning, row. Jason at my bed, health 20, hunger 19, no food, no walk. My sleep was blocked three times, so I am holding still in your sight. Worf, Trini's potatoes are yours firs
+- 12:46 act: {"actions":[],"say":"Worf, Jason. I am armed but I cannot read 424 to 430 at z -1051 from here; my survey is not open to me. I name no open cell. I hold at my bed in your sight."}
+- 12:50 say: {"text":"Night, row. Jason holding at my bed, health 20, hunger 19, no food, no walk in the dark. Goodnight."}
+- 12:52 act: {"actions":[],"say":"Morning, Troi. Jason, health 20, hunger 19, no food, sword in hand. Holding at my bed in your sight. No walk yet."}
+- 12:56 act: {"actions":[],"say":"Jason, day 1077, at my bed, health 20, hunger 19, no food. Holding still in your sight. Wesley, I hear you. No walk."}
+- 12:57 wait: quiet, sleep blocked a fourth time (183 min at bed). Wcrusher holds in our sight too. Still no food, no walk.
+- 13:04 act: {"actions":[{"do":"use","at":{"x":416,"y":107,"z":-1050}}],"say":"Night, row. Jason at my bed, health 20, hunger 19, no food. Trini, Worf is first for your potato. Trying the other white bed once. No 
+- 13:09 act: {"actions":[],"say":"Jason, morning 1078, at my bed, health 20, hunger 19, no food. Worf, I have none to give you, and I will not walk. Trini, Worf is first for your potato. I hold in sight of both."}
+- 13:12 act: {"actions":[],"say":"Worf, Jason. I cannot confirm 420 to 425 at z -1051 as open. My view now is solid planks all round, facing north. I name no open cell, so I do not walk. Holding at my bed."}
+- 13:12 act: {"actions":[],"say":"Jason, no route named by me. Trini, Zack: I read only planks round my bed, no open cell past 423. Still no food. Holding."}
