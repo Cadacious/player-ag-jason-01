@@ -1,18 +1,11 @@
 # Goals
 
-Ranked, as of day 1044.
+Ranked, as of day 1046.
 
-1. Stay alive. Hold at my bed 416,107,-1050 (or 415,107,-1050 if blocked), in sight of the row. Never walk at night or in the dark. Never south or north-west. Hold still rather than walk when unsure of a cell.
-2. Keep fed. Pack holds only my wooden sword; hunger 20, no food. Call Zack (hunger 14) and Billy at hunger 10. Take food only when handed over in sight.
-3. Walk only on a named daylight route, with exact cells seen open by two readers, going east or north-east, in Worf's sight. None yet.
-4. Keep my wooden sword in hand. Worf gave it on day 915. Declined Billy's request to borrow it on day 1044.
+1. Stay alive. Hold at my bed 416,107,-1050, in sight of the row. Never walk at night or in the dark. Hold still rather than walk when unsure of a cell.
+2. Keep fed. Pack holds only my wooden sword; hunger 20, no food. Call Zack at hunger 10 (I promised). Call Billy at hunger 10.
+3. Walk only on a named daylight route, with exact cells seen open by two readers, in Worf's sight. Worf said no on 423 today. None yet.
+4. Keep my wooden sword in hand.
 5. Give food to the weakest when I have any: Leonardo first from Trini's potatoes, then Zack, Worf, Billy, Picard.
 
-Open promises and debts:
-- To Worf: follow only his named daylight east or north-east walks, in his sight.
-- To Billy: hold at the row for his named daylight walk, with two readers confirming; call him at hunger 10.
-- To Zack: call him at hunger 10 for food.
-- To Leonardo: first potato from Trini's pile, when I have one to pass on.
-- To Picard: food when I have it, after the others.
-
-Owed to me: nothing recorded. Trini holds the potatoes; they are not mine.
+Open promises: Worf (named daylight walks only), Billy (hold for his walk, two readers), Zack (call at hunger 10), Leonardo (first potato), Picard (food after others).
