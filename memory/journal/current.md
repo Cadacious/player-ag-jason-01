@@ -7,3 +7,6 @@
 - morning wait: Zack and Billy both report only planks east, no open cell. Holding at my bed. No walk, no food given.
 - 06:01 act: {"say":"Jason here, morning. Holding at my bed with my sword, no food. Still need a named open cell past the planks, checked by two readers before anyone walks."}
 - 06:07 act: {"say":"Night 1057. Jason at my bed, health 20, hunger 20, no food. Holding in the row. Sleeping now.","actions":[{"do":"sleep"}]}
+- 06:08 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}]}
+- 06:08 act: {"actions":[{"do":"sleep"}]}
+- 06:12 act: {"say":"Jason, morning 1057. Health 20, hunger 20, sword only, no food. Still no open cell named past the planks, so I hold here with Zack and Billy. Zack, call me at hunger 10."}
