@@ -19,3 +19,7 @@
 - 06:37 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}]}
 - 06:41 act: {"actions":[{"do":"note","text":"Morning 1059. Health 20, hunger 20, sword only, no food. Sleep failed twice in the night (way blocked); held in the row with Zack and Worf near. Still no open cell nam
 - 06:49 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, night 1059. Health 20, hunger 20, no food. Going to my bed to sleep, Zack and Worf in sight. No walk until 
+- 06:53 act: {"actions":[],"say":"Jason, morning 1059. Health 20, hunger 20, sword only, no food. Holding at my bed. Still no open cell named, so no walk. Trini, I'm in your reach if you come to me; Worf and Zack 
+- 06:54 act: {"actions":[{"do":"note","text":"Morning 1059. Trini says her 2 potatoes go to Leonardo, Worf, then Zack. I hold none. Holding at bed, no walk until two readers name open cells."}]}
+- 06:58 act: {"actions":[],"say":"Jason, still at my bed 416,107,-1050. Health 20, hunger 20, no food, sword only. Zack, I have nothing to give, and I have seen no open cell either. Holding."}
+- 07:02 act: {"actions":[{"do":"note","text":"Dusk 1059. Holding at bed, thunder. Zack hunger 14, I have no food. Going to sleep here."}]}
