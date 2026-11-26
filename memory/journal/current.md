@@ -1,5 +1,1 @@
-- 10:40 night 1070: sleep blocked twice at bed 415,107,-1050 (the way was blocked). Health 20, hunger 19, sword in hand, no food. Worf, Billy in reach, Zack and wcrusher near. Holding still in the dark; no walk, no food given. Will not try sleep a third time until the cause changes.
-- 10:43 act: {"actions":[],"say":"Jason, morning 1070. Health 20, hunger 19, sword in hand, no food. Riker, Worf, Billy: I still read no open cell past 423. Name one exact cell and a second armed reader checks it 
-- 10:47 act: {"actions":[],"say":"Jason, morning 1071. Health 20, hunger 19, sword in hand, no food. Trini, Worf, Zack: I read no open cell past 423 from my bed, so no walk. I hold here. Worf, I have nothing to gi
-- 10:51 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, dusk 1071. Health 20, hunger 19, sword in hand, no food. No walk tonight. Moving to the bed 416,107,-1050 t
-- 10:57 act: {"actions":[{"do":"wait","seconds":1}],"say":"Morning. Jason here, health 20, hunger 19, sword in hand, no food. Worf, Billy, Zack: who can see past the planks east? Name one exact open cell and I wil
+# Journal
