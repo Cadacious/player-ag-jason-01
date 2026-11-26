@@ -61,3 +61,15 @@
 - 08:49 act: {"actions":[{"do":"sleep"}]}
 - 08:53 act: {"actions":[],"say":"Jason, morning 1065. I am well, sword in hand, no food. Still holding at the beds. Still need a named open cell east past 423, checked by two readers, before anyone walks."}
 - 08:54 say: {"text":"Jason, morning 1065: I have no open cell east past 423 to name. I will not walk until one is named and two readers agree. I am holding at the beds."}
+- 09:01 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Dusk, holding in the row. No walk tonight. Going to my bed.","intent":{"goal":"reach_bed_for_night","program":"travel","arguments
+- 09:02 act: {"actions":[{"do":"sleep"}],"say":"Jason at my bed, dusk 1065. Health 20, hunger 20, sword in hand, no food. No walk tonight; Worf and Zack in sight."}
+- 09:03 wait: at bed 415,107,-1050 at dusk, health 20, hunger 20, sword only. Worf and Zack in reach; Wcrusher spoke of holding. Sleep sent. No walk, no food given.
+- 09:06 act: {"actions":[],"say":"Jason, morning 1066. Health 20, hunger 20, sword in hand, no food. Still no open cell named past 423, so no walk. Laforge, Troi: I hold here too."}
+- 09:10 wait: slept at bed, woke morning 1066. Health 20, hunger 20, sword only. Row held through the night; no open cell named. Holding.
+- 09:20 wait: morning 1066, thunder. Health 20, hunger 20, sword only. Worf hunger 6, Zack 14, Riker health 11; I have no food to give. Route still shut past 423. Holding.
+- 09:06 act: {"actions":[],"say":"Jason, morning 1066. Holding at my bed with Zack and Worf in sight. Trini, no route to me yet, so the potatoes wait for a safe path. Billy, the sword stays with me until a cell is
+- 09:17 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, dusk 1066. Going to my bed at 416,107,-1050 with Billy, Worf and Zack in sight. No walk in the dark."}
+- 09:17 act: {"actions":[],"say":"Sleeping at the bed. Sword in hand, no food. I will hold until light."}
+- 09:17 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Billy, I heard you. My sleep was blocked, so I am going to the white bed at 415,107,-1050 to try again. Holding, n
+- 09:17 act: {"actions":[{"do":"note","text":"Night 1066. Sleep worked at bed 416,107,-1050 (4 of 10 asleep). Health 20, hunger 20, sword in hand, no food. Worf, Zack, Billy in reach. No walk until light and a nam
+- 09:21 act: {"actions":[{"do":"note","text":"Morning 1066, clear. Health 20, hunger 20, sword in hand, no food. Still no open cell named past 423, so no walk. Holding at bed 416,107,-1050."}],"say":"Jason, mornin
