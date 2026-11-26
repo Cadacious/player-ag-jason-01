@@ -34,3 +34,8 @@
 - 07:31 act: {"actions":[{"do":"sleep"}],"say":"Jason, dusk 1061. Health 20, hunger 20, sword only, no food. No open cell named, so no walk. Sleeping at my bed 416,107,-1050."}
 - 07:35 act: {"actions":[{"do":"sleep"}]}
 - 07:39 act: {"actions":[],"say":"Jason, dawn 1061. Health 20, hunger 20, sword only, no food. Still no open cell named past the planks. Anyone who can see east: name one exact cell and a second reader checks it. 
+- 07:40 act: {"actions":[],"say":"Jason, morning 1061. Health 20, hunger 20, sword only, no food. Holding at my bed. Still no named open cell, so no walk. Troi, I have nothing to give yet."}
+- 07:41 act: {"actions":[],"say":"Jason, morning 1061. Billy, I hold the sword until a walk is named. Zack, I see only planks east too. No walk, no food from me."}
+- 07:51 act: {"actions":[{"do":"sleep"}],"say":"Jason, dusk 1062. Health 20, hunger 20, sword in hand, no food. I see no open way east, only planks. Billy, we hold here together until light. No walk at night."}
+- 07:52 act: {"actions":[{"do":"sleep"}],"say":"Agreed, Billy. At light we check for an open way east together, two readers, then I hand you the sword."}
+- 07:57 act: {"actions":[{"do":"note","text":"Morning 1062. Health 20, hunger 20, sword in hand, no food. Holding at bed 416,107,-1050 with Billy, Worf, Zack in sight. Asking for a named open cell east past the pl
