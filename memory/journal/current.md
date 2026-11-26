@@ -33,3 +33,17 @@
 - 14:30 act: {"actions":[],"say":"Morning, Worf and row. Jason, health 20, hunger 19, no food, sword in hand. Worf is at hunger 5: Trini's potato should go to you first after Leonardo, I agree. I hold, no walk."}
 - 14:39 act: {"say":"Jason at my bed, health 20, hunger 19, no food, sword in hand. Worf, you are first for any food I find. I hold, no walk."}
 - 14:43 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at my bed, health 20, hunger 19, no food, no walk. Worf, you are first for any food. Goodnight."}
+- 14:43 act: {"say":"Jason here at my bed in the row. No food on me. Worf is hungriest: Trini, please hand your potatoes to Worf first when he is in your sight. I hold here, no walk."}
+- Day 1082 dim daylight, at bed 419,108,-1050 area. Health 20, hunger 19, no food. Said I hold, asked Trini to give potatoes to Worf first. Billy beside me. No walk.
+- Day 1083 morning: Worf heading to Trini for a potato, walking only on cells he sees open. I hold at bed, no food, no walk. Waiting.
+- Dusk 1083: still at bed, health 20, hunger 19, no food, no walk. Going to sleep at the row.
+- Sleep partly worked overnight (1 of 10 asleep). Morning 1083: health 20, hunger 19, no food. Holding at bed, no walk. Worf near.
+- Morning 1084: Worf asked me to name open cells to Trini. I viewed NW: solid planks only, named none, no walk. Everyone is holding. Still no food.
+- 14:44 act: {"actions":[],"say":"Morning, Troi, Jason here at my bed, health 20, hunger 19, no food. Trini, Worf is three blocks from me, Worf, go to Trini's bed for the potato. I hold, no walk."}
+- 14:55 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason holding at my bed, health 20, hunger 19, no food, no walk. Worf, you are first for any food I find. Goodnight."}
+- 14:59 act: {"actions":[],"say":"Morning, row. Jason at my bed, health 20, hunger 19, no food, sword in hand. Worf, you are first for any food I find. I hold, no walk."}
+- 15:00 act: {"actions":[],"say":"Worf, Jason. I view facing north-west: solid oak planks all round, nothing open in reach. I cannot name any open cell between you and Trini, so I do not walk. Stay at your bed wit
+- 15:12 act: {"say":"Morning, row. Jason at my bed 416,107,-1050, health 20, hunger 19, no food, wooden sword in hand. Worf is first for any food I find. I hold, no walk until two armed readers name open cells."}
+- 15:13 act: {"say":"Jason, night 1084, at my bed, health 20, hunger 19, no food, sword in hand. Holding in sight of Billy and Zack. No walk until daylight and two readers name open cells."}
+- 15:15 act: {"say":"Laforge, Jason. It is light. My view is only solid planks to the north and I cannot name an open cell east, so I name none. I hold at my bed, sword in hand, no food. Worf first."}
+- 15:23 act: {"actions":[{"do":"sleep"}],"say":"Dusk, row. Jason at my bed, health 20, hunger 19, no food, sword in hand. Holding in your sight through the night. Worf first for any food I find. No walk."}
