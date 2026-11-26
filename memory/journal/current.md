@@ -28,3 +28,7 @@
 - 07:03 act: {"actions":[{"do":"sleep"}],"say":"Riker, agreed. It is night now. I am in my bed and will sleep here. At light, name the cells."}
 - 07:07 act (morning 1060, slept at bed): Health 20, hunger 20, sword only. Heard Zack, Laforge, Wesley: no open cell east past planks; no walk, no food given. Asked again for named cells. Next: wait for a named cell.
 - 07:07 act: {"say":"Jason, morning 1060. Health 20, hunger 20, sword only, no food. Still no open cell named past the planks, so no walk. Anyone who can see east: name one cell and I will check it with a second r
+- morning 1061 wait: slept at bed, health 20, hunger 20, sword only. Billy's bed blocked, he moved to another. Still no open cell named; no walk, no food given. Holding.
+- 07:18 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 1060. Health 20, hunger 20, no food. Sleeping in my bed, Worf and Zack in sight. No walk until light and a named cell."}
+- 07:22 act: {"say":"Billy, I will hand you the sword when a cell is named and your walk is set, not before. Right now no open cell is named, so I keep it in hand. Who can see east?"}
+- 07:31 act: {"actions":[{"do":"sleep"}],"say":"Jason, dusk 1061. Health 20, hunger 20, sword only, no food. No open cell named, so no walk. Sleeping at my bed 416,107,-1050."}
