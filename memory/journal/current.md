@@ -42,3 +42,7 @@
 - 07:57 act: {"actions":[{"do":"note","text":"Morning 1062. Viewed north-west: planks and solid all around, only other folk in the grid, no open air cell. No walk. Holding at bed."}],"say":"Jason, morning 1062. I 
 - 08:03 act: {"actions":[{"do":"note","text":"Morning 1062. Billy asked about an open cell past 423. I have named none; view shows solid planks. Holding at bed, no walk, no food."}],"say":"Billy, no. I have seen n
 - 08:05 act: {"actions":[{"do":"sleep"}],"say":"Jason, dusk 1063. Health 20, hunger 20, sword in hand, no food. No open cell named, so no walk. Sleeping at my bed 416,107,-1050. Worf, Billy, Zack: no walk until li
+- 08:06 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, dusk 1063. Sleep was blocked where I stood, so I go back to my bed 416,107,-1050 and sleep there. No walk t
+- 08:06 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, night 1063. Sleep blocked again. I try my bed 416,107,-1050 once more, with Zack and Billy near. No walk un
+- 08:06 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Jason, night 1063. My bed was blocked, so I try the other white bed at 415,107,-1051. Zack and Billy in sight. No 
+- 08:10 act: {"actions":[],"say":"Jason, light 1063. Health 20, hunger 20, sword only, no food. I see only planks and solid east, no open cell named. Billy, Riker, Laforge: no walk until two armed readers name an 
