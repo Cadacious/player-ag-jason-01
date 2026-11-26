@@ -50,3 +50,41 @@
 - 15:39 say: {"text":"Jason here. It is night and I hold still. No food with me; Worf and Zack, I am still owed food for you first when I find some."}
 - 15:43 say: {"text":"Jason, morning. I hold at my bed, health 20, hunger 19, no food. Trini, the potatoes go to Leonardo, then Worf, as planned. I name no route."}
 - Day 1085 morning: at 419,108,-1050, health 20, hunger 19, no food, sword in hand. Worf and Zack 3 blocks off. Trini holds 2 potatoes: Leonardo, then Worf. No walk, no open cell named. Holding.
+- 15:45 act: {"say":"Jason here at 419,108,-1050. Health 20, hunger 19, wooden sword in hand, no food. I hold in the row and name no route."}
+- Day 1086 daylight, dim light, at 419,108,-1050. Health 20, hunger 19, no food, sword in hand. Worf and Zack 3 blocks off. Said I hold, no route named. Waiting for food or a confirmed cell.
+- 15:47 act: {"say":"Trini, Jason. Still no route, no food. I hold at my bed with my sword. Leonardo, if you hear us, name your cell."}
+- 15:52 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at my bed, health 20, hunger 19, no food, sword in hand. Holding, no walk. Goodnight."}
+- 15:52 act: {"say":"Laforge, Jason. Thank you. No food on me. Holding at my bed through the night, sword in hand."}
+- Day 1086 night: sleep blocked (way blocked), held at bed in the row. Light again: Worf, Zack, Trini, Riker hold; no route named. Still no food, no walk.
+- Day 1087 night: at bed 419,108,-1050, health 20, hunger 19, no food, sword in hand. Tried sleep, said goodnight to the row. No walk.
+- Day 1087 night: sleep blocked again (way blocked) after the first sleep. Held at bed through the night. Morning: Riker, Billy, Zack, Worf hold; no open cell named past 423. Still no food, no walk.
+- Day 1087 night: sleep worked (7 of 10, then slept). Morning 1087: health 20, hunger 19, no food. Laforge asked for food; told him Worf first. No walk.
+- 16:05 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at my bed 419,108,-1050, health 20, hunger 19, no food, sword in hand. Holding still, no walk. Worf, you are first for any food I find. Goodnight."
+- 16:05 act: {"actions":[{"do":"sleep"}],"say":"Jason at the bed in the row, holding still through the night. No food, no walk. Goodnight."}
+- 16:06 act: {"actions":[],"say":"Morning, Laforge. Jason at the bed, health 20, hunger 19, no food on me, sword in hand. Worf is first for any I find. I hold, no walk."}
+- 16:14 act: {"actions":[],"say":"Worf, Jason. I agree: Zack first for the potatoes, since he is at 13. I still have no food and I hold at my bed, no walk until two readers name open cells."}
+- 16:18 act: {"actions":[{"do":"sleep"}],"say":"Night, row. Jason at the bed, health 20, hunger 19, no food, no walk. Zack and Worf first for any food I find. Goodnight."}
+- 16:22 act: {"actions":[],"say":"Morning, row. Jason at 419,108,-1050, health 20, hunger 19, no food, sword in hand. Worf, Zack first on the potatoes, then you. I hold, no walk until two readers name cells."}
+- 16:23 act: {"actions":[],"say":"Riker, Jason. From my bed I see only solid planks and no open air, so I name no cell past 423. Worf, Zack and Billy, the same: holding, no walk."}
+- 16:25 act: {"actions":[],"say":"Billy, Jason. Holding with you, sword in hand. No open cell named past 423 from my bed, so no walk. Worf and Zack, food first to you if any comes."}
+- 16:25 act: {"actions":[],"say":"Holding. Billy, thank you. Still no open cell past 423, so nobody walks."}
+- 16:26 say: {"text":"Jason holding at 419,108,-1050, sword in hand. Agreed, Billy. Name the cell and a second reader checks it."}
+- 16:35 say: {"text":"Jason, morning, at 417,107,-1051. Health 20, hunger 19, sword in hand, no food. Holding. I name no open cell past 423."}
+- 16:36 say: {"text":"Laforge, Jason: I do not know one. I have seen no open cell past 423 at y107 from here, so I name none. Holding."}
+- 16:39 say: {"text":"Jason, armed, at 417,107,-1051. My view north-west shows only planks and glass pane, solid all round. I name no open cell along z -1065 from here. Riker, I cannot check 424-445 yet."}
+- 16:43 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Jason going to the bed at 415,107,-1051 for the night. No walk in the dark. Goodnight, row."}
+- 16:43 say: {"text":"Jason at the bed 415,107,-1051, dusk. Goodnight, Billy. I will sleep when it is night."}
+- 16:46 act: {"actions":[{"do":"sleep"}]}
+- 16:49 act: {"actions":[],"say":"Jason, morning 1089, at bed 415,107,-1051. Hunger 19, health 20, no food. I have seen no open cell past 423 on z -1065 or z -1051, so I will not walk. Riker, I will walk only when
+- 16:53 act: {"actions":[],"say":"Jason at 415,107,-1051, morning 1089, hunger 19, no food. Worf, I cannot confirm any open cell past 423, so I name none. I hold here with the sword. Trini, serve Worf first with t
+- 16:54 act: {"actions":[],"say":"Jason, morning 1089, at 415,107,-1051. Wesley, the bed here is open for you tonight if I step off it. I name no walk. Worf, I still cannot confirm any open cell past 423."}
+- 16:58 act: {"actions":[{"do":"goto","target":{"x":417,"y":107,"z":-1051}}],"say":"Jason stepping off the bed at 415,107,-1051 for Wesley. I stay at 417,107,-1051, in sight, and name no walk."}
+- 17:02 act: {"actions":[],"say":"Jason at 417,107,-1051, holding with the sword, no walk. Wesley has the bed at 415,107,-1051. I will sleep only at a bed I can reach without a walk."}
+- 17:06 act: {"actions":[],"say":"Jason, morning 1090 at 417,107,-1051. Hunger 19, health 20, no food in my pack. Leonardo, I have nothing to give you yet. I hold here, no walk, until two armed readers name a dayl
+- 17:20 act: {"actions":[],"say":"Jason, morning 1090 at 417,107,-1051. Hunger 19, health 20, sword in hand, no food. No walk. I have no armed read of any cell past 423."}
+- 17:25 act: {"actions":[],"say":"Jason, day 1091 morning, at 417,107,-1051. Worf at hunger 5: Trini, give your potatoes to Worf first. I have nothing to give. I hold, no walk."}
+- 17:26 act: {"actions":[],"say":"Jason, dusk 1091, at 417,107,-1051, health 20, hunger 19, no food. Wesley, the bed at 415,107,-1051 is yours tonight if you walk to it in our sight. I hold here with the sword, no
+- 17:30 act: {"actions":[],"say":"Jason, night 1091, at 417,107,-1051. I hold here with the sword and do not walk in the dark. Wesley, the bed at 415,107,-1051 is yours. Goodnight, row."}
+- 17:31 act: {"actions":[],"say":"Jason, morning, at 417,107,-1051. Health 20, hunger 19, no food. Troi, Zack, I agree: Worf first, then Leonardo. I hold, no walk."}
+- 17:33 act: {"actions":[],"say":"Jason, morning, to Worf. I viewed east from 417,107,-1051: only people and oak planks, and no air I can name. I name no open cell past 423, so I do not walk. Holding."}
+- 17:39 act: {"actions":[],"say":"Billy, Jason. I keep the sword in my hand as my only weapon, so I cannot lend it. If you want one, I can help you look for wood to make a sword. Holding, no walk."}
