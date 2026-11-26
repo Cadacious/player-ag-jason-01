@@ -46,3 +46,6 @@
 - 08:06 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, night 1063. Sleep blocked again. I try my bed 416,107,-1050 once more, with Zack and Billy near. No walk un
 - 08:06 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1051}},{"do":"sleep"}],"say":"Jason, night 1063. My bed was blocked, so I try the other white bed at 415,107,-1051. Zack and Billy in sight. No 
 - 08:10 act: {"actions":[],"say":"Jason, light 1063. Health 20, hunger 20, sword only, no food. I see only planks and solid east, no open cell named. Billy, Riker, Laforge: no walk until two armed readers name an 
+- 08:18 act: {"actions":[],"say":"Billy, I have seen no open cell past 423. My view here shows only planks and solid. Tell me the moment you see one, and Worf or Zack reads it too before anyone walks."}
+- 08:18 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, dusk 1063. No open cell named, so no walk. Going to bed 415,107,-1050 beside Billy. Worf, Zack: hold here u
+- 08:19 act: {"actions":[{"do":"sleep"}],"say":"Billy, I am sleeping here at 415,107,-1051 with Zack and Worf near. Hold where you are, no walk."}

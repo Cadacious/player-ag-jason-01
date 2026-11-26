@@ -1,3 +1,3 @@
-# Handoff, dusk 1059
+# Handoff, dusk 1063
 
-Health 20, hunger 20, wooden sword only, no food. No errand, no walk. At my bed 416,107,-1050, holding in sight of Billy, Worf and Zack. Thunder at dusk. No open cell past the planks has been named by anyone. Trini holds 2 potatoes for Leonardo, then Worf, then Zack. Zack is at hunger 14 and I have nothing to give him. Next at light: ask for named cells, two readers check, give nothing I do not have.
+Health 20, hunger 20, wooden sword only, no food. No errand, no walk. Sleeping at 415,107,-1051 (sleep worked) with Zack and Worf near; Billy near at the other bed. No open cell east past the planks has been named by anyone, so nobody walks. Trini holds 2 potatoes for Leonardo first. Next at light: ask again for named cells, two readers check, give nothing I do not have.
