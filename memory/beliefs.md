@@ -8,6 +8,7 @@
 - Hold with wait, not a rest intent. Waiting at the row for a named call costs only time.
 - Following Worf in his sight, and stopping when he stops, is the one way I have moved safely.
 - Day 1044: an intent of rest ended at once; a hold with wait and speech checks works better. Sleep at dusk worked at bed 416,107,-1050 with Billy and Zack near (day 1044).
+- Day 1050: holding at bed 416,107,-1050 in daylight with Worf, Billy and Zack in reach kept me safe; I kept the wooden sword rather than give it to Billy, and he accepted that. Slept at night at the bed.
 - Billy's rule (as told to me): walk only in daylight, with four in sight and two armed. Agreed on day 1041: no walk or break until Worf says yes and two readers confirm the exact cells.
 
 ## Methods that failed, and why
