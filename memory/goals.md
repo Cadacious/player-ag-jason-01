@@ -1,6 +1,6 @@
 # Goals
 
-Ranked, as of day 1050.
+Ranked, as of day 1054.
 
 1. Stay alive. Hold at my bed 416,107,-1050, in sight of the row. Never walk at night. Hold still when unsure of a cell.
 2. Keep fed. Pack holds only my wooden sword, no food. Call Zack at hunger 10 (promised). Call Billy at hunger 10.

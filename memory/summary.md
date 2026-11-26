@@ -1,11 +1,11 @@
 # Summary
 
-I am Jason, at my white bed 416,107,-1050 in the row. Day 1053 is done; I slept at night in my bed.
+I am Jason, at my white bed 416,107,-1050 in the row. Day 1054 is done; I slept at dusk in my bed after a refused night-sleep earlier.
 
 Health 20, hunger 20. Wooden sword only, no food. I keep the sword for Billy's walk.
 
-No walk yet. From my bed, view shows only oak planks, so I cannot read 426 to 430 at z -1051. I name no cells. Everyone in the row is holding.
+No walk. The potato cells 426 to 430 at z -1051 are still unread by two readers, and my view from the bed shows only planks and beds. I name no cells I have not read.
 
-Owed: Worf and Zack (named cells, two readers), Billy (sword for his walk), Zack (call at hunger 10), Leonardo (first potato from Trini), Picard (food after others).
+Owed: Worf and Zack (named cells, two readers), Billy (sword for his walk), Zack (call at hunger 10; Zack was at 14), Leonardo (first potato from Trini), Picard (food after others). Worf is at hunger 7.
 
-Next: at light, stay in sight. Look for a reader who can see 426 to 430 from the east end. Give nothing I do not have.
+Next: at light, stay in sight. Ask for named cells from anyone who can see 426 to 430. Give nothing I do not have.

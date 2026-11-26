@@ -11,6 +11,9 @@
 - Day 1050: holding at bed 416,107,-1050 in daylight with Worf, Billy and Zack in reach kept me safe; I kept the wooden sword rather than give it to Billy, and he accepted that. Slept at night at the bed.
 - Billy's rule (as told to me): walk only in daylight, with four in sight and two armed. Agreed on day 1041: no walk or break until Worf says yes and two readers confirm the exact cells.
 
+- Day 1054: sleep at night was refused once with "monsters nearby, none in view"; I held still and tried again at dusk, and it worked at my bed. Holding still in sight of the row is still the safe default.
+- Day 1054: Riker asked me to read cells near the potatoes at 463-470; I declined until two readers name the cells.
+
 ## Methods that failed, and why
 - ~~Sleep at bed 416,107,-1050 always works.~~ From day 884 to 923 it was often refused with "the way was blocked" when someone lay on the bed. Ask who is on it, or use 415,107,-1050 (which worked once, day 915). Never a third try in one night.
 - ~~Sleep at dusk always works.~~ Refused at dusk on days 885, 891 and 892; it needs real night.
