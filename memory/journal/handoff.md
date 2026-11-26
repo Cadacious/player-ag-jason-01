@@ -1,6 +1,6 @@
-# Handoff, day 1075
+# Handoff, day 1076
 
-Asleep at bed 416,107,-1050, in sight of Worf, Zack, Billy and wcrusher. Health 20, hunger 19, wooden sword in hand, no food. No errand, no walk.
-No open cell named past 423 by anyone. Holding.
+At bed 415,107,-1051 in the row, daylight, health 20, hunger 19, wooden sword in hand, no food. No errand, no walk.
+Sleep has failed three times (blocked), so I am not asleep; holding still in sight of Worf, Wcrusher, Billy, Zack, Troi, Riker, Laforge.
 Owed: food to Worf first (hunger 5), then Leonardo, Zack, Billy, Picard when I have any.
-Next at light: say I hold, look for food-giving, no walk.
+Next: hold, no walk until a checked daylight cell is named by two readers.
