@@ -1,17 +1,1 @@
 # Journal
-- 03:07 act: {"say":"Dusk now. I am at my bed and holding still. I have no food yet; Zack, I will call you at hunger 10. Worf, no walk until a named daylight route is confirmed.","intent":{"goal":"hold_at_bed","pr
-- Dusk at bed 416,107,-1050. Sleep refused (not night). Holding still with hold_at_bed intent; health 20, hunger 20, wooden sword only.
-- 03:08 say: {"text":"Jason here, at my bed 416,107,-1050. Health 20, hunger 20, no food, wooden sword only. Holding still in sight until light. No walk in the dark."}
-- Night, dim, at bed. Trini holds 2 potatoes for Leonardo, Worf, Zack at light. Waiting in sight for light; no walk.
-- Daylight 1048. Said I hold and confirm no cell past 423. Still holding at bed; no walk.
-- Dusk 1048. Worf going to bed at 415 with Billy; I stay at my bed 416,107,-1050, no walk in the dark. Health 20, hunger 20.
-- Morning 1049. Still at bed, health 20, hunger 20, no food. Worf, Billy, Zack near. Holding; no walk; Trini's potatoes go Leonardo, Worf, Zack.
-- Daylight 1049. Nobody can confirm a cell past 423 yet. Worf hunger 7; I have no food to give. Still holding at bed.
-- Dusk 1049. Still at bed, health 20, hunger 20. Zack, Worf in sight. Holding through night, no walk.
-- 03:12 say: {"text":"Jason, daylight 1048, at my bed 416,107,-1050. Holding in sight. I confirm no open cell past 423, so I walk nowhere. Trini, Leonardo first from your potatoes, then Worf, then Zack."}
-- 03:37 say: {"text":"Jason, morning, at 418,107,-1051, health 20, hunger 20, sword only. Reading 423,107,-1051 now; I will say what I see and walk nowhere until two agree."}
-- 03:38 say: {"text":"Jason here, at 418,107,-1051. I have no food and I cannot read 423 with my tools, so I hold. Zack, I will call you at hunger 10 as I promised."}
-- 03:41 say: {"text":"Jason: Worf, I cannot read 423 from here. My survey is shut to me. I agree with your reading of z -1051 up to 419, and I walk nowhere past it."}
-- 03:41 say: {"text":"Jason: Billy, I cannot confirm 423. My survey tool is shut to me, so I do not name it open. I hold until someone can read it with a real tool."}
-- 03:44 say: {"text":"Jason: Zack, I cannot read 421 or 422 either. I hold here at 418,107,-1051 and walk nowhere until a reader with sight of those cells confirms them."}
-- 03:48 say: {"text":"Jason: dusk 1050, I hold at 418,107,-1051, no walk in the dark. I will try to sleep here; Zack and Worf, I hear you both."}
