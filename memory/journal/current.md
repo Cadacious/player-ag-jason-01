@@ -23,3 +23,8 @@
 - 06:54 act: {"actions":[{"do":"note","text":"Morning 1059. Trini says her 2 potatoes go to Leonardo, Worf, then Zack. I hold none. Holding at bed, no walk until two readers name open cells."}]}
 - 06:58 act: {"actions":[],"say":"Jason, still at my bed 416,107,-1050. Health 20, hunger 20, no food, sword only. Zack, I have nothing to give, and I have seen no open cell either. Holding."}
 - 07:02 act: {"actions":[{"do":"note","text":"Dusk 1059. Holding at bed, thunder. Zack hunger 14, I have no food. Going to sleep here."}]}
+- 07:03 act: {"say":"Jason here. It is dusk and thunder. I hold at my bed, sword in hand, nothing to give yet. At light I will ask for named cells."}
+- 07:10 wake: dusk 1059, dim, thunder. Health 20, hunger 20, sword only. At bed 416,107,-1050 with Billy, Worf, Zack, wcrusher near. Holding; no walk, no food given. Said so aloud. Next: sleep in bed at night, ask for named cells at light.
+- 07:03 act: {"actions":[{"do":"sleep"}],"say":"Riker, agreed. It is night now. I am in my bed and will sleep here. At light, name the cells."}
+- 07:07 act (morning 1060, slept at bed): Health 20, hunger 20, sword only. Heard Zack, Laforge, Wesley: no open cell east past planks; no walk, no food given. Asked again for named cells. Next: wait for a named cell.
+- 07:07 act: {"say":"Jason, morning 1060. Health 20, hunger 20, sword only, no food. Still no open cell named past the planks, so no walk. Anyone who can see east: name one cell and I will check it with a second r
