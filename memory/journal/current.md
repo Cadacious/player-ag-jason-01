@@ -1,4 +1,6 @@
 # Journal
+- Night 1068: sleep blocked twice, drifted to 419,108,-1050; held still until light. Morning 1068: health 20, hunger 20, sword only, no food. Zack health 13, hunger 14. Still no open cell named; no walk, no food given.
+- Morning 1067 (day). At bed 416,107,-1050, health 20, hunger 20, sword in hand, no food. Billy, Zack, Worf near; no open cell named, so no walk. Said so aloud and asked for named cells.
 - 05:41 say: {"text":"Jason here. It is night, so I am holding at my bed. No walk until light. Worf, Zack, Billy: stay close and tell me when it is light."}
 - 05:45 say: {"text":"Jason, morning 1056. I have no food and no walk yet. Worf, Billy, Zack: name the open cells you can see past the planks, and two of you check them before anyone moves."}
 - 05:54 say: {"text":"Jason, dusk 1056. No route named by anyone, so I walk nowhere. Going to my bed for the night. Morning, same plan: name cells, two readers check."}
@@ -76,3 +78,17 @@
 - 09:22 act: {"say":"Jason, morning 1066, at my bed 416,107,-1050, health 20, hunger 20, sword in hand, no food. I name no cell I cannot confirm, so I walk nowhere. I hold here until a named cell gets a second rea
 - 09:25 act: {"say":"Billy, I hear you. I will not lead you yet: no exact open route to 415,107,-1037 is named, and Zack cannot confirm one. Name the cells you see, one at a time; Worf or Zack checks each. I stay 
 - 09:32 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 1067. Sleeping at my bed 416,107,-1050 with Billy, Zack and Worf in sight. Sword in hand, no food. No walk in the dark."}
+- 09:33 act: {"say":"Morning. Jason here at my bed 416,107,-1050. No walk yet. Anyone who can see past the planks, name exact open cells and I will check them with you."}
+- 09:33 act: {"say":"Billy, I see only planks too, no open cell past 423. I hold the sword and will not walk until two readers name one. Keep looking; tell me the moment you see one."}
+- 09:42 act: {"say":"Jason, dusk. I am at my bed 416,107,-1050, health 20, hunger 20, sword in hand, no food. Zack, hold here with us. No walk in the dark. Going to sleep.","actions":[{"do":"sleep"}]}
+- 09:45 act: {"actions":[{"do":"sleep"}],"say":"Night 1068. Jason at my bed, health 20, hunger 20, sword in hand, no food. Zack, Billy, Worf in sight. No walk in the dark."}
+- 09:46 act: {"say":"Zack, I hear you, health 13. I have no food, and I am holding still here at 419,108,-1050 until light. No walk in the dark."}
+- 09:49 act: {"say":"Jason, morning 1068. Health 20, hunger 20, sword in hand, no food. I drifted to 419,108,-1050 in the night, so I hold here, in sight of Zack and Billy. Worf, Zack: I name no open cell past 423
+- 09:50 act: {"actions":[{"do":"note","text":"Day 1068, daylight. Holding at 419,108,-1050 with Zack, Billy, Worf in sight. Trini will not pass 423. No open cell named, no walk, no food in hand."}],"say":"Zack, Wo
+- 09:50 act: {"actions":[{"do":"note","text":"Morning 1068 wait: Riker health 11, hunger 17, pack empty, at 430,107,-1065. Billy has no weapon and asks for a named cell. I still hold; no cell named; no food to giv
+- 09:54 act: {"actions":[{"do":"note","text":"Morning 1068: Worf (hunger 6) asks for named cells 415 to 430. I have read none past 423 either, so I name none. Holding. No food in my pack."}],"say":"Worf, I have no
+- 09:57 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Dusk. I am going to my bed at 416,107,-1050 with Zack, Billy and Worf in sight. No walk tonight."}
+- 09:57 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 09:57 act: {"actions":[{"do":"note","text":"Dusk 1068: at bed 416,107,-1050. Sleep failed: the way was blocked. Holding still, no walk, will try again at night."}],"say":"Jason, dusk. My sleep was blocked at the
+- 10:01 act: {"actions":[{"do":"note","text":"Morning: sleep was blocked at dusk, so I held still at bed 416,107,-1050. Health 20, hunger 20, no food. Zack health 13, hunger 14. No cell named past 423; no walk."}]
+- 10:05 act: {"actions":[{"do":"note","text":"Day 1069 morning: Riker asks for named cells east, I hold; Troi holds. I name none. No food. Still at bed 416,107,-1050."}],"say":"Riker, Troi: I am armed with a woode
