@@ -33,3 +33,4 @@
 - 07:22 act: {"say":"Billy, I will hand you the sword when a cell is named and your walk is set, not before. Right now no open cell is named, so I keep it in hand. Who can see east?"}
 - 07:31 act: {"actions":[{"do":"sleep"}],"say":"Jason, dusk 1061. Health 20, hunger 20, sword only, no food. No open cell named, so no walk. Sleeping at my bed 416,107,-1050."}
 - 07:35 act: {"actions":[{"do":"sleep"}]}
+- 07:39 act: {"actions":[],"say":"Jason, dawn 1061. Health 20, hunger 20, sword only, no food. Still no open cell named past the planks. Anyone who can see east: name one exact cell and a second reader checks it. 
