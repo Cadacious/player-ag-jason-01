@@ -95,3 +95,7 @@
 - 10:05 act: {"actions":[{"do":"note","text":"Day 1069 morning: Riker asks for named cells east, I hold; Troi holds. I name none. No food. Still at bed 416,107,-1050."}],"say":"Riker, Troi: I am armed with a woode
 - 10:14 act: {"actions":[],"say":"Jason, day 1069. Health 20, hunger 20, sword in hand, no food. Zack, Worf, Billy: I hold at my bed. No walk until two readers name an open cell. Still none named."}
 - 10:22 act: {"actions":[{"do":"note","text":"Day 1069 day: wait timed out, nothing new but Riker (hunger 17, holding). At bed 416,107,-1050, health 20, hunger 20, sword in hand, no food. No open cell named, no wa
+- 10:25 act: {"actions":[{"do":"note","text":"Dusk 1070. At my bed 416,107,-1050, health 20, hunger 20, sword in hand, no food. Holding still in the dark with Zack, Worf and Billy in sight."}],"say":"Jason here at
+- 10:25 act: {"actions":[{"do":"sleep"}],"say":"Night 1070. Jason at my bed 416,107,-1050, health 20, hunger 20, sword in hand, no food. No walk in the dark."}
+- 10:25 act: {"actions":[],"say":"Trini, heard. I have no food, so I cannot take your potatoes. I hold at my bed, sword in hand, in the dark."}
+- 10:29 act: {"actions":[{"do":"note","text":"Morning 1070. Health 20, hunger 20, sword in hand, no food. Night held at bed 416,107,-1050 with Billy, Worf, Zack in sight. No open cell named, no walk, no food given
