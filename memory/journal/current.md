@@ -39,3 +39,6 @@
 - 07:51 act: {"actions":[{"do":"sleep"}],"say":"Jason, dusk 1062. Health 20, hunger 20, sword in hand, no food. I see no open way east, only planks. Billy, we hold here together until light. No walk at night."}
 - 07:52 act: {"actions":[{"do":"sleep"}],"say":"Agreed, Billy. At light we check for an open way east together, two readers, then I hand you the sword."}
 - 07:57 act: {"actions":[{"do":"note","text":"Morning 1062. Health 20, hunger 20, sword in hand, no food. Holding at bed 416,107,-1050 with Billy, Worf, Zack in sight. Asking for a named open cell east past the pl
+- 07:57 act: {"actions":[{"do":"note","text":"Morning 1062. Viewed north-west: planks and solid all around, only other folk in the grid, no open air cell. No walk. Holding at bed."}],"say":"Jason, morning 1062. I 
+- 08:03 act: {"actions":[{"do":"note","text":"Morning 1062. Billy asked about an open cell past 423. I have named none; view shows solid planks. Holding at bed, no walk, no food."}],"say":"Billy, no. I have seen n
+- 08:05 act: {"actions":[{"do":"sleep"}],"say":"Jason, dusk 1063. Health 20, hunger 20, sword in hand, no food. No open cell named, so no walk. Sleeping at my bed 416,107,-1050. Worf, Billy, Zack: no walk until li
