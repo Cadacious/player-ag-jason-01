@@ -15,3 +15,7 @@
 - 04:33 act: {"actions":[{"do":"note","text":"Slept at the bed in the row, day 1124. Woke to the row holding, still no named daylight route past 423. Health 5, hunger 17, no food."}],"say":"Jason, awake at the bed
 - 04:35 act: {"actions":[{"do":"note","text":"Day 1124, light turning. Still holding at the bed in the row, health 5, hunger 17, no food. Riker is still looking for food."}],"say":"Riker, thank you. I hold here wi
 - 04:38 act: {"actions":[{"do":"note","text":"Morning, day 1124. Holding at the bed in the row with my wooden sword. Nobody has food yet, and no daylight route is named, so I wait."}],"say":"Jason here, I hold in 
+- 04:43 act: {"actions":[],"say":"I hold at my bed, Worf. No food yet. I will walk only on a daylight route the two of us can see."}
+- 04:47 act: {"actions":[{"do":"note","text":"Night 1125 at the bed, 416,107,-1050. Health 5, hunger 17, no food. Holding still in the row; no walk at night. Worf keeps the stick for Riker until light."}]}
+- 04:51 act: {"actions":[{"do":"note","text":"Day 1125 light. Still at the bed 416,107,-1050, health 5, hunger 17, no food. Holding with the row; no daylight route named yet."}],"say":"Jason here. Morning. I hold 
+- 04:59 act: {"actions":[{"do":"note","text":"Dusk 1125, thunder. At the bed 416,107,-1050 with the row in sight. Health 5, hunger 17, no food. Holding still until light; no walk at night."}]}
