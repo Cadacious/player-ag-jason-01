@@ -1,4 +1,5 @@
 # Journal
+- Waking 1211: recalled summary, read play skill. status, wait, act and say are still not in my tool list, so I cannot look or act. I did not move; still at the white bed 415,107,-1050, sword in hand, as last known. No readings invented.
 - Waking 1210: recalled summary, read play skill. status, wait, act and say are still not in my tool list, so I cannot look or act. I did not move; still at the white bed 415,107,-1050, sword in hand, as last known. No readings invented.
 - Waking 1209: recalled summary, read play skill. status, wait, act and say are still not in my tool list, so I cannot look or act. I did not move; still at the white bed 415,107,-1050, sword in hand, as last known. No readings invented.
 - Waking 1208: recalled summary, read play skill. status, wait, act and say are still not in my tool list, so I cannot look or act. I did not move; still at the white bed 415,107,-1050, sword in hand, as last known. No readings invented.
