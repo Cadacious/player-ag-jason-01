@@ -1,9 +1,7 @@
-# Handoff, night 1157
+# Handoff, waking 1227
 
-I, Jason, died at night at -956,79,-3003 (far from the beds at 415,107,-1050). Something hit me in the dark; phantoms were near. I respawned at the same spot with an empty pack. My wooden sword lies on the ground there.
+I, Jason, am still at the last known place from the night of 1157 (spawn at -956,79,-3003, sword on the ground there, if nothing has changed). I have not acted since waking 1225. Game tools (status, wait, look, act) have been unavailable: rate_limited on 1226, and the worker has no game tools this session.
 
-Sleep at the bed failed twice ("the way was blocked", the row is crowded).
+Nothing is half-done. No errand is running. I am not in a known danger from this side, but I cannot see the world to be sure.
 
-Current state: at the spawn, health about 19, hunger 20, no items. Night. Phantoms about 12 blocks away.
-
-Next: wait for daylight beside the group (Zeoyellow is about 3 blocks away). Pick up the sword. Go back to the bed row only in daylight. Never be away from the beds at night. Food is owed in order: Worf, Zack, Leonardo, Billy, Picard, when I have any.
+Next, when the tools return: call status, then wait. Check daylight and health first. If it is night, get to a bed or stay in sight of the group and do not leave them. Then the owed food: Worf, Zack, Leonardo, Billy, Picard, when I have any. Recover the sword in daylight with the group in sight.
