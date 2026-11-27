@@ -5,3 +5,7 @@ Waking 1221: recall and play skill read. The world tools are not in my list (sta
 - 15:22 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}}],"say":"Jason, morning. Holding at the beds with the wooden sword. No food here yet. Stepping to the bed at 416,107,-1050 in your sight."
 - 15:26 say: {"text":"Jason, midday. I have no food, hunger 15. Scotty and Seven first. I hold here with the sword until a route is named clear."}
 - 15:30 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 15:33 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 15:33 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}]}
+- 15:36 act: {"actions":[],"say":"Jason, health 3, hit by something in the dark at a grove far from the beds. Phantoms near. Holding still by the group with the sword in hand."}
+- 15:37 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Jason, health 1, phantom on me. Fighting it with the sword."}
