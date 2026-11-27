@@ -38,6 +38,7 @@
 - Day 1130: sleep was refused three times in the night (way blocked), then worked at dusk. Trini's chest at 433,107,-1051 is empty of potatoes. Worf is the most urgent for food.
 
 ## Corrected or struck
+- Day 1138: holding at bed 416,107,-1050 all day with the row in reach worked again. Sleep at dusk worked. Still no checked cell past 423 and no food named. Food is the limit. Next curiosity: a checked daylight cell or food from Worf or Trini. Tell Riker, Trini and Laforge first.
 - Day 1128: sleep at dusk at my bed 416,107,-1050 worked with the row in reach, after a day of holding. Holding still remains the safe default; no checked daylight cell past 423 has been named yet.
 - ~~My bed is 415,107,-1051 and I sleep at 416,107,-1050.~~ Both are near the row; the bed I use is 416,107,-1050, with 415,107,-1050 as the alternate.
 - ~~Billy died for good on day 765.~~ He was alive again on day 776. He was shot again at night on day 912 and woke at the spawn at 417,107,-1036.

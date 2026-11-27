@@ -1,6 +1,6 @@
 # Goals
 
-Ranked, as of day 1137.
+Ranked, as of day 1138.
 
 1. Stay alive. Hold at my bed 416,107,-1050 in sight of the row. Health 5, avoid fights. Never walk at night. Reason: health is low and no route is checked.
 2. Get food to Worf first (hunger 3), then Zack, Leonardo, Billy, Picard, when I have any. Reason: I have none now.
