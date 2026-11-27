@@ -13,3 +13,5 @@
 - 04:29 act: {"actions":[{"do":"note","text":"Day 1124. Zack holds in sight of Worf and Wesley. I still hold at 418,107,-1051, health 5, hunger 17, no food."}],"say":"Zack, understood. I hold here. Thank you for t
 - 04:33 act: {"actions":[{"do":"note","text":"Day 1124 night, dark. Holding at 418,107,-1051 by the bed. Wrote the handoff. Trying to sleep."}]}
 - 04:33 act: {"actions":[{"do":"note","text":"Slept at the bed in the row, day 1124. Woke to the row holding, still no named daylight route past 423. Health 5, hunger 17, no food."}],"say":"Jason, awake at the bed
+- 04:35 act: {"actions":[{"do":"note","text":"Day 1124, light turning. Still holding at the bed in the row, health 5, hunger 17, no food. Riker is still looking for food."}],"say":"Riker, thank you. I hold here wi
+- 04:38 act: {"actions":[{"do":"note","text":"Morning, day 1124. Holding at the bed in the row with my wooden sword. Nobody has food yet, and no daylight route is named, so I wait."}],"say":"Jason here, I hold in 
