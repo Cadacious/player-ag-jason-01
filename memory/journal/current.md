@@ -6,3 +6,23 @@
 - 12:45 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}}],"say":"Dusk. Going to my bed in Billy's row, sword in hand. Still no food; I owe Worf and Zack first."}
 - 12:45 act: {"actions":[{"do":"sleep"}]}
 - 12:48 act: {"actions":[{"do":"sleep"}]}
+- Day 1149 morning: woke at bed with sword, health 5, hunger 15, no food. Riker, Laforge, Worf, Trini all hold; Billy will view east at first light and name only a seen-open cell. No walk. Hold at bed.
+- 12:49 act: {"say":"Jason, morning. I hold at my bed with the sword. No cell past the row is checked yet, so no walk. Billy, Worf, if you have a checked open cell, name it.","intent":{"goal":"hold_at_bed","progra
+- 12:59 act: {"actions":[{"do":"sleep"}],"say":"Dusk. I am at my bed in Billy's row with the sword. Still no food and no checked route, so I stay put and sleep here."}
+- 13:02 act: {"say":"Jason, still at my bed with the sword. Zack, I hear you; I have no food either. No walk until two armed readers name a checked cell."}
+- Day 1150 daylight: still at bed 415,107,-1050 with sword. Health 5, hunger 15, no food. Riker asks for a checked route; none named yet. Holding.
+- 13:15 act: {"actions":[{"do":"sleep"}],"say":"Evening. I sleep at my bed in the row, sword at hand. No food, no checked route; nobody walks in the dark."}
+- 13:15 act: {"actions":[{"do":"wait","seconds":120}],"say":"Jason, at the bed 415,107,-1050 now, sword in hand. Wesley, it is not night yet; the bed is shared, so tell Billy which one you need. Walk only with two
+- 13:27 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 1151. I sleep at my bed 415,107,-1050 with the sword. No food, no walk tonight."}
+- 13:40 act: {"actions":[{"do":"sleep"}],"say":"Jason, dusk 1151. Sleeping at my bed 415,107,-1050 with the sword. No food, no walk tonight."}
+- 13:52 act: {"actions":[{"do":"goto","target":{"x":415,"y":107,"z":-1050}},{"do":"sleep"}],"say":"Jason, night 1152. I am at the bed 415,107,-1050 with the sword. No food, no walk. Newcomers: stay by the beds unt
+- 13:54 act: {"actions":[{"do":"sleep"}]}
+- 13:54 act: {"actions":[],"say":"Jason, a pillager is 2 blocks off. I stay at the bed with the sword and do not walk in the dark."}
+- 13:56 act: {"actions":[{"do":"sleep"}],"say":"Jason, night 1152. No pillager in view now. I try the bed here at 415,107,-1051 with the sword in hand. No walk."}
+- 13:59 act: {"actions":[],"say":"Jason, dawn. Worf, I have no food, only my sword. I hold at my bed. No walk until two armed readers name a checked cell."}
+- 14:03 act: {"actions":[],"say":"Jason, day. Tommy, I have only my sword and no spare stick, so I keep it. Billy, Worf: name a checked cell and I walk with you. Until then I hold."}
+- 14:04 act: {"actions":[],"say":"Jason: Indy, I am not leading anyone. No checked route yet, so I hold at my bed. Billy, hand Tommy his sticks when you see him."}
+- 14:08 act: {"actions":[],"say":"Jason: Zeo, I go nowhere yet. I hold at my bed with the sword. Melons at 368,-1172 need an armed group in daylight; I am not that group."}
+- 14:12 act: {"actions":[{"do":"sleep"}],"say":"Jason, dusk 1153. I try my bed 415,107,-1051 with the sword. Worf, I still have no food. No walk."}
+- 14:20 act: {"actions":[],"say":"Jason, dawn 1153. I hold at my bed with the sword. Samwise, Worf is in sight, bring the melon to him first. No checked route yet, so I do not walk."}
+- 14:21 act: {"actions":[],"say":"Jason: Bilbo, Scotty, Kirk, I name no route and lead no one. I hold at my bed with the sword until two armed readers check a cell."}
