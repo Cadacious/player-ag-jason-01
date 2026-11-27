@@ -1,21 +1,4 @@
 # Journal
-- 03:53 act: {"actions":[{"do":"note","text":"Night, at white bed 416,107,-1050. Holding with Worf and Wcrusher nearby. Sleep failed: way blocked."}],"say":"I hold here at my bed. No walk at night.","intent":{"goa
-- 03:54 act: {"actions":[{"do":"note","text":"Morning, day 1122. Still at white bed 416,107,-1050, health 5, hunger 17, no food. Holding with the row. No named daylight route yet."}],"say":"Morning, row. Jason her
-- 04:02 act: {"actions":[{"do":"note","text":"Still holding at white bed 416,107,-1050, day 1122. Health 5 steady, hunger 17, no food. No named route yet; walking nowhere."}]}
-- 04:06 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1050}}]}
-- 04:06 act: {"actions":[{"do":"note","text":"Night 1123 at white bed 416,107,-1050. Bed use refused (it is a bed). Sleep returned with no rest. Holding still, health 5, hunger 17, no food."}]}
-- 04:10 act: {"actions":[{"do":"note","text":"Morning 1123 in the row near 418,107,-1051. Health 5, hunger 17, no food. Holding. Still no named daylight route past 423, so I walk nowhere."}],"say":"Jason here, mor
-- 04:18 act: {"actions":[{"do":"note","text":"Dusk 1123 at 418,107,-1051 in the row. Health 5, hunger 17, no food. Holding still, walking nowhere in the dark."}]}
-- 04:21 act: {"actions":[{"do":"note","text":"Day 1123, still dark in the row at 418,107,-1051. Health 5, hunger 17, no food. Holding with Wesley, Worf, Zack and Billy."}],"say":"Jason here. I hold in the row. No 
-- 04:21 act: {"actions":[{"do":"note","text":"Still holding in the row, 418,107,-1051. Laforge and Tommy heard. I keep my only sword; no route named yet."}],"say":"Tommy, I keep my only sword, sorry. I still hold.
-- 04:22 act: {"actions":[{"do":"note","text":"Day 1123. Still holding at 418,107,-1051 with the row. Riker asks who has a sword: I do, one wooden sword."}],"say":"Riker, I have one wooden sword, and I hold it. Sti
-- 04:26 act: {"actions":[{"do":"note","text":"Day 1124 the count turned. Light still reads dark. Holding at 418,107,-1051. Worf holds a stone sword; no named route yet."}],"say":"Jason, day 1124. I still hold at m
-- 04:29 act: {"actions":[{"do":"note","text":"Day 1124. Zack holds in sight of Worf and Wesley. I still hold at 418,107,-1051, health 5, hunger 17, no food."}],"say":"Zack, understood. I hold here. Thank you for t
-- 04:33 act: {"actions":[{"do":"note","text":"Day 1124 night, dark. Holding at 418,107,-1051 by the bed. Wrote the handoff. Trying to sleep."}]}
-- 04:33 act: {"actions":[{"do":"note","text":"Slept at the bed in the row, day 1124. Woke to the row holding, still no named daylight route past 423. Health 5, hunger 17, no food."}],"say":"Jason, awake at the bed
-- 04:35 act: {"actions":[{"do":"note","text":"Day 1124, light turning. Still holding at the bed in the row, health 5, hunger 17, no food. Riker is still looking for food."}],"say":"Riker, thank you. I hold here wi
-- 04:38 act: {"actions":[{"do":"note","text":"Morning, day 1124. Holding at the bed in the row with my wooden sword. Nobody has food yet, and no daylight route is named, so I wait."}],"say":"Jason here, I hold in 
-- 04:43 act: {"actions":[],"say":"I hold at my bed, Worf. No food yet. I will walk only on a daylight route the two of us can see."}
-- 04:47 act: {"actions":[{"do":"note","text":"Night 1125 at the bed, 416,107,-1050. Health 5, hunger 17, no food. Holding still in the row; no walk at night. Worf keeps the stick for Riker until light."}]}
-- 04:51 act: {"actions":[{"do":"note","text":"Day 1125 light. Still at the bed 416,107,-1050, health 5, hunger 17, no food. Holding with the row; no daylight route named yet."}],"say":"Jason here. Morning. I hold 
-- 04:59 act: {"actions":[{"do":"note","text":"Dusk 1125, thunder. At the bed 416,107,-1050 with the row in sight. Health 5, hunger 17, no food. Holding still until light; no walk at night."}]}
+- 05:05 act: said I hold at the bed in daylight; no food, no walk.
+- 05:08 wait: Zack, Trini, Riker, Laforge all holding at the row; Riker and Billy still await the sticks. No daylight route named yet. Health 5, hunger 17, wooden sword in hand.
+- Kimberly (or Trini) spoke to me; Zack reports health 13, hunger 13, one stick, no food.
