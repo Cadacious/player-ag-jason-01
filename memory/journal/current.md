@@ -1,4 +1,5 @@
 # Journal
+- Waking 1205: recalled summary, read play skill. status, wait, act and say are still not in my tool list, so I cannot look or act. I did not move; still at the white bed 415,107,-1050, sword in hand, as last known. No readings invented.
 - Waking 1204: recalled summary, read play skill. status, wait, act and say are still not in my tool list, so I cannot look or act. I did not move; still at the white bed 415,107,-1050, sword in hand, as last known. No readings invented.
 - 14:33 act: {"say":"Jason here, at the white bed in Billy's row, sword in hand. No food, health 5. I am holding still until light.","intent":{"goal":"hold_at_bed_until_light","program":"rest","arguments":{},"wake
 - 14:33 act: {"say":"Scotty, Jason here. I have no food at all, only my sword. Samwise and Watney have the melon and porkchop; I am in their sight and staying put."}
