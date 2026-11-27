@@ -1,7 +1,6 @@
-# Handoff, day 1090
+# Handoff, day 1113 night
 
-At 417,107,-1051 with no bed. Wesley has the bed at 415,107,-1051 (I stepped off for him). Health 20, hunger 19, wooden sword in hand, no food, no walk.
-Night 1090 was spent holding in the row. I did not sleep.
-Owed: food to Zack, then Worf, then Leonardo, Laforge, Billy, Picard when I have any.
-Route: none confirmed past 423. Walk only when two armed readers name exact open daylight cells.
-Next: at night, sleep at a bed I can reach without walking. If none, hold still in sight of the row. Do not repeat a failed try at once.
+At bed 416,107,-1050 in the row, health 5, hunger 17, wooden sword in hand, no food. Slept at dusk 1113; days_since_sleep reset to 0.
+Holding with Worf, Billy, Zack and Wesley in sight. No walk. No open cell past 423 is confirmed by two armed readers.
+Owed food, in order: Worf, Zack, Leonardo, Billy, Picard, when I have any.
+Next: at light, wait for two armed readers to name an open daylight cell before any walk. Do not repeat a failed try at once.

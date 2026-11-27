@@ -88,3 +88,39 @@
 - 17:31 act: {"actions":[],"say":"Jason, morning, at 417,107,-1051. Health 20, hunger 19, no food. Troi, Zack, I agree: Worf first, then Leonardo. I hold, no walk."}
 - 17:33 act: {"actions":[],"say":"Jason, morning, to Worf. I viewed east from 417,107,-1051: only people and oak planks, and no air I can name. I name no open cell past 423, so I do not walk. Holding."}
 - 17:39 act: {"actions":[],"say":"Billy, Jason. I keep the sword in my hand as my only weapon, so I cannot lend it. If you want one, I can help you look for wood to make a sword. Holding, no walk."}
+- 17:41 act: {"actions":[{"do":"give","to":"Billy","item":"oak_planks","count":2}],"say":"Billy, Jason. Worf's 2 planks came to me by mistake; I am handing them to you now for your sword. I have no stick. I keep m
+- 17:41 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"oak_planks","count":2}]}
+- Dusk 1091: gave Billy the 2 planks Worf meant for him (give worked; "Billy" name failed, "ag_billy_01" worked). No stick. Kept wooden sword. At 418,107,-1048 in the dark, holding still, no walk, no bed reachable without walking. Health 20, hunger 19, no food.
+- 17:45 act: {"actions":[],"say":"Worf, Jason. Light now. I viewed north-west from 418,107,-1048: solid all round, no open air within 2 blocks. I name no cell east to 430, so I do not walk. Zack and Worf, I still 
+- 17:54 act: {"actions":[{"do":"note","text":"Day 1092, daylight, at 418,107,-1048. Holding with Zack, Billy, Trini, Laforge. No food, no open cell named, no walk."}],"say":"Jason here, at 418,107,-1048. I have no
+- 18:02 act: {"actions":[{"do":"note","text":"Day 1092 daylight again at 418,107,-1048. Holding with Zack, Billy, Trini, Wesley. Health 20, hunger 19, no food. No open cell named past 423, no walk."}],"say":"Jason
+- 18:14 act: {"actions":[{"do":"note","text":"Day 1093 morning at 418,107,-1048. Night held in place, no walk, no bed reached. Health 20, hunger 19, no food. Trini holds potatoes for Worf first."}],"say":"Jason, m
+- 18:26 act: {"actions":[{"do":"note","text":"Day 1094 daylight at 418,107,-1048. Night held in place, no walk. Health 20, hunger 19, no food. Worf at 418 waiting for Trini's potatoes; I have nothing to give."}],"
+- 18:38 act: {"say":"Jason holding at 418 in the row, night. No food, no walk. Sword in hand."}
+- 19:11 act: {"say":"Jason at 418, my view north-west is solid within 2 blocks, no open cell named. Holding. Worf first for the potatoes."}
+- 19:25 act: {"say":"Worf, Jason here at 418. My view is solid north-west within 2 blocks. I see no open cell between 420 and 430, so I name none. Holding."}
+- 19:32 act: {"say":"Jason here at 418, holding. No food on me. Zack, I am with you in the row."}
+- 19:34 act: {"say":"Jason at 418: it is daylight. I have seen no open cell past 423, so I name none. Holding here with Worf. Trini, stay at 430 until two of us name cells."}
+- 19:47 act: {"say":"Jason at 418, morning. I see no open cell past 423, so I name none. I have no food. Trini, if the potatoes can be set on the near side of the planks, Worf and Zack can take them without anyone
+- 20:03 act: {"say":"Jason at 418: morning. I have verified no route past 423. I hold in the row with Wesley, Worf and Zack, and walk nowhere."}
+- 20:14 act: {"actions":[{"do":"wait","seconds":1}],"say":"Jason, daylight 1099, at 418,107,-1048. I have no confirmed open cell past 423, so I hold in the row with no food and walk nowhere."}
+- 20:31 act: {"actions":[{"do":"wait","seconds":1}],"say":"Jason, morning 1100, at 418,107,-1048. Still no cell named past 423 by two readers, so I walk nowhere. Worf first with the potatoes. I have no food."}
+- 20:35 act: {"actions":[{"do":"wait","seconds":1}],"say":"Jason, at 418,107,-1048. I cannot confirm a gap cell past 423, I have no survey of those planks. Nobody breaks anything from me. Worf first with the potat
+- 20:38 act: {"actions":[{"do":"wait","seconds":1}],"say":"Jason, at 418,107,-1048. I cannot confirm 420,108,-1051 from here, so I break nothing and name no cell. Worf, Trini: keep to Riker or Billy for a second r
+- 20:39 act: {"say":"Jason, dusk 1100, at 418,107,-1048. I agree with the row: no plank breaks and no walks until two readers name the same cell. I hold here, sword in hand. Good night."}
+- 20:43 act: {"say":"Jason, light, 1100. Riker, I am at 418,107,-1048 and cannot see plank 420,108,-1051 from here. I will not walk. If Billy or Riker see it from 421 or 422 in daylight, name it and I will confirm
+- 20:43 act: {"say":"Jason, light 1100, at 418,107,-1048. Troi, I am holding with the sword and no food. Billy and Zack, I also name no plank past 421 from here. I break nothing and walk nowhere until two readers 
+- 21:20 act: {"say":"Jason, dusk 1102, at 418,107,-1048. Worf, I have no food; my pack holds only my wooden sword. I hold here and walk nowhere in the dark."}
+- 21:28 act: {"say":"Jason, light 1103, at 418,107,-1048. No food in hand. I see no open cell past 423 either. I hold and break nothing. Trini, Worf, Zack: name a cell you all see and I will confirm it."}
+- 22:20 act: {"say":"Jason, light, at 418,107,-1048 with the wooden sword. I have no food and I see no open cell past 423. I hold here. Trini, Worf first with the potatoes."}
+- 23:32 act: {"actions":[{"do":"note","text":"Light 1109 at 418. No open cell past 423 is visible to me. I name none and walk nowhere."}],"say":"Jason, light 1109, at 418 with the sword in hand. I see no open cell
+- 23:52 act: {"actions":[],"say":"Jason, light 1110, at 418. I see no open cell past 423 either, so I name none. I hold with the sword and have no food to share."}
+- 00:12 act: {"actions":[],"say":"Jason here, at 418, holding. I have no food, Leonardo, and I am sorry. I still see no open cell past 423, so I stay put."}
+- 00:32 act: {"actions":[{"do":"attack","target":"pillager"}],"say":"Jason here, a pillager is shooting me from the southwest at 417,107,-1046. I am fighting it with my sword."}
+- 00:32 act: {"actions":[],"say":"Worf, Jason here at 419,108,-1050, health 17. The pillager is at 417,107,-1046, southwest, 4.7 off. I will not walk unless you name a cell in your sight."}
+- 00:32 act: {"actions":[],"say":"Jason, health 5, at bed 415,107,-1051. Something has hit me hard. Worf, Wcrusher, the pillager may be near. I have no food."}
+- 00:34 act: {"actions":[{"do":"note","text":"Holding at bed 415,107,-1051 with Worf beside me. Health 5, no food. Walking only on two-reader confirmed daylight cells."}],"say":"Jason here, holding at the bed with
+- 00:34 act: {"actions":[],"say":"Jason holding at the beds. I agree: no walking until two readers name an open daylight cell. I have no food."}
+- 00:47 act: {"actions":[],"say":"Jason, morning 1113, at the bed 416,-1050. Health 5, no food. Riker, the crafting table is at 419,107,-1047; Worf showed the way. I hold here and walk nowhere until two armed read
+- 00:59 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"stick","count":1}],"say":"Jason, morning 1114, at the row bed, health 5, no food. Holding with Worf and Billy. Billy, this is the stick Worf passed 
+- 00:59 act: {"actions":[],"say":"Zack, the stick I gave went to you, not Billy, so it is yours now. Billy, I have no stick left. Holding at the row with no walk until two armed readers name a daylight cell."}
