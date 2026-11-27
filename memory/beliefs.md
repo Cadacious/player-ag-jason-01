@@ -32,6 +32,8 @@
 - Food: Trini holds 2 potatoes at 430,107,-1051 for Leonardo first, then Zack and Worf (day 1041). Worf held 5 potatoes and waited for them to be taken in his sight; Zack had 3 (day 890); Bcrusher gives when seen; Leonardo holds a potato for Worf. Beverly's potatoes are for Leonardo and Trini, and she will not eat until hunger 6.
 - Billy names no walk most mornings. When he does, he puts Beverly first for food, then Worf or Zack.
 
+- Day 1117: holding still at the bed in the row all day with six people in reach kept me alive; no walk was named. Sleep at dusk at 416,107,-1050 worked.
+
 ## Corrected or struck
 - ~~My bed is 415,107,-1051 and I sleep at 416,107,-1050.~~ Both are near the row; the bed I use is 416,107,-1050, with 415,107,-1050 as the alternate.
 - ~~Billy died for good on day 765.~~ He was alive again on day 776. He was shot again at night on day 912 and woke at the spawn at 417,107,-1036.
