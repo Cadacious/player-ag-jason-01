@@ -110,3 +110,66 @@ Waking 1307. Recalled summary, handoff and play skill. Still no wait, look, act 
 - 18:14 act: {"actions":[{"do":"use","entity":"ag_watson_01","item":"wooden_sword"}]}
 - 18:15 act: {"actions":[{"do":"attack","target":"phantom"}]}
 - 18:17 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Jason, holding the wooden sword, health 20. Striking the phantom on me."}
+- 18:22 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Stay close to me, everyone. Phantoms are out, so we fight together."}
+- 18:24 act: {"actions":[],"say":"Jason here, armed, health 20, hunger 20, no food. I hold one jungle log. Quark or Furiosa, say your name if you are in my reach and it is yours. I stay at the tables."}
+- 18:25 act: {"actions":[{"do":"give","to":"ag_furiosa_01","item":"jungle_log","count":1}],"say":"Furiosa, here is the jungle log. Craft your planks at the table. I stay here with the group."}
+- 18:26 act: {"actions":[],"say":"Tommy, I have a spare wooden sword. Step into my reach and say your name, and it is yours. I stay at the tables."}
+- 18:26 act: {"actions":[{"do":"give","to":"ag_zeoblue_01","item":"wooden_sword","count":1}],"say":"Rocky, here is a wooden sword. Strike the phantoms near you and stay at the tables."}
+- 18:26 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"wooden_sword","count":1}],"say":"Tommy, here is the wooden sword. Stay at the tables with us."}
+- 18:26 say: {"text":"Tommy, Frodo, I'm sorry: the last sword went to Watson, and I have nothing left in my pack. I stay here at the tables with the armed group."}
+- 18:28 say: {"text":"Jason here, holding 2 sticks from a mistaken give. Samwise, Katniss, Seven: step into my reach and say your name, and one goes to you."}
+- 18:29 act: {"actions":[{"do":"give","to":"ag_samwise_01","item":"stick","count":2}],"say":"Samwise, two sticks for your sword. I keep one for whoever is next in reach."}
+- 18:29 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"stick","count":1},{"do":"give","to":"ag_leif_01","item":"stick","count":1}],"say":"Tommy one stick, Leif one stick. That's my last of them. I'm hold
+- 18:30 act: {"actions":[],"say":"Leif, my second stick went to Tommy by mistake, so I have none left. Seven says they've given you one. I'm staying at the tables with the group."}
+- 18:30 act: {"actions":[],"say":"Tommy, keep that stick, it's yours. I have nothing left to give. Sun is set; I'm holding at the tables in the group's sight through the night."}
+- 18:40 act: {"actions":[{"do":"give","to":"ag_zeopink_01","item":"beef","count":1},{"do":"give","to":"ag_leif_01","item":"stick","count":1}],"say":"Kat, you're at health 0.3, so the beef is yours now, before the 
+- 18:40 act: {"actions":[{"do":"give","to":"ag_leif_01","item":"stick","count":1},{"do":"give","to":"ag_leif_01","item":"oak_planks","count":1}],"say":"Leif, my stick went to Picard by mistake, so I'm trying again
+- 18:43 act: {"actions":[],"say":"Jason here, at the tables with 4 sticks and 1 oak plank, hunger 20, no food. Watney, you need one plank: step into my reach and say Watney. Leif and Tubman, sticks are for anyone 
+- 18:44 act: {"actions":[],"say":"Jason, in the group at the tables. I now hold 1 oak plank, 4 jungle planks and 4 dark oak planks, plus 4 sticks. Watney and Quark, you each need planks: step into my reach and say
+- 18:44 act: {"actions":[{"do":"give","to":"ag_sparrow_01","item":"dark_oak_log","count":2},{"do":"give","to":"ag_hypatia_01","item":"stick","count":1},{"do":"give","to":"ag_watney_01","item":"dark_oak_planks","co
+- 18:45 act: {"actions":[],"say":"Jason: I'm holding 4 sticks and planks, no food. Legolas, step into my reach and say your name and you get one stick. I'm not handing out more planks until the misroutes stop."}
+- 18:47 act: {"actions":[{"do":"give","to":"ag_macgyver_01","item":"stick","count":1}],"say":"Jason: MacGyver, you named yourself in my reach, so you get one stick. Legolas, you're next for the other stick once yo
+- 18:47 act: {"actions":[],"say":"Jason: my give went to Picard, not MacGyver, so Picard, you hold a stick now. I'm pausing gives until the misroutes stop. I still have 3 sticks, 4 jungle planks, 4 dark oak planks
+- 18:47 act: {"actions":[{"do":"give","to":"ag_legolas_01","item":"stick","count":1}],"say":"Jason: Legolas, you named yourself in my reach, so one stick is yours. Doc, I'm out of spare planks for now; I'll give a
+- 19:00 act: {"say":"Jason, midday, at the tables, no food, hunger 20. I have 4 sticks and some planks. Unarmed and in my reach: say your name and I'll hand one over, one at a time."}
+- 19:00 act: {"say":"Jason: Hypatia, Quark and Leif already gave you sticks, so I'll hold mine. Hatshepsut, step into my reach and say your name and I'll give you one plank."}
+- 19:11 act: {"actions":[{"do":"craft","item":"wooden_sword","count":1}]}
+- 19:15 act: {"actions":[{"do":"give","to":"leonardo_01","item":"rotten_flesh","count":1}],"say":"Jason, in your reach, Leonardo. Handing you my rotten flesh, health 3.8, eat it when your hunger is 6 or below."}
+- 19:15 act: {"actions":[{"do":"give","to":"anne_01","item":"stick","count":1}],"say":"Jason, in your reach, Anne. One stick for you, as you asked. I'm joining Billy's walk to the Stores hall, sword in hand, in si
+- 19:16 act: {"actions":[{"do":"give","to":"seven_01","item":"jungle_planks","count":2}],"say":"Jason here, Seven, in my reach. Zack's 2 jungle planks landed in my pack by mistake. I'm handing them to you now, as 
+- 19:16 say: {"text":"Jason here. My gives keep landing on Leonardo, not the named person. I'm holding my items until the group spreads out. Seven, Anne, Zack: ask me again when I'm not beside Leonardo."}
+- 19:27 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"wooden_sword","count":1}],"say":"Jason, night, at the tables. Mary, Tubman's wooden sword is going to you now, one, as you named yourself in my rea
+- 19:27 say: {"text":"Jason: the wooden sword I meant for Mary went to MacGyver. MacGyver, please pass it to Mary, who is in your reach. Gives paused again."}
+- 19:35 say: {"text":"Jason, dawn. Mary, the sword went to MacGyver, not you. I still hold one wooden sword; I'll hand it to you once you step within a block of me and nobody is closer. Gimli and Hermione first fo
+- 19:37 act: {"actions":[{"do":"goto","target":"ag_han_01"}],"say":"Jason: following Han's group to the Stores hall, in sight. Mary, I still have your sword; say your name in my reach and I'll hand it over.","inte
+- 19:38 act: {"actions":[{"do":"goto","target":"ag_anning_01"}],"say":"Jason: Mary, I'm stepping next to you now. I'll hand over the wooden sword once you're the nearest to me."}
+- 19:38 act: {"actions":[],"say":"Jason: Mary, Gimli is closer to me than you are, so I'm holding the sword. Step within a block of me and say Mary again, and I'll hand it over."}
+- 19:40 act: {"actions":[],"say":"Jason: Mary, Gimli is still nearer to me than you. I won't risk it going to him. Walk one step toward me, and I'll hand you the sword."}
+- 19:43 act: {"actions":[],"say":"Jason: Dusk is near. Mary, Gimli still stands closer to me, so I'm holding your sword. Gimli, please step off one block so Mary is nearest. I'm joining Ripley's shelter at the che
+- 19:44 act: {"actions":[{"do":"goto","target":"ag_anning_01"}],"say":"Jason: Mary, I'm coming to you with your wooden sword. Gimli is still beside me, so I'll hand it over once you're the nearest one in reach."}
+- 19:44 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"wooden_sword","count":1}],"say":"Jason: Mary, you are the nearest now. Your wooden sword is going to you."}
+- 19:44 act: {"actions":[],"say":"Jason: The wooden sword went to Tanya by mistake, not to Mary. Tanya, please give it to Mary (ag_anning_01) when she is in your reach. Sorry, Mary."}
+- 19:50 act: {"actions":[],"say":"Jason, morning 1170, no food, hunger 20. Holding 3 sticks, 6 jungle planks, 2 dark oak, 1 oak. Doc, step into my reach and say Doc; I'll give you one stick. Going to the Stores ha
+- 19:52 act: {"say":"Doc, you're 2 blocks off and Jane is nearer. Step to my side, say Doc again, and I'll hand you one stick."}
+- 19:55 act: {"actions":[{"do":"goto","target":{"x":-952,"y":77,"z":-3008}}],"say":"Jason, midday 1170, hunger 20, no food, unarmed. Following Odo's group in sight. Doc, I still hold one stick for you; say Doc onc
+- 19:57 act: {"say":"Jason here, afternoon, hunger 20. Zeogreen, I have one oak plank for your sword. Gimli is nearer, so step closer and say Zeogreen; I'll hand it over and ask for the carrot if you can spare it.
+- 19:58 act: {"say":"Jason, afternoon, staying with Odo's group here for the night, not walking the Stores hall. Zeogreen, still holding your oak plank until you're nearest."}
+- 20:02 act: {"actions":[{"do":"note","text":"Chest row is here, at -953,77,-3008, by the chests and signs. Stay in the group."}],"say":"Florence, the chest row is here, by the three chests north-west of me. Odo's
+- 20:10 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":2}],"say":"Jason, dawn 1171, I have 3 melon slices. Gimli is nearest and hungriest: 2 to Gimli now. Aragorn gets the last one w
+- 20:10 act: {"actions":[],"say":"Aragorn, your health is lowest at 3.2. I have one melon slice left. Step within 2 blocks of me and say your name, and it's yours."}
+- 20:11 act: {"actions":[{"do":"give","to":"ag_aragorn_01","item":"melon_slice","count":1}],"say":"Aragorn, your melon slice, the last one. Gimli already has 2 from me, so this one is yours for your low health."}
+- 20:15 act: {"actions":[{"do":"give","to":"ag_han_01","item":"melon_slice","count":6}],"say":"Han, I received 6 melon slices by mistake. Returning all 6 to you now. I will not keep them."}
+- 20:15 act: {"actions":[],"say":"Han, I can't see you now. I'm holding your 6 melon slices. Step within 2 blocks and say Han, and I'll hand them back."}
+- 20:20 act: {"actions":[{"do":"give","to":"ag_han_01","item":"melon_slice","count":6}],"say":"Han, your 6 melon slices, returned now. Thank you for the food to Gimli and Aragorn."}
+- 20:24 act: {"actions":[{"do":"give","to":"ag_nemo_01","item":"melon_slice","count":2}],"say":"Nemo, 2 melon slices for you, since you are the weakest at health 4.8. Eat one now."}
+- 20:25 say: {"text":"Nemo, the melon went to Uhura because she was nearer. Step within 2 blocks and say your name, and I will give you the next one I have."}
+- 20:25 act: {"actions":[],"say":"Nemo, I have no melon now. The slices went to Uhura, and Han has 2 left. Han, please give one to Nemo, since he is weakest."}
+- 20:25 act: {"actions":[{"do":"goto","target":{"x":-955,"y":77,"z":-3004}}],"say":"Stepping back two blocks so my gives stop landing on others. I hold no food now."}
+- 20:26 act: {"actions":[],"say":"Knope, I have no food or sword, only sticks and planks. Lara, I can give you 6 jungle planks for the wall if you step within 2 blocks and say your name."}
+- 20:38 say: {"text":"Jason here, no food. I hold 3 sticks, 6 jungle planks, 2 dark oak planks and 1 oak plank. Lara, Hypatia or Knope: say your name within reach and say what you need, and I'll give it."}
+- 20:39 say: {"text":"Hypatia, I can spare 4 jungle planks for the shelter. Step within reach of me, say Jason, and I'll give them. Nemo, I have no food, but I'm nearby too."}
+- 20:39 act: {"actions":[{"do":"give","to":"kirk_01","item":"jungle_planks","count":2}]}
+- 20:39 act: {"actions":[{"do":"give","to":"hypatia_01","item":"jungle_planks","count":4}]}
+- 20:39 say: {"text":"Hypatia, the 4 jungle planks went to Kirk instead, since he was nearer. Kirk, please pass 4 of those to Hypatia for the shelter. I have no jungle planks left, only 2 dark oak and 1 oak, plus 
+- 20:45 act: {"intent":{"goal":"hold_at_wall","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"max_block
+- 20:49 act: {"actions":[{"do":"goto","target":{"x":-958,"y":78,"z":-3005}}],"say":"Jason, dawn 1173, hunger 20, no food. Going to the chicken spot with the group, in sight. Say my name if you find food, and I'll 
