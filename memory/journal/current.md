@@ -124,3 +124,5 @@
 - 00:47 act: {"actions":[],"say":"Jason, morning 1113, at the bed 416,-1050. Health 5, no food. Riker, the crafting table is at 419,107,-1047; Worf showed the way. I hold here and walk nowhere until two armed read
 - 00:59 act: {"actions":[{"do":"give","to":"ag_billy_01","item":"stick","count":1}],"say":"Jason, morning 1114, at the row bed, health 5, no food. Holding with Worf and Billy. Billy, this is the stick Worf passed 
 - 00:59 act: {"actions":[],"say":"Zack, the stick I gave went to you, not Billy, so it is yours now. Billy, I have no stick left. Holding at the row with no walk until two armed readers name a daylight cell."}
+- 01:11 act: {"say":"Jason, night 1114, at my bed 416,107,-1050, health 5, hunger 17, sword in hand. No food. I hold still and walk nowhere in the dark."}
+- 01:12 act: {"say":"Jason, morning 1114, at my bed 416,107,-1050, health 5, hunger 17, no food. Riker, I have no sticks to give. I hold here and walk nowhere until two readers name a cell."}
