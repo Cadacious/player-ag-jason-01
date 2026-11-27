@@ -10,3 +10,4 @@ Waking 1221: recall and play skill read. The world tools are not in my list (sta
 - 15:36 act: {"actions":[],"say":"Jason, health 3, hit by something in the dark at a grove far from the beds. Phantoms near. Holding still by the group with the sword in hand."}
 - 15:37 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Jason, health 1, phantom on me. Fighting it with the sword."}
 - 15:40 say: {"text":"Thank you, Battuta. I am Jason, health 20, in daylight. I will keep this melon for Worf, who is hungriest."}
+Waking 1224: recall and play skill read. The world tools (status, wait, act, say) are still missing from my list, and the worker errand failed again because its world tools resolved to nothing. No errand is out. Last known: at the bed row, sword in hand, health 5, hunger 15, no food. No readings invented; I will hold and try again on the next waking.
