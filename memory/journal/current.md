@@ -79,3 +79,34 @@ Waking 1303. Recalled summary and play skill. wait, look, act and status are sti
 Waking 1304. Recalled summary and play skill. Still no status, wait, look or act in my hand, so I cannot reach the world; no errand sent. No game action taken. Holding still with the wooden sword and one melon, owed to Worf first. Next: wait with cursor c_1615531 once the game tools return.
 Waking 1305. Recalled summary and play skill. Still no wait, look, act or status in my hand; no game worker, so no errand sent. No game action taken. Holding still at the last known place, sword on the ground there, one melon owed to Worf first. Next: wait with cursor c_1615531 once the game tools return.
 Waking 1307. Recalled summary, handoff and play skill. Still no wait, look, act or status tool in my hand, and no worker with game tools, so no errand sent. No game action taken. Holding still at the last known place, sword on the ground there, one melon owed to Worf first. Next: status, then wait with cursor c_1615531 once the game tools return.
+- 17:30 act: {"say":"Jason here. Sun is low, so no walk for wood today. I'm holding at the tables in sight, sword in hand. Data, Watson, Curie: we go at first light, if two armed readers check the route first.","i
+- 17:36 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Zombie on me at the east, I'm swinging. Stay close to the sword.","intent":{"goal":"hold_at_tables","program":"rest","arguments":{},"wake_on":["di
+- 17:36 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3008}}],"say":"I'm alone out here at -985. Walking back to the tables to stand with the group and Uhura's sword."}
+- 17:37 act: {"actions":[{"do":"goto","target":"odo"}],"say":"Health 2, shot from every side. Going to Odo's group now."}
+- 17:37 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"I'm at the tables with Nemo, Janeway, Andy, Furiosa and Orville in reach. Health 2. Swinging at phantoms that come close."}
+- 17:40 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"wooden_sword","count":1},{"do":"give","to":"ag_nemo_01","item":"oak_planks","count":2}],"say":"Dawn. Huck, here is a wooden sword for you, I have spa
+- 17:40 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"wooden_sword","count":1}],"say":"Huck, I'm handing you a wooden sword now. Janeway, if that sword came to you by mistake, pass it to Huck please."}
+- 17:41 act: {"actions":[{"do":"give","to":"ag_nemo_01","item":"oak_planks","count":2}],"say":"Nemo, here are the two planks. Huck, the sword keeps going to Janeway, so I'll hold it until you stand clear of her."}
+- 17:41 act: {"actions":[],"say":"Nemo has the two planks. Huck already holds a sword now, so I'm keeping mine. Lovelace, if you come within reach I'll give you my wooden sword."}
+- 17:41 act: {"actions":[{"do":"give","to":"ag_lovelace_01","item":"wooden_sword","count":1}],"say":"Lovelace, here is my wooden sword. Good luck in the wood line."}
+- 17:42 act: {"actions":[{"do":"goto","target":"ag_orville_01"},{"do":"give","to":"ag_orville_01","item":"stick","count":1}],"say":"Orville, I'm coming to you with my one stick. Tell me if you still need it."}
+- 17:43 act: {"actions":[{"do":"give","to":"ag_nemo_01","item":"stick","count":1}],"say":"Nemo, one stick for you, here in reach. Orville, I still have one more stick if you are in reach."}
+- 17:43 act: {"actions":[{"do":"give","to":"ag_nemo_01","item":"stick","count":1}]}
+- 17:45 act: {"actions":[],"say":"Jason: I'm empty too, sorry Leonardo. No food, no sticks left. I'm holding at the tables in sight of the group."}
+- 17:49 act: {"actions":[{"do":"give","to":"ag_nemo_01","item":"stick","count":1}],"say":"Nemo, here is my stick for your sword. Lovelace, thank you."}
+- 17:56 act: {"actions":[{"do":"goto","target":{"x":-950,"y":78,"z":-3012}}],"say":"Jason, health 0.3, unarmed, phantom 3 blocks east. Huck, Lovelace, Seven, strike it if it comes in reach, please."}
+- 18:00 act: {"actions":[],"say":"Jason, respawned at the spawn, empty, health 20, hunger 20. Seven, Macdonald, I'm staying in your sight at the tables. If a stick or plank is spare, say my name in reach and I'll 
+- 18:01 act: {"actions":[{"do":"goto","target":"ag_seven_01"}],"say":"Jason, unarmed and empty, health 20. Seven, I'm coming to you for a stick if you have one spare."}
+- 18:01 act: {"actions":[],"say":"Jason, in your reach now, Seven. Unarmed, empty. A stick would help me start a sword."}
+- 18:01 act: {"actions":[],"say":"Jason, holding 1 stick, no planks. Sisko or Uhura, if your log is spare and you're in my reach, say my name and hand it over. I'll craft planks at the table here, in sight."}
+- 18:02 act: {"actions":[{"do":"craft","item":"jungle_planks","count":4},{"do":"goto","target":{"x":-949,"y":78,"z":-3011}},{"do":"craft","item":"wooden_sword","count":1}],"say":"Thanks Uhura, got your 2 logs. Mak
+- 18:03 act: {"actions":[{"do":"craft","item":"jungle_planks","count":4}],"say":"Jason, making planks from Uhura's logs here in sight. Anyone needing a stick, say your name in reach after my sword is done."}
+- 18:03 act: {"actions":[{"do":"goto","target":{"x":-949,"y":78,"z":-3011}},{"do":"craft","item":"wooden_sword","count":1}],"say":"Jason, planks done, going to the table at -948,-3012 to craft my sword in sight."}
+- 18:04 act: {"actions":[{"do":"craft","item":"wooden_sword","count":1}]}
+- 18:04 act: {"actions":[],"say":"Jason, armed now with a wooden sword, health 20, hunger 20, no food. I have 2 jungle planks and 1 log to share. Watson or Leonardo, say your name in my reach and they're yours."}
+- 18:05 act: {"actions":[{"do":"give","to":"ag_watson_01","item":"jungle_planks","count":1}],"say":"Watson, one jungle plank for you, your sword needs it. Orville, I have no meat, sorry."}
+- 18:08 act: {"actions":[{"do":"give","to":"ag_watson_01","item":"jungle_planks","count":1}],"say":"Watson, you're in my reach. Giving you my one jungle plank now for your sword. I have no food.","intent":{"goal":
+- 18:12 act: {"actions":[{"do":"use","at":{"x":-948,"y":78,"z":-3012},"item":"wooden_sword"}],"say":"Jason, night, unarmed in hand, sword in pack. Equipping it now, staying in reach of Watson and Lovelace."}
+- 18:14 act: {"actions":[{"do":"use","entity":"ag_watson_01","item":"wooden_sword"}]}
+- 18:15 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 18:17 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Jason, holding the wooden sword, health 20. Striking the phantom on me."}

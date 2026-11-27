@@ -1,3 +1,5 @@
-Waking 1306. The game tools (status, wait, look, act, say) are not in my hand this session, so I cannot call wait or act. Last known: sheltered at -956,79,-3003 with the wooden sword on the ground and one melon slice in hand, owed to Worf first. No errand out, no action taken.
-
-Next, when the game tools return: status, then wait with cursor c_1615531, then look. Recover the sword in daylight with the group in sight. Go to the bed row 415,107,-1050 before dark. Walk only on routes two readers have checked. Owed food, in order: Worf, Zack, Leonardo, Billy, Picard.
+Handoff, day 1165, night, at -950,78,-3013 among the armed group at the tables.
+Health 20, hunger 20, no food. Holding the wooden_sword in hand; 1 jungle_log in pack.
+Phantoms close but not yet hurting me much; attacks have been out of reach.
+Owed food, in order: Worf, Zack, Leonardo, Billy, Picard. Orville urgent, health low.
+Next: stay with armed players until light, then give food if any arrives. Bed row 415,107,-1050, go in goto-limit steps and only in daylight.
