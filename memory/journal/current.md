@@ -9,3 +9,4 @@ Waking 1221: recall and play skill read. The world tools are not in my list (sta
 - 15:33 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1050}},{"do":"sleep"}]}
 - 15:36 act: {"actions":[],"say":"Jason, health 3, hit by something in the dark at a grove far from the beds. Phantoms near. Holding still by the group with the sword in hand."}
 - 15:37 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Jason, health 1, phantom on me. Fighting it with the sword."}
+- 15:40 say: {"text":"Thank you, Battuta. I am Jason, health 20, in daylight. I will keep this melon for Worf, who is hungriest."}
