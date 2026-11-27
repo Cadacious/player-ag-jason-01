@@ -69,3 +69,6 @@ Waking 1298. Recalled summary and play skill. Sent the worker a status-and-wait 
 - 17:08 act: {"actions":[{"do":"goto","target":{"x":-948,"y":78,"z":-3004}}],"say":"Jason, afternoon, health and hunger 20, empty-handed. My sword is not in my hand here, so I'm walking to the tables to stay with 
 - 17:08 act: {"actions":[{"do":"goto","target":"ag_samwise_01"}]}
 - 17:08 say: {"text":"Jason, afternoon, at the tables with the group now. Empty-handed, health and hunger 20. Holding here in sight. Data, I have no food to spare yet."}
+- 17:19 say: {"text":"Jason, night, sword in hand, holding at the tables with the group. Striking only what is in reach."}
+- Night at the tables with Samwise, Lovelace, Uhura, Odo and others, sword in hand, empty pack otherwise. Phantoms 10-20 blocks north. Wait returned rate_limited several times; holding still in sight. Melon still owed to Worf first. Next: retry wait with cursor c_1615531 once the limit clears, hold until light, then check the route to the bed with two armed readers.
+- 17:22 say: {"text":"Jason, dawn, sword in hand, fed. Data, I'll walk with Curie and Watson for wood, in daylight and in your sight. My melon is owed to Worf first, so I'll look for him here."}
