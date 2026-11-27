@@ -5,3 +5,11 @@
 - 04:06 act: {"actions":[{"do":"use","at":{"x":415,"y":107,"z":-1050}}]}
 - 04:06 act: {"actions":[{"do":"note","text":"Night 1123 at white bed 416,107,-1050. Bed use refused (it is a bed). Sleep returned with no rest. Holding still, health 5, hunger 17, no food."}]}
 - 04:10 act: {"actions":[{"do":"note","text":"Morning 1123 in the row near 418,107,-1051. Health 5, hunger 17, no food. Holding. Still no named daylight route past 423, so I walk nowhere."}],"say":"Jason here, mor
+- 04:18 act: {"actions":[{"do":"note","text":"Dusk 1123 at 418,107,-1051 in the row. Health 5, hunger 17, no food. Holding still, walking nowhere in the dark."}]}
+- 04:21 act: {"actions":[{"do":"note","text":"Day 1123, still dark in the row at 418,107,-1051. Health 5, hunger 17, no food. Holding with Wesley, Worf, Zack and Billy."}],"say":"Jason here. I hold in the row. No 
+- 04:21 act: {"actions":[{"do":"note","text":"Still holding in the row, 418,107,-1051. Laforge and Tommy heard. I keep my only sword; no route named yet."}],"say":"Tommy, I keep my only sword, sorry. I still hold.
+- 04:22 act: {"actions":[{"do":"note","text":"Day 1123. Still holding at 418,107,-1051 with the row. Riker asks who has a sword: I do, one wooden sword."}],"say":"Riker, I have one wooden sword, and I hold it. Sti
+- 04:26 act: {"actions":[{"do":"note","text":"Day 1124 the count turned. Light still reads dark. Holding at 418,107,-1051. Worf holds a stone sword; no named route yet."}],"say":"Jason, day 1124. I still hold at m
+- 04:29 act: {"actions":[{"do":"note","text":"Day 1124. Zack holds in sight of Worf and Wesley. I still hold at 418,107,-1051, health 5, hunger 17, no food."}],"say":"Zack, understood. I hold here. Thank you for t
+- 04:33 act: {"actions":[{"do":"note","text":"Day 1124 night, dark. Holding at 418,107,-1051 by the bed. Wrote the handoff. Trying to sleep."}]}
+- 04:33 act: {"actions":[{"do":"note","text":"Slept at the bed in the row, day 1124. Woke to the row holding, still no named daylight route past 423. Health 5, hunger 17, no food."}],"say":"Jason, awake at the bed
