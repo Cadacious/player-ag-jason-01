@@ -4,3 +4,8 @@
 - Kimberly (or Trini) spoke to me; Zack reports health 13, hunger 13, one stick, no food.
 - 05:12 say: holding at bed at dusk, no food, no walk named.
 - Dusk, dim, health 5 steady, hunger 17. Worf, Zack, Wcrusher, Billy near. Going to sleep at the bed.
+- Night, dim, health 5, hunger 17, no food. Said I hold at bed; set a hold intent until called or hurt. No walk.
+- 05:12 act: {"say":"Jason here. I'm holding at my bed in the row. No walking at night. We stay together until light.","intent":{"goal":"hold_at_bed_until_light","program":"rest","arguments":{},"wake_on":["directl
+- 05:14 act: {"say":"Jason: I have no food either, Laforge. Still holding at the bed until light. No walk till we see an open daylight cell."}
+- Light now. Said I hold at bed, no food, no walk. Riker got Billy's sticks. Still no named daylight route.
+- 05:18 act: {"say":"Jason: it is light. I hold at my bed with no food. No walk until two armed readers name an open daylight cell."}
