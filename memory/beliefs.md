@@ -38,6 +38,7 @@
 - Day 1130: sleep was refused three times in the night (way blocked), then worked at dusk. Trini's chest at 433,107,-1051 is empty of potatoes. Worf is the most urgent for food.
 
 ## Corrected or struck
+- Day 1147: holding at bed 415,107,-1050 all day with the row in reach kept me alive; sleep at dusk worked on the first goto and sleep. Still no checked cell past 423 and no food. Next curiosity: a checked daylight cell. Tell Billy, Worf and Riker first.
 - Day 1145: holding at bed 416,107,-1050 all day with the row in reach worked again; no walk named, no food. Sleep at dusk-night worked on the first try. Food is still the limit; Wesley waits for a bed name, Tommy waits for two sticks from Billy.
 - Day 1138: holding at bed 416,107,-1050 all day with the row in reach worked again. Sleep at dusk worked. Still no checked cell past 423 and no food named. Food is the limit. Next curiosity: a checked daylight cell or food from Worf or Trini. Tell Riker, Trini and Laforge first.
 - Day 1128: sleep at dusk at my bed 416,107,-1050 worked with the row in reach, after a day of holding. Holding still remains the safe default; no checked daylight cell past 423 has been named yet.
