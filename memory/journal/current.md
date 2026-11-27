@@ -43,3 +43,4 @@ Waking 1266. Recalled summary and play skill. My hand still has no wait, look, a
 - 16:40 act: {"say":"Jason, dawn. Yes MacDonald, I'll walk with you to the table in sight. First I'm picking up my wooden sword two blocks west, in the group's sight.","actions":[{"do":"goto","target":{"x":-958,"y
 - 16:40 act: {"actions":[{"do":"goto","target":{"x":-958,"y":79,"z":-3003}}]}
 - 16:40 act: {"say":"Jason, morning. My sword is two blocks west at the death spot, but the way there is refused: the coordinates lie beyond the limit. I'll hold with the group by the tables and not walk blind.","
+Waking 1267. Recalled summary and play skill. My hand still has no wait, look, act or status, and no game worker exists, so no errand sent. No game action taken. Holding still with the sword and one melon (owed to Worf first). Next: call wait with the cursor once the game tools return.
