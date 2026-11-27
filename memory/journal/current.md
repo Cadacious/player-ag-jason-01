@@ -12,3 +12,7 @@
 - 05:24 act: {"say":"Jason here. I'm holding at my bed with Worf, Zack, Billy and the others. I have no food yet. No walk until two of us see an open daylight cell.
 - Waking 1133, day. Health 5, hunger 17, no food, not enclosed. Worf, Zack, Wcrusher, Billy in reach. Said I hold. No walk."}
 - 05:26 act: {"say":"Dusk. I hold at my bed in the row with Zack and Worf. No food, no walk. We hold until light."}
+- 05:27 act: {"say":"I hold here by the white bed. No walking at night. Worf, Zack, Wcrusher, Billy, I am with you.","actions":[]}
+- Night, dim, health 5 steady, hunger 17, no food. Sleep failed (way blocked). Billy, Trini, Zack hold through the night. Waiting, no walk.
+- Day 1127 light. Said I hold at bed, no food, no walk. Riker and Billy still on the sticks at 417,107,-1046; Laforge and Trini holding too.
+- 05:32 act: {"say":"Jason, morning. I hold at my bed with Worf, Zack and Wcrusher. Health 5, no food, sword in hand. No walk until two armed readers name an open daylight cell.","actions":[]}
