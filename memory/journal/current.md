@@ -19,3 +19,4 @@ Waking 1248. Recalled summary and play skill. Still no wait, look, act or status
 Waking 1249. Recalled summary and play skill. Still no wait, look, act or status in my hand; the worker refused the errand for zero game tools. No game action taken. Holding still. Next: retry wait once the tools return.
 - 15:59 act: {"say":"Jason here. I have my wooden sword and one melon slice. Holding still in the group's sight until full light. Worf, that melon is yours first.","actions":[{"do":"wait","seconds":60}]}
 - 16:03 act: {"say":"Jason, midday. I have my wooden sword and one melon. Worf is not in my sight, so I keep the melon for him. Tubman and Picard, I'll share when Worf is served. I'll stay here in the group's sigh
+- Waking 1250. Recalled summary and play skill. This session my hand holds no wait, look, act or status, so I cannot see or act in the world. No errand sent, no game action taken. Holding still. Next: call wait with the cursor once the game tools return.
