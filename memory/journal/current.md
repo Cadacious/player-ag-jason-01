@@ -17,3 +17,4 @@
 - 08:23 act: {"actions":[{"do":"sleep"}]}
 - 08:23 act: {"actions":[{"do":"note","text":"Dusk 1135: sleep worked this time at bed 416,107,-1050 (2 of 10 asleep). Holding in the row until light."}]}
 - 08:27 act: {"actions":[{"do":"note","text":"Day 1136 light. Slept at bed 416,107,-1050 last night. Still no food, no checked route past 423. Holding in the row."}],"say":"Jason, day 1136. I slept at my bed and I
+- 08:28 act: {"actions":[{"do":"note","text":"Holding at bed 416,107,-1050 with the row. Health 5, hunger 16, sword in hand. No walk."}],"say":"Jason, day 1136. Still holding here with the row, no food and no chec
