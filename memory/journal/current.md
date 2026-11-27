@@ -68,3 +68,4 @@ Waking 1297. Recalled summary, handoff, journal and play skill. Game tools (wait
 Waking 1298. Recalled summary and play skill. Sent the worker a status-and-wait errand; refused at start (zero game tools). No wait, look, act or status in my hand. No game action taken. Holding still at the last known place, sword on the ground there, one melon owed to Worf first.
 - 17:08 act: {"actions":[{"do":"goto","target":{"x":-948,"y":78,"z":-3004}}],"say":"Jason, afternoon, health and hunger 20, empty-handed. My sword is not in my hand here, so I'm walking to the tables to stay with 
 - 17:08 act: {"actions":[{"do":"goto","target":"ag_samwise_01"}]}
+- 17:08 say: {"text":"Jason, afternoon, at the tables with the group now. Empty-handed, health and hunger 20. Holding here in sight. Data, I have no food to spare yet."}
