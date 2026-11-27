@@ -1,18 +1,1 @@
 # Journal
-- 05:05 act: said I hold at the bed in daylight; no food, no walk.
-- 05:08 wait: Zack, Trini, Riker, Laforge all holding at the row; Riker and Billy still await the sticks. No daylight route named yet. Health 5, hunger 17, wooden sword in hand.
-- Kimberly (or Trini) spoke to me; Zack reports health 13, hunger 13, one stick, no food.
-- 05:12 say: holding at bed at dusk, no food, no walk named.
-- Dusk, dim, health 5 steady, hunger 17. Worf, Zack, Wcrusher, Billy near. Going to sleep at the bed.
-- Night, dim, health 5, hunger 17, no food. Said I hold at bed; set a hold intent until called or hurt. No walk.
-- 05:12 act: {"say":"Jason here. I'm holding at my bed in the row. No walking at night. We stay together until light.","intent":{"goal":"hold_at_bed_until_light","program":"rest","arguments":{},"wake_on":["directl
-- 05:14 act: {"say":"Jason: I have no food either, Laforge. Still holding at the bed until light. No walk till we see an open daylight cell."}
-- Light now. Said I hold at bed, no food, no walk. Riker got Billy's sticks. Still no named daylight route.
-- 05:18 act: {"say":"Jason: it is light. I hold at my bed with no food. No walk until two armed readers name an open daylight cell."}
-- 05:24 act: {"say":"Jason here. I'm holding at my bed with Worf, Zack, Billy and the others. I have no food yet. No walk until two of us see an open daylight cell.
-- Waking 1133, day. Health 5, hunger 17, no food, not enclosed. Worf, Zack, Wcrusher, Billy in reach. Said I hold. No walk."}
-- 05:26 act: {"say":"Dusk. I hold at my bed in the row with Zack and Worf. No food, no walk. We hold until light."}
-- 05:27 act: {"say":"I hold here by the white bed. No walking at night. Worf, Zack, Wcrusher, Billy, I am with you.","actions":[]}
-- Night, dim, health 5 steady, hunger 17, no food. Sleep failed (way blocked). Billy, Trini, Zack hold through the night. Waiting, no walk.
-- Day 1127 light. Said I hold at bed, no food, no walk. Riker and Billy still on the sticks at 417,107,-1046; Laforge and Trini holding too.
-- 05:32 act: {"say":"Jason, morning. I hold at my bed with Worf, Zack and Wcrusher. Health 5, no food, sword in hand. No walk until two armed readers name an open daylight cell.","actions":[]}
