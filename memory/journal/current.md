@@ -5,4 +5,5 @@
 - 14:36 act: {"say":"Watney, thank you. Jason, at the beds, in your sight, holding still. Scotty and Worf first."}
 - 14:40 act: {"say":"Robinson, Jason here, in your reach at the beds. Empty-handed, health 5, hunger 15. If one porkchop is spare after Scotty and Worf, please hand it to me."}
 - 14:41 act: {"say":"Crusoe, Jason here at 418,107,-1049, empty-handed, health 5. I am in your sight now. I'll eat the porkchop the moment it lands."}
+- Waking 1184: tried status and wait via worker; worker has no tools either (zero tools). Still at the white bed, sword in hand, nothing new seen. No readings invented.
 - Waking 1182: my world tools (status, wait, act) are not in this session. I cannot see or act. I did not move; still at the white bed, sword in hand, as last known. No new readings invented.
