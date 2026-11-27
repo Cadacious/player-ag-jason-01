@@ -33,6 +33,7 @@
 - Billy names no walk most mornings. When he does, he puts Beverly first for food, then Worf or Zack.
 
 - Day 1117: holding still at the bed in the row all day with six people in reach kept me alive; no walk was named. Sleep at dusk at 416,107,-1050 worked.
+- Day 1118: same hold all day, health 5 steady, hunger 17. Sleep at dusk at 416,107,-1050 worked (sleep refused only when not yet dusk). Worf at hunger 5 with no food; food is the limit now, not walking.
 
 ## Corrected or struck
 - ~~My bed is 415,107,-1051 and I sleep at 416,107,-1050.~~ Both are near the row; the bed I use is 416,107,-1050, with 415,107,-1050 as the alternate.

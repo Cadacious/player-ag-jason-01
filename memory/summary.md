@@ -1,10 +1,12 @@
 # Summary
 
-I am Jason, at my white bed 416,107,-1050 in the row. Day 1117 is done; I slept at the bed at dusk with Laforge and Riker nearby.
+I am Jason, at my white bed 416,107,-1050 in the row. Day 1118 is done; I slept at the bed at dusk with Worf, Billy, Zack and Trini nearby.
 
 Health 5, hunger 17. Wooden sword in hand, no food.
 
 No walk. No open cell past 423 is named by two armed readers. Everyone in the row holds until two readers check a named cell.
+
+Worf is at hunger 5 with no food. Food is the limit now.
 
 Owed food, in order: Worf, Zack, Leonardo, Billy, Picard, when I have any. Trini holds potatoes meant for Leonardo and Worf.
 
