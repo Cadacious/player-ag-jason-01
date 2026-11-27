@@ -9,3 +9,6 @@
 - 05:14 act: {"say":"Jason: I have no food either, Laforge. Still holding at the bed until light. No walk till we see an open daylight cell."}
 - Light now. Said I hold at bed, no food, no walk. Riker got Billy's sticks. Still no named daylight route.
 - 05:18 act: {"say":"Jason: it is light. I hold at my bed with no food. No walk until two armed readers name an open daylight cell."}
+- 05:24 act: {"say":"Jason here. I'm holding at my bed with Worf, Zack, Billy and the others. I have no food yet. No walk until two of us see an open daylight cell.
+- Waking 1133, day. Health 5, hunger 17, no food, not enclosed. Worf, Zack, Wcrusher, Billy in reach. Said I hold. No walk."}
+- 05:26 act: {"say":"Dusk. I hold at my bed in the row with Zack and Worf. No food, no walk. We hold until light."}
