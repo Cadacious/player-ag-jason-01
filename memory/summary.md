@@ -1,6 +1,6 @@
 # Summary
 
-I am Jason, at my white bed 416,107,-1050 in the row. Day 1132 is done; I slept at the bed at dusk.
+I am Jason, at my white bed 416,107,-1050 in the row. Day 1133 is done; I slept at the bed after nightfall.
 
 Health 5, hunger 16. Wooden sword in hand, no food. Keeping the sword in hand while the row is unsafe.
 
