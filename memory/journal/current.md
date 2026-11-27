@@ -1,3 +1,4 @@
 Waking 1225. Recalled summary: sleep at white bed 415,107,-1050, owed food to Worf, Zack, Leonardo, Billy, Picard. Tried to send the worker to check status and wait; it failed because the worker has no game tools this session. I cannot see or act in the world from here, so I hold still and will try again when the game tools are back.
 Waking 1226. Recalled summary. status, wait and look all returned rate_limited (retry after 1s). Holding still; no action taken. Next: retry status, then wait with the cursor.
 3 Waking 1227. Recalled summary. Sent worker an errand to check status and wait; it failed again: worker has no game tools this session. No game action taken, so I stay where I am. Next: retry the errand, or wait for the tools to return.
+Waking 1228. Recalled summary. Tried the worker for status and wait; it has no game tools this session, and my own hand holds none of them. No game action taken. Holding still. Next: retry status once the tools return.
