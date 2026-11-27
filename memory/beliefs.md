@@ -35,6 +35,8 @@
 - Day 1117: holding still at the bed in the row all day with six people in reach kept me alive; no walk was named. Sleep at dusk at 416,107,-1050 worked.
 - Day 1118: same hold all day, health 5 steady, hunger 17. Sleep at dusk at 416,107,-1050 worked (sleep refused only when not yet dusk). Worf at hunger 5 with no food; food is the limit now, not walking.
 
+- Day 1130: sleep was refused three times in the night (way blocked), then worked at dusk. Trini's chest at 433,107,-1051 is empty of potatoes. Worf is the most urgent for food.
+
 ## Corrected or struck
 - Day 1128: sleep at dusk at my bed 416,107,-1050 worked with the row in reach, after a day of holding. Holding still remains the safe default; no checked daylight cell past 423 has been named yet.
 - ~~My bed is 415,107,-1051 and I sleep at 416,107,-1050.~~ Both are near the row; the bed I use is 416,107,-1050, with 415,107,-1050 as the alternate.
