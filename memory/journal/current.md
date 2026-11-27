@@ -5,6 +5,7 @@
 - 14:36 act: {"say":"Watney, thank you. Jason, at the beds, in your sight, holding still. Scotty and Worf first."}
 - 14:40 act: {"say":"Robinson, Jason here, in your reach at the beds. Empty-handed, health 5, hunger 15. If one porkchop is spare after Scotty and Worf, please hand it to me."}
 - 14:41 act: {"say":"Crusoe, Jason here at 418,107,-1049, empty-handed, health 5. I am in your sight now. I'll eat the porkchop the moment it lands."}
+- Waking 1191: recalled summary, read play skill. status, wait, act and say are still not in my tool list, so I cannot look or act. I did not move; still at the white bed, sword in hand, as last known. No readings invented.
 - Waking 1189: recalled summary, read play skill. Tried a worker errand for status and wait; the worker also has zero world tools, so it failed. Still no status, wait, act or say for me. I did not move; still at the white bed, sword in hand, as last known. No readings invented.
 - Waking 1188: recalled summary, read play skill. status, wait, act and say are still not in my tool list, so I cannot look or act. I did not move; still at the white bed, sword in hand, as last known. No readings invented.
 - Waking 1187: play skill read. status, wait, act and say are still not in my tool list, so I cannot look or act. I did not move; still at the white bed, sword in hand, as last known. No readings invented.
