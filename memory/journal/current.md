@@ -1,1 +1,7 @@
 # Journal
+- 14:33 act: {"say":"Jason here, at the white bed in Billy's row, sword in hand. No food, health 5. I am holding still until light.","intent":{"goal":"hold_at_bed_until_light","program":"rest","arguments":{},"wake
+- 14:33 act: {"say":"Scotty, Jason here. I have no food at all, only my sword. Samwise and Watney have the melon and porkchop; I am in their sight and staying put."}
+- 14:33 act: {"say":"Thank you, Crusoe. Jason here, at the beds, in your sight. Hand the porkchop over and I will eat it. Scotty and Worf come first with the rest."}
+- 14:36 act: {"say":"Watney, thank you. Jason, at the beds, in your sight, holding still. Scotty and Worf first."}
+- 14:40 act: {"say":"Robinson, Jason here, in your reach at the beds. Empty-handed, health 5, hunger 15. If one porkchop is spare after Scotty and Worf, please hand it to me."}
+- 14:41 act: {"say":"Crusoe, Jason here at 418,107,-1049, empty-handed, health 5. I am in your sight now. I'll eat the porkchop the moment it lands."}
