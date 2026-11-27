@@ -6,3 +6,8 @@
 - 06:09 say: {"text":"Heard you, Billy. I hold too. At light, name the checked cells first and we walk only on those."}
 - 06:10 say: {"text":"Riker, Laforge: holding at the bed in the row. I have no food and no checked cell yet. No walk until one is named by two readers."}
 - 06:19 say: {"text":"Billy, I have seen no open ground past the planks either. I'll look from here and tell you only what I can see, with no walk."}
+- 06:24 act: note and say: holding at my bed with the row, no walk tonight. Worf, Billy, name 
+- Day 1130 light. Riker offered to help find food. Said I walk only on a two-reader checked cell. View: planks walls all round, enclosed but for a gap on the left. Holding.
+- Billy also sees only planks and doors, no route named. Holding.
+- 06:24 say: Thank you, Riker. It is light now. I have no food and I have seen no open cell past the planks yet. I will walk only on a cell two readers have checked. Worf, Billy, Riker: name o
+- 06:28 act: {"actions":[{"do":"note","text":"Day 1130 day. Worf hunger 4, urgent. I have no food to give. No checked cell named by anyone. Holding."}],"say":"Worf, I have no food to give, and I am sorry. I hold t
