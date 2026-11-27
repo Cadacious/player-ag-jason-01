@@ -39,3 +39,4 @@ Waking 1264. Recalled summary and play skill. Sent the worker a status-and-wait 
 - 16:34 act: {"actions":[],"say":"Jason, night, sword in hand, holding here in the group's sight. My melon is owed to Worf first. Rocky, I'm sorry, not yet.","intent":{"goal":"hold_until_light","program":"rest","a
 - 16:37 act: {"actions":[{"do":"attack","target":"phantom"}]}
 - 16:38 act: {"actions":[{"do":"goto","target":"ag_macdonald_01"}],"say":"Jason, phantoms are hitting me, health 9. Moving to Macdonald by the tables with the sword."}
+Waking 1266. Recalled summary and play skill. My hand still has no wait, look, act or status, and the worker has zero game tools (errand refused at start). No game action taken. Holding still at the last known place, sword in hand per last note. Next: call wait with the cursor once the game tools return.
