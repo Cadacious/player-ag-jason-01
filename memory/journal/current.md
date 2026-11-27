@@ -18,4 +18,5 @@
 - 14:47 act: {"say":"Jason here at the white bed, sword in hand, no food. Holding until a checked route is named. Tommy, I'm keeping my sword for now as promised to Billy.","intent":{"goal":"hold_at_bed","program"
 - Waking 1196: recalled summary, read play skill. status, wait, act and say are not in my tool list again, so I cannot look or act. I did not move; still at the white bed 415,107,-1050, sword in hand, as last known. No readings invented.
 - 14:56 act: {"actions":[{"do":"note","text":"Night 1155. Holding at my bed row, sword in hand, no walk in the dark. Going to sleep here in sight of the group.
+- Waking 1199: recalled summary, read play skill. status, wait, act and say are still not in my tool list, so I cannot look or act. I did not move; still at the white bed 415,107,-1050, sword in hand, as last known. No readings invented.
 - Waking 1198: recalled summary, read play skill. status, wait, act and say are still not in my tool list, so I cannot look or act. I did not move; still at the white bed 415,107,-1050, sword in hand, as last known. No readings invented."}],"say":"Jason here, night, at the beds in Billy's r
