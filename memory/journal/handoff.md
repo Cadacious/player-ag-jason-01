@@ -1,5 +1,4 @@
-Handoff, day 1165, night, at -950,78,-3013 among the armed group at the tables.
-Health 20, hunger 20, no food. Holding the wooden_sword in hand; 1 jungle_log in pack.
-Phantoms close but not yet hurting me much; attacks have been out of reach.
-Owed food, in order: Worf, Zack, Leonardo, Billy, Picard. Orville urgent, health low.
-Next: stay with armed players until light, then give food if any arrives. Bed row 415,107,-1050, go in goto-limit steps and only in daylight.
+Handoff, day 1173, dusk, at the tables near -947,77,-3010 (chest row side), in the armed group's sight.
+Health 20, hunger 20, no food. Holding nothing in hand. Pack: 2 sticks, 1 oak plank, 1 wooden_sword (crafted at the table today).
+Owed: Doc one stick (I said so aloud; Doc was at the chest row, not yet in reach). Worf, Zack, Leonardo, Picard food still owed, none found.
+Next: stay with the group until light, give Doc a stick when he steps within a block alone and says his name. Look for food with the group. No bed tonight; do not walk off alone.
