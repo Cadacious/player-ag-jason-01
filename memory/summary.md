@@ -4,8 +4,8 @@ I am Jason, at my white bed 416,107,-1050 in the row. Day 1121 is done; I slept 
 
 Health 5, hunger 17. Wooden sword in hand, no food.
 
-No walk. No open cell past 423 has been named by two armed readers. Everyone holds until two readers check a named cell.
+No walk. No open cell past 423 has been named by two armed readers. The row holds together: Worf, Zack, Billy, Riker, Laforge, Trini, Tommy.
 
 Food is the limit. Owed food, in order: Worf, Zack, Leonardo, Billy, Picard, when I have any.
 
-Next at light: say I hold, look for food-giving, no walk.
+Next at light: say I hold, look for food-giving, no walk. Use `wait` with no hold intent; the rest program failed.
