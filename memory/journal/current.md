@@ -40,3 +40,6 @@ Waking 1264. Recalled summary and play skill. Sent the worker a status-and-wait 
 - 16:37 act: {"actions":[{"do":"attack","target":"phantom"}]}
 - 16:38 act: {"actions":[{"do":"goto","target":"ag_macdonald_01"}],"say":"Jason, phantoms are hitting me, health 9. Moving to Macdonald by the tables with the sword."}
 Waking 1266. Recalled summary and play skill. My hand still has no wait, look, act or status, and the worker has zero game tools (errand refused at start). No game action taken. Holding still at the last known place, sword in hand per last note. Next: call wait with the cursor once the game tools return.
+- 16:40 act: {"say":"Jason, dawn. Yes MacDonald, I'll walk with you to the table in sight. First I'm picking up my wooden sword two blocks west, in the group's sight.","actions":[{"do":"goto","target":{"x":-958,"y
+- 16:40 act: {"actions":[{"do":"goto","target":{"x":-958,"y":79,"z":-3003}}]}
+- 16:40 act: {"say":"Jason, morning. My sword is two blocks west at the death spot, but the way there is refused: the coordinates lie beyond the limit. I'll hold with the group by the tables and not walk blind.","
