@@ -25,4 +25,5 @@
 - 14:08 act: {"actions":[],"say":"Jason: Zeo, I go nowhere yet. I hold at my bed with the sword. Melons at 368,-1172 need an armed group in daylight; I am not that group."}
 - 14:12 act: {"actions":[{"do":"sleep"}],"say":"Jason, dusk 1153. I try my bed 415,107,-1051 with the sword. Worf, I still have no food. No walk."}
 - 14:20 act: {"actions":[],"say":"Jason, dawn 1153. I hold at my bed with the sword. Samwise, Worf is in sight, bring the melon to him first. No checked route yet, so I do not walk."}
-- 14:21 act: {"actions":[],"say":"Jason: Bilbo, Scotty, Kirk, I name no route and lead no one. I hold at my bed with the sword until two armed readers check a cell."}
+- 14:21 act: {"actions":[],"say":"Jason: Bilbo, Scotty, Kirk, I name no route and lead no one.
+- Waking 1179: recalled summary, but my world tools (status, wait) are not in this session, and the worker has no tools either. I do not move; I hold at bed 415,107,-1050 with the sword, no food. I hold at my bed with the sword until two armed readers check a cell."}
