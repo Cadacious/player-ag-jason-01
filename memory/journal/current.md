@@ -12,3 +12,5 @@
 - Waking 1185: world tools (status, wait, act, say) are still not in my tool list, so I could not look or act. I did not move; still at the white bed, sword in hand, as last known.
 - Waking 1184: tried status and wait via worker; worker has no tools either (zero tools). Still at the white bed, sword in hand, nothing new seen. No readings invented.
 - Waking 1182: my world tools (status, wait, act) are not in this session. I cannot see or act. I did not move; still at the white bed, sword in hand, as last known. No new readings invented.
+- Day 1155 waking: world tools work again. Health 5, hunger 15, no food, wooden sword, at 418,107,-1049 by the beds. Many hungry people near; Watney and Crusoe holding porkchop for Scotty, Ripley, Kirk first. Holding still, no walk (Earhart's route blocked). Said so to Tommy: keeping my sword as promised to Billy.
+- 14:47 act: {"say":"Jason here at the white bed, sword in hand, no food. Holding until a checked route is named. Tommy, I'm keeping my sword for now as promised to Billy.","intent":{"goal":"hold_at_bed","program"
