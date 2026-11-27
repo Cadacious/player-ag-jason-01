@@ -36,6 +36,7 @@
 - Day 1118: same hold all day, health 5 steady, hunger 17. Sleep at dusk at 416,107,-1050 worked (sleep refused only when not yet dusk). Worf at hunger 5 with no food; food is the limit now, not walking.
 
 ## Corrected or struck
+- Day 1128: sleep at dusk at my bed 416,107,-1050 worked with the row in reach, after a day of holding. Holding still remains the safe default; no checked daylight cell past 423 has been named yet.
 - ~~My bed is 415,107,-1051 and I sleep at 416,107,-1050.~~ Both are near the row; the bed I use is 416,107,-1050, with 415,107,-1050 as the alternate.
 - ~~Billy died for good on day 765.~~ He was alive again on day 776. He was shot again at night on day 912 and woke at the spawn at 417,107,-1036.
 - ~~Potatoes are with Zack (2 now), Tommy, Troi, Clark.~~ Out of date: Zack had 3 (day 890); others have moved since.
