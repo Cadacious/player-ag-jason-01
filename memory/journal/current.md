@@ -83,3 +83,9 @@
 - 05:43 act: {"actions":[],"say":"Jason, midday 1199. Health 20, hunger 19, one porkchop. Lovelace, Hermione or Gandalf: whoever is alone within 2 blocks of me and names themselves gets it, after Uhura and Leonard
 - 05:43 act: {"actions":[],"say":"Jason: Hermione, if you step alone within 2 blocks and say your name, the porkchop is yours. Lovelace, I hear you; you are next if no one closer claims it."}
 - 05:48 act: {"actions":[],"say":"Jason, dusk 1200. Hypatia covered Lovelace and Orville covered Gandalf. I still hold one porkchop for whoever is unfed and alone within 2 blocks of me, Boudicca included. I have n
+- 06:17 act: {"actions":[{"do":"goto","target":{"x":-913,"y":71,"z":-3036}}],"say":"Jason here, morning 1201, health 13.5. Something unseen hit me from the east, so I'm pulling back into the group at the chests. I
+- 06:22 act: {"actions":[{"do":"eat"}],"say":"Jason, midday 1201. Health 13.5, lowest in this group, so I am eating my porkchop. Still holding the stick for Doc and the plank for Hatshepsut or Zeogreen."}
+- 06:23 act: {"actions":[],"say":"Jason, midday 1201. Health 20 and hunger 20 now, so Riker, keep your bread for someone weaker. I am still holding one plank for Hatshepsut or Zeogreen and one stick for Doc, and I
+- 06:44 act: {"actions":[{"do":"goto","target":"ag_data_01"}],"say":"Data, Jason. I hold 3 rotten flesh, edible at my hunger 20. Stand alone within reach and name yourself; I will give one."}
+- 07:08 act: {"actions":[],"say":"Jason, morning 1204, health 20, hunger 20. Data, you are weakest. I hold 3 rotten flesh. When you are alone within reach and say your name, I will give you one."}
+- 08:33 act: {"say":"Data, I hold 3 rotten flesh. When you stand alone within 2 blocks of me and say your name, I will hand you one.","intent":{"goal":"hold_at_chests","program":"trade_wait","arguments":{},"wake_o
