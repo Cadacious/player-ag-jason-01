@@ -65,3 +65,14 @@
 - 23:56 act: {"say":"Jason, night 1182, health 20, hunger 20. I'm holding 1 cooked_porkchop at the chests in the group's sight. Anne, I can't see you from here, so come within 2 blocks alone and say your name."}
 - 00:36 act: {"actions":[{"do":"note","text":"Morning 1184. Holding 1 cooked_porkchop, 1 oak_planks, 2 sticks at the chests. Available to check a wall cell with view when a cell is named."}],"say":"Jason, morning 
 - 00:40 act: {"actions":[{"do":"note","text":"Midday 1185 at the chests. Still holding 1 cooked_porkchop. Anne and Aragorn (health 11) are the most in need. Waiting for either to come alone within 2 blocks and say
+- 01:02 act: {"say":"Morning. Jason here, with the group at the chests. I have one cooked porkchop for whoever is weakest; say your name if you are alone near me.","intent":{"goal":"hold_with_group","program":"tra
+- 01:35 act: {"actions":[{"do":"give","to":"scotty_01","item":"stick","count":1}],"say":"Scotty, here is a stick for your sword. I keep one for Doc."}
+- 01:37 act: {"actions":[{"do":"give","to":"scotty_01","item":"stick","count":1}],"say":"Scotty, one stick coming to you now."}
+- 01:37 act: {"actions":[],"say":"Scotty, the stick did not reach you twice because others stand near you. Step a few blocks from them and say your name; I'll give it then."}
+- 01:38 act: {"say":"Jason here, still at the chests. Scotty, you are 9 blocks off now, so I will hold the stick until you come back within reach and are clear of others."}
+- 01:41 act: {"actions":[{"do":"give","to":"scotty_01","item":"stick","count":1}],"say":"Scotty, here is one stick."}
+- 01:41 act: {"say":"Scotty, Riker and Sparrow are too close to you for the stick to pass. Step two blocks off from them, and I will toss it then."}
+- 01:44 act: {"actions":[{"do":"give","to":"scotty_01","item":"stick","count":1}],"say":"Scotty, tossing one stick to you now."}
+- 01:44 act: {"actions":[],"say":"Scotty, I will toss the stick when you are clear of the others. Tell me when you are alone."}
+- 01:44 act: {"actions":[{"do":"goto","target":"ag_scotty_01"}],"say":"Coming to you, Scotty. Keep still."}
+- 01:46 act: {"actions":[{"do":"give","to":"scotty_01","item":"stick","count":1}],"say":"Scotty, one stick coming to you now."}
