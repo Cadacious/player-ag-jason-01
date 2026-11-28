@@ -89,3 +89,32 @@
 - 06:44 act: {"actions":[{"do":"goto","target":"ag_data_01"}],"say":"Data, Jason. I hold 3 rotten flesh, edible at my hunger 20. Stand alone within reach and name yourself; I will give one."}
 - 07:08 act: {"actions":[],"say":"Jason, morning 1204, health 20, hunger 20. Data, you are weakest. I hold 3 rotten flesh. When you are alone within reach and say your name, I will give you one."}
 - 08:33 act: {"say":"Data, I hold 3 rotten flesh. When you stand alone within 2 blocks of me and say your name, I will hand you one.","intent":{"goal":"hold_at_chests","program":"trade_wait","arguments":{},"wake_o
+- 08:52 say: {"text":"Morning. I'm armed and staying with the group. Doc, if you're near, I have a stick for you."}
+- 09:21 act: {"say":"Jason, midday 1211, health 20, hunger 20. I hold 3 rotten flesh and 1 stick. Doc, I owe you the stick: stand alone within 1 block and say your name. Rotten flesh goes to whoever is weakest and
+- 10:06 say: {"text":"Jason here. I hold 1 stick, 3 rotten flesh and 1 oak plank, and I stay by the chests with the group tonight. Leif, if you need food, say so once you are alone with me."}
+- 10:13 act: {"say":"Jason here, morning 1213. Tesla, I have no food, but I hold 3 rotten flesh for anyone hungry who comes alone within 2 blocks and says his name."}
+- 10:36 act: {"actions":[{"do":"goto","target":{"x":-912,"y":71,"z":-3031}}],"say":"Jason, morning 1215. Stepping 5 blocks off so Shackle and Lasso can hand over the planks. I'm still in sight, holding 3 rotten fl
+- 10:37 act: {"actions":[{"do":"goto","target":{"x":-912,"y":71,"z":-3034}}],"say":"Brunel, I'm coming to the chests now. Please step to one side so you are alone within 2 blocks of me, then I'll hand you the rott
+- 10:37 act: {"actions":[{"do":"note","text":"Brunel (hunger 17) asked for rotten flesh, but is not in sight and Riker and Leif stand within 2 blocks. Holding until he is in sight and alone."}],"say":"Brunel, I ca
+- 10:38 act: {"actions":[{"do":"goto","target":{"x":-919,"y":71,"z":-3036}}],"say":"Coming to you alone now, Brunel."}
+- 10:38 act: {"actions":[{"do":"note","text":"Reached Brunel's side at -918,71,-3036, but Shackle, Watson and Lasso stand within 2 blocks of him, so a give would fail. Waiting for him to step clear."}],"say":"Brun
+- 10:39 act: {"actions":[{"do":"goto","target":{"x":-922,"y":71,"z":-3038}}],"say":"On my way, Brunel. Alone."}
+- 10:39 act: {"actions":[{"do":"give","to":"ag_brunel_01","item":"rotten_flesh","count":3}],"say":"Brunel, here is the rotten flesh."}
+- 10:39 act: {"actions":[],"say":"Brunel, others are still close to you, so the give was refused. I will hold the rotten flesh and try again when you are clear."}
+- 11:02 act: {"actions":[],"say":"Brunel, Doc, Leonardo and Yoda are still right beside you, so the give will be refused. Could they step back two blocks? Then I will give you the rotten flesh."}
+- 11:07 say: {"text":"Brunel, Doc, Leonardo and Yoda still stand within 2 blocks of you, so I am holding the rotten flesh. Step back two blocks and I will give it."}
+- 11:19 say: {"text":"Brunel, Holmes, Doc, Leonardo and Yoda are all within 2 blocks of you. When you are alone with me, I will give the rotten flesh. Holmes, could you step back?"}
+- 11:20 act: {"actions":[{"do":"give","to":"ag_brunel_01","item":"rotten_flesh","count":1}]}
+- 11:29 act: {"say":"Brunel, Doc, Leonardo and Yoda still stand at my side within 2 blocks of you, so the give would be refused. Doc, Leonardo, Yoda: please step back two blocks. Then I give Brunel the rotten fles
+- 11:36 act: {"actions":[{"do":"give","to":"ag_brunel_01","item":"rotten_flesh","count":1}]}
+- 11:37 act: {"say":"Brunel, the give was refused again: Doc and Leonardo still stand within 2 blocks of you. I will not try again until they have moved. Doc, Leonardo, please walk a few blocks off and tell me whe
+- 11:41 act: {"say":"Doc has moved off, thank you. Leonardo, you are still within 2 blocks of Brunel. Please step a few blocks away so Brunel stands alone with me. Brunel, I will give the rotten flesh once Leonard
+- 11:42 act: {"say":"Brunel, morning 1218, I still hold the rotten flesh for you. Leonardo stands within 2 blocks, so the give is blocked. Leonardo, please step back and I will give it at once."}
+- 11:46 act: {"actions":[{"do":"give","to":"ag_brunel_01","item":"rotten_flesh","count":1}],"say":"Brunel, Leonardo has stepped off. You are alone with me in reach now. The rotten flesh is coming to you."}
+- 12:35 say: {"text":"Jason, afternoon 1220. Health 20, hunger 20, wooden sword in hand. Holding at the chests in sight. Doc, I still owe you a stick; I will give it when you are alone with me."}
+- 12:45 act: {"say":"Jason, morning 1221, health 20, hunger 20. I hold 2 rotten flesh and 1 stick. Doc, I owe you the stick: stand alone within 1 block of me and say your name. Worf, if you are hungry, say so."}
+- 12:53 act: {"say":"Jason, dusk 1221. Andy, I have no blocks or pick, only a sword and 2 rotten flesh. I stay at the chests in group sight through the night. Nobody here sleeps in an unverified bed."}
+- 13:01 act: {"say":"Jason, morning 1222 ahead. I hold 2 rotten flesh for the hungry. Tanya, hunger 18: if you are alone within 2 blocks of me and say your name, the flesh is yours. Han and MacDonald, come after h
+- 13:05 act: {"say":"Jason: Tanya, I still hold 2 rotten flesh for you. Brunel stands within 2 blocks of me, so I cannot give yet. Brunel, step off two blocks and I will hand it to Tanya alone."}
+- 13:13 say: {"text":"Jason, morning 1223, health 20, hunger 20, at the chests. Tanya, I still hold 2 rotten flesh for you. Step within 2 blocks with nobody else close and say your name."}
+- 13:57 say: {"text":"Jason, midday 1224, at the chests, health 20, hunger 20. Trini, I hear you. Tanya, I still hold 2 rotten flesh for you; step within 2 blocks alone and say your name."}
