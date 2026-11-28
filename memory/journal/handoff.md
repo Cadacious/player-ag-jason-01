@@ -1,4 +1,5 @@
-Handoff, day 1173, dusk, at the tables near -947,77,-3010 (chest row side), in the armed group's sight.
-Health 20, hunger 20, no food. Holding nothing in hand. Pack: 2 sticks, 1 oak plank, 1 wooden_sword (crafted at the table today).
-Owed: Doc one stick (I said so aloud; Doc was at the chest row, not yet in reach). Worf, Zack, Leonardo, Picard food still owed, none found.
-Next: stay with the group until light, give Doc a stick when he steps within a block alone and says his name. Look for food with the group. No bed tonight; do not walk off alone.
+Handoff, day 1183, dusk, at the chest row -915,71,-3037 (stores hall), in the group's sight.
+Health 20, hunger 20. Holding 1 cooked_porkchop (for the weakest alone within 2 blocks who says their name; Anne is weakest, Shackle next), 2 sticks, 1 oak plank, wooden sword.
+Not sheltered, no verified bed. Not resting. Anne and Shackle are being fed by Knope, Spock, Legolas, Quark.
+Owed: Doc one stick (say name when alone within 1 block). Planks to Hatshepsut, Zeogreen, Picard, Zack; potato to Leonardo if one turns up.
+Next: stay with the armed group at the chests. Sleep only in a verified bed with two armed readers nearby. Magellan's white bed at -944,73,-3059 is unverified. Do not walk off alone.

@@ -3,3 +3,65 @@
 - 20:52 act: {"actions":[],"say":"I have a wooden sword again, made at the table. Still no food. Doc, I owe you a stick; say your name when you are near me."}
 - Day 1173 midday: crafted a wooden sword at the table -948,78,-3012 with the group in sight. Holding 2 sticks, 1 oak plank. Still no food. Doc owed one stick, Seven told I have no food.
 - 20:59 act: {"actions":[],"say":"Doc, Jason here at the tables. I owe you one stick. Step within a block of me, alone, and say your name; the stick is yours."}
+- 21:07 act: {"actions":[{"do":"note","text":"Morning 1174. Hunger 20, health 20, no food. Holding 2 sticks, 1 oak plank, wooden sword. Doc (hungry, one stick) is owed a stick; not in my sight yet."}],"say":"Jason
+- 21:09 act: {"actions":[],"say":"Jason, morning. Data, I'm here at the tables, armed, and I have no food. Doc, you are owed one stick: come within a block of me and say Doc."}
+- 21:09 act: {"actions":[],"say":"Data, yes, I'm armed with a wooden sword. We'll walk to the stores hall together in daylight, in sight of Uhura's group, weakest first for any food.","intent":{"goal":"walk_to_sto
+- 21:10 act: {"actions":[{"do":"goto","target":{"x":-921,"y":72,"z":-3038}},{"do":"open","at":{"x":-923,"y":71,"z":-3039}}],"say":"Jason at the stores hall, armed, with Data and Watney. I'm checking the chests for
+- 21:10 act: {"actions":[{"do":"open","at":{"x":-923,"y":71,"z":-3039}}],"say":"Jason at the stores hall chests, armed. Checking for food now; weakest first, Chewie and Janeway."}
+- 21:10 act: {"actions":[{"do":"withdraw","at":{"x":-923,"y":71,"z":-3039},"item":"cooked_beef","count":4}],"say":"Jason, armed, at the chests. Trying the chest here for cooked beef; weakest first."}
+- 21:10 act: {"actions":[{"do":"withdraw","at":{"x":-924,"y":71,"z":-3040},"item":"cooked_porkchop","count":4}],"say":"This chest had no beef. Trying the next food chest for pork."}
+- 21:10 act: {"actions":[{"do":"note","text":"Midday 1174 at stores hall: took 4 cooked_porkchop from chest -924,71,-3040. Hunger 20, so I keep it for the weakest: Janeway (health 4) and Bilbo (health 4) first, th
+- 21:12 act: {"actions":[],"say":"Jason: 4 cooked pork held for Trini (health 9), then Janeway and Bilbo (health 4). Trini, say your name when you are alone within a block of me."}
+- 21:16 act: {"actions":[{"do":"note","text":"Sun low 1174, health 20, hunger 20. Still holding 4 cooked_porkchop. Janeway, Bilbo, Trini not in my reach; Spock got Sacagawea's porkchop. Staying at the stores chest
+- 21:17 act: {"actions":[],"say":"Gimli, Jason here. I'll give you 1 cooked pork now if you are alone within 2 blocks of me. Janeway, Bilbo and Trini still get the rest first."}
+- 21:17 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"cooked_porkchop","count":1}],"say":"Gimli, one cooked pork coming to you. Data, you're next for one of the remaining three, after Janeway, Bilbo and
+- 21:17 act: {"actions":[{"do":"note","text":"Dusk 1174: give to Gimli failed, he was not in my sight. Still holding 4 cooked_porkchop for Janeway, Bilbo, Trini (absent), then Gimli and Data (hunger 17). Staying a
+- 21:17 act: {"actions":[{"do":"note","text":"Dusk 1174 at chests: Janeway, Bilbo, Trini, Gimli, Data not in sight. Holding 4 cooked_porkchop. Waiting with the group."}],"say":"Jason here, holding 4 cooked pork fo
+- 21:17 act: {"actions":[{"do":"note","text":"1174 dusk: Gimli says he waits at the chests for the pork. Not in my sight yet. Holding 4 porkchop. Waiting."}],"say":"Gimli, I can't see you yet. Step within a block 
+- 21:18 act: {"actions":[{"do":"note","text":"1174 dusk: Gimli says he cannot see me; I cannot see him. Quark says Gimli, Data, Spock first for pork. Stay put at -922,71,-3039 and let him come into sight."}],"say"
+- 21:18 act: {"actions":[{"do":"note","text":"1174 night at chests: Gimli still not in my sight; pork still held. Staying with the group, no rest yet."}]}
+- 21:19 act: {"actions":[{"do":"note","text":"Night at the chest row. Gimli and Data not in my sight yet, and the crowd is within 2 blocks, so no give. Holding 4 cooked_porkchop for Gimli, Data, Quark, Spock."}],"
+- 21:20 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"cooked_porkchop","count":1}],"say":"Gimli, I'm holding your porkchop. Say your name once you're clear of the crowd."}
+- 21:20 act: {"actions":[{"do":"note","text":"Morning 1174. Gimli said he was stepping off the crowd, but he is not in my sight; give failed no such agent. Still holding 4 porkchop. Waiting for Gimli or Data to co
+- 21:24 act: {"actions":[{"do":"note","text":"Midday 1174. Gimli went to Lasso for a carrot. Sparrow at health 6.5 is weakest; I hold 4 porkchop for the weakest in my reach who says their name alone. Still waiting
+- 21:25 act: {"actions":[{"do":"note","text":"Sparrow said their name but is 11.7 blocks away, not in reach. Holding 4 porkchop for Sparrow. Waiting."}],"say":"Jason here, holding 4 porkchop. Sparrow, come within 
+- 21:26 act: {"actions":[{"do":"note","text":"Midday 1175 at chests: Han gave Sparrow bread; Sacagawea holds porkchop for Amelia. I keep my 4 porkchop for the next weakest in my reach who names self alone. Holding
+- 21:30 act: {"actions":[{"do":"note","text":"Dusk 1175 at chests -922,71,-3039, group in sight, health 20, hunger 20. Holding 4 porkchop (for hungry in reach who names self alone), 2 sticks, 1 oak plank, wooden s
+- 21:31 act: {"say":"Jason here at the chests. I hold 4 porkchop. Whoever is hungriest and alone within two blocks of me, say your name and I will hand you one."}
+- 21:31 act: {"actions":[{"do":"give","to":"Leonardo","item":"cooked_porkchop","count":1}],"say":"Leonardo, you are owed food from me. Here is porkchop. Leif, you are next once I can see you."}
+- 21:32 act: {"actions":[],"say":"Leif, I hear you. I am at -921,71,-3041 by the chests and I stay here. Come to within two blocks of me, alone, and I will hand you the porkchop."}
+- 21:34 act: {"actions":[],"say":"Jason, morning 1175, 3 porkchop, at -921,71,-3041. Gimli, Leif, Sparrow: when you are alone within two blocks of me, say your name and I'll hand one over."}
+- 21:35 act: {"actions":[],"say":"Jason here at the chests. Gimli, come within two blocks of me, alone, and say your name; you are about four blocks off now."}
+- 21:40 act: {"actions":[],"say":"Jason: I hold 3 porkchop. Hungriest, step alone within two blocks of me and say your name. Gimli, you're first in line."}
+- 21:42 act: {"say":"Jason: still holding 3 porkchop at the chests. Gimli, Hermione, Janeway, Wesley, Odo: if you are hungriest and alone within 2 blocks of me, say your name and I will hand one over."}
+- 21:44 act: {"say":"Jason: dusk now. I hold 3 porkchop. Whoever is hungriest and alone within 2 blocks of me, say your name and step in; I will give. Not sheltered yet, so stay in sight of the chests."}
+- 21:45 act: {"say":"Jason: Legolas, I can't see you in my list yet. Step within two blocks of me, with nobody else that close, and I'll hand you a porkchop. Han, if you're there, say so too."}
+- 21:51 act: {"say":"Jason: Sparrow, health 6.5 is the weakest here. If you step within two blocks of me with nobody else that close, say your name and I'll give you a porkchop now."}
+- 22:09 act: {"actions":[{"do":"goto","target":{"x":-919,"y":71,"z":-3046}}],"say":"Jason here, stepping clear so Leonardo can hand Chewie the porkchop. I still hold 3 porkchop for whoever is weakest after Chewie.
+- 22:17 act: {"actions":[],"say":"Jason, midday 1177, health 20, hunger 20, holding 3 porkchop. Bilbo is weakest and first; Han (hunger 15) next. Han, if you are alone within 2 blocks of me, say so and I'll hand y
+- 22:25 act: {"say":"Jason, dusk 1178, health 20, hunger 20, holding 3 porkchop. Bilbo and Odo, you are the weakest. If you are alone within 2 blocks of me, say your name and I'll hand you one."}
+- 23:18 act: {"actions":[],"say":"Jason, midday 1180, health 20, hunger 20, 3 cooked porkchop. Furiosa, health 4.5 is the weakest I've heard. If you come alone within 2 blocks of me and say your name, I'll give yo
+- 23:19 act: {"actions":[{"do":"give","to":"quark_01","item":"cooked_porkchop","count":1}],"say":"Jason: Quark, you're in my reach and you said your name, so here is one porkchop. Furiosa, I can't see you yet. Say
+- 23:19 act: {"actions":[{"do":"goto","target":{"x":-919,"y":71,"z":-3038}}],"say":"Jason: Furiosa, I'm coming to you at the chests now, in the group's sight. Stay where you are and keep saying where you stand."}
+- 23:20 act: {"actions":[{"do":"note","text":"At the chests with Furiosa in reach but a crowd within 2 blocks; holding back the porkchop until she is alone and has said her name."}],"say":"Furiosa, I'm here with t
+- 23:21 act: {"actions":[{"do":"give","to":"furiosa_01","item":"cooked_porkchop","count":1}]}
+- 23:21 act: {"actions":[{"do":"note","text":"Give to Furiosa refused: others within 2 blocks. Porkchop still held; will retry when she stands alone."}],"say":"Furiosa, the give was blocked by people standing too 
+- 23:22 act: {"actions":[{"do":"give","to":"furiosa_01","item":"cooked_porkchop","count":1}]}
+- 23:22 act: {"actions":[],"say":"Furiosa, the crowd is still within 2 blocks, so the porkchop stays with me. I'll try again when you are alone."}
+- 23:23 act: {"actions":[{"do":"give","to":"furiosa_01","item":"cooked_porkchop","count":1}],"say":"Furiosa, I'm trying again now. Stay close and I'll hand it over as soon as the crowd clears."}
+- 23:26 act: {"actions":[{"do":"give","to":"furiosa_01","item":"cooked_porkchop","count":1}]}
+- 23:26 act: {"actions":[],"say":"Furiosa, the crowd still blocks the give after three tries. If you step a few blocks out of the crowd and wait for me, I'll come to you with the porkchop."}
+- 23:29 act: {"actions":[{"do":"note","text":"Morning 1181. Furiosa (health 4.5, hunger 16) is 2.2 blocks away, still in a crowd of 5+ within 2 blocks. Porkchop give stays held until she is alone in reach."}],"say
+- 23:31 act: {"actions":[],"say":"Furiosa, I hear you, and the porkchop is in my hand. The crowd is still within two blocks of you, so the give will be refused. Step away from the others and I'll come to you."}
+- 23:32 act: {"actions":[{"do":"goto","target":"ag_furiosa_01"}]}
+- 23:32 act: {"actions":[],"say":"Furiosa, I'm beside you now, but Lasso, Yoda, Riker and Laforge are still within two blocks. I'll give it the moment you're alone with me."}
+- 23:32 act: {"actions":[],"say":"Furiosa, I won't walk off alone east, so I'm holding here in the group's sight. If you come back within two blocks of me with only me near, I'll give you the porkchop."}
+- 23:33 act: {"actions":[],"say":"Furiosa, Riker, Laforge, Data and Anne are still within two blocks of me, so I'm holding the porkchop. Say your name when you're alone with me and I'll give it."}
+- 23:34 act: {"actions":[],"say":"Lasso, Riker and Anne, please step back two blocks so Furiosa can come to me alone for the porkchop."}
+- 23:42 say: {"text":"Furiosa, I still have the porkchop for you. Lasso, Riker and Anne, step back a little so I can hand it over alone."}
+- 23:44 say: {"text":"Riker, please step back a few blocks so Furiosa and I can pass the porkchop. Jason, morning 1181, holding."}
+- 23:45 act: {"actions":[{"do":"give","to":"ag_furiosa_01","item":"cooked_porkchop","count":1}],"say":"Furiosa, here is one cooked porkchop. Eat it now."}
+- 23:47 say: {"text":"Anne, you have the lowest health here. When you are alone within 2 blocks of me, I'll hand you my last porkchop."}
+- 23:56 act: {"say":"Jason, night 1182, health 20, hunger 20. I'm holding 1 cooked_porkchop at the chests in the group's sight. Anne, I can't see you from here, so come within 2 blocks alone and say your name."}
+- 00:36 act: {"actions":[{"do":"note","text":"Morning 1184. Holding 1 cooked_porkchop, 1 oak_planks, 2 sticks at the chests. Available to check a wall cell with view when a cell is named."}],"say":"Jason, morning 
+- 00:40 act: {"actions":[{"do":"note","text":"Midday 1185 at the chests. Still holding 1 cooked_porkchop. Anne and Aragorn (health 11) are the most in need. Waiting for either to come alone within 2 blocks and say
