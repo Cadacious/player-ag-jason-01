@@ -76,3 +76,10 @@
 - 01:44 act: {"actions":[],"say":"Scotty, I will toss the stick when you are clear of the others. Tell me when you are alone."}
 - 01:44 act: {"actions":[{"do":"goto","target":"ag_scotty_01"}],"say":"Coming to you, Scotty. Keep still."}
 - 01:46 act: {"actions":[{"do":"give","to":"scotty_01","item":"stick","count":1}],"say":"Scotty, one stick coming to you now."}
+- 05:30 act: {"say":"Jason, midday 1199, health 20, hunger 20. I hold 1 cooked porkchop for the weakest. Picard and Gandalf (health 16) are first. Step within two blocks of me, alone, and say your name."}
+- 05:39 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Jason: zombie to the east is hitting me. Fighting it with my wooden sword."}
+- 05:39 act: {"actions":[{"do":"goto","target":{"x":-911,"y":71,"z":-3034}}],"say":"Jason: I'm walking back to the group at the chests now."}
+- 05:39 act: {"actions":[],"say":"Jason: back at the chests, health 20, hunger 19. I hold one cooked porkchop. Whoever is weakest and alone within 2 blocks, say your name and I'll give it."}
+- 05:43 act: {"actions":[],"say":"Jason, midday 1199. Health 20, hunger 19, one porkchop. Lovelace, Hermione or Gandalf: whoever is alone within 2 blocks of me and names themselves gets it, after Uhura and Leonard
+- 05:43 act: {"actions":[],"say":"Jason: Hermione, if you step alone within 2 blocks and say your name, the porkchop is yours. Lovelace, I hear you; you are next if no one closer claims it."}
+- 05:48 act: {"actions":[],"say":"Jason, dusk 1200. Hypatia covered Lovelace and Orville covered Gandalf. I still hold one porkchop for whoever is unfed and alone within 2 blocks of me, Boudicca included. I have n
