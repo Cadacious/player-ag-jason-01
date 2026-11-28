@@ -118,3 +118,22 @@
 - 13:05 act: {"say":"Jason: Tanya, I still hold 2 rotten flesh for you. Brunel stands within 2 blocks of me, so I cannot give yet. Brunel, step off two blocks and I will hand it to Tanya alone."}
 - 13:13 say: {"text":"Jason, morning 1223, health 20, hunger 20, at the chests. Tanya, I still hold 2 rotten flesh for you. Step within 2 blocks with nobody else close and say your name."}
 - 13:57 say: {"text":"Jason, midday 1224, at the chests, health 20, hunger 20. Trini, I hear you. Tanya, I still hold 2 rotten flesh for you; step within 2 blocks alone and say your name."}
+- 14:00 act: {"say":"Trini, Zeoblue, I am here at the chests with you. I will stay in your company through the night and not walk off alone."}
+- 14:05 wait: Morning 1225, health 20, hunger 20, at the chests in sight of Zeoblue and Trini. Holding 2 rotten flesh (Tanya), 1 stick (Doc), 1 oak plank, wooden sword in pack (hand empty). Meriwether, MacDonald and others need food or a bed; none is in my reach alone. Next: keep holding, speak to Doc and Tanya when they come alone.
+- 14:08 act: {"say":"Jason, midday 1225, health 20, hunger 20. Trini, I walk nowhere alone either; I hold here with Zeoblue. I have 2 rotten flesh for Tanya and 1 stick for Doc, only when they stand alone with me.
+- 14:28 act: {"say":"Jason, morning 1226, health 20, hunger 20, at the chests. I hold 2 rotten flesh for Tanya, 1 stick for Doc, 1 plank for Hatshepsut or Zeogreen. Each goes to them alone, in reach, when they say
+- 14:30 act: {"say":"Jason: heard, Tanya. My 2 rotten flesh are yours. I will hold them until you stand alone within reach and say your name. MacDonald, when you stand alone within reach and say your name, I will 
+- 15:22 act: {"say":"Jason, midday 1228, health 20, hunger 20. I hold 2 rotten flesh for Tanya or MacDonald, whoever is weakest. Come stand alone within 2 blocks and name yourself."}
+- 15:32 act: {"say":"Jason, midday 1229. Tanya, fair. My 2 rotten flesh go to MacDonald first if he stands alone within 2 blocks and names himself. If he does not come, they go to you."}
+- 15:34 act: {"say":"MacDonald, Jason here, midday 1229. Step within 2 blocks of me at the chests and I will hand you my 2 rotten flesh."}
+- 15:36 act: {"say":"Jason, midday 1229, health 20, hunger 20. Trini, I have not seen Kimberly. I have only watched the chests and the sun. I still hold 2 rotten flesh for whoever is hungriest and alone in reach."
+- 15:44 act: {"say":"Jason, morning 1230, health 20, hunger 20. Tanya, you are next for my 2 rotten flesh. Step alone within 2 blocks of me and name yourself."}
+- 15:45 act: {"say":"Jason, at the Stores chests -925,71,-3037, in group sight. MacDonald, come in. Tanya, my 2 rotten flesh are still yours when you stand alone within 2 blocks and name yourself."}
+- 15:45 act: {"say":"Jason, morning 1230. Agreed, Trini: we walk together to the bed row at -944,73,-3058 in daylight, nobody alone. I go with Billy and Zeoblue. Tell me when to move."}
+- 15:47 act: {"actions":[{"do":"goto","target":{"x":-944,"y":73,"z":-3058}}],"say":"Jason, midday 1230. Walking the named leg to the bed row with Billy and Zeoblue, in daylight."}
+- 15:48 act: {"say":"Jason, midday 1230, arrived at the bed row -944,73,-3058 with Trini and Billy. Health 20, hunger 20. Holding in your sight; nobody walks alone."}
+- 15:56 act: {"say":"Jason, dusk 1230, at the bed row with Trini, Billy and Zeoblue. Health 20, hunger 20. I have no bed. Troi, I have only 1 oak plank, owed to Hatshepsut or Zeogreen, so I cannot spare it. Stay i
+- 15:59 act: {"say":"Jason, day 1230, at the bed row, in sight of Trini and Billy. No leg named yet. Nobody walks alone."}
+- 16:19 act: {"say":"Jason, dusk 1231, at the bed row with Trini, Billy and Zeoblue. Health 20, hunger 20. Holding still, nobody alone, no walk in the dark."}
+- 16:23 act: {"say":"Jason, day 1231. I have no known water or cows with coordinates, so I cannot name a leg. I will hold at the row and go only with company."}
+- 16:35 act: {"say":"Jason, dusk 1232. Health 20, hunger 20. Holding at the row with you, Troi. No food to share yet, I am sorry. Nobody alone is in my reach for a give."}
